@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] 		= 'aqueous';
+$themeversion['name'] 		= 'Aqueous';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('aqueous', $domain);
 $themeversion['regid'] 		= '0';
@@ -16,4 +16,3 @@ $themeversion['help'] 		= '';
 $themeversion['changelog'] 	= '';
 $themeversion['license'] 	= 'http://creativecommons.org/licenses/by/2.5/';
 $themeversion['xhtml'] 		= true;
-?>
