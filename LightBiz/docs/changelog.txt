@@ -1,0 +1,12 @@
+TakeIT2 - Sat May 8 2010
+
+-made the page top edge div a block location for a menutree horizontal menu block is called "topnav"
+-made smaller left header div a block location called "logo"
+-created a block location in the header for quotes called "citation"
+
+-created includes folder, for common head/header/footer template page segments.
+
+-added 3 block templates, 
+--1 block supporting colapsible blocks, 
+--1 headless block suitable for images or the logo block
+--1 headless block with a higher z-index suitable for menutree pulldown menus

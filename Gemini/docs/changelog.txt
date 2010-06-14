@@ -1,0 +1,19 @@
+
+
+
+TakeIT2 - Thu May 6 2010
+moved & changed Style Switcher
+	<div id="mnav">
+			<h4>Style Switcher</h4>
+			<ul>
+			<li><a href="#" onclick="setActiveStyleSheet('black'); return false;">Black</a></li>
+			<li><a href="#" onclick="setActiveStyleSheet('blue'); return false;">Blue</a></li>
+			<li><a href="#" onclick="setActiveStyleSheet('green'); return false;">Green</a></li>
+			<li><a href="#" onclick="setActiveStyleSheet('pink'); return false;">Pink</a></li>
+			<li><a href="#" onclick="setActiveStyleSheet('purple'); return false;">Purple</a></li>
+			<li><a href="#" onclick="setActiveStyleSheet('red'); return false;">Red</a></li>
+			<li><a href="#" onclick="setActiveStyleSheet('tan'); return false;">Tan</a></li>
+			<li><a href="#" onclick="setActiveStyleSheet('yellow'); return false;">Yellow</a></li>
+			<li><a href="#" onclick="setActiveStyleSheet('daisyrae'); return false;">Daisy Rae</a></li>
+			</ul>
+	</div>

@@ -1,0 +1,823 @@
+
+/********************************************
+   AUTHOR:  			Erwin Aligam 
+   WEBSITE:   			http://www.styleshout.com/
+   TEMPLATE NAME: 	Techmania 1.0
+	TEMPLATE CODE: 	S-0003
+    VERSION:         1.1          	
+ *******************************************/
+ 
+/********************************************
+   HTML ELEMENTS
+********************************************/ 
+
+/* Top elements */
+
+
+
+
+* {
+    margin:0;
+    padding: 0;
+  }
+
+
+body {
+
+    /*#3A3A3A */ color : #555;
+    background-color : #042001;
+    background-image : url('../images/circuit-t2.png');
+    background-repeat : repeat;
+    font-family : Verdana,'Trebuchet MS',arial,sans-serif;
+    font-size : 70%;
+    line-height : 1.5;
+    margin-bottom : 15px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 15px;
+    text-align : center;
+  }
+
+/* links */
+
+
+
+
+a {
+    color: #6BA166;
+    background: inherit;
+    text-decoration: none;
+  }
+
+
+a:hover {
+    color: #82C47C;
+    background: inherit;
+  }
+
+/* headers */
+
+
+
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+  }
+
+
+h1, #sidebar h4 {
+    font-size : 1.5em;
+  }
+
+
+h2 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #339900;
+  }
+
+
+h3 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 1px;
+  }
+
+
+h1, h2, h3, p {
+    padding: 0;
+    margin: 10px 15px;
+  }
+
+
+ul, ol {
+    color : #72A545;
+    margin-bottom : 10px;
+    margin-left : 30px;
+    margin-right : 30px;
+    margin-top : 10px;
+    padding-bottom : 0;
+    padding-left : 15px;
+    padding-right : 15px;
+    padding-top : 0;
+  }
+
+
+ul span, ol span {
+    color : #666666;
+  }
+
+/* images */
+
+
+
+
+img {
+    border-color : #CCC;
+    border-style : solid;
+    border-width : 0px;
+  }
+
+
+img.float-right {
+    margin: 5px 0px 10px 10px;
+  }
+
+
+img.float-left {
+    margin: 5px 10px 10px 0px;
+  }
+
+
+code {
+    margin: 5px 0;
+    padding: 10px;
+    text-align: left;
+    display: block;
+    overflow: auto;
+    font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace;
+    /* white-space: pre;
+    */ background: #FAFAFA;
+    border: 1px solid #EAEAEA;
+    border-left: 5px solid #72A545;
+  }
+
+
+acronym {
+    cursor: help;
+    border-bottom: 1px solid #777;
+  }
+
+
+blockquote {
+    margin: 15px;
+    padding: 0 0 0 32px;
+    background: #FAFAFA url(../images/quote.gif) no-repeat 5px 10px !important;
+    background-position: 8px 10px;
+    border: 1px solid #EAEAEA;
+    border-left: 5px solid #72A545;
+    font-weight: bold;
+  }
+
+/* form elements */
+
+
+
+
+form {
+    margin:10px 15px;
+    padding: 0;
+    border: 1px solid #EAEAEA;
+    background-color: #FAFAFA;
+  }
+
+
+label {
+    display:block;
+    font-weight:bold;
+    margin:5px 0;
+  }
+
+
+input {
+    padding:3px;
+    border:1px solid #eee;
+    font: normal 1em Verdana, sans-serif;
+    color:#777;
+  }
+
+
+textarea {
+    width:400px;
+    padding:4px;
+    font: normal 1em Verdana, sans-serif;
+    border:1px solid #eee;
+    height:100px;
+    display:block;
+    color:#777;
+  }
+
+
+input.button {
+    margin: 0;
+    font: bolder 12px Arial, Sans-serif;
+    border: 1px solid #EAEAEA;
+    padding: 2px 3px;
+    background: #CCC url(../images/buttonbg.gif) repeat-x left bottom;
+    color: #333;
+    /* color: #339900;
+    */;
+  }
+
+/* search */
+
+
+
+
+#sidebar #searchform {
+    background: #f2f2f2;
+    margin: 0 15px;
+    padding: 5px 0;
+  }
+
+
+#sidebar #searchform img {
+    vertical-align: bottom;
+  }
+
+
+#sidebar #searchform .textbox {
+    background: #FFF url(../images/input.png) no-repeat top left;
+    border: 1px solid #EAEAEA;
+    font-size: 11px;
+    padding: 3px;
+    width: 110px;
+  }
+
+
+#sidebar #searchform input.searchbutton {
+    margin: 0;
+    font: bold 100% Arial, Sans-serif;
+    border: 1px solid #CCC;
+    background: #CCC url(../images/buttonbg.gif) repeat-x left bottom;
+    padding: 1px;
+    height: 25px;
+    color: #333;
+    width: 55px;
+  }
+
+/*****************************
+      LAYOUT 
+******************************/
+
+
+
+
+#wrap {
+    border-left-color : #000000;
+    border-left-style : solid;
+    border-left-width : 5px;
+    border-right-color : #000000;
+    border-right-style : solid;
+    border-right-width : 5px;
+    background-color : #FFF;
+    margin-bottom : 0;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    text-align : center;
+    width : 790px;
+  }
+
+
+#content-wrap {
+    clear : both; 
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 5px;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    text-align : left;
+    width : 780px;
+  }
+
+/* header */
+
+
+
+
+#header {
+    background-color : #000;
+    background-image : url(../images/headerbg.jpg);
+    background-position : left bottom;
+    background-repeat : no-repeat;
+    clear : left;
+    height : 135px;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    position : relative;
+    width : 790px;
+  }
+
+
+#header h1#logo-text {
+    /* change the values of top and right to adjust the position of the logo*/top : 36px;
+    color : #FFF;
+    font-family : 'Trebuchet MS',Arial,Sans-serif;
+    font-size : 4.1em;
+    font-weight : bolder;
+    letter-spacing : -2px;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    position : absolute;
+    right : 35px;
+    text-transform : none;
+  }
+
+
+#header h2#slogan {
+    /* change the values of top and right to adjust the position of the slogan*/top : 90px;
+    color : #FFF;
+    font-family : 'Trebuchet MS',Arial,Sans-serif;
+    font-size : 1em;
+    font-weight : bold;
+    letter-spacing : 1px;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    position : absolute;
+    right : 45px;
+    text-transform : none;
+  }
+
+/* menu tabs */
+
+
+
+
+#header #header-tabs {
+    background-color : #000;
+    font-family : Verdana,Tahoma,'Trebuchet MS',Sans-serif;
+    font-size : 1.1em;
+    font-weight : bold;
+    height : 25px;
+    left : 0;
+    position : absolute;
+    top : 0;
+    width : 100%;
+  }
+
+
+#header-tabs ul {
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0px;
+    padding-left : 7px;
+    padding-right : 0px;
+    padding-top : 2px;
+  }
+
+
+#header-tabs li {
+    display : inline;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+  }
+
+
+#header-tabs a {
+    background-image : url(../images/tableft.gif);
+    background-position : left top;
+    background-repeat : no-repeat;
+    float : left;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 4px;
+    padding-right : 0;
+    padding-top : 0;
+    text-decoration : none;
+  }
+
+
+#header-tabs a span {
+    background-image : url(../images/tabright.gif);
+    background-position : right top;
+    background-repeat : no-repeat;
+    color : #6BA166;
+    display : block;
+    float : left;
+    padding-bottom : 4px;
+    padding-left : 8px;
+    padding-right : 15px;
+    padding-top : 7px;
+  }
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+
+#header-tabs a span {
+    float : none;
+  }
+
+/* End IE5-Mac hack */
+
+
+
+#header-tabs a:hover span {
+    color:#82C47C;
+  }
+
+
+#header-tabs a:hover {
+    background-position:0% -42px;
+    color : #82C47C;
+  }
+
+
+#header-tabs a:hover span {
+    background-position: 100% -42px;
+    color : #82C47C;
+  }
+
+
+#header-tabs li.current a {
+    background-position : 0% -42px;
+  }
+
+
+#header-tabs li.current a span {
+    background-position : 100% -42px;
+    color : #82C47C;
+  }
+
+/* search form */
+
+
+#header #searchform {
+    position: absolute;
+    top: 90px;
+    left: 05px;
+  }
+
+
+#header #searchform form {
+    margin:10px 15px;
+    padding: 5;
+    border: 1px solid #0D6603;
+    background-color: #0D6603;
+  }
+
+
+#header #searchform label {
+    display:block;
+    font: normal 1em Verdana, sans-serif;
+    font-weight:bolder;
+    margin:5px 0;
+  }
+
+
+#header #searchform input {
+    padding:3px;
+    border:1px solid #0D6603;
+    font: bold 1.1em Verdana, sans-serif;
+    background: #339900 url(../images/tabright.gif) repeat-x left bottom;
+    color: #6BA166;
+  }
+
+
+#header #searchform textarea {
+    width:400px;
+    padding:4px;
+    font: bold 1em Verdana, sans-serif;
+    border:1px solid #0D6603;
+    height:100px;
+    display:block;
+    color: #1CFF07;
+  }
+
+
+#header #searchform input.button {
+    margin: 0;
+    font: bolder 12px Arial, Sans-serif;
+    border: 1px solid #0D6603;
+    padding: 2px 3px;
+    background: #0D6603 url(../images/tabright.gif) repeat-x left bottom;
+    color: #6BA166;
+    /* color: #339900;
+    */;
+  }
+
+
+#header #searchform input.button:hover {
+    margin: 0;
+    font: bolder 12px Arial, Sans-serif;
+    border: 1px solid #000;
+    padding: 2px 3px;
+    background: #0D6603 url(../images/tabright.gif) repeat-x left bottom;
+    color: #82C47C;
+    /* color: #339900;
+    */;
+  }
+
+
+form.searchform {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+form.searchform input.textbox {
+    margin: 0;
+    width: 120px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    color: #333;
+    vertical-align: top;
+  }
+
+
+form.searchform input.button {
+    width: 55px;
+    vertical-align: top;
+  }
+
+/* main content */
+
+#main {
+    background-color : inherit;
+    float : left;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    width : 535px;
+    text-align:justify;
+  }
+
+
+#main h1 {
+    background-image : url(../images/square_arrow.gif);
+    background-position : 0% .7em;
+    background-repeat : no-repeat;
+    bottom-color : #f2f2f2;
+    bottom-style : solid;
+    bottom-width : 2px;
+    color : #339900;
+    padding-bottom : 3px;
+    padding-left : 25px;
+    padding-right : 0;
+    padding-top : 8px;
+    text-transform : none;
+  }
+
+
+#main .z-block h4 {
+    padding-left : 25px;
+  }
+
+
+#main .z-block {
+    margin-bottom : 0;
+    margin-left : 5px;
+    margin-right : 5px;
+    margin-top : 5px;
+    padding-bottom : 0;
+    padding-left : 5px;
+    padding-right : 5px;
+    padding-top : 0;
+    width : 515px;
+  }
+
+
+#main .z-block ul li {
+    color:#000;
+  }
+
+
+#main .z-block {
+  }
+
+/* sidebar */
+
+#sidebar {
+    background-color : inherit;
+    float : right;
+    margin-bottom : 10px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    width : 245px;
+  }
+
+
+#sidebar h4 {
+    background-image : url(../images/square_arrow.gif);
+    background-position : 0% .7em;
+    background-repeat : no-repeat;
+    color : #0D6603;
+    padding-bottom : 3px;
+    padding-left : 25px;
+    padding-right : 0px;
+    padding-top : 8px;
+    text-transform : none;
+  }
+
+
+#sidebar .z-bkey-extmenu ul {
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 10px;
+    margin-left : 15px;
+    margin-right : 15px;
+    margin-top : 10px;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+  }
+
+
+#sidebar .z-bkey-extmenu ul li {
+    border-bottom-color : #f2f2f2;
+    border-bottom-style : solid;
+    border-bottom-width : 1px;
+    border-left-color : #f2f2f2;
+    border-left-style : solid;
+    border-left-width : 1px;
+    border-right-color : #f2f2f2;
+    border-right-style : solid;
+    border-right-width : 1px;
+    border-top-color : #f2f2f2;
+    border-top-style : solid;
+    border-top-width : 1px;
+    margin-bottom : 1px;
+  }
+
+
+#sidebar .z-bkey-extmenu ul a {
+    background-color : #f2f2f2;
+    color : #333;
+    display : block;
+    font-weight : bold;
+    left-color : #CCC;
+    left-style : solid;
+    left-width : 5px;
+    min-height : 18px;
+    padding-bottom : 2px;
+    padding-left : 10px;
+    padding-right : 5px;
+    padding-top : 2px;
+    text-decoration : none;
+  }
+
+
+* html body #sidebar .z-bkey-extmenu ul a {
+    height : 18px;
+  }
+
+
+#sidebar .z-bkey-extmenu ul a:hover {
+    padding:2px 5px 2px 10px;
+    background: #f2f2f2;
+    color: #339900;
+    border-left:5px solid #72A545;
+  }
+
+
+p.extmenuadmin {
+    padding-left: 20px;
+  }
+
+
+#sidebar .z-bkey-adminnav ul {
+  }
+
+
+#sidebar .z-bkey-adminnav ul li {
+    list-style-type:square;
+  }
+
+
+#sidebar .z-bkey-adminnav ul ul {
+    margin-bottom : 0px;
+    margin-left : 5px;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+  }
+
+
+#sidebar .z-bkey-adminnav ul ul li {
+    list-style-type:circle;
+  }
+
+/* footer */
+
+#footer {
+    background-color : #000;
+    clear : both;
+    color : #6BA166;
+    font-size : 92%;
+    height : 40px;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+  }
+
+
+#footer a {
+    color : #6BA166;
+    font-weight : bold;
+    text-decoration : none;
+  }
+
+
+#footer a:hover {
+    color : #82C47C;
+    font-weight : bold;
+    text-decoration : none;
+  }
+
+/* alignment classes */
+
+.float-left {
+    float: left;
+  }
+
+
+.float-right {
+    float: right;
+  }
+
+
+.align-left {
+    text-align: left;
+  }
+
+
+.align-right {
+    text-align: right;
+  }
+
+/* additional classes */
+
+
+
+
+.clear {
+    clear:both;
+  }
+
+
+.hide {
+    display: none;
+  }
+
+
+.gray {
+    color: #CCC;
+  }
+
+
+.comments {
+    color: #333;
+    background: #FFF;
+    text-align: right;
+    border-top: 1px dashed #EFF0F1;
+    border-bottom: 1px dashed #EFF0F1;
+    padding: 5px 0;
+    margin-top: 20px;
+  }
+

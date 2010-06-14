@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.2.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 06:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:4
+msgid "Limelight"
+msgstr ""
+
+#: version.php:8
+msgid "Limelight Open Designs template"
+msgstr ""
+
+#: templates/modules/News/old/news_user_index.htm:2
+msgid "clock.gif"
+msgstr ""
+
+#: templates/modules/News/old/news_user_index.htm:4
+msgid "Read more"
+msgstr ""
+
+#: templates/modules/News/old/news_user_index.htm:4
+msgid "document.gi"
+msgstr ""
+
+#: templates/modules/News/old/news_user_index.htm:4
+msgid "Comments"
+msgstr ""
+
+#: templates/modules/News/old/news_user_index.htm:4
+msgid "comment.gif"
+msgstr ""
+
+#: templates/includes/header.htm:5 templates/includes/header.htm:13
+msgid "Home"
+msgstr ""
+
+#: templates/includes/header.htm:6
+msgid "Pages"
+msgstr ""
+
+#: templates/includes/header.htm:7
+msgid "News"
+msgstr ""
+
+#: templates/includes/header.htm:8
+msgid "Forums"
+msgstr ""
+
+#: templates/includes/header.htm:9 templates/includes/footer.htm:19
+msgid "Contact"
+msgstr ""
+
+#: templates/includes/footer.htm:19
+msgid "Home Page"
+msgstr ""
+
+#: templates/includes/footer.htm:19
+msgid "Sitemap"
+msgstr ""
+
+#: templates/includes/footer.htm:19
+msgid "RSS Feed"
+msgstr ""
+
+#: templates/includes/footer.htm:24
+msgid "Design by"
+msgstr ""
+
+#: templates/includes/footer.htm:24
+msgid "www.mitchinson.net"
+msgstr ""
+
+#: templates/includes/footer.htm:24
+msgid "Licensed"
+msgstr ""
+
+#: templates/includes/footer.htm:24
+msgid "Creative Commons Attribution 2.5 License"
+msgstr ""
+
+#: templates/includes/footer.htm:24
+msgid "Valid"
+msgstr ""
+
+#: templates/includes/footer.htm:24
+msgid "CSS"
+msgstr ""
+
+#: templates/includes/footer.htm:24
+msgid "XHTML"
+msgstr ""

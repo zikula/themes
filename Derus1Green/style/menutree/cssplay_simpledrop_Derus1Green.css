@@ -1,0 +1,186 @@
+/* $Id: cssplay_simpledrop.css 460 2009-12-13 18:28:31Z espaan $ */
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/simple_vertical.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* Adapted for Zikula menutree, Erik Spaan, http://code.zikula.org/blanktheme */
+
+#nav_cssplay ul {margin:0;  padding:0;}
+
+/* Add a margin - for this demo only - and a relative position with a high z-index to make it appear over any element below */
+#nav_cssplay {
+  position:relative;
+  width:849px!important;
+  height:17px !important;
+    vertical-align : middle;
+  z-index:110;
+    margin-bottom : 0;
+    margin-left : 1px;
+    margin-right : 0;
+    margin-top : 0;
+padding:0 !important;
+border-left:0px solid #657B7B;
+border-right:0px solid #657B7B;
+}
+
+/* hack to correct IE5.5 faulty box model */
+* html #nav_cssplay {
+  width:98%;
+  w\idth:100%;
+}
+
+/* Get rid of the margin, padding and bullets in the unordered lists */
+.cssplay_drop, .cssplay_drop ul {
+  padding:0;
+  margin:0;
+  list-style-type: none;
+}
+/* Offset the first menu item from the left */
+#nav_cssplay .cssplay_drop {
+  margin-left: 0px;
+}
+
+/* Set up the link size, color and borders */
+.cssplay_drop a, .cssplay_drop a:visited {
+  display:block;
+  width:140px!important;
+  font: normal 0.9em Verdana, Arial, Helvetica, sans-serif;
+/*  font:normal 0.9em 'Palatino Linotype', 'Book Antiqua', Palatino, 'Times New Roman', Times, serif;*/
+/*  font:normal 0.9em 'Lucida Grande', Verdana, arial, Sans-Serif;*/
+/*  font:normal 0.9em Georgia, "Times New Roman", Times, serif;*/
+  color:#fff;
+  height:15px;
+  line-height:15px;
+  text-decoration:none;
+  text-indent:5px;
+  border:1px solid #657B7B;
+  border-width:1px 0 1px 1px;
+}
+
+/* Set up the sub level borders */
+.cssplay_drop li ul li a, .cssplay_drop li ul li a:visited {
+  border-width:0 1px 1px 1px;
+  width:150px;
+}
+.cssplay_drop li a.enclose, .cssplay_drop li a.enclose:visited {
+  border-width:1px;
+}
+
+/* Set up the list items */
+.cssplay_drop li {
+  position: relative;
+  display:block;
+  background:#C0CACC;
+  margin:0;
+  float:left;
+}
+
+/* For Non-IE browsers and IE7 */
+.cssplay_drop li:hover {
+  position:relative;
+  z-index: 300;
+}
+/* Make the hovered list color persist */
+.cssplay_drop li:hover > a, .cssplay_drop li.selected > a {
+  background:#D1DFE1;
+  color:#c00;
+}
+.cssplay_drop li.selected.drop > a {
+  background:#C1CBCA url(../pnimages/cssplay_simpledrop/drop.gif) no-repeat right top;
+  color:#c00;
+}
+/* Set up the sublevel lists with a position absolute for flyouts and overrun padding. The transparent gif is for IE to work */
+.cssplay_drop li ul {
+  display:none;
+}
+/* For Non-IE and IE7 make the sublevels visible on list hover. This is all it needs */
+.cssplay_drop li:hover > ul {
+  display:block;
+  position:absolute;
+  top:-11px;
+  left:110px;
+  padding:10px 30px 30px 30px;
+  background:transparent url(../pnimages/cssplay_simpledrop/transparent.gif);
+  width:150px;
+  z-index:400;  
+}
+/* Position the first sub level beneath the top level links */
+.cssplay_drop > li:hover > ul {
+  left: 0px;
+  top:16px;
+}
+
+/* get rid of the table */
+.cssplay_drop table {
+  position:absolute;
+  border-collapse:collapse;
+  top:0;
+  left:0;
+  z-index:110;
+  font-size:1em;
+}
+
+/* For IE5.5 and IE6 give the hovered links a position relative and a change of background and foreground color. 
+This is needed to trigger IE to show the sub levels */
+* html .cssplay_drop li a:hover {
+  position:relative;
+  background:#D1DFE1;
+  color:#c00;
+  text-decoration: none;
+}
+
+/* For accessibility of the top level menu when tabbing */
+.cssplay_drop li a:active, .cssplay_drop li a:focus {
+  background:#D1DFE1;
+  color:#c00;
+}
+
+/* Set up the pointers for the sub level indication */
+.cssplay_drop li.fly {
+  background:#C0CACC url(../pnimages/cssplay_simpledrop/fly.gif) no-repeat right top;
+}
+.cssplay_drop li.drop {
+  background:#C0CACC url(../pnimages/cssplay_simpledrop/drop.gif) no-repeat right top;
+}
+
+/* This lot is for IE5.5 and IE6 ONLY and is necessary to make the sublevels appear */
+/* change the drop down levels from display:none; to visibility:hidden; */
+* html .cssplay_drop li ul {
+  visibility:hidden;
+  display:block;
+  position:absolute;
+  top:-11px;
+  left:110px;
+  padding:10px 30px 30px 30px;
+  background:transparent url(../pnimages/cssplay_simpledrop/transparent.gif);
+}
+/* keep the N level+ hidden when you hover on N-2 level link */
+.cssplay_drop li a:hover ul ul,
+.cssplay_drop li a:hover ul a:hover ul ul,
+.cssplay_drop li a:hover ul a:hover ul a:hover ul ul,
+.cssplay_drop li a:hover ul a:hover ul a:hover ul a:hover ul ul {
+  visibility:hidden;
+}
+/* make the second level visible when hover on first level link and position it */
+.cssplay_drop li a:hover ul {
+  visibility:visible;
+  left:-30px;
+  top:14px;
+  lef\t:-31px;
+  to\p:15px;
+}
+/* make the N level visible when you hover over N-1 level link and position it and all further levels */
+.cssplay_drop li a:hover ul a:hover ul,
+.cssplay_drop li a:hover ul a:hover ul a:hover ul,
+.cssplay_drop li a:hover ul a:hover ul a:hover ul a:hover ul, 
+.cssplay_drop li a:hover ul a:hover ul a:hover ul a:hover ul a:hover ul {
+  visibility:visible;
+  top:-11px;
+  left:120px; /*For IE without overlap */
+}
+/* If you can see the pattern in the above IE5.5 and IE6 style then you can add as many sub levels as you like */

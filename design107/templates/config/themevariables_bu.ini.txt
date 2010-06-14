@@ -1,0 +1,18 @@
+
+[variables]
+themeset = 3
+sidebarposition = left
+
+[themeset]
+type = select
+editable = 
+values = 1,2,3,4,5,6,7,8
+output = Colour1 Purple,Colour2 Blue,Colour3 Tan,Colour4 Olive,Colour5 Forest,Colour6 Brown,Colour7 Dusty Blue,Colour8 Dusty Rose,
+language = Themeset Heading Text Colors
+
+[sidebarposition]
+type = select
+editable = 
+values = left, right
+output = Left, Right
+language = Side Bar Position

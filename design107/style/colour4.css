@@ -1,0 +1,81 @@
+html{height: 100%;}
+
+body
+{ background-color: #D6D4D1;
+  color: #464032;
+}
+
+blockquote
+{ background-color: #F7F5EF;
+  color: #464032;
+  border-color: #93918D;
+}
+
+h1, #column1 h4, #column2 h2
+{ background-color: #FFFFFF;
+  color: #968A26;
+  border-color: #D6D4D1;
+}
+
+#main
+{ background: #FFFFFF url(../images/back_4.jpg) repeat-y;
+  color: #464032;
+}
+
+#footer
+{ background-color: #FFFFFF;
+  color: #464032;
+  border-color: #D6D4D1;
+}
+
+#footer a, #footer a:hover
+{ background-color: #FFFFFF;
+  color: #464032;
+}
+
+#logo h1, #logo h1 a, #logo h1 a:hover, #logo h1 a:visited
+{ background-color: transparent;
+  text-decoration:none;
+  color: #FFFFFF;
+}  
+
+#logo h1
+{ background-color: transparent;
+  color: #FFFFFF;
+}  
+
+#menu
+{ background: #FFFFFF url(../images/menu_4.jpg) no-repeat;
+  color: #464032;
+}
+
+#menu li a
+{ background: transparent;
+  color: #413E33;
+  border-color: #93918D;
+}
+
+#menu li a:hover, #menu li.current a
+{ background: transparent;
+  color: #413E33;
+  border-color: #FFFFFF;
+} 
+
+.block 
+{ background: #FFFFFF;
+  color: #464032;
+  border-color: #93918D;
+}
+
+#content, #column1, #column2, 
+.block a, #column2 a,
+.block a:hover, #column2 a:hover
+{ background: #FFFFFF;
+  color: #464032;
+}
+
+input, textarea
+{ background-color: #FFFFFF;
+  color: #464032;
+  border-color: #AAA2AE;
+}

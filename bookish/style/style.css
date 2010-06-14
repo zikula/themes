@@ -1,0 +1,394 @@
+/*
+
+	bookish1.0 by nodethirtythree design
+	http://www.nodethirtythree.com
+	hope you enjoy it :)
+
+*/
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+body
+{
+background: #fff url('../images/bg.gif');
+font-size: 11px;
+font-family: "trebuchet ms", helvetica, sans-serif;
+color: #857D74;
+}
+
+p
+{
+display: block;
+text-align: justify;
+}
+
+a
+{
+color: #D97900;
+text-decoration: underline;
+}
+
+a:hover
+{
+text-decoration: none;
+background-color: #D97900;
+color: #FFFAF3;
+}
+
+em
+{
+font-style: italic;
+}
+
+.date
+{
+font-family: georgia, "times new roman", serif;
+font-size: 10px;
+}
+
+h1,h2,h3,h4,h5,h6,th
+{
+font-family: georgia, "times new roman", serif;
+text-transform: lowercase;
+font-weight: normal;
+}
+
+.foot
+{
+height: 1px;
+line-height: 1px;
+clear: both;
+}
+
+.divider
+{
+border-bottom: solid 1px #F6F3F1;
+}
+
+th strong
+{
+color: #fff;
+}
+
+table
+{
+border-collapse: collapse;
+width: 100%;
+}
+
+th
+{
+background: #824900 url('../images/thbg.gif') repeat-x;
+height: 29px;
+padding-left: 11px;
+padding-right: 11px;
+color: #fff;
+text-align: left;
+border-left: solid 1px #A8814D;
+border-bottom: solid 2px #ffffff;
+}
+
+tr
+{
+height: 30px;
+}
+
+td
+{
+padding-left: 11px;
+padding-right: 11px;
+border-left: solid 1px #EED9C3;
+border-bottom: solid 1px #ffffff;
+}
+
+td.first,th.first
+{
+border-left: 0px;
+}
+
+tr.rowA
+{
+background: #FFF0DE url('../images/trbg1.gif') repeat-x;
+}
+
+tr.rowB
+{
+background: #FFFAF4 url('../images/trbg2.gif') repeat-x;
+}
+
+#outer
+{
+width: 698px;
+background: #fff url('../images/mainbg.gif');
+margin: 20px auto 0px auto;
+padding: 10px 13px 0px 13px;
+}
+
+#outer2
+{
+width: 724px;
+height: 3px;
+font-size: 0px;
+line-height: 0px;
+padding: 0px;
+background: #fff url('../images/mainbg2.gif');
+margin: 0px auto 0px auto;
+}
+
+#inner
+{
+background-image: url('../images/cbg2.gif');
+background-repeat: repeat-y;
+}
+
+#header
+{
+position: relative;
+height: 80px;
+background-image: url('../images/headbg.gif');
+}
+
+#header h1
+{
+position: absolute;
+bottom: 10px;
+font-size: 26px;
+padding-left: 26px;
+color: #fff;
+}
+
+#header h1 strong
+{
+color: #fff;
+}
+
+#header h1 span
+{
+color: #D97900;
+}
+
+#menu
+{
+position: absolute;
+right: 0px;
+padding-right: 26px;
+bottom: 14px;
+color: #A75300;
+}
+
+#menu ul
+{
+list-style: none;
+}
+
+#menu li
+{
+float: left;
+border-left: solid 1px #A75300;
+padding-left: 8px;
+margin-left: 8px;
+}
+
+#menu li.first
+{
+margin-left: 0px;
+padding-left: 0px;
+border-left: 0px;
+}
+
+#menu a
+{
+color: #fff;
+}
+
+#xbgA
+{
+height: 31px;
+width: 500px;
+position: absolute;
+top: 0px;
+background-image: url('../images/cbg1.gif');
+z-index: 1;
+}
+
+#xbgB
+{
+position: relative;
+height: 32px;
+width: 500px;
+background-image: url('../images/cbg3.gif');
+z-index: 1;
+}
+
+#main
+{
+position: relative;
+width: 500px;
+margin: 3px -500px 0px 0px;
+float: left;
+}
+
+#main_inner
+{
+padding: 31px 28px 18px 18px;
+position: relative;
+z-index: 5;
+}
+
+#main ul
+{
+list-style: none;
+}
+
+#main li
+{
+padding-left: 12px;
+background-image: url('../images/bullet.gif');
+background-repeat: no-repeat;
+background-position: 0px 6px;
+}
+
+#main h2,h3
+{
+color: #6C3C1E;
+}
+
+#main h2, #main h1
+{
+font-size: 22px;
+background-image: url('../images/db1.gif');
+background-repeat: no-repeat;
+height: 60px;
+padding-left: 22px;
+margin-bottom: -15px;
+}
+
+#main h3
+{
+font-size: 12px;
+background-image: url('../images/db2.gif');
+background-repeat: no-repeat;
+height: 50px;
+padding-left: 22px;
+margin-bottom: -15px;
+}
+
+#main p
+{
+margin-bottom: 14px;
+}
+
+#main p strong
+{
+color: #725D46;
+}
+
+#main .content
+{
+position: relative;
+padding-left: 22px;
+}
+
+a img {
+border: 0px;
+}
+
+img.cpic
+{
+position: relative;
+top: -8px;
+background-image: url('../images/imgbg.gif');
+width: 97px;
+height: 73px;
+padding: 10px;
+}
+
+img.right
+{
+float: right;
+margin-left: 14px;
+}
+
+#main .divider
+{
+margin: 20px 0px 20px 0px;
+}
+
+#ccol1
+{
+position: relative;
+width: 202px;
+float: left;
+border-right: solid 1px #F6F3F1;
+padding-right: 20px;
+}
+
+#ccol2 {
+position: relative;
+width: 202px;
+margin-left: 242px;
+}
+
+#side {
+position: relative;
+float: right;
+width: 194px;
+margin: 3px 0px 0px 3px;
+}
+
+#side h3 {
+background-image: url('../images/rhbg.gif');
+width: 180px;
+height: 23px;
+color: #fff;
+font-size: 11px;
+padding: 9px 0px 0px 14px;
+}
+
+#side .content {
+background-image: url('../images/rhbg2.gif');
+background-repeat: repeat-x;
+padding: 22px 14px 0px 14px;
+margin: 3px 0px 20px 0px;
+
+}
+
+#side ul {
+list-style: none;
+}
+
+#side li {
+border-top: solid 1px #F6F3F1;
+padding-top: 5px;
+margin: 5px 0px 0px 0px;
+}
+
+#side li.first {
+border-top: 0px;
+margin-top: 0px;
+padding-top: 0px;
+}
+
+#side .divider {
+margin: 14px 0px 14px 0px;
+}
+
+#footer {
+width: 698px;
+margin: 0px auto 10px auto;
+padding-bottom: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#footer a {
+color: #FFFFFF;
+}
+
+/* #footer a:hover {
+background-color: #7DAFBD;
+color: #E8FAFF; */
+}

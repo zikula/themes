@@ -1,0 +1,333 @@
+
+
+body {
+    text-align: center;
+    font-size: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 8px 0px 0px 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #505050;
+    letter-spacing: 4px;
+    padding-bottom: 3px;
+    border-bottom: 1px #777777 solid;
+    text-align: center;
+  }
+
+
+h1 {
+    font-size: 18px;
+  }
+
+
+h2 {
+    font-size: 16px;
+  }
+
+
+h3, h4 {
+    font-size: 15px;
+  }
+
+
+a {
+    color: #80aa11;
+  }
+
+
+a:active, a:visited {
+    color: #80aa11;
+  }
+
+
+a:hover {
+    color: #666666;
+  }
+
+
+table a img {
+    border: 0px;
+  }
+
+/******************************
+   Header + Navigation Menu
+******************************/
+
+#header {
+    width: 246px;
+    height: 40px;
+    float:left;
+    padding: 25px 0px 25px 0px;
+  }
+
+
+#nav {
+    clear: both;
+    text-align: left;
+    width: 750px;
+    height: 22px;
+    border-top: 2px #777777 solid;
+    border-bottom: 2px #777777 solid;
+  }
+
+
+#nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+
+#nav ul li {
+    margin: 0;
+    text-align: center;
+ display:inline;
+  }
+
+
+#nav a {
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding: 2px 10px 0px 10px;
+    color: #666666;
+    text-decoration: none;
+  }
+
+
+#nav a:hover, #nav ul li.current a {
+    color: #ffffff;
+ background-color:#DAE37B;
+  }
+
+
+#container {
+    display: table;
+    width: 750px;
+    margin: 0 auto;
+  }
+
+/******************************
+	Left Column
+******************************/
+
+
+#leftcontainer {
+    width: 240px;
+    float: left;
+    text-align: left;
+  }
+
+
+.newstitle {
+    margin-top: 8px;
+    width: 233px;
+    text-align: left;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #80aa11;
+    float: left;
+  }
+
+
+.newstitle span {
+    color: #666666;
+  }
+
+
+#leftcontainer p {
+    margin: 0;
+    padding-left: 3px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: left;
+    color: #505050;
+  }
+
+
+.date {
+    width: 240px;
+    float: left;
+    margin-top: 7px;
+    text-align: right;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #6A6A6A;
+  }
+
+/******************************
+	Welcome Message IMG+TEXT
+******************************/
+
+.rightcontainer {
+    width: 510px;
+    float: right;
+  }
+
+
+#welcome {
+    background-color : transparent;
+    background-image : url(../images/apple-trans.png);
+    background-position : top right;
+    background-repeat : no-repeat;
+    border-bottom: #ccc solid 1px;
+    color : #aaaaaa;
+    font-family : "Trebuchet MS", Arial, Verdana, sans-serif;
+    font-size : 11px;
+    list-style-position : inside;
+    list-style-type : square;
+    margin-bottom : 10px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 10px;
+    padding-bottom : 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top : 10px;
+    text-align : left;
+    width : 480px;
+  }
+
+/******************************
+	  Webpage Contents
+******************************/
+
+
+#content {
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 500px;
+    float: right;
+  }
+
+
+#content h3 {
+    width: 500px;
+    text-align: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #777777;
+    float:left;
+    margin: 0;
+  }
+
+
+#content p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+  }
+
+/******************************
+ images in content if you want - align left or right;
+ 
+ex: <img src="blah.jpg" class="left" />
+******************************/
+
+#content .left {
+    float: left;
+  }
+
+
+#content .right {
+    float: right;
+  }
+
+/******************************
+	Footer
+******************************/
+
+
+#footer {
+    float: left;
+    margin-top: 10px;
+    padding-top: 3px;
+    width: 750px;
+    border-top: 1px #a4a4a4 solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+  }
+
+.z-bkey-extmenu ul {
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 20px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    text-decoration:none;
+    width : 140px;
+  }
+
+p.extmenuadmin a {
+    padding-left: 15px;
+    text-decoration:none;
+  }
+
+
+.z-blockposition-left  #block_search_q, .z-blockposition-right #block_search_q {
+    min-width : 90px !important;
+    max-width : 130px;
+  }
+
+
+.z-bkey-adminnav ul {
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 20px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    width : 130px;
+  }
+
+.z-bkey-adminnav ul ul {
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 20px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    width : 130px;
+  }
+
+.z-bkey-adminnav ul ul li {
+    list-style-image : none;
+    list-style-type : circle;
+    margin-bottom : 0px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 5px;
+    padding-right : 0;
+    padding-top : 0;
+    width : 130px;
+  }
+

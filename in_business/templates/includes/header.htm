@@ -1,0 +1,16 @@
+	<!-- The menu, tabs -->
+<div class="menu">
+	<a href="{homepage}"{if $pagetype eq 'home'} class="current" {/if}>{gt text="Home"}</a>
+	<a href="{modurl modname=Pages}"{if $module eq 'Pages'} class="current" {/if}>{gt text="Pages"}</a>
+	<a href="{modurl modname=News}"{if $module eq 'News'} class="current" {/if}>{gt text="News"}</a>
+	<a href="{modurl modname=Dizkus}"{if $module eq 'Dizkus'} class="current" {/if}>{gt text="Forums"}</a>
+	<a href="{modurl modname=formicula}"{if $module eq 'formicula'} class="current" {/if}>{gt text="Contact"}</a>
+</div>
+	<!-- The header -->
+<div class="header">
+	<img id="logo" alt="{gt text="Logo"}" style="float:right;" src="{$imagepath}/www.jpg" width="225" height="95" />
+	<span id="sitename"><a href="{homepage}" title="{gt text="Home"}">{sitename}</a></span><br />
+	<span id="slogan">{slogan}</span>
+	<div id="searchform">{search class=search search_class=textbox button_class=button button=Search}</div>
+  	<div class="clearfix"></div>
+</div>

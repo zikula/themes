@@ -1,0 +1,303 @@
+
+/************* 1 The Turtle *************/
+
+
+/************* Global *************/
+
+
+html,body {
+    height:100%;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+body {
+    font-size : 12px;
+  }
+
+
+body, input {
+    font-family : "Trebuchet MS", Verdana, sans-serif;
+    text-align : left;
+  }
+
+
+a {
+    text-decoration: none;
+    color: #95ba46;
+  }
+
+
+blockquote {
+    background: #f7f7f7;
+    padding: 15px;
+    margin: 5px 0;
+  }
+
+
+img, img a {
+    border:0px;
+  }
+
+/************* Container *************/
+
+
+#container {
+    height: auto !important;
+    min-height: 100%;
+    padding-bottom: 15px;
+    position: relative;
+    background: #95ba46 url(../images/1/containerBg.gif) bottom left repeat-x fixed;
+  }
+
+
+* html #container {
+    height: 100%;
+  }
+
+/************* Header *************/
+
+
+#headerWrap {
+    height: 59px;
+    background: url(../images/1/headerBg.gif);
+  }
+
+
+#header {
+    width: 740px;
+    margin: 0 auto;
+  }
+
+
+#header h1 a {
+    font-size: 30px;
+    letter-spacing: -1px;
+    padding-top: 5px;
+    float: left;
+    color: #95ba47;
+  }
+
+
+#navigation {
+    padding-top: 1px;
+  }
+
+#navigation li.current a {
+    background: #5f6e42;
+
+    border-bottom-color : #5f6e42;
+    border-bottom-style : solid;
+    border-bottom-width : 2px;
+    border-top-color : #5f6e42;
+    border-top-style : solid;
+    border-top-width : 1px;
+    color : #fff;
+    display : block;
+    font-size : 17px;
+    padding-bottom : 12px;
+    padding-left : 7px;
+    padding-right : 7px;
+    padding-top : 14px;
+  }
+
+
+ul#navigation li {
+    list-style-type: none;
+    float: right;
+  }
+
+
+ul#navigation li a {
+    border-bottom-color : #000;
+    border-bottom-style : solid;
+    border-bottom-width : 1px;
+    border-top-color : #000;
+    border-top-style : solid;
+    border-top-width : 1px;
+    color : #fff;
+    display : block;
+    font-size : 17px;
+    padding-bottom : 12px;
+    padding-left : 7px;
+    padding-right : 7px;
+    padding-top : 14px;
+  }
+
+
+ul#navigation li a:hover, #footer a:hover {
+    background: #5f6e42;
+  }
+
+/************* Content *************/
+
+
+#content {
+    width: 740px;
+    margin: 7px auto 0;
+    background: #fff;
+    border: 1px solid #fff;
+    position: relative;
+  }
+
+
+#content:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+
+
+#content a:hover {
+    background: #95ba46;
+    color: #fff;
+  }
+
+/* 
+Header with picture and site description.
+It uses a hack for vertical-align because IE doesn't work properly with tables
+*/
+
+
+#contentHeader {
+    margin: 15px auto;
+    width: 710px;
+    height: 182px;
+    background: url(../images/1/header.gif) no-repeat;
+    border: 1px solid #44434c;
+    position: relative;
+  }
+
+
+#contentHeader[id] {
+    display: table;
+    position: static;
+  }
+
+
+#siteDescription {
+    position: absolute;
+    top: 50%;
+    padding-left: 25px;
+    color: #44434c;
+  }
+
+
+#siteDescription[id] {
+    display: table-cell;
+    vertical-align: middle;
+    position: static;
+  }
+
+
+#siteDescription p {
+    position: relative;
+    top: -50%;
+  }
+
+
+#content h2, #content h4 {
+    margin: 15px 0;
+    border-bottom: 1px solid #96bb47;
+  }
+
+
+#content ul {
+    padding: 10px 15px 10px 20px;
+    list-style-image: url(../images/1/arrow.gif);
+  }
+
+/************* Main *************/
+
+
+
+#main {
+    margin: 0 15px;
+    width: 430px;
+    float: left;
+  }
+
+
+.post {
+    text-align: justify;
+  }
+
+/************* Secondary *************/
+
+
+
+#secondary {
+    width: 220px;
+    margin: 0 15px;
+    float: right;
+  }
+
+/************* Search *************/
+
+
+#searchform input {
+    background: #f7f7f7;
+    font-size: 0.9em;
+  }
+
+
+#searchsubmit {
+    margin-top: 5px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+
+#searchform fieldset {
+    border: 0;
+  }
+
+/************* Footer *************/
+
+
+#footer {
+    font-size:10px;
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    background: #45444d;
+    width: 736px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    height:30px;
+    padding: 2px 2px;
+  }
+
+
+#footer p {
+    position: relative;
+    margin: 0 auto;
+    background: #45444d;
+    color: #fff;
+    padding: 3px 3px;
+  }
+
+
+#footer p span {
+    position: relative;
+    margin: 0 auto;
+    padding: 5px 5px;
+    background: #45444d;
+    color: #fff;
+  }
+
+
+#footer a {
+    padding: 5px 5px;
+    color: #fff;
+    font-weight: bold;
+  }
+

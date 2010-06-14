@@ -1,0 +1,438 @@
+/*
+Theme Name: Framefake Theme
+Theme URI: http://www.northern-web-coders.de/
+Description: Northern-Web-Coders Framefake Theme
+Version: 1.0
+
+Author: Kai Ackermann
+*/
+
+* html{
+    height: 100%;
+    overflow: hidden;
+}
+
+* html body{
+    height: 100%;
+    margin: 0 0 0 19px;
+    padding: 0;
+    overflow: auto;
+}
+
+* html h1#header{
+    position: absolute;
+}
+
+* html div#navcontainer ul{
+    position: absolute;
+}
+
+body {
+	background: url(../images/background.gif) center repeat-y;
+	font-family: Lucida Grande, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-size: 12px;
+	color: #495865;
+}
+
+a:hover {
+	color: #6F6F6F;
+}
+
+#rap {
+	margin: 0 auto 0 auto;
+	width: 728px;
+	text-align: left;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background: url(../images/top.jpg);
+	width: 729px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+
+#sitename {
+
+	position: relative;
+	top: 10px;
+	left: 11px;
+	font-size: 27px;
+	background: transparent;
+	padding: 5px;
+	color: #F6FFB7;
+	text-decoration: none;
+}
+
+#sitename a {
+	font-size: 27px;
+	color: #F6FFB7;
+	text-decoration: none;
+	background: transparent;
+}
+
+#sitename a:hover {
+	font-size: 27px;
+	background: transparent;
+	padding: 5px;
+	color: #F6FFB7;
+	text-decoration: none;
+}
+#slogan {
+ margin-top: 5px;
+ margin-left:30px;
+	font-size: 18px;
+        font-weight:bold;
+	background: transparent;
+	padding: 5px;
+	color: #F6FFB7;
+}
+
+#search {
+	position: absolute;
+float:right;
+	top: 95px;
+	right: 11px;
+
+}
+
+#content {
+	float: left;
+	padding: 0 0 0 20px;
+	margin: 190px 10px 50px 0;
+	width: 450px;
+	color: #495865;
+	font-size: 11px;
+}
+
+#content h2 {
+	border-bottom: 1px solid #6F6F6F;
+	color: #698964;
+	font-size: 12px;
+	margin: 20px 0 5px 0;
+	padding: 0 0 3px 0;
+	text-align: right;
+	width: 440px;
+}
+
+#content h2#comments a {
+	color: #5F707A;
+	font-size: 14px;
+}
+
+#content h3 img
+{
+border: 0;
+}
+
+#content div.post
+{
+margin: 0 0 20px 0;
+padding: 0;
+}
+
+#content p
+{
+font-size: 12px;
+}
+
+#content div.post p, #content div.post li
+{
+font-family: Lucida Grande, Verdana, sans-serif;
+font-size: 12px;
+line-height: 130%;
+}
+
+#content div.post div.storycontent p
+{
+width: 90%;
+}
+
+#content div.post div.storycontent ul, #content div.post div.storycontent ol
+{
+margin-left: 0;
+padding-left: 0;
+}
+
+#content div.post div.storycontent li
+{
+margin-left: 30px;
+width: 80%;
+}
+
+#content div.post div.storycontent blockquote
+{
+background: #fef7e9;
+border: 1px solid #e6ddcb;
+border-left: 2px solid #6F6F6F;
+font-family: Georgia, Times New Roman, serif;
+font-size: 11px;
+margin-left: 20px;
+padding: 4px 4px 4px 7px;
+width: 80%;
+}
+
+#content h3
+{
+margin: 0 0 5px 0;
+padding: 0;
+}
+
+#content h3.storytitle, #content h3.storytitle a
+{
+font-size: 14px;
+color: #698964;
+text-decoration: none
+}
+
+#content h3.storytitle a:hover
+{
+color: #495865;
+text-decoration: none
+}
+
+#content div.post p
+{
+width: 90%;
+}
+
+#content div.post div.meta, #content div.post div.meta a
+{
+color: #867b64;
+font-family: Lucida Grande, Verdana, sans-serif;
+font-size: 10px;
+}
+
+#content div.post div.meta li a:hover
+{
+color: #686050;
+}
+
+#content div.post div.meta ul, #content div.post div.meta li
+{
+display: inline;
+margin: 0;
+padding: 0;
+}
+
+
+#content div.post div.feedback
+{
+font-size: 12px;
+}
+
+#content #commentlist
+{
+margin: 20px 20px 20px 23px;
+padding: 0;
+}
+
+#content #commentlist li
+
+{
+margin-bottom: 10px;
+}
+
+#content #commentform input, #content #commentform textarea
+{
+background: #EFEFEF;
+border: 1px solid #6F6F6F;
+font-size: 11px;
+padding: 2px;
+}
+
+#content #commentform textarea
+{
+height: 150px;
+width: 90%;
+}
+
+#content code
+{
+color: #800000
+}
+
+#content ul
+{
+display: inline;
+margin: 0;
+padding: 0;
+list-style-type: circle;
+}
+
+#navcontainer ul
+{
+position: fixed;
+top: 10px;
+padding: 0;
+margin: 140px 0 0 0;
+background: #698964;
+border-top: 1px solid #DFDFDF;
+border-bottom: 1px solid #DFDFDF;
+float: left;
+width: 729px;
+font: 15px arial, helvetica, sans-serif;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li.page_item a
+{
+padding: 10px 14px 11px 14px;
+background: #D6E89C;
+color: #005F00;
+text-decoration: none;
+font-weight: bold;
+float: left;
+border-right: 1px solid #FFFFFF;
+}
+
+#navcontainer ul li.page_item a:hover, #navcontainer ul li.current a
+{
+color: #80324C;
+background: #D9C8CF;
+}
+
+#navcontainer ul li.current_page_item a
+{
+padding: 10px 14px 11px 14px;
+background: #C9C0B0;
+color: #FFFFFF;
+text-decoration: none;
+float: left;
+border-right: 1px solid #DFDFDF;
+}
+
+#navcontainer ul li.current_page_item a:hover, #navcontainer ul li.current a
+{
+background: #D9C8CF;
+}
+
+#menu
+{
+clear: right;
+float: left;
+padding: 0;
+margin: 200px 0 100px 20px;
+width: 220px;
+}
+
+#menu ul
+{
+list-style-type: none;
+margin: 10px 0;
+padding: 0;
+}
+
+
+#menu p
+{
+font-size: 12px;
+width: 190px;
+font-weight: bold;
+}
+
+#menu h2
+{
+border-bottom: 1px solid;
+width: 190px;
+font-size: 15px;
+font-weight: bold;
+margin: 0;
+padding: 0;
+}
+
+#menu ul
+{
+margin: 5px 0 15px 10px;
+}
+
+#menu ul li
+{
+font-weight: normal;
+margin: 0 0 3px 0;
+padding: 0;
+line-height: 12px
+}
+
+#menu ul li#winamp ul li
+{
+width: 190px
+}
+
+#menu ul li ul li a
+{
+font-size: 11px;
+color: #495865;
+text-decoration: none;
+}
+
+#menu ul li ul li a:hover
+{
+font-weight: bold;
+text-decoration: none
+}
+
+#searchform
+{
+z-index: 2;
+margin: 2px 0 15px 0;
+}
+
+#searchform input {
+z-index: 2;
+background: #FFFFFF;
+border: 1px solid #6F6F6F;
+font-size: 11px;
+margin-top: 3px;
+padding: 2px;
+}
+
+
+#footer{
+	position: fixed;
+	bottom: 0;
+	color: #F6FFB7;
+	background: #698964;
+	border-top: 1px solid #DFDFDF;
+	clear: both;
+	font-size: 9px;
+	margin: 0 auto 0 auto;
+	padding: 5px 15px 5px 15px;
+	text-align: center;
+	width: 699px;
+}
+
+
+div.credit {
+	position: fixed;
+	bottom: 0;
+	color: #FFFFFF;
+	background: #698964;
+	border-top: 1px solid #DFDFDF;
+	clear: both;
+	font-size: 9px;
+	margin: 0 auto 0 auto;
+	padding: 16px 0 17px 0;
+	text-align: center;
+	width: 729px;
+}
+
+#footer a {
+	color: #F6FFB7
+}
+
+/*Zikula additions*/
+a img {
+	border: 0px;
+}

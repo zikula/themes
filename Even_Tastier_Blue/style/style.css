@@ -1,0 +1,362 @@
+
+/* Stylesheet for Even Tastier Blue by Super J Man (www.jdavidmacor.com) */
+
+/* General Body */
+
+body {
+    color: #999;
+    background-color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: #fff url('../images/bg.gif') top center repeat-x;
+    font: 80%/200% trebuchet ms, verdana, arial, tahoma;
+  }
+
+
+#border {
+    background-color : #FFF;
+    background-image : url('../images/bodybg.gif');
+    background-repeat : no-repeat;
+    margin-bottom : 0;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0;
+    text-align : center;
+    width : 800px;
+  }
+
+
+#container {
+    background-color : #fff;
+    margin-bottom : 0px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0px;
+    text-align : center;
+    width : 770px;
+  }
+
+
+#content {
+    background-color : #fff;
+    width : 770px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+  }
+
+
+#splitleft {
+    background: #fff;
+    margin-top : 5px;
+    margin-left: 5px;
+    width: 190px;
+    float: left;
+    text-align: justify;
+  }
+
+
+#splitright {
+    background: #fff;
+    margin-top : 5px;
+    margin-right: 10px;
+    width: 555px;
+    float: right;
+    text-align: justify;
+  }
+
+
+#header {
+    height: 190px;
+    border-bottom: 1px solid #690;
+    margin: 0;
+    background: url('../images/banner.jpg');
+  }
+
+
+#header h1 {
+    color: #FFF;
+    padding-left: 15px;
+    position: absolute;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    font: small-caps bold 3em/normal geneva, arial, sans-serif;
+    top:35px;
+    margin-left:15px;
+  }
+
+
+#header p {
+    color: #FFF;
+    padding-left: 15px;
+    position: absolute;
+    font: normal bold 14px geneva, arial, sans-serif;
+    margin-top: 5px;
+    top:105px;
+    margin-left:35px;
+  }
+
+
+#header form {
+    position: absolute;
+    font-size: 9px;
+    background-color: transparent;
+    top:195px;
+    margin-left:590px;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    color : #659500;
+    font-family : geneva,arial,sans-serif;
+    font-variant : small-caps;
+  }
+
+
+h1 {
+    font-size: 120%;
+  }
+
+
+h2 {
+    font-size: 116%;
+  }
+
+
+h3 {
+    font-size: 112%;
+  }
+
+
+h4 {
+    font-size: 108%;
+  }
+
+
+h5 {
+    font-size: 104%;
+  }
+
+
+h6 {
+    font-size: 100%;
+  }
+
+/*
+h3 {
+    color: #FFF;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    padding: 0 2px;
+    margin: 0;
+    font: small-caps bold 1em geneva, arial, sans-serif;
+  } */
+
+
+a:active, a:visited, a:link {
+    color: #7DB4EE;
+    text-decoration: none;
+  }
+
+
+a:hover {
+    color: #25569A;
+    text-decoration: none;
+  }
+
+
+a img {
+    border: 0px;
+  }
+
+
+ul, ol {
+    margin-bottom : 0px;
+    margin-left : 10px;
+    margin-right : 0px;
+    margin-top : 0px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 2px;
+  }
+
+
+p.extmenuadmin {
+    padding-left: 10px;
+  }
+
+
+.blockquote {
+    border-left: 6px solid #7DB4EE;
+    padding-left: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+    text-align: justify;
+    color: #CCC;
+    font: 1.5em "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+
+/* Menu */
+
+
+#topmenu {
+    position: relative;
+    top: 13px;
+    left: 15px;
+    width: 735px;
+    font-size: 93%;
+    margin: 0;
+    line-height: normal;
+    height: 41px;
+  }
+
+
+#topmenu ul {
+    margin: 0;
+    padding: 0 0 0 2px;
+    list-style: none;
+  }
+
+
+#topmenu li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+
+
+#topmenu a {
+    float: left;
+    background: url(../images/tableft10.gif) no-repeat left top;
+    margin: 0;
+    padding: 0 0 0 4px;
+    text-decoration: none;
+  }
+
+
+#topmenu a span {
+    float: left;
+    display: block;
+    background: url(../images/tabright10.gif) no-repeat right top;
+    padding: 5px 15px 4px 6px;
+    color: #FFF;
+  }
+
+
+#topmenu a span {
+    float: none;
+  }
+
+
+#topmenu a:hover span {
+    color: #FFF;
+  }
+
+
+#topmenu a:hover {
+    background-position: 0 -42px;
+  }
+
+
+#topmenu a:hover span, #topmenu .current a span {
+    background-position: 100% -42px;
+  }
+
+/* Form */
+
+form {
+    float: left;
+    padding: 0 0;
+    margin-left: 5px;
+    font-size: 9px;
+  }
+
+
+input {
+    color: #376DAF;
+    border: 1px solid #376DAF;
+    font-size: 11px;
+    padding: 3px;
+    background: #FFF;
+  }
+
+
+.button {
+    padding: 2px;
+    color: #FFF;
+    border: 1px solid #376DAF;
+    font-size: 11px;
+    background: #6DA6E2;
+  }
+
+
+.z-block {
+    clear:left;
+    width: 185px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+/* Footer */
+
+#footer {
+    background-color : #376DAF;
+    clear : both;
+    color : #FFF;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+    font-size : 11px;
+    font-weight : 550;
+    min-height : 30px;
+    margin-bottom : 0px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0px;
+    padding-bottom : 0px;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top : 0px;
+    text-align : center;
+    width : 760px;
+  }
+
+
+#footer span {
+    line-height : 13px;
+    margin-top : 10px;
+    vertical-align : middle;
+  }
+
+
+#footer span img {
+    vertical-align : middle;
+  }
+
+
+#footer a:link {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+
+#footer a:visited {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+
+#footer a:hover {
+    color: #7DB4EE;
+    text-decoration: none;
+  }
+
+
+#footer a:active {
+    color: #7DB4EE;
+    text-decoration: underline;
+  }
+

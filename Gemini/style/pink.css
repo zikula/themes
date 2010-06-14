@@ -1,0 +1,553 @@
+/* 
+Theme Name: Gemini Pink
+Description: Gemini Pink developed by Root, designed by geeksmakemehot
+Version: 1.0 May 2005
+Author: Jennifer Ledbetter
+Author URI: http://geeksmakemehot.com
+
+Credits:
+Template based on Gemini, developed by Root at http://atthe404.com.
+*/
+
+/* ---------------------------------------------------------------------------------------
+Layout - Two column fixed width centered
+----------------------------------------------------------------------------------------*/
+
+body {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: center; /* IE 5.5 hack */
+	background: #E77E8B;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#farouter {
+	background: #ffffff;
+	width: 800px; 
+	border: 1px solid #3A291F;
+	margin: 20px auto 20px auto;
+	text-align: left;  /* IE 5.5 hack part II */
+	}
+	
+#outer {
+	}
+	
+#rap {
+	background: #fff;
+	}
+	
+#masthead {
+	background-image: url(../images/pink/header.png);
+	letter-spacing: 0.2em;
+	margin: 8px 8px 0 8px;
+	padding: 0 10px 10px 60px;
+	font-size: 150%;
+	font-weight: normal;
+	font-family: 'Century Gothic', Arial, Helvetica, sans-serif; 
+	height: 150px;
+	background-position: left;
+	background-repeat: repeat-y;
+}
+
+#main {
+	padding-left:35px;
+	}
+	
+#content {
+	float: left;
+	width: 490px; 
+	padding-top: 10px;
+	}
+	
+#menu {
+	float: right;
+	width: 225px; 
+	margin-right: 10px; 
+	border-left: 1px dashed #E77E8B;
+	}
+	
+#nav {
+	padding-left: 10px;
+	}
+	
+#logo {
+	padding-top: 25px; 
+	padding-left: 12px;
+	}
+	
+#hmenu {
+	margin: 8px; 
+	height: 30px;
+	background: #EEB7BB;
+	}
+	
+#hnav {
+	margin: 0;
+	padding: 0;
+	background: #EEB7BB;
+	}
+	
+#clearer { 
+	clear: both; 
+	margin: 0; padding: 0;
+	}
+	
+#footer { 
+	margin: 8px 8px 8px 8px; 
+	background: #EEB7BB;
+	}
+
+
+/* ---------------------------------------------------------------------------------------
+Typographical
+----------------------------------------------------------------------------------------*/
+
+/* --- Linkage ---*/
+	
+a {
+	color: #E77E8B; 
+	text-decoration: none; 
+	}
+	
+a:visited { 
+	color: #E77E8B; 
+	text-decoration: none; 
+	}
+
+a:active { 
+	color: #E77E8B; 
+	text-decoration: none; 
+	}
+	
+a:hover { 
+	color: #E77E8B; 
+	text-decoration: underline; 
+	}
+
+a img { 
+	border: 0px solid #EEB7BB; 
+	padding: 2px;
+	}
+	
+/* --- Special Text used by Wordpress --- */
+
+acronym, abbr, span.caps { 
+	border-bottom: 1px dashed #333; 
+	cursor: help; 
+	font-size: 90%; 
+	letter-spacing: .07em;
+	}
+
+blockquote {
+	border-left: 1px solid #b5b5b5;
+	margin-left: 1.5em; 
+	padding: 5px;
+	}
+	
+cite { 
+	font-size: 90%; 
+	font-style: normal; 
+	}
+	
+/* --- Heading Fonts --- */
+
+#header a { 
+	color: #fff; 
+	text-decoration: none; 
+
+	}
+	
+#header a:hover { 
+	text-decoration: none; 
+	}
+	
+h1 { 
+	margin: 0; 
+	padding: 20px; 
+	text-align: right; 
+	}
+	
+h2 {
+	color: #E77E8B;
+	font-size: 24px;
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	margin: 0 20px 20px 0;
+	padding: 20px 0 0 0;
+	font: 100% 'Century Gothic', Arial, Helvetica, sans-serif; 
+}
+	
+h2#tagline {
+	margin:0; 
+	margin-right: 25px; 
+	padding:0;
+	text-align: right;
+	color: #fff;
+	border: 0;
+	}
+	
+h3 a {
+	color: #E77E8B; 
+	}
+	
+h3 a:hover {
+	color: #E77E8B;
+	}
+	
+h3 a:visited {
+	color: #E77E8B;
+	}
+
+h3 {
+	font: 26px 'Century Gothic', Arial, Helvetica, sans-serif;
+	margin-left: 0; 
+	margin-top: 30px;
+	color: #E77E8B;  
+	font-weight: normal;
+	}
+	
+h3#comments { 
+	margin-left: 20px;
+	}
+	
+h3#respond { 
+	margin-left: 20px; 
+	}
+	
+h4 {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+	color: #333;
+	}
+	
+/* --- Meta --- */	
+.meta { 
+	color: #b5b5b5;
+	font-size: .95em;
+	font-weight: normal;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #c0c0c0;
+	padding: 5px 0px 3px 0px;
+	}
+	
+.meta a {
+	color: #EEB7BB;
+	}
+	
+.meta li, ul.post-meta li {
+	display: inline;
+	}
+	
+.meta ul {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+ul.post-meta {
+	list-style: none;
+	}
+
+ul.post-meta span.post-meta-key {
+	font-weight: bold;
+	}
+		
+/* --- Feedback --- */
+.feedback {
+	font: 24px 'Century Gothic', Arial, Helvetica, sans-serif;
+	margin-left: 15px; 
+	margin-top: 30px;
+	color: #c0c0c0;  
+	font-weight: normal;
+	}
+
+.feedback a, .feedback a:visited, .feedback a:active {
+	color: #c0c0c0;	
+	}
+	
+.feedback a:hover {
+	color: #c0c0c0;	
+	}
+
+#hidden {
+	display:none;
+	}
+	
+	
+img {
+	margin: 0px;
+	padding: 2px;
+	}
+	
+p { 
+	font: 100%/175% Verdana, Helvetica, sans-serif;
+	}
+
+
+/* --- credits --- */
+
+.credit {
+	color: #fff;
+	font-size: 90%;
+	margin: 10px 0 0 0;
+	padding: 3px;
+	text-align: center;
+	}
+
+.credit a, .credit a:hover {
+	color: #fff;
+	text-decoration: none;
+	}
+	
+
+/* ---------------------------------------------------------------------------------------
+Posts
+----------------------------------------------------------------------------------------*/
+
+
+	
+.post { 
+	margin: 10px 35px 40px 10px; 
+	}
+	
+.entrytext {
+	margin-left: 30px;
+	}
+	
+.storytitle { 
+	margin-top: 10px; 
+	margin-bottom: 2px; 
+	}
+	
+.storytitle a { 
+	text-decoration: none; 
+	}
+	
+.storycontent{
+	margin-bottom: 25px; 
+	}
+	
+	
+.post ul li {
+	padding: 0px;
+	font-weight: normal;
+	list-style: url(../images/pink/icon.png);
+	line-height: 1.5em;
+}
+
+.post ul li:hover {
+	padding: 0px;
+	font-weight: normal;
+	list-style: url(../images/pink/icon2.png);
+	line-height: 1.5em;
+}
+
+/* ---------------------------------------------------------------------------------------
+Comments
+----------------------------------------------------------------------------------------*/
+
+#commentform { 
+	margin-left: 20px; 
+	}
+	
+#commentform  #comment { 
+	width:450px; 
+	}
+
+.commentbox {
+	background: #EFEFEF;
+	border: 1px solid #333;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.commentby {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.commentinfo {
+	font-size: 10px;
+	margin-top: -10px;
+	border-bottom: 1px soild #333;
+}
+
+.commentid {
+	float: right;
+	font-size: 24px;
+	font-style: italic;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #b5b5b5;
+}
+
+.commentid a {
+	color: #b5b5b5;
+	text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------------------------
+Menu
+----------------------------------------------------------------------------------------*/
+#mnav {
+		padding-left: 10px;
+}
+
+#mnav a {
+	color: #333;
+}
+
+#mnav a:hover { 
+	color: #EEB7BB;
+	text-decoration: none;
+	}
+	
+#mnav ul {
+	margin-left: 0px;
+	padding-left: 0;
+	list-style-type: none;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 100%;
+	}
+
+#mnav li {
+	display: block;
+	padding: 3px;
+	padding-left: 17px;
+	background-color: #FFF;
+	background-image: url(../images/pink/icon.png); 
+	background-repeat: no-repeat;
+	background-position: 0 55%;
+	border-bottom: 1px dotted #b5b5b5;
+	color: #333;
+	}
+	
+#mnav li:hover {
+	background-image: url(../images/pink/icon2.png);  
+	background-repeat: no-repeat;
+	background-position: 0 55%;
+	color: #EEB7BB;
+	text-decoration: none;
+	}
+
+#nav form {
+	margin: 0 0 0 13px;
+	}
+
+#nav input#s {
+	width: 80%;
+	background: #eee;
+	border: 1px solid #999;
+	color: #000;
+	}
+
+
+#nav ul li h2 {
+  	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  	font-weight: normal;
+	letter-spacing: 0.1em;
+	border: 0;
+	text-align: left;
+	padding-left:0;
+	margin-left: 0;
+	}
+
+
+#nav ul ul ul.children {
+	font-size: 100%;
+	padding-left: 15px;
+	}
+
+
+#nav { 
+	width: 95%; 
+	}
+
+#nav ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 100%;
+	margin-bottom: 20px;
+	}
+
+#nav a {
+	display: block;
+	padding: 3px;
+	padding-left: 17px;
+	background-color: #FFF;
+	background-image: url(../images/pink/icon.png); 
+	background-repeat: no-repeat;
+	background-position: 0 55%;
+	border-bottom: 1px dotted #b5b5b5;
+	color: #333;
+	}
+
+#nav a:link, #navlist a:visited, #navlist a:active {
+	text-decoration: none;
+	}
+
+#nav a:hover {
+	background-image: url(../images/pink/icon2.png); 
+	color: #EEB7BB;
+	text-decoration: none;
+	}
+
+#themeswitcher {
+	font-size: 8px;
+	}
+
+/* ---------------------------------------------------------------------------------------
+hnav
+----------------------------------------------------------------------------------------*/
+
+#hnav ul {
+	text-align: right;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 0;
+	margin-top: 0;
+	/* cancels gap caused by top padding in Opera 7.54 */
+	margin-left: 0;
+	color: #F2EEEC;
+	width: 100%;
+	font-size: 120%;
+	font-weight: normal;
+	font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	/* fixes Firefox 0.9.3 */
+	}
+
+#hnav ul li {
+	display: inline;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 5px;
+	/* matches link padding except for left and right */
+	padding-top: 5px;
+	}
+
+#hnav ul li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+	}
+
+#hnav ul li a:hover, #hnav ul li.current a {
+	background: #fff;
+	color: #333;
+	}
+
+#hnav #active { 
+	border-left: 1px solid #fff; 
+	}

@@ -1,0 +1,253 @@
+body {
+	background-color: #3366CC;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
+}
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-image: url(../images/background.gif);
+	background-repeat: repeat-y;
+	background-position: center center;
+}
+#container {
+	width: 751px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 100%;
+}
+#Header {
+	height: 20px;
+	width: 746px;
+	padding-top: 7px;
+	background-color: #2f2f2f;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	padding-left: 5px;
+}
+#contentwrap {
+	width: 720px;
+	padding: 15px;
+	margin: 0px;
+	float: left;
+}
+#maincontent {
+	width: 595px;
+	float: left;
+	text-align: justify;
+	padding-right: 25px;
+}
+#side {
+	width: 79px;
+	float: left;
+	padding: 10px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+}
+#namepage {
+	height: 37px;
+	width: 742px;
+	background-color: #2F2F2F;
+	clear: both;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 9px;
+	letter-spacing: 5px;
+}
+.slogan {
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 14px;
+	color: #999999;
+	letter-spacing: 0px;
+	font-weight: bold;
+}
+
+.vegas06 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #666666;
+}
+
+
+.headertext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0066FF;
+}
+
+#content {
+	width: 550px;
+	height: 100%;
+	float: left;
+}
+#footer {
+	height: 30px;
+	width: 751px;
+	background-color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	clear: left;
+	padding-top: 20px;
+}
+#footer a {
+	text-decoration: none;
+}
+#footer a:link, a:visited {
+	color: #0099FF;
+}
+.left {float:left;text-align : left;padding-left:5px;}
+ .right {float:right;text-align:right;padding-right:5px;}
+
+.vegasthumb2 {
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 0px;
+}
+.pageheader {
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0099FF;
+}
+.posted {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CCCCCC;
+	float: right;
+	margin-top: -15px;
+	display: block;
+}
+#side li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#side ul {
+	margin: 0px;
+	padding: 0px;
+	line-height: 20px;
+}
+#side a {
+	text-decoration: none;
+}
+#side a:link,  #side a:visited {
+	color: #0099FF;
+}
+#side a:hover {
+	color: #2F2F2F;
+}
+.submenu {
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0099FF;
+}
+
+
+
+
+
+#footer a:hover {
+	color: #FFFFFF;
+}
+
+
+
+
+#Header_Section {
+	height: 86px;
+	width: 751px;
+	background-color: #000099;
+}
+#container #Navbar {
+	height: 33px;
+	width: 751px;
+	background-color: #2F2F2F;
+	margin: 0px;
+	padding: 0px;
+}
+#container #Navbar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#container #Navbar li {
+	display: inline;
+}
+#container #Navbar a {
+	display: block;
+	float: left;
+	height: 24px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+#container #Navbar ul li a:link, #container #Navbar ul li a:visited {
+	color: #999999;
+}
+#container #Navbar ul li a:hover {
+	background-color: #000000;
+}
+
+
+
+
+
+#Header li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	list-style-type: none;
+	margin: 0px;
+	display: inline;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	float: right;
+	color: #999999;
+}
+#Header ul {
+	margin: 0px;
+	padding: 0px;
+}
+#Header ul li a {
+	text-decoration: none;
+}
+
+
+#Header ul li a:link, #Header ul li a:visited {
+	color: #999999;
+}
+#Header ul li a:hover {
+	color: #FFFFFF;
+}
+
+
+
+
+#Lg_Image {
+	height: 235px;
+	width: 751px;
+	background-color: #2F2F2F;
+}
+.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	line-height: 20px;
+}

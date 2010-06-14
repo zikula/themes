@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.2.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 06:10-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:4
+msgid "Wine"
+msgstr ""
+
+#: version.php:8
+msgid "Wine Open Designs template"
+msgstr ""
+
+#: templates/includes/header.htm:5
+msgid "My Account Settings"
+msgstr ""
+
+#: templates/includes/header.htm:5
+msgid "My Account"
+msgstr ""
+
+#: templates/includes/header.htm:5
+msgid "Logout of Your Account"
+msgstr ""
+
+#: templates/includes/header.htm:5
+msgid "Logout"
+msgstr ""
+
+#: templates/includes/header.htm:9
+msgid "New Account Registration"
+msgstr ""
+
+#: templates/includes/header.htm:9
+msgid "Log In to Your Account"
+msgstr ""
+
+#: templates/includes/header.htm:9
+msgid "Log In"
+msgstr ""
+
+#: templates/includes/header.htm:12 templates/includes/footer.htm:4
+msgid "Contact"
+msgstr ""
+
+#: templates/includes/header.htm:14
+msgid "Back to Main page"
+msgstr ""
+
+#: templates/includes/header.htm:17
+msgid "Home"
+msgstr ""
+
+#: templates/includes/footer.htm:4
+msgid "Home Page"
+msgstr ""
+
+#: templates/includes/footer.htm:4
+msgid "Sitemap"
+msgstr ""
+
+#: templates/includes/footer.htm:4
+msgid "RSS Feed"
+msgstr ""
+
+#: templates/includes/footer.htm:9
+msgid "Valid"
+msgstr ""
+
+#: templates/includes/footer.htm:9
+msgid "CSS"
+msgstr ""
+
+#: templates/includes/footer.htm:9
+msgid "XHTML"
+msgstr ""
+
+#: templates/includes/footer.htm:11
+msgid "Design by"
+msgstr ""
+
+#: templates/includes/footer.htm:11
+msgid "www.mitchinson.net"
+msgstr ""
+
+#: templates/includes/footer.htm:11
+msgid "Licensed"
+msgstr ""
+
+#: templates/includes/footer.htm:11
+msgid "Creative Commons Attribution 2.5 License"
+msgstr ""

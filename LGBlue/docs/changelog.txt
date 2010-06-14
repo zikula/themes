@@ -1,0 +1,11 @@
+TakeIT2 - Sat May 8 2010
+-combined style sheets to single file for 2col & 3col.
+-modified header sitname and slogan locations to the larger rightside div
+-made smaller left header div a block location called "logo"
+-made the page top edge div a block location for a menutree horizontal menu block is called "topnav"
+-adjusted ul, ol, list css properties and css justified all main content locations
+-created includes folder, for common head/header/footer template page segments.
+-added 3 block templates, 
+--1 block supporting colapsible blocks, 
+--1 headless block suitable for images or the logo block
+--1 headless block with a higher z-index suitable for menutree pulldown menus

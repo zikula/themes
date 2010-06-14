@@ -1,0 +1,20 @@
+<a id="top"></a><p class="hide">{gt text="Skip to"}:&nbsp;<a href="#menu">{gt text="site menu"}</a>&nbsp;|&nbsp;<a href="#sectionmenu">{gt text="section menu"}</a>&nbsp;|&nbsp;<a href="#main">{gt text="main content"}</a></p>
+
+	<div id="sitename">
+		<h1><a href="{homepage}" title="{sitename}&nbsp;{gt text="Home Page"}">{sitename}</a></h1>
+		<span>{slogan}</span>
+		<a id="menu"></a>
+	</div>
+
+	<div id="nav">
+		<ul>
+<li id="current" {if $pagetype eq 'home'} class="current" {/if}><a href="{pngetbaseurl}" title="{gt text="Home"}">{gt text="Home"}</a></li>
+<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Pages"}">{gt text="Pages"}</a></li>
+<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}" title="{gt text="News"}">{gt text="News"}</a></li>
+<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}" title="{gt text="Forums"}">{gt text="Forums"}</a></li>
+<li {if $module eq 'Sitemap'} class="current" {/if}><a href="{modurl modname=Sitemap}" title="{gt text="Sitemap"}">{gt text="Sitemap"}</a></li>
+<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}" title="{gt text="Contact"}">{gt text="Contact"}</a></li>
+		</ul>
+		<p class="hide"><a href="#top">{gt text="Back to top"}</a></p>
+	</div>
+ 

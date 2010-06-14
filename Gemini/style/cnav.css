@@ -1,0 +1,157 @@
+/* ---------------------------------------------------------------------------------------
+cnav
+----------------------------------------------------------------------------------------*/
+div.cnav{
+clear:both;
+float:right;
+    margin-left: 530px;
+    text-align: right;
+    width: 250px;
+top:5px;
+position:absolute;
+}
+
+ ul#cnav {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0;
+    margin-top: 0;
+    /* cancels gap caused by top padding in Opera 7.54 */margin-left: 0;
+    width: 100%;
+    font-size: 8px;
+    line-height: 10px;
+    /* fixes Firefox 0.9.3 */;
+  }
+
+
+ ul#cnav li {
+    display: inline;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    /* matches link padding except for left and right */padding-top: 0px;
+    line-height: 10px;
+    background-position : center center;
+    background-repeat : no-repeat;
+  }
+
+
+ ul#cnav li a {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+
+    line-height: 10px;
+    background-position : center center;
+    background-repeat : no-repeat;
+
+  }
+
+
+ ul#cnav li a:hover {
+    line-height: 10px;
+    background-position : center center;
+    background-repeat : no-repeat;
+  }
+
+
+ ul#cnav #active {
+    line-height: 10px;
+    background-position : center center;
+    background-repeat : no-repeat;
+
+  }
+
+
+ ul#cnav li#black a {
+    background-image: url(../images/black/icon.png);
+  }
+
+
+ ul#cnav li#blue a {
+    background-image: url(../images/blue/icon.png);
+  }
+
+
+ ul#cnav li#green a {
+    background-image: url(../images/green/icon.png);
+  }
+
+
+ ul#cnav li#pink a {
+    background-image: url(../images/pink/icon.png);
+  }
+
+
+ ul#cnav li#purple a {
+    background-image: url(../images/purple/icon.png);
+  }
+
+
+ ul#cnav li#red a {
+    background-image: url(../images/red/icon.png);
+  }
+
+
+ ul#cnav li#tan a {
+    background-image: url(../images/tan/icon.png);
+  }
+
+
+ ul#cnav li#yellow a {
+    background-image: url(../images/yellow/icon.png);
+  }
+
+
+ ul#cnav li#daisyrae a {
+    background-image : url(../images/daisyrae/icon.gif);
+  }
+
+
+ ul#cnav li#black a:hover {
+    background-image: url(../images/black/icon2.png);
+  }
+
+
+ ul#cnav li#blue a:hover {
+    background-image: url(../images/blue/icon2.png);
+  }
+
+
+ ul#cnav li#green a:hover {
+    background-image: url(../images/green/icon2.png);
+  }
+
+
+ ul#cnav li#pink a:hover {
+    background-image: url(../images/pink/icon2.png);
+  }
+
+
+ ul#cnav li#purple a:hover {
+    background-image: url(../images/purple/icon2.png);
+  }
+
+
+ ul#cnav li#red a:hover {
+    background-image: url(../images/red/icon2.png);
+  }
+
+
+ ul#cnav li#tan a:hover {
+    background-image: url(../images/tan/icon2.png);
+  }
+
+
+ ul#cnav li#yellow a:hover {
+    background-image: url(../images/yellow/icon2.png);
+  }
+
+
+ ul#cnav li#daisyrae a:hover {
+    background-image: url(../images/daisyrae/icon2.gif);
+  }

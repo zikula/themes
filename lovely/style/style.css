@@ -1,0 +1,140 @@
+html{
+	overflow-x:hidden;
+}
+* { 
+	margin: 0;
+	padding: 0;
+}
+.description {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+	margin-left: 300px;
+}
+
+a {
+	color: #AF8998;
+	text-decoration: none;
+	border-bottom: 1px dotted #A73A02;
+}
+
+a:hover {
+	color: #8C4A4C;
+	text-decoration: none;
+	border-bottom: 1px dotted #8C4A4C;
+}
+
+a img {
+	border: none;
+}
+
+
+form {
+	margin-top: 7px;
+}
+
+p {
+	padding: 5px 0px 20px 0px;
+}
+
+small {
+	font-size: 85%;
+}
+
+textarea {
+	width: 450px;
+}
+
+#sidebar p {
+	font-size: 10px;
+	line-height: 15px;
+}
+
+#sidebar a {
+	border: none;
+}
+
+#sidebar a:hover {
+	border: none;
+}
+
+#footer p {
+	color: #AF8998;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.post {
+	margin-bottom: 35px;
+}
+
+
+#header h1 { font: normal 28px Georgia, "Times New Roman", Times, serif; margin-left: 300px; padding-top: 15px; }
+#header a{color: #fff;text-decoration:none;border:0px; }
+#content h1 { border-top:10px solid #fff; border-bottom: 1px solid #ddd; color: #8C4A4C; padding-bottom: 2px; font: normal 21px Arial, Helvetica, sans-serif; }
+h2, h4 { border-top:10px solid #fff; border-bottom: 1px solid #ddd; color: #8C4A4C; padding-bottom: 2px; font: normal 17px Arial, Helvetica, sans-serif; }
+h2 a { color: #8C4A4C; text-decoration: none; border: none; }
+h2 a:hover { color: #8C4A4C; text-decoration: none; border: none; }
+#sidebar h4 { font-size: 13px; font-weight: normal; }
+h3 { border-bottom: 1px solid #ddd; color: #8C4A4C; padding-bottom: 2px; font: normal 14px Arial, Helvetica, sans-serif; padding-top: 20px; }
+h4 { font: 12px Arial, Helvetica, sans-serif; }
+
+
+body { 
+	background-color: #CE6087;
+	font: 11px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #444;
+	margin: 10px 0;
+}
+
+#container {
+	width: 700px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px 20px 0 20px;
+    border-right: 2px solid #C2C295;
+    border-left: 2px solid #C2C295;
+    border-top: 1px solid #c2c295;
+    border-bottom: 2px solid #c2c295;
+}
+
+#content {
+	float: left;
+	width: 450px;
+}
+
+#footer {
+	clear: both;
+	border-top: 1px solid #ddd;
+	padding-bottom: 8px;
+	text-align: left;
+}
+
+#header {
+	height: 300px;
+	margin-bottom: 35px;
+	background: url(../images/header.jpg);
+	text-align: center;
+}
+
+.sep {
+	margin: 25px 0 20px 0;
+	padding: 0;
+	height: 30px;
+	border:none;
+}
+
+#sidebar {
+	float: right;
+	width: 200px;
+	margin-bottom: 35px;
+}

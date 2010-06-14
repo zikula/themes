@@ -1,0 +1,20 @@
+	<div id="topmenu">
+		<ul>
+		<li {if $pagetype eq 'home'} class="current" {/if}><a href="{pngetbaseurl}"><span>{gt text="Home"}</span></a></li>
+		<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}"><span>{gt text="Pages"}</span></a></li>
+		<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}"><span>{gt text="News"}</span></a></li>
+		<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}"><span>{gt text="Forums"}</span></a></li>
+		<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}"><span>{gt text="Contact"}</span></a></li>
+		</ul>
+	</div>
+
+<div id="header">
+
+		<h1>{sitename}</h1>
+		<p>{slogan}</p>
+		{search button=GO value="Search For..." class=searchform}
+	</div>
+
+
+
+

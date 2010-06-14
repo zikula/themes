@@ -1,0 +1,373 @@
+/********************************************
+   AUTHOR:  			Erwin Aligam 
+   WEBSITE:   			http://www.styleshout.com/
+   TEMPLATE NAME: 	Underground
+	TEMPLATE CODE:		S-0006
+   VERSION:          1.1          	
+ *******************************************/
+ 
+/********************************************
+   HTML ELEMENTS
+********************************************/ 
+
+/* top elements */
+* { margin: 0;	padding: 0; }
+
+body {
+	margin: 0; padding: 0;
+	font: 70%/1.5 Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	color: #333; 
+	background: #FFF url(../images/bg.gif) repeat-x;	
+}
+
+/* links */
+a {
+	color: #003366;
+	background-color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	color: #CC0001; 
+	background-color: inherit;
+}
+
+/* headers */
+h1, h2, h3 {
+	font-family: Arial, 'Trebuchet MS', Sans-Serif;
+	font-weight: bold;
+	color: #333;
+}
+h1, #sidebar h4 {
+	font-size: 120%;
+	letter-spacing: .5px;
+}
+h2 {
+	font-size: 115%;	
+	text-transform: uppercase; 		
+}
+h3 {
+	font-size: 115%;
+	color: #003366;		
+}
+
+/* images */
+img {
+	border: 0px solid #CCC;
+}
+img.float-right {
+  margin: 5px 0px 10px 10px;  
+}
+img.float-left {
+  margin: 5px 10px 10px 0px;
+}
+
+h1, h2, h3, p {
+	padding: 0;		
+	margin: 10px;
+}
+
+ul, ol {
+	margin: 10px 20px;
+	padding: 0 20px;
+}
+
+code {
+  margin: 10px 0;
+  padding: 10px;
+  text-align: left;
+  display: block;
+  overflow: auto;  
+  font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace;
+  /* white-space: pre; */
+  background: #FAFAFA;
+  border: 1px solid #f2f2f2;  
+  border-left: 4px solid #CC0000;
+}
+acronym {
+  cursor: help;
+  border-bottom: 1px solid #777;
+}
+blockquote {
+	margin: 10px;
+ 	padding: 0 0 0 32px;  	
+  	background: #FAFAFA url(../images/quote.gif) no-repeat 5px 10px !important; 
+	background-position: 8px 10px;
+	border: 1px solid #f2f2f2; 
+	border-left: 4px solid #CC0000; 
+	font-weight: bold;  
+}
+
+/* form elements */
+form {
+	margin:10px; padding: 0 5px;
+	border: 1px solid #f2f2f2; 
+	background-color: #FAFAFA; 
+}
+label {
+	display:block;
+	font-weight:bold;
+	margin:5px 0;
+}
+input {
+	padding: 2px;
+	border:1px solid #eee;
+	font: normal 1em Verdana, sans-serif;
+	color:#777;
+}
+textarea {
+	width:400px;
+	padding:2px;
+	font: normal 1em Verdana, sans-serif;
+	border:1px solid #eee;
+	height:100px;
+	display:block;
+	color:#777;
+}
+input.button { 
+	margin: 0; 
+	font: bolder 12px Arial, Sans-serif; 
+	border: 1px solid #CCC; 
+	padding: 1px; 
+	background: #FFF;
+	color: #CC0000;
+}
+/* search form */
+form.search {
+	position: absolute;
+	top: 5px; right: 5px;
+	padding: 0; margin: 0;
+	border: none;
+	background-color: transparent; 
+}
+form.search input.textbox { 
+	margin: 0; 
+	width: 120px;
+	border: 1px solid #CCC; 
+	background: #FFF;
+	color: #333; 
+}
+form.search input.searchbutton { 
+	margin: 0; 
+	font-size: 100%; 
+	font-family: Arial, Sans-serif; 
+	border: 1px solid #CCC; 
+	background: #FFFFFF url(../images/headerbg.gif) repeat-x bottom left; 
+	padding: 1px; 
+	font-weight: bold; 
+	height: 23px;
+	color: #333;
+	width: 60px;
+}
+
+/**********************************
+  LAYOUT 
+***********************************/
+#wrap {
+	margin: 0 auto; 
+	width: 780px;
+}
+
+/* header */
+#header {
+	position: relative;
+	margin: 0; padding: 0;
+	height: 60px;
+}
+#header span#slogan {
+	z-index: 3;
+	position: absolute;
+	left: 3px; bottom: 7px;
+	font: bold 1.2em Verdana, Arial, Tahoma,  Sans-serif;	
+	color: #FFF;	
+}
+
+#header-logo {
+	position: relative;
+	clear: both;
+	height: 50px; 
+	margin: 0; padding: 0;	
+}
+#header-logo #logo {
+	position: absolute;
+	top: 3px; left: 5px;
+	font: bold 30px "trebuchet MS", Arial, Tahoma, Sans-Serif;
+	margin: 0; padding: 0;
+	letter-spacing: -1px;
+	color: #000;
+}
+
+/* navigation tabs */
+#header ul {
+	position: absolute;
+   margin:0;
+   list-style:none;
+	right:-18px ; bottom: 3px;
+	font: bold 13px 'Trebuchet MS', Arial, Sans-serif;
+}
+#header li {
+   display:inline;
+   margin:0; padding:0;
+}
+#header a {
+   float:left;
+   background: url(../images/tableft.gif) no-repeat left top;
+   margin:0;
+   padding:0 0 0 4px;
+   text-decoration:none;
+}
+#header a span {
+   float:left;
+   display:block;
+   background: url(../images/tabright.gif) no-repeat right top;
+   padding:5px 15px 4px 6px;
+   color:#FFF;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#header a span {float:none;}
+/* End IE5-Mac hack */
+#header a:hover span {
+	color:#FFF;
+}
+#header a:hover {
+   background-position:0% -42px;
+}
+#header a:hover span {
+   background-position:100% -42px;
+}
+#header li.current a {
+   background-position:0% -42px;
+}
+#header li.current a span {
+   background-position:100% -42px;
+}
+
+/* main column */
+#main {
+	float: right;
+	margin: 0; padding: 0;
+ text-align:justify;
+	width: 545px;	
+}
+#main h1 {
+	margin: 10px 0;
+	padding: 4px 0 4px 8px; 
+	font-size: 105%;
+	color: #FFF;
+	text-transform: uppercase; 
+	background-color: #CC0000;	
+	letter-spacing: .5px;
+}
+
+#main .z-block {
+	float: right;
+    margin-bottom : 5px;
+    margin-left : 5px;
+    margin-right : 5px;
+    margin-top : 5px;
+    padding-bottom : 3px;
+    padding-left : 5px;
+    padding-right :5px;
+    padding-top : 3px;
+	width: 545px;
+
+}
+
+/* sidebar */
+#sidebar {
+	float: left;
+	width: 220px;
+	margin: 0; padding: 0; 
+	background-color: #FFFFFF; 	
+}
+#sidebar h4 {
+	margin: 10px 0 0 0; 
+	padding: 4px 0 4px 8px; 
+	font: bold 105% Arial, Sans-Serif;
+	color: #FFF;
+	text-transform: uppercase; 
+	background: #333; 
+	letter-spacing: 1px;	
+}
+#sidebar .left-box {
+	border: 1px solid #EBEBEB;
+	margin: 0 0 5px 0;	
+	background: #FFF;
+}
+#sidebar ul {
+	list-style: none;
+	text-align: left;
+	margin: 3px 0px 8px 0; padding: 0;
+	text-decoration: none;		
+}
+#sidebar ul li {
+	border-bottom: 1px solid #f2f2f2; 
+	background: url(../images/bullet.gif) no-repeat 3px 2px;	
+	padding: 3px 5px 3px 25px;
+	margin: 0;	
+}
+#sidebar ul a {
+	font-weight: bolder;
+	padding: 3px 0px;	
+	background: none;
+}
+
+
+p.extmenuadmin {
+   padding-left: 30px;
+}
+
+#sidebar .z-bkey-adminnav ul li {
+    background: none;
+    list-style-type : square;
+    margin-bottom : 5px;
+    margin-left : 20px !important;
+    margin-right : 0px;
+    margin-top : 5px;
+    padding-bottom : 3px;
+    padding-left : 5px !important;
+    padding-right : 0px;
+    padding-top : 3px;
+  }
+
+#sidebar .z-bkey-adminnav ul ul li {
+    list-style-type : square;
+    margin-bottom : 5px;
+    margin-left : 5px !important;
+    margin-right : 0px;
+    margin-top : 5px;
+    padding-bottom : 3px;
+    padding-left : 5px !important;
+    padding-right : 0px;
+    padding-top : 3px;
+  }
+
+/* footer */
+#footer { 
+	clear: both; 	
+	border-top: 1px solid #f2f2f2;
+	background: #FFF url(../images/footerbg.gif) repeat-x;
+	padding: 2px 0 10px 0; 
+	text-align: center;  
+	line-height: 1.5em;	
+	font-size: 95%;
+}
+#footer a { 
+	text-decoration: none; 
+	font-weight: bold;		
+}
+
+/* alignment classes */
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right { text-align: right; }
+
+/* display and additional classes  */
+.clear {	clear: both; }
+.red   { color: #CC0000; }
+.comments { 
+	margin: 20px 10px 5px 10px; 
+	padding: 3px 0;
+	border-bottom: 1px dashed #EFF0F1; 	
+	border-top: 1px dashed #EFF0F1;	
+}

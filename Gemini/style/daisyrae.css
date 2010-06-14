@@ -1,0 +1,576 @@
+/* 
+Theme Name: Daisy Rae Gemini
+Description: Gemini Template designed by Jennifer
+Version: 1.1 April 11, 2005
+Author: Jennifer Ledbetter
+Author URI: http://geeksmakemehot.com
+
+Credits:
+Daisy Rae Gemini developed by <a href="http://atthe404.com">Root</a> designed by <a href="http://www.geeksmakemehot.com">geeksmakemehot</a>.
+Header Image by <a href="http://sxc.hu/browse.phtml?f=profile&l=mikefroese">Mike Froese</a>.
+
+License -
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+/* -------  Layout CSS(   Centered Fixed Width) ------ */
+
+body {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* IE 5.5 hack */
+}
+
+#farouter {
+	background: #ffffff;
+	width: 760px; 
+	border: 1px solid #3A291F;
+	margin: 20px auto 20px auto;
+	text-align: left;  /* IE 5.5 hack part II */
+	}
+	
+#outer {
+	}
+	
+#rap {
+	}
+	
+#masthead {
+	letter-spacing: 0.2em;
+	margin: 8px 8px 0 8px;
+	padding: 0 10px 10px 60px; 
+	font: normal 100% 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+	height: 180px;
+	}
+
+#main {
+	padding-left:35px;
+	}
+#content {
+	float: left;
+	width: 490px; 
+	padding-top: 40px;
+	}
+	
+#menu {
+	float: right;
+	width: 175px; 
+	margin-right: 3px; 
+	border-left: 1px dashed #BAA99F;
+	}
+	
+#nav {
+	padding-left: 10px;
+	}
+	
+#logo {
+	padding-top: 25px; 
+	padding-left: 12px;
+	}
+	
+#hmenu {
+	margin: 8px; 
+	height: 30px;
+	}
+	
+#hnav {
+	margin: 0;
+	padding: 0;
+	}
+	
+#clearer { 
+	clear: both; 
+	margin: 0; padding: 0;
+	}
+	
+#footer { 
+	margin: 8px 8px 8px 8px; 
+	}
+
+
+/*----------------- Color CSS    ------------------------*/
+
+
+body {
+	background: #DCD3CE; 
+	color:#333;
+	}
+	
+#rap {
+	background: #ffffff;
+	}
+	
+#masthead {
+	background-image: url('../images/daisyrae/header.gif');
+	}
+	
+#footer {
+	background: #BAA99F;
+	}
+	
+#hmenu { 
+	background: #BAA99F;
+	}
+	
+#hnav {
+	background: #BAA99F;
+	}
+
+a {
+	color: #8C0000; 
+	text-decoration: none; 
+	}
+	
+a:visited { 
+	color: #8C0000; 
+	text-decoration: none; 
+	}
+	
+a:hover { 
+	color: #8C0000; 
+	text-decoration: underline; 
+	}
+	
+acronym, abbr { 
+	border-bottom: #333; 
+	}
+	
+blockquote {
+	border-left: #573D2E; 
+	color: #573D2E;
+	}
+	
+h2 {	
+	color: #8C0000;
+	font-size: 24px;
+	font-weight: normal;
+	}
+	
+h3 a {
+	color: #8C0000; 
+	}
+	
+h3 a:hover {
+	color: #8C0000;
+	}
+	
+h3 a:visited {
+	color: #8C0000;
+	}
+	
+.meta { 
+	color: #DCD3CE
+	} 
+	
+.meta a {
+	color: #884400;
+	}
+	
+.feedback a{
+	color: #884400;
+	}
+
+
+
+/* --------     Core CSS ---------*/
+
+
+a{
+	text-decoration: none;
+	}
+	
+a img { 
+	border: 0px solid #573D2E; 
+	padding: 2px;
+	}
+	
+acronym, abbr { 
+	border-bottom: 1px dashed; 
+	}
+	
+acronym, abbr, span.caps { 
+	cursor: help; 
+	font-size: 90%; 
+	letter-spacing: .07em;
+	}
+	
+blockquote { 
+	border-left: 1px solid #573D2E;
+	margin-left: 1.5em; 
+	padding: 5px;
+	}
+	
+cite { 
+	font-size: 90%; 
+	font-style: normal; 
+	}
+	
+#header a { 
+	color: #F2EEEC; 
+	text-decoration: none; 
+	}
+	
+#header a:hover { 
+	text-decoration: underline; 
+	}
+	
+h1 { 
+	margin: 0; 
+	padding: 20px; 
+	text-align: right; 
+	}
+	
+#hidden {
+	display:none;
+	}
+
+h2 {
+	font: 100% 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  	letter-spacing: 0.2em; 
+  	margin: 0 20px 20px 0; 
+  	padding: 20px 0 0 0; 
+  	}
+  	
+h2#tagline {
+	margin:0; 
+	margin-right: 25px; 
+	padding:0;
+	text-align: right;
+	color: #F2EEEC;
+	border: 0;
+	}
+
+.post h2 { 
+	font: 100% 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  	letter-spacing: 0.2em; 
+  	margin: 0 20px 0 30px; 
+  	padding: 20px 0 30px 0; 
+  	}
+  	
+h3 {
+	font: 24px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+	margin-left: 0; 
+	margin-top: 30px;
+	color: #8C0000;  
+	}
+	
+h3#comments { 
+	margin-left: 20px;
+	}
+	
+h3#respond { 
+	margin-left: 20px; 
+	}
+	
+h4 {
+	font-size: 16px;
+	font-weight: normal;
+	}
+	
+ol#comments li p { 
+	font-size: 100%; 
+	}
+	
+img {
+	margin: 0px;
+	padding: 2px;
+	}
+	
+p, .feedback { 
+	font: 100%/175% 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	}
+	
+p {
+	}
+	
+.textarea { 
+	width:200px; 
+	margin:0; 
+	}
+	
+#archvies {
+	font: 150% normal 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+	}
+
+
+
+/* ------------------------- Classes used by the_meta() ---------------------*/
+
+
+ul.post-meta {
+	list-style: none;
+	}
+
+ul.post-meta span.post-meta-key {
+	font-weight: bold;
+	}
+
+.credit {
+	color: #fff;
+	font-size: 90%;
+	margin: 10px 0 0 0;
+	padding: 3px;
+	text-align: center;
+	}
+
+.credit a, .credit a:hover {
+	color: #fff;
+	text-decoration: none;
+	}
+	
+.feedback {
+	text-align: right;
+	clear: both;
+	margin-right: 30px; 
+	font-size: 90%;
+	}
+	
+.meta {
+	font-size: .95em;
+	}
+	
+.meta li, ul.post-meta li {
+	display: inline;
+	}
+	
+.meta ul {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+	
+.meta, .meta a { 
+	font-weight: normal; 
+	letter-spacing: 0;
+	}
+	
+.post { 
+	margin: 35px 35px 20px 0; 
+	}
+	
+.entrytext {
+	margin-left: 30px;
+	}
+	
+.storytitle { 
+	margin-top: 10px; 
+	margin-bottom: 2px; 
+	}
+	
+.storytitle a { 
+	text-decoration: none; 
+	}
+	
+.storycontent{
+	margin-bottom: 5px; 
+	border-bottom: 1px solid #BAA99F;
+	}
+	
+#commentform { 
+	margin-left: 20px; 
+	}
+	
+#commentform  #comment { 
+	width:450px; 
+	}
+	
+#commentform #author, #commentform #email, #commentform #url, #commentform textarea {
+ 	background: #fff; 
+ 	padding: .2em; 
+ 	}
+ 	
+#commentform textarea { 
+	width:100%;
+	}
+	
+#commentlist li {
+	border: 2px solid #BAA99F; 
+	margin-bottom: 20px; 
+	padding-left: 20px;
+	}
+	
+#commentlist li ul { 
+	border-left: 1px solid #ddd; 
+	font-size: 110%; 
+	list-style-type: none;
+	}
+
+
+/* ----------  All menu styling except #menu itself (in layout above) ------- */
+
+
+#nav form {
+	margin: 0 0 0 13px;
+	}
+
+#nav input#s {
+	width: 80%;
+	background: #eee;
+	border: 1px solid #999;
+	color: #000;
+	}
+
+
+#nav ul li h2 {
+  	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  	font-weight: normal;
+	letter-spacing: 0.1em;
+	border: 0;
+	text-align: left;
+	padding-left:0;
+	margin-left: 0;
+	}
+
+
+#nav ul ul ul.children {
+	font-size: 100%;
+	padding-left: 15px;
+	}
+
+
+#nav { 
+	width: 170px; 
+	}
+
+#nav ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 95%;
+	}
+
+#nav a {
+	display: block;
+	padding: 3px;
+	padding-left: 17px;
+	width: 130px;
+	background-color: #FFF;
+	background-image: url(../images/daisyrae/icon.gif); 
+	background-repeat: no-repeat;
+	background-position: 0 55%;
+	border-bottom: 1px dotted #BAA99F;
+	}
+
+#nav a:link, #navlist a:visited {
+	text-decoration: none;
+	}
+
+#nav a:hover {
+	background-image: url(../images/daisyrae/icon2.gif); 
+	color: #000;
+	}
+
+#themeswitcher {
+	font-size: 8px;
+	}
+
+/*------------- hnav------------*/
+
+
+#hnav ul {
+	text-align: right;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 0;
+	margin-top: 0;
+	/* cancels gap caused by top padding in Opera 7.54 */
+	margin-left: 0;
+	background-color: #BAA99F;
+	color: #F2EEEC;
+	width: 100%;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	line-height: 18px;
+	/* fixes Firefox 0.9.3 */
+	}
+
+#hnav ul li {
+	display: inline;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 5px;
+	/* matches link padding except for left and right */
+	padding-top: 5px;
+	}
+
+#hnav ul li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: #F2EEEC;
+	text-decoration: none;
+	border-right: 1px solid #F2EEEC;
+	}
+
+#hnav ul li a:hover, #hnav ul li.current a {
+	background: #F2EEEC;
+	color: #3A291F;
+	}
+
+#hnav #active { 
+	border-left: 1px solid #F2EEEC; 
+	}
+
+/*------------- added ------------*/
+
+.gravatar {
+	float:left;
+	padding: 3px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #573D2E;
+}	
+
+#commentbox {
+	background: #F2EEEC;
+	border: 1px solid #573D2E;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.commentby {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.commentinfo {
+	font-size: 10px;
+	margin-top: -10px;
+	border-bottom: 1px soild #DCD3CE;
+}
+
+.commentid {
+	float: right;
+	font-size: 24px;
+	font-style: italic;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #BAA99F;
+}
+
+.commentid a {
+	color: #BAA99F;
+	text-decoration: none;
+}
+
+.post ul li {
+	padding: 0px;
+	font-weight: normal;
+	list-style: url('../images/daisyrae/icon.gif');
+	line-height: 1.5em;
+}
+
+.post ul li:hover {
+	padding: 0px;
+	font-weight: normal;
+	list-style: url('../images/daisyrae/icon2.gif');
+	line-height: 1.5em;
+}

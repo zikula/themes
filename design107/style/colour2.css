@@ -1,0 +1,81 @@
+html{height: 100%;}
+
+body
+{ background-color: #D5D8DD;
+  color: #4F5A5F;
+}
+
+blockquote
+{ background-color: #F1F4F5;
+  color: #4F5A5F;
+  border-color: #8D9093;
+}
+
+h1, #column1 h4, #column2 h2
+{ background-color: #FFFFFF;
+  color: #5381BF;
+  border-color: #D5D8DD;
+}
+
+#main
+{ background: #FFFFFF url(../images/back_2.jpg) repeat-y;
+  color: #4F5A5F;
+}
+
+#footer
+{ background-color: #FFFFFF;
+  color: #4F5A5F;
+  border-color: #D5D8DD;
+}
+
+#footer a, #footer a:hover
+{ background-color: #FFFFFF;
+  color: #4F5A5F;
+}
+
+#logo
+{ background: #FFFFFF url(../images/logo_2.jpg) no-repeat;
+  color: #4F5A5F;
+}
+
+#logo h1, #logo h1 a, #logo h1 a:hover, #logo h1 a:visited
+{ background-color: transparent;
+  text-decoration:none;
+  color: #FFFFFF;
+}  
+
+#menu
+{ background: #FFFFFF url(../images/menu_2.jpg) no-repeat;
+  color: #4F5A5F;
+}
+
+#menu li a
+{ background: transparent;
+  color: #3A424C;
+  border-color: #8D9093;
+}
+
+#menu li a:hover, #menu li.current a
+{ background: transparent;
+  color: #3A424C;
+  border-color: #FFFFFF;
+} 
+
+.block 
+{ background: #FFFFFF;
+  color: #4F5A5F;
+  border-color: #8D9093;
+}
+
+#content, #column1, #column2, 
+.block a, #column2 a,
+.block a:hover, #column2 a:hover
+{ background: #FFFFFF;
+  color: #4F5A5F;
+}
+
+input, textarea
+{ background-color: #FFFFFF;
+  color: #4F5A5F;
+  border-color: #AAA2AE;
+}

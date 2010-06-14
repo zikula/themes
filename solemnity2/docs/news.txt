@@ -1,0 +1,25 @@
+extract for news templates
+
+				<h2 id="first"><a href="#" id="intro">Introduction</a></h2>
+				
+				<p>
+				
+						Hello and welcome to Solemnity Two, the follow up to my <a href="http://www.sixshootermedia.com/blog/new-template-solemnity/">Solemnity</a> template. As mentioned in the description, this template is built on the same fundamentals as its predesecor - calm, easy on the eyes and highly readable. Of course it also makes use of valid xhtml and css too.
+				
+				</p>
+				
+				<p>
+				
+						The template was created by <a href="http://www.sixshootermedia.com">Six Shooter Media</a> and the icons used are that of the open source icon sets available at <a href="http://www.famfamfam.com/lab/icons/">famfamfam</a>.
+				
+				</p>
+				
+				<div class="info">
+				
+						<p>
+						
+								<a href="#">21 Comments</a> Posted on 01.01.01. 
+						
+						</p>
+				
+				</div>

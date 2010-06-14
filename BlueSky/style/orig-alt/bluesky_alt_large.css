@@ -1,0 +1,26 @@
+/* 
+** BLUE:SKY - large css stylesheet for blue:sky
+** This CSS file enlarges the text sizes
+** 
+** March 6, 2006 - (version 1.0)
+** 
+** this is a part of the open source layout by 
+** Jonas John (www.jonasjohn.de) ~ made for oswd.org !
+*/
+
+/* import orginal css stylesheet */
+@import url(bluesky.css);
+
+/* then modify it: */
+
+body {
+	font-size: 120%;
+}
+ 
+#header a:link, #header a:visited {
+	letter-spacing: -0.08em;
+}
+
+#footer {
+	font-size: 0.7em;
+}

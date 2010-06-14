@@ -1,0 +1,314 @@
+/* CSS Document
+   Template Title: Design Dream
+   Author: J David Macor
+   URL: http://www.jdavidmacor.com */
+
+/* Basic Body */
+html,body {
+margin:0;
+padding:0;
+color:#000;
+background:#fff;
+}
+body {
+font:76%/135% "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+padding:0 0 10px 0;
+min-width:760px;
+}
+
+#container {
+width:760px;
+margin:0 auto;
+}
+
+/* Header */
+#header {
+	height:140px;
+	background:url(../images/header.gif) 0 0 no-repeat;
+	width: 760px;
+}
+#header h1 {
+background:none;
+ float:right;
+margin-top:20px;
+margin-right:50px
+}
+
+#header #headsearch {
+ clear:both;
+ float:right;
+margin-top:20px;
+margin-right:40px
+}
+
+#header span {
+margin:0;
+padding-left:120px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:36pt;
+color:#FFFFFF;
+}
+
+.page_header {
+width:760px;
+height:118px;
+padding-left:120px;
+padding-top:38px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:36pt;
+color:#FFFFFF;
+}
+
+/* Navigation */
+#nav {
+	float:left;
+	width:760px;
+	margin-top:-19px;
+	font-size:0.94em;
+	line-height:1em;
+}
+
+#nav ul {
+	margin:0;
+	padding:0 0 0 28px;
+	list-style:none;
+}
+
+#nav li {
+	float:left;
+	margin:0 0 0 -1px;
+	padding:0 0 0 6px;
+	background:url(../images/nav1.gif) 0 100% no-repeat;
+}
+
+#nav li:hover {
+	background-position:-6px 100%;
+}
+
+#nav a {
+	float:left;
+	display:block;
+	color:#666666;
+	font-weight:bold;
+	font-family:Georgia,Times,"Times New Roman",serif;
+	background:url(../images/nav2.gif) 100% 100% no-repeat;
+	padding:5px 14px 12px 8px;
+	text-decoration:none;
+}
+
+#nav li:hover a {
+	background-image:url(../images/nav1.gif);
+}
+
+/* Hide from IE5-Mac \*/
+#nav a {float:none;}
+
+/* End IE5-Mac hack */
+#nav a:hover {
+	color:#000;
+	text-decoration:none;
+}
+
+#home #nav #t1,
+#menu2 #nav #t2,
+#menu3 #nav #t3,
+#menu4 #nav #t4,
+#menu5 #nav #t5 {
+	background-position:-12px 100%;
+	padding-left:26px;
+	margin:0 2px 0 1px;
+}
+
+#home #nav #t1 a,
+#menu2 #nav #t2 a,
+#menu3 #nav #t3 a,
+#menu4 #nav #t4 a,
+#menu5 #nav #t5 a {
+	background-image:url(../images/nav2s.gif);
+	padding-left:0;
+	padding-right:19px;
+}
+
+#nav #t1,
+#home #nav #t1 {
+	margin-left:0;
+}
+
+#nav #t5,
+#contact #nav #t5 {
+	margin-right:0;
+}
+
+/* Image */
+a img{
+border: none;
+}
+
+img.left,img.center,img.right {
+padding: 4px;
+border: 1px solid #a0a0a0;
+}
+
+img.left {
+float: left;
+margin: 0 12px 5px 0;
+}
+
+img.center {
+display: block;
+margin:0 auto;
+}
+
+img.right {
+float: right;
+margin: 0 0 5px 12px;
+}
+
+/* Content */
+#another_container {
+clear:both;
+width:760;
+}
+
+#body_container {
+width:530px;
+float:left;
+margin-top:20px;
+margin-left:11px;
+}
+
+.main_body{
+display:block;
+}
+
+.main_body *{
+display:block;
+height:1px;
+overflow:hidden;
+background:#E2DED0;
+}
+
+.main_body1{
+border-right:1px solid #faf8f4;
+padding-right:1px;
+margin-right:3px;
+border-left:1px solid #faf8f4;
+padding-left:1px;
+margin-left:3px;
+background:#f6f4ec;
+}
+
+.main_body2{
+border-right:1px solid #fdfdfc;
+border-left:1px solid #fdfdfc;
+padding:0px 1px;
+background:#f6f3ea;
+margin:0px 1px;
+}
+
+.main_body3{
+border-right:1px solid #f6f3ea;
+border-left:1px solid #f6f3ea;
+margin:0px 1px;
+}
+
+.main_body4{
+border-right:1px solid #faf8f4;
+border-left:1px solid #faf8f4;
+}
+
+.main_body5{
+border-right:1px solid #f6f4ec;
+border-left:1px solid #f6f4ec;
+}
+
+.main_body_content{
+padding:0px 5px 5px;
+background:#E2DED0;
+} 
+
+#body_container p {
+margin:0;
+padding-top:10px;
+}
+
+#body_container a {
+color: #6DA6E2;
+text-decoration: underline;
+font-weight: bold;
+}
+
+#body_container a:hover {
+color:#058EC4;
+font-weight: bold;
+text-decoration: underline;
+}
+
+
+h1 {
+font-size:18px;
+background:inherit;
+margin:0;
+padding-top:5px;
+}
+
+/* Sidebar */
+#sidebar {
+width: 180px;
+float: right;
+margin-top:20px;
+padding:4px;
+padding-left:8px;
+margin-right:11px;
+}
+
+#sidebar a {
+color: #6DA6E2;
+text-decoration: none;
+font-weight: bold;
+}
+
+#sidebar a:hover {
+color:#058EC4;
+font-weight: bold;
+text-decoration: none;
+}
+
+h2, #sidebar h4 {
+border-bottom:1px solid #999999;
+font-size:14px;
+font-weight:bold;
+margin-top:0px;
+}
+
+/* Footer */
+#footer {
+padding-top: 15px;
+padding-bottom: 0px;
+padding-left: 2px;
+padding-right: 2px;
+clear: both;
+width: 760px;
+}
+
+#footer p {
+color:#CCCCCC;
+padding: 5px;
+text-align: center;
+}
+
+#footer p a {
+color: #999999;
+font-weight:100;
+text-decoration:underline;
+}
+
+#footer p a:hover {
+color: #666666;
+text-decoration:underline;
+}
+
+.container
+{
+    margin-top: 0px;
+}

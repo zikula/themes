@@ -1,0 +1,20 @@
+	<div class="header">
+		
+		<div class="title">
+			<h1>{sitename}</h1>
+		</div>
+
+		<div class="navigation">
+		<ul>
+		<li {if $pagetype eq 'home'} class="current" {/if}><a href="{pngetbaseurl}" title="{gt text="Home"}">{gt text="Home"}</a></li>
+		<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Pages"}">{gt text="Pages"}</a></li>
+		<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}" title="{gt text="News"}">{gt text="News"}</a></li>
+		<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}" title="{gt text="Forums"}">{gt text="Forums"}</a></li>
+		<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}" title="{gt text="Contact"}">{gt text="Contact"}</a></li>
+		<li {if $module eq 'Sitemap'} class="current" {/if} style="width:129px;"><a href="{modurl modname=Sitemap}" title="{gt text="Sitemap"}">{gt text="Sitemap"}</a></li>
+
+		</ul>
+			<div class="clearer"><span></span></div>
+		</div>
+
+	</div>

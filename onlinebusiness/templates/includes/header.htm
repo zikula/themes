@@ -1,0 +1,27 @@
+<div id="topbar"><!-- Top bar -->
+<a href="{pngetbaseurl}{pnconfiggetvar name=entrypoint}?newlang=rus" title="{gt text="Change Language to Russian"}"><img src="{$imagepath}/russian.gif" alt="{gt text="Russian"}" class="languageimg" /></a>
+<a href="{pngetbaseurl}{pnconfiggetvar name=entrypoint}?newlang=fra" title="{gt text="Change Language to French"}"><img src="{$imagepath}/french.gif" alt="{gt text="French"}" class="languageimg" /></a>
+<a href="{pngetbaseurl}{pnconfiggetvar name=entrypoint}?newlang=eng" title="{gt text="Change Language to English"}"><img src="{$imagepath}/english.gif" alt="{gt text="English"}" class="languageimg" /></a>
+</div>
+
+
+<div id="hdr"><!-- header -->
+<h1><a href="{homepage}" title="{gt text="Home"}"><span>{sitename}&nbsp;Online</span>Business</a></h1>
+{userlogin}
+</div> <!-- End of header -->
+
+
+<div id="navbar"><!-- navbar -->
+	<ul id="nav">
+	<a href="{homepage}"{if $pagetype eq 'home'} class="current" {/if}><span>> </span>{gt text="Home"}</a>
+	<a href="{modurl modname=Pages}"{if $module eq 'Pages'} class="current" {/if}><span>> </span>{gt text="Pages"}</a>
+	<a href="{modurl modname=News}"{if $module eq 'News'} class="current" {/if}><span>> </span>{gt text="News"}</a>
+	<a href="{modurl modname=Dizkus}"{if $module eq 'Dizkus'} class="current" {/if}><span>> </span>{gt text="Forums"}</a>
+	<a href="{modurl modname=formicula}"{if $module eq 'formicula'} class="current" {/if}><span>> </span>{gt text="Contact"}</a>
+	</ul>
+</div> <!-- End of navbar -->
+
+
+<div id="siteimg"><p>{slogan}</p></div>
+
+

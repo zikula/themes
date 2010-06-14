@@ -1,0 +1,15 @@
+<div id="title">{sitename}</div>
+
+<div id="slogan">{slogan}</div>
+
+<div id="header">
+
+<ul id="nav">
+<li><a {if $pagetype eq 'home'} class="selected"{/if} href="{pngetbaseurl}">{gt text="Home"}</a></li>
+<li><a href="#">{gt text="Products"}</a></li>
+<li><a href="#">{gt text="Services"}</a></li>
+<li><a href="#">{gt text="About"}</a></li>
+<li><a href="{modurl modname=formicula}">{gt text="Contact"}</a></li>
+</ul>
+
+</div>

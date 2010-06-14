@@ -1,0 +1,175 @@
+/* ------------------------------------------ */
+/* ------- Written by Raymond Gerrard ------- */
+/* ------------------------------------------ */
+
+body{
+	font: normal 11px/22px Verdana, Arial, Helvetica, sans-serif;
+	background-image: url("../images/bg.gif");
+	color: #333;
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: #666;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+h1{
+	color: #333;
+	text-indent: 10px;
+    font-size: 12px;
+}
+h2{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-indent: 1em;
+	background-color: #cdd3d3;
+	font-size: 12px;
+}
+#nav h4{
+	background-color: #59708c;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-indent: 1em;
+	font-size: 12px;
+}
+#container{
+	margin: 5px;
+	text-align: left;
+	width: 730px;
+	background-color: #fcfcfc;
+	border: 1px dashed #cdd3d3;
+}
+#nav{
+	float: left;
+	width: 180px;
+	font-size: 0.8em;
+}
+#nav ul{
+	list-style-type: none;
+}
+#content{
+	float: right;
+	width: 490px;
+	margin: 0 0 0 -1;
+	padding: 0px 20px 30px 20px;
+	border-left: 1px dashed #cdd3d3;
+	background: #fcfcfc;
+}
+#footer{
+	clear: both;
+	margin: 0;
+	padding: 1px 0;
+	background: #f3f3f3;
+	text-align: center;
+	color: #59708c;
+	font-weight: bold;
+	font-size: 0.7em;
+}
+
+/* style additions when porting the template to Zikula */
+
+/* remove the border from linked images */
+a img {
+    border: 0px;
+}
+
+.topicimage {
+    float: right;
+}
+
+/* float styles */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+/* generic clearer style */
+br.clearer {
+    clear:both;
+    height: 0px;
+}
+
+/* position the banner container */
+#banner {
+    position:absolute; 
+    margin-left:750px;
+}
+
+.z-bkey-extmenu ul {
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 20px;
+    margin-left : 10px;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    text-decoration:none;
+    width : 140px;
+  }
+
+p.extmenuadmin a {
+    padding-left: 25px;
+    text-decoration:none;
+  }
+
+
+.z-blockposition-left  #block_search_q, .z-blockposition-right #block_search_q {
+    min-width : 90px !important;
+    max-width : 130px;
+  }
+
+
+.z-bkey-adminnav ul {
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 20px;
+    margin-left : 10px;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    width : 130px;
+  }
+.z-bkey-adminnav ul ul {
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 20px;
+    margin-left : 0px;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    width : 130px;
+  }
+.z-bkey-adminnav ul ul li {
+    list-style-image : none;
+    list-style-type : circle;
+    margin-bottom : 0px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 5px;
+    padding-right : 0;
+    padding-top : 0;
+    width : 130px;
+  }
+
+

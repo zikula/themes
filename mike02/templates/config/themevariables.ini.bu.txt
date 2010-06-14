@@ -1,0 +1,10 @@
+
+[variables]
+themeset = 3
+
+[themeset]
+type = select
+editable = 
+values = 1,2,3
+output = 1 The Turtle, 2 The Pig, 3 The Sheep
+language = Theme set

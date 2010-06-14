@@ -1,0 +1,9 @@
+[variables]
+layout = 3col
+
+[layout]
+type = select
+editable = 
+values = 1col,2col1,2col2,3col
+output = _SOLARIS_1COL,_SOLARIS_2COL1,_SOLARIS_2COL2,_SOLARIS_3COL
+language = _SOLARIS_LAYOUT

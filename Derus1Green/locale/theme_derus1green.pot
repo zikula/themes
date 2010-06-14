@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.2.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-24 17:30-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:4
+msgid "Derus1Green"
+msgstr ""
+
+#: version.php:5
+msgid ""
+"The Derus1Green theme is a light CSS fixed width, center alligned theme. It "
+"comes with a master 2 col page template as well as a single full width page "
+"template, matching menutree drop menu, and 6 block templates. "
+msgstr ""
+
+#: templates/modules/search/search_block_search.htm:6
+msgid "Search now"
+msgstr ""
+
+#: templates/includes/footer.htm~:8 templates/includes/footer.htm:8
+msgid "Copyright"
+msgstr ""
+
+#: templates/includes/footer.htm~:8 templates/includes/header.htm:38
+#: templates/includes/footer.htm:8
+msgid "Home"
+msgstr ""
+
+#: templates/includes/footer.htm~:11 templates/includes/header.htm:7
+#: templates/includes/footer.htm:11
+msgid "Contact Us"
+msgstr ""
+
+#: templates/includes/footer.htm~:13 templates/includes/footer.htm:13
+msgid "RSS FEED"
+msgstr ""
+
+#: templates/includes/footer.htm~:23 templates/includes/footer.htm:23
+msgid "Derus1Green Theme by"
+msgstr ""
+
+#: templates/includes/footer.htm~:23
+msgid "TakeIT2"
+msgstr ""
+
+#: templates/includes/footer.htm~:25 templates/includes/footer.htm:25
+msgid "Valid"
+msgstr ""
+
+#: templates/includes/footer.htm~:25
+msgid "CSS"
+msgstr ""
+
+#: templates/includes/footer.htm~:27 templates/includes/footer.htm:27
+msgid "XHTML"
+msgstr ""
+
+#: templates/includes/footer.htm~:50 templates/includes/footer.htm:50
+msgid "design by"
+msgstr ""
+
+#: templates/includes/footer.htm~:50 templates/includes/footer.htm:50
+msgid "and"
+msgstr ""
+
+#: templates/includes/footer.htm~:50 templates/includes/footer.htm:50
+msgid "cocktails - mixed drinks"
+msgstr ""
+
+#: templates/includes/header.htm:6
+msgid "SiteMap"
+msgstr ""
+
+#: templates/includes/header.htm:7
+msgid "Contact"
+msgstr ""
+
+#: templates/includes/header.htm:8
+msgid "Back to Main page"
+msgstr ""
+
+#: templates/includes/header.htm:16
+msgid "My Account Settings"
+msgstr ""
+
+#: templates/includes/header.htm:16
+msgid "My Account"
+msgstr ""
+
+#: templates/includes/header.htm:17
+msgid "Check Your Private Messages Inbox"
+msgstr ""
+
+#: templates/includes/header.htm:17
+msgid "Inbox"
+msgstr ""
+
+#: templates/includes/header.htm:18
+msgid "Send A New Private Message"
+msgstr ""
+
+#: templates/includes/header.htm:18
+msgid "New PM"
+msgstr ""
+
+#: templates/includes/header.htm:19
+msgid "Logout of Your Account"
+msgstr ""
+
+#: templates/includes/header.htm:19
+msgid "Logout"
+msgstr ""
+
+#: templates/includes/header.htm:30
+msgid "New Account Registration"
+msgstr ""
+
+#: templates/includes/header.htm:30
+msgid "Register"
+msgstr ""
+
+#: templates/includes/header.htm:31
+msgid "Log In to Your Account"
+msgstr ""
+
+#: templates/includes/header.htm:31
+msgid "Log In"
+msgstr ""
+
+#: templates/includes/header.htm:32
+msgid "Search"
+msgstr ""

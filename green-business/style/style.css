@@ -1,0 +1,109 @@
+/*
+	Free Green-business design - CC2.5 license
+	http://www.free-css-templates.com
+	
+*/
+
+* { padding:0; margin: 0 }
+body {
+    background: #FFFFFF url(../images/topbg.jpg) repeat-x top;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 8pt;
+	color: #454545;
+}
+
+ul { padding-left: 30px; }
+li { list-style-type: decimal; }
+input, textarea  { border: 1px solid #aaa }
+input:hover, textarea:hover  { border: 1px solid #888 }
+img { border: 3px solid #e5e5e5; margin: 0 15px 5px 0; float: left; }
+a { color: #2FB432; text-decoration: none; background: inherit }
+a:hover { text-decoration: underline }
+blockquote { margin: 0 0 15px 30px; border-left: 3px solid #8ADF88; padding: 0 0 0 8px }
+input, textarea  { border: 1px solid #aaa }
+input:hover, textarea:hover  { border: 1px solid #888 }
+input.text { color: #000000;	border: 1px solid #E6E6E6; background: inherit }
+textarea.text { font-size: 8pt; border: 1px solid #E6E6E6 }
+input.text:hover, textarea.text:hover { border: 1px solid #D6D6D6 }
+form { display: inline; margin: 0; padding: 0 }
+
+#content { padding: 0; margin: 0 auto; width: 765px; background: transparent }
+#title {	margin: 0; padding:0; height: 80px; width: 100%; background: transparent  }
+	#title .green { color: #D9FFD8; line-height: 25px; background: inherit }
+	#title .pad { padding: 0px 0 }
+	#title h1 { font: bold 2.0em "Arial", Sans-Serif; margin: 0; letter-spacing: -1px; color: #fffffe; padding-top: 28px; background: inherit }
+	#title #slogan { font: 1.0em "Arial", Sans-Serif; margin: 0;	color: #aaa; background: inherit}
+
+#menu {
+	margin: 0px;
+	padding: 0px;
+	background: inherit;
+	line-height: 35px;
+	color: #81D7DF;
+	width: 100%;
+	height: 35px
+}
+#menu  a, #menu a:visited { color: #81D7DF; text-decoration: none; background: inherit }
+#menu .submit { float: right; vertical-align: bottom  }
+	#menu .submit ul { margin:0; padding:0px 10px 0 50px; list-style:none }
+    #menu .submit li { display:inline; margin:0; padding:0 }
+    #menu .submit a { float:left; background: transparent url(../images/tableft.jpg) no-repeat left top; margin:0; padding:0 0 0 4px; text-decoration:none }
+    #menu .submit a span { float:left; background: inherit; display:block; background:url(../images/tabright.jpg) no-repeat right top; padding:0px 15px 0px 10px; margin-right: 2px; color:#FFF }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #menu .submit a span {float:none;}
+    /* End IE5-Mac hack */
+    #menu .submit a:hover span, #menu .submit ul li.current a span  {color:#fffffe;}
+    #menu .submit a:hover, #menu .submit ul li.current a span { background-position:0% -35px }
+    #menu .submit a:hover span, #menu .submit ul li.current a span  { background-position:100% -35px;  color:#fffffe; }
+    #menu .submit  a.selected, #menu .submit ul li.current a  { background-position:0% -35px; }
+    #menu .submit  a.selected span, #menu .submit ul li.current a span  { background-position:100% -35px; }
+	
+	
+#subheader {	width: 100%; margin:0; height: 87px }
+	#subheader .rside { float: right; width: 355px; height: 87px; background: transparent; margin-left: 20px }
+		#subheader .rside .padding  { padding-top: 30px }
+		#subheader .rside input.text { background: transparent url(../images/input.gif) no-repeat; width: 290px; height: 27px; border:0; padding: 2px 0 0 5px }
+		#subheader .rside .btn1 { background: transparent url(../images/loupe.gif) no-repeat; width: 30px; height: 20px !important; height: 28px; border: 0; padding: 0; cursor: pointer }
+	#subheader .lside { background: inherit; color: #FFF;  font-size: 120%; height: 87px}
+		#subheader .lside .padding { padding-top: 15px; font-family: Tahoma, Verdana, Arial, sans-serif }
+		#subheader .lside a, .lside a:hover  { color: #FFF; text-decoration: underline; background: inherit }
+#maincontent { width: 100%; background: transparent; padding-top: 15px }		
+	#maincontent h2 { color: #3A3A3A; font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 12px; text-decoration: none; line-height: 19px; margin: 0 0 5px 0; background: inherit }
+	#maincontent h2 a { color: #2FB432; font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 12px; text-decoration: none; line-height: 19px; margin: 0 0 5px 0; background: inherit }
+	#maincontent h2 a:hover { color: #2FB432; text-decoration: underline; background: inherit	}
+	#maincontent .underline { border-bottom: 1px dotted #aaa; margin-bottom: 10px }
+	#maincontent h3 { font-size: 130%; color: #6AA6AB; border-bottom: 1px dotted #aaa; background: inherit }
+	#maincontent p { padding: 0 0 20px 0; color: #454545; font: 1.0em "Arial", Sans-Serif; margin: 0;  text-decoration: none; background: inherit }
+	#maincontent .mpnull { margin: 0; padding: 0 0 0 0; }
+	#maincontent .textbox { float: right; color: #454545; width: 40%; background: #fefefe; padding: 10px; margin: 5px 0 15px 15px; border: 1px solid #e8e8e8 }
+	#left_side { width: 545px; background: transparent; margin-bottom: 20px}
+	#right_side { width: 200px; background: transparent; float: right }
+		#right_side h4 { 
+			height: 22px;
+			background: transparent url(../images/h3bg.gif) repeat-x;
+			color: #FFF;
+			border: 0;
+			font: bold 1.2em "Arial", Sans-Serif;
+			padding: 0px 0 0 5px;
+			line-height: 22px
+		}
+		#right_side .lcontent { background: #f8f8f8; border: 0px solid #e5e5e5; margin-bottom: 15px;	color: #888 }
+		#right_side .lcontent p { padding: 8px; color: #777; background: inherit }
+		#right_side ul { padding-left: 10px; background: inherit; color: #454545 }
+		#right_side li { list-style: square }
+		#right_side img { border: 1px solid #B6D6BB }
+
+
+
+#footer {
+	bottom:0;
+	clear:both;
+	text-align: left;
+	border-top: 1px solid #e5e5e5;
+	padding: 3px 0 0 0;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	color: #888;
+	background: #FFF;
+}
+#footer .right { float: right }

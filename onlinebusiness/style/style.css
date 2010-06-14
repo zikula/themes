@@ -1,0 +1,357 @@
+
+/* Online Business, free web template by davereederdesign.com */
+
+
+body {
+    background-color : #e0e0e0;
+    color : #333;
+    font-size : 100%;
+    margin-bottom : 0;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    text-align : center;
+  }
+
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+
+span {
+    color: #00A2FF;
+  }
+
+
+p, ul, p a, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/* Heading styles */
+
+h1 {
+    font-family: Georgia, serif;
+    color: #333;
+    font-weight: normal;
+    margin-left: 10px;
+    font-size: 1.55em;
+  }
+
+
+h1 a:link, h1 a:visited, h1 a:active {
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+  }
+
+
+h1 a:link span, h1 a:visited span, h1 a:active span {
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+
+h1 a:hover {
+    color: #00A2FF;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+
+h1 a:hover span {
+    color: #333;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+
+h3 a, h3 a:link, h3 a:hover {
+    font-weight: normal;
+  }
+
+/* styling for h3 heading links */
+
+h4 a, h4 a:link, h4 a:hover, h5 a:link, h5 a:hover {
+    font-weight: bold;
+  }
+
+/* styling for other heading links */
+
+
+h2 {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 0.75em;
+    background-color: #333;
+    color: #fff;
+    line-height: 2.0em;
+  }
+
+/* headings on black backgrounds */
+
+
+h3, h4, h5 {
+    font-family: Georgia, serif;
+    margin: 20px 0 0 10px;
+  }
+
+
+h3 {
+    font-size: 1.25em;
+    line-height: 1.25em;
+    font-weight: normal;
+  }
+
+
+h4 {
+    font-size: 0.90em;
+    line-height: 0.90em;
+    font-weight: bold;
+  }
+
+
+h5 {
+    font-size: 0.70em;
+    line-height: 0.70em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+/* appears like bold paragraph text */
+
+
+
+/* Text styles */
+
+p {
+    margin: 10px;
+    font-size: 0.70em;
+    line-height: 1.75em;
+  }
+
+
+p.updated {
+    margin-left: 10px;
+    font-size: 0.60em;
+    line-height: 0.60em;
+    letter-spacing: 0.05em;
+    color: #888;
+  }
+
+
+#siteimg p {
+    /* This is the large text in the site img div */margin: 0 0 0 10px;
+    /* removed usual top and bottom margin from paragraph to avoid layout breaking */padding-left: 10px;
+    padding-top: 90px;
+    font-family: Georgia, serif;
+    font-size: 1.45em;
+    line-height: 1.05em;
+    font-weight: normal;
+    letter-spacing: -0.05em;
+  }
+
+
+acronym {
+    border-bottom: 1px dashed #333;
+    cursor: help;
+  }
+
+
+ul {
+    margin-left: 10px;
+    font-size: 0.70em;
+    line-height: 1.75em;
+    list-style: inside square;
+  }
+
+/* Paragraph Links */
+
+a {
+    color: #00A2FF;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+/* The blue colour */
+
+a:link {
+    color: #00A2FF;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+
+a:hover {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+/* Divs */
+
+#pagewrap {
+    width: 770px;
+    /* Suits an 800x600 page, allowing for scrollbar */background: #fff;
+    margin-bottom : 0;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    text-align : center;
+
+  }
+
+
+#container {
+    width: 770px;
+    /* Suits an 800x600 page, allowing for scrollbar */background: #fff;
+    overflow: hidden;
+    text-align: left;
+    margin:auto;
+  }
+
+
+#topbar {
+    /* Top bar, can be used for extra links etc */width: 770px;
+    height: 25px;
+    background: #333;
+  }
+
+
+#hdr {
+    /* Header/Banner area */width: 770px;
+    /* Suits an 800x600 page, allowing for scrollbar */height: 4.5em;
+    /* Same as h1 line-height */line-height: 4.5em;
+    background: #fff;
+    text-align: left;
+  }
+
+
+#navbar {
+    /* Main Navigation area */width: 770px;
+    /* Suits an 800x600 page, allowing for scrollbar */height: 1.75em;
+    background: #f0f0f0;
+    /* Light Grey */;
+    text-align: left;
+  }
+
+
+#siteimg {
+    /* Large Site Image */width: 770px;
+    /* Suits an 800x600 page, allowing for scrollbar */height: 200px;
+    background: url('../images/siteimage.jpg') #fff;
+    /* Light Grey */;
+    text-align: left;
+  }
+
+
+#lftcol {
+    float: left;
+    width: 200px;
+    background: transparent;
+    overflow: hidden;
+ border-right: 1px dotted #000;
+ border-bottom: 1px dotted #000;
+ padding-bottom:10px;
+  }
+
+
+#rgtcol {
+    float: right;
+    width: 565px;
+    background: transparent;
+    overflow: hidden;
+  }
+
+
+#bttmbar {
+ margin-top:10px;
+ border-top: 5px solid #000;
+    /* bottom bar, containing top button and copyright info etc */width: 100%;
+    height: 30px;
+    line-height: 10px;
+    background: #fff;
+    overflow: hidden;
+  }
+
+/* Main Navigation */
+
+#nav ul {
+    display: inline;
+  }
+
+
+#nav li {
+    display: inline;
+  }
+
+
+#nav a {
+    line-height: 30px;
+    /* same as height of nav bar */margin-left: 10px;
+    display: inline;
+    font-weight: bold;
+  }
+
+
+#nav a span {
+    color: #333;
+  }
+
+/* Forms, Input boxes and buttons */
+
+form.login {
+    float: right;
+    height: 3em;
+    line-height: 3em;
+    margin: 10px 0 0 0;
+    width: 8.0em;
+  }
+
+
+input.login {
+    border: 1px solid #333;
+    width: 6em;
+    font-size: 0.95em;
+  }
+
+
+input.loginbttn {
+    border: 0px solid #fff;
+    width: 3em;
+    background: #00A2FF;
+    color: #fff;
+    font-size: 1.0em;
+  }
+
+/* Images */
+
+img.rightimg {
+    float: right;
+    margin-left: 10px;
+  }
+
+
+img.leftimg {
+    float: left;
+    margin-right: 10px;
+  }
+
+
+img.languageimg {
+    float: right;
+    margin: 4px 2px 0 0;
+  }
+
+/* used for the language flags */

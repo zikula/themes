@@ -1,0 +1,39 @@
+<div id="topbar">
+	<div class="content">
+		<div id="icons">
+			<a href="{homepage}" title="Home page"><img src="{$imagepath}/home.gif" alt="Home" /></a>
+			<a href="{modurl modname=formicula}" title="{gt text="Contact Us"}"><img src="{$imagepath}/contact.gif" alt="{gt text="Contact Us"}" /></a>
+			<a href="{modurl modname=Sitemap}" title="{gt text="SiteMap"}"><img src="{$imagepath}/sitemap.gif" alt="{gt text="SiteMap"}" /></a>
+		</div>
+		<div class="url">
+
+
+{if $loggedin eq true}
+	<strong>{userwelcome|ucwords}</strong>&nbsp;|&nbsp;<a href="{modurl modname=Users}" title="{gt text="My Account Settings"}">{gt text="My Account"}</a>&nbsp;|&nbsp;<a href="{modurl modname=Users func=logout}" title="{gt text="Logout of Your Account"}" class="last">{gt text="Logout"}</a>&nbsp;|&nbsp;
+
+	{else}
+
+	<strong><em>{userwelcome|ucwords}</em></strong>&nbsp;|&nbsp;<a href="{modurl modname=Users func=register}" title="{gt text="New Account Registration"}">{gt text="New Account Registration"}</a>&nbsp;|&nbsp;<a href="{modurl modname=Users func=loginscreen}" title="{gt text="Log In to Your Account"}" class="last">{gt text="Log In"}</a>&nbsp;|&nbsp;
+	{/if}
+
+{datetime}{if $pagetype neq 'home'}&nbsp;::&nbsp;<a href="{pngetbaseurl}">{gt text="Back to Main page"}</a>{/if}
+	
+		</div>
+	</div>
+</div>
+	
+<div id="top">
+	<div class="content">
+		<div id="menu">
+			<ul>	
+		<li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}"><span>{gt text="Home"}</span></a></li>
+		<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}"><span>{gt text="Pages"}</span></a></li>
+		<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}"><span>{gt text="News"}</span></a></li>
+		<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}"><span>{gt text="Forums"}</span></a></li>
+		<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}"><span class="last">{gt text="Contact"}</span></a></li>
+			</ul>
+		</div>
+		<h1><a href="{homepage}" title="{sitename}">{sitename}</a></h1>
+		<h2>{slogan}</h2>
+	</div>
+</div>

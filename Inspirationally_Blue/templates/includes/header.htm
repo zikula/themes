@@ -1,0 +1,15 @@
+	<div id="header">
+
+		<span class="sitename">{sitename}</span><br />
+		<span class="slogan">{slogan}</span><br />
+		{search button=GO value="Search For..." class=searchform}
+	</div>
+	<div id="chromemenu">
+		<ul>
+		<li {if $pagetype eq 'home'} class="current" {/if}><a href="{pngetbaseurl}"><span>{gt text="Home"}</span></a></li>
+		<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}"><span>{gt text="Pages"}</span></a></li>
+		<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}"><span>{gt text="News"}</span></a></li>
+		<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}"><span>{gt text="Forums"}</span></a></li>
+		<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}"><span>{gt text="Contact"}</span></a></li>
+		</ul>
+	</div>

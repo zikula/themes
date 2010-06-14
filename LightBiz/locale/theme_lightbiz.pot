@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.2.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 06:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:4
+msgid "LightBiz"
+msgstr ""
+
+#: version.php:8
+msgid "LightBiz Theme"
+msgstr ""
+
+#: templates/includes/footer.htm:4 templates/master.html:9
+msgid "Contact"
+msgstr ""
+
+#: templates/includes/footer.htm:5
+msgid "RSS FEED"
+msgstr ""
+
+#: templates/includes/footer.htm:11
+msgid "design by"
+msgstr ""
+
+#: templates/includes/footer.htm:11
+msgid "David Herreman"
+msgstr ""
+
+#: templates/includes/footer.htm:13
+msgid "Valid"
+msgstr ""
+
+#: templates/includes/footer.htm:13
+msgid "CSS"
+msgstr ""
+
+#: templates/includes/footer.htm:14
+msgid "XHTML"
+msgstr ""
+
+#: templates/master.html:9
+msgid "About"
+msgstr ""

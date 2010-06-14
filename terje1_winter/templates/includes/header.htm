@@ -1,0 +1,16 @@
+<div id="navigation1">
+<ul>
+<li><a href="{homepage}" title="{gt text="Home"}">{sitename}</a></li>
+</ul>
+</div>
+<div id="top"></div>
+
+<div id="navigation">
+<ul>
+	<li><a href="{homepage}"{if $pagetype eq 'home'} class="selected" {/if}>{gt text="Home"}</a></li>
+	<li><a href="{modurl modname=Pages}"{if $module eq 'Pages'} class="selected" {/if}>{gt text="Pages"}</a></li>
+	<li><a href="{modurl modname=News}"{if $module eq 'News'} class="selected" {/if}>{gt text="News"}</a></li>
+	<li><a href="{modurl modname=Dizkus}"{if $module eq 'Dizkus'} class="selected" {/if}>{gt text="Forums"}</a></li>
+	<li><a href="{modurl modname=formicula}"{if $module eq 'formicula'} class="selected" {/if}>{gt text="Contact"}</a></li>
+</ul>
+</div>

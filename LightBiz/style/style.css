@@ -1,0 +1,455 @@
+
+/* 
+
+LightBiz Free Template
+By Herreman David 
+http://www.free-css-templates.com
+
+*/
+
+
+body {
+    background-color : #3C4049;
+    color : #FFF;
+    font-family : 'Lucida Sans', Arial, 'Sans-Serif';
+    font-size : 74%;
+    line-height : 1.4em;
+    margin-bottom : 5px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 5px;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+  }
+
+
+.content {
+    color: #505050;
+    margin: 0 auto;
+    padding: 0;
+    width: 760px;
+    background: #FAFAFA;
+  }
+
+/*LEFT SIDE */
+
+.lside {
+    background: #FFF;
+    color: #000;
+    width: 580px;
+    float: left;
+  }
+
+
+.lside .topmenu {
+    background: #3A4354;
+    color: #FFF;
+    width: 580px;
+    height: 15px;
+    padding: 5px 0 5px 0px;
+    font-size: 90%;
+  }
+
+
+.lside .header {
+    background: #546078 url(../images/header.jpg) no-repeat;
+    width: 580px;
+    height: 145px;
+    color: #FF8D00;
+  }
+
+
+.lside .header .padding {
+    padding: 30px 0 0 35px;
+    color: #FFF;
+  }
+
+
+.lside .header .citation {
+    color : #EEE;
+    font-size: 90%;
+    padding: 70px 20px 15px 0;
+    float: right;
+    text-align: right;
+  }
+
+
+.lside .main {
+    background: #FFF;
+    color: #505050;
+    padding: 15px 20px 15px 20px;
+  }
+
+
+.lside .infobox {
+    background: #FFF url(../images/info.jpg) no-repeat;
+    color: #222;
+    height: 160px;
+  }
+
+
+.lside .infobox .r_sd {
+    width: 270px;
+    float: right;
+    padding: 10px 0px 5px 20px;
+  }
+
+
+.lside .infobox .l_sd {
+    padding: 10px 20px 5px 20px;
+  }
+
+
+.lside .infobox a {
+    color: #3A4354;
+  }
+
+/* RIGHT SIDE */
+
+.rside {
+    background: #000;
+    color: #000;
+    width: 180px;
+    float: right;
+    clear: both;
+  }
+
+
+.rside .topmenu {
+    background: #546078;
+    height: 15px;
+    color: #FFF;
+    text-align: right;
+    padding: 5px 5px 5px 0px;
+  }
+
+
+.rside .logo {
+    background: #E6E9EE;
+    height: 145px;
+    color: #000;
+    margin: 0;
+    padding: 0px;
+ display:block;
+  }
+
+
+.rside .loginbox .padding {
+    padding: 0px 10px 0px 10px;
+    line-height: 1.9em;
+    margin: 0;
+  }
+
+
+.rside .topmain {
+    background: #FF8D00;
+    height: 15px;
+    color: #FFF;
+    padding: 5px;
+    margin: 0px;
+  }
+
+
+.rside .menu {
+    background: #FAFAFA;
+    padding: 5px;
+    color: #333;
+  }
+
+
+.rside .menu h4 {
+    color: #FF8D00;
+    padding-left: 10px;
+  }
+
+
+.rside .menu .ads {
+    padding: 0 10px 0 10px;
+  }
+
+
+.rside .menu .links {
+    font-size: 90%;
+    padding-left: 10px;
+  }
+
+
+.rside .menu .links a {
+    color: #546078;
+  }
+
+
+.rside .search {
+    padding-left: 10px;
+  }
+
+/* NAVIGATION */
+
+.nav {
+    clear: both;
+    text-align: left;
+    color: #7D8085;
+    padding: 5px 0 0 0;
+  }
+
+
+.nav li {
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    padding: 0 0 0 5px;
+    border-bottom: 1px solid #ccc;
+  }
+
+
+.nav li a {
+    color: #546078;
+    text-decoration: none;
+  }
+
+
+.nav li a:hover {
+    color: #F29900;
+    text-decoration: none;
+  }
+
+/* FOOTER */
+
+.footer {
+    clear:both;
+    width: 760px;
+    padding-top: 3px;
+    height: 25px;
+    color:#FFF;
+    font-size:90%;
+    background: #546078;
+    text-align:center;
+  }
+
+
+.footer a {
+    color: #eee;
+  }
+
+
+p {
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #888;
+    background: inherit;
+  }
+
+
+hr {
+    border: 0;
+    height: 1px;
+    color: #eee;
+    background-color: #eee;
+  }
+
+
+a {
+    color: #888;
+    background: inherit;
+    text-decoration:none;
+  }
+
+
+a:hover {
+    background: inherit;
+    text-decoration: underline;
+  }
+
+
+h1 {
+    padding:0;
+    margin:0;
+    font: bold 1.8em Arial, Sans-Serif;
+    letter-spacing: -1px;
+  }
+
+
+h2 {
+    background-color: inherit;
+    color:#FF8D00;
+    font-size:140%;
+    font-weight:bold;
+    margin: 10px 0 10px 0;
+    padding:0;
+  }
+
+
+h2 a {
+    color: #FF8D00;
+  }
+
+
+h2 a:hover {
+    color: #EE8300;
+    text-decoration: none;
+  }
+
+
+ul {
+    margin: 5px 0 20px 15px;
+    padding : 0;
+    list-style : none;
+  }
+
+
+li {
+    list-style-type: none;
+    color: #F29900;
+    margin: 0 0 0px 0;
+    padding: 0 0 0 0px;
+  }
+
+
+li a {
+    color: #546078;
+  }
+
+
+li a:hover {
+    color: #F29900;
+  }
+
+
+a img {
+    border: 0px;
+  }
+
+
+fieldset {
+    border: 1px solid #eee;
+  }
+
+
+textarea.text {
+    height: 150px;
+    width: 90%;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #000;
+  }
+
+
+textarea.text:hover {
+    border: 1px solid #eee;
+    background: #FFFFF4;
+    color: #000;
+  }
+
+
+input.field {
+    border: 1px solid #ccc;
+    background-color: #3C3C3C;
+    width: 100px;
+    color: #000;
+  }
+
+
+input.field:hover {
+    border: 1px solid #eee;
+    background: #ccc;
+    color: #000;
+  }
+
+
+input.text {
+    margin: 0;
+    width: 110px;
+    border: 1px solid #546078;
+    background: #FFF;
+    color: #808080;
+  }
+
+
+input.text:hover {
+    border: 1px solid #3a4354;
+  }
+
+
+input.searchbutton {
+    margin: 0;
+    font-size: 100%;
+    font-family: Arial, Sans-serif;
+    border: none;
+    background: #FFFFFF;
+    color: #808080;
+    padding: 1px;
+    font-weight: bold;
+  }
+
+
+.date {
+    color: #505050;
+    background: #FFF;
+    text-align: right;
+    margin: 4px 0 5px 0;
+    padding: 0.4em 0 0 0;
+    border-top: 1px solid #ddd;
+  }
+
+
+.date a {
+    color: #546078;
+  }
+
+
+input.button {
+    background: #FFFFF4;
+    color: #808080;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+
+.comments {
+    padding: 10px 10px 8px 10px;
+    margin: 0 0 7px 0;
+    background: #3f3f3f;
+    color: #000;
+  }
+
+
+.commentsbox {
+    padding: 8px 0 10px 10px;
+    margin: 0 0 10px 0;
+    background: #f4f4f4;
+    color: #000;
+  }
+
+
+.error {
+    color: #990000;
+    background-color: #FFF0F0;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px dashed #990000;
+  }
+
+
+.error h2 {
+    color: #990000;
+    background: inherit;
+  }
+
+
+.success {
+    color: #000000;
+    background: #FAFAFA;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px dashed #546078;
+  }
+
+
+.success h2 {
+    color: #546078;
+    background: inherit;
+  }
+

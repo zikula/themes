@@ -1,0 +1,18 @@
+	<!--header -->
+	<div id="header">	
+		<h1 id="logo"><a href="{pngetbaseurl}" title="{gt text="Home"}">{sitename}<span class="gray"></span></a></h1>
+		<h2 id="slogan">{slogan}</h2>
+		<div id="searchform">
+		{search class=search search_class=textbox button_class=button button=Search}
+		</div>
+	</div>
+	<!-- menu -->
+	<div  id="menu">
+		<ul>
+		<li {if $pagetype eq 'home'} class="current" {/if}><a href="{pngetbaseurl}">{gt text="Home"}</a></li>
+		<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}">{gt text="Pages"}</a></li>
+		<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}">{gt text="News"}</a></li>
+		<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}">{gt text="Forums"}</a></li>
+		<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}">{gt text="Contact"}</a></li>
+		</ul>
+	</div>

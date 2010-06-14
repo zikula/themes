@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.2.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 05:56-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:4
+msgid "Vegas06"
+msgstr ""
+
+#: version.php:8
+msgid "Vegas06 OWD template"
+msgstr ""
+
+#: templates/includes/header.htm:2
+msgid "Back to Main page"
+msgstr ""
+
+#: templates/includes/header.htm:9
+msgid "Logout of Your Account"
+msgstr ""
+
+#: templates/includes/header.htm:9
+msgid "Logout"
+msgstr ""
+
+#: templates/includes/header.htm:10
+msgid "My Account Settings"
+msgstr ""
+
+#: templates/includes/header.htm:10
+msgid "My Account"
+msgstr ""
+
+#: templates/includes/header.htm:16
+msgid "New Account Registration"
+msgstr ""
+
+#: templates/includes/header.htm:17
+msgid "Log In to Your Account"
+msgstr ""
+
+#: templates/includes/header.htm:17
+msgid "Log In"
+msgstr ""
+
+#: templates/includes/header.htm:25 templates/includes/header.htm:36
+msgid "Home"
+msgstr ""
+
+#: templates/includes/header.htm:26
+msgid "Pages"
+msgstr ""
+
+#: templates/includes/header.htm:27
+msgid "News"
+msgstr ""
+
+#: templates/includes/header.htm:28
+msgid "Forums"
+msgstr ""
+
+#: templates/includes/header.htm:29 templates/includes/footer.htm:4
+msgid "Sitemap"
+msgstr ""
+
+#: templates/includes/header.htm:30 templates/includes/footer.htm:4
+msgid "Contact"
+msgstr ""
+
+#: templates/includes/header.htm:34
+msgid "Los Vegas Lights, At Night"
+msgstr ""
+
+#: templates/includes/footer.htm:4
+msgid "Home Page"
+msgstr ""
+
+#: templates/includes/footer.htm:4
+msgid "RSS Feed"
+msgstr ""
+
+#: templates/includes/footer.htm:6
+msgid "design by"
+msgstr ""
+
+#: templates/includes/footer.htm:6
+msgid "Dotsona"
+msgstr ""
+
+#: templates/includes/footer.htm:7
+msgid "Valid"
+msgstr ""
+
+#: templates/includes/footer.htm:7
+msgid "CSS"
+msgstr ""
+
+#: templates/includes/footer.htm:7
+msgid "XHTML"
+msgstr ""

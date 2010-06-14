@@ -1,0 +1,135 @@
+/* 
+** BLUE:SKY - compact css stylesheet / handheld version
+** This CSS file makes the webpage look good on
+** small display areas (eg: handheld devices)...
+** 
+** March 6, 2006 - (version 1.0)
+** 
+** this is a part of the open source layout by 
+** Jonas John (www.jonasjohn.de) ~ made for oswd.org !
+*/
+
+body {
+	color: gray;
+	background-color: white;
+	font-family: Verdana, helvetica, arial, sans-serif;
+	font-size: 70%;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	margin: 0.3em 1em 0.2em 1em;
+	padding: 0.2em 0em 0.25em 0em;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#header a:link, #header a:visited {
+	color: #004072;
+	text-decoration: none;
+}
+
+#path {
+	color: gray;
+	margin: 0.2em 0em 1em 0em;
+	padding: 0.3em 0.2em 0.3em 0.2em;
+	border: 1px solid #81AFD1;
+}
+
+#content {
+	text-align: justify;
+	line-height: 1.5em;
+	margin: 0 1em 0em 1em;
+	padding: 0;
+}
+
+#content p {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	line-height: 1.35em;
+}
+
+#content a {
+	color: gray;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#content a:hover {
+	color: #4682B4;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#content h1 {
+	clear: both;
+	font-family: Verdana, helvetica, arial, sans-serif;
+	font-size: 1.45em;
+	font-weight: bold;
+	margin: 1em 0em 0.3em 0em;
+	padding: 0.5em 0em 0em 0em;
+}
+
+div.img_left {
+    float: left;     
+	margin: 0.5em 0.8em 0em 0em;
+}
+
+div.img_right {
+    float: right;     
+	margin: 0.5em 0em 0em 0.8em;
+}
+
+div.img_left img, div.img_right img {
+    display: block;
+    border: 0.35em solid #7BA5C6;
+    padding: 0;
+	
+	/* 
+	experimental: 
+	width: 70%;
+	height: 70%;
+	*/
+}
+
+br.clear {
+	display: none;
+	clear: both;
+}
+
+acronym {
+	border-bottom: 0.06em dotted #666;
+}
+
+.left_box {
+	display: none;
+}
+
+#nav {
+	clear: both;
+	margin: 0.3em 1em 0.2em 1em;
+}
+
+#nav a:link, #nav a:visited {
+	color: #004072;
+	line-height: 1.4em;
+}
+
+#footer {
+  color: #CCC;
+  margin: 0;
+  padding: 0.25em 5mm 1.25ex 4mm;
+  clear: both;
+}
+
+#footer a {
+  color: #CCC;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  color: #4682B4;
+  text-decoration: none;
+}
+

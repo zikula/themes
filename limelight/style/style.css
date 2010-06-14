@@ -1,0 +1,317 @@
+body {
+font: 73% "lucida sans", Arial, Helvetica, Sans-Serif;
+margin: 0 auto;
+padding: 0;
+background: #fff url(../images/bg.jpg) repeat-x;
+color: #555;
+}
+	
+#wrap {
+width: 760px;
+margin: 0 auto;
+padding: 0;
+background: #fff;
+color: #555;
+}
+	
+				/*LINKS*/
+
+a, a:visited {
+color: #A6BA61;
+background: inherit;
+text-decoration: none;
+}
+	
+a:hover {
+color: #7E9135;
+background: inherit;
+text-decoration: underline;
+}
+	
+				/*TOPBAR */
+
+#topbar {
+width: 760px;
+height: 200px;
+margin: 0 auto;
+padding: 0;
+overflow: hidden;
+background: #fff url(../images/header.jpg);
+color: #000;
+}
+#topbar h1 {
+margin-top: 30px;
+padding: 20px;
+letter-spacing: 3px;
+font-size: 150%;
+color: #fff;
+background: transparent;
+}	
+#topbar h2 {
+margin: 5px;
+padding: 5px;
+font-size: 90%;
+letter-spacing: 3px;
+color: #fff;
+background: transparent;
+}
+#topbar img a {
+margin: 0;
+border: none;
+}
+	
+#topbarleft {
+float: left;
+width: 200px;
+height: 200px;
+margin: 0;
+padding: 0;
+background: #fff url(../images/logo.jpg);
+color: #000;
+}
+	
+#topbarright {
+float: right;
+width: 560px;
+text-align: right;
+margin: 0;
+padding: 10px 0 0 0;
+}
+	
+#topbarright li {
+display: inline;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+		
+#topbarright ul {
+margin: 0;
+padding: 0;
+}
+		
+#topbarright a, #topbarright a:visited {
+color: #000;
+font-size: 120%;
+font-weight: bold;
+margin: 0;
+padding: 6px 10px 6px 10px;
+text-decoration: none;
+}
+		
+#topbarright a:hover, #topbarright li.current a {
+color: #666;
+font-weight: bold;
+text-decoration: underline;
+}
+	
+				/*CONTENT */
+
+#content {
+width: 760px;
+margin: 0 auto;
+padding: 0;
+}
+
+#content p {
+padding: 0 0 10px 0;
+margin: 0;
+line-height: 2em;
+}
+	
+#content h1 {
+margin: 30px 0 0 0;
+padding: 10px 0 10px 0;
+border-bottom: 1px solid #ccc;
+font: normal 200% Century Gothic, Verdana, Arial, Sans-Serif;
+color: #809337;
+background: inherit;
+}
+	
+#content h2, #right_sidebar h4 {
+padding: 20px 0 10px 0;
+margin: 0;
+border-bottom: 1px solid #ccc;
+font: normal 200% Century Gothic, Verdana, Arial, Sans-Serif;
+color: #809337;
+background: inherit;
+}
+	
+#contentleft {
+float: left;
+width: 470px;
+margin: 0;
+padding: 0 0 20px 0;
+}
+	
+
+				/*RIGHT SIDEBAR*/
+	
+#right_sidebar {
+float: right;
+width: 225px;
+margin: 20px 0 0 20px;
+padding: 0 0 20px 0;
+border-bottom: 0px solid #ccc;
+}
+
+#right_sidebar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#right_sidebar ul li {
+display: inline;
+padding: 0;
+margin: 0;
+}
+	
+#right_sidebar ul li a {
+display: block;
+color: #000;
+text-decoration: none;
+margin: 0;
+padding: 5px 0 5px 0;
+border-bottom: 1px solid #C0C0C0;
+}
+
+#right_sidebar ul li a:hover {
+background: #eee;
+color: #7E9135;
+}
+	
+#right_sidebar p {
+padding: 3px 0 0 0;
+margin: 0;
+line-height: 20px;
+}
+	
+/*Footer Background*/
+
+#footerbg {
+background: #555;
+border-top: 5px solid #A6BA61;
+}
+	
+				/*FOOTER*/
+
+#footer {
+width: 760px;
+height: 200px;
+margin: 0 auto;
+text-align: left;
+position: relative;
+
+line-height: 1.5em;
+background: #555;
+color: #fff;
+}
+	
+#footer p {
+padding: 0;
+list-style-type: none;
+margin: 0;
+color: #fff;
+}
+	
+#footer h2 {
+padding: 0 0 20px 0;
+margin: 15px 0 0 0;
+text-transform: uppercase;
+letter-spacing: 3px;
+font: bold 120% Arial, Helvetica, Sans-Serif;
+border-bottom: 2px solid #666;
+color: #A6BA61;
+background: inherit;
+}
+
+#footer a {
+color: #aaa;
+text-decoration: none;
+}
+
+#footer a:hover {
+color: #fff;
+text-decoration: none;
+}
+	
+#footer ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#footer ul li {
+display: inline;
+padding: 0;
+margin: 0;
+}
+	
+#footer ul li a {
+display: block;
+color: #B5C28A;
+text-decoration: none;
+margin: 0;
+padding: 5px 0 5px 0;
+border-bottom: 1px solid #666;
+}
+
+#footer ul li a:hover {
+background: #444;
+color: #fff;
+}
+	
+#footerleft {
+float: left;
+width: 225px;
+margin: 0 20px 0 0;
+padding: 0;
+background: #555;
+}
+	
+#footermiddle {
+float: left;
+width: 225px;
+margin: 0 20px 0 0;
+padding: 0;
+background: #555;
+}
+	
+#footerright {
+float: right;
+width: 225px;
+margin: 0;
+padding: 0;
+background: #555;
+}
+#credits {
+ border-top: #B5C28A 1px solid;
+ display:block;
+padding: 0px;
+margin: 0;
+background: #555 !important;
+color: #fff;
+}
+#credits p {
+padding: 5px;
+margin: 0;
+background: #555;
+color: #fff;
+}
+#credits span {
+ display:inline;
+padding: 5px;
+margin: 0;
+background: #555;
+color: #fff;
+}
+a img {
+border: none;
+}
+.small {
+font-size: 90%;
+font-weight: bold;
+background: inherit;
+color: #809337;
+}

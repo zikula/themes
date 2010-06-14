@@ -1,0 +1,429 @@
+
+/*
+	StyleSheet by David Herreman
+	http://www.free-css-templates.com
+		
+*/
+
+
+
+
+
+body {
+    background-color : #fff;
+    background-image : url(../images/bg.jpg);
+    background-position : top;
+    background-repeat : repeat-x;
+    color : #454545;
+    font-family : Arial,sans-serif;
+    font-size : 0.74em;
+    line-height : 1.5em;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+  }
+
+
+a {
+    color : #7a9833;
+    background : inherit;
+    text-decoration : none;
+  }
+
+
+a:hover {
+    color : #7a9833;
+    background : inherit;
+    text-decoration : underline;
+  }
+
+
+p {
+    margin : 5px 0;
+  }
+
+
+h1 {
+    font : bold 1.8em Arial, Sans-Serif;
+    padding : 8px 0 4px 0;
+    margin : 0;
+    letter-spacing : -1px;
+  }
+
+
+h2 {
+    font : bold 1.6em Arial, Sans-Serif;
+    letter-spacing : -1px;
+  }
+
+
+h3 {
+    padding : 4px 0;
+    margin : 0;
+  }
+
+
+ul {
+    margin : 0;
+    padding : 0;
+    list-style : none;
+  }
+
+
+img {
+    border : 0;
+  }
+
+
+hr {
+    height : 1px;
+    border-style : none;
+    color : #d0d0d0;
+    background-color : #c0c0c0;
+    margin : 10px 0;
+  }
+
+
+#page {
+    margin : 0 auto;
+    width : 900px;
+  }
+
+
+#top {
+    border-bottom : 1px dotted #ccc;
+    padding-top : 0;
+    background : transparent;
+    height : 18px;
+  }
+
+
+#top #icons {
+    float : right;
+    margin-bottom : 0;
+    margin-left : 15px;
+    margin-right : 15px;
+    margin-top : 0px;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 3px;
+  }
+
+
+#top #icons img {
+    padding-right : 2px;
+    border : 0;
+  }
+
+
+#top #date {
+    float : left;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    margin-bottom : 0;
+    margin-left : 15px;
+    margin-right : 15px;
+    margin-top : 0px;
+    text-align : left;
+  }
+
+
+#masthead {
+    float:right;
+    text-align:right;
+    height:30px;
+    margin-top : 13px;
+    width:400px;
+  }
+
+
+#sitename {
+    font : bold 20px Arial, Sans-Serif;
+    height:20px;
+    padding : 0px 0 0 0;
+    margin : 0;
+    letter-spacing : 1px;
+    color : #616161;
+  }
+
+
+#slogan {
+    font : 15px Arial, Sans-Serif;
+    height:15px;
+    letter-spacing : 0;
+    color : #868686;
+    margin : 0;
+    padding : 0;
+  }
+
+
+#menu {
+    top:60px;
+    margin : 0;
+    height : 34px;
+    padding-top : 0;
+    position:relative;
+  }
+
+
+#menu li {
+    list-style : none;
+    display : inline;
+    line-height : 34px;
+  }
+
+
+#menu li a {
+    text-decoration : none;
+    margin : 0;
+    padding : 9px 15px 10px 15px;
+    font-weight : bold;
+    color : #fff;
+  }
+
+
+#menu li a:hover {
+    color : #fff;
+    background : #a7cc44;
+    margin : 0;
+  }
+
+
+#menu li a.current {
+    background : #616161 url(../images/trcorner.gif) no-repeat top right;
+    color : #fff;
+  }
+
+
+#wrapper {
+    display:block;
+    position:relative;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 61px;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    width : 900px;
+  }
+
+
+#right_side {
+    display:inline;
+    margin-top:0px;
+    float : right;
+    width : 230px;
+    background : #ffffff url(../images/topr.jpg) no-repeat top right;
+    overflow : hidden;
+  }
+
+
+#right_side .pad {
+    padding : 35px 10px 10px 17px;
+  }
+
+
+#right_side #pic {
+    width:196px;
+    height:158px;
+    position: relative;
+    padding : 0px 0px 0px 0px !important;
+    margin : 0px 0px 0px 0px !important;
+  }
+
+
+#right_side ul {
+    padding : 3px 0 8px 0;
+  }
+
+
+#right_side li {
+    line-height : 18px;
+    background : #fff;
+    list-style : square;
+    padding-left : 0;
+    margin-left : 15px;
+    color : #b4e04a;
+  }
+
+
+#right_side a {
+    background : inherit;
+    text-decoration : none;
+  }
+
+
+#right_side h4 {
+    color : #949494;
+    font : bold 1.2em Arial, Sans-Serif;
+    margin-top : 10px;
+  }
+
+
+#left_side {
+    background : inherit;
+    margin-bottom : 10px;
+    padding-left : 25px;
+    padding-right : 25px;
+    width : 620px;
+  }
+
+
+#newsbox {
+    display:block;
+    clear:left;
+    color: #ccc;
+    margin-top:5px;
+    margin-bottom : 10px;
+    margin-left : 0;
+    margin-right : 0;
+    float:left;
+    border : 0px solid #ccc;
+    background : inherit;
+    width : 610px;
+    height:74px;
+    padding : 0 10px 0 10px;
+    overflow:hidden;
+  }
+
+
+#centerblock {
+    display:inline;
+    clear:left;
+    margin-bottom : 5;
+    margin-left : 20px;
+    margin-right : 20px;
+    margin-top : 5px;
+    padding-bottom : 0;
+    padding-left : 25px;
+    padding-right : 25px;
+    padding-top : 0;
+    width : 620px;
+    text-align:justify;
+    background : inherit;
+    color : #555;
+  }
+
+
+#left_side .intro .pad {
+    padding : 18px 0 0 0;
+  }
+
+
+#left_side .intro a {
+    color : #b4e04a;
+    text-decoration : none;
+  }
+
+
+#left_side .intro a:hover {
+    color : #cdff56;
+    text-decoration : underline;
+  }
+
+
+#left_side .mpart {
+    padding : 40px 0 0 0;
+  }
+
+
+#left_side h3 {
+    background : inherit;
+    padding : 0;
+    margin : 0;
+    font : bold 1.4em Arial, Sans-Serif;
+  }
+
+
+#left_side .mpart h2 {
+    background : url(../images/lrline.gif) no-repeat bottom left;
+    height : 20px;
+    padding : 0;
+    margin : 0 0 15px 0;
+    font : 0.9em verdana, Arial, Sans-Serif;
+  }
+
+
+#left_side p {
+    color : #454545;
+    padding : 0;
+    text-align : justify;
+  }
+
+
+#left_side img {
+    float : left;
+    padding : 0 10px 5px 0;
+  }
+
+
+#left_side blockquote {
+    padding-left : 10px;
+    border-left : 3px solid #a7cc44;
+    margin : 10px 0 10px 25px;
+  }
+
+
+#left_side .rs {
+    float : right;
+    margin : 0 10px;
+    border : 1px solid #ddd;
+    padding : 5px;
+    background : #f5f5f5;
+  }
+
+
+#left_side ul {
+    list-style-position : inside;
+    margin-left : 2px;
+  }
+
+
+#left_side ul li {
+    list-style-type : square;
+    margin-left : 15px;
+  }
+
+
+#left_side ul ul li {
+    list-style : none;
+    margin-left : 10px;
+    list-style-type : lower-alpha;
+    list-style-position : inside;
+  }
+
+
+#footer {
+    border-top:1px solid #454545;
+    clear : both;
+    width : 900px;
+    margin : 0 0 6em 0;
+    color : #777;
+    background : #fff url(../images/rlline.gif) no-repeat top right;
+  }
+
+
+#footer .right {
+    float : right;
+    text-align : right;
+    background : inherit;
+    padding-top : 10px;
+    width : 900px;
+  }
+
+
+#footer a {
+    text-decoration : none;
+    background : #fff;
+  }
+

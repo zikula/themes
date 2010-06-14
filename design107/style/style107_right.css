@@ -1,0 +1,245 @@
+/* global */
+html{height: 100%;}
+
+body
+{ font-family: verdana, arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: .74em;
+}
+
+p
+{ margin: 0px;
+  padding: 0px 0px 24px 0px;
+  line-height: 20px;
+}
+
+h1
+{ font-family: tahoma, verdana, arial, sans-serif;
+  font-size: 155%;
+  font-weight: normal;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+h2
+{ margin: 0px;
+  padding: 0px 0px 4px 0px;
+  font-size: 100%;
+}
+
+img{border: 0px;}
+
+/* image positioning - left, right and center */
+.left
+{ float: left; 
+  padding: 0px 8px 0px 0px;
+}
+
+.right
+{ float: right; 
+  padding: 0px 0px 0px 8px;
+}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* block quote */
+blockquote
+{ margin: 20px 0px 20px 0px; 
+  padding: 10px 20px 0px 20px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+/* unordered list */
+ul
+{ margin: 8px 0px 0px 14px;
+  padding: 0px;
+}
+
+ul li
+{ list-style-type: square;
+  margin: 0px 0px 11px 0px; 
+  padding: 0px;
+}
+
+/* main container */
+#main
+{ width: 779px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+/* logo */
+#logo
+{ margin-left: auto; 
+  margin-right: auto;
+  padding: 0px;
+  width: 759px;
+  height: 80px;
+  text-align: left;
+}
+
+#logo h1
+{ padding: 28px 0px 0px 19px;
+  font-family: arial, verdana, sans-serif;
+  font-size: 145%;
+  font-weight: bold;
+}
+
+/* navigation menu */
+#menu
+{ height:40px;
+  width: 761px;
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 30px 0px 10px 19px;
+}
+
+#menu ul
+{ margin: 0px auto; 
+  padding: 0px; 
+  list-style: none; 
+  text-align: right; 
+  width: 760px;
+} 
+
+#menu li
+{ margin: 0px; 
+  padding: 0px; 
+  list-style: none; 
+  float: left; 
+} 
+
+#menu li a 
+{ display: block; 
+  float: left; 
+  border-top: 2px solid;
+  height: 27px;
+  font-size: 110%; 
+  text-decoration: none; 
+  padding: 3px 0px 0px 0px;
+  margin-right: 4px;
+  text-transform: lowercase;
+  font-weight: bold;
+} 
+
+/* main content */
+#content
+{ margin-left: auto; 
+  margin-right: auto;
+  width: 759px;
+  height: auto;
+  padding: 0px;
+  text-align: justify;
+  overflow: hidden;
+} 
+
+/* column 1 - contains sidebar items */
+#column1
+{ width: 190px;
+  float: right;
+  padding: 16px 0px 15px 31px;
+}
+
+#column1 h1
+{ padding: 0px 0px 6px 0px; 
+  margin: 0px 0px 12px 0px; 
+}
+
+.block
+{ position: relative;
+  text-align: justify;
+  width: 165px;
+  float: left;
+  margin: 0px 0px 15px 0px;
+  padding: 8px 0px 8px 0px;
+}
+
+.blockposition-center
+{ float: none;
+  width: auto;
+}
+
+/* column 2 - page content */
+#column2
+{ text-align: justify;
+  padding: 12px 0px 15px 22px;
+  width: 502px;
+  float: left;
+}
+
+#column2 h1
+{ padding: 12px 0px 6px 0px; 
+  margin: 0px 0px 12px 0px; 
+}
+
+.block a, #column2 a
+{ padding: 0px;
+  text-decoration: underline;
+}
+
+.block a:hover, #column2 a:hover
+{ padding: 0px;
+  text-decoration: none;
+}
+
+/* footer */
+#footer
+{ padding: 12px 0px 3px 0px;
+  width: 739px;
+  text-align: center;
+  border-top: 2px dashed;
+  height: 22px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+#footer a{text-decoration: underline;}
+#footer a:hover{text-decoration: none;}
+
+/* contact page - form layout */
+form{margin-top: 0px;}
+
+div.row
+{ clear: both;
+  width: 448px;
+  height: 29px;
+}
+
+div.row span.formlabel 
+{ float: left;
+  width: 150px;
+  text-align: left;
+}
+
+div.row span.forminput
+{ float: right;
+  text-align: right;
+} 
+
+div.spacer
+{ clear: both;
+  width: 80px;
+  height: 22px;
+}
+
+input, textarea
+{ font-family: verdana, arial, sans-serif;
+  font-size: 100%;
+  border: 1px solid;
+}
+
+.submit
+{ font-family: verdana, arial, sans-serif;
+  font-size: 100%; 
+  border: 1px solid;
+  width: 70px;
+  height: 22px;
+  cursor: pointer;
+}

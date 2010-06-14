@@ -1,0 +1,120 @@
+/* 
+** BLUE:SKY - css print stylesheet
+** This CSS file makes sure that the page is looking
+** good when it gets printed. 
+** 
+** March 5, 2006 - (version 1.0)
+** 
+** this is a part of the open source layout by 
+** Jonas John (www.jonasjohn.de) ~ made for oswd.org !
+*/
+
+html * { 
+	margin: 0; 
+	padding: 0; 
+	border: 0;
+}
+
+body { 
+    background: none; 
+    font-size: 100%; 
+    color: #000000;
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+
+/* hide these page elements: */
+#left, #path {
+    display:none;
+} 
+
+
+#header {     
+    border-bottom: 0.05em solid #666;
+}
+
+#header a:link, #header a:visited {
+    color: #666666;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    letter-spacing: -0.1em;
+    line-height: 1.2em;
+}
+
+
+#page {
+    width: 100%; 
+    margin: 0em; 
+    background-color: transparent; 
+}
+
+#content {
+    width: 100%; 
+    font-size: 0.95em;
+}
+
+#content h1 {
+    border: none; 
+    clear: both;
+    margin: 0em 0em 0em 0em;
+    padding: 0.5em 0em 0em 0.1em;
+    font-size: 1.4em;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #666666;
+}
+
+#content p {
+    margin: 0em 0em 0.5em 0em;
+    padding: 0.2em;
+}
+
+#content a:link, #content a:visited {
+    color: #000080;
+}
+
+/* special features (mozilla only) */
+
+/* Prints the link url after the link text (mozilla/ff only) */
+#content p a[href]:after {  
+    content: " < " attr(href) ">";
+    font-size: 0.7em;
+}
+
+/* Prints the title after the acronyms (mozilla/ff only) */
+acronym:after { 
+    content: " (" attr(title) ")";
+    font-style: normal;
+}
+    
+div.img_left {
+    float: left; 
+    margin: 0.5em 0.8em 0em 0em;
+    border: none;
+}
+
+div.img_right {
+    float: right; 
+    margin: 0.5em 0em 0em 0.8em;
+    border: none;
+}
+
+div.img_left img, div.img_right img {
+    border: 0.2em solid #CCCCCC;
+}
+
+br.clear {
+    clear:both;
+    display: none;
+}
+
+
+#footer {     
+    border-top: 0.1em solid #666;
+    color: #000;
+    font-size: 0.8em; 
+    text-align: right;
+    margin: 2.3em 0em 0.5em 0em;
+}
+

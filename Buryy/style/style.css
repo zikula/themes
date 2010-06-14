@@ -1,0 +1,281 @@
+/* CSS Document
+   Template Title: Bury
+   Author: J David Macor
+   URL: http://www.jdavidmacor.com */
+
+/* Main Body */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background: #fff;
+	margin: 0;
+	}
+	
+#container {
+	width: 760px;
+	background: #fff;
+	margin: 0 auto;
+	}
+	
+/* Header */
+#header {
+	width: 740px;
+	height: 60px;
+	background: url(../images/header.jpg) no-repeat;
+	padding: 10px;
+	}
+	
+#header h1 {
+	color: #fff;
+	font-size: 34px;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: -3px;
+	margin: 0;
+	width: 400px;
+	}
+	
+form {
+	float: right;
+	font-size: 9px;
+	margin-right: 0px;
+	margin-top: 10px;
+	}
+	
+form.searchform input {
+	background: #FFFFFF url(../images/input.png) top left no-repeat;
+	color: #999999;
+	border: 0;
+	font-size: 11px;
+	padding: 3px;
+	}
+	
+form.searchform input[type=submit] {
+	background: #B5B5B5;
+	color: inherit;
+	border: 1px solid #ccc;
+	width: 30px;
+	height: 23px;
+	}
+	
+/* Menu */
+#menu {
+	float: left;
+	width:100%;
+	background:#DAE0D2 url("../images/bg.gif") repeat-x bottom;
+	font-size:93%;
+	line-height:normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	}
+
+#menu ul {
+	margin:0;
+	padding:10px 10px 0;
+	list-style:none;
+	}
+	
+#menu li {
+	float:left;
+	background:url("../images/left.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 9px;
+	}
+	
+#menu a {
+	float:left;
+	display:block;
+	background:url("../images/right.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	text-decoration:none;
+	font-weight:bold;
+	color: #666666;
+	}
+	
+#menu a {
+	float:none;
+	}
+
+#menu a:hover {
+	color: #000000;
+	}
+	
+#menu .current {
+	background-image:url("../images/left_on.gif");
+	}
+	
+#menu .current a {
+	background-image:url("../images/right_on.gif");
+	color: #7F2429;
+	padding-bottom:5px;
+	}
+
+/* Content */
+#content {
+	width: 550px;
+	border-right: 1px solid #000;
+	padding: 5px;
+	padding-top: 10px;
+	float: left;
+	}
+
+a.story_title {
+	margin: 0;
+	font-size: 20px;
+	color: #B6213E;
+	text-decoration: none;
+	font-weight: bold;
+	}
+	
+a.story_title:hover {
+	color: #7F2429;
+	}
+
+#content p {
+	line-height: 150%;
+	margin-bottom: 0px;
+	}
+	
+#content a.body {
+	color: #B6213E;
+	text-decoration: none;
+	font-weight: 500;
+	}
+	
+#content a.body:hover {
+	color: #7F2429;
+	}
+	
+#content a.comment {
+	color: #B6213E;
+	text-decoration: none;
+	font-size: 10px;
+	}
+	
+#content a.comment:hover {
+	color: #7F2429;
+	}
+	
+.pagination{
+	padding: 2px;
+	padding-left: 50px;
+	clear: both;
+	margin-top:10px;
+	}
+
+.pagination ul{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 16px;
+	}
+
+.pagination li{
+	list-style-type: none;
+	display: inline;
+	padding-bottom: 1px;
+	}
+
+.pagination a, .pagination a:visited{
+	padding: 0 5px;
+	border: 1px solid #000;
+	text-decoration: none; 
+	color: #7F222A;
+	}
+
+.pagination a:hover, .pagination a:active{
+	border: 1px solid #000;
+	color: #fff;
+	background-color: #7F222A;
+	}
+
+.pagination li.currentpage{
+	font-weight: bold;
+	padding: 0 5px;
+	border: 1px solid #000;
+	background-color: #7F222A;
+	color: #FFF;
+	}
+
+.pagination li.disablepage{
+	padding: 0 5px;
+	border: 1px solid #000;
+	color: #929292;
+	}
+
+.pagination li.nextpage{
+	font-weight: bold;
+	}
+
+* html .pagination li.currentpage, * html .pagination li.disablepage{ 
+	margin-right: 5px;
+	padding-right: 0;
+	}
+	
+/* Sidebar */
+#sidebar {
+	width: 165px;
+	float: right;
+	padding: 5px;
+	margin:0;
+	}
+
+#sidebar h4 {
+	margin: 0;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+	}
+	
+#sidebar ul {
+	margin-left: 5px;
+	list-style-image: url('../images/arrow.gif');
+	}
+
+ul, ol {
+
+    margin-bottom : 5px;
+    margin-left : 10px;
+    margin-right : 0px;
+    margin-top : 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 2px;
+  }
+
+p.extmenuadmin {
+
+   padding-left: 10px;
+}
+
+
+	
+a {
+	color: #B6213E;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #7F2429;
+	}
+
+a img {
+	border: 0px;
+	}	
+/* Footer */
+#footer {
+	width: 760px;
+	margin-top: 30px;
+	clear: both;
+	text-align: center;
+	font-size: 9px;
+	color: #999;
+	}
+	
+#footer a {
+	color: #333;
+	text-decoration: none;
+	}
+	
+#footer a:hover {
+	color: #000;
+	}

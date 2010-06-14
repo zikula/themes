@@ -1,0 +1,39 @@
+	<div class="topmenu">
+		<div class="right_">
+<a href="{modurl modname=formicula}">{gt text="Contact"}</a>&nbsp;|&nbsp;
+		<a href="{modurl modname=Sitemap}">{gt text="SiteMap"}</a>
+
+
+	
+	</div>
+	<div class="date_">{datetime}{if $pagetype neq 'home'}&nbsp;::&nbsp;<a href="{pngetbaseurl}">{gt text="Back to Main page"}</a>{/if}</div>
+	</div>
+	
+	<div id="submenu">
+		<form action="{modurl modname=Search func=search}">
+			<div class="searchb"><br/> Search:&nbsp;<input type="text" name="q" class="text" />
+			<input type="submit" value="Go" class="submit" />
+			</div>
+		</form>
+{if $loggedin eq true}
+	<strong>{userwelcome|ucwords}</strong>&nbsp;|&nbsp;<a href="{modurl modname=Users}" title="{gt text="My Account Settings"}">{gt text="My Account"}</a>&nbsp;|&nbsp;<a href="{modurl modname=Users func=logout}" title="{gt text="Logout of Your Account"}" class="last">{gt text="Logout"}</a>
+
+	{else}
+
+	<strong><em>{userwelcome|ucwords}</em></strong>&nbsp;|&nbsp;<a href="{modurl modname=Users func=register}" title="{gt text="New Account Registration"}">{gt text="New Account Registration"}</a>&nbsp;|&nbsp;<a href="{modurl modname=Users func=loginscreen}" title="{gt text="Log In to Your Account"}" class="last">{gt text="Log In"}</a>
+	{/if}
+	</div>
+		
+	<div class="bridge">
+		<div class="title">{sitename}</div>
+		<div class="slogan">{slogan}</div>
+	</div>
+	<div class="nav">
+		<ul>
+		<li {if $pagetype eq 'home'} class="current" {/if}><a href="{pngetbaseurl}"><span>{gt text="Home"}</span></a></li>
+		<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}"><span>{gt text="Pages"}</span></a></li>
+		<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}"><span>{gt text="News"}</span></a></li>
+		<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}"><span>{gt text="Forums"}</span></a></li>
+		<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}"><span class="last">{gt text="Contact"}</span></a></li>
+		</ul>
+	</div>

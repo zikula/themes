@@ -1,0 +1,16 @@
+	<!-- header -->
+	<div id="header">			
+		<span id="slogan">{slogan}</span>
+		<!-- tabs -->
+		<ul>
+		<li {if $pagetype eq 'home'} class="current" {/if}><a href="{pngetbaseurl}"><span>{gt text="Home"}</span></a></li>
+		<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}"><span>{gt text="Pages"}</span></a></li>
+		<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}"><span>{gt text="News"}</span></a></li>
+		<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}"><span>{gt text="Forums"}</span></a></li>
+		<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}"><span>{gt text="Contact"}</span></a></li>
+		</ul>
+	</div>
+	<div id="header-logo">			
+		<div id="logo">{sitename}</div>		
+		{search class=search search_class=textbox button_class=searchbutton button=Search}
+	</div>

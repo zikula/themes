@@ -1,0 +1,19 @@
+	<!-- The menu, tabs -->
+
+<a name="top" id="top"></a>
+
+<div id="menu-bg">
+<div id="menu">
+	<a href="{homepage}"{if $pagetype eq 'home'} class="current" {/if}>{gt text="Home"}</a>
+	<a href="{modurl modname=Pages}"{if $module eq 'Pages'} class="current" {/if}>{gt text="Pages"}</a>
+	<a href="{modurl modname=News}"{if $module eq 'News'} class="current" {/if}>{gt text="News"}</a>
+	<a href="{modurl modname=Dizkus}"{if $module eq 'Dizkus'} class="current" {/if}>{gt text="Forums"}</a>
+	<a href="{modurl modname=formicula}"{if $module eq 'formicula'} class="current" {/if}>{gt text="Contact"}</a>
+</div>
+</div>
+	<!-- The header -->
+	<div id="header">
+			<h1><a href="{homepage}" title="{gt text="Home"}">{sitename}</a></h1>
+			<h2>{slogan}</h2>
+	</div>
+

@@ -1,0 +1,290 @@
+/*
+
+	SunRise - New Template for sNews 1.5
+	by David Herreman
+	http://www.free-css-templates.com
+	
+*/
+
+body { 
+	margin:0px 0; 
+	padding:0; 
+	font: 74% Arial, Sans-Serif; 
+	color:#ccc;  
+	background: #343434 url(../images/bg.jpg) repeat-x;
+	line-height: 1.4em; 
+}
+
+
+.content { 
+	background: #FFF url(../images/bgmain.jpg) repeat-y center;
+	color: #ccc; 
+	margin: 0 auto; 
+	padding: 0; 
+	width: 787px;
+}
+
+/* HEADER 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+#header { 
+	margin: 0; 
+	width: 787px; 
+	background: #FF9503 url(../images/header.jpg) no-repeat center top;  
+	height: 166px; 
+	color: #FFF; 
+}
+
+#header .f_search { float: right; padding: 70px 50px 0 0; }
+#header .title {	padding: 45px 0 0 50px; }
+#header h1 {
+		font-family: Arial, Verdana, Helvetica, sans-serif;
+		font-size: 22px; font-weight: bold;
+		margin: 0;
+		padding: 0; 
+}
+
+#header h2 {
+		font-family: Arial, Verdana, Helvetica, sans-serif;
+		font-size: 12px; 
+		background-image: none;
+		color: #A90000;
+		margin: 0;
+		padding: 0 0 0 2px;
+}
+
+
+/* SUBHEADER 
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+#subheader { 
+	background: #A90000 url(../images/bgmenu.jpg) repeat-y center;
+	width: 787px;
+	height: 105px;
+	background-color: #A90000;
+	color: #FFF;
+	overflow: hidden;
+}
+#subheader .padding { padding: 10px 15px 10px 15px;}
+#subheader h2 { color: #FEAB06; }
+#subheader a {color: #FECF5F; }
+#subheader li, #subheader p { 	color: #FFF;}
+
+
+/* NAVIGATION
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+div.pn-bkey-menu { text-align: left; color: 	#7D8085; padding: 20px 0 0 0px; width: 150px; }
+div.pn-bkey-menu li { 
+	font-weight: bold; 
+	margin: 5px 0 5px 0px; 
+	padding: 0px 0 0 0px; 
+	border-bottom: 1px solid #ccc; 
+	height: 25px; background: url(../images/li.png) no-repeat left;
+	list-style-image: none;
+
+}
+div.pn-bkey-menu li a { color: #546078; text-decoration: none;  padding: 5px 0 0 10px; display: block; height: 25px;}
+div.pn-bkey-menu li a:hover { color: #FFF; text-decoration: none; background: #A90000; display: block; height: 25px;}
+
+
+/* MAIN
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+#main { background: #FFF; width: 765px; margin: 0 10px 0 10px; color: #808080; }  
+#main .left_side { 
+	padding:0px 0 0 10px; margin:0;
+	width: 180px; 
+	background: url(../images/mright.png) no-repeat right; 
+	min-height: 505px;  
+}
+
+#main .left_side ul { 
+	margin: 5px 0 5px 0; 
+	padding : 0; 
+	color: #a90000;
+	list-style-image: url(../images/arrow.gif);
+}
+	
+#main .left_side li { 
+	margin: 0 0 2px 20px;
+	padding: 0 0 0 0px;
+	color: #555;
+	 
+}
+
+#main .right_side { float: right; width: 550px; background: #FFF; padding:15px 15px 0 0; margin:0; }
+#main h3 { font: 85% Arial, Sans-Serif; margin: 0 0 10px 0; padding: 0; color: #5f5f5f; background: inherit; 
+			border-bottom: 1px solid #FEAB06;
+}
+
+#main .box  {	background: #efefef; padding: 5px; border: 1px solid #ccc;}
+
+#main .right_side ul { 
+	margin: 5px 0 5px 0; 
+	padding : 0; 
+	list-style : none; 
+	border-bottom: 0px solid #eee; 
+	list-style-type: square;
+	color: #a90000;
+}
+	
+#main .right_side li { 
+	margin: 0 0 2px 15px;
+	padding: 0 0 0 0px;
+	color: #555;
+}
+
+
+
+/* FOOTER
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+#footer { 
+	clear:both;
+	height: 34px;
+	color:#555;  
+	background: #fff url(../images/footer.jpg) top no-repeat; 
+	font-size:90%; 
+	padding: 0; 
+	text-align:center; 
+}
+
+#footer .padding { padding: 10px 0px 0px 0px; }
+#footer .right { 
+	float:right; 
+	clear:right; 
+	text-align:right; 
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+input.search { width: 150px; border: 1px solid #A90000; color: #666; }
+input.submit { 
+	background: none; 
+	color: #A90000;
+	font: bold 1.1em Arial, Verdana, Helvetica, sans-serif; 
+	border: 0;
+}
+
+input.search:hover {	background: #FFFFF4; }
+
+ul { margin: 0 0 0px 0; padding : 0; list-style : none; }
+li { 	margin: 0 0 2px 0; padding: 0 0 0 0px;	color: #555; }
+
+
+p { margin: 0 0 5px 0; padding: 0; color: #808080; background: inherit; }
+a { color: #a90000; background: inherit; text-decoration:none; }
+a img { border: 0px; }
+a:hover { color:#FC7901; background: inherit; text-decoration:none; }
+
+h1 { 
+	padding:0; 
+	margin:0; 
+	background: inherit;
+	font: bold 1.8em Arial, Sans-Serif; 
+	letter-spacing: -1px;
+}
+
+h1 a { color: #FFF; background: inherit; }
+
+h2, h4 { 
+	background: url(../images/h.gif) no-repeat left;
+	color:#000;
+	font-size:140%; 
+	font-weight:bold; 
+	margin: 5px 0 5px 0px; 
+	padding:0 0 0 15px; 
+}
+
+h2 a { background: #FFF; color: #000; }
+h2 a:hover { background: #FFF; color: #A90000; }
+
+fieldset {	border: 1px solid #A90000; }
+textarea.text { 
+	height: 150px; 
+	width: 90%; 
+	border: 1px solid #A90000; 
+	background: #FFF; 
+	color: #354D5F;
+}
+
+textarea.text:hover { 
+	border: 1px solid #A70000; 
+	background: #FFFFF4; 
+	color: #000;
+}
+
+input.field { 
+	border: 1px solid #A90000; 
+	background-color: #FFFFFF; 
+	width: 283px; 
+	color: #000;
+}
+
+input.field:hover { 
+	border: 1px solid #A70000; 
+	background: #FFFFF4; 
+	color: #000;
+}
+
+input.text { 
+    border: 1px solid #A70000; 
+	margin: 0; 
+	width: 150px;
+	background: inherit;
+	color: #000; 
+	padding: 4px;
+	
+}
+
+
+input.text:hover { 
+	border: 0px solid #A70000; 
+}
+
+.date { 
+	color: #808080; 
+	background: #FFFFFF;
+	text-align: right; 
+	margin: 4px 0 5px 0; 
+	padding: 0.4em 0 0 0; 
+	border-top: 1px solid #eee;
+}
+
+.comments { 
+	padding: 10px 10px 8px 10px; 
+	margin: 0 0 7px 0; 
+	background: #f8f8f8; 
+	color: #000;
+}
+
+.commentsbox { 
+	padding: 8px 0 10px 10px; 
+	margin: 0 0 10px 0; 
+	background: #f4f4f4; 
+	color: #000;
+}
+
+.error {
+	color: #990000;
+	background-color: #FFF0F0;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px dashed #990000;
+}
+.error h2 {
+	color: #990000;
+	background: inherit;
+}
+
+.success {
+	color: #000000;
+	background: #F5FBE1;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px dashed #7BA813;
+}
+.success h2 {
+	color: #7BA813;
+	background: inherit;
+}

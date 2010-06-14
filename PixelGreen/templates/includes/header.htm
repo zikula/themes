@@ -1,0 +1,17 @@
+	<div id="header"><div id="header-content">	
+
+		<h1 id="logo"><a href="{pngetbaseurl}" title="{sitename}&nbsp;{gt text="Home Page"}">{sitename}</a></h1>	
+		<h2 id="slogan">{slogan}</h2>		
+
+		<!-- Menu Tabs -->
+		<ul>
+		<li {if $pagetype eq 'home'} class="current" {/if}><a href="{pngetbaseurl}">{gt text="Home"}</a></li>
+		<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}">{gt text="Pages"}</a></li>
+		<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}">{gt text="News"}</a></li>
+		<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}">{gt text="Forums"}</a></li>
+		<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}">{gt text="Contact"}</a></li>		
+		</ul>		
+	
+	</div></div>
+	
+	<div class="headerphoto"></div>

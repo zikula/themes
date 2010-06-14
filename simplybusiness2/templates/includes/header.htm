@@ -1,0 +1,19 @@
+<!--
+******************************
+	Header + Navigation
+******************************
+-->
+<div id="header"><img src="{$imagepath}/logo.jpg" style="float: left;" alt="{sitename}&nbsp;{gt text="Logo"}" /></div>
+
+<div id="nav">
+	<ul>
+	
+	<li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}">{gt text="Home"}</a></li>
+	<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}">{gt text="Pages"}</a></li>
+	<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}">{gt text="News"}</a></li>
+	<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}">{gt text="Forums"}</a></li>
+	<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}">{gt text="Contact"}</a></li>
+	
+	</ul>
+</div>
+

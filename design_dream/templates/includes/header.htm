@@ -1,0 +1,15 @@
+<div id="header">
+<h1>{sitename}</h1>
+<div id="headsearch">{search value='Search For...' class='searchform' button='GO' size=25}</div>
+</div>
+
+<div id="nav">
+<ul>
+	<li id="t1" {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}">{gt text="Home"}</a></li>
+	<li id="t2" {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}">{gt text="Pages"}</a></li>
+	<li id="t3" {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}">{gt text="News"}</a></li>
+	<li id="t4" {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}">{gt text="Forums"}</a></li>
+	<li id="t5" {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}">{gt text="Contact"}</a></li>
+</ul>
+
+</div>

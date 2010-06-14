@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.2.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 05:29-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:4
+msgid "Contented3"
+msgstr ""
+
+#: version.php:8
+msgid "Contented3 OWD template"
+msgstr ""
+
+#: templates/includes/header.htm:8 templates/includes/footer.htm:7
+msgid "Home"
+msgstr ""
+
+#: templates/includes/header.htm:9
+msgid "Forums"
+msgstr ""
+
+#: templates/includes/header.htm:10
+msgid "Wiki"
+msgstr ""
+
+#: templates/includes/header.htm:11
+msgid "Sitemap"
+msgstr ""
+
+#: templates/includes/header.htm:12
+msgid "Contact"
+msgstr ""
+
+#: templates/includes/footer.htm:3
+msgid "Contact Us"
+msgstr ""
+
+#: templates/includes/footer.htm:8
+msgid "SiteMap"
+msgstr ""
+
+#: templates/includes/footer.htm:10
+msgid "RSS Feed"
+msgstr ""
+
+#: templates/includes/footer.htm:12
+msgid "Design by"
+msgstr ""
+
+#: templates/includes/footer.htm:12
+msgid "Contented Designs"
+msgstr ""
+
+#: templates/includes/footer.htm:13
+msgid "Valid"
+msgstr ""
+
+#: templates/includes/footer.htm:13
+msgid "XHTML"
+msgstr ""
+
+#: templates/includes/footer.htm:14
+msgid "CSS"
+msgstr ""
+
+#: templates/master.html:11
+msgid "home"
+msgstr ""

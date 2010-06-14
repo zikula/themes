@@ -1,0 +1,81 @@
+html{height: 100%;}
+
+body
+{ background-color: #D9E1DE;
+  color: #4F5F54;
+}
+
+blockquote
+{ background-color: #EFF7F2;
+  color: #4F5F54;
+  border-color: #8C9491;
+}
+
+h1, #column1 h4, #column2 h2
+{ background-color: #FFFFFF;
+  color: #498554;
+  border-color: #D9E1DE;
+}
+
+#main
+{ background: #FFFFFF url(../images/back_5.jpg) repeat-y;
+  color: #4F5F54;
+}
+
+#footer
+{ background-color: #FFFFFF;
+  color: #4F5F54;
+  border-color: #D9E1DE;
+}
+
+#footer a, #footer a:hover
+{ background-color: #FFFFFF;
+  color: #4F5F54;
+}
+
+#logo
+{ background: #FFFFFF url(../images/logo_5.jpg) no-repeat;
+  color: #4F5F54;
+}
+
+#logo h1, #logo h1 a, #logo h1 a:hover, #logo h1 a:visited
+{ background-color: transparent;
+  text-decoration:none;
+  color: #FFFFFF;
+}  
+
+#menu
+{ background: #FFFFFF url(../images/menu_5.jpg) no-repeat;
+  color: #4F5F54;
+}
+
+#menu li a
+{ background: transparent;
+  color: #33413C;
+  border-color: #8C9491;
+}
+
+#menu li a:hover, #menu li.current a
+{ background: transparent;
+  color: #33413C;
+  border-color: #FFFFFF;
+} 
+
+.block 
+{ background: #FFFFFF;
+  color: #4F5F54;
+  border-color: #8C9491;
+}
+
+#content, #column1, #column2, 
+.block a, #column2 a,
+.block a:hover, #column2 a:hover
+{ background: #FFFFFF;
+  color: #4F5F54;
+}
+
+input, textarea
+{ background-color: #FFFFFF;
+  color: #4F5F54;
+  border-color: #AAA2AE;
+}
