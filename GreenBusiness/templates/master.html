@@ -1,34 +1,26 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang}" lang="{lang}" dir="{langdirection}">
-<head>
-{include file="includes/head.htm"}
-</head>
-<body>
-	<div id="content">
-{include file="includes/header.htm"}
-
-
-			
-	<div id="maincontent">
-	{if $pagetype neq 'admin'}
-		<div id="right_side">
-			{blockposition name=left}
-			{blockposition name=right}
-		</div>
-	{/if}
-		<div id="left_side" {if $pagetype eq 'admin'} style="width:auto;margin:auto;background-image :none !important;"{/if}>
-			{if $pagetype eq 'home'}
-			{blockposition name=center}
-			{/if}
-			{$maincontent}
-		</div>
-		
-		
-	</div>
-
-	{include file="includes/footer.htm"}	
-
-			
-	</div>	
-   </body>
+    <head>
+        {include file="includes/head.htm"}
+    </head>
+    <body>
+        <div id="content">
+            {include file="includes/header.htm"}
+            <div id="maincontent">
+                {if $pagetype neq 'admin'}
+                <div id="right_side">
+                    {blockposition name=left}
+                    {blockposition name=right}
+                </div>
+                {/if}
+                <div id="left_side" {if $pagetype eq 'admin'} style="width:auto;margin:auto;background-image :none !important;"{/if}>
+                    {if $pagetype eq 'home'}
+                    {blockposition name=center}
+                    {/if}
+                    {$maincontent}
+                </div>
+            </div>
+            {include file="includes/footer.htm"}
+        </div>
+    </body>
 </html>

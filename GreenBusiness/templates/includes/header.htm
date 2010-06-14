@@ -1,31 +1,31 @@
-	<div id="title">
-		<h1><a class="green"><a href="{homepage}">{sitename}</a></span> -</h1>
-		<span id="slogan">{slogan}</span>
-	</div>	
-		
-	<div id="menu">
-		<div class="submit">
-			<ul>
-		<li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}"><span>{gt text="Home"}</span></a></li>
-		<li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}"><span>{gt text="Pages"}</span></a></li>
-		<li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}"><span>{gt text="News"}</span></a></li>
-		<li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}"><span>{gt text="Forums"}</span></a></li>
-		<li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}"><span class="last">{gt text="Contact"}</span></a></li>
-			</ul>
-		</div>
-	</div>
-	
-	<div id="subheader">
-		<div class="rside">
-			<div class="padding">
-				<div id="search">
-				{search size=20 maxlength=250 search_class='text' button='' button_class='btn1'}
-				</div>
-			</div>
-		</div>
-		<div class="lside">
-			<div class="padding">	
-				{blockposition name=top}
-			</div>
-		</div>
-	</div>	
+<div id="title">
+    <h1><a class="green"><a href="{homepage}">{sitename}</a></span> -</h1>
+    <span id="slogan">{slogan}</span>
+</div>
+
+<div id="menu">
+    <div class="submit">
+        <ul>
+            <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}"><span>{gt text="Home"}</span></a></li>
+            <li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}"><span>{gt text="Pages"}</span></a></li>
+            <li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}"><span>{gt text="News"}</span></a></li>
+            <li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}"><span>{gt text="Forums"}</span></a></li>
+            <li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}"><span class="last">{gt text="Contact"}</span></a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="subheader">
+    <div class="rside">
+        <div class="padding">
+            <div id="search">
+                {search size=20 maxlength=250 search_class='text' button='' button_class='btn1'}
+            </div>
+        </div>
+    </div>
+    <div class="lside">
+        <div class="padding">
+            {blockposition name=top}
+        </div>
+    </div>
+</div>

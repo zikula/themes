@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'green-business';
+$themeversion['name'] 		= 'GreenBusiness';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Green Business', $domain);
 $themeversion['regid'] 		= '0';
@@ -16,4 +16,3 @@ $themeversion['help'] 		= '';
 $themeversion['changelog'] 	= '';
 $themeversion['license'] 	= 'docs/license.txt';
 $themeversion['xhtml'] 		= true;
-?>
