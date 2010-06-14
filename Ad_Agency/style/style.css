@@ -16,7 +16,7 @@ h4 {font: 30px 'HelveticaNeue-CondensedBold', 'Arial Narrow', Helvetica, Arial, 
 .pic{margin-top:8px;}
 /* -----------------  top info  -------------------------------------------------------*/
 
-#header { clear:both; width:900px; height:80px; background: url(../images/header.jpg) no-repeat; 
+#header { clear:both; width:900px; height:80px; background: url(../images/header.jpg) no-repeat;
 margin:0; }
 #title {float:left; width:240px; padding: 20px 0 10px 60px;}
 #title h3 {font-size:12px; padding:5px 0 0 0; margin:0; color:#444;}
@@ -27,7 +27,7 @@ margin:0; }
 #menu li { display:inline; }
 #menu li a {  color:#444; text-decoration:none; padding:1px 10px 1px 10px;
 height:19px; background:none;}
-#menu li a:hover { background: none;color:#631e19;} 
+#menu li a:hover { background: none;color:#631e19;}
 
 /* ----------------- Main content -------------------------------------------------------*/
 
@@ -46,11 +46,11 @@ height:19px; background:none;}
 
 /* ----------------- Bottom content -------------------------------------------------------*/
 
-#footer { clear: both; text-align:center; line-height: 1.8em; color: #444; background: #fff; padding: 4px 0; 
+#footer { clear: both; text-align:center; line-height: 1.8em; color: #444; background: #fff; padding: 4px 0;
 margin:10px 0 0 0;}
 #footer a {color: #631e19; background: inherit;}
 
 /* ----------------- Module styles -------------------------------------------------------*/
-.pn-module-Pages {
-font-size: 1.1em;
+.z-module-Pages {
+    font-size: 1.1em;
 }

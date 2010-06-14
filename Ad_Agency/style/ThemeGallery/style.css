@@ -1,29 +1,29 @@
 ul#themegallery_itemlist {
     width: 95%;
-	padding: 1em;
+    padding: 1em;
     list-style: none;
 }
 
 ul#themegallery_itemlist>li {
     list-style: none;
-	clear:left;
+    clear:left;
 }
 
 ul#themegallery_itemlist li div.themegallery-info {
-	width:49%;
-	float: left;
+    width:49%;
+    float: left;
 }
 
 ul#themegallery_itemlist li div.themegallery-preview {
-	width:49%;
-	text-align:right;
-	float: left;
+    width:49%;
+    text-align:right;
+    float: left;
 }
 
 ul#themegallery_itemlist li div.themegallery-preview img{
-	padding: 8px;
-	margin-bottom: 5px;
-	border: 1px solid #cccccc;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #cccccc;
 }
 
 div#themegallery_back {
@@ -31,21 +31,21 @@ div#themegallery_back {
 }
 
 div#themegallery_info {
-	float: right;
-	width: 300px;
-	border: 1px solid black;
-	padding: 5px;
-	min-height: 250px;
-	margin-top: 10px;
-	background-color: #CDEB8B;
+    float: right;
+    width: 300px;
+    border: 1px solid black;
+    padding: 5px;
+    min-height: 250px;
+    margin-top: 10px;
+    background-color: #CDEB8B;
 }
 
 li.themegallery_author {
-	margin-bottom: 10px;
-	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 li.themegallery_action {
-	display: inline;
-	padding-left: 60px;
+    display: inline;
+    padding-left: 60px;
 }
