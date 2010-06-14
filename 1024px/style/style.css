@@ -1,10 +1,7 @@
-
 /* 1024px - An open source xhtml/css website template by Andreas Viklund - http://andreasviklund.com . Free to use in any way and for any purpose as long as the proper credits are given to the original designer.
-
 Version: 1.0, March 29, 2006 */
 
 /******** General tags ********/
-
 
 body {
     font:76% Verdana,Tahoma,Arial,sans-serif;
@@ -13,51 +10,51 @@ body {
     line-height:1.2em;
     margin:0 auto;
     padding:0;
-  }
+}
 
 
 a {
     text-decoration:none;
     color:#4088b8;
     font-weight:bold;
-  }
+}
 
 
 a:hover {
     text-decoration:underline;
-  }
+}
 
 
 a img {
     border:0;
-  }
+}
 
 
 p {
     margin:0 0 18px 10px;
-  }
+}
 
 
 ul,ol,dl {
     font-size:0.9em;
     margin:2px 0 16px 35px;
-  }
+}
 
 
 ul ul,ol ol {
     margin:4px 0 4px 35px;
-  }
+}
 
 
 h1 {
     color:#4088b8;
-  }
+}
 
 
 h1 a {
     text-transform:none;
     color:#4088b8;
-  }
+}
 
 
 h2 {
@@ -67,7 +64,7 @@ h2 {
     padding:0 2px 2px 5px;
     margin:0 0 10px 0;
     letter-spacing:-1px;
-  }
+}
 
 
 h3 {
@@ -77,7 +74,7 @@ h3 {
     border-bottom:1px solid #dadada;
     margin:10px 0 8px 0;
     padding:1px 2px 2px 3px;
-  }
+}
 
 
 blockquote {
@@ -85,7 +82,7 @@ blockquote {
     border:1px solid #dadada;
     margin:20px 10px;
     padding:8px;
-  }
+}
 
 /******** Main wrap ********/
 
@@ -95,7 +92,7 @@ blockquote {
     width:970px;
     margin:10px auto;
     padding:0;
-  }
+}
 
 /******** Header ********/
 
@@ -104,7 +101,7 @@ blockquote {
 #toplinks {
     text-align:right;
     padding:5px 2px 2px 3px;
-  }
+}
 
 
 #header {
@@ -115,7 +112,7 @@ blockquote {
     margin-left : 0;
     margin-right : 0;
     margin-top : 0;
-  }
+}
 
 
 #header h1 {
@@ -123,7 +120,7 @@ blockquote {
     letter-spacing:-8px;
     margin:0 0 30px 25px;
     color:#4088b8;
-  }
+}
 
 
 #sitename {
@@ -131,19 +128,19 @@ blockquote {
     letter-spacing:-8px;
     margin:0 0 30px 25px;
     color:#4088b8;
-  }
+}
 
 
 #sitename a {
     color:#4088b8;
     text-decoration:none;
-  }
+}
 
 
 #sitename a:hover {
     color:#4490C3;
     text-decoration:none;
-  }
+}
 
 
 #slogan {
@@ -155,7 +152,7 @@ blockquote {
     letter-spacing:-1px;
     margin:15px 0px 20px 35px;
     line-height:1.2em;
-  }
+}
 
 /******** sidebar ********/
 
@@ -174,7 +171,7 @@ blockquote {
     padding-right : 5px;
     padding-top : 1px;
     width : 190px;
-  }
+}
 
 
 #sidebar ul {
@@ -182,38 +179,38 @@ blockquote {
     font-size:0.9em;
     margin:0;
     padding:0 0 15px 10px;
-  }
+}
 
 
 #sidebar li {
     list-style:none;
     margin:0 0 4px 0;
     padding:0;
-  }
+}
 
 
 #sidebar li a {
     font-size:1.2em;
     font-weight:bold;
     padding:2px;
-  }
+}
 
 
 #sidebar ul ul {
     margin:4px 0 3px 15px;
     line-height:1.2em;
     padding:0;
-  }
+}
 
 
 #sidebar ul ul li a {
     font-weight:normal;
-  }
+}
 
 
 #sidebar h2 {
     margin:3px 0px 8px 0px;
-  }
+}
 
 /******** Content variations ********/
 
@@ -225,7 +222,7 @@ blockquote {
     text-align:left;
     margin:0;
     padding:0;
-  }
+}
 
 
 #contentalt {
@@ -235,12 +232,12 @@ blockquote {
     text-align:left;
     padding:0;
     margin-right:20px;
-  }
+}
 
 
 #content h3, #contentalt h3 {
     margin:10px 0 8px;
-  }
+}
 
 /******** Footer ********/
 
@@ -254,18 +251,18 @@ blockquote {
     margin:0 auto;
     padding:8px 0;
     line-height:1.6em;
-  }
+}
 
 
 #footer p {
     margin:0;
     padding:0;
-  }
+}
 
 
 #footer a {
     color:#808080;
-  }
+}
 
 /******** Various classes ********/
 
@@ -277,7 +274,7 @@ blockquote {
     border:1px solid #c8c8c8;
     line-height:1.3em;
     padding:5px 5px 5px 8px;
-  }
+}
 
 
 .box h2 {
@@ -287,80 +284,80 @@ blockquote {
     padding:0 2px 2px 5px;
     margin:0 0 10px 0;
     letter-spacing:-1px;
-  }
+}
 
 
 .box a {
     color:#f0f0f0;
-  }
+}
 
 
 .left {
     float:left;
     margin:0 15px 4px 0;
-  }
+}
 
 
 .right {
     float:right;
     margin:0 0 4px 15px;
-  }
+}
 
 
 .textright {
     text-align:right;
-  }
+}
 
 
 .readmore {
     text-align:right;
     margin:-10px 10px 12px 0;
-  }
+}
 
 
 .center {
     text-align:center;
-  }
+}
 
 
 .blue {
     color:#4088b8;
-  }
+}
 
 
 .big {
     font-size:1.3em;
-  }
+}
 
 
 .small {
     font-size:0.8em;
-  }
+}
 
 
 .bold {
     font-weight:bold;
-  }
+}
 
 
 .clear {
     clear:both;
-  }
+}
 
 
 .hide {
     display:none;
-  }
+}
 
 
 .fade {
     color:#c8c8c8;
-  }
+}
 
 
 .gray {
     color:#808080;
-  }
+}
 
 
 .photo {
@@ -368,42 +365,4 @@ blockquote {
     padding:2px;
     background-color:#ffffff;
     margin:6px 18px 2px 5px;
-  }
-
-/** required Zikula styles **/
-
-
-.pn-clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-  }
-
-
-.pn-clearfix {
-    display: inline-table;
-  }
-
-/* Hides from IE-mac \*/
-
-
-* html .pn-clearfix {
-    height: 1%;
-  }
-
-
-.pn-clearfix {
-    display: block;
-  }
-
-/* End hide from IE-mac */
-
-/* Overflow-Method to clear float environments */
-
-
-.pn-floatbox {
-    overflow:hidden;
-  }
-
+}
