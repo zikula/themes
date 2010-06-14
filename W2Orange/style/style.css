@@ -1,4 +1,3 @@
-
 /*
 By Herreman David
 http://www.free-css-templates.com
@@ -20,13 +19,12 @@ body {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
-
+}
 
 a {
     color: #46574D;
     background: inherit;
-  }
+}
 
 
 a:hover {
@@ -36,12 +34,12 @@ a:hover {
     background-position : inherit;
     background-repeat : inherit;
     color : #647B6D;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 h1 {
@@ -57,7 +55,7 @@ h1 {
     padding-left : 8px;
     padding-right : 0;
     padding-top : 16px;
-  }
+}
 
 
 h2 {
@@ -73,7 +71,7 @@ h2 {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 h1 a {
@@ -83,12 +81,12 @@ h1 a {
     background-position : inherit;
     background-repeat : inherit;
     color : #46574D;
-  }
+}
 
 
 h1 a, h2 a {
     text-decoration : none;
-  }
+}
 
 
 h1 a:hover, h2 a:hover {
@@ -98,7 +96,7 @@ h1 a:hover, h2 a:hover {
     background-position : inherit;
     background-repeat : inherit;
     color : #BFE1ED;
-  }
+}
 
 
 h3 {
@@ -114,7 +112,7 @@ h3 {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 p {
@@ -123,12 +121,12 @@ p {
     margin-left : 0;
     margin-right : 0;
     margin-top : 0;
-  }
+}
 
 
 form {
     margin: 0;
-  }
+}
 
 
 input.search {
@@ -138,7 +136,7 @@ input.search {
     background: #FFF;
     padding: 3px;
     color: #616161;
-  }
+}
 
 
 input.submit {
@@ -149,7 +147,7 @@ input.submit {
     background: #FFF;
     padding: 3px;
     color: #616161;
-  }
+}
 
 
 
@@ -165,14 +163,14 @@ input.submit {
     padding-right : 0;
     padding-top : 0;
     width : 800px;
-  }
+}
 
 
 #header .leftside {
     clear : both;
     float : left;
     width : 350px;
-  }
+}
 
 
 #header h1 {
@@ -184,7 +182,7 @@ input.submit {
     padding-left : 0px;
     padding-right : 0;
     padding-top : 12px;
-  }
+}
 
 
 #header h2 {
@@ -196,19 +194,19 @@ input.submit {
     padding-left : 5px;
     padding-right : 0;
     padding-top : 5px;
-  }
+}
 
 
 #header .searchf {
     float : right;
     margin-right : 15px;
     margin-top : 5px;
-  }
+}
 
 
 .searchpad {
     padding-top: 15px;
-  }
+}
 
 #topbar {
     clear : both;
@@ -220,29 +218,29 @@ input.submit {
     padding-right : 10px;
 
     text-align : center;
-  }
+}
 
 
 #topbar a {
     color : #000;
     font-size : 9px;
     text-align : center;
-  }
+}
 
 
 #login {
     float:left;
-  }
+}
 
 
 #logout {
     float:left;
-  }
+}
 
 
 #snacktime {
     float:right;
-  }
+}
 
 
 #hnews {
@@ -260,7 +258,7 @@ input.submit {
     padding-right : 10px;
     padding-top : 10px;
     width : 800px;
-  }
+}
 
 
 #hnews h2, .hnews h2 {
@@ -268,19 +266,19 @@ input.submit {
     font-family : Arial,sans-serif;
     font-size : 1.4em;
     font-weight : bold;
-  }
+}
 
 
 #hnews a, .hnews a {
     color : #FFCF83;
     text-decoration : none;
-  }
+}
 
 
 #hnews a:hover, .hnews a:hover {
     color : #FFDF83;
     text-decoration : underline;
-  }
+}
 
 
 #nav {
@@ -290,7 +288,7 @@ input.submit {
     margin-right : auto;
     margin-top : 3px;
     width : 800px;
-  }
+}
 
 
 #menu-list {
@@ -304,7 +302,7 @@ input.submit {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 #menu-list li a, #menu-list li strong, #menu-list li span {
@@ -318,12 +316,12 @@ input.submit {
     padding-right : 10px;
     padding-top : 5px;
     text-decoration : none;
-  }
+}
 
 
 #menu-list li a {
     float : none;
-  }
+}
 
 
 #menu-list li {
@@ -337,7 +335,7 @@ input.submit {
     padding-left : 0px;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 #menu-list li a:hover, #menu-list li.current a {
@@ -351,7 +349,7 @@ input.submit {
     border-top : #FF9C00 solid 3px;
     border-left : #FF9C00 solid 1px;
     border-right : #FF9C00 solid 1px;
-  }
+}
 
 
 #menu-list .padding {
@@ -360,7 +358,7 @@ input.submit {
     padding-left : 10px;
     padding-right : 0;
     padding-top : 5px;
-  }
+}
 
 
 #content {
@@ -376,7 +374,7 @@ input.submit {
     padding-right : 0px;
     padding-top : 0px;
     position:relative;
-  }
+}
 
 
 #bottomb {
@@ -388,7 +386,7 @@ input.submit {
     font-family : Arial,sans-serif;
     font-size : 1.25em;
     width : 100%;
-  }
+}
 
 
 #bottomb .padding {
@@ -401,7 +399,7 @@ input.submit {
     padding-right : 40px;
     padding-top : 30px;
     width : 800px;
-  }
+}
 
 
 #bottomb ul {
@@ -415,7 +413,7 @@ input.submit {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 #bottomb li {
@@ -432,7 +430,7 @@ input.submit {
     padding-left : 0px;
     padding-right : 0;
     padding-top : 0px;
-  }
+}
 
 
 #bottomb li a {
@@ -444,7 +442,7 @@ input.submit {
     padding-right : 0;
     padding-top : 5px;
     text-decoration : none;
-  }
+}
 
 
 #bottomb li a:hover {
@@ -453,7 +451,7 @@ input.submit {
     display : block;
     margin-bottom : 2px;
     text-decoration : none;
-  }
+}
 
 
 #bottomb h2 {
@@ -465,14 +463,14 @@ input.submit {
     padding-left : 0;
     padding-right : 0;
     padding-top : 5px;
-  }
+}
 
 
 #bottomb .rights {
     float : right;
     width : 200px;
     z-index : 1;
-  }
+}
 
 
 #bottomb .bottomc {
@@ -483,7 +481,7 @@ input.submit {
     margin-top : 0;
     width : 200px;
     z-index : 2;
-  }
+}
 
 
 #bottomb .bottomd {
@@ -494,20 +492,20 @@ input.submit {
     margin-top : 0;
     width : 200px;
     z-index : 3;
-  }
+}
 
 
 .imgd {
     border: 1px solid #ccc;
     padding: 5px;
-  }
+}
 
 
 .main_content {
     margin: 0 auto;
     margin-top: 10px;
     width: 800px;
-  }
+}
 
 
 .sd_left {
@@ -517,7 +515,7 @@ input.submit {
     padding: 0px 20px 0px 5px;
     width: 500px;
     font: 1.3em arial, helvetica, verdana, sans-serif;
-  }
+}
 
 
 .sd_right {
@@ -528,19 +526,19 @@ input.submit {
     padding: 0px 0px 0 0px;
     width: 250px;
     font: 1.3em arial, helvetica, verdana, sans-serif;
-  }
+}
 
 
 .text_padding {
     padding: 15px 0 0 0;
-  }
+}
 
 
 .main_content h2 {
     padding: 5px 0 5px 0;
     color: #FF9C00;
     font: bold 1.6em Arial, sans-serif;
-  }
+}
 
 
 .date {
@@ -550,12 +548,12 @@ input.submit {
     margin: 10px 0 5px 0;
     padding: 0.4em 0 0 0;
     border-top: 1px solid #FFDEAB;
-  }
+}
 
 
 .date img {
     vertical-align: middle;
-  }
+}
 
 
 input.button {
@@ -563,7 +561,7 @@ input.button {
     color: #808080;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-  }
+}
 
 
 .comments {
@@ -571,7 +569,7 @@ input.button {
     margin: 0 0 7px 0;
     background: #f8f8f8;
     color: #000;
-  }
+}
 
 
 .commentsbox {
@@ -579,7 +577,7 @@ input.button {
     margin: 0 0 10px 0;
     background: #f4f4f4;
     color: #000;
-  }
+}
 
 
 .error {
@@ -589,13 +587,13 @@ input.button {
     margin-top: 5px;
     margin-bottom: 10px;
     border: 1px dashed #990000;
-  }
+}
 
 
 .error h2 {
     color: #990000;
     background: inherit;
-  }
+}
 
 
 .success {
@@ -605,13 +603,13 @@ input.button {
     margin-top: 5px;
     margin-bottom: 5px;
     border: 1px dashed #7BA813;
-  }
+}
 
 
 .success h2 {
     color: #7BA813;
     background: inherit;
-  }
+}
 
 
 #footer {
@@ -625,7 +623,7 @@ input.button {
     font-size : 1.3em;
     text-align : center;
     width : 100%;
-  }
+}
 
 
 #footer .padding {
@@ -633,19 +631,19 @@ input.button {
     padding-left : 70px;
     padding-right : 70px;
     padding-top : 25px;
-  }
+}
 
 
 #footer a {
     color : #FFCF83;
     text-decoration : none;
-  }
+}
 
 
 #footer a:hover {
     color : #FFDF83;
     text-decoration : underline;
-  }
+}
 
 
 .z-bkey-extmenu ul {
@@ -662,12 +660,12 @@ input.button {
     padding-top : 0;
     text-decoration:none;
 
-  }
+}
 
 p.extmenuadmin a {
     padding-left: 35px;
     text-decoration:none;
-  }
+}
 
 .z-bkey-adminnav ul {
     list-style-position:inside;
@@ -682,7 +680,7 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
 
-  }
+}
 .z-bkey-adminnav ul ul {
     list-style-position:inside;
     list-style-image : none;
@@ -696,7 +694,7 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
 
-  }
+}
 .z-bkey-adminnav ul ul li {
     list-style-image : none;
     list-style-type : circle;
@@ -709,5 +707,5 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
 
-  }
+}
 
