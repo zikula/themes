@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'Citrus_Island';
+$themeversion['name'] 		= 'Citrusisland';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Citrus Island', $domain);
 $themeversion['regid'] 		= '0';

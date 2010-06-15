@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'frametheme';
+$themeversion['name'] 		= 'Frametheme';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Frame Theme', $domain);
 $themeversion['regid'] 		= '0';

@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'Elite_Circle';
+$themeversion['name'] 		= 'Elitecircle';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Elite Circle', $domain);
 $themeversion['regid'] 		= '0';

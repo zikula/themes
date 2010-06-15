@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'aqueous_light';
+$themeversion['name'] 		= 'Aqueous_light';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Aqueous Light', $domain);
 $themeversion['regid'] 		= '0';

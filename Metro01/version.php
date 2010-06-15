@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'metro01';
+$themeversion['name'] 		= 'Metro01';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Metro01', $domain);
 $themeversion['regid'] 		= '0';

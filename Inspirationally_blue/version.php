@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'Inspirationally_Blue';
+$themeversion['name'] 		= 'Inspirationally_blue';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Inspirationally Blue', $domain);
 $themeversion['regid'] 		= '0';

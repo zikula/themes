@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'simplybusiness2';
+$themeversion['name'] 		= 'Simplybusiness2';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('SimplyBusiness2', $domain);
 $themeversion['regid'] 		= '0';

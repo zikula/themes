@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'naturalist';
+$themeversion['name'] 		= 'Naturalist';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Naturalist', $domain);
 $themeversion['regid'] 		= '0';

@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] 		= 'Derus1Green';
+$themeversion['name'] 		= 'Derus1green';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Derus1Green', $domain);
 $themeversion['description'] 	= __("The Derus1Green theme is a light CSS fixed width, center alligned theme. It comes with a master 2 col page template as well as a single full width page template, matching menutree drop menu, and 6 block templates. ", $domain);

@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'organicrhythm';
+$themeversion['name'] 		= 'Organicrhythm';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('OrganicRhythm', $domain);
 $themeversion['regid'] 		= '0';

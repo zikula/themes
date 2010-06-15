@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'plain2';
+$themeversion['name'] 		= 'Plain2';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('plain2', $domain);
 $themeversion['regid'] 		= '0';

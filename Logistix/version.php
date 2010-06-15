@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'logistix';
+$themeversion['name'] 		= 'Logistix';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Logistix', $domain);
 $themeversion['regid'] 		= '0';

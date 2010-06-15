@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'Pixel_Green';
+$themeversion['name'] 		= 'Pixelgreen';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Pixel_Green', $domain);
 $themeversion['regid'] 		= '0';

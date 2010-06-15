@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'GreenBusiness';
+$themeversion['name'] 		= 'Greenbusiness';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Green Business', $domain);
 $themeversion['regid'] 		= '0';

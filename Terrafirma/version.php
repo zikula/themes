@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'terrafirma';
+$themeversion['name'] 		= 'Terrafirma';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('terrafirma', $domain);
 $themeversion['regid'] 		= '0';

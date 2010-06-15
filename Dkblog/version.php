@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'dkblog';
+$themeversion['name'] 		= 'Dkblog';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('DkBlog', $domain);
 $themeversion['regid'] 		= '0';

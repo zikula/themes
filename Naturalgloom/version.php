@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'Natural_Gloom';
+$themeversion['name'] 		= 'Naturalgloom';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Natural_Gloom', $domain);
 $themeversion['regid'] 		= '0';

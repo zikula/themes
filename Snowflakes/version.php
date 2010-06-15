@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'snowflakes';
+$themeversion['name'] 		= 'Snowflakes';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('SnowFlakes', $domain);
 $themeversion['regid'] 		= '0';

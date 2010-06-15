@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'decayed';
+$themeversion['name'] 		= 'Decayed';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Decayed', $domain);
 $themeversion['regid'] 		= '0';

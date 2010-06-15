@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] 		= 'RedBridge';
+$themeversion['name'] 		= 'Redbridge';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('RedBridge', $domain);
 $themeversion['regid'] 		= '0';

@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'bookish';
+$themeversion['name'] 		= 'Bookish';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Bookish', $domain);
 $themeversion['regid'] 		= '0';

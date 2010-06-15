@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] 		= 'onlinebusiness';
+$themeversion['name'] 		= 'Onlinebusiness';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Online Business', $domain);
 $themeversion['regid'] 		= '0';

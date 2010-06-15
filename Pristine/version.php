@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] 		= 'pristine';
+$themeversion['name'] 		= 'Pristine';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Pristine', $domain);
 $themeversion['version'] 	= '2.0';

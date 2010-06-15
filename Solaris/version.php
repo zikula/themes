@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'solaris';
+$themeversion['name'] 		= 'Solaris';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('solaris', $domain);
 $themeversion['regid'] 		= '0';

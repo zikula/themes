@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'limelight';
+$themeversion['name'] 		= 'Limelight';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Limelight', $domain);
 $themeversion['regid'] 		= '0';

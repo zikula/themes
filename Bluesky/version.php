@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] 		= 'BlueSky';
+$themeversion['name'] 		= 'Bluesky';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Blue Sky', $domain);
 $themeversion['regid'] 		= '0';

@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'miniblog';
+$themeversion['name'] 		= 'Miniblog';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Miniblog', $domain);
 $themeversion['regid'] 		= '0';

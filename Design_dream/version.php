@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'design_dream';
+$themeversion['name'] 		= 'Design_dream';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Design Dream', $domain);
 $themeversion['regid'] 		= '0';

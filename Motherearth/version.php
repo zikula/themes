@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'MotherEarth';
+$themeversion['name'] 		= 'Motherearth';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('MotherEarth', $domain);
 $themeversion['regid'] 		= '0';

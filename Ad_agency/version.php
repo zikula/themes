@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'Ad_Agency';
+$themeversion['name'] 		= 'Ad_agency';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Ad Agency', $domain);
 $themeversion['version'] 	= '2.0';

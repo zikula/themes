@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'curiously_green';
+$themeversion['name'] 		= 'Curiously_green';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Curiously Green', $domain);
 $themeversion['regid'] 		= '0';

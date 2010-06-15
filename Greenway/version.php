@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'greenway';
+$themeversion['name'] 		= 'Greenway';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Greenway', $domain);
 $themeversion['regid'] 		= '0';

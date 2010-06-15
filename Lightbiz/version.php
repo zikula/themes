@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] 		= 'LightBiz';
+$themeversion['name'] 		= 'Lightbiz';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('LightBiz', $domain);
 $themeversion['regid'] 		= '0';

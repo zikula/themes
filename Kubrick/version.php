@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'kubrick';
+$themeversion['name'] 		= 'Kubrick';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('kubrick', $domain);
 $themeversion['regid'] 		= '0';

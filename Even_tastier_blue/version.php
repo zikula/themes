@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'Even_Tastier_Blue';
+$themeversion['name'] 		= 'Even_tastier_blue';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Even Tastier Blue', $domain);
 $themeversion['regid'] 		= '0';

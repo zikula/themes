@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] 		= 'W2Orange';
+$themeversion['name'] 		= 'W2orange';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Web 2.0 Orange', $domain);
 $themeversion['regid'] 		= '0';

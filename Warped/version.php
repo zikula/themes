@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'warped';
+$themeversion['name'] 		= 'Warped';
 $domain 			= ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('warped', $domain);
 $themeversion['regid'] 		= '0';

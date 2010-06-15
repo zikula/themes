@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] 		= 'godetia';
+$themeversion['name'] 		= 'Godetia';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] 	= __('Godetia', $domain);
 $themeversion['regid'] 		= '0';
