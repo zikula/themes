@@ -5,24 +5,23 @@
 </head>
 <body>
 <div class="content">
-{include file="includes/header.htm"}
-	<div id="main">
-		<div class="right_side">
-
-			{blockposition name=right}
-		</div>
-		<div class="center">
-			{if $pagetype eq 'home'}
-			{blockposition name=center}
-			{/if}
-			{$maincontent}
-		</div>
-		<div class="leftmenu">
-			{blockposition name=left}
-		</div>
-	</div>
-	<br />&nbsp;<br />
-{include file="includes/footer.htm"}
+    {include file="includes/header.htm"}
+    <div id="main">
+        <div class="right_side">
+            {blockposition name=right}
+        </div>
+        <div class="center">
+            {if $pagetype eq 'home'}
+                {blockposition name=center}
+            {/if}
+            {$maincontent}
+        </div>
+        <div class="leftmenu">
+            {blockposition name=left}
+        </div>
+    </div>
+    <br />&nbsp;<br />
+    {include file="includes/footer.htm"}
 </div>
 </body>
 </html>
