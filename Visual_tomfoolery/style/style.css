@@ -1,9 +1,7 @@
-
 /*
-
 My First Template to Owd
 COLLIN GRASLEY - 2006
-	
+
 */
 
 
@@ -15,7 +13,7 @@ body {
     font: 74% Arial, Sans-Serif;
     color:#ccc;
     line-height: 1.4em;
-  }
+}
 
 
 .content {
@@ -26,22 +24,22 @@ body {
     width: 800px;
     border-left:6px solid #000;
     border-right:6px solid #000;
-  }
+}
 
 
 .img {
     padding: 0 12px 8px 0;
     float: left;
-  }
+}
 
 
 .img2 {
     padding: 0 0 3px 3px;
     float: right;
-  }
+}
 
-/* 
- Here is the start of the header Information
+/*
+Here is the start of the header Information
 */
 
 
@@ -57,27 +55,27 @@ body {
     padding-left : 5px;
     padding-right : 5px;
     padding-top : 10px;
-  }
+}
 
 
 #top a {
     color: #999;
-  }
+}
 
 
 #login {
     float:left;
-  }
+}
 
 
 #logout {
     float:left;
-  }
+}
 
 
 #snacktime {
     float:right;
-  }
+}
 
 
 #header {
@@ -86,12 +84,12 @@ body {
     background: url(../images/head.jpg) no-repeat;
     height: 127px;
     color:#a3b2ba;
-  }
+}
 
 
 #header .info {
     padding: 25px 0 0 30px;
-  }
+}
 
 
 #header h1 {
@@ -101,7 +99,7 @@ body {
     font-weight: bold;
     margin: 0;
     padding: 0;
-  }
+}
 
 
 #header h2 {
@@ -111,7 +109,7 @@ body {
     color:#000;
     margin: 0;
     padding: 6px 0 0 2px;
-  }
+}
 
 /* */
 
@@ -121,22 +119,22 @@ body {
     width: 800px;
     height: 35px;
     color: #FFF;
-  }
+}
 
 
 #subheader .padding {
     padding: 10px 15px 10px 15px;
-  }
+}
 
 
 #subheader h2 {
     color:#0088af;
-  }
+}
 
 
 #subheader a {
     color: #FECF5F;
-  }
+}
 
 /*  Top Navigation */
 
@@ -147,14 +145,14 @@ body {
     height: 38px;
     margin: 0;
     padding: 0;
-  }
+}
 
 
 #menu ul {
     margin:0;
     list-style:none;
     padding: 5px 0 0 20px;
-  }
+}
 
 
 #menu a, #nav strong, #nav span {
@@ -167,12 +165,12 @@ body {
     font-weight:bold;
     text-decoration:none;
     text-transform:uppercase;
-  }
+}
 
 
 #menu a {
     float:none;
-  }
+}
 
 
 #menu li {
@@ -180,7 +178,7 @@ body {
     background:inherit;
     margin:2px;
     padding:0 0 0 0px;
-  }
+}
 
 
 #menu a:hover {
@@ -191,14 +189,14 @@ body {
     color:#fff;
     padding: 5px;
     text-decoration:none;
-  }
+}
 
 
 #menu .padding {
     padding: 5px 0 0 10px;
     font-weight: bold;
     color: #808080;
-  }
+}
 
 /**/
 
@@ -208,7 +206,7 @@ body {
     color: #808080;
     padding: 20px 0 0 0px;
     width: 244px;
-  }
+}
 
 
 .nav li {
@@ -216,7 +214,7 @@ body {
     padding: 0px 0 0 0px;
     border-bottom: 1px dotted #888;
     list-style: none;
-  }
+}
 
 
 .nav li a {
@@ -227,7 +225,7 @@ body {
     background: #101010;
     display: block;
     margin-bottom: 2px;
-  }
+}
 
 
 .nav li a:hover {
@@ -236,7 +234,7 @@ body {
     background:#212121;
     display: block;
     margin-bottom: 2px;
-  }
+}
 
 /* The meat and potatoes*/
 
@@ -246,7 +244,7 @@ body {
     width: 800px;
     margin: 0 ;
     color: #808080;
-  }
+}
 
 
 #main .right_side {
@@ -265,27 +263,27 @@ body {
     padding-right : 5px;
     padding-top : 0px;
     width : 215px;
-  }
+}
 
 
 #main .right_side .hitems {
     margin: 0;
     padding: 0;
-  }
+}
 
 
 #main .right_side .hitems ul {
     margin: 5px 0 5px 0;
     padding : 0;
     color: #808080;
-  }
+}
 
 
 #main .right_side .hitems li {
     margin: 0 0 2px 20px;
     padding: 0 0 0 0px;
     color: #555;
-  }
+}
 
 
 #main .left_side {
@@ -294,7 +292,7 @@ body {
     background: inherit;
     padding:15px 15px 0 15px;
     margin:0;
-  }
+}
 
 
 #main h3 {
@@ -305,14 +303,14 @@ body {
     color: #999;
     background: inherit;
     border-bottom: 1px dotted #e10085;
-  }
+}
 
 
 #main .box {
     background: #efefef;
     padding: 5px;
     border: 1px solid #ccc;
-  }
+}
 
 
 #main .right_side ul {
@@ -322,21 +320,21 @@ body {
     border-bottom: 0px solid #eee;
     list-style-type: square;
     color: #a90000;
-  }
+}
 
 
 #main .right_side li {
     margin: 0 0 2px 2px;
     padding: 0 0 0 0px;
     color: #555;
-  }
+}
 
 
 #main .right_side  .padding {
     margin: 0 0 20px 2px;
     padding: 0 0 0 0px;
     color: #808080;
-  }
+}
 
 /* the footer info*/
 
@@ -350,24 +348,24 @@ body {
     font-size:90%;
     padding: 0;
     text-align:left;
-  }
+}
 
 
 #footer .info {
     padding: 20px 0px 0px 5px;
-  }
+}
 
 
 #footer .right {
     float:right;
     clear:right;
     text-align:right;
-  }
+}
 
 
 #footer a {
     color: #e10085;
-  }
+}
 
 /* Odds and ends*/
 
@@ -378,14 +376,14 @@ ul {
     margin-left: 0;
     padding-left: 5px;
     list-style : square;
-  }
+}
 
 
 li {
     margin: 0 0 2px 15px;
     padding: 0 0 0 0px;
     color: #555;
-  }
+}
 
 
 p {
@@ -393,21 +391,21 @@ p {
     padding: 0;
     color: #808080;
     background: inherit;
-  }
+}
 
 
 a {
     color:#e10085 ;
     background: inherit;
     text-decoration:none;
-  }
+}
 
 
 a:hover {
     color:#0088af;
     background: inherit;
     text-decoration:underline;
-  }
+}
 
 
 h1 {
@@ -417,13 +415,13 @@ h1 {
     background: inherit;
     font: bold 23px Arial, Sans-Serif;
     letter-spacing: -1px;
-  }
+}
 
 
 h1 a {
     color:#0088af;
     background: inherit;
-  }
+}
 
 
 h2, h4 {
@@ -432,20 +430,20 @@ h2, h4 {
     font-weight:bold;
     margin: 5px 0 5px 0px;
     padding:0 0 0 2px;
-  }
+}
 
 
 h2 a, h4 a {
     background:inherit;
     color:#0088af;
-  }
+}
 
 
 h2 a:hover, h4 a:hover {
     background:inherit;
     color: #68ADD5;
     text-decoration:none;
-  }
+}
 
 
 .date {
@@ -455,5 +453,5 @@ h2 a:hover, h4 a:hover {
     margin: 4px 0 5px 0;
     padding: 0.4em 0 0 0;
     border-top: 1px dotted #eee;
-  }
+}
 
