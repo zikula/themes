@@ -8,7 +8,7 @@ body {
     color: #666;
     background: #F0E9DD url(../images/body_bg.gif) repeat-y;
     background-position: 50% 0px;
-  }
+}
 
 
 #container {
@@ -16,7 +16,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
-  }
+}
 
 
 #banner {
@@ -30,7 +30,7 @@ body {
     padding-left : 0px;
     padding-right : 0px;
     padding-top : 0px;
-  }
+}
 
 
 #banner h1 {
@@ -44,7 +44,7 @@ body {
     padding-top : 65px;
     text-align : right;
     top-style : none;
-  }
+}
 
 
 #banner h1 a:hover {
@@ -52,7 +52,7 @@ body {
     border-bottom: none;
     border-top: none;
     text-align: right;
-  }
+}
 
 
 #banner h4 {
@@ -62,29 +62,29 @@ body {
     padding-right : 3px;
     padding-top : 0px;
     text-align : left;
-  }
+}
 
 
 #login {
     float:left;
-  }
+}
 
 
 #logout {
     float:left;
-  }
+}
 
 
 #snacktime {
     float:right;
-  }
+}
 
 
 #content {
     padding: 0px;
     margin-left: 160px;
     margin-bottom: 0;
-  }
+}
 
 
 #sidebar {
@@ -94,7 +94,7 @@ body {
     padding: 3px;
     line-height: 1.4em;
     border-right: 1px solid #dfd0b9;
-  }
+}
 
 
 #footer {
@@ -107,26 +107,26 @@ body {
     color: #333;
     background: inherit;
     text-align:center;
-  }
+}
 
 
 #footer a:link, #footer a:visited {
     background: inherit;
     color: #447640;
     border-bottom: none;
-  }
+}
 
 
 #footer a:hover {
     border-bottom: none;
     background-color: inherit;
     color: #508B4B;
-  }
+}
 
 
 p {
     padding: 3px 15px 0px 15px;
-  }
+}
 
 
 #content h1, #sidebar h1 {
@@ -138,7 +138,7 @@ p {
     border-top: 0px solid #dfd0b9;
     color: #EB6D00;
     background: inherit;
-  }
+}
 
 
 h2 {
@@ -147,7 +147,7 @@ h2 {
     margin:5px;
     color: #508B4B;
     background:#CFE4CD;
-  }
+}
 
 
 h3 {
@@ -159,7 +159,7 @@ h3 {
     background: inherit;
     border-top: 0px solid #dfd0b9;
     border-bottom: 0px solid #dfd0b9;
-  }
+}
 
 
 h4 {
@@ -167,7 +167,7 @@ h4 {
     padding: 3px;
     margin: 0 0 0 0;
     font-size: .85em;
-  }
+}
 
 
 a {
@@ -175,18 +175,18 @@ a {
     border-bottom: none;
     color: #6CAD67;
     background: inherit;
-  }
+}
 
 
 a:hover {
     color: #447640;
     background: inherit;
-  }
+}
 
 
 a img {
     border: 0;
-  }
+}
 
 
 .img {
@@ -194,7 +194,7 @@ a img {
     padding: 3px;
     margin: 3px;
     border: 0px solid #dfd0b9;
-  }
+}
 
 
 .intro {
@@ -203,7 +203,7 @@ a img {
     margin: 3px 0 5px 0;
     padding: 5px;
     text-align:left;
-  }
+}
 
 
 .intro2 {
@@ -211,7 +211,7 @@ a img {
     width: 220px;
     margin: 3px 0 5px 0;
     padding: 5px;
-  }
+}
 
 
 .intro3 {
@@ -219,20 +219,20 @@ a img {
     width:220px;
     margin: 3px 0 5px 0;
     padding: 5px;
-  }
+}
 
 
 .update {
     font-size: 1em;
     background: inherit;
     color:#4F210D;
-  }
+}
 
 
 .navcontainer {
     width: 150px;
     margin-top: 20px;
-  }
+}
 
 
 .navcontainer ul {
@@ -240,7 +240,7 @@ a img {
     padding-left: 0;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
 
 .navcontainer .navlist a {
@@ -251,19 +251,19 @@ a img {
     color: #666;
     border-bottom: 1px solid #F0E9DD;
     border-left: 8px solid #FBAA69;
-  }
+}
 
 
 .navcontainer .navlist a:link, .navlist a:visited {
     text-decoration: none;
-  }
+}
 
 
 .navcontainer .navlist a:hover {
     border-left: 8px solid #B7D6B4;
     background-color: #FFA961;
     color: #fff;
-  }
+}
 
 
 .box {
@@ -272,7 +272,7 @@ a img {
     color: #663300;
     border: 1px solid #FFA961;
     padding: 5px;
-  }
+}
 
 
 .search {
@@ -283,12 +283,12 @@ a img {
     clear: both;
     text-align: center;
     padding: 5px 0 5px 0;
-  }
+}
 
 
 form {
     margin: 0;
-  }
+}
 
 
 input.search {
@@ -296,7 +296,7 @@ input.search {
     border: none;
     background: url(../images/input.gif);
     padding: 4px;
-  }
+}
 
 
 input.login {
@@ -304,7 +304,7 @@ input.login {
     border: none;
     background: url(../images/logininput.gif);
     padding: 4px;
-  }
+}
 
 
 .z-bkey-adminnav ul {
@@ -314,7 +314,7 @@ input.login {
     margin-bottom : 20px !important;
     margin-left : 10px !important;
     padding-left : 0px !important;
-  }
+}
 
 
 .z-bkey-adminnav ul li {
@@ -323,7 +323,7 @@ input.login {
     margin-bottom : 0px;
     margin-left : 0px !important;
     padding-left : 0px !important;
-  }
+}
 
 
 .z-bkey-adminnav ul ul {
@@ -333,7 +333,7 @@ input.login {
     margin-bottom : 0px;
     margin-left : 0px !important;
     padding-left : 0px !important;
-  }
+}
 
 
 .z-bkey-adminnav ul ul li {
@@ -342,11 +342,11 @@ input.login {
     margin-bottom : 0px;
     margin-left : 5px !important;
     padding-left : 0px !important;
-  }
+}
 
 
 .z-blockposition-left  #block_search_q, .z-blockposition-right #block_search_q {
     min-width : 90px !important;
     max-width : 130px;
-  }
+}
 
