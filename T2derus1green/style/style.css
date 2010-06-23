@@ -712,7 +712,7 @@ table.z-datatable ul {
     text-align:center;
 }
 
-#sidebar .pn-block, #sidebar .z-block {
+#sidebar .z-block {
     margin-bottom : 10px;
     margin-top : 10px;
 }
