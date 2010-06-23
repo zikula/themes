@@ -2,7 +2,6 @@
     <h1>{sitename}</h1>
     <p id="slogan">"{slogan}"</p>
 </div><!-- END OF TOP LEFT AREA -->
-
 <div id="topright">
     <div id="divblanksquares">
         <div class="topsquare"></div>
@@ -10,7 +9,6 @@
         <div class="topsquare"></div>
         <div class="topsquare"></div>
     </div>
-
     <div id="navone"> <!-- FIRST ROW OF MENU ITEMS -->
         <ul id="mainnav">
             <li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Go to the Pages module"}">{gt text="Pages"}</a></li>
@@ -18,7 +16,6 @@
             <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
         </ul>
     </div>
-
     <div id="navtwo"> <!-- SECOND ROW OF MENU ITEMS -->
         <ul id="secondnav">
             <li {if $module eq 'Sitemap'} class="current" {/if}><a href="{modurl modname=Sitemap}" title="{gt text="Go to the Sitemap module"}">{gt text="Sitemap"}</a></li>
