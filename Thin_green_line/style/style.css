@@ -12,31 +12,31 @@ body {
     font-size:75%;
     color:#777;
     margin:0;
-  }
+}
 
 
 * {
     padding:0;
     margin:0;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 #container {
     width:770px;
     margin:0 auto 0 auto;
-  }
+}
 
 
 #header {
     width:770px;
     margin:0 auto 0 auto;
     height:100px;
-  }
+}
 
 
 #header h1 {
@@ -47,13 +47,13 @@ a img {
     padding:15px 50px 0 10px;
     float:left;
     border-right:1px solid #eee;
-  }
+}
 
 
 #header h1 a {
     color:#000;
     text-decoration:none;
-  }
+}
 
 
 #header h3 {
@@ -63,13 +63,13 @@ a img {
     font-weight:normal;
     margin: 0 0 0 270px;
     /* Adjust this value for the space between the site title and the slogan */border-right:1px solid #eee;
-  }
+}
 
 
 #sidebar_bottom {
     background-image:url(../images/backgrounds/sidebarbottom.jpg);
     height:53px;
-  }
+}
 
 
 #nav {
@@ -79,7 +79,7 @@ a img {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 #nav li {
@@ -87,7 +87,7 @@ a img {
     padding:0;
     list-style:none;
     float:left;
-  }
+}
 
 
 #nav li a {
@@ -97,7 +97,7 @@ a img {
     color:#666;
     text-decoration:none;
     font-weight:bold;
-  }
+}
 
 
 #nav li a:hover, .active {
@@ -105,12 +105,12 @@ a img {
     background-position:bottom;
     background-repeat:repeat-x;
     color:#000;
-  }
+}
 
 
 .clear {
     clear:both;
-  }
+}
 
 
 #sidebar {
@@ -125,7 +125,7 @@ a img {
     padding-right : 20px;
     padding-top : 30px;
     width : 210px;
-  }
+}
 
 
 #content {
@@ -139,7 +139,7 @@ a img {
     padding-right : 30px;
     padding-top : 30px;
     width : 470px;
-  }
+}
 
 
 #content h1 {
@@ -149,7 +149,7 @@ a img {
     letter-spacing:1px;
     margin:10px 0 20px 0;
     color:#BFEF01;
-  }
+}
 
 
 #content h2 {
@@ -157,7 +157,7 @@ a img {
     color:#333;
     font-family:"Trebuchet MS", Tahoma, Verdana;
     margin:10px;
-  }
+}
 
 
 #content p {
@@ -166,14 +166,14 @@ a img {
     padding:0 0 0 20px;
     text-indent:20px;
     margin:20px 0 20px 0;
-  }
+}
 
 
 #content ul {
     margin:15px 0 15px 20px;
     padding:0;
     border-top:1px solid #eee;
-  }
+}
 
 
 #content li {
@@ -184,7 +184,7 @@ a img {
     background-image:url(../images/backgrounds/li.gif);
     background-position:top left;
     background-repeat:no-repeat;
-  }
+}
 
 
 #content #sideblock {
@@ -194,7 +194,7 @@ a img {
     float:right;
     font-size:90%;
     margin:0 0 0 20px;
-  }
+}
 
 
 .sidebarfooter {
@@ -202,20 +202,20 @@ a img {
     text-align:left;
     padding:7px 5px 7px 5px;
     font-size:80%;
-  }
+}
 
 
 .sidebarfooter a {
     background-color:#f6f6f6;
     padding:3px;
     text-decoration:none;
-  }
+}
 
 
 .sidebarfooter a:hover {
     color:#000;
     background-color:#fff;
-  }
+}
 
 
 #content #sideblock h1 {
@@ -224,7 +224,7 @@ a img {
     color:#000;
     margin:0;
     letter-spacing:0;
-  }
+}
 
 
 #sideblock p {
@@ -233,13 +233,13 @@ a img {
     padding:5px;
     margin:5px 0 5px 0;
     color:#bbb;
-  }
+}
 
 
 #sideblock ul {
     margin:0 0 5px 5px;
     border:none;
-  }
+}
 
 
 #sideblock li {
@@ -247,7 +247,7 @@ a img {
     background-image:none;
     padding:0;
     border:none;
-  }
+}
 
 
 #sideblock li a {
@@ -256,7 +256,7 @@ a img {
     background-color:#fff;
     padding:5px 5px 5px 10px;
     color:#888;
-  }
+}
 
 
 #sideblock li a:hover {
@@ -265,7 +265,7 @@ a img {
     background-image:url(../images/backgrounds/sideblock_li_a_hover.gif);
     background-position:left;
     background-repeat:no-repeat;
-  }
+}
 
 
 blockquote {
@@ -275,30 +275,30 @@ blockquote {
     padding:5px 35px 5px 5px;
     border:1px solid #eee;
     font-family:"Trebuchet MS", Tahoma, Verdana;
-  }
+}
 
 
 #content a {
     color:#444;
     padding:2px;
     text-decoration:none;
-  }
+}
 
 
 #content a:hover {
     background-color:#EBFF99;
     color:#000;
-  }
+}
 
 
 a:hover {
     text-decoration:none;
-  }
+}
 
 
 #sidebar a {
     color:#333;
-  }
+}
 
 
 #sidebar h4 {
@@ -307,19 +307,19 @@ a:hover {
     color:#777;
     font-weight:normal;
     letter-spacing:-1px;
-  }
+}
 
 
 #sidebar p {
     font-size:90%;
     line-height:19px;
     margin:10px 0 10px 0;
-  }
+}
 
 
 #sidebar ul {
     margin-left: 20px;
-  }
+}
 
 
 #footer {
@@ -328,10 +328,10 @@ a:hover {
     color:#ccc;
     text-align:center;
     clear:both;
-  }
+}
 
 
 #footer a {
     color:#999;
-  }
+}
 
