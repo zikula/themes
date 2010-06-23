@@ -6,9 +6,7 @@
     <body>
         {include file="includes/header.htm"}
         <div id="content">
-
             <div class="main_content">
-
                 {if $pagetype neq 'admin'}
                 <div class="sd_right">
                     <div class="text_padding">
@@ -17,7 +15,6 @@
                     </div>
                 </div>
                 {/if}
-
                 <div class="sd_left" {if $pagetype eq 'admin'} style="width:100%" {/if}>
                     <div class="text_padding">
                         {if $pagetype eq 'home'}
@@ -27,7 +24,6 @@
                     </div>
                 </div>
             </div>
-
             {if $pagetype neq 'admin'}
             <div id="bottomb">
                 <div class="padding">
@@ -46,10 +42,7 @@
                 </div>
             </div>
             {/if}
-
             {include file="includes/footer.htm"}
-
         </div>
-
     </body>
 </html>
