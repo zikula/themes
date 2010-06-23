@@ -8,7 +8,7 @@ body {
     background-image: url(../images/background.gif);
     background-repeat: repeat-y;
     background-position: center center;
- margin-bottom: 0px;
+    margin-bottom: 0px;
     margin-left : auto;
     margin-right : auto;
     margin-top : 0px;
@@ -18,7 +18,7 @@ body {
     padding-top : 0px;
     text-align : center;
     width : 750px;
-  }
+}
 
 
 body,td,th {
@@ -26,11 +26,12 @@ body,td,th {
     font-size: 10px;
     color: #000000;
 
-  }
+}
+
 img, img a {border:0;}
 
 #container {
- margin-bottom: 0px;
+    margin-bottom: 0px;
     margin-left : auto;
     margin-right : auto;
     margin-top : 0px;
@@ -40,7 +41,7 @@ img, img a {border:0;}
     padding-top : 0px;
     text-align : left;
     width : 750px;
-  }
+}
 
 
 #Header {
@@ -52,14 +53,14 @@ img, img a {border:0;}
     font-size: 10px;
     color: #FFFFFF;
     padding-left: 5px;
-  }
+}
 
 /* old or not existing in the template
 #Header_Section {
     height: 86px;
     width: 750px;
     background-color: #000099;
-  }
+}
 
 
 .headertext {
@@ -67,7 +68,7 @@ img, img a {border:0;}
     font-size: 12px;
     font-weight: bold;
     color: #0066FF;
-  }
+}
 
 */
 
@@ -85,28 +86,28 @@ img, img a {border:0;}
     padding-left: 0px;
     float: right;
     color: #999999;
-  }
+}
 
 
 #Header ul {
     margin: 0px;
     padding: 0px;
-  }
+}
 
 
 #Header ul li a {
     text-decoration: none;
-  }
+}
 
 
 #Header ul li a:link, #Header ul li a:visited {
     color: #999999;
-  }
+}
 
 
 #Header ul li a:hover {
     color: #FFFFFF;
-  }
+}
 
 
 #Navbar1 {
@@ -115,20 +116,20 @@ img, img a {border:0;}
     background-color: #2F2F2F;
     margin: 0px;
     padding: 0px;
-  }
+}
 
 
 #Navbar1 ul {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-  }
+}
 
 
 #Navbar1 ul li {
     display: inline;
     font-size:11px;
-  }
+}
 
 
 #Navbar1 ul li a {
@@ -141,20 +142,20 @@ img, img a {border:0;}
     padding-left: 20px;
     text-decoration: none;
     font-weight:bold;
-  }
+}
 
 
 #Navbar1 ul li a:link, #Navbar1 ul li a:visited {
     color: #999999;
     font-weight:bold;
-  }
+}
 
 
 #Navbar1 ul li a:hover, #Navbar1 ul li.current a {
     background-color: #000000;
     color: #D5D5D5;
     font-weight:bold;
-  }
+}
 
 
 #masthead {
@@ -167,7 +168,7 @@ img, img a {border:0;}
     padding-bottom: 0px;
     padding-left: 9px;
     letter-spacing: 5px;
-  }
+}
 
 
 .sitename {
@@ -175,7 +176,7 @@ img, img a {border:0;}
     font-size: 24px;
     font-weight: bold;
     color: #666666;
-  }
+}
 
 
 .sitename a, .sitename a:link, .sitename a:visited {
@@ -184,7 +185,7 @@ img, img a {border:0;}
     font-weight: bold;
     color: #666666;
     text-decoration:none;
-  }
+}
 
 
 .sitename a:hover {
@@ -193,7 +194,7 @@ img, img a {border:0;}
     font-weight: bold;
     color: #999999;
     text-decoration:none;
-  }
+}
 
 
 .slogan {
@@ -202,7 +203,7 @@ img, img a {border:0;}
     color: #999999;
     letter-spacing: 0px;
     font-weight: bold;
-  }
+}
 
 
 #contentwrap {
@@ -212,7 +213,7 @@ img, img a {border:0;}
     margin-right : 0px;
     margin-top : 0px;
     width : 750px;
-  }
+}
 
 
 #maincontent {
@@ -223,7 +224,7 @@ img, img a {border:0;}
     padding-right : 10px;
     text-align : justify;
     width : 520px;
-  }
+}
 
 /* old???
 
@@ -231,16 +232,7 @@ img, img a {border:0;}
     width: 550px;
     height: 100%;
     float: left;
-  } */
-
-
-
-
-
-
-
-
-
+} */
 
 #side {
     border-left-color : #CCCCCC;
@@ -252,36 +244,36 @@ img, img a {border:0;}
     padding-left : 10px;
     padding-right : 10px;
     width : 180px;
-  }
+}
 
 
 #side li {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-  }
+}
 
 
 #side ul {
     margin: 0px;
     padding: 0px;
     line-height: 20px;
-  }
+}
 
 
 #side a {
     text-decoration: none;
-  }
+}
 
 
 #side a:link,  #side a:visited {
     color: #808080;
-  }
+}
 
 
 #side a:hover {
     color: #9D0000;
-  }
+}
 
 
 #footer {
@@ -293,23 +285,23 @@ img, img a {border:0;}
     text-align: center;
     clear: both;
     padding-top: 20px;
- vertical-align:bottom;
-  }
+    vertical-align:bottom;
+}
 
 
 #footer a {
     text-decoration: none;
-  }
+}
 
 
 #footer a:link, a:visited {
     color: #666666;
-  }
+}
 
 
 #footer a:hover {
     color: #999999;
-  }
+}
 
 
 #z-maincontent, {
@@ -317,21 +309,21 @@ img, img a {border:0;}
     padding-left : 1px;
     padding-right : 1px;
     width : 100%;
-  }
+}
 
 
 .left {
     float:left;
     text-align : left;
     padding-left:5px;
-  }
+}
 
 
 .right {
     float:right;
     text-align:right;
     padding-right:5px;
-  }
+}
 
 
 .vegasthumb2 {
@@ -340,7 +332,7 @@ img, img a {border:0;}
     padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 0px;
-  }
+}
 
 
 .pageheader {
@@ -348,7 +340,7 @@ img, img a {border:0;}
     font-size: 18px;
     font-weight: bold;
     color: #0099FF;
-  }
+}
 
 
 .posted {
@@ -358,7 +350,7 @@ img, img a {border:0;}
     float: right;
     margin-top: -15px;
     display: block;
-  }
+}
 
 
 .submenu {
@@ -366,14 +358,14 @@ img, img a {border:0;}
     font-size: 12px;
     font-weight: bold;
     color: #0099FF;
-  }
+}
 
 
 #Lg_Image {
     height: 235px;
     width: 751px;
     background-color: #2F2F2F;
-  }
+}
 
 
 .text {
@@ -381,5 +373,4 @@ img, img a {border:0;}
     font-size: 10px;
     color: #000000;
     line-height: 20px;
-  }
-
+}
