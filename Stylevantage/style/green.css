@@ -1,23 +1,23 @@
 
 /********************************************
-   AUTHOR:  			Erwin Aligam 
-   WEBSITE:   			http://www.styleshout.com/
-	TEMPLATE NAME: 	Stylevantage - green
-   TEMPLATE CODE: 	S-0001
-   VERSION:          1.0          	
- *******************************************/
- 
- 
+AUTHOR:  			Erwin Aligam
+WEBSITE:   			http://www.styleshout.com/
+    TEMPLATE NAME: 	Stylevantage - green
+TEMPLATE CODE: 	S-0001
+VERSION:          1.0
+*******************************************/
+
+
 /********************************************
-   HTML ELEMENTS
-********************************************/ 
+HTML ELEMENTS
+********************************************/
 
 /* top elements */
 
 * {
     margin: 0;
     padding: 0;
-  }
+}
 
 
 body {
@@ -27,20 +27,20 @@ body {
     background: url(../images/headerbg-green.gif) repeat-x;
     color: #666666;
     text-align: center;
-  }
+}
 
 /* links */
 
 a {
     background: inherit;
     color: #72A545;
-  }
+}
 
 
 a:hover {
     background: inherit;
     color: #006699;
-  }
+}
 
 /* headers */
 
@@ -48,23 +48,23 @@ h1, h2, h3 {
     font: bold 1em 'Trebuchet MS', Tahoma, Sans-serif;
     text-transform: uppercase;
     color: #555;
-  }
+}
 
 
 h1 {
     font-size: 1.5em;
-  }
+}
 
 
 h2 {
     font-size: 1.3em;
-  }
+}
 
 
 h3 {
     font-size: 1.2em;
     text-transform: none;
-  }
+}
 
 
 #main h1, #rightbar h4 {
@@ -72,7 +72,7 @@ h3 {
     margin: 0 0 0 10px;
     text-transform: uppercase;
     border-bottom: 1px solid #f2f2f2;
-  }
+}
 
 
 #sidebar h4 {
@@ -80,12 +80,12 @@ h3 {
     background: url(../images/square_arrow.gif) no-repeat 2px 12px;
     margin: 0;
     text-transform: uppercase;
-  }
+}
 
 
 p, h1, h2, h3 {
     margin: 10px 15px;
-  }
+}
 
 
 
@@ -93,24 +93,24 @@ p, h1, h2, h3 {
 
 img {
     border: 0px solid #CCC;
-  }
+}
 
 
 img.float-right {
     margin: 5px 0px 5px 15px;
-  }
+}
 
 
 img.float-left {
     margin: 5px 15px 5px 0px;
-  }
+}
 
 
 a img {
     border: 0px solid #72A545;
     /* #32CD32;
     */;
-  }
+}
 
 
 a:hover img {
@@ -118,7 +118,7 @@ a:hover img {
     /* IE fix*/ border: 2px solid #72A545;
     /* #32CD32;
     */;
-  }
+}
 
 
 code {
@@ -132,13 +132,13 @@ code {
     */ background: #FAFAFA;
     border: 1px solid #f2f2f2;
     border-left: 3px solid #72A545;
-  }
+}
 
 
 acronym {
     cursor: help;
     border-bottom: 1px solid #777;
-  }
+}
 
 
 blockquote {
@@ -149,7 +149,7 @@ blockquote {
     border: 1px solid #f2f2f2;
     border-left: 3px solid #72A545;
     font-weight: bold;
-  }
+}
 
 /* form elements */
 
@@ -158,14 +158,14 @@ form {
     padding: 0;
     border: 1px solid #f2f2f2;
     background-color: #FAFAFA;
-  }
+}
 
 
 label {
     display:block;
     font-weight:bold;
     margin:5px 0;
-  }
+}
 
 
 input {
@@ -173,7 +173,7 @@ input {
     border:1px solid #eee;
     font: normal 1em/1.5em Verdana, sans-serif;
     color:#777;
-  }
+}
 
 
 textarea {
@@ -184,7 +184,7 @@ textarea {
     height:100px;
     display:block;
     color:#777;
-  }
+}
 
 
 input.button {
@@ -194,7 +194,7 @@ input.button {
     background: #FFF;
     padding: 2px 3px;
     color: #333;
-  }
+}
 
 /* search form */
 
@@ -203,7 +203,7 @@ form.searchform {
     border: none;
     margin: 0;
     padding: 0;
-  }
+}
 
 
 form.searchform input.textbox {
@@ -213,13 +213,13 @@ form.searchform input.textbox {
     background: #FFF;
     color: #333;
     vertical-align: top;
-  }
+}
 
 
 form.searchform input.button {
     width: 55px;
     vertical-align: top;
-  }
+}
 
 /*****************/
 /*    Layout     */
@@ -230,7 +230,7 @@ form.searchform input.button {
     width: 850px;
     text-align: left;
     background: #FFF;
-  }
+}
 
 
 #content-wrap {
@@ -238,7 +238,7 @@ form.searchform input.button {
     margin: 0;
     padding:0;
     width: 850px;
-  }
+}
 
 /* header */
 
@@ -246,8 +246,8 @@ form.searchform input.button {
     position: relative;
     background: url(../images/headerbg-green.gif) repeat-x;
     height: 84px;
- z-index:2;
-  }
+z-index:2;
+}
 
 
 #header h1#logo {
@@ -260,10 +260,10 @@ form.searchform input.button {
     text-transform: none;
     /* change the values of top and Left to adjust the position of the logo*/top: 0;
     left: 5px;
-  }
+}
 #header h1#logo a {
-	margin: 0; padding: 0;
-	color: #CCC;
+    margin: 0; padding: 0;
+    color: #CCC;
 }
 
 #header h2#slogan {
@@ -274,15 +274,15 @@ form.searchform input.button {
     text-transform: none;
     color: #FFF;
     /* change the values of top and Left to adjust the position of the slogan*/
-	top: 57px; left:65px;
-  }
+    top: 57px; left:65px;
+}
 
 
 #header #searchform {
     position: absolute;
     top: 5px;
     right: 3px;
-  }
+}
 
 /* main column */
 #main {
@@ -291,7 +291,7 @@ form.searchform input.button {
     padding: 0;
     width: 54%;
     border-left: 1px solid #f2f2f2;
-  }
+}
 
 .post-footer {
     background-color: #FAFAFA;
@@ -299,25 +299,25 @@ form.searchform input.button {
     margin-top: 20px;
     font-size: 95%;
     border: 1px solid #f2f2f2;
-  }
+}
 
 .post-footer .date {
     background: url(../images/clock.gif) no-repeat left center;
     padding-left: 20px;
     margin: 0 10px 0 5px;
-  }
+}
 
 .post-footer .comments {
     background: url(../images/comment.gif) no-repeat left center;
     padding-left: 20px;
     margin: 0 10px 0 5px;
-  }
+}
 
 .post-footer .readmore {
     background: url(../images/page.gif) no-repeat left center;
     padding-left: 20px;
     margin: 0 10px 0 5px;
-  }
+}
 
 /* sideabar */
 
@@ -327,7 +327,7 @@ form.searchform input.button {
     margin: 0;
     padding: 0;
     display: inline;
-  }
+}
 
 
 
@@ -343,12 +343,12 @@ ul, ol {
     padding-left: 10px;
     padding-right: 0px;
     padding-top: 2px;
-  }
+}
 
 
 ul span, ol span {
     color: #666666;
-  }
+}
 
 #sidebar ul {
     list-style: none;
@@ -362,7 +362,7 @@ ul span, ol span {
     padding-right: 0px;
     padding-top: 2px;
     text-decoration: none;
-  }
+}
 
 
 #sidebar ul li {
@@ -378,19 +378,19 @@ ul span, ol span {
     padding-right: 0px;
     padding-top: 3px;
     vertical-align:middle;
-  }
+}
 
 
 * html body #sidebar ul li {
     height: 1%;
-  }
+}
 
 
 #sidebar ul a {
     font-weight: bold;
     background-image: none;
     text-decoration: none;
-  }
+}
 
 
 .z-bkey-adminnav ul ul li {
@@ -405,12 +405,12 @@ ul span, ol span {
     padding-left : 5px !important;
     padding-right : 0px;
     padding-top : 3px;
-  }
+}
 
 
 p.extmenuadmin {
     padding-left: 20px;
-  }
+}
 
 /* rightbar */
 #rightbar {
@@ -418,7 +418,7 @@ p.extmenuadmin {
     width: 21%;
     padding: 0;
     margin: 0;
-  }
+}
 
 /* footer */
 #footer {
@@ -427,13 +427,13 @@ p.extmenuadmin {
     border-top: 1px solid #F2F2F2;
     text-align: center;
     height: 50px;
-  }
+}
 
 
 #footer a {
     text-decoration: none;
     font-weight: bold;
-  }
+}
 
 /* menu */
 
@@ -450,7 +450,7 @@ p.extmenuadmin {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 #menu ul {
@@ -463,14 +463,14 @@ p.extmenuadmin {
     width: 850px;
     /* 775px;
     */border: 1px solid #808080;
-	border-width: 0 1px 4px 1px;
+    border-width: 0 1px 4px 1px;
     list-style: none;
-  }
+}
 
 
 #menu ul li {
     display: inline;
-  }
+}
 
 
 #menu ul li a {
@@ -482,21 +482,21 @@ p.extmenuadmin {
     text-decoration: none;
     background: white url(../images/menudivide.gif) repeat-y right top;
     border-bottom: 4px solid #808080;
-  }
+}
 
 
 #menu ul li a:hover {
     color: black;
     background-color: #F3F3F3;
     border-bottom: 4px solid #32CD32;
-  }
+}
 
 
 #menu ul li.current a {
     color: #333;
     background-color: #F3F3F3;
     border-bottom: 4px solid #32CD32;
-  }
+}
 
 /* Alignment classes */
 .float-left { float: left; }
