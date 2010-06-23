@@ -12,22 +12,22 @@ body {
     background-position:center;
     background-repeat:repeat-y;
     */;
-  }
+}
 
 
 a {
     color:#999999;
-  }
+}
 
 
 a:hover {
     text-decoration:none;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 textarea,input,submit {
@@ -36,7 +36,7 @@ textarea,input,submit {
     padding:5px;
     border:none;
     margin:3px;
-  }
+}
 
 
 h1 {
@@ -44,7 +44,7 @@ h1 {
     font-size:200%;
     color:#000000;
     font-weight:normal;
-  }
+}
 
 /* THE AREA THAT CONTAINS THE STONE IMAGE AND THE WEBSITE TITLE */
 
@@ -53,20 +53,20 @@ h1 {
     margin:0 auto 0 auto;
     text-align:center;
     margin-bottom:25px;
-  }
+}
 
 
 #title p {
     font-variant:small-caps;
     letter-spacing:2px;
-  }
+}
 
 /* PROPERTIES OF THE HEADER IMAGE */
 
 
 #title img {
     border:none;
-  }
+}
 
 /* THE AREA THAT CONTAINS ALL THE CONTENT OF THE WEBSITE */
 
@@ -74,7 +74,7 @@ h1 {
 #container {
     width:600px;
     margin:0 auto 0 auto;
-  }
+}
 
 /* THE SIDEBAR WITHIN THE CONTAINER */
 
@@ -82,7 +82,7 @@ h1 {
 #sidebar {
     width:200px;
     float:right;
-  }
+}
 
 
 #sidebar h4 {
@@ -91,24 +91,24 @@ h1 {
     font-size:200%;
     color:#626477;
     border-bottom:1px dashed #eeeeee;
-  }
+}
 
 
 #sidebar p {
     line-height:20px;
-  }
+}
 
 /* THE MENU */
 
 
 .pn-bkey-menu {
     text-align:right;
-  }
+}
 
 
 .pn-bkey-menu ul {
     list-style: none;
-  }
+}
 
 
 .pn-bkey-menu a {
@@ -119,13 +119,13 @@ h1 {
     padding-right:10px;
     line-height:15px;
     text-decoration:none;
-  }
+}
 
 
 .pn-bkey-menu a:hover {
     color:#cccccc;
     background-image:url(../images/backgrounds/a_hover.jpg);
-  }
+}
 
 /* THE AREA NEXT TO THE SIDEBAR */
 
@@ -137,7 +137,7 @@ h1 {
     background-image:url(../images/backgrounds/content.jpg);
     background-position:right;
     background-repeat:repeat-y;
-  }
+}
 
 
 #content h1 {
@@ -151,23 +151,23 @@ h1 {
     background-image:url(../images/stone.gif);
     background-position:top right;
     background-repeat:no-repeat;
-  }
+}
 
 
 #content p {
     line-height:20px;
     text-indent:15px;
-  }
+}
 
 
 #content ol, #content ul {
     line-height:25px;
-  }
+}
 
 
 #content li {
     list-style-image:url(../images/backgrounds/li.gif);
-  }
+}
 
 /* THE FOOTER */
 
@@ -185,5 +185,5 @@ h1 {
     text-align : center;
     border-top : #cccccc dashed 1px;
     width : 580px;
-  }
+}
 
