@@ -1,12 +1,8 @@
-
-/* 
-by Herreman David 
+/*
+by Herreman David
 RedBridge Free Template
 http://www.free-css-templates.com
 */
-   
-
-
 
 body {
     margin:5px 0;
@@ -16,7 +12,7 @@ body {
     background-color:#eee;
     line-height: 1.4em;
     background : #3C3C3C url(../images/bg.jpg) repeat-x;
-  }
+}
 
 
 .topmenu {
@@ -27,7 +23,7 @@ body {
     padding: 0;
     border-bottom: 1px solid #333;
     color: #888;
-  }
+}
 
 
 .topmenu .right_ {
@@ -38,17 +34,17 @@ body {
     padding: 5px 0 0 0;
     color: #888;
     border: 0px;
-  }
+}
 
 
 .topmenu a {
     color: #888;
-  }
+}
 
 
 .topmenu a:hover {
     color: #aaa;
-  }
+}
 
 
 .topmenu .date_ {
@@ -56,7 +52,7 @@ body {
     background: #1E1F21;
     color: #888;
     padding: 5px 0 0 5px;
-  }
+}
 
 
 #submenu {
@@ -64,17 +60,17 @@ body {
     padding: 10px 5px 5px 5px;
     height: 67px;
     background: #1E1F21;
-  }
+}
 
 
 #submenu a {
     color: #AEB9CC;
-  }
+}
 
 
 #submenu a:hover {
     color: #EAE8E1;
-  }
+}
 
 
 #submenu .searchb {
@@ -83,7 +79,7 @@ body {
     text-align: right;
     padding-right: 5px;
     border-left: 1px solid #333;
-  }
+}
 
 
 .bridge {
@@ -91,7 +87,7 @@ body {
     height: 268px;
     margin: 0;
     padding: 0;
-  }
+}
 
 
 .bridge .title {
@@ -99,7 +95,7 @@ body {
     float: right;
     padding: 20px 20px 0 0px;
     font: bold 1.6em Arial, sans-serif;
-  }
+}
 
 
 .bridge .slogan {
@@ -108,7 +104,7 @@ body {
     padding: 1px 20px 0 0px;
     color: #595C5B;
     font: bold 0.8em Arial, sans-serif;
-  }
+}
 
 
 input.submit {
@@ -119,7 +115,7 @@ input.submit {
     background: #1E1F21;
     padding: 3px;
     color: #888;
-  }
+}
 
 
 .nav {
@@ -127,7 +123,7 @@ input.submit {
     text-align: center;
     color: #BC6247;
     padding: 5px 0 0 0;
-  }
+}
 
 
 .boxad {
@@ -135,7 +131,7 @@ input.submit {
     color: #BBB;
     border: 1px dashed #BC6247;
     padding: 5px;
-  }
+}
 
 
 p {
@@ -143,7 +139,7 @@ p {
     padding: 0;
     color: #888;
     background: inherit;
-  }
+}
 
 
 hr {
@@ -151,20 +147,20 @@ hr {
     height: 1px;
     color: #eee;
     background-color: #eee;
-  }
+}
 
 
 a {
     color: #888;
     background: inherit;
     text-decoration:none;
-  }
+}
 
 
 a:hover {
     background: inherit;
     text-decoration: underline;
-  }
+}
 
 
 h1 {
@@ -174,13 +170,13 @@ h1 {
     background: inherit;
     font: bold 1.8em Arial, Sans-Serif;
     letter-spacing: -1px;
-  }
+}
 
 
 h1 a {
     color: #FFF;
     background: inherit;
-  }
+}
 
 
 h2 {
@@ -190,19 +186,19 @@ h2 {
     font-weight:bold;
     margin: 10px 0 10px 0;
     padding:0;
-  }
+}
 
 
 h2 a {
     background-color:#3C3C3C;
-  }
+}
 
 
 div.nav ul {
     margin: 0 0 10px 0;
     padding : 0;
     list-style : none;
-  }
+}
 
 
 div.nav li {
@@ -219,24 +215,24 @@ div.nav li {
     padding-left : 5px;
     padding-right : 5px;
     padding-top : 0;
-  }
+}
 
 
 div.nav li a {
     color: #FF6538;
     text-decoration:none;
-  }
+}
 
 
 div.nav li a:hover, div.nav li.current a {
     color: #C62C00;
     text-decoration:none;
-  }
+}
 
 
 div.nav li span.last {
     border-right-width : 0px;
-  }
+}
 
 
 ul {
@@ -250,7 +246,7 @@ ul {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 0px;
-  }
+}
 
 
 .center ul {
@@ -263,7 +259,7 @@ ul {
     padding-left: 10px;
     padding-right: 0px;
     padding-top: 0px;
-  }
+}
 
 
 .z-bkey-extmenu ul {
@@ -276,13 +272,13 @@ ul {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 0px;
-  }
+}
 
 
 p.extmenuadmin {
     margin-top : 10px;
     padding-left: 45px;
-  }
+}
 
 
 .z-bkey-adminnav ul ul li {
@@ -297,24 +293,24 @@ p.extmenuadmin {
     padding-top: 0px;
     list-style-type: disc !important;
     list-style-position: inside;
-  }
+}
 
 
 li a {
     color: #FF6538;
-  }
+}
 
 
 li a:hover {
     background: url(../images/select.gif) no-repeat center top;
     background-position: 50% 30px;
     color: #C62C00;
-  }
+}
 
 
 img {
     border: 0;
-  }
+}
 
 
 .content {
@@ -330,14 +326,14 @@ img {
     padding-top : 0;
     text-align : center;
     width : 766px;
-  }
+}
 
 
 hr {
     background: #3C3C3C;
     border: 1px solid #555;
     margin: 10px 0 10px 0;
-  }
+}
 
 
 .right {
@@ -353,12 +349,12 @@ hr {
     padding-top : 15px;
     text-align : left;
     width : 200px;
-  }
+}
 
 
 .right a {
     color: #AEB9CC;
-  }
+}
 
 
 .left_article {
@@ -366,7 +362,7 @@ hr {
     padding: 10px 0 10px 0;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-  }
+}
 
 
 .center {
@@ -384,12 +380,12 @@ hr {
     padding-top : 0px;
     text-align : justify;
     width : 530px;
-  }
+}
 
 
 .center a {
     color: #AEB9CC;
-  }
+}
 
 .center .z-block {
     padding-left : 5px;
@@ -398,7 +394,7 @@ hr {
     margin-left : 15;
     margin-right : 15;
     margin-top : 0px;
-  }
+}
 
 
 
@@ -414,17 +410,17 @@ hr {
     margin-right: 0px;
     margin-left: 0px;
     padding: 10px 10px 10px 10px;
-  }
+}
 
 
 .footer padding {
     text-align: center;
-  }
+}
 
 
 fieldset {
     border: 1px solid #eee;
-  }
+}
 
 
 textarea.text {
@@ -433,14 +429,14 @@ textarea.text {
     border: 1px solid #ccc;
     background: #fff;
     color: #000;
-  }
+}
 
 
 textarea.text:hover {
     border: 1px solid #eee;
     background: #FFFFF4;
     color: #000;
-  }
+}
 
 
 input.field {
@@ -448,14 +444,14 @@ input.field {
     background-color: #3C3C3C;
     width: 100px;
     color: #000;
-  }
+}
 
 
 input.field:hover {
     border: 1px solid #eee;
     background: #ccc;
     color: #000;
-  }
+}
 
 
 input.text {
@@ -464,12 +460,12 @@ input.text {
     border: 1px solid #ccc;
     background: #3C3C3C;
     color: #A4B4C8;
-  }
+}
 
 
 input.text:hover {
     border: 1px solid #eee;
-  }
+}
 
 
 input.searchbutton {
@@ -481,7 +477,7 @@ input.searchbutton {
     color: #808080;
     padding: 1px;
     font-weight: bold;
-  }
+}
 
 
 .date {
@@ -491,12 +487,12 @@ input.searchbutton {
     margin: 4px 0 5px 0;
     padding: 0.4em 0 0 0;
     border-top: 1px solid #555;
-  }
+}
 
 
 .date a {
     color: #ccc;
-  }
+}
 
 
 .time {
@@ -504,7 +500,7 @@ input.searchbutton {
     float: left;
     text-align: left;
     padding: 5px 0 0 15px;
-  }
+}
 
 
 input.button {
@@ -512,7 +508,7 @@ input.button {
     color: #808080;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-  }
+}
 
 
 .comments {
@@ -520,7 +516,7 @@ input.button {
     margin: 0 0 7px 0;
     background: #3f3f3f;
     color: #000;
-  }
+}
 
 
 .commentsbox {
@@ -528,7 +524,7 @@ input.button {
     margin: 0 0 10px 0;
     background: #f4f4f4;
     color: #000;
-  }
+}
 
 
 .error {
@@ -538,13 +534,13 @@ input.button {
     margin-top: 5px;
     margin-bottom: 10px;
     border: 1px dashed #990000;
-  }
+}
 
 
 .error h2 {
     color: #990000;
     background: inherit;
-  }
+}
 
 
 .success {
@@ -554,11 +550,10 @@ input.button {
     margin-top: 5px;
     margin-bottom: 5px;
     border: 1px dashed #7BA813;
-  }
+}
 
 
 .success h2 {
     color: #7BA813;
     background: inherit;
-  }
-
+}

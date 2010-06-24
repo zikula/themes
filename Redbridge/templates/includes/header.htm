@@ -6,11 +6,10 @@
     <div class="date_">
         {datetime}
         {if $pagetype neq 'home'}
-            &nbsp;::&nbsp;<a href="{homepage}" title="{gt text="Go back to the main page"}>{gt text="Back to Main page"}</a>
+        &nbsp;::&nbsp;<a href="{homepage}" title="{gt text="Go back to the main page"}>{gt text="Back to Main page"}</a>
         {/if}
     </div>
 </div>
-
 <div id="submenu">
     <form method="post" id="searchform" action="{modurl modname=Search func=search}">
         <div class="searchb">
@@ -28,22 +27,20 @@
     </form>
     <span style="float:left;">
         {if $loggedin eq true}
-            <strong>{userwelcome|ucwords}</strong>&nbsp;|&nbsp;
-            <a href="{modurl modname=Users}" title="{gt text="My Account Settings"}">{gt text="My Account"}</a>&nbsp;|&nbsp;
-            <a href="{modurl modname=Users func=logout}" title="{gt text="Logout of Your Account"}" class="last">{gt text="Logout"}</a>
+        <strong>{userwelcome|ucwords}</strong>&nbsp;|&nbsp;
+        <a href="{modurl modname=Users}" title="{gt text="My Account Settings"}">{gt text="My Account"}</a>&nbsp;|&nbsp;
+        <a href="{modurl modname=Users func=logout}" title="{gt text="Logout of Your Account"}" class="last">{gt text="Logout"}</a>
         {else}
-            <strong><em>{userwelcome|ucwords}</em></strong>&nbsp;|&nbsp;
-            <a href="{modurl modname=Users func=register}" title="{gt text="New Account Registration"}">{gt text="New Account Registration"}</a>&nbsp;|&nbsp;
-            <a href="{modurl modname=Users func=loginscreen}" title="{gt text="Log In to Your Account"}" class="last">{gt text="Log In"}</a>
+        <strong><em>{userwelcome|ucwords}</em></strong>&nbsp;|&nbsp;
+        <a href="{modurl modname=Users func=register}" title="{gt text="New Account Registration"}">{gt text="New Account Registration"}</a>&nbsp;|&nbsp;
+        <a href="{modurl modname=Users func=loginscreen}" title="{gt text="Log In to Your Account"}" class="last">{gt text="Log In"}</a>
         {/if}
     </span>
 </div>
-
 <div class="bridge">
     <div class="title">{sitename}</div>
     <div class="slogan">{slogan}</div>
 </div>
-
 <div class="nav">
     <ul>
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}"><span>{gt text="Home"}</span></a></li>
