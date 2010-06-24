@@ -13,7 +13,7 @@ body {
     margin-right : auto;
     margin-top : 0;
     text-align : center;
-  }
+}
 
 
 input {
@@ -25,7 +25,7 @@ input {
     border:1px solid #728c40;
     background-color:#94ae62;
     margin-bottom:2px;
-  }
+}
 
 
 input[type=submit] {
@@ -36,40 +36,40 @@ input[type=submit] {
     color:#666666;
     border:1px solid #728c40;
     margin-bottom:2px;
-  }
+}
 
 
 a {
     color:#4D87CE;
     font-weight:bold;
     text-decoration:none;
-  }
+}
 
 
 a:hover {
     color:#2a65ad;
-  }
+}
 
 a img {
     border: 0px;
-  }
+}
 
 ol,ul {
-  }
+}
 
 
 li {
     list-style-image:url(../images/backgrounds/li.gif);
     line-height:20px;
     text-align:left;
-  }
+}
 
 
 div.submenu li {
     list-style: none;
     line-height:normal;
     text-align:left;
-  }
+}
 
 
 
@@ -81,7 +81,7 @@ div.submenu li {
     text-align:center;
     margin-bottom:0px;
     background-image:url(../images/backgrounds/menu.jpg);
-  }
+}
 
 #menu {
     width:800px;
@@ -97,7 +97,7 @@ div.submenu li {
     font-size:11px;
     font-variant:small-caps;
     background-image:url(../images/backgrounds/menu.jpg);
-  }
+}
 
 
 #menu a {
@@ -106,7 +106,7 @@ div.submenu li {
     padding:10px;
     padding-top:20px;
     padding-bottom:20px;
-  }
+}
 
 
 #menu a:hover, #menu a.current {
@@ -118,14 +118,14 @@ div.submenu li {
     color:#000000;
     background-color:#FFFFFF;
     background-image:url(../images/backgrounds/a_hover.jpg);
-  }
+}
 
 
 #header {
     width:750px;
     margin:0 auto 0 auto;
     margin-bottom:40px;
-  }
+}
 
 
 #header h1 {
@@ -139,7 +139,7 @@ div.submenu li {
     color:#736451;
     margin-bottom:10px;
     text-align:left;
-  }
+}
 
 
 #header h2 {
@@ -152,14 +152,14 @@ div.submenu li {
     padding:0;
     color:#000000;
     border-bottom:1px solid #eeeeee;
-  }
+}
 
 
 #wrapper {
     width:800px;
     margin:0 auto 0 auto;
     text-align:center;
-  }
+}
 
 
 #introduction {
@@ -177,7 +177,7 @@ div.submenu li {
     padding-top:0;
     background-repeat:no-repeat;
     width:580px;
-  }
+}
 
 
 #logo {
@@ -188,22 +188,22 @@ div.submenu li {
     margin-top : 5px;
     vertical-align : middle;
     width : 180px;
-  }
+}
 
 
 .clearer {
     clear:both;
-  }
+}
 
 
 #sidebar {
- margin-left:10px;
+margin-left:10px;
     width:190px;
     float:right;
     font-size:95%;
     color:#6C534A;
     text-align:left;
-  }
+}
 
 
 #sidebar h4 {
@@ -214,11 +214,11 @@ div.submenu li {
     border-bottom:1px solid #eeeeee;
     color:#728c40;
     text-align:right;
-  }
+}
 
 
 .submenu {
-  }
+}
 
 
 .submenu a {
@@ -229,18 +229,18 @@ div.submenu li {
     background-repeat:no-repeat;
     padding:5px;
     padding-right:0;
-  }
+}
 
 
 .submenu a:hover {
     background-color:#eeeeee;
     background-image:url(../images/backgrounds/submenua_hover.jpg);
     background-repeat:repeat-y;
-  }
+}
 
 
 #content {
- float:left;
+float:left;
     margin-right:5px;
     padding-right:5px;
     background-image:url(../images/backgrounds/mainbar.jpg);
@@ -250,7 +250,7 @@ div.submenu li {
     width:580px;
 
 
-  }
+}
 
 
 #content h1 {
@@ -260,13 +260,13 @@ div.submenu li {
     font-weight:normal;
     border-bottom:1px solid #eeeeee;
     color:#728c40;
-  }
+}
 
 
 #content p {
     padding:15px;
     line-height:20px;
-  }
+}
 
 
 #content .articleimg {
@@ -276,7 +276,7 @@ div.submenu li {
     margin-left:20px;
     margin-top:20px;
     margin-bottom:20px;
-  }
+}
 
 
 #footer {
@@ -287,17 +287,17 @@ div.submenu li {
     padding-top:5px;
     padding-bottom:5px;
     color:#FFFFFF;
-  }
+}
 
 
 #footer a {
     color:#006600;
-  }
+}
 
 
 #footer a:hover {
     color:#009900;
-  }
+}
 
 /* Zikula required styles */
 .z-clearfix:after {
@@ -306,29 +306,29 @@ div.submenu li {
     height: 0;
     clear: both;
     visibility: hidden;
-  }
+}
 
 
 .z-clearfix {
     display: inline-table;
-  }
+}
 
 /* Hides from IE-mac \*/
 * html .pn-clearfix {
     height: 1%;
-  }
+}
 
 
 .z-clearfix {
     display: block;
-  }
+}
 
 /* End hide from IE-mac */
 
 /* Overflow-Method to clear float environments */
 .z-floatbox {
     overflow:hidden;
-  }
+}
 
 /* zikula blocks */
 .z-bkey-extmenu ul {
@@ -345,19 +345,19 @@ div.submenu li {
     padding-top : 0;
     text-decoration:none;
     width : 140px;
-  }
+}
 
 p.extmenuadmin a {
     padding-left: 45px;
     text-decoration:none;
-  }
+}
 
 
 .z-blockposition-left  #block_search_q, .z-blockposition-right #block_search_q {
     margin-left : 20px;
     min-width : 90px !important;
     max-width : 130px;
-  }
+}
 
 #sidebar form label{    margin-left : 20px;}
 
@@ -374,7 +374,7 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
     width : 130px;
-  }
+}
 
 .z-bkey-adminnav ul ul li {
     list-style-image : none;
@@ -388,5 +388,5 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
     width : 130px;
-  }
+}
 
