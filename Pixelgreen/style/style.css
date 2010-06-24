@@ -1,23 +1,21 @@
 
 /********************************************
-   AUTHOR:  			Erwin Aligam 
-   WEBSITE:   			http://www.styleshout.com/
-	TEMPLATE NAME: 	PixelGreen
-   TEMPLATE CODE: 	S-0010
-   VERSION:          1.2   
-	LAST MODIFIED:    June-05-2007       	
- *******************************************/ 
- 
+AUTHOR:              Erwin Aligam
+WEBSITE:               http://www.styleshout.com/
+    TEMPLATE NAME:     PixelGreen
+TEMPLATE CODE:     S-0010
+VERSION:          1.2
+LAST MODIFIED by Erwin Aligam:    June-05-2007
+*******************************************/
+
 /********************************************
-   HTML ELEMENTS
-********************************************/ 
-
+HTML ELEMENTS
+********************************************/
 /* top elements */
-
 * {
     padding: 0;
     margin: 0;
-  }
+}
 
 
 body {
@@ -38,50 +36,49 @@ body {
     padding-right : 0;
     padding-top : 0;
     text-align : center;
-  }
+}
 
 /* links */
-
 a {
     background: inherit;
     color: #72A545;
     text-decoration: none;
-  }
+}
 
 
 a:hover {
     background: inherit;
     color: #006699;
     text-decoration: underline;
-  }
+}
 
 /* headers */
 
 h1, h2, h3 {
     font: bold 1em 'Trebuchet MS', Tahoma, Sans-serif;
-  }
+}
 
 
 h1 {
     font-size: 1.4em;
     color: #65944A;
-  }
+}
 
 
 h2 {
     font-size: 1.2em;
     text-transform: uppercase;
-  }
+}
 
 
 h3 {
     font-size: 1.2em;
-  }
+}
 
 
 p, h1, h2, h3 {
     margin: 10px 15px;
-  }
+}
 
 
 ul {
@@ -101,25 +98,24 @@ ul li {
 ol {
     margin: 10px 30px;
     padding: 0 15px;
-  }
+}
 
 /* images */
-
 img {
     border: 1px solid #DADADA;
     padding: 5px;
     background: #FAFAFA;
-  }
+}
 
 
 img.float-right {
     margin: 5px 0px 5px 15px;
-  }
+}
 
 
 img.float-left {
     margin: 5px 15px 5px 0px;
-  }
+}
 
 
 code {
@@ -133,13 +129,13 @@ code {
     */ background: #FAFAFA;
     border: 1px solid #f2f2f2;
     border-left: 3px solid #72A545;
-  }
+}
 
 
 acronym {
     cursor: help;
     border-bottom: 1px solid #777;
-  }
+}
 
 
 blockquote {
@@ -151,19 +147,18 @@ blockquote {
     border-left: 3px solid #72A545;
     font: bold 1.2em/1.5em "Trebuchet MS", Tahoma, sans-serif;
     color: #666666;
-  }
+}
 
 /* start - table */
-
 table.pn-datatable {
     border-collapse: collapse;
     margin: 10px 15px;
-  }
+}
 
 
 table.pn-datatable th strong {
     color: #fff;
-  }
+}
 
 
 table.pn-datatable th {
@@ -175,12 +170,12 @@ table.pn-datatable th {
     text-align: left;
     border-left: 1px solid #B6D59A;
     border-bottom: solid 2px #FFF;
-  }
+}
 
 
 table.pn-datatable tr {
     height: 30px;
-  }
+}
 
 
 table.pn-datatable td {
@@ -189,40 +184,39 @@ table.pn-datatable td {
     /* border-left: 1px solid #FFE1C3;
     */border-left: 1px solid #FFF;
     border-bottom: solid 1px #ffffff;
-  }
+}
 
 
 table.pn-datatable td.first,table.pn-datatable th.first {
     border-left: 0px;
-  }
+}
 
 
 table.pn-datatable tr.pn-odd {
     background: #F8F8F8;
-  }
+}
 
 
 table.pn-datatable tr.pn-even {
     background: #EFEFEF;
-  }
+}
 
 /* end - table */
 
 /* form elements */
-
 form {
     margin:10px 15px;
     padding: 0;
     border: 1px solid #f2f2f2;
     background-color: #FAFAFA;
-  }
+}
 
 
 label {
     display:block;
     font-weight:bold;
     margin:5px 0;
-  }
+}
 
 
 input {
@@ -230,7 +224,7 @@ input {
     border:1px solid #eee;
     font: normal 1em "Trebuchet MS", Tahoma, sans-serif;
     color:#777;
-  }
+}
 
 
 textarea {
@@ -241,7 +235,7 @@ textarea {
     height:100px;
     display:block;
     color:#777;
-  }
+}
 
 
 input.button {
@@ -251,22 +245,21 @@ input.button {
     padding: 2px 3px;
     color: #333;
     border: 1px solid #DADADA;
-  }
+}
 
 /* search form */
-
 .searchform {
     background-color: transparent;
     border: none;
     margin: 0;
     padding: 0;
-  }
+}
 
 
 .searchform p {
     margin: 10px;
     padding: 0;
-  }
+}
 
 
 .searchform input.textbox {
@@ -275,7 +268,7 @@ input.button {
     height: 20px;
     padding: 2px;
     vertical-align: top;
-  }
+}
 
 
 .searchform input.button {
@@ -286,30 +279,27 @@ input.button {
     border: 1px solid #DADADA;
     padding: 3px 5px;
     vertical-align: top;
-  }
+}
 
 /***********************
-	  LAYOUT
+    LAYOUT
 ************************/
-
-
 #header-content, #content, #footer-content {
     width: 760px;
-  }
+}
 
 /* header */
-
 #header {
     height: 100px;
     text-align: left;
-  }
+}
 
 
 #header-content {
     margin: 0 auto;
     padding: 0;
     position: relative;
-  }
+}
 
 
 #header-content h1#logo {
@@ -321,13 +311,13 @@ input.button {
     padding: 0;
     /* change the values of left and top to adjust the position of the logo */top: 0;
     left: 0px;
-  }
+}
 
 
 #header-content h1#logo a {
     text-decoration: none;
     color: #FFF;
-  }
+}
 
 
 #header-content #slogan {
@@ -339,10 +329,9 @@ input.button {
     padding: 0;
     /* change the values of left and top to adjust the position of the slogan */top: 55px;
     left: 40px;
-  }
+}
 
 /* header menu */
-
 #header-content ul {
     position: absolute;
     right: -5px;
@@ -352,12 +341,12 @@ input.button {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
+}
 
 
 #header-content li {
     display: inline;
-  }
+}
 
 
 #header-content li a {
@@ -368,83 +357,79 @@ input.button {
     background-color: #333;
     text-decoration: none;
     border-right: 1px solid #272727;
-  }
+}
 
 
 #header-content li a:hover {
     background: #65944A;
     color: #FFF;
-  }
+}
 
 
 #header-content li a#current {
     background: #65944A;
     color: #FFF;
-  }
+}
 
 /* header photo */
-
 .headerphoto {
     margin: 0 auto;
     width: 770px;
     height: 200px;
     padding: 15px 10px 10px 10px;
     background: #FFF url(../images/headerphoto.jpg) no-repeat center;
-  }
+}
 
 /* content */
-
 #content-wrap {
     clear: both;
     float: left;
     width: 100%;
-  }
+}
 
 
 #content {
     text-align: left;
     padding: 0;
     margin: 0 auto;
-  }
+}
 
 /* sidebar */
-
 #sidebar {
     float: right;
     width: 30%;
     margin: 0 0 10px 0;
     padding: 0;
-  }
+}
 
 
 #sidebar h4 {
     padding: 10px 0px 5px 10px;
     margin: 0;
     font: bold 1.3em 'Trebuchet MS', Tahoma, Sans-serif;
-  }
+}
 
 
 .z-block {
- padding-left: 5px;
- padding-right: 5px;
+padding-left: 5px;
+padding-right: 5px;
     border: 1px solid #EFEDED;
     margin-bottom: 10px;
-  }
+}
 
 /* sidebar menu */
-
 #sidebar ul.navlist {
     list-style:none;
     margin: 10px 0 15px 0;
     padding: 0;
     background: #F2F2F2;
-  }
+}
 
 
 #sidebar ul.navlist li {
     padding: 0px 10px;
     list-style-image: none;
-  }
+}
 
 
 #sidebar ul.navlist a {
@@ -456,19 +441,19 @@ input.button {
     line-height: 1.5em;
     border-bottom: 1px dashed #D4D4D4;
     text-decoration:none;
-  }
+}
 
 
 #sidebar ul.navlist a.top {
     border-top: 1px dashed #D4D4D4;
-  }
+}
 
 
 #sidebar ul.navlist a:hover {
     padding: .3em 0 .3em 10px;
     border-left: 5px solid #65944A;
     color: #65944A;
-  }
+}
 
 /* Zikula Menu Lists */
 *.z-bkey-adminnav ul {
@@ -482,29 +467,28 @@ input.button {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 2px;
-  }
+}
 *.z-bkey-adminnav ul ul li {
     list-style: none;
     margin-left: 0px;
     list-style-type: disc;
     list-style-position: inside;
-  }
+}
 
 /**************** Extended Menublock styles ****************/
 p.extmenuadmin {
     clear:both;
     padding-left : 0.5em;
-  }
+}
 
 
 /* main */
-
 #main {
     float: left;
     width: 68%;
     margin: 0 0 10px 0;
     padding: 0;
-  }
+}
 
 
 #main h1 {
@@ -512,7 +496,7 @@ p.extmenuadmin {
     margin: 0 0 0 10px;
     border-bottom: 1px solid #f2f2f2;
     font: normal 1.5em 'Trebuchet MS', Tahoma, Sans-serif;
-  }
+}
 
 
 #main ul li {
@@ -520,7 +504,7 @@ p.extmenuadmin {
     padding-left: 5px;
     list-style-position: inside;
     list-style-image: url(../images/bullet.gif);
-  }
+}
 
 
 .post {
@@ -528,7 +512,7 @@ p.extmenuadmin {
     padding: 0;
     background: #FFF url(../images/gradientbg.jpg) repeat-x;
     border: 1px solid #EFEDED;
-  }
+}
 
 
 .post .post-footer {
@@ -537,81 +521,80 @@ p.extmenuadmin {
     padding: 5px;
     margin-top: 20px;
     font-size: 95%;
-  }
+}
 
 
 .post .post-footer .date {
     background: url(../images/'clock.gif') no-repeat 0 center;
     padding-left: 20px;
     margin: 0 10px 0 5px;
-  }
+}
 
 
 .post .post-footer .comments {
     background: url(../images/'comment.gif') no-repeat 0 center;
     padding-left: 20px;
     margin: 0 10px 0 5px;
-  }
+}
 
 
 .post .post-footer .readmore {
     background: url(../images/'page.gif') no-repeat 0 center;
     padding-left: 20px;
     margin: 0 10px 0 5px;
-  }
+}
 
 /* footer */
-
 #footer {
     clear: both;
     margin: 0;
     padding: 0;
     font: normal .95em/1.6em 'Trebuchet MS', Tahoma, Arial, sans-serif;
     text-align: left;
-  }
+}
 
 
 #footer h1, #footer p {
     margin-left: 0;
-  }
+}
 
 
 #footer-content {
     border-top: 1px solid #EAEAEA;
     margin: 0 auto;
     padding-left: 15px;
-  }
+}
 
 
 #footer-content a {
     text-decoration: none;
     color: #777;
-  }
+}
 
 
 #footer-content a:hover {
     text-decoration: underline;
     color: #333;
-  }
+}
 
 
 #footer-content ul {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
+}
 
 
 #footer-content .col {
     width: 32%;
     padding: 0 5px 30px 0;
-  }
+}
 
 
 #footer-content .col2 {
     width: 33%;
     padding: 0 0 30px 0;
-  }
+}
 
 #footer-foot {
     clear: both;
@@ -625,49 +608,46 @@ p.extmenuadmin {
     border-top: 1px solid #EAEAEA;
     margin: 0 auto;
     padding-left: 15px;
-  }
+}
 
 
 #footer-foot a {
     text-decoration: none;
     color: #777;
-  }
+}
 
 
 #footer-foot a:hover {
     text-decoration: underline;
     color: #333;
-  }
+}
 
 /* alignment classes */
-
 .float-left {
     float: left;
-  }
+}
 
 
 .float-right {
     float: right;
-  }
+}
 
 
 .align-left {
     text-align: left;
-  }
+}
 
 
 .align-right {
     text-align: right;
-  }
+}
 
 /* additional classes */
-
 .clear {
     clear: both;
-  }
+}
 
 
 .gray {
     color: #BFBFBF;
-  }
-
+}
