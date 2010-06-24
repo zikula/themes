@@ -1,17 +1,17 @@
 
 /**************************************************************
-   Visit FullAhead.org and studio7designs.com for more layouts and downloads for this template!
- **************************************************************/
+Visit FullAhead.org and studio7designs.com for more layouts and downloads for this template!
+**************************************************************/
 
 /*********************************************************
-   HTML Elements
- *********************************************************/
+HTML Elements
+*********************************************************/
 
 
 
 html,body {
     height: 100%;
-  }
+}
 
 
 body {
@@ -22,7 +22,7 @@ body {
     font: 400 0.7em verdana, arial, sans-serif;
     line-height: 170%;
     color: #555;
-  }
+}
 
 /* Headers */
 
@@ -30,7 +30,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 10px 0;
     padding: 0;
-  }
+}
 
 
 h1 {
@@ -38,30 +38,30 @@ h1 {
     font: 400 1.6em arial, sans-serif;
     color: #536C71;
     border-bottom: 12px solid #ddd;
-  }
+}
 
 
 h2 {
     font-size: 1.2em;
     color: #586B7A;
-  }
+}
 
 
 h3 {
     text-transform: uppercase;
     font-size: 0.9em;
     color: #5D6F73;
-  }
+}
 
 
 h4 {
     font-size: 0.85em;
-  }
+}
 
 
 h5 {
     font-size: 0.8em;
-  }
+}
 
 /* Needed to horizontally pad in a coloured container */
 
@@ -69,7 +69,7 @@ h5 {
 .horzPad h1,.horzPad h2,.horzPad h3,.horzPad h4,.horzPad h5,.horzPad p {
     padding-left: 5px;
     padding-right: 5px;
-  }
+}
 
 /* Links */
 
@@ -77,59 +77,59 @@ h5 {
 a {
     text-decoration: none;
     color: #3B5D77;
-  }
+}
 
 
 a:hover {
     color: #668FA3;
-  }
+}
 
 
 a img {
     border: 0;
-  }
+}
 
 
 a img.border {
     border: 1px solid #FC3307;
-  }
+}
 
 
 a:hover img.border {
     /* Fixes IE bug - IE doesn't correctly apply the style on a:hover so need to mask it */ border: 1px solid #668FA3 !important;
     border: 1px solid #FC3307;
-  }
+}
 
 /* Images */
 
 
 img.floatRight {
     margin: 5px 0 10px 10px;
-  }
+}
 
 
 img.floatLeft {
     margin: 5px 10px 10px 0;
-  }
+}
 
 /* Lists */
 
 
 ul li {
     list-style-image: url(../images/bg/submenu1.gif);
-  }
+}
 
 
 ol li {
     font-weight: bold;
     color: #668FA3;
-  }
+}
 
 
 ol li span {
     font-weight: normal;
     color: #444;
-  }
+}
 
 /* Zikula Menu Lists */
 *.z-bkey-adminnav ul {
@@ -142,19 +142,19 @@ ol li span {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 2px;
-  }
+}
 *.z-bkey-adminnav ul ul li {
     list-style: none;
     margin-left: 0px;
     list-style-type: disc;
     list-style-position: inside;
-  }
+}
 
 /**************** Extended Menublock styles ****************/
 p.extmenuadmin {
     clear:both;
     padding-left : 0.5em;
-  }
+}
 
 /**************** Rollover Menublock styles ****************/
 .z-bkey-extmenu {
@@ -171,7 +171,7 @@ p.extmenuadmin {
     float : left;
     margin-left : -15px;
     width : 100%;
-  }
+}
 
 .z-bkey-extmenu h4 {
     color : #EBF3F5;
@@ -183,57 +183,57 @@ p.extmenuadmin {
     border-bottom-style : inset;
     border-bottom-width : 2px;
 
-  }
+}
 
 .z-bkey-extmenu .navcontainer {
     width : 100%;
     /* dont remove me */;
-  }
+}
 
 *.z-bkey-extmenu .navcontainer ul {
     margin-left: 0px;
     padding-left: 0px;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
 *.z-bkey-extmenu .navcontainer ul.navlist li {
     list-style-image : none;
     list-style-type : none;
-  }
+}
 
 *.z-bkey-extmenu .navcontainer li a {
     display: block;
     padding: 3px;
     background-color: inherit;
     border-bottom: 1px solid #4A5C6A;
-  }
+}
 
 *.z-bkey-extmenu .navcontainer li a:link {
     background-color: #41637D ;
     color: #3B5D77 ;
     text-decoration: none;
-  }
+}
 
 *.z-bkey-extmenu .navcontainer li a:hover {
     background-color: #4A5C6A ;
     color: #668FA3 ;
-  }
+}
 
 *.z-bkey-extmenu .navcontainer a {
     color: #CFD9DB!important;
     background-color: #41637D;
-  }
+}
 
 *.z-bkey-extmenu .navcontainer a:link, .navlist a:visited {
     background-color: #41637D ;
     color: #3B5D77 ;
     text-decoration: none;
-  }
+}
 
 *.z-bkey-extmenu .navcontainer a:hover {
     background-color: #4A5C6A ;
     color: #668FA3 ;
-  }
+}
 
 /* Blockquote */
 blockquote {
@@ -242,18 +242,18 @@ blockquote {
     background: #E7F1F3;
     border-top: 1px solid #AAD3DB;
     border-bottom: 1px solid #AAD3DB;
-  }
+}
 
 /**************************************************************
-   Form Elements
- **************************************************************/
+Form Elements
+**************************************************************/
 
 
 
 form {
     padding: 0;
     margin: 0;
-  }
+}
 
 /* If you're finding the input elements get pushed down, increase the width */
 
@@ -262,13 +262,13 @@ label {
     float: left;
     width: 25%;
     vertical-align: top;
-  }
+}
 
 
 .z-block label {
     width: 70%;
     vertical-align: top;
-  }
+}
 
 
 input,textarea,select {
@@ -277,20 +277,20 @@ input,textarea,select {
     color: #999;
     background: #EEE;
     border: 1px solid #CCC;
-  }
+}
 
 
 input:focus,input:hover,textarea:focus,textarea:hover,select:focus,select:hover {
     color: #000;
     background: #E7F1F3;
     border: 1px solid #888;
-  }
+}
 
 
 input.noBorder,input:focus.noBorder,input:hover.noBorder {
     padding: 0;
     border: 0;
-  }
+}
 
 
 input.button {
@@ -302,11 +302,11 @@ input.button {
     border-width: 1px;
     border-style: solid;
     border-color: #FF7800 #691300 #691300 #FF7800;
-  }
+}
 
 
 input.radio {
     background: none;
     border: 0px;
-  }
+}
 
