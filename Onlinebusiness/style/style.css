@@ -15,7 +15,7 @@ body {
     padding-right : 0;
     padding-top : 0;
     text-align : center;
-  }
+}
 
 /* Global styles */
 
@@ -23,17 +23,17 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-  }
+}
 
 
 span {
     color: #00A2FF;
-  }
+}
 
 
 p, ul, p a, h2 {
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
 /* Heading styles */
 
@@ -43,45 +43,45 @@ h1 {
     font-weight: normal;
     margin-left: 10px;
     font-size: 1.55em;
-  }
+}
 
 
 h1 a:link, h1 a:visited, h1 a:active {
     text-decoration: none;
     color: #333;
     font-weight: normal;
-  }
+}
 
 
 h1 a:link span, h1 a:visited span, h1 a:active span {
     text-decoration: none;
     font-weight: normal;
-  }
+}
 
 
 h1 a:hover {
     color: #00A2FF;
     text-decoration: none;
     font-weight: normal;
-  }
+}
 
 
 h1 a:hover span {
     color: #333;
     text-decoration: none;
     font-weight: normal;
-  }
+}
 
 
 h3 a, h3 a:link, h3 a:hover {
     font-weight: normal;
-  }
+}
 
 /* styling for h3 heading links */
 
 h4 a, h4 a:link, h4 a:hover, h5 a:link, h5 a:hover {
     font-weight: bold;
-  }
+}
 
 /* styling for other heading links */
 
@@ -93,7 +93,7 @@ h2 {
     background-color: #333;
     color: #fff;
     line-height: 2.0em;
-  }
+}
 
 /* headings on black backgrounds */
 
@@ -101,21 +101,21 @@ h2 {
 h3, h4, h5 {
     font-family: Georgia, serif;
     margin: 20px 0 0 10px;
-  }
+}
 
 
 h3 {
     font-size: 1.25em;
     line-height: 1.25em;
     font-weight: normal;
-  }
+}
 
 
 h4 {
     font-size: 0.90em;
     line-height: 0.90em;
     font-weight: bold;
-  }
+}
 
 
 h5 {
@@ -123,7 +123,7 @@ h5 {
     line-height: 0.70em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-  }
+}
 
 /* appears like bold paragraph text */
 
@@ -135,7 +135,7 @@ p {
     margin: 10px;
     font-size: 0.70em;
     line-height: 1.75em;
-  }
+}
 
 
 p.updated {
@@ -144,7 +144,7 @@ p.updated {
     line-height: 0.60em;
     letter-spacing: 0.05em;
     color: #888;
-  }
+}
 
 
 #siteimg p {
@@ -156,13 +156,13 @@ p.updated {
     line-height: 1.05em;
     font-weight: normal;
     letter-spacing: -0.05em;
-  }
+}
 
 
 acronym {
     border-bottom: 1px dashed #333;
     cursor: help;
-  }
+}
 
 
 ul {
@@ -170,7 +170,7 @@ ul {
     font-size: 0.70em;
     line-height: 1.75em;
     list-style: inside square;
-  }
+}
 
 /* Paragraph Links */
 
@@ -178,7 +178,7 @@ a {
     color: #00A2FF;
     font-weight: bold;
     text-decoration: none;
-  }
+}
 
 /* The blue colour */
 
@@ -186,14 +186,14 @@ a:link {
     color: #00A2FF;
     font-weight: bold;
     text-decoration: none;
-  }
+}
 
 
 a:hover {
     color: #333;
     font-weight: bold;
     text-decoration: none;
-  }
+}
 
 /* Divs */
 
@@ -210,7 +210,7 @@ a:hover {
     padding-top : 0;
     text-align : center;
 
-  }
+}
 
 
 #container {
@@ -219,14 +219,14 @@ a:hover {
     overflow: hidden;
     text-align: left;
     margin:auto;
-  }
+}
 
 
 #topbar {
     /* Top bar, can be used for extra links etc */width: 770px;
     height: 25px;
     background: #333;
-  }
+}
 
 
 #hdr {
@@ -235,7 +235,7 @@ a:hover {
     /* Same as h1 line-height */line-height: 4.5em;
     background: #fff;
     text-align: left;
-  }
+}
 
 
 #navbar {
@@ -244,7 +244,7 @@ a:hover {
     background: #f0f0f0;
     /* Light Grey */;
     text-align: left;
-  }
+}
 
 
 #siteimg {
@@ -253,7 +253,7 @@ a:hover {
     background: url('../images/siteimage.jpg') #fff;
     /* Light Grey */;
     text-align: left;
-  }
+}
 
 
 #lftcol {
@@ -261,10 +261,10 @@ a:hover {
     width: 200px;
     background: transparent;
     overflow: hidden;
- border-right: 1px dotted #000;
- border-bottom: 1px dotted #000;
- padding-bottom:10px;
-  }
+    border-right: 1px dotted #000;
+    border-bottom: 1px dotted #000;
+    padding-bottom:10px;
+}
 
 
 #rgtcol {
@@ -272,29 +272,29 @@ a:hover {
     width: 565px;
     background: transparent;
     overflow: hidden;
-  }
+}
 
 
 #bttmbar {
- margin-top:10px;
- border-top: 5px solid #000;
+margin-top:10px;
+border-top: 5px solid #000;
     /* bottom bar, containing top button and copyright info etc */width: 100%;
     height: 30px;
     line-height: 10px;
     background: #fff;
     overflow: hidden;
-  }
+}
 
 /* Main Navigation */
 
 #nav ul {
     display: inline;
-  }
+}
 
 
 #nav li {
     display: inline;
-  }
+}
 
 
 #nav a {
@@ -302,12 +302,12 @@ a:hover {
     /* same as height of nav bar */margin-left: 10px;
     display: inline;
     font-weight: bold;
-  }
+}
 
 
 #nav a span {
     color: #333;
-  }
+}
 
 /* Forms, Input boxes and buttons */
 
@@ -317,14 +317,14 @@ form.login {
     line-height: 3em;
     margin: 10px 0 0 0;
     width: 8.0em;
-  }
+}
 
 
 input.login {
     border: 1px solid #333;
     width: 6em;
     font-size: 0.95em;
-  }
+}
 
 
 input.loginbttn {
@@ -333,25 +333,25 @@ input.loginbttn {
     background: #00A2FF;
     color: #fff;
     font-size: 1.0em;
-  }
+}
 
 /* Images */
 
 img.rightimg {
     float: right;
     margin-left: 10px;
-  }
+}
 
 
 img.leftimg {
     float: left;
     margin-right: 10px;
-  }
+}
 
 
 img.languageimg {
     float: right;
     margin: 4px 2px 0 0;
-  }
+}
 
 /* used for the language flags */
