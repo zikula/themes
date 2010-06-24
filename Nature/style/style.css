@@ -1,206 +1,204 @@
-/* Nature - an open source xhtml/css website layout by Studio-plume.org kty 
-(Jan 04, 2007)
- */
+/* Nature - an open source xhtml/css website layout by Studio-plume.org kty (Jan 04, 2007) */
 
 body {
-margin: 0 auto;
-padding: 0;
-font: 76% Verdana,Tahoma,Arial,sans-serif;
-background: #211d1e url(../images/body_deg.gif) repeat-x
+    margin: 0 auto;
+    padding: 0;
+    font: 76% Verdana,Tahoma,Arial,sans-serif;
+    background: #211d1e url(../images/body_deg.gif) repeat-x
 }
 
 
 #wrap {
-background: #000000;
-color: #ffffff;
-border:  none;
-margin: 0 auto;
-width: 790px;
+    background: #000000;
+    color: #ffffff;
+    border:  none;
+    margin: 0 auto;
+    width: 790px;
 }
 
 #header {
-clear: both;
-margin: 0px 0em 0px 0em;
-padding: 0;
-padding-top: 1em;
-height: 75px;
-background-color: #000000;}
+    clear: both;
+    margin: 0px 0em 0px 0em;
+    padding: 0;
+    padding-top: 1em;
+    height: 75px;
+    background-color: #000000;
+}
 
 #header h3 {
-width: 350px;
-margin: 0px 0px 0px 15px;
-float: left;
+    width: 350px;
+    margin: 0px 0px 0px 15px;
+    float: left;
 }
 
 #header p {
-width: 500px;
-float: right;
-text-align: center;
-color: #a0a0a0;
-margin: 0px 0px 0px 0px;
-font-size: 0.8em;
-line-height: 1.2em;
-height: 35px;}
+    width: 500px;
+    float: right;
+    text-align: center;
+    color: #a0a0a0;
+    margin: 0px 0px 0px 0px;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    height: 35px;
+}
 
 
 
 #avmenu {
-clear: left;
-float: left;
-width: 150px;
-margin: 0 0 10px 0;
-padding: 0;
-font-size: 0.9em;
+    clear: left;
+    float: left;
+    width: 150px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 0.9em;
 }
 
-#avmenu ul {	
-list-style: none;
-width: 150px;
-margin: 0 0 20px 0;
-padding: 0;
-font-size: 1.1em;
-}	
+#avmenu ul {
+    list-style: none;
+    width: 150px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 1.1em;
+}
 
 #avmenu li {
-margin-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 #avmenu li a {
-font-weight: bold;
-height: 20px;
-text-decoration: none;
-color: #fffff1;
-display: block;
-padding: 6px 0 0 10px;
-background: #67522c;
-border-left: 1px #846837 solid;
+    font-weight: bold;
+    height: 20px;
+    text-decoration: none;
+    color: #fffff1;
+    display: block;
+    padding: 6px 0 0 10px;
+    background: #67522c;
+    border-left: 1px #846837 solid;
 }
-	
-	
+
 #avmenu li a:hover {
-background: #67522c;
-color: #fffff1;
-border-left: 4px #47381e solid;
+    background: #67522c;
+    color: #fffff1;
+    border-left: 4px #47381e solid;
 }
 
 .announce {
-margin: 10px 0 10px 0;
-padding: 10px;
-width: 130px;
-color: #a8a8a8;
-background-color: #000000;
-line-height: 1.3em;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    width: 130px;
+    color: #a8a8a8;
+    background-color: #000000;
+    line-height: 1.3em;
 }
 
 #extras {
-float: right;
-width: 150px;
-margin: 0 0 10px 0;
-padding: 0;
-font-size: 0.9em;
-line-height: 1.5em;
+    float: right;
+    width: 150px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 0.9em;
+    line-height: 1.5em;
 }
 
 #extras p {
-margin: 0 0 1.5em 0;
+    margin: 0 0 1.5em 0;
 }
 
 #content {
-margin: 0em 160px 20px 160px;
-padding: 0 10px 0 10px;
-line-height: 1.6em;
-text-align: left;
+    margin: 0em 160px 20px 160px;
+    padding: 0 10px 0 10px;
+    line-height: 1.6em;
+    text-align: left;
 }
 
 #content h2 {
-font-size: 1.5em;
-margin: 0 0 0.5em 0;
+    font-size: 1.5em;
+    margin: 0 0 0.5em 0;
 }
 
 #content img {
-padding: 0px;
-display:inline;
+    padding: 0px;
+    display:inline;
 }
 
-
-
 h4{
-font-size: 1.3em;
-margin: 0 0 10px 0;
+    font-size: 1.3em;
+    margin: 0 0 10px 0;
 }
 
 a {
-text-decoration: none;
-color: #b6952a;
+    text-decoration: none;
+    color: #b6952a;
 }
 
 a:hover {
-text-decoration: underline;
-color: #b6952a;
+    text-decoration: underline;
+    color: #b6952a;
 }
 
 
 #footer {
-clear: both;
-margin: 0 auto;
-padding: 0px 0em 0px 0em;
-width: 790px;
-text-align: center;
-color: #808080;
-font-size: 0.9em;
-height: 244px;
-background: #211d1e url(../images/pom_bas.jpg) no-repeat right;
-border: none;}
+    clear: both;
+    margin: 0 auto;
+    padding: 0px 0em 0px 0em;
+    width: 790px;
+    text-align: center;
+    color: #808080;
+    font-size: 0.9em;
+    height: 244px;
+    background: #211d1e url(../images/pom_bas.jpg) no-repeat right;
+    border: none;
+}
 
 #footer a {
-color: #808080;
-text-decoration: none;
+    color: #808080;
+    text-decoration: none;
 }
 
 #footer a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 .left {
-margin: 0px 7px 0px 5px;
-float: left;
+    margin: 0px 7px 0px 5px;
+    float: left;
 }
 
 .right {
-margin: 0px 7px 0px 5px;
-float: right;
+    margin: 0px 7px 0px 5px;
+    float: right;
 }
 
 .textright {
-text-align: right;
+    text-align: right;
 }
 
 .center {
-text-align: center;
+    text-align: center;
 }
 
 .small {
-font-size: 0.8em;
+    font-size: 0.8em;
 }
 
 .bold {
-font-weight: bold;
+    font-weight: bold;
 }
 
 .hide {
-display: none;
+    display: none;
 }
 
 p.extmenuadmin a {
     padding-left: 15px;
     text-decoration:none;
-  }
+}
 
 
 .z-blockposition-left  #block_search_q, .z-blockposition-right #block_search_q {
     min-width : 90px !important;
     max-width : 130px;
-  }
+}
 
 
 .z-bkey-adminnav ul {
@@ -216,7 +214,7 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
     width : 130px;
-  }
+}
 .z-bkey-adminnav ul ul li {
     list-style-image : none;
     list-style-type : circle;
@@ -229,5 +227,4 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
     width : 130px;
-  }
-
+}
