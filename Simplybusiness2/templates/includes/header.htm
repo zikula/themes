@@ -3,8 +3,9 @@
 Header + Navigation
 ******************************
 -->
-<div id="header"><img src="{$imagepath}/logo.jpg" style="float: left;" alt="{sitename}&nbsp;{gt text="Logo"}" /></div>
-
+<div id="header">
+    <img src="{$imagepath}/logo.jpg" style="float: left;" alt="{sitename}&nbsp;{gt text="Logo Image"}" />
+</div>
 <div id="nav">
     <ul>
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
