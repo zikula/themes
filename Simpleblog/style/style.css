@@ -1,4 +1,3 @@
-
 /********************************************
    AUTHOR:  			Erwin Aligam 
    WEBSITE:   			http://www.styleshout.com/
@@ -10,10 +9,7 @@
 /********************************************
    HTML ELEMENTS
 ********************************************/ 
-
 /* Top Elements */
-
-
 * {
     margin: 0;
     padding: 0;
@@ -31,8 +27,6 @@ body {
   }
 
 /* links */
-
-
 a {
     background: inherit;
     text-decoration: none;
@@ -45,9 +39,7 @@ a:hover {
     color: #996800;
   }
 
-/* headers */
-
-
+/* headings */
 h1, h2, h3 {
     font-family: Verdana, Tahoma, 'Trebuchet MS', Sans-serif;
     font-weight: Bold;
@@ -76,30 +68,26 @@ h1, h2, h3, p {
     padding: 10px;
   }
 
-
+/* lists */
 ul, ol {
     margin: 10px 20px;
     padding: 0 20px;
   }
 
 /* images */
-
-
 img {
     border: 0px solid #CCC;
   }
-
 
 img.float-right {
     margin: 5px 0px 5px 10px;
   }
 
-
 img.float-left {
     margin: 5px 10px 5px 0px;
   }
 
-
+/* misc */
 code {
     margin: 5px 0;
     padding: 10px;
@@ -112,14 +100,10 @@ code {
     border: 1px solid #f2f2f2;
   }
 
-
 acronym {
     cursor: help;
     border-bottom: 1px solid #777;
   }
-
-/* blockquote */
-
 
 blockquote {
     margin: 10px;
@@ -129,8 +113,6 @@ blockquote {
   }
 
 /* form elements */
-
-
 form {
     margin:10px;
     padding: 0 5px;
@@ -175,8 +157,6 @@ input.button {
   }
 
 /* search form */
-
-
 form.search {
     padding: 0;
     margin: 0;
@@ -205,8 +185,6 @@ form.search input.button {
 /********************************************
    LAYOUT
 ********************************************/ 
-
-
 #wrap {
     width: 833px;
     background: url(../images/bg.jpg) repeat-y center top;
@@ -223,8 +201,6 @@ form.search input.button {
   }
 
 /* header */
-
-
 #header {
     position: relative;
     width: 833px;
@@ -275,8 +251,6 @@ form.search input.button {
   }
 
 /* menu */
-
-
 #menu {
     clear: both;
     width: 780px;
@@ -320,8 +294,6 @@ form.search input.button {
   }
 
 /* Main */
-
-
 #main {
     border-bottom-color : #236370;
     border-bottom-style : dotted;
@@ -378,8 +350,6 @@ form.search input.button {
   }
 
 /* sidebar */
-
-
 #sidebar {
     float: right;
     width: 26%;
@@ -455,9 +425,6 @@ p.extmenuadmin {
   }
 
 /* Footer */	
-
-
-
 #footer {
     clear: both;
     color: #66737B;
@@ -482,8 +449,6 @@ p.extmenuadmin {
   }
 
 /* alignment classes */
-
-
 .float-left {
     float: left;
   }
@@ -504,8 +469,6 @@ p.extmenuadmin {
   }
 
 /* additional classes */
-
-
 .clear {
     clear: both;
   }
@@ -514,4 +477,3 @@ p.extmenuadmin {
 .gray {
     color: #CCC;
   }
-
