@@ -15,27 +15,27 @@ body {
     padding-top : 0;
     text-align : center;
     width : 700px;
-  }
+}
 
 
 blockquote {
     border: 1px solid #cc0000;
     padding: 10px;
-  }
+}
 
 
 code {
     white-space: pre;
-  }
- a {
+}
+a {
     color: #cc0000;
     background: transparent;
     text-decoration: none;
-  }
+}
 
 a img {
     border : 0px;
-  }
+}
 
 
 #container {
@@ -44,7 +44,7 @@ a img {
     margin-right: auto;
     border: 0px solid;
     text-align : left;
-  }
+}
 
 
 #header {
@@ -53,13 +53,13 @@ a img {
     width: 700px;
     color: #cc0000;
     background: #FFFFFF;
-  }
+}
 
 #sitename a{
     color: #cc0000;
     background: transparent;
     text-decoration: none;
-  }
+}
 
 #header p {
     margin-top: -19px;
@@ -67,7 +67,7 @@ a img {
     font-size: 90%;
     color: silver;
     background: #FFFFFF;
-  }
+}
 
 
 #search {
@@ -78,20 +78,20 @@ a img {
     font-size: 80%;
     color: silver;
     background: #FFFFFF;
-  }
+}
 
 
 
 #body {
     border-top: 1px solid silver;
-  }
+}
 
 
 #body a {
     color: #cc0000;
     background: #FFFFFF;
     text-decoration: none;
-  }
+}
 
 
 #left {
@@ -101,7 +101,7 @@ a img {
     color: silver;
     background: #FFFFFF;
     font-size: 85%;
-  }
+}
 
 
 #left h4 {
@@ -109,14 +109,14 @@ a img {
     background: #FFFFFF;
     text-decoration: none;
     font-size: 120%;
-  }
+}
 
 
 #main {
     margin: 5px 5px 5px 160px;
     padding: 15px;
     border-left: 1px solid silver;
-  }
+}
 
 
 #main h2 {
@@ -126,13 +126,13 @@ a img {
     padding-left: 22px;
     font-size: 110%;
     color: #cc0000;
-  }
+}
 
 
 #main h1 {
     font-size: 120%;
     color: #cc0000;
-  }
+}
 
 
 #footer {
@@ -151,20 +151,20 @@ a img {
     background: #FFFFFF;
     border-top: 1px solid silver;
     clear : both;
-  }
+}
 
 
 #footer a {
     color: silver;
     background: #FFFFFF;
     text-decoration: none;
-  }
+}
 
 #footer a:hover {
     color: #cc0000;
     background: #FFFFFF;
     text-decoration: none;
-  }
+}
 
 
 .z-bkey-extmenu ul {
@@ -181,18 +181,18 @@ a img {
     padding-top : 0;
     text-decoration:none;
     width : 140px;
-  }
+}
 
 p.extmenuadmin a {
     padding-left: 15px;
     text-decoration:none;
-  }
+}
 
 
 .z-blockposition-left  #block_search_q, .z-blockposition-right #block_search_q {
     min-width : 90px !important;
     max-width : 130px;
-  }
+}
 
 
 .z-bkey-adminnav ul {
@@ -208,7 +208,7 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
     width : 130px;
-  }
+}
 .z-bkey-adminnav ul ul li {
     list-style-image : none;
     list-style-type : circle;
@@ -221,5 +221,4 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
     width : 130px;
-  }
-
+}
