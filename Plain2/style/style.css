@@ -1,11 +1,5 @@
 
 /* CSS Document */
-
-
-
-
-
-
 body {
     background-color : #fff;
     background-image : url(../images/backgrounds/menu.jpg);
@@ -19,12 +13,12 @@ body {
     margin-right : auto;
     margin-top : 0;
     text-align : center;
-  }
+}
 
 
 .clear {
     clear:both;
-  }
+}
 
 
 #header {
@@ -35,8 +29,8 @@ body {
     width : 765px;
     text-align : center;
     height: 132px;
- overflow:hidden;
-  }
+    overflow:hidden;
+}
 
 
 #header-container {
@@ -50,7 +44,7 @@ body {
     padding-top : 0px;
     text-align : center;
     width : 765px;
-  }
+}
 
 
 #head-contained {
@@ -66,7 +60,7 @@ body {
     text-align : left;
     width : 765px;
     vertical-align:middle;
-  }
+}
 
 #header img { /*87px*/
     float : left;
@@ -77,16 +71,16 @@ body {
     position : relative;
     top : 10px;
     vertical-align:bottom;
-  }
+}
 
 
 #header span#sitename a { /*78px*/
- float:left;
+    float:left;
     color : #000;
     font-family : Garamond, Georgia, "Times New Roman", Times, serif;
     font-size : 46px;
     font-weight : normal;
- line-height:30px;
+    line-height:30px;
     margin-bottom : 0;
     margin-left : 0;
     margin-right : 0;
@@ -100,13 +94,12 @@ body {
     text-decoration:none;
     position : relative;
     top : 48px;
-
-  }
+}
 
 
 #header span#sitename a :hover {
     text-decoration:none;
-  }
+}
 
 
 #header span#p { /*76px*/
@@ -128,25 +121,22 @@ body {
     position : relative;
     text-align : left;
     top : 0px;
-  }
+}
 
 
 
 #header a {
     color:#43CBAE;
     text-decoration:none;
-  }
+}
 
 
 #header a:hover {
     border-bottom:1px dotted #333;
-  }
-
-
-
+}
 
 #headnav {
-clear:both;
+    clear:both;
     margin-bottom : 0px;
     margin-left : auto;
     margin-right : auto;
@@ -155,8 +145,8 @@ clear:both;
     top : 0px;
     text-align : left;
     width : 765px;
-min-height:0px;
- max-height:40px;
+    min-height:0px;
+    max-height:40px;
 }
 
 
@@ -170,7 +160,7 @@ min-height:0px;
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 #menu li {
     float:left;
@@ -178,9 +168,9 @@ min-height:0px;
     list-style:none;
     font-family : Verdana, Arial, Helvetica, sans-serif;
     font-size : 11px;
- font-weight:bold;
- font-variant:small-caps;
-  }
+    font-weight:bold;
+    font-variant:small-caps;
+}
 
 
 #menu li a {
@@ -192,7 +182,7 @@ min-height:0px;
     background-image:url(../images/backgrounds/menua.jpg);
     background-repeat:no-repeat;
     padding:5px 0 9px 0;
-  }
+}
 
 
 #menu li a:hover, #menu li.current a {
@@ -200,18 +190,18 @@ min-height:0px;
     border:none;
     color: #AFEBFF;
     padding:6px 0 8px 0;
-  }
+}
 
 
 #container {
- clear:both;
+    clear:both;
     width:770px;
     margin-bottom : 0;
     margin-left : auto;
     margin-right : auto;
     margin-top : 15px;
     text-align : left;
-  }
+}
 
 
 #sidebar {
@@ -222,27 +212,27 @@ min-height:0px;
     color:#777;
     line-height:20px;
     border-bottom:1px solid #eee;
-  }
+}
 
 
 #sidebar h1 {
     color:#CB43A5;
     font-size:16px;
     font-family:"Trebuchet MS", Arial, Verdana;
-  }
+}
 
 
 #sidebar ul {
     margin:0;
     padding:0;
-  }
+}
 
 
 #sidebar li {
     margin:0;
     padding:0;
     list-style:none;
-  }
+}
 
 
 #sidebar li a {
@@ -254,20 +244,20 @@ min-height:0px;
     color:#666;
     text-decoration:none;
     border-left:2px solid #ddd;
-  }
+}
 
 
 #sidebar li a:hover {
     background-color:#eee;
     color:#333;
     border-right:10px solid #eee;
-  }
+}
 
 
 #sidebar p {
     padding: 0 30px 0 5px;
     margin:20px 0 20px 0;
-  }
+}
 
 
 #sidebar img {
@@ -275,7 +265,7 @@ min-height:0px;
     border:5px solid #eee;
     float:left;
     margin:10px 10px 0px 0px;
-  }
+}
 
 
 #sidebar input {
@@ -289,19 +279,19 @@ min-height:0px;
     color:#ccc;
     padding:4px;
     margin:3px;
-  }
+}
 
 
 #sidebar input:hover {
     border:1px solid #ccc;
     color:#666;
-  }
+}
 
 
 #sidebar input:focus {
     border:1px solid #999;
     color:#333;
-  }
+}
 
 
 #content {
@@ -309,7 +299,7 @@ min-height:0px;
     border-left:1px solid #eee;
     width:525px;
     float:right;
-  }
+}
 
 
 #description {
@@ -339,7 +329,7 @@ min-height:0px;
     padding-left : 10px;
     padding-right : 10px;
     width : 505px;
-  }
+}
 
 
 #content h1 {
@@ -352,7 +342,7 @@ min-height:0px;
     background-position:left;
     background-repeat:no-repeat;
     border-top:2px solid #eee;
-  }
+}
 
 
 #content h2 {
@@ -362,7 +352,7 @@ min-height:0px;
     color:#000;
     letter-spacing:-1px;
     padding:15px 15px 15px 40px;
-  }
+}
 
 
 #content h3 {
@@ -373,17 +363,17 @@ min-height:0px;
     letter-spacing:-1px;
     padding:0px 15px 0px 40px;
     margin:0;
-  }
+}
 
 
 #content p {
     line-height:20px;
-  }
+}
 
 
 #content ul {
     margin: 10px 10px 10px 30px;
-  }
+}
 
 
 #content li {
@@ -393,7 +383,7 @@ min-height:0px;
     background-repeat:no-repeat;
     padding:0px 5px 0px 20px;
     margin:15px 0 15px 0;
-  }
+}
 
 
 #content input {
@@ -407,19 +397,19 @@ min-height:0px;
     color:#ccc;
     padding:4px;
     margin:3px 3px 3px 50px;
-  }
+}
 
 
 #content input:hover {
     border:1px solid #ccc;
     color:#666;
-  }
+}
 
 
 #content input:focus {
     border:1px solid #999;
     color:#333;
-  }
+}
 
 
 #content textarea {
@@ -433,19 +423,19 @@ min-height:0px;
     color:#ccc;
     padding:4px;
     margin:3px 3px 3px 50px;
-  }
+}
 
 
 #content textarea:hover {
     border:1px solid #ccc;
     color:#666;
-  }
+}
 
 
 #content textarea:focus {
     border:1px solid #999;
     color:#333;
-  }
+}
 
 
 .articlemenu {
@@ -453,7 +443,7 @@ min-height:0px;
     margin:50px 0 0 0;
     padding:0;
     text-align:right;
-  }
+}
 
 
 #content a,#content button img {
@@ -462,14 +452,14 @@ min-height:0px;
     border-bottom:1px solid #ccc;
     padding:0 4px 0 4px;
     text-decoration:none;
-  }
+}
 
 
 #content a:hover, #content button:hover {
     background-color:#ddd;
     border-bottom:1px solid #bbb;
     color:#000;
-  }
+}
 
 
 #content img {
@@ -479,7 +469,7 @@ min-height:0px;
     padding:5px;
     background-color:#fff;
     border:3px solid #eee;
-  }
+}
 
 
 #content a img, #content button img {
@@ -488,7 +478,7 @@ min-height:0px;
     margin:0px;
     padding:0px;
     border:0px;
-  }
+}
 
 
 #footer {
@@ -509,13 +499,13 @@ min-height:0px;
     color:#999;
     clear:both;
     width:765px;
- text-align:center;
-  }
+    text-align:center;
+}
 
 
 #footer a {
     color:#666;
-  }
+}
 
 
 #footercontent {
@@ -524,5 +514,4 @@ min-height:0px;
     margin-left : auto;
     margin-right : auto;
     margin-top : 5px;
-  }
-
+}
