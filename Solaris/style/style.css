@@ -1,13 +1,11 @@
 
 /*  GLOBAL STUFF  */
-
-
 body,td,th {
     background-color: #FFFFFF;
     color: #000000;
     font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
     font-size: 12px;
-  }
+}
 
 
 body {
@@ -15,23 +13,23 @@ body {
     margin: 0;
     background: url(../images/bg.png) top center repeat-y;
     text-align: center;
-  }
+}
 
 
 a {
     color: #999999;
     text-decoration: none;
-  }
+}
 
 
 a:hover {
     color: #FF9900;
-  }
+}
 
 
 p, h1, h2, h3, h4, h5, h6, pre {
     margin-top: 0;
-  }
+}
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,63 +38,61 @@ h1, h2, h3, h4, h5, h6 {
     color: #FF9900;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     line-height: normal;
-  }
+}
 
 
 h1 {
     font-size: 32px;
-  }
+}
 
 
 h2 {
     font-size: 24px;
-  }
+}
 
 
 h3 {
     font-size: 18px;
-  }
+}
 
 
 h4 {
     font-size: 16px;
-  }
+}
 
 
 h5 {
     font-size: 13px;
-  }
+}
 
 
 h6 {
     font-size: 10px;
-  }
+}
 
 
 hr {
     height: 1px;
     color: #999999;
-  }
+}
 
 
 img {
     border: 0;
-  }
+}
 
 
 ul {
     list-style: square;
-  }
+}
 
 
 acronym, abbr {
     border-bottom: 1px dashed;
     cursor: help;
-  }
+}
 
 /*  CLASSES  */
-
-
 input.styled {
     margin: 1px;
     background-color: #F3F3F3;
@@ -105,27 +101,27 @@ input.styled {
     font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
     font-size: 10px;
     font-weight: bold;
-  }
+}
 
 
 .float_left {
     float: left;
-  }
+}
 
 
 .float_right {
     float: right;
-  }
+}
 
 
 .clear {
     clear: both;
-  }
+}
 
 
 .underline {
     border-bottom: solid 1px;
-  }
+}
 
 
 .qoute {
@@ -138,7 +134,7 @@ input.styled {
     font-size: 11px;
     line-height: 20px;
     display: block;
-  }
+}
 
 
 .left_line {
@@ -149,7 +145,7 @@ input.styled {
     font-size: 11px;
     line-height: 20px;
     display: block;
-  }
+}
 
 
 .bottom_line {
@@ -159,34 +155,32 @@ input.styled {
     padding-bottom: 10px;
     border-bottom: #CCCCCC solid 1px;
     background: url(../images/top_shadow.png) bottom repeat-x;
-  }
+}
 
 
 .box {
     padding: 5px 10px;
     background-color: #F9F9F9;
-  }
+}
 
 
 .zebra {
     background: url(../images/zebra.png);
-  }
+}
 
 /*  STRUCTURE (in order of appearance)  */
-
-
 #footer_float {
     /* This keeps the footer to the bottom of the page when there's not enough content to fill it. Check out the "Blank page" page to see how it looks. */height: 100%;
     min-height: 100%;
     margin-bottom: -31px;
-  }
+}
 
 
 #body {
     margin: 0 auto 31px auto;
     width: 800px;
     text-align: justify;
-  }
+}
 
 
 #top_nav {
@@ -201,7 +195,7 @@ input.styled {
     padding-right : 10px;
     padding-top : 6px;
     text-align : center;
-  }
+}
 
 
 #top_nav a {
@@ -209,30 +203,30 @@ input.styled {
     font-size : 9px;
     text-align : center;
     font-weight: bold;
-  }
+}
 
 
 #top_nav a:hover {
     color: #FF9900;
-  }
+}
 
 
 #login {
     float:left;
     padding-bottom : 8px;
-  }
+}
 
 
 #logout {
     float:left;
     padding-bottom : 8px;
-  }
+}
 
 
 #snacktime {
     float:right;
     padding-bottom : 8px;
-  }
+}
 
 
 #header {
@@ -245,7 +239,7 @@ input.styled {
     font-size: 50px;
     font-weight: bold;
     letter-spacing: 2px;
-  }
+}
 #header a, #header a:hover {
     color: #FFFFFF;
 }
@@ -253,13 +247,13 @@ input.styled {
 #sitename .with_slogan {
     /* Apply this to the content of the header if you want to have a slogan below the name, as it is now. */position: relative;
     top: 30px;
-  }
+}
 
 
 #sitename .without_slogan {
     /* Apply this to the content of the header if you don't want to have a slogan below the name. */position: relative;
     top: 50px;
-  }
+}
 
 
 #slogan {
@@ -268,7 +262,7 @@ input.styled {
     left: 5px;
     font-size: 18px;
     font-weight: normal;
-  }
+}
 
 
 #menu {
@@ -277,19 +271,19 @@ input.styled {
     font-family: Tahoma, Arial, Helvetica, sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-  }
+}
 
 
 #menu ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-  }
+}
 
 
 #menu ul li {
     display: inline;
-  }
+}
 
 
 #menu ul li a {
@@ -298,13 +292,13 @@ input.styled {
     color: #666666;
     text-decoration: none;
     float: left;
-  }
+}
 
 
 #menu ul li a:hover, #menu ul li.current a {
     background: url(../images/menu_hover.png) repeat-x;
     color: #FF9900;
-  }
+}
 
 
 #menu .pressed {
@@ -313,69 +307,66 @@ input.styled {
     background: url(../images/menu_hover.png) repeat-x;
     color: #666666;
     float: left;
-  }
+}
 
 
 .content {
     /* This wraps the content. */margin: 15px 15px 0 15px;
     line-height: 18px;
     clear: both;
-  }
+}
 
 /* One column. Check out the "Layouts" page. */
-
 .c1col {
     width: 770px;
     float: left;
-  }
+}
 
 /* Two columns. Check out the "Layouts" page. */
-
 .c2col_left {
     width: 200px;
     padding-right: 20px;
     float: left;
-  }
+}
 
 
 .c2col_main {
     width: 550px;
     float: left;
-  }
+}
 
 
 .c2col_right {
     width: 200px;
     padding-left: 20px;
     float: left;
-  }
+}
 
 
 .c2col_eq_left {
     width: 375px;
     padding-right: 20px;
     float: left;
-  }
+}
 
 
 .c2col_eq_right {
     width: 375px;
     float: left;
-  }
+}
 
 /* Three columns. Check out the "Layouts" page. */
-
 .c3col_side {
     width: 150px;
     float: left;
-  }
+}
 
 
 .c3col_middle {
     width: 430px;
     padding: 0 20px;
     float: left;
-  }
+}
 
 
 #footer {
@@ -386,19 +377,17 @@ input.styled {
     font-size: 10px;
     text-align: center;
     clear: both;
-  }
+}
 
 /*  HACKS  */
-
-
 html {
     height: 100%;
-  }
+}
 
 
 #footer_hack {
     clear: both;
-  }
+}
 
 
 .z-bkey-extmenu ul {
@@ -415,18 +404,18 @@ html {
     padding-top : 0;
     text-decoration:none;
     width : 140px;
-  }
+}
 
 p.extmenuadmin a {
     padding-left: 15px;
     text-decoration:none;
-  }
+}
 
 
-.z-blockposition-left  #block_search_q, .z-blockposition-right #block_search_q {
+#block_search_q {
     min-width : 90px !important;
-    max-width : 130px;
-  }
+    max-width : 120px;
+}
 
 .z-bkey-adminnav ul {
     list-style-position:inside;
@@ -441,7 +430,7 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
 
-  }
+}
 
 .z-bkey-adminnav ul li {
     list-style-position:inside;
@@ -456,7 +445,7 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
     text-align: left;
-  }
+}
 
 .z-bkey-adminnav ul ul {
     list-style-position:inside;
@@ -471,7 +460,7 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
 
-  }
+}
 .z-bkey-adminnav ul ul li {
     list-style-image : none;
     list-style-type : circle;
@@ -484,8 +473,4 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
     text-align: left;
-  }
-
-
-
-
+}
