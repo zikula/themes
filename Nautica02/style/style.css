@@ -1,12 +1,5 @@
 
 /* Css originally by mejobloggs  Design by Aran @ stuio7designs.com  Please email me if you use this, as I would love to see how it is being used, also you can join my linkshare to help you with your google ranking */
-
-
-
-
-
-
-
 body {
     font-family: trebuchet ms, verdana, arial, tahoma;
     font-size: 90%;
@@ -16,30 +9,26 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-  }
+}
 
 /* Set the page width */
-
-
-
-
 #wrapper-menu-top, #header, #wrapper-content, #wrapper-footer {
     width: 85%;
     margin: 0 auto;
     text-align: left;
-  }
+}
 
 
 #wrapper-menu-top {
     background: white url('../images/bg02-white-left.png') no-repeat left top;
-  }
+}
 
 
 #menu-top {
     background: transparent url('../images/bg02-white-right.png') no-repeat right top;
     overflow: hidden;
     /* no idea why this works, but it fixes a FF problem */;
-  }
+}
 
 
 #menu-top ul {
@@ -48,13 +37,13 @@ body {
     list-style: none;
     font-size: 85%;
     float: left;
-  }
+}
 
 
 #menu-top li {
     display: inline;
     float: left;
-  }
+}
 
 
 #menu-top a {
@@ -64,7 +53,7 @@ body {
     padding:0 0 0 4px;
     text-decoration:none;
     line-height: 1.5em;
-  }
+}
 
 
 #menu-top a span {
@@ -75,38 +64,38 @@ body {
     float: left;
     cursor: pointer;
     /* IE doesnt display the hand when you roll over the link for some reason. This fixes it */;
-  }
+}
 
 
 #menu-top a:hover, #menu-top li.current a {
     background-position:0% -42px;
-  }
+}
 
 
 #menu-top a:hover span, #menu-top li.current a span {
     background-position:100% -42px;
-  }
+}
 
 
 #wrapper-header {
     background: transparent url('../images/bg.png') top center repeat-x;
-  }
+}
 
 
 #header {
     background: #eee url('../images/banner_mountains.jpg') no-repeat center top;
-  }
+}
 
 
 #wrapper-header2 {
     background: transparent url('../images/bg02-blue-left.png') top left no-repeat;
-  }
+}
 
 
 #wrapper-header3 {
     height: 192px;
     background: transparent url('../images/bg02-blue-right.png') top right no-repeat;
-  }
+}
 
 
 #header h1 {
@@ -121,7 +110,7 @@ body {
     padding-left : 0px;
     padding-right : 0px;
     padding-top : 0px;
-  }
+}
 
 
 #header p {
@@ -137,23 +126,23 @@ body {
     padding-left : 0px;
     padding-right : 0px;
     padding-top : 0px;
-  }
+}
 
 
 #wrapper-content {
     background: white url('../images/bg02-white-left.png') no-repeat left top;
-  }
+}
 
 
 * html #wrapper-content {
     height: 1%;
-  }
+}
 
 
 #content {
     background: transparent url('../images/bg02-white-right.png') no-repeat right top;
     padding: 5px 245px 5px 40px;
-  }
+}
 
 
 #wrapper-menu-page {
@@ -169,17 +158,17 @@ body {
     margin-top : 20px;
     text-align : left;
     width : 180px;
-  }
+}
 
 
 * html #wrapper-menu-page {
     margin-right: 15px;
-  }
+}
 
 
 #menu-page {
     padding-top: 5px;
-  }
+}
 
 
 #menu-page ul {
@@ -188,29 +177,28 @@ body {
     font-size: 90%;
     list-style-position: inside;
     margin-left: 2px;
-  }
+}
 
 
 #menu-page ul li {
     list-style-type: square;
     margin-left: 10px;
-  }
+}
 
 #menu-page ul ul li {
     list-style: none;
     margin-left: 5px;
     list-style-type: circle;
     list-style-position: inside;
-  }
+}
 
 p.extmenuadmin {
-
-   padding-left: 10px;
+    padding-left: 10px;
 }
 
 #menu-page .z-block h3 {
     padding-left: 10px;
-  }
+}
 
 #menu-page h3 {
     font-size: 75%;
@@ -219,14 +207,14 @@ p.extmenuadmin {
     color: #5b8fbe;
     font-weight: normal;
     letter-spacing: 0.15em;
-  }
+}
 #menu-page .z-block form input {
     margin-left: 10px;
-  }
+}
 #menu-page .z-block p {
     font-size: 90%;
-   padding-left: 10px;
-   padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height : 15px;
     margin-bottom : 4px;
     margin-left : 0px;
@@ -235,19 +223,19 @@ p.extmenuadmin {
 }
 #menu-page a:link, #menu-page a:visited {
     color: #888;
-  }
+}
 
 
 #menu-page a:hover {
     color: #5b8fbe;
-  }
+}
 
 
 #wrapper-footer {
-clear:both;
+    clear:both;
     margin-top : 5px;
     text-align : center;
-  }
+}
 
 
 #footer {
@@ -274,7 +262,7 @@ clear:both;
     margin-left : 5px;
     margin-right : 5px;
     margin-top : 0px;
-  }
+}
 
 
 #footer p {
@@ -282,32 +270,31 @@ clear:both;
     margin-left : 5px;
     margin-right : 5px;
     margin-top : 5px;
-  }
+}
 
 
 h2 {
     font-size: 110%;
-  }
+}
 
 
 h3 {
     font-size: 100%;
-  }
+}
 
 
 a:link, a:visited {
     color: #5b8fbe;
     text-decoration: none;
-  }
+}
 
 
 a:hover {
     color: #666;
     text-decoration: none;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
-
+}
