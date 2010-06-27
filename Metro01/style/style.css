@@ -4,41 +4,41 @@ body {
     font: 70%/1.4em Verdana,sans-serif;
     color: #333;
     background: #eee url('../images/body_bg.png') repeat-x;
-  }
+}
 
 
 a:link, a:visited, a:active {
     color:#333;
-  }
+}
 
 
 a:hover {
     text-decoration:none;
-  }
+}
 
 
 #wrap {
     width:760px;
     margin:0 auto;
-  }
+}
 
 
 #wrap_top {
     background: url('../images/tab_top_bg.gif') top center no-repeat;
     height:5px;
-  }
+}
 
 
 * html #wrap_top {
     margin-bottom:-8px;
-  }
+}
 
 
 #main {
     background:#fff;
     margin:0;
     overflow:hidden;
-  }
+}
 
 
 #head {
@@ -54,7 +54,7 @@ a:hover {
     padding-left : 5px;
     padding-right : 5px;
     padding-top : 0px;
-  }
+}
 
 
 #navbar {
@@ -63,12 +63,12 @@ a:hover {
     margin-right : 0px;
     margin-top : 5px;
     padding:0;
-  }
+}
 
 
 #navbar li {
     display:inline;
-  }
+}
 
 
 #navbar li a {
@@ -86,7 +86,7 @@ a:hover {
     padding-right : 10px;
     padding-top : 3px;
     text-decoration : none;
-  }
+}
 #navbar li a:hover, #navbar li.current a {
     background-color : #51557B;
     border-bottom-color : #51557B;
@@ -103,11 +103,11 @@ a:hover {
     padding-right : 10px;
     padding-top : 3px;
     text-decoration : none;
-  }
+}
 
 * html #head h1.title a {
     padding:110px 10px 0 0;
-  }
+}
 
 
 #head h1.title a {
@@ -117,12 +117,12 @@ a:hover {
     text-align:right;
     margin:0;
     padding: 125px 10px 0 0;
-  }
+}
 
 
 * html #head h1.title {
     padding:110px 10px 0 0;
-  }
+}
 
 
 #head h1.title {
@@ -132,7 +132,7 @@ a:hover {
     text-align:right;
     margin:0;
     padding: 125px 10px 0 0;
-  }
+}
 
 
 #content {
@@ -140,23 +140,23 @@ a:hover {
     width: 560px;
     padding: 0 20px 20px 20px;
     float:left;
-  }
+}
 
 
 #content .entry {
     border-bottom: #ddd 1px solid;
     text-align:justify;
-  }
+}
 
 
 #content .entry p {
     margin: 0.2em 0 1.2em 0;
-  }
+}
 
 
 #content .entry h2 {
     margin:25px 0 0 0;
-  }
+}
 
 
 #content .entry .links {
@@ -165,7 +165,7 @@ a:hover {
     letter-spacing:1px;
     font-size: 10px;
     color:#666;
-  }
+}
 
 
 #rightbar {
@@ -174,12 +174,12 @@ a:hover {
     float:left;
     background: url('../images/content_sep.png') repeat-y;
     padding: 10px;
-  }
+}
 
 
 #rightbar .box {
     margin: 5px 0 20px 0;
-  }
+}
 
 
 #rightbar .box h2 {
@@ -189,25 +189,25 @@ a:hover {
     letter-spacing:1px;
     font-variant: small-caps;
     border-bottom: #666 1px solid;
-  }
+}
 
 
 #rightbar .box ul {
     margin:0;
     padding:0;
     list-style:none;
-  }
+}
 
 
 #rightbar .box li {
     padding: 2px 0;
-  }
+}
 
 
 #rightbar #desc.box {
     background:#eee;
     padding:10px;
-  }
+}
 
 #footer {
     clear:both;
@@ -216,7 +216,7 @@ a:hover {
 
     font-size:10px;
     color:#333;
-  }
+}
 
 #footer p {
     background: #ddd;
@@ -226,21 +226,21 @@ a:hover {
     padding-top : 5px;
     font-size:10px;
     color:#333;
-  }
+}
 #footer p span {
     background: #ddd;
 
     font-size:10px;
     color:#333;
-  }
+}
 
 
 * html #footer {
     height:20px;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
