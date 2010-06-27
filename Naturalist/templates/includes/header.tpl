@@ -2,7 +2,6 @@
     <h1>{sitename}</h1>
     <h2>{slogan}</h2>
 </div>
-
 <div id="menu_bar">
     <div id="navcontainer">
         <ul id="navlist">
