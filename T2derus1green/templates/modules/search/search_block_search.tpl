@@ -5,11 +5,11 @@
         <label for="block_search_q"><input class="submit" type="submit" value="{gt text="Search now" domain='zikula'}" /></label>
         {/if}
         {foreach item=dummy key=actives from=$vars.active}
-        <input type="hidden" name="active[{$actives|pnvarprepfordisplay}]" value="1" />
+        <input type="hidden" name="active[{$actives|safetext}]" value="1" />
         {/foreach}
         {searchvartofieldnames data=$vars.modvar prefix="modvar" assign="modvars"}
         {foreach item=value key=name from=$modvars}
-        <input type="hidden" name="{$name|pnvarprepfordisplay}" value="{$value|pnvarprepfordisplay}" />
+        <input type="hidden" name="{$name|safetext}" value="{$value|safetext}" />
         {/foreach}
     </div>
 </form>

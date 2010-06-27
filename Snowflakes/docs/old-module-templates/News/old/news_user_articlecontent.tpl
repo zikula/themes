@@ -1,6 +1,6 @@
 <div class="post">
 	<h2 class="title">{$info.title}</h2>
-	<h3 class="date">{gt text="Posted on"} {$info.time|pndate_format:"%B %d, %Y"} {gt text="by"} {$info.informant}</h3>
+	<h3 class="date">{gt text="Posted on"} {$info.time|date_format:"%B %d, %Y"} {gt text="by"} {$info.informant}</h3>
 	<div class="story">
 		{$preformat.fulltext}
 	</div>

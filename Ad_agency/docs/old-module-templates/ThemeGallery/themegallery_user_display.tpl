@@ -8,7 +8,7 @@
             <li class="themegallery_author">{gt text="Author(s)"}:
                 {section name=contacts loop=$contact}
                 {if $contact[contacts] neq ''}
-                <a href="{$contact[contacts]|trim|varprepfordisplay}" title="{gt text="Author contact link"}">{$author[contacts]|trim|varprephtmldisplay}</a>
+                <a href="{$contact[contacts]|trim|safetext}" title="{gt text="Author contact link"}">{$author[contacts]|trim|varprephtmldisplay}</a>
                 {else}
                 {$author[contacts]|trim|varprephtmldisplay}
                 {/if}
@@ -34,6 +34,6 @@
         {/if}
     </div>
 </div>
-<!--[* the next code is to display any hooks (e.g. comments, ratings)*]-->
+{* the next code is to display any hooks (e.g. comments, ratings)*}
 {modurl modname=ThemeGallery func=display themename=$name assign=returnurl}
 {modcallhooks hookobject=item hookaction=display hookid=$name module=ThemeGallery returnurl=$returnurl}

@@ -1,7 +1,7 @@
 <!--header -->
 <div id="header">
     <h1 id="logo-text">
-        <a href="{pngetbaseurl}" title="{gt text="Home"}">
+        <a href="{getbaseurl}" title="{gt text="Home"}">
             {sitename}<span class="gray">{gt text="Refresh"}</span>
         </a>
     </h1>

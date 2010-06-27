@@ -25,7 +25,7 @@
 				<!-- Main start -->
                 {if $pagetype eq 'home'}
                 {blockposition name=center}
-                {/if]-->
+                {/if}
 				<div class="foot"></div>
 	
 				<div class="divider"></div>

@@ -1,6 +1,6 @@
 <div id="header">
     <div id="header-content">
-        <h1 id="logo"><a href="{pngetbaseurl}" title="{gt text="Go to the Home Page of"} {sitename}">{sitename}</a></h1>
+        <h1 id="logo"><a href="{getbaseurl}" title="{gt text="Go to the Home Page of"} {sitename}">{sitename}</a></h1>
         <h2 id="slogan">{slogan}</h2>
         <!-- Menu Tabs -->
         <ul>

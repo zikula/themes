@@ -12,9 +12,9 @@
 	<div id="wrapper"{if $pagetype eq 'admin'} style="width:100%"{/if}>
 
 		<div id="path">
-		{pnmodgetname assign=modname}
+		{modgetname assign=modname}
                 {gt text="You are here"}: <a href="{homepage}">{gt text="Home"}</a> 
-                &raquo; <a href="{modurl modname=$modname}">{pnmodgetinfo info=displayname}</a>
+                &raquo; <a href="{modurl modname=$modname}">{modgetinfo info=displayname}</a>
 		</div>
 
 

@@ -1,7 +1,7 @@
 {*  $Id$  *}
 {include file="modules_admin_menu.tpl"}
 <div class="z-admincontainer">
-<div class="z-adminpageicon">{pnimg modname=core src=package.gif set=icons/large alt='_MODULESVIEW' altml=true}</div>
+<div class="z-adminpageicon">{img modname=core src=package.gif set=icons/large alt='_MODULESVIEW' altml=true}</div>
 <h2>{gt text="Modules View"}</h2>
 <div style="float:right">
 <form action="{modurl modname="Modules" type="admin" func="view"}" method="post" enctype="application/x-www-form-urlencoded">
@@ -33,22 +33,22 @@
     <tr class="{cycle values="pn-odd,pn-even"}">
       <td>
           {if $modules[modules].modinfo.admin_capable and $modules[modules].modinfo.state eq 3 and $modules[modules].modinfo.type eq 1}
-          <a title="{gt text="Modules Administration"}" href="admin.php?module={$modules[modules].modinfo.name|pnvarprepfordisplay}">{$modules[modules].modinfo.name|pnvarprepfordisplay}</a>
+          <a title="{gt text="Modules Administration"}" href="admin.php?module={$modules[modules].modinfo.name|safetext}">{$modules[modules].modinfo.name|safetext}</a>
           {elseif $modules[modules].modinfo.admin_capable and $modules[modules].modinfo.state eq 3}
-          <a title="{gt text="Modules Administration"}" href="{modurl modname=$modules[modules].modinfo.displayname type=admin}">{$modules[modules].modinfo.name|pnvarprepfordisplay}</a>
+          <a title="{gt text="Modules Administration"}" href="{modurl modname=$modules[modules].modinfo.displayname type=admin}">{$modules[modules].modinfo.name|safetext}</a>
           {else}
-          {$modules[modules].modinfo.name|pnvarprepfordisplay}
+          {$modules[modules].modinfo.name|safetext}
           {/if}
       </td>
-      <td>{$modules[modules].modinfo.displayname|pnvarprepfordisplay|default:"&nbsp;"}</td>
-      <td>{$modules[modules].modinfo.description|pnvarprepfordisplay|default:"&nbsp;"}</td>
-      <td>{$modules[modules].modinfo.directory|pnvarprepfordisplay}</td>
-      <td>{pnimg src=$modules[modules].statusimage modname=core set=icons/extrasmall alt=$modules[modules].status title=$modules[modules].status}&nbsp;{$modules[modules].status|pnvarprepfordisplay}</td>
+      <td>{$modules[modules].modinfo.displayname|safetext|default:"&nbsp;"}</td>
+      <td>{$modules[modules].modinfo.description|safetext|default:"&nbsp;"}</td>
+      <td>{$modules[modules].modinfo.directory|safetext}</td>
+      <td>{img src=$modules[modules].statusimage modname=core set=icons/extrasmall alt=$modules[modules].status title=$modules[modules].status}&nbsp;{$modules[modules].status|safetext}</td>
 	  <td>
 	    {assign var="options" value=$modules[modules].options}
 		{strip}
         {section name=options loop=$options}
-	    <a href="{$options[options].url|pnvarprepfordisplay}">{pnimg modname=core src=$options[options].image set=icons/extrasmall alt=$options[options].title}</a>&nbsp;
+	    <a href="{$options[options].url|safetext}">{img modname=core src=$options[options].image set=icons/extrasmall alt=$options[options].title}</a>&nbsp;
         {/section}
 		{/strip}
 	  </td>

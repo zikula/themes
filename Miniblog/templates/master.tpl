@@ -8,17 +8,17 @@
 {include file="includes/header.tpl"}
 
 
-	<!--[if $pagetype neq 'admin']-->
+	{if $pagetype neq 'admin'}
 	<div id="sidebar">
-		<!--[blockposition name=left]-->
-		<!--[blockposition name=right]-->
+		{blockposition name=left}
+		{blockposition name=right}
 	</div>
-	<!--[/if]-->
+	{/if}
 	<div id="content">
-		<!--[if $pagetype eq 'home']-->
-			<!--[blockposition name=center]-->
-		<!--[/if]-->
-		<!--[$maincontent]-->
+		{if $pagetype eq 'home'}
+			{blockposition name=center}
+		{/if}
+		{$maincontent}
 	</div>
 {include file="includes/footer.tpl"}
 

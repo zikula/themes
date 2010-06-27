@@ -2,7 +2,7 @@
 <div id="footer">
     <!-- #bg: applies the site width and footer background -->
     <div id="bg" class="width">
-        <img src="<!--[$imagepath]-->/logo.gif" alt="{sitename} {gt text="logo"}"/>
+        <img src="{$imagepath}/logo.gif" alt="{sitename} {gt text="logo"}"/>
         <ul>
             <li>&copy;&nbsp;2006-{'Y'|date}&nbsp;<strong><a href="{homepage}" title="{sitename} {gt text="Home Page"}">{sitename}</a></strong></li>
             <li><a href="{modurl modname='Sitemap'}" title="{gt text="Easily find information across our site via our Sitemap"}">{gt text="Sitemap"}</a></li>

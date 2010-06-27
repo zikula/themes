@@ -5,9 +5,9 @@
 <meta name="Author" content="{sitename}" />
 <meta name="Copyright" content="{sitename} 2009-{'Y'|date}" />
 <meta name="Robots" content="index,follow" />
-<link rel="icon" type="image/x-icon" href="{$imagepath}/favicon.ico" /> <!--[* W3C *]-->
-<link rel="shortcut icon" type="image/ico" href="{$imagepath}/favicon.ico" /> <!--[* IE *]-->
+<link rel="icon" type="image/x-icon" href="{$imagepath}/favicon.ico" /> {* W3C *}
+<link rel="shortcut icon" type="image/ico" href="{$imagepath}/favicon.ico" /> {* IE *}
 <link rel="icon" type="image/png" href="{$imagepath}/favicon.png">
-<link rel="alternate" href="{pnmodurl modname='News' type='user' func='view' theme='rss'}" type="application/rss+xml" title="{sitename}" />
+<link rel="alternate" href="{modurl modname='News' type='user' func='view' theme='rss'}" type="application/rss+xml" title="{sitename}" />
 <link media="screen,projection,tv" type="text/css" href="{$stylepath}/style.css" rel="stylesheet" />
 

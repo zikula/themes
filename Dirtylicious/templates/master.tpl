@@ -8,7 +8,7 @@
 	<div class="inner-container">
 		{include file="includes/header.tpl"}
 		<div class="path">
-			<a href="{pngetbaseurl}">{gt text="Home"}</a> &#8250; <a href="{modurl modname=$module}">{pnmodgetinfo info=displayname modname=$module}</a>
+			<a href="{getbaseurl}">{gt text="Home"}</a> &#8250; <a href="{modurl modname=$module}">{modgetinfo info=displayname modname=$module}</a>
 		</div>
 		<div class="main">		
 			<div class="content">

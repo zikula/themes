@@ -9,20 +9,20 @@
 
 <div id="path">
 	<a title="{gt text="home"}" href="index.php">{gt text="home"}</a>
-	{pnmodgetname assign=modname}
+	{modgetname assign=modname}
 	{if $modname neq ''}
 	    &nbsp;>&nbsp;
-		{pnmodgetinfo modname=$modname assign=modinfo info=all}
+		{modgetinfo modname=$modname assign=modinfo info=all}
 		{if $modinfo.type eq 1}
 			<a title="{$modinfo.description}" href="index.php?name={$modname}">{$modinfo.displayname}</a>
 		{else}
 			<a title="{$modinfo.description}" href="{modurl modname=$modname}">{$modinfo.displayname}</a>
 		{/if}
 	{/if}
-	{pnpagegetvar name=title assign=title}
+	{pagegetvar name=title assign=title}
 	{if $title neq ''}
 	    &nbsp;>&nbsp;
-    	<a title="{$title|pnvarprepfordisplay}" href="{pngetcurrenturl}">{$title|pnvarprepfordisplay}</a>
+    	<a title="{$title|safetext}" href="{getcurrenturl}">{$title|safetext}</a>
 	{/if}
 </div>
 

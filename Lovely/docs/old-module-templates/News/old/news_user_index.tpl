@@ -1,7 +1,7 @@
 <div class="post">
-<h2>{$preformat.catandtitle|pnvarprephtmldisplay}</h2>
-<div>{$info.hometext|pnvarprephtmldisplay}</div>
+<h2>{$preformat.catandtitle|varprephtmldisplay}</h2>
+<div>{$info.hometext|varprephtmldisplay}</div>
 {if $preformat.notes neq ''}
-<div>{$preformat.notes|pnvarprephtmldisplay}</div>
+<div>{$preformat.notes|varprephtmldisplay}</div>
 {/if}
 </div>

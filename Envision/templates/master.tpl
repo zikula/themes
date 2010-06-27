@@ -11,14 +11,14 @@
 	<!-- content-wrap starts here -->
 	<div id="content-wrap">
 		<div id="sidebar">
-			<!--[blockposition name=left]-->
-			<!--[blockposition name=right]-->
+			{blockposition name=left}
+			{blockposition name=right}
 		</div>
 		<div id="main">
-			<!--[if $pagetype eq 'home']-->
-			<!--[blockposition name=center]-->
-			<!--[/if]-->
-			<!--[$maincontent]-->
+			{if $pagetype eq 'home'}
+			{blockposition name=center}
+			{/if}
+			{$maincontent}
 		</div>
 	<!-- content-wrap ends here -->	
 	</div>

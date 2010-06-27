@@ -4,9 +4,9 @@
 {include file="includes/head.tpl"}
 </head>
 <body>
-{pnvarcleanfrominput name=name assign=name}
-{pnvarcleanfrominput name=module assign=module}
-{pnvarcleanfrominput name=type assign=type}
+{varcleanfrominput name=name assign=name}
+{varcleanfrominput name=module assign=module}
+{varcleanfrominput name=type assign=type}
 
 <div id="container">
 {include file="includes/header.tpl"}

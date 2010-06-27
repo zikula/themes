@@ -1,5 +1,5 @@
 <ul id="navbar">
-    <li {if $pagetype eq 'home'} class="current" {/if}><a href="{pngetbaseurl}" title="{gt text="Home"}">{gt text="Home"}</a></li>
+    <li {if $pagetype eq 'home'} class="current" {/if}><a href="{getbaseurl}" title="{gt text="Home"}">{gt text="Home"}</a></li>
     <li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Pages"}">{gt text="Pages"}</a></li>
     <li {if $module eq 'News'} class="current" {/if}><a href="{modurl modname=News}" title="{gt text="News"}">{gt text="News"}</a></li>
     <li {if $module eq 'Dizkus'} class="current" {/if}><a href="{modurl modname=Dizkus}" title="{gt text="Forums"}">{gt text="Forums"}</a></li>

@@ -22,8 +22,8 @@
 			<div id="menu">
 
 				<div id="mnav">
-					<!--[blockposition name=left]-->
-					<!--[blockposition name=right]-->
+					{blockposition name=left}
+					{blockposition name=right}
 
 
 				</div>
@@ -31,7 +31,7 @@
 			<div id="clearer">&nbsp;</div>
 			<div id="footer">
 				<p class="credit"><a href="http://geeksmakemehot.com/themes/">Gemini</a> brought to you by <a href="http://geeksmakemehot.com/">geeksmakemehot.com</a>.  Developed by <a href="http://atthe404.com">Root</a>. Designed by <a href="http://geeksmakemehot.com/">geeksmakemehot</a>.<br />
-				<!--[nocache]--><!--[pagerendertime assign=true]--><!--[$rendertime]--> seconds. <!--[/nocache]--><cite>Powered by <a href="http://www.zikula.org" title="Zikula"><strong>Zikula</strong></a></cite></p>  
+				{nocache}{pagerendertime assign=true}{$rendertime} seconds. {/nocache}<cite>Powered by <a href="http://www.zikula.org" title="Zikula"><strong>Zikula</strong></a></cite></p>  
 			</div>
 		</div>
 	</div>

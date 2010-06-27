@@ -10,11 +10,11 @@
 		<div id="wrap2">
 
 			<div id="topbox">
-				<strong><span class="hide">{gt text="Currently viewing"}: </span><a href="{pngetbaseurl}">{sitename}</a> 
+				<strong><span class="hide">{gt text="Currently viewing"}: </span><a href="{getbaseurl}">{sitename}</a> 
 				{if $pagetype eq 'home'}
 				&raquo; <a href="">{gt text="Front page"}</a>
 				{else}
-				{pnmodgetinfo info=displayname assign=displayname}
+				{modgetinfo info=displayname assign=displayname}
 				&raquo; <a href="{modurl modname=$displayname}">{$displayname}</a>
 				{/if}
 				</strong>
