@@ -15,5 +15,4 @@
             <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a>
         </span>
     </p>
-
 </div>
