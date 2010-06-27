@@ -7,7 +7,6 @@
                 <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}">{gt text="Contact"}</a>&nbsp;|&nbsp;
                 <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscribe link for our News RSS feed"}">{gt text="RSS FEED"}</a>
             </span>
-
             <span style="float:right;text-align:right;">
                 {gt text="design by"}:&nbsp;<a href="http://www.mikeyarmish.com" title="{gt text="Link to"} mikeyarmish.com"><strong>{gt text="Mike Yarmish"}</strong></a>&nbsp;|&nbsp;
                 <a href="http://www.oswd.org" title="{gt text="Link to"} OSWD">OSWD</a>&nbsp;|&nbsp;
