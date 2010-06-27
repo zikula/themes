@@ -1,5 +1,5 @@
 {*  $Id$  *}
-{include file="modules_admin_menu.htm"}
+{include file="modules_admin_menu.tpl"}
 <div class="z-admincontainer">
 <div class="z-adminpageicon">{pnimg modname=core src=package.gif set=icons/large alt='_MODULESVIEW' altml=true}</div>
 <h2>{gt text="Modules View"}</h2>

@@ -1,4 +1,4 @@
-{include file="news_user_menu.htm"}
+{include file="news_user_menu.tpl"}
 <div class="box">
 <h2>{$preformat.catandtitle|pnvarprephtmldisplay}</h2>
 {articleadminlinks sid=$info.sid}

@@ -1,5 +1,5 @@
 {ajaxheader lightbox=true}
-{include file="themegallery_user_menu.htm"}
+{include file="themegallery_user_menu.tpl"}
 <div id="themegallery_fullitem">
     <div id="themegallery_info">
         <h4>{gt text="Theme Information"}</h4>

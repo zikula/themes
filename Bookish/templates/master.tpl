@@ -8,13 +8,13 @@
 -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang}" lang="{lang}" dir="{langdirection}">
 <head>
-{include file="includes/head.htm"}
+{include file="includes/head.tpl"}
 </head>
 <body>
 
 <div id="outer">
 
-{include file="includes/header.htm"}
+{include file="includes/header.tpl"}
 	<div id="inner">
 
 		<div id="main" {if $pagetype eq 'admin'} style="width:100%"{/if}>
@@ -66,6 +66,6 @@
 </div>
 <div id="outer2"></div>
 
-{include file="includes/footer.htm"}
+{include file="includes/footer.tpl"}
 </body>
 </html>

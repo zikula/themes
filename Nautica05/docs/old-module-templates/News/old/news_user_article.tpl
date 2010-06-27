@@ -1,4 +1,4 @@
-{include file="news_user_menu.htm"}
+{include file="news_user_menu.tpl"}
 {pnajaxheader modname=News filename=news.js}
 { pnpageaddvar name="javascript" value="modules/News/pnjavascript/sizecheck.js" }
 <script type="text/javascript">

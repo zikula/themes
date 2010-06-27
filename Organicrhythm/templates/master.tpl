@@ -10,10 +10,10 @@ Description: A two-column fixed-width template. Content area is further divided 
 -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang}" lang="{lang}" dir="{langdirection}">
     <head>
-        {include file="includes/head.htm"}
+        {include file="includes/head.tpl"}
     </head>
     <body>
-        {include file="includes/header.htm"}
+        {include file="includes/header.tpl"}
         <div id="page">
             <div id="content"{if $pagetype eq 'admin'} style="width:auto"{/if}>
                 {if $pagetype eq 'home'}
@@ -33,6 +33,6 @@ Description: A two-column fixed-width template. Content area is further divided 
             {/if}
             <div style="clear: both; height: 1px;"></div>
         </div>
-        {include file="includes/footer.htm"}
+        {include file="includes/footer.tpl"}
     </body>
 </html>

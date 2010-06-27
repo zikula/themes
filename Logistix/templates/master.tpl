@@ -6,10 +6,10 @@ Released for free under a Creative Commons Attribution 2.5 License
 -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang}" lang="{lang}" dir="{langdirection}">
 <head>
-{include file="includes/head.htm"}
+{include file="includes/head.tpl"}
 </head>
 <div>
-{include file="includes/header.htm"}
+{include file="includes/header.tpl"}
 <div id="content">
 
 	<div id="posts" {if $pagetype eq 'admin'} style="width:100%"{/if}>
@@ -31,7 +31,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 	<div style="clear: both;">&nbsp;</div>
 </div>
 <!-- end #content -->
-{include file="includes/footer.htm"}
+{include file="includes/footer.tpl"}
 
 </body>
 </html>

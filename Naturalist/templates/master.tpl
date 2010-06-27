@@ -6,13 +6,13 @@ License: Released Under the "Creative Commons License",
 http://creativecommons.org/licenses/by-nc/2.5/
 -->
 <head>
-{include file="includes/head.htm"}
+{include file="includes/head.tpl"}
 </head>
 <body>
 
 <div id="page_wrapper">
 
-{include file="includes/header.htm"}
+{include file="includes/header.tpl"}
 	
 	<div id="content_wrapper">
 	
@@ -35,7 +35,7 @@ http://creativecommons.org/licenses/by-nc/2.5/
 		<div class="spacer"></div>
 	
 	</div>
-{include file="includes/footer.htm"}
+{include file="includes/footer.tpl"}
 </div>
 
 </body>

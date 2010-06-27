@@ -1,4 +1,4 @@
-{include file="news_user_menu.htm"}
+{include file="news_user_menu.tpl"}
 <div class="news">
 <h2>{$info.title|pnvarprephtmldisplay}</h2>
 {articleadminlinks sid=$info.sid}
