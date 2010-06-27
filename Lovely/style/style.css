@@ -1,80 +1,80 @@
 html{
-	overflow-x:hidden;
+    overflow-x:hidden;
 }
-* { 
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 .description {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #fff;
-	margin-left: 300px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #fff;
+    margin-left: 300px;
 }
 
 a {
-	color: #AF8998;
-	text-decoration: none;
-	border-bottom: 1px dotted #A73A02;
+    color: #AF8998;
+    text-decoration: none;
+    border-bottom: 1px dotted #A73A02;
 }
 
 a:hover {
-	color: #8C4A4C;
-	text-decoration: none;
-	border-bottom: 1px dotted #8C4A4C;
+    color: #8C4A4C;
+    text-decoration: none;
+    border-bottom: 1px dotted #8C4A4C;
 }
 
 a img {
-	border: none;
+    border: none;
 }
 
 
 form {
-	margin-top: 7px;
+    margin-top: 7px;
 }
 
 p {
-	padding: 5px 0px 20px 0px;
+    padding: 5px 0px 20px 0px;
 }
 
 small {
-	font-size: 85%;
+    font-size: 85%;
 }
 
 textarea {
-	width: 450px;
+    width: 450px;
 }
 
 #sidebar p {
-	font-size: 10px;
-	line-height: 15px;
+    font-size: 10px;
+    line-height: 15px;
 }
 
 #sidebar a {
-	border: none;
+    border: none;
 }
 
 #sidebar a:hover {
-	border: none;
+    border: none;
 }
 
 #footer p {
-	color: #AF8998;
+    color: #AF8998;
 }
 
 .alignright {
-	float: right;
+    float: right;
 }
 
 .alignleft {
-	float: left;
+    float: left;
 }
 
 .aligncenter {
-	text-align: center;
+    text-align: center;
 }
 
 .post {
-	margin-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 
@@ -89,18 +89,18 @@ h3 { border-bottom: 1px solid #ddd; color: #8C4A4C; padding-bottom: 2px; font: n
 h4 { font: 12px Arial, Helvetica, sans-serif; }
 
 
-body { 
-	background-color: #CE6087;
-	font: 11px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
-	color: #444;
-	margin: 10px 0;
+body {
+    background-color: #CE6087;
+    font: 11px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #444;
+    margin: 10px 0;
 }
 
 #container {
-	width: 700px;
-	margin: 0 auto;
-	background-color: #fff;
-	padding: 20px 20px 0 20px;
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 20px 0 20px;
     border-right: 2px solid #C2C295;
     border-left: 2px solid #C2C295;
     border-top: 1px solid #c2c295;
@@ -108,33 +108,33 @@ body {
 }
 
 #content {
-	float: left;
-	width: 450px;
+    float: left;
+    width: 450px;
 }
 
 #footer {
-	clear: both;
-	border-top: 1px solid #ddd;
-	padding-bottom: 8px;
-	text-align: left;
+    clear: both;
+    border-top: 1px solid #ddd;
+    padding-bottom: 8px;
+    text-align: left;
 }
 
 #header {
-	height: 300px;
-	margin-bottom: 35px;
-	background: url(../images/header.jpg);
-	text-align: center;
+    height: 300px;
+    margin-bottom: 35px;
+    background: url(../images/header.jpg);
+    text-align: center;
 }
 
 .sep {
-	margin: 25px 0 20px 0;
-	padding: 0;
-	height: 30px;
-	border:none;
+    margin: 25px 0 20px 0;
+    padding: 0;
+    height: 30px;
+    border:none;
 }
 
 #sidebar {
-	float: right;
-	width: 200px;
-	margin-bottom: 35px;
+    float: right;
+    width: 200px;
+    margin-bottom: 35px;
 }
