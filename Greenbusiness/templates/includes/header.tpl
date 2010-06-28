@@ -2,7 +2,6 @@
     <h1><a class="green"><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a></span> -</h1>
     <span id="slogan">{slogan}</span>
 </div>
-
 <div id="menu">
     <div class="submit">
         <ul>
@@ -16,7 +15,6 @@
         </ul>
     </div>
 </div>
-
 <div id="subheader">
     <div class="rside">
         <div class="padding">
