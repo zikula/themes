@@ -6,7 +6,6 @@
             <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}">{gt text="Contact"}</a>&nbsp;|&nbsp;
             <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscribe link for our News RSS feed"}">{gt text="RSS FEED"}</a>
         </span>
-
         <span class="spanright"></span><br />
         <br />
         <br />

@@ -1,7 +1,7 @@
 /* CSS Document
-   Template Title: Inspirationally Blue
-   Author: J David Macor
-   URL: http://www.jdavidmacor.com */
+Template Title: Inspirationally Blue
+Author: J David Macor
+URL: http://www.jdavidmacor.com */
 
 /* Main Body */
 body {
@@ -15,7 +15,7 @@ body {
     margin-right : auto;
     background-color:#efefef;
     width : 760px;
-  }
+}
 
 #container {
     background-color : #fff;
@@ -29,26 +29,26 @@ body {
     padding-left : 10px;
     padding-right : 10px;
     width : 740px;
-  }
+}
 
 a {
     color:#2873C3;
     text-decoration:none;
-  }
+}
 
 a:visited {
     color:#2873C3;
     text-decoration:none;
-  }
+}
 
 a:hover {
     color: #3496FF;
     text-decoration:none;
-  }
+}
 
 a img {
     border: 0px;
-  }
+}
 
 ul, ol {
 
@@ -60,7 +60,7 @@ ul, ol {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 2px;
-  }
+}
 
 li {
     margin-bottom : 0px;
@@ -71,10 +71,10 @@ li {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
-  }
+}
 
 p.extmenuadmin {
-   padding-left: 10px;
+padding-left: 10px;
 }
 
 /* Header */
@@ -83,7 +83,7 @@ p.extmenuadmin {
     text-align : left;
     width : 740px;
     height: 120px;
-  }
+}
 
 .sitename {
     color : #1F5B98;
@@ -93,7 +93,7 @@ p.extmenuadmin {
     margin-left : 20px;
     margin-right : 0px;
     margin-top : 20px;
-  }
+}
 
 .slogan {
     color : #2873C3;
@@ -104,19 +104,19 @@ p.extmenuadmin {
     margin-left : 35px;
     margin-right : 0px;
     margin-top : 10px;
-  }
+}
 
 #header form {
     float:right;
     margin-right : 10px;
     margin-top : 15px;
-  }
+}
 
 /* Menu */
 #chromemenu {
     background:#2873C3;
     font-weight: bold;
-  }
+}
 
 #chromemenu:after {
     content: ".";
@@ -124,7 +124,7 @@ p.extmenuadmin {
     height: 0;
     clear: both;
     visibility: hidden;
-  }
+}
 
 #chromemenu ul {
     border: 0px solid #BBB;
@@ -133,11 +133,11 @@ p.extmenuadmin {
     padding: 5px 0;
     margin: 0;
     text-align: right;
-  }
+}
 
 #chromemenu ul li {
     display: inline;
-  }
+}
 
 #chromemenu ul li a {
     color: #fff;
@@ -145,11 +145,11 @@ p.extmenuadmin {
     margin: 0;
     text-decoration: none;
     border-right: 0px solid #DADADA;
-  }
+}
 
 #chromemenu ul li a:hover, #chromemenu ul li.current a {
     background: url(../images/menuon.gif) center center repeat-x;
-  }
+}
 
 /* Content */
 #content {
@@ -161,26 +161,26 @@ p.extmenuadmin {
     padding-bottom: 20px;
     padding-left: 10px;
 
-  }
+}
 
 #left {
     width:480px;
     padding-right:10px;
-  }
+}
 
 #left h1 {
     margin:0;
     font-weight:normal;
     color : #1F5B98;
     font-size:1.8em;
-  }
+}
 
 #left h2 {
     margin:0;
     font-size:1.5em;
     font-weight:normal;
     color : #1F5B98;
-  }
+}
 
 #left h3 {
     font-family:"Times New Roman", Times, serif;
@@ -190,18 +190,18 @@ p.extmenuadmin {
     border-bottom:1px solid #efefef;
     padding:1px 0;
     color : #1F5B98;
-  }
+}
 
 #left p {
     line-height:2em;
     margin-bottom:30px;
-  }
+}
 
 /* Sidebar */
 #right {
     float:right;
     width:210px;
-  }
+}
 
 #right h4 {
     margin:0;
@@ -210,7 +210,7 @@ p.extmenuadmin {
     font-size:1.5em;
     margin-bottom:5px;
     margin-top:5px;
-  }
+}
 
 p.news {
     padding:10px;
@@ -220,22 +220,22 @@ p.news {
     border-bottom:2px solid #1D5F9F;
     border-top:2px solid #1D5F9F;
     font-size:9px;
-  }
+}
 
 p.news a {
     color:#14426F;
     text-decoration:none;
-  }
+}
 
 p.news a:visited {
     color:#14426F;
     text-decoration:none;
-  }
+}
 
 
 p.news a:hover {
     text-decoration:underline;
-  }
+}
 
 a.more {
     display:block;
@@ -243,16 +243,16 @@ a.more {
     color:#14426F;
     text-decoration:none;
     margin:10px 0 0 0 ;
-  }
+}
 
 a.more:hover {
     text-decoration:underline;
-  }
+}
 
 p.form {
     padding:2px;
     text-align:center;
-  }
+}
 
 .formbutton {
     cursor:pointer;
@@ -262,7 +262,7 @@ p.form {
     font-weight:bold;
     padding: 1px 2px;
     background:url(../images/formbg.gif) repeat-x left top;
-  }
+}
 
 /* Footer */
 #footer {
@@ -287,48 +287,48 @@ p.form {
     text-align : center;
     vertical-align : middle;
     width : 760px;
-  }
+}
 
 #footer img {
     padding-bottom : 1px;
     vertical-align : middle;
-  }
+}
 
 #footer .spanleft {
     float:left;
     text-align : left;
     padding-left:5px;
-  }
+}
 
 #footer .spanright {
     float:right;
     text-align : right;
     padding-right:5px;
-  }
+}
 
 #footer .designright {
     float : right;
     padding-right : 5px;
     text-align : right;
     vertical-align : text-bottom;
-  }
+}
 
 #footer a, {
     color:#2873C3;
     text-decoration:none;
-  }
+}
 
 #footer p {
     margin-left : 20px;
     margin-right : 20px;
-  }
+}
 
 #footer a:visited {
     color:#2873C3;
     text-decoration:none;
-  }
+}
 
 #footer a:hover {
     color: #3496FF;
     text-decoration:none;
-  }
+}
