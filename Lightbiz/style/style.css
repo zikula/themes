@@ -1,8 +1,8 @@
 
-/* 
+/*
 
 LightBiz Free Template
-By Herreman David 
+By Herreman David
 http://www.free-css-templates.com
 
 */
@@ -22,7 +22,7 @@ body {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 .content {
@@ -31,7 +31,7 @@ body {
     padding: 0;
     width: 760px;
     background: #FAFAFA;
-  }
+}
 
 /*LEFT SIDE */
 
@@ -40,7 +40,7 @@ body {
     color: #000;
     width: 580px;
     float: left;
-  }
+}
 
 
 .lside .topmenu {
@@ -50,7 +50,7 @@ body {
     height: 15px;
     padding: 5px 0 5px 0px;
     font-size: 90%;
-  }
+}
 
 
 .lside .header {
@@ -58,13 +58,13 @@ body {
     width: 580px;
     height: 145px;
     color: #FF8D00;
-  }
+}
 
 
 .lside .header .padding {
     padding: 30px 0 0 35px;
     color: #FFF;
-  }
+}
 
 
 .lside .header .citation {
@@ -73,38 +73,38 @@ body {
     padding: 70px 20px 15px 0;
     float: right;
     text-align: right;
-  }
+}
 
 
 .lside .main {
     background: #FFF;
     color: #505050;
     padding: 15px 20px 15px 20px;
-  }
+}
 
 
 .lside .infobox {
     background: #FFF url(../images/info.jpg) no-repeat;
     color: #222;
     height: 160px;
-  }
+}
 
 
 .lside .infobox .r_sd {
     width: 270px;
     float: right;
     padding: 10px 0px 5px 20px;
-  }
+}
 
 
 .lside .infobox .l_sd {
     padding: 10px 20px 5px 20px;
-  }
+}
 
 
 .lside .infobox a {
     color: #3A4354;
-  }
+}
 
 /* RIGHT SIDE */
 
@@ -114,7 +114,7 @@ body {
     width: 180px;
     float: right;
     clear: both;
-  }
+}
 
 
 .rside .topmenu {
@@ -123,7 +123,7 @@ body {
     color: #FFF;
     text-align: right;
     padding: 5px 5px 5px 0px;
-  }
+}
 
 
 .rside .logo {
@@ -132,15 +132,15 @@ body {
     color: #000;
     margin: 0;
     padding: 0px;
- display:block;
-  }
+    display:block;
+}
 
 
 .rside .loginbox .padding {
     padding: 0px 10px 0px 10px;
     line-height: 1.9em;
     margin: 0;
-  }
+}
 
 
 .rside .topmain {
@@ -149,41 +149,41 @@ body {
     color: #FFF;
     padding: 5px;
     margin: 0px;
-  }
+}
 
 
 .rside .menu {
     background: #FAFAFA;
     padding: 5px;
     color: #333;
-  }
+}
 
 
 .rside .menu h4 {
     color: #FF8D00;
     padding-left: 10px;
-  }
+}
 
 
 .rside .menu .ads {
     padding: 0 10px 0 10px;
-  }
+}
 
 
 .rside .menu .links {
     font-size: 90%;
     padding-left: 10px;
-  }
+}
 
 
 .rside .menu .links a {
     color: #546078;
-  }
+}
 
 
 .rside .search {
     padding-left: 10px;
-  }
+}
 
 /* NAVIGATION */
 
@@ -192,7 +192,7 @@ body {
     text-align: left;
     color: #7D8085;
     padding: 5px 0 0 0;
-  }
+}
 
 
 .nav li {
@@ -200,19 +200,19 @@ body {
     margin: 0 0 8px 0;
     padding: 0 0 0 5px;
     border-bottom: 1px solid #ccc;
-  }
+}
 
 
 .nav li a {
     color: #546078;
     text-decoration: none;
-  }
+}
 
 
 .nav li a:hover {
     color: #F29900;
     text-decoration: none;
-  }
+}
 
 /* FOOTER */
 
@@ -225,12 +225,12 @@ body {
     font-size:90%;
     background: #546078;
     text-align:center;
-  }
+}
 
 
 .footer a {
     color: #eee;
-  }
+}
 
 
 p {
@@ -238,7 +238,7 @@ p {
     padding: 0;
     color: #888;
     background: inherit;
-  }
+}
 
 
 hr {
@@ -246,20 +246,20 @@ hr {
     height: 1px;
     color: #eee;
     background-color: #eee;
-  }
+}
 
 
 a {
     color: #888;
     background: inherit;
     text-decoration:none;
-  }
+}
 
 
 a:hover {
     background: inherit;
     text-decoration: underline;
-  }
+}
 
 
 h1 {
@@ -267,7 +267,7 @@ h1 {
     margin:0;
     font: bold 1.8em Arial, Sans-Serif;
     letter-spacing: -1px;
-  }
+}
 
 
 h2 {
@@ -277,25 +277,25 @@ h2 {
     font-weight:bold;
     margin: 10px 0 10px 0;
     padding:0;
-  }
+}
 
 
 h2 a {
     color: #FF8D00;
-  }
+}
 
 
 h2 a:hover {
     color: #EE8300;
     text-decoration: none;
-  }
+}
 
 
 ul {
     margin: 5px 0 20px 15px;
     padding : 0;
     list-style : none;
-  }
+}
 
 
 li {
@@ -303,27 +303,27 @@ li {
     color: #F29900;
     margin: 0 0 0px 0;
     padding: 0 0 0 0px;
-  }
+}
 
 
 li a {
     color: #546078;
-  }
+}
 
 
 li a:hover {
     color: #F29900;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 fieldset {
     border: 1px solid #eee;
-  }
+}
 
 
 textarea.text {
@@ -332,14 +332,14 @@ textarea.text {
     border: 1px solid #ccc;
     background: #fff;
     color: #000;
-  }
+}
 
 
 textarea.text:hover {
     border: 1px solid #eee;
     background: #FFFFF4;
     color: #000;
-  }
+}
 
 
 input.field {
@@ -347,14 +347,14 @@ input.field {
     background-color: #3C3C3C;
     width: 100px;
     color: #000;
-  }
+}
 
 
 input.field:hover {
     border: 1px solid #eee;
     background: #ccc;
     color: #000;
-  }
+}
 
 
 input.text {
@@ -363,12 +363,12 @@ input.text {
     border: 1px solid #546078;
     background: #FFF;
     color: #808080;
-  }
+}
 
 
 input.text:hover {
     border: 1px solid #3a4354;
-  }
+}
 
 
 input.searchbutton {
@@ -380,7 +380,7 @@ input.searchbutton {
     color: #808080;
     padding: 1px;
     font-weight: bold;
-  }
+}
 
 
 .date {
@@ -390,12 +390,12 @@ input.searchbutton {
     margin: 4px 0 5px 0;
     padding: 0.4em 0 0 0;
     border-top: 1px solid #ddd;
-  }
+}
 
 
 .date a {
     color: #546078;
-  }
+}
 
 
 input.button {
@@ -403,7 +403,7 @@ input.button {
     color: #808080;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-  }
+}
 
 
 .comments {
@@ -411,7 +411,7 @@ input.button {
     margin: 0 0 7px 0;
     background: #3f3f3f;
     color: #000;
-  }
+}
 
 
 .commentsbox {
@@ -419,7 +419,7 @@ input.button {
     margin: 0 0 10px 0;
     background: #f4f4f4;
     color: #000;
-  }
+}
 
 
 .error {
@@ -429,13 +429,13 @@ input.button {
     margin-top: 5px;
     margin-bottom: 10px;
     border: 1px dashed #990000;
-  }
+}
 
 
 .error h2 {
     color: #990000;
     background: inherit;
-  }
+}
 
 
 .success {
@@ -445,11 +445,11 @@ input.button {
     margin-top: 5px;
     margin-bottom: 5px;
     border: 1px dashed #546078;
-  }
+}
 
 
 .success h2 {
     color: #546078;
     background: inherit;
-  }
+}
 
