@@ -11,7 +11,7 @@ top:5px;
 position:absolute;
 }
 
- ul#cnav {
+ul#cnav {
     text-align: center;
     padding-bottom: 0px;
     padding-top: 0px;
@@ -22,10 +22,10 @@ position:absolute;
     font-size: 8px;
     line-height: 10px;
     /* fixes Firefox 0.9.3 */;
-  }
+}
 
 
- ul#cnav li {
+ul#cnav li {
     display: inline;
     padding-left: 2px;
     padding-right: 2px;
@@ -35,10 +35,10 @@ position:absolute;
     line-height: 10px;
     background-position : center center;
     background-repeat : no-repeat;
-  }
+}
 
 
- ul#cnav li a {
+ul#cnav li a {
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 0px;
@@ -49,109 +49,109 @@ position:absolute;
     background-position : center center;
     background-repeat : no-repeat;
 
-  }
+}
 
 
- ul#cnav li a:hover {
+ul#cnav li a:hover {
     line-height: 10px;
     background-position : center center;
     background-repeat : no-repeat;
-  }
+}
 
 
- ul#cnav #active {
+ul#cnav #active {
     line-height: 10px;
     background-position : center center;
     background-repeat : no-repeat;
 
-  }
+}
 
 
- ul#cnav li#black a {
+ul#cnav li#black a {
     background-image: url(../images/black/icon.png);
-  }
+}
 
 
- ul#cnav li#blue a {
+ul#cnav li#blue a {
     background-image: url(../images/blue/icon.png);
-  }
+}
 
 
- ul#cnav li#green a {
+ul#cnav li#green a {
     background-image: url(../images/green/icon.png);
-  }
+}
 
 
- ul#cnav li#pink a {
+ul#cnav li#pink a {
     background-image: url(../images/pink/icon.png);
-  }
+}
 
 
- ul#cnav li#purple a {
+ul#cnav li#purple a {
     background-image: url(../images/purple/icon.png);
-  }
+}
 
 
- ul#cnav li#red a {
+ul#cnav li#red a {
     background-image: url(../images/red/icon.png);
-  }
+}
 
 
- ul#cnav li#tan a {
+ul#cnav li#tan a {
     background-image: url(../images/tan/icon.png);
-  }
+}
 
 
- ul#cnav li#yellow a {
+ul#cnav li#yellow a {
     background-image: url(../images/yellow/icon.png);
-  }
+}
 
 
- ul#cnav li#daisyrae a {
+ul#cnav li#daisyrae a {
     background-image : url(../images/daisyrae/icon.gif);
-  }
+}
 
 
- ul#cnav li#black a:hover {
+ul#cnav li#black a:hover {
     background-image: url(../images/black/icon2.png);
-  }
+}
 
 
- ul#cnav li#blue a:hover {
+ul#cnav li#blue a:hover {
     background-image: url(../images/blue/icon2.png);
-  }
+}
 
 
- ul#cnav li#green a:hover {
+ul#cnav li#green a:hover {
     background-image: url(../images/green/icon2.png);
-  }
+}
 
 
- ul#cnav li#pink a:hover {
+ul#cnav li#pink a:hover {
     background-image: url(../images/pink/icon2.png);
-  }
+}
 
 
- ul#cnav li#purple a:hover {
+ul#cnav li#purple a:hover {
     background-image: url(../images/purple/icon2.png);
-  }
+}
 
 
- ul#cnav li#red a:hover {
+ul#cnav li#red a:hover {
     background-image: url(../images/red/icon2.png);
-  }
+}
 
 
- ul#cnav li#tan a:hover {
+ul#cnav li#tan a:hover {
     background-image: url(../images/tan/icon2.png);
-  }
+}
 
 
- ul#cnav li#yellow a:hover {
+ul#cnav li#yellow a:hover {
     background-image: url(../images/yellow/icon2.png);
-  }
+}
 
 
- ul#cnav li#daisyrae a:hover {
+ul#cnav li#daisyrae a:hover {
     background-image: url(../images/daisyrae/icon2.gif);
-  }
+}

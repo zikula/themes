@@ -10,7 +10,7 @@
             <div id="outer">
                 <div id="rap">
                     {include file="includes/header.tpl"}
-                    <!-- end header -->
+                    {* end header *}
                     <div id="main">
                         <div id="content">
                             <div id="static">
@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div id="clearer">&nbsp;</div>
-                    <!-- begin footer -->
+                    {* begin footer *}
                     {include file="includes/footer.tpl"}
                 </div>
             </div>
