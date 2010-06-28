@@ -16,17 +16,17 @@ Feel free to use and modify but please provide credits.
 * {
     margin: 0;
     padding: 0;
-  }
+}
 
 
 a {
     text-decoration: none;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 body {
@@ -34,23 +34,23 @@ body {
     color: #444;
     font: normal 62.5% "Lucida Sans Unicode",Verdana,sans-serif;
     padding-top: 40px;
-  }
+}
 
 
 p,code,ul {
     font-size: 1.2em;
     padding-bottom: 1.2em;
-  }
+}
 
 
 li {
     list-style: none;
-  }
+}
 
 
 h1 {
     font-size: 1.4em;
-  }
+}
 
 
 code {
@@ -63,7 +63,7 @@ code {
     margin-bottom: 12px;
     padding: 8px 10px;
     white-space: pre;
-  }
+}
 
 
 blockquote {
@@ -75,20 +75,20 @@ blockquote {
     font: normal 0.9em Verdana,sans-serif;
     margin-bottom: 12px;
     padding: 12px;
-  }
+}
 
 
 h1,h2,h3,h4 {
     font: normal 1.2em "Trebuchet MS",sans-serif;
     color: #F06;
-  }
+}
 
 /* misc */
 
 
 .clearer {
     clear: both;
-  }
+}
 
 
 /* header */
@@ -99,7 +99,7 @@ h1,h2,h3,h4 {
     border-bottom: 1px solid #EEE;
     height: 160px;
     margin-bottom: 24px;
-  }
+}
 
 
 .header h1 {
@@ -107,59 +107,59 @@ h1,h2,h3,h4 {
     font: normal 4em sans-serif;
     margin-top: 40px;
     text-align: center;
-  }
+}
 
 
 .header h2 {
     border-top: 1px solid #EEE;
     color: #666;
     text-align: right;
-  }
+}
 
 
 .header h2 span {
     background: #222;
     color: #EEE;
     padding: 0 6px;
-  }
+}
 
 /* left side (main content) */
 
 
 .left {
     margin: 0 42% 20px 3%;
-  }
+}
 
 
 .content .descr {
     color: #06F;
     font-size: 1.2em;
     margin-bottom: 6px;
-  }
+}
 
 
 .content li {
     list-style: url(../images/li.gif);
     margin-left: 18px;
-  }
+}
 
 
 .content h1 {
     font-size: 2.4em;
     margin-bottom: 4px;
-  }
+}
 
 
 .content a,.footer a {
     color: #F06;
     text-decoration: none;
-  }
+}
 
 
 .content a:hover,.footer a:hover {
     color: #444;
     border-bottom: 1px solid #F06;
-  }
+}
 
 /* nav & subnavigation */
 
@@ -168,7 +168,7 @@ h1,h2,h3,h4 {
     margin-bottom: 20px;
     position: absolute;
     top: 40px;
-  }
+}
 
 /* navigation */
 
@@ -177,7 +177,7 @@ h1,h2,h3,h4 {
     right: 23%;
     text-align: left;
     width: 17%;
-  }
+}
 
 
 .nav .logo {
@@ -185,23 +185,23 @@ h1,h2,h3,h4 {
     border-bottom: 1px solid #EEE;
     border-top: 1px solid #EEE;
     height: 159px;
-  }
+}
 
 
 .nav h1 {
     color: #F60;
     margin: 12px 0;
-  }
+}
 
 
 .nav ul.menu {
     text-align: center;
-  }
+}
 
 
 .nav  .menu li {
     border-bottom: 1px solid #EEE;
-  }
+}
 
 
 .nav .menu li a {
@@ -209,23 +209,23 @@ h1,h2,h3,h4 {
     display: block;
     font: normal 1.4em serif;
     padding: 8px 0;
-  }
+}
 
 
 .nav .menu li a:hover {
     background: #FAFAFA;
     color: #F06;
-  }
+}
 
 
 .nav ul {
     text-align: left;
-  }
+}
 
 
 .nav li {
     border-bottom: 1px solid #EEE;
-  }
+}
 
 
 .nav li a {
@@ -233,13 +233,13 @@ h1,h2,h3,h4 {
     display: block;
     font: normal .9em serif;
     padding: 8px 0;
-  }
+}
 
 
 .nav li a:hover {
     background: #FAFAFA;
     color: #F06;
-  }
+}
 
 /* subnav */
 
@@ -249,12 +249,12 @@ h1,h2,h3,h4 {
     background: #222;
     right: 3%;
     width: 18%;
-  }
+}
 
 
 .subnav {
     padding: 12px 12px 0;
-  }
+}
 
 
 .subnav h1 {
@@ -262,20 +262,20 @@ h1,h2,h3,h4 {
     font-size: 1.4em;
     height: 20px;
     margin-left: 8px;
-  }
+}
 
 
 .subnav ul {
     margin: 0 0 16px;
     padding: 0;
-  }
+}
 
 
 .subnav li {
     list-style: none;
     margin: 0;
     border-bottom: 1px solid #333;
-  }
+}
 
 
 .subnav li a {
@@ -284,12 +284,12 @@ h1,h2,h3,h4 {
     font-size: 0.9em;
     padding: 3px 6px 3px 8px;
     text-decoration: none;
-  }
+}
 
 
 .subnav li a:hover {
     color: #DDD;
-  }
+}
 
 /* round edges */
 
@@ -298,32 +298,32 @@ h1,h2,h3,h4 {
     background: url(../images/round.gif);
     height: 16px;
     width: 14px;
-  }
+}
 
 
 .roundtl,.roundbl {
     float: left;
-  }
+}
 
 
 .roundtr,.roundbr {
     float: right;
-  }
+}
 
 
 .roundtr {
     background-position: right top;
-  }
+}
 
 
 .roundbr {
     background-position: right bottom;
-  }
+}
 
 
 .roundbl {
     background-position: left bottom;
-  }
+}
 
 /* footer */
 
@@ -336,5 +336,5 @@ h1,h2,h3,h4 {
     margin: 0 42% 0 3%;
     padding: 8px 6px;
 
-  }
+}
 
