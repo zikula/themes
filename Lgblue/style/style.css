@@ -1,8 +1,8 @@
 
-/* 
+/*
 
 LGBlue3c Free Template
-By Herreman David 
+By Herreman David
 http://www.free-css-templates.com
 
 */
@@ -16,7 +16,7 @@ body {
     color:#000;
     line-height: 1.4em;
     background : #F0F0F0;
-  }
+}
 
 
 p {
@@ -24,7 +24,7 @@ p {
     padding: 0;
     color: #555;
     background: inherit;
-  }
+}
 
 
 hr {
@@ -32,26 +32,26 @@ hr {
     height: 1px;
     color: #eee;
     background-color: #eee;
-  }
+}
 
 
 a {
     color: #0F5B7F;
     background: inherit;
     text-decoration:none;
-  }
+}
 
 
 a:hover {
     color: #0F5BAF;
     text-decoration: none;
     background: inherit;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 h1 {
@@ -61,13 +61,13 @@ h1 {
     background: inherit;
     font: bold 1.8em Arial, Sans-Serif;
     letter-spacing: -1px;
-  }
+}
 
 
 h1 a {
     color: #0F5BFF;
     background: inherit;
-  }
+}
 
 
 h2 {
@@ -77,18 +77,18 @@ h2 {
     font-weight:bold;
     margin: 10px 0 10px 0;
     padding:0;
-  }
+}
 
 
 h2 a {
     color: #0F5B7F;
-  }
+}
 
 
 h2 a:hover {
     color: #0F5BAF;
     text-decoration: none;
-  }
+}
 
 
 
@@ -101,7 +101,7 @@ h2 a:hover {
     max-height: 43px;
     margin: 0;
     padding: 0;
-  }
+}
 
 /* HEADER */
 
@@ -109,7 +109,7 @@ h2 a:hover {
     color: #FFF;
     padding: 0 15px 0 15px;
     line-height: 1.0em;
-  }
+}
 
 
 #header .rside {
@@ -119,14 +119,14 @@ h2 a:hover {
     height: 129px;
     width: 587px;
     font-size: 90%;
-  }
+}
 
 
 #header .sitename {
     text-align: right;
     padding: 60px 25px 25px 6px;
     color: #f0f0f0;
-  }
+}
 
 
 #header .logoside {
@@ -136,27 +136,27 @@ h2 a:hover {
     padding: 0;
     margin: 0;
     float: left;
-  }
+}
 
 
 #header h2 {
     background-color: inherit;
     color: #FFF;
     letter-spacing: 1px;
-  }
+}
 
 /* MAIN CONTENT */
 
 #main {
     margin: 0 20px 0 15px;
-  }
+}
 
 
 #main h4 {
     background-color: inherit;
     color: #156184;
     line-height: 0.2em;
-  }
+}
 
 
 #main .z-block h4 {
@@ -164,7 +164,7 @@ h2 a:hover {
     color: #156184;
     line-height: 0.2em;
     padding-left: 5px;
-  }
+}
 
 
 #main h3 {
@@ -173,14 +173,14 @@ h2 a:hover {
     padding: 0;
     color: #5f5f5f;
     background: inherit;
-  }
+}
 
 
 #main .z-block form {
     background-color: inherit;
     color: #156184;
     padding-left: 5px;
-  }
+}
 
 
 .content {
@@ -189,7 +189,7 @@ h2 a:hover {
     padding: 0;
     width: 791px;
     background: #FFFFFF url(../images/bg.jpg) repeat-y center;
-  }
+}
 
 
 .center {
@@ -201,7 +201,7 @@ h2 a:hover {
     border-right: 1px solid #f0f0f0;
     padding-right: 10px;
     text-align: justify;
-  }
+}
 
 
 .center3c {
@@ -213,7 +213,7 @@ h2 a:hover {
     border-right: 1px solid #f0f0f0;
     padding-right: 10px;
     text-align: justify;
-  }
+}
 
 
 .center2c {
@@ -224,7 +224,7 @@ h2 a:hover {
     margin-right: 10px;
     padding-right: 5px;
     text-align: justify;
-  }
+}
 
 .center ul, .center ol {
     margin-bottom : 5px;
@@ -235,7 +235,7 @@ h2 a:hover {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 2px;
-  }
+}
 
 
 .center li, .center .z-block li, .center2c li, .center2c .z-block li {
@@ -248,18 +248,18 @@ h2 a:hover {
     padding-left : 5px;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 .center li a, .center2c li a {
     color: #0F5B7F;
-  }
+}
 
 
 .center li a:hover, .center2c li a:hover {
     color: #0F5BAF;
     text-decoration: none;
-  }
+}
 
 .leftmenu {
     background: #FFF url(../images/leftbg.jpg) repeat-x;
@@ -267,12 +267,12 @@ h2 a:hover {
     float: left;
     padding: 0;
     margin: 0;
-  }
+}
 
 
 p.extmenuadmin {
     padding-left: 10px;
-  }
+}
 
 
 .leftmenu .z-block ul, .right_side .z-block ul {
@@ -284,28 +284,28 @@ p.extmenuadmin {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 2px;
-  }
+}
 
 
 .leftmenu .z-block ul li, .right_side .z-block ul li {
     list-style-type: none;
     color: #F29900;
-  }
+}
 
 
 .leftmenu .z-block ul li a, .right_side .z-block ul li a {
     color: #546078;
-  }
+}
 
 
 .leftmenu .z-block ul li a:hover, .right_side .z-block ul li a:hover {
     color: #F29900;
-  }
+}
 
 
 .padding {
     padding: 15px;
-  }
+}
 
 
 .right_side {
@@ -314,7 +314,7 @@ p.extmenuadmin {
     background: #FFF;
     padding: 15px 5px 3px 0px !important;
     padding: 30px 5px 3px 0px;
-  }
+}
 
 
 .img {
@@ -324,7 +324,7 @@ p.extmenuadmin {
     margin: 5px 8px 5px 0;
     color: #333;
     border: 1px solid #e0e0e0;
-  }
+}
 
 /* FOOTER */
 
@@ -337,7 +337,7 @@ p.extmenuadmin {
     clear: both;
     padding: 0px;
     margin: 0;
-  }
+}
 
 
 #footer hr {
@@ -345,21 +345,21 @@ p.extmenuadmin {
     color: #888;
     border: 1px solid #f0f0f0;
     margin: 0 25px 0 25px;
-  }
+}
 
 
 #footer a {
     color: #999;
     background: #FFF;
     text-decoration:none;
-  }
+}
 
 
 #footer a:hover {
     background: #FFF;
     text-decoration: underline;
     color: #444;
-  }
+}
 
 /* NAVIGATION */
 
@@ -368,7 +368,7 @@ p.extmenuadmin {
     text-align: left;
     color: #7D8085;
     padding: 20px 0 0 0;
-  }
+}
 
 
 .nav li {
@@ -376,19 +376,19 @@ p.extmenuadmin {
     margin: 0 0 8px 0;
     padding: 0 0 0 5px;
     border-bottom: 1px solid #ccc;
-  }
+}
 
 
 .nav li a {
     color: #546078;
     text-decoration: none;
-  }
+}
 
 
 .nav li a:hover {
     color: #F29900;
     text-decoration: none;
-  }
+}
 
 
 .boxads {
@@ -396,7 +396,7 @@ p.extmenuadmin {
     padding: 5px;
     border: 1px solid #999;
     color: #333;
-  }
+}
 
 /*----------------- for snews --------------------------*/
 
@@ -404,7 +404,7 @@ p.extmenuadmin {
 
 fieldset {
     border: 1px solid #eee;
-  }
+}
 
 
 textarea.text {
@@ -413,14 +413,14 @@ textarea.text {
     border: 1px solid #ccc;
     background: #fff;
     color: #000;
-  }
+}
 
 
 textarea.text:hover {
     border: 1px solid #eee;
     background: #FFFFF4;
     color: #000;
-  }
+}
 
 
 input.field {
@@ -428,14 +428,14 @@ input.field {
     background-color: #3C3C3C;
     width: 100px;
     color: #000;
-  }
+}
 
 
 input.field:hover {
     border: 1px solid #eee;
     background: #ccc;
     color: #000;
-  }
+}
 
 
 input.text {
@@ -444,12 +444,12 @@ input.text {
     border: 1px solid #546078;
     background: #FFF;
     color: #808080;
-  }
+}
 
 
 input.text:hover {
     border: 1px solid #3a4354;
-  }
+}
 
 
 input.searchbutton {
@@ -461,7 +461,7 @@ input.searchbutton {
     color: #333;
     padding: 1px;
     font-weight: bold;
-  }
+}
 
 
 .date {
@@ -471,12 +471,12 @@ input.searchbutton {
     margin: 4px 0 5px 0;
     padding: 0.4em 0 0 0;
     border-top: 1px solid #ddd;
-  }
+}
 
 
 .date a {
     color: #546078;
-  }
+}
 
 
 input.button {
@@ -484,7 +484,7 @@ input.button {
     color: #808080;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-  }
+}
 
 
 .comments {
@@ -492,7 +492,7 @@ input.button {
     margin: 0 0 7px 0;
     background: #FFF;
     color: #333;
-  }
+}
 
 
 .commentsbox {
@@ -500,7 +500,7 @@ input.button {
     margin: 0 0 10px 0;
     background: #f4f4f4;
     color: #000;
-  }
+}
 
 
 .error {
@@ -510,13 +510,13 @@ input.button {
     margin-top: 5px;
     margin-bottom: 10px;
     border: 1px dashed #990000;
-  }
+}
 
 
 .error h2 {
     color: #990000;
     background: inherit;
-  }
+}
 
 
 .success {
@@ -526,11 +526,11 @@ input.button {
     margin-top: 5px;
     margin-bottom: 5px;
     border: 1px dashed #546078;
-  }
+}
 
 
 .success h2 {
     color: #546078;
     background: inherit;
-  }
+}
 /*----------------- for snews --------------------------*/

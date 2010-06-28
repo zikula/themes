@@ -1,8 +1,8 @@
 
-/* 
+/*
 
 LGBlue Free Template
-By Herreman David 
+By Herreman David
 http://www.free-css-templates.com
 
 */
@@ -24,7 +24,7 @@ body {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 p {
@@ -32,7 +32,7 @@ p {
     padding: 0;
     color: #555;
     background: inherit;
-  }
+}
 
 
 hr {
@@ -40,25 +40,25 @@ hr {
     height: 1px;
     color: #eee;
     background-color: #eee;
-  }
+}
 
 
 a {
     color: #0F5B7F;
     background: inherit;
     text-decoration:none;
-  }
+}
 
 
 a:hover {
     background: inherit;
     text-decoration: underline;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 h1 {
@@ -68,13 +68,13 @@ h1 {
     background: inherit;
     font: bold 1.8em Arial, Sans-Serif;
     letter-spacing: -1px;
-  }
+}
 
 
 h1 a {
     color: #0F5BFF;
     background: inherit;
-  }
+}
 
 
 h2 {
@@ -84,25 +84,25 @@ h2 {
     font-weight:bold;
     margin: 10px 0 10px 0;
     padding:0;
-  }
+}
 
 
 h2 a {
     color: #0F5B7F;
-  }
+}
 
 
 h2 a:hover {
     color: #0F5BAF;
     text-decoration: none;
-  }
+}
 
 
 ul {
     margin: 5px 0 20px 15px;
     padding : 0;
     list-style : none;
-  }
+}
 
 
 li {
@@ -110,17 +110,17 @@ li {
     color: #F29900;
     margin: 0 0 0px 0;
     padding: 0 0 0 0px;
-  }
+}
 
 
 li a {
     color: #546078;
-  }
+}
 
 
 li a:hover {
     color: #F29900;
-  }
+}
 
 /*----------------- for snews --------------------------*/
 
@@ -128,7 +128,7 @@ li a:hover {
 
 fieldset {
     border: 1px solid #eee;
-  }
+}
 
 
 textarea.text {
@@ -137,14 +137,14 @@ textarea.text {
     border: 1px solid #ccc;
     background: #fff;
     color: #000;
-  }
+}
 
 
 textarea.text:hover {
     border: 1px solid #eee;
     background: #FFFFF4;
     color: #000;
-  }
+}
 
 
 input.field {
@@ -152,14 +152,14 @@ input.field {
     background-color: #3C3C3C;
     width: 100px;
     color: #000;
-  }
+}
 
 
 input.field:hover {
     border: 1px solid #eee;
     background: #ccc;
     color: #000;
-  }
+}
 
 
 input.text {
@@ -168,12 +168,12 @@ input.text {
     border: 1px solid #546078;
     background: #FFF;
     color: #808080;
-  }
+}
 
 
 input.text:hover {
     border: 1px solid #3a4354;
-  }
+}
 
 
 input.searchbutton {
@@ -185,7 +185,7 @@ input.searchbutton {
     color: #333;
     padding: 1px;
     font-weight: bold;
-  }
+}
 
 
 .date {
@@ -195,12 +195,12 @@ input.searchbutton {
     margin: 4px 0 5px 0;
     padding: 0.4em 0 0 0;
     border-top: 1px solid #ddd;
-  }
+}
 
 
 .date a {
     color: #546078;
-  }
+}
 
 
 input.button {
@@ -208,7 +208,7 @@ input.button {
     color: #808080;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-  }
+}
 
 
 .comments {
@@ -216,7 +216,7 @@ input.button {
     margin: 0 0 7px 0;
     background: #FFF;
     color: #333;
-  }
+}
 
 
 .commentsbox {
@@ -224,7 +224,7 @@ input.button {
     margin: 0 0 10px 0;
     background: #f4f4f4;
     color: #000;
-  }
+}
 
 
 .error {
@@ -234,13 +234,13 @@ input.button {
     margin-top: 5px;
     margin-bottom: 10px;
     border: 1px dashed #990000;
-  }
+}
 
 
 .error h2 {
     color: #990000;
     background: inherit;
-  }
+}
 
 
 .success {
@@ -250,13 +250,13 @@ input.button {
     margin-top: 5px;
     margin-bottom: 5px;
     border: 1px dashed #546078;
-  }
+}
 
 
 .success h2 {
     color: #546078;
     background: inherit;
-  }
+}
 
 
 .content {
@@ -265,7 +265,7 @@ input.button {
     padding: 0;
     width: 791px;
     background: #FFFFFF url(../images/bg.jpg) repeat-y center;
-  }
+}
 
 
 #toph {
@@ -273,14 +273,14 @@ input.button {
     height: 14px;
     margin: 0;
     padding: 0;
-  }
+}
 
 
 #header {
     color: #FFF;
     padding: 0 15px 0 15px;
     line-height: 1.0em;
-  }
+}
 
 
 #header .rside {
@@ -290,14 +290,14 @@ input.button {
     height: 129px;
     width: 587px;
     font-size: 90%;
-  }
+}
 
 
 #header .citation {
     text-align: right;
     padding: 60px 25px 25px 6px;
     color: #f0f0f0;
-  }
+}
 
 
 #header .lside {
@@ -308,32 +308,32 @@ input.button {
     padding: 0;
     margin: 0;
     float: left;
-  }
+}
 
 
 #header h2 {
     background-color: inherit;
     color: #FFF;
     letter-spacing: 1px;
-  }
+}
 
 
 #header .title {
     text-align: center;
     padding-top: 30px;
-  }
+}
 
 
 #main {
     margin: 0 20px 0 15px;
-  }
+}
 
 
 #main h4 {
     background-color: inherit;
     color: #156184;
     line-height: 0.2em;
-  }
+}
 
 
 #main h3 {
@@ -342,7 +342,7 @@ input.button {
     padding: 0;
     color: #5f5f5f;
     background: inherit;
-  }
+}
 
 
 .center {
@@ -351,7 +351,7 @@ input.button {
     width: 535px;
     float: right;
     margin: 15px;
-  }
+}
 
 
 .leftmenu {
@@ -360,12 +360,12 @@ input.button {
     float: left;
     padding: 0;
     margin: 0;
-  }
+}
 
 
 .padding {
     padding: 15px;
-  }
+}
 
 
 .img {
@@ -375,7 +375,7 @@ input.button {
     margin: 5px 8px 5px 0;
     color: #333;
     border: 1px solid #e0e0e0;
-  }
+}
 
 /* FOOTER */
 
@@ -389,7 +389,7 @@ input.button {
     clear: both;
     padding: 0px;
     margin: 0;
-  }
+}
 
 
 #footer hr {
@@ -397,21 +397,21 @@ input.button {
     color: #888;
     border: 1px solid #f0f0f0;
     margin: 0 25px 0 25px;
-  }
+}
 
 
 #footer a {
     color: #999;
     background: #FFF;
     text-decoration:none;
-  }
+}
 
 
 #footer a:hover {
     background: #FFF;
     text-decoration: underline;
     color: #444;
-  }
+}
 
 /* NAVIGATION */
 
@@ -421,7 +421,7 @@ input.button {
     text-align: left;
     color: #7D8085;
     padding: 20px 0 0 0;
-  }
+}
 
 
 .nav li {
@@ -429,19 +429,19 @@ input.button {
     margin: 0 0 8px 0;
     padding: 0 0 0 5px;
     border-bottom: 1px solid #ccc;
-  }
+}
 
 
 .nav li a {
     color: #546078;
     text-decoration: none;
-  }
+}
 
 
 .nav li a:hover {
     color: #F29900;
     text-decoration: none;
-  }
+}
 
 
 .boxads {
@@ -449,5 +449,5 @@ input.button {
     padding: 5px;
     border: 1px solid #999;
     color: #333;
-  }
+}
 
