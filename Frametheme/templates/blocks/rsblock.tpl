@@ -1,6 +1,6 @@
-<!--  BEGIN: New Right Sidebox  -->
+{*  BEGIN: New Right Sidebox  *}
 <div class="block block-{$bkey} bid-{$bid}">
-	<h2>{$title}</h2>
-	{$content}
+    <h2>{$title}</h2>
+    {$content}
 </div>
-<!--  END: New Right Sidebox  -->
+{*  END: New Right Sidebox  *}
