@@ -1,7 +1,7 @@
 <div class="description">
-{if $title neq ''}
-<h2>{$title}</h2>
-{/if}
-{$content}
+    {if $title neq ''}
+    <h2>{$title}</h2>
+    {/if}
+    {$content}
 </div>
 
