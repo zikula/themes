@@ -14,18 +14,18 @@ body {
     padding-right : 0;
     padding-top : 0;
     text-align : center;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 p {
     margin:0.2em 0 1.2em 0;
     padding:0.3em;
-  }
+}
 
 
 h1, h3, h5 {
@@ -41,24 +41,24 @@ h1, h3, h5 {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 h1 {
     font-size : 250%;
-  }
+}
 
 
 h3 {
     font-size : 95%;
     font-weight : bold;
-  }
+}
 
 
 h5 {
     font-size : 85%;
     font-weight : bold;
-  }
+}
 
 
 h2, h4, h6 {
@@ -75,47 +75,47 @@ h2, h4, h6 {
     padding-left : .9em;
     padding-right : 0;
     padding-top : 0.2em;
-  }
+}
 
 
 h2 {
     font-size : 100%;
-  }
+}
 
 
 h4 {
     font-size : 90%;
-  }
+}
 
 
 h6 {
     font-size : 80%;
-  }
+}
 
 
 div {
     margin:0;
     padding:0;
     display:block;
-  }
+}
 
 
 a:link, a:visited {
     color:#0C7303;
     text-decoration:none;
-  }
+}
 
 
 a:hover {
     color:#8CD749;
     text-decoration:none;
-  }
+}
 
 
 a:active {
     color:#8CD749;
     text-decoration:none;
-  }
+}
 
 
 #container {
@@ -123,7 +123,7 @@ a:active {
     margin:0 auto 0 auto;
     padding:0;
     width:65%;
-  }
+}
 
 
 #header {
@@ -134,7 +134,7 @@ a:active {
     background-repeat:no-repeat;
     background-position:right center;
     height:140px;
-  }
+}
 
 
 #header h1 {
@@ -145,7 +145,7 @@ a:active {
     font-style:normal;
     color:#0C7303;
     /*#8CD749*/ font-family:"Trebuchet MS", verdana, arial, sans-serif;
-  }
+}
 
 
 #header p {
@@ -154,7 +154,7 @@ a:active {
     font-family:"Trebuchet MS", verdana, arial, sans-serif;
     font-size:125%;
     font-style:italic;
-  }
+}
 
 
 #navbar {
@@ -167,12 +167,12 @@ a:active {
     margin:0;
     padding:0;
     background-color:#0C7303;
-  }
+}
 
 
 #navbar li {
     display:inline;
-  }
+}
 
 
 #navbar li a {
@@ -190,7 +190,7 @@ a:active {
     padding-right : 1em;
     padding-top : .9em;
     text-decoration : none;
-  }
+}
 
 
 #navbar li a:hover, #navbar li.current a {
@@ -207,7 +207,7 @@ a:active {
     text-decoration:none;
     background-color:#53A005;
     color:#FFFFFF;
-  }
+}
 
 
 #rightcontainer {
@@ -222,7 +222,7 @@ a:active {
     padding-right : 0;
     padding-top : 0;
     width : 190px;
-  }
+}
 
 
 .rightbox {
@@ -230,7 +230,7 @@ a:active {
     padding:0.3em;
     border:1px solid #999999;
     text-align:left;
-  }
+}
 
 
 ul, ol {
@@ -244,13 +244,13 @@ ul, ol {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 2px;
-  }
+}
 
 
 .rightbox ul li {
 
     margin-left: 1px;
-  }
+}
 
 
 .rightbox ul ul li {
@@ -258,19 +258,19 @@ ul, ol {
     margin-left: 1px;
     list-style-type: square;
     list-style-position: inside;
-  }
+}
 
 
 
 .rightcontainer h2 {
     text-align:left;
     padding:0 0 0 1.5em;
-  }
+}
 
 
 .linkbox a {
     display:block;
-  }
+}
 
 
 #content {
@@ -286,7 +286,7 @@ ul, ol {
     padding-top : 0;
     text-align : justify;
     width : 583px;
-  }
+}
 
 
 .centerblock {
@@ -312,7 +312,7 @@ ul, ol {
     padding-top : 0.3em;
     text-align : justify;
     width : auto;
-  }
+}
 
 
 #footer {
@@ -331,28 +331,27 @@ ul, ol {
     border-top-color : #999999;
     border-top-style : solid;
     border-top-width : 1px;
-  }
+}
 
 
 .left {
     float:left;
     padding-right:0.45em;
     text-align:left;
-  }
+}
 
 
 .right {
     float:right;
     padding-right:0.45em;
     text-align:right;
-  }
+}
 
 /**************** Rollover Menublock styles ****************/
-
 .navcontainer {
     width : 100%;
     /* dont remove me */;
-  }
+}
 
 
 .navcontainer ul {
@@ -363,7 +362,7 @@ ul, ol {
     list-style: none !important;
     font-family: "Trebuchet MS", verdana, arial, sans-serif;
     width : 98% !important;
-  }
+}
 
 
 .navcontainer li a {
@@ -380,7 +379,7 @@ ul, ol {
     padding-right : 3px;
     padding-top : 3px;
     width : 98% !important;
-  }
+}
 
 
 .navcontainer li a:link, .navlist li a:visited {
@@ -389,7 +388,7 @@ ul, ol {
     color: #ffffff !important;
     text-decoration: none !important;
     width : 98% !important;
-  }
+}
 
 
 .navcontainer li a:hover {
@@ -397,9 +396,9 @@ ul, ol {
     background-color: #53A005 !important;
     color: #ffffff !important;
     width : 98% !important;
-  }
+}
 
 
 p.extmenuadmin {
     padding-left: 10px;
-  }
+}
