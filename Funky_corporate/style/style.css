@@ -1,10 +1,10 @@
 
 /*------------------------------------------------------------*
-**  
+**
     CSS coding by Empire Elements - www.empire-elements.co.uk
     Contact us on : info@empire-elements.co.uk
-	UK Mobile: 07891 226 702   Tel: 020 8816 8289
-	
+    UK Mobile: 07891 226 702   Tel: 020 8816 8289
+
 **------------------------------------------------------------*/
 /*------------------------------------------------------------*
 **  Global
@@ -12,16 +12,16 @@
 
 
 body {
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 /*------------------------------------------------------------*
 **  Main Container
-**------------------------------------------------------------*/	
+**------------------------------------------------------------*/
 
 
 #Container {
@@ -34,7 +34,7 @@ a img {
     position: relative;
     padding: 10px;
     border: 1px solid #CCCCCC;
-  }
+}
 
 /*------------------------------------------------------------*
 **  Main Container
@@ -46,12 +46,12 @@ a img {
     padding-right: 5px;
     padding-bottom: 10px;
     padding-left: 5px;
-  }
+}
 
 
 #Top img {
     float: right;
-  }
+}
 
 
 #Top h1 {
@@ -69,7 +69,7 @@ a img {
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 5px;
-  }
+}
 
 
 #Top h2 {
@@ -82,7 +82,7 @@ a img {
     padding-bottom: 0px;
     padding-left: 5px;
     font-weight: bold;
-  }
+}
 
 /*------------------------------------------------------------*
 **  Top Navigation
@@ -94,7 +94,7 @@ a img {
     background-color: #EFEFEF;
     width: 800px;
     margin-top: 0px;
-  }
+}
 
 
 div#nav ul {
@@ -104,7 +104,7 @@ div#nav ul {
     display: inline;
     margin-left: 0px;
     padding-left: 0px;
-  }
+}
 
 
 div#nav ul li {
@@ -117,7 +117,7 @@ div#nav ul li {
     font-size: 12px;
     font-weight: normal;
     border-right: 1px solid #FFFFFF;
-  }
+}
 
 
 div#nav ul li a {
@@ -131,12 +131,12 @@ div#nav ul li a {
     border-bottom-width: 3px;
     border-bottom-style: solid;
     border-bottom-color: #EFEFEF;
-  }
+}
 
 
 div#nav ul .last li {
     width: 129px;
-  }
+}
 
 
 div#nav ul li a:hover, div#nav ul li.current a {
@@ -145,7 +145,7 @@ div#nav ul li a:hover, div#nav ul li.current a {
     border-bottom-width: 3px;
     border-bottom-style: solid;
     border-bottom-color: #FC7316;
-  }
+}
 
 /*------------------------------------------------------------*
 **  Top Image
@@ -157,7 +157,7 @@ div#TopImage {
     text-align: left;
     width: 800px;
     padding-top: 5px;
-  }
+}
 
 /*------------------------------------------------------------*
 **  InfoLine
@@ -183,7 +183,7 @@ div#InfoLine {
     padding-top : 0px;
     text-align : right;
     vertical-align : middle;
-  }
+}
 
 
 div#InfoLine span#il-label {
@@ -192,7 +192,7 @@ div#InfoLine span#il-label {
     height : 18px;
     line-height : 18px;
     padding-bottom : 4px;
-  }
+}
 
 /*------------------------------------------------------------*
 **  MainText
@@ -206,17 +206,17 @@ div#MainText {
     float: left;
     padding-bottom: 0px;
     color: #005787;
-  }
+}
 
 
 div#MainText a:hover {
     color: #FC7316;
-  }
+}
 
 
 div#MainText a {
     color: #005787;
-  }
+}
 
 
 div#MainText h1, div#MainText h2, div#MainText h3, div#MainText h4, div#MainText h5, div#MainText h6 {
@@ -225,12 +225,12 @@ div#MainText h1, div#MainText h2, div#MainText h3, div#MainText h4, div#MainText
     font-weight: bold;
     color: #005787;
     margin-top: 5px;
-  }
+}
 
 
 div#MainText h3, div#MainText h4, div#MainText h5, div#MainText h6 {
     font-size: 14px;
-  }
+}
 
 ul, ol {
 
@@ -242,10 +242,10 @@ ul, ol {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 2px;
-  }
+}
 
 p.extmenuadmin {
-   padding-left: 10px;
+padding-left: 10px;
     line-height: 12px;
 }
 
@@ -275,7 +275,7 @@ div#MainText-left {
     padding-top: 0px;
     text-align : justify;
     width : 180px;
-  }
+}
 
 
 div#MainText-left ul {
@@ -291,7 +291,7 @@ div#MainText-left ul {
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
-  }
+}
 
 
 div#MainText-left ul li {
@@ -303,7 +303,7 @@ div#MainText-left ul li {
     line-height: 25px;
     font-size: 12px;
     font-weight: normal;
-  }
+}
 
 
 div#MainText-left ul li a {
@@ -320,7 +320,7 @@ div#MainText-left ul li a {
     border-left-width: 3px;
     border-left-style: solid;
     border-left-color: #949494;
-  }
+}
 
 
 div#MainText-left ul li a:hover {
@@ -330,7 +330,7 @@ div#MainText-left ul li a:hover {
     border-left-width: 2px;
     border-left-style: solid;
     border-left-color: #005787;
-  }
+}
 
 /* Container Right Start*/
 
@@ -349,7 +349,7 @@ div#MainText-right {
     margin-left: 5px;
     line-height: 18px;
     text-align : justify;
-  }
+}
 
 /*------------------------------------------------------------*
 **  Footer
@@ -362,7 +362,7 @@ div#Footer {
     background-color: #EFEFEF;
     height:30px;
     padding: 5px;
-  }
+}
 
 
 #Footer p {
@@ -372,17 +372,17 @@ div#Footer {
     font-size: 10px;
     color: #949494;
 
-  }
+}
 
 
 div#Footer a {
     color: #FC7316;
     text-decoration: none;
-  }
+}
 
 
 div#Footer a:hover {
     color: #005787;
     text-decoration: none;
-  }
+}
 
