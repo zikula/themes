@@ -1,7 +1,6 @@
 <div class="footer">
     <br />
         <div id="footer">
-
             <span class="left">
                 &copy;&nbsp;2006-{'Y'|date}&nbsp;<strong><a href="{homepage}" title="{sitename} {gt text="Home Page"}">{sitename}</a></strong>&nbsp;|&nbsp;
                 <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find information across our site via our Sitemap"}">{gt text="Sitemap"}</a>&nbsp;|&nbsp;
@@ -13,8 +12,6 @@
                 {gt text="Valid"}&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}"><strong>{gt text="CSS"}</strong></a>&nbsp;|&nbsp;
                 <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a>
             </span>
-
             <div class="clearer"></div>
         </div>
-
 </div>
