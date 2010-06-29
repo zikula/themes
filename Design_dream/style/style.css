@@ -1,7 +1,7 @@
 /* CSS Document
-   Template Title: Design Dream
-   Author: J David Macor
-   URL: http://www.jdavidmacor.com */
+Template Title: Design Dream
+Author: J David Macor
+URL: http://www.jdavidmacor.com */
 
 /* Basic Body */
 html,body {
@@ -23,20 +23,20 @@ margin:0 auto;
 
 /* Header */
 #header {
-	height:140px;
-	background:url(../images/header.gif) 0 0 no-repeat;
-	width: 760px;
+    height:140px;
+    background:url(../images/header.gif) 0 0 no-repeat;
+    width: 760px;
 }
 #header h1 {
 background:none;
- float:right;
+float:right;
 margin-top:20px;
 margin-right:50px
 }
 
 #header #headsearch {
- clear:both;
- float:right;
+clear:both;
+float:right;
 margin-top:20px;
 margin-right:40px
 }
@@ -61,43 +61,43 @@ color:#FFFFFF;
 
 /* Navigation */
 #nav {
-	float:left;
-	width:760px;
-	margin-top:-19px;
-	font-size:0.94em;
-	line-height:1em;
+    float:left;
+    width:760px;
+    margin-top:-19px;
+    font-size:0.94em;
+    line-height:1em;
 }
 
 #nav ul {
-	margin:0;
-	padding:0 0 0 28px;
-	list-style:none;
+    margin:0;
+    padding:0 0 0 28px;
+    list-style:none;
 }
 
 #nav li {
-	float:left;
-	margin:0 0 0 -1px;
-	padding:0 0 0 6px;
-	background:url(../images/nav1.gif) 0 100% no-repeat;
+    float:left;
+    margin:0 0 0 -1px;
+    padding:0 0 0 6px;
+    background:url(../images/nav1.gif) 0 100% no-repeat;
 }
 
 #nav li:hover {
-	background-position:-6px 100%;
+    background-position:-6px 100%;
 }
 
 #nav a {
-	float:left;
-	display:block;
-	color:#666666;
-	font-weight:bold;
-	font-family:Georgia,Times,"Times New Roman",serif;
-	background:url(../images/nav2.gif) 100% 100% no-repeat;
-	padding:5px 14px 12px 8px;
-	text-decoration:none;
+    float:left;
+    display:block;
+    color:#666666;
+    font-weight:bold;
+    font-family:Georgia,Times,"Times New Roman",serif;
+    background:url(../images/nav2.gif) 100% 100% no-repeat;
+    padding:5px 14px 12px 8px;
+    text-decoration:none;
 }
 
 #nav li:hover a {
-	background-image:url(../images/nav1.gif);
+    background-image:url(../images/nav1.gif);
 }
 
 /* Hide from IE5-Mac \*/
@@ -105,8 +105,8 @@ color:#FFFFFF;
 
 /* End IE5-Mac hack */
 #nav a:hover {
-	color:#000;
-	text-decoration:none;
+    color:#000;
+    text-decoration:none;
 }
 
 #home #nav #t1,
@@ -114,9 +114,9 @@ color:#FFFFFF;
 #menu3 #nav #t3,
 #menu4 #nav #t4,
 #menu5 #nav #t5 {
-	background-position:-12px 100%;
-	padding-left:26px;
-	margin:0 2px 0 1px;
+    background-position:-12px 100%;
+    padding-left:26px;
+    margin:0 2px 0 1px;
 }
 
 #home #nav #t1 a,
@@ -124,19 +124,19 @@ color:#FFFFFF;
 #menu3 #nav #t3 a,
 #menu4 #nav #t4 a,
 #menu5 #nav #t5 a {
-	background-image:url(../images/nav2s.gif);
-	padding-left:0;
-	padding-right:19px;
+    background-image:url(../images/nav2s.gif);
+    padding-left:0;
+    padding-right:19px;
 }
 
 #nav #t1,
 #home #nav #t1 {
-	margin-left:0;
+    margin-left:0;
 }
 
 #nav #t5,
 #contact #nav #t5 {
-	margin-right:0;
+    margin-right:0;
 }
 
 /* Image */
@@ -225,7 +225,7 @@ border-left:1px solid #f6f4ec;
 .main_body_content{
 padding:0px 5px 5px;
 background:#E2DED0;
-} 
+}
 
 #body_container p {
 margin:0;
@@ -308,7 +308,6 @@ color: #666666;
 text-decoration:underline;
 }
 
-.container
-{
+.container {
     margin-top: 0px;
 }

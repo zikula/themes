@@ -24,42 +24,42 @@ not referenced in the user templates.
 /* styles for module admin menus */
 div.z-adminbox div.z-menu {
     width: 100%;
-	text-align: left;
-	text-transform:capitalize;
+    text-align: left;
+    text-transform:capitalize;
 }
 
 div.z-adminbox .z-menuitem-title {
-	width:100%;
-	background: url(../pnimages/button_bkg.gif) repeat-x;
-	height: 18px;
-	display: block;
-	padding-top: 5px;
-	padding-left: 5px;
-	border-left: 1px solid #ccc; 
-	border-right: 1px solid #ccc;
+    width:100%;
+    background: url(../pnimages/button_bkg.gif) repeat-x;
+    height: 18px;
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 /* style for Immediate template under the tab menu */
 div.z-adminbox {
-	width: 98%;
+    width: 98%;
     color: inherit;
-	border-top: 0px solid #ccc; 
-	border-left: 1px solid #ccc; 
-	border-right: 1px solid #ccc; 
-	border-bottom: 0px solid #ccc;
-	padding:5px 1% 5px 1%; /* top, right, bottom, left */
+    border-top: 0px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 0px solid #ccc;
+    padding:5px 1% 5px 1%; /* top, right, bottom, left */
 }
 
 /* style for Immediate template under the admin menu */
 div.z-admincontainer {
-	width:98%;
+    width:98%;
     color: inherit;
-	border-top: 0px solid #ccc; 
-	border-left: 1px solid #ccc; 
-	border-right: 1px solid #ccc; 
-	border-bottom: 1px solid #ccc;
-	padding:0px 1% 5px 1%; /* top, right, bottom, left */
-	
+    border-top: 0px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding:0px 1% 5px 1%; /* top, right, bottom, left */
+
 }
 
 /* container for admin icons in main admin panel */
@@ -71,36 +71,36 @@ div.z-adminiconcontainer {
 /* admin category description */
 div.z-admincategorydescription {
     text-align:center;
-	margin-bottom:10px;
+    margin-bottom:10px;
 }
 
 /* style for main admin tables */
 table.z-admintable {
-	width: 100%;
+    width: 100%;
     color: inherit;
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	border-left: 1px solid #ccc; 
-	border-right: 1px solid #ccc; 
-	margin-top: 0px;
-	padding:5px 5px 10px 5px; /* top, right, bottom, left */
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-top: 0px;
+    padding:5px 5px 10px 5px; /* top, right, bottom, left */
 }
 
 /* style for Immediate template under the admin menu */
 div.z-adminbox h1 {
-	text-align:left;
+    text-align:left;
 }
 
 div.z-admincontainer h2 {
-	text-align:left;
-	border-bottom:1px solid #cccccc;
+    text-align:left;
+    border-bottom:1px solid #cccccc;
     margin-top: 0px;
 }
 
 /* stying for the cell elements in admin tables */
 table.z-admintable td, table.z-admintable th{
-	padding: 5px;
-	border-width: 0px;
+    padding: 5px;
+    border-width: 0px;
 }
 
 /* style to highlight a defaut row in a table */
@@ -111,22 +111,22 @@ table.z-admintable tr.z-defaulttablerow {
 
 /* main admin form style */
 form.z-adminform {
-	border-bottom: 1px solid #ccc;
-	border-top-width: 1px;
-	border-left-width: 1px;
-	border-right-width: 1px;
-	padding: 10px 0;
-	margin: 10px 0px 10px 0px; /* top, right, bottom, left */
+    border-bottom: 1px solid #ccc;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    padding: 10px 0;
+    margin: 10px 0px 10px 0px; /* top, right, bottom, left */
 }
 .accesskey {
-	text-decoration: underline
+    text-decoration: underline
 }
 
 /* formrow is used to style a div containing a label and control pair */
 div.z-adminformrow {
-	border-top: 0px solid #ccc;
-	padding: 5px 0px 10px 0px; /* top, right, bottom, left */
-	min-height: 2em;
+    border-top: 0px solid #ccc;
+    padding: 5px 0px 10px 0px; /* top, right, bottom, left */
+    min-height: 2em;
 }
 
 /* style for a input control contained in a div of class formrow */
@@ -137,8 +137,8 @@ of a control and subsequent non label text.
 e.g. yes (radio) no (radio)*/
 div.z-adminformrow input, div.z-adminformrow textarea,
 div.z-adminformrow select, div.z-adminformrow span, div.z-adminformrow label {
-	margin-left:20px;
-	text-align:left;
+    margin-left:20px;
+    text-align:left;
 }
 
 /* styles for lists of controls */
@@ -156,23 +156,23 @@ div.z-adminformrow label + ul > li:first-child {
 don't themselves float*/
 div.z-adminformrow div input, div.z-adminformrow div textarea,
 div.z-adminformrow div select {
-	float: none;
+    float: none;
 }
 
 /* styles to allow sub headings to be embedded correctly in admin forms */
 form.z-adminform div h1, form.z-adminform div h2, form.z-adminform div h3,
 form.z-adminform div h4, form.z-adminform div h5, form.z-adminform div h6 {
-	padding: 10px;
-	text-transform:capitalize;
+    padding: 10px;
+    text-transform:capitalize;
 }
 
 /* styles for lists inside an admin form */
 div.z-adminformrow ul {
-	padding: 0px;
+    padding: 0px;
     margin-top: 0px;
 }
 div.z-adminformrow li {
-	margin-left: 275px;
+    margin-left: 275px;
 }
 
 /* add the help cursor to labels that provide additional help via the title
@@ -183,138 +183,138 @@ form.z-adminform label.z-adminformhelp {
 
 /* style for a label contained in a div of class formrow */
 div.z-adminformrow>label {
-	text-transform:capitalize;
-	float: left;
-	width: 250px;
-	margin-left: 5px;
+    text-transform:capitalize;
+    float: left;
+    width: 250px;
+    margin-left: 5px;
     padding: 0px 5px 0px 0px;
-	text-align: right;
+    text-align: right;
 }
 
 /* styles for the buttons on a form */
 form.z-adminform div.z-adminformbuttons {
-	text-align: left;
-	margin-left: 240px;
+    text-align: left;
+    margin-left: 240px;
 }
 form.z-adminform div.z-adminformbuttons input, form.z-adminform div.z-adminformbuttons img {
-	margin: 5px;
+    margin: 5px;
 }
 /* styles for the buttons on a view table */
 div.z-adminviewbuttons  {
-	text-align: right;
-	margin-bottom:20px;
+    text-align: right;
+    margin-bottom:20px;
 }
 div.z-adminviewbuttons img {
-	margin: 5px;
-	float: right;
+    margin: 5px;
+    float: right;
 }
 
 /* style the button tag */
 div.z-admincontainer button {
     border: 0px;
-	padding: 0px;
-	background-color: inherit;
+    padding: 0px;
+    background-color: inherit;
 }
 
 /* styling for status messages and security analyzer */
 div.z-statusmsg, div.z-errormsg {
-	margin:0 auto;
-	font-weight:bold;
-	width: 50%;
-	padding: 2em 1em 1em 7em; /* top, right, bottom, left */
+    margin:0 auto;
+    font-weight:bold;
+    width: 50%;
+    padding: 2em 1em 1em 7em; /* top, right, bottom, left */
     min-height: 40px;
 }
 div.z-statusmsg {
-	border: 1px solid green;
-	background: #ffffea url(../../../images/icons/large/info.gif) no-repeat 2em ;
+    border: 1px solid green;
+    background: #ffffea url(../../../images/icons/large/info.gif) no-repeat 2em ;
     color: inherit;
 }
 div.z-errormsg, div#z-securityanalyzer {
-	border: 1px solid red;
-	background: #ffffea url(../../../images/icons/large/error.gif) no-repeat 2em ;
+    border: 1px solid red;
+    background: #ffffea url(../../../images/icons/large/error.gif) no-repeat 2em ;
     color: inherit;
 }
 div#z-securityanalyzer {
-	margin:0 auto;
-	font-weight:bold;
-	padding: 2em 1em 1em 8em; /* top, right, bottom, left */
+    margin:0 auto;
+    font-weight:bold;
+    padding: 2em 1em 1em 8em; /* top, right, bottom, left */
     width: 80%;
     min-height: 40px;
-	margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 /* styling for a page icon */
 div.z-adminpageicon {
-	padding: 0px 0px 5px 5px; /* top, right, bottom, left */
+    padding: 0px 0px 5px 5px; /* top, right, bottom, left */
 }
 div.z-adminpageicon img{
     float:right;
-	padding-top:10px;
+    padding-top:10px;
 }
 
 /* styling for a module icon */
 div.z-adminmodicon {
-	margin:0px 0px 0px 0px; /* top, right, bottom, left */
-	padding: 15px 15px 5px 5px; /* top, right, bottom, left */
-	
+    margin:0px 0px 0px 0px; /* top, right, bottom, left */
+    padding: 15px 15px 5px 5px; /* top, right, bottom, left */
+
 }
 div.z-adminmodicon img{
     float:left;
-	padding-top:10px;
+    padding-top:10px;
 }
 
 /* styles for the warning message shown if any of the install directory,
 install.php or psak.php are found */
 div.warning-container {
-	margin:0 auto;
-	text-transform:uppercase;
-	background-color:#ffffea;
+    margin:0 auto;
+    text-transform:uppercase;
+    background-color:#ffffea;
     color: inherit;
-	width: 30%;
-	text-align: center;
-	border: 1px solid red;
-	padding: 10px 0px 10px 0px; /* top, right, bottom, left */
+    width: 30%;
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px 0px 10px 0px; /* top, right, bottom, left */
 }
 div.warning-container h2 {
-	color: red;
+    color: red;
     background-color: inherit;
-	display:inline;
-	text-transform:capitalize;
+    display:inline;
+    text-transform:capitalize;
 }
 div.warning-container img {
-	float:left;
+    float:left;
 }
 
 /* Used to style the cancel delete button when asking for a confirmation */
 div.canceldelete-container {
     margin:0 auto;
-	text-transform:capitalize;
+    text-transform:capitalize;
     color: inherit;
-	background-color:#ffffea;
-	width: 30%;
-	text-align: center;
-	border: 1px solid #cccccc;
-	padding: 10px 0px 10px 0px; /* top, right, bottom, left */
+    background-color:#ffffea;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #cccccc;
+    padding: 10px 0px 10px 0px; /* top, right, bottom, left */
 }
 
 div.canceldelete-container h2 {
-	color: gray;
+    color: gray;
     background-color: inherit;
-	display:inline;
-	text-transform:capitalize;
+    display:inline;
+    text-transform:capitalize;
 }
 div.canceldelete-container img {
-	float:left;
+    float:left;
 }
 
 /* style tags for grouping of controls into logical 'sets' */
 fieldset {
-	border: #0074B0 solid 1px;
+    border: #0074B0 solid 1px;
     margin-top: 5px;
 }
 legend {
     padding: 5px;
-	color: #0074B0;
+    color: #0074B0;
     background-color: inherit;
 }
 
@@ -334,11 +334,11 @@ div.z-pager span.z-pagerselected {
 
 /* classes to define two colors for alternating rows in admin views */
 table.z-admintable tr.z-even, div.z-admincontainer ul li.z-even {
-	background-color: #fff;
+    background-color: #fff;
     color: inherit;
 }
 table.z-admintable tr.z-odd, div.z-admincontainer ul li.z-odd {
-	background-color: #f3f3f3;
+    background-color: #f3f3f3;
     color: inherit;
 }
 
@@ -360,10 +360,10 @@ table.z-admintable tr.z-odd, div.z-admincontainer ul li.z-odd {
 /* generic clearfix solution */
 
 .z-clearfix:after {
-    content: "."; 
-    display: block; 
-    height: 0; 
-    clear: both; 
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
     visibility: hidden;
 }
 
@@ -381,6 +381,6 @@ table.z-admintable tr.z-odd, div.z-admincontainer ul li.z-odd {
 /* End hide from IE-mac */
 
 /* Overflow-Method to clear float environments */
-.z-floatbox { 
-    overflow:hidden; 
+.z-floatbox {
+    overflow:hidden;
 }
