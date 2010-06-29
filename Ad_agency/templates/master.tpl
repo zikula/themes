@@ -5,9 +5,9 @@
     </head>
     <body>
         <div id="wrapper">
-            <!-- top info starts here -->
+            {* top info starts here *}
             {include file="includes/header.tpl"}
-            <!-- main content starts here -->
+            {* main content starts here *}
             <div id="maincontent">{$maincontent}</div>
             {include file="includes/footer.tpl"}
         </div>
