@@ -6,23 +6,22 @@
     <body>
         <div id="wrap">
             {include file="includes/header.tpl"}
-
             {if $pagetype neq 'admin'}
-                <div id="avmenu">
-                    {blockposition name=left}
-                </div>
-                <div id="extras">
-                    {blockposition name=right}
-                </div>
-                <div id="content">
+            <div id="avmenu">
+                {blockposition name=left}
+            </div>
+            <div id="extras">
+                {blockposition name=right}
+            </div>
+            <div id="content">
             {else}
-                <div id="content" style="width:auto;margin-left:auto;margin-right:auto;">
-            {/if}
-                    {if $pagetype eq 'home'}
-                        {blockposition name=center}
-                    {/if}
+            <div id="content" style="width:auto;margin-left:auto;margin-right:auto;">
+                {/if}
+                {if $pagetype eq 'home'}
+                {blockposition name=center}
+                {/if}
                 {$maincontent}
-                </div>
+            </div>
             {include file="includes/footer.tpl"}
         </div>
     </body>
