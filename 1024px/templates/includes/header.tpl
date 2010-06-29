@@ -1,4 +1,4 @@
-<!--header -->
+{* header *}
 <div id="header">
     <p id="toplinks">
         {gt text="Jump To Page Location"}:&nbsp;
@@ -6,7 +6,6 @@
         <a href="#sidebar" title="{gt text="Go to the sidebar column of this page"}">{gt text="Navigation"}</a>&nbsp;|&nbsp;
         <a href="#footer" title="{gt text="Go to the footer of this page"}">{gt text="Footer"}</a>&nbsp;
     </p>
-
     <h1 id="sitename"><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a></h1>
     <p id="slogan">{slogan}</p>
 </div>
