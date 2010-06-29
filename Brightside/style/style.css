@@ -1,15 +1,15 @@
 
 /********************************************
-   AUTHOR:  			Erwin Aligam 
-   WEBSITE:   			http://www.styleshout.com/
-	TEMPLATE NAME: 	Bright Side of Life
-   TEMPLATE CODE: 	S-0005
-   VERSION:          1.0          	
- *******************************************/ 
- 
+AUTHOR:  			Erwin Aligam
+WEBSITE:   			http://www.styleshout.com/
+    TEMPLATE NAME: 	Bright Side of Life
+TEMPLATE CODE: 	S-0005
+VERSION:          1.0
+*******************************************/
+
 /********************************************
-   HTML ELEMENTS
-********************************************/ 
+HTML ELEMENTS
+********************************************/
 
 /* top elements */
 
@@ -17,7 +17,7 @@
 * {
     padding: 0;
     margin: 0;
-  }
+}
 
 
 body {
@@ -27,7 +27,7 @@ body {
     color: #666666;
     background: #A9BAC3 url(../images/bg.gif) repeat-x;
     text-align: center;
-  }
+}
 
 /* links */
 
@@ -36,13 +36,13 @@ a {
     color: #4284B0;
     background-color: inherit;
     text-decoration: none;
-  }
+}
 
 
 a:hover {
     color: #9EC068;
     background-color: inherit;
-  }
+}
 
 /* headers */
 
@@ -50,29 +50,29 @@ a:hover {
 h1, h2, h3, #sidebar h4 {
     font: bold 1em 'Trebuchet MS', Arial, Sans-serif;
     color: #333;
-  }
+}
 
 
 h1, #sidebar h4 {
     font-size: 1.5em;
     color: #6297BC;
-  }
+}
 
 
 h2 {
     font-size: 1.4em;
     text-transform:uppercase;
-  }
+}
 
 
 h3 {
     font-size: 1.3em;
-  }
+}
 
 
 p, h1, h2, h3, #sidebar h4 {
     margin: 10px 15px;
-  }
+}
 
 
 ul, ol {
@@ -82,19 +82,19 @@ ul, ol {
     margin-right : 0px;
     margin-top : 5px;
     padding-left: 5px;
-  }
+}
 
 
 ul span, ol span {
     color: #666666;
-  }
+}
 
 /* images */
 
 
 a img {
     border: none;
-  }
+}
 
 
 code {
@@ -108,13 +108,13 @@ code {
     */ background: #FAFAFA;
     border: 1px solid #f2f2f2;
     border-left: 4px solid #4284B0;
-  }
+}
 
 
 acronym {
     cursor: help;
     border-bottom: 1px solid #777;
-  }
+}
 
 
 blockquote {
@@ -125,7 +125,7 @@ blockquote {
     border-left: 4px solid #4284B0;
     color: #4284B0;
     font: bold 1.2em/1.5em Georgia, 'Bookman Old Style', Serif;
-  }
+}
 
 /* form elements */
 
@@ -135,19 +135,19 @@ form {
     padding: 0;
     border: 1px solid #f2f2f2;
     background-color: #FAFAFA;
-  }
+}
 
 
 label {
     font-weight:bold;
-  }
+}
 
 
 textarea, input, select {
     font: normal 1em Verdana, sans-serif;
     border:1px solid #eee;
     color:#777;
-  }
+}
 
 
 input.button, button {
@@ -157,7 +157,7 @@ input.button, button {
     background: #FFF;
     padding: 2px 3px;
     color: #4284B0;
-  }
+}
 
 /* search form */
 
@@ -167,7 +167,7 @@ form.searchform {
     border: none;
     margin: 0;
     padding: 0;
-  }
+}
 
 
 form.searchform input.textbox {
@@ -178,7 +178,7 @@ form.searchform input.textbox {
     color: #333;
     height: 14px;
     vertical-align: top;
-  }
+}
 
 
 form.searchform input.button {
@@ -190,10 +190,10 @@ form.searchform input.button {
     color: #777;
     width: 60px;
     vertical-align: top;
-  }
+}
 
 /***********************
-	  LAYOUT
+    LAYOUT
 ************************/
 
 
@@ -203,7 +203,7 @@ form.searchform input.button {
     height: 100%;
     margin: 0 auto;
     text-align: left;
-  }
+}
 
 
 #content-wrap {
@@ -211,7 +211,7 @@ form.searchform input.button {
     margin: 0;
     padding: 0;
     background: #FFF;
-  }
+}
 
 /* header */
 
@@ -220,7 +220,7 @@ form.searchform input.button {
     position: relative;
     height: 85px;
     background: #000 url(../images/headerbg.gif) repeat-x 0% 100%;
-  }
+}
 
 
 #header h1#logo {
@@ -232,7 +232,7 @@ form.searchform input.button {
     text-transform: lowercase;
     top: 0;
     left: 5px;
-  }
+}
 
 
 #header h2#slogan {
@@ -243,14 +243,14 @@ form.searchform input.button {
     text-indent: 0px;
     font: bold 11px Tahoma, 'trebuchet MS', Sans-serif;
     text-transform: none;
-  }
+}
 
 
 #header form.searchform {
     position: absolute;
     top: 0;
     right: -12px;
-  }
+}
 
 /* main */
 
@@ -260,7 +260,7 @@ form.searchform input.button {
     margin-left: 15px;
     padding: 0;
     width: 50%;
-  }
+}
 
 
 .post-footer {
@@ -269,28 +269,28 @@ form.searchform input.button {
     margin: 20px 15px 0 15px;
     border: 1px solid #f2f2f2;
     font-size: 95%;
-  }
+}
 
 
 .post-footer .date {
     background: url(../images/clock.gif) no-repeat left center;
     padding-left: 20px;
     margin: 0 10px 0 5px;
-  }
+}
 
 
 .post-footer .comments {
     background: url(../images/comment.gif) no-repeat left center;
     padding-left: 20px;
     margin: 0 10px 0 5px;
-  }
+}
 
 
 .post-footer .readmore {
     background: url(../images/page.gif) no-repeat left center;
     padding-left: 20px;
     margin: 0 10px 0 5px;
-  }
+}
 
 /* sidebar */
 
@@ -301,7 +301,7 @@ form.searchform input.button {
     margin: 0;
     padding: 0;
     display: inline;
-  }
+}
 
 
 #sidebar ul.navlist {
@@ -315,13 +315,13 @@ form.searchform input.button {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-  }
+}
 
 
 #sidebar ul.navlist li {
     margin-bottom:1px;
     border: 1px solid #f2f2f2;
-  }
+}
 
 
 #sidebar ul.navlist a {
@@ -333,12 +333,12 @@ form.searchform input.button {
     background: #f2f2f2;
     border-left:4px solid #CCC;
     min-height:18px;
-  }
+}
 
 
 * html body #sidebar ul.navlist a {
     height: 18px;
-  }
+}
 
 
 #sidebar ul.navlist a:hover {
@@ -346,11 +346,11 @@ form.searchform input.button {
     background: #f2f2f2;
     color: #339900;
     border-left:4px solid #9EC630;
-  }
+}
 
 p.extmenuadmin {
 
-   padding-left: 10px;
+padding-left: 10px;
 }
 
 /* rightbar */
@@ -361,7 +361,7 @@ p.extmenuadmin {
     width: 23%;
     padding: 0;
     margin:0;
-  }
+}
 
 /* Footer */
 
@@ -375,26 +375,26 @@ p.extmenuadmin {
     padding: 0;
     height: 50px;
     font-size: 95%;
-  }
+}
 
 
 #footer a {
     text-decoration: none;
     font-weight: bold;
     color: #FFF;
-  }
+}
 
 
 #footer .footer-left {
     float: left;
     width: 65%;
-  }
+}
 
 
 #footer .footer-right {
     float: right;
     width: 30%;
-  }
+}
 
 /* menu tabs */
 
@@ -409,14 +409,14 @@ p.extmenuadmin {
     bottom: 6px !important;
     bottom: 5px;
     font: bold 13px Arial, 'Trebuchet MS', Tahoma, verdana, sans-serif;
-  }
+}
 
 
 #header li {
     display:inline;
     margin:0;
     padding:0;
-  }
+}
 
 
 #header a {
@@ -425,7 +425,7 @@ p.extmenuadmin {
     margin:0;
     padding:0 0 0 4px;
     text-decoration:none;
-  }
+}
 
 
 #header a span {
@@ -434,43 +434,43 @@ p.extmenuadmin {
     background: url(../images/tabright.gif) no-repeat right top;
     padding:6px 15px 3px 8px;
     color: #FFF;
-  }
+}
 
 /* Commented Backslash Hack hides rule from IE5-Mac \*/
 
 
 #header a span {
     float:none;
-  }
+}
 
 /* End IE5-Mac hack */
 
 
 #header a:hover span {
     color:#FFF;
-  }
+}
 
 
 #header a:hover {
     background-position:0% -42px;
-  }
+}
 
 
 #header a:hover span {
     background-position:100% -42px;
-  }
+}
 
 
 #header .current a {
     background-position:0% -42px;
     color: #FFF;
-  }
+}
 
 
 #header .current a span {
     background-position:100% -42px;
     color: #FFF;
-  }
+}
 
 /* end menu tabs */
 
@@ -479,39 +479,39 @@ p.extmenuadmin {
 
 .float-left {
     float: left;
-  }
+}
 
 
 .float-right {
     float: right;
-  }
+}
 
 
 .align-left {
     text-align: left;
-  }
+}
 
 
 .align-right {
     text-align: right;
-  }
+}
 
 /* additional classes */
 
 
 .clear {
     clear: both;
-  }
+}
 
 
 .green {
     color: #9EC630;
-  }
+}
 
 
 .gray {
     color: #BFBFBF;
-  }
+}
 
 /* -------------------------------------------------------
 Author: Vitaly Friedman
@@ -519,89 +519,89 @@ Theme: Green Life - A Fresh, Warm and Readable Table
 URL: http://www.alvit.de/vf
 -------------------------------------------------------
 */
- 
 
 
-table.pn-datatable {
+
+table.z-datatable {
     font: 11px verdana,verdana, arial;
     border-collapse: collapse;
     text-align: left;
     color: #333;
     line-height: 19px;
     width: 95%;
-  }
+}
 
 
-table.pn-datatable caption {
+table.z-datatable caption {
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: left;
     text-transform: uppercase;
-  }
+}
 
 
-table.pn-datatable td {
+table.z-datatable td {
     padding: 20px 10px;
     border: 1px dotted #f5f5f5;
-  }
+}
 
 
-table.pn-datatable th {
+table.z-datatable th {
     font-weight: normal;
     text-transform: uppercase;
-  }
+}
 
 
-table.pn-datatable thead tr th {
+table.z-datatable thead tr th {
     font-weight: bold;
     text-transform: uppercase;
     text-align:center;
-  }
+}
 
 
-table.pn-datatable tfoot tr th, table.pn-datatable tfoot tr td {
+table.z-datatable tfoot tr th, table.z-datatable tfoot tr td {
     background-color: transparent;
     color: #ccc;
     border-top: 1px solid #ccc;
-  }
+}
 
 
-table.pn-datatable tbody tr th {
+table.z-datatable tbody tr th {
     border-bottom: 1px dotted #fafafa;
-  }
+}
 
 
-table.pn-datatable tr {
+table.z-datatable tr {
     background-color: #FBFDF6;
-  }
+}
 
 
-table.pn-datatable tr.odd {
+table.z-datatable tr.odd {
     background-color: #EDF7DC;
-  }
+}
 
 
-table.pn-datatable tr:hover {
-  }
+table.z-datatable tr:hover {
+}
 
 
-table.pn-datatable tr:hover td, table.pn-datatable tr:hover td a, table.pn-datatable tr:hover th a {
+table.z-datatable tr:hover td, table.z-datatable tr:hover td a, table.z-datatable tr:hover th a {
     color: #a10000;
-  }
+}
 
 
-table.pn-datatable td:hover {
-  }
+table.z-datatable td:hover {
+}
 
 
-table.pn-datatable tr:hover th a:hover {
+table.z-datatable tr:hover th a:hover {
     background-color: #F7FBEF;
     border-bottom: 2px solid #86C200;
-  }
+}
 
 
-table.pn-datatable a {
+table.z-datatable a {
     color: #608117;
     background-image: none;
     text-decoration: none;
@@ -609,10 +609,10 @@ table.pn-datatable a {
     padding: 2px;
     padding-right: 12px;
     background: transparent url(../images/link.gif) no-repeat 100% 50%;
-  }
+}
 
 
-table.pn-datatable a:hover {
+table.z-datatable a:hover {
     color: #BBC4CD;
     background-image: none;
     text-decoration: none;
@@ -621,20 +621,20 @@ table.pn-datatable a:hover {
     padding-right: 12px;
     color: #A2A2A2;
     background: transparent url(../images/link.gif) no-repeat 100% 50%;
-  }
+}
 
 
-table.pn-datatable a:visited {
+table.z-datatable a:visited {
     text-decoration: none;
     border-bottom: 1px dotted #333;
     text-decoration: none;
     padding-right: 12px;
     color: #A2A2A2;
     background: transparent url(../images/visitedLink.gif) no-repeat 100% 50%;
-  }
+}
 
 
-table.pn-datatable a:visited:hover {
+table.z-datatable a:visited:hover {
     background-image: none;
     text-decoration: none;
     border-bottom: 3px solid #333;
@@ -642,10 +642,10 @@ table.pn-datatable a:visited:hover {
     padding-right: 12px;
     color: #A2A2A2;
     background: transparent url(../images/visitedLink.gif) no-repeat 100% 50%;
-  }
+}
 
 
-table.pn-datatable a:hover:visited img, table.pn-datatable a img {
+table.z-datatable a:hover:visited img, table.z-datatable a img {
     background: none;
-  }
+}
 

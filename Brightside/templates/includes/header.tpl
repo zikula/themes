@@ -15,7 +15,6 @@
             <input type="hidden" name="modvar[limitsummary]" value="255" />
         </p>
     </form>
-    <!-- Menu Tabs -->
     <ul>
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}"><span>{gt text="Home"}</span></a></li>
         <li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Go to the Pages module"}"><span>{gt text="Pages"}</span></a></li>
