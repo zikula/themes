@@ -6,331 +6,331 @@ Version: 1.0
 Author: Brian Green and Darjan Panic
 */
 body {
-	margin:0;
-	font-family:"Trebuchet MS", Arial, Verdana;
-	font-size:0.74em;
-	color:#555555;
-	background: url(../images/white/bg.gif) repeat-y center;
-	text-align:left;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Verdana;
+    font-size:0.74em;
+    color:#555555;
+    background: url(../images/white/bg.gif) repeat-y center;
+    text-align:left;
 }
 a img {border:0px;}
 input {
-	background-color:#555555;
-	padding:3px;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:10px;
-	color:#555555;
-	border:1px solid #333333;
-	background-color:#c0c0c0;
-	margin-bottom:2px;
+    background-color:#555555;
+    padding:3px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:10px;
+    color:#555555;
+    border:1px solid #333333;
+    background-color:#c0c0c0;
+    margin-bottom:2px;
 }
 input[type=submit] {
-	background-color:#555555;
-	padding:3px;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:10px;
-	color:#ffffff;
-	border:1px solid #333333;
-	margin-bottom:2px;
+    background-color:#555555;
+    padding:3px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:10px;
+    color:#ffffff;
+    border:1px solid #333333;
+    margin-bottom:2px;
 }
 ol,ul {
 }
 li {
-	list-style-image:url(../images/white/li.gif);
-	line-height:20px;
-	text-align:left;
+    list-style-image:url(../images/white/li.gif);
+    line-height:20px;
+    text-align:left;
 }
 #header {
-	text-align:left;
-	width:550px;
-	padding-right:200px;
+    text-align:left;
+    width:550px;
+    padding-right:200px;
 }
 #warning {
-	width: 560px;
+    width: 560px;
 }
 #footer {
-	font-size: 10px;
-	text-align: center;
-	padding-top: 30px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 30px;
 }
 #header h1 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:30px;
-	text-transform:uppercase;
-	font-weight:normal;
-	margin:0;
-	padding:0;
-	padding-top:5px;
-	color:#736451;
-	margin-bottom:10px;
-	text-align:left;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:30px;
+    text-transform:uppercase;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    padding-top:5px;
+    color:#736451;
+    margin-bottom:10px;
+    text-align:left;
 }
 #header h2 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:15px;
-	text-transform:uppercase;
-	text-align:left;
-	font-weight:normal;
-	margin:0;
-	padding:0;
-	color:#000000;
-	border-bottom:1px solid #eeeeee;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:15px;
+    text-transform:uppercase;
+    text-align:left;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    color:#000000;
+    border-bottom:1px solid #eeeeee;
 }
 #content {
-	width:750px;
-	height:auto;
-	margin:0 auto 0 auto;
-	text-align:left;
+    width:750px;
+    height:auto;
+    margin:0 auto 0 auto;
+    text-align:left;
 }
 .logo {
-	margin-top:10px;
+    margin-top:10px;
 }
 .clearer {
-	clear:both;
+    clear:both;
 }
 #sidebar {
-	width:150px;
-	float:right;
-	font-size:95%;
-	color:#525252;
-	text-align:left;
+    width:150px;
+    float:right;
+    font-size:95%;
+    color:#525252;
+    text-align:left;
 }
 #sidebar ol,ul {
-	padding: 5px;
-	margin: 5px;
+    padding: 5px;
+    margin: 5px;
 }
 #sidebar li {
-	list-style:none;
-	list-style-image:none;
-	line-height:20px;
-	text-align:left;
+    list-style:none;
+    list-style-image:none;
+    line-height:20px;
+    text-align:left;
 }
 #sidebar h4 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:20px;
-	text-transform:uppercase;
-	font-weight:normal;
-	border-bottom:1px solid #525252;
-	color:#525252;
-	text-align:left;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:normal;
+    border-bottom:1px solid #525252;
+    color:#525252;
+    text-align:left;
 }
 #sidebar a:link{
-	color: #555555;
-	text-decoration: none;
+    color: #555555;
+    text-decoration: none;
 }
 #sidebar a:visited{
-	color: #555555;
-	text-decoration: none;
+    color: #555555;
+    text-decoration: none;
 }
 #sidebar a:hover{
-	color: #555555;
-	text-decoration: underline;
+    color: #555555;
+    text-decoration: underline;
 }
 #meni a:link {
-	color:#555555;
-	text-decoration:none;
-	padding: 3px;
-	marging: 3px;
+    color:#555555;
+    text-decoration:none;
+    padding: 3px;
+    marging: 3px;
 }
 #meni a:visited {
-	color:#555555;
-	text-decoration:none;
-	padding: 3px;
-	marging: 3px;
+    color:#555555;
+    text-decoration:none;
+    padding: 3px;
+    marging: 3px;
 }
 #meni a:hover {
 /*	border-bottom:1px solid #555555;
-	border-left:1px solid #333333;
-	border-right:1px solid #7FD3EB;
-	color:#000000;
-	background-color:#555555;
-	line-height: 14px; */
-	text-decoration:underline;
+    border-left:1px solid #333333;
+    border-right:1px solid #7FD3EB;
+    color:#000000;
+    background-color:#555555;
+    line-height: 14px; */
+    text-decoration:underline;
 }
 #mainbar {
-	margin-right:185px;
-	padding-right:35px;
-	background-position:top right;
-	background-repeat:no-repeat;
+    margin-right:185px;
+    padding-right:35px;
+    background-position:top right;
+    background-repeat:no-repeat;
 }
 #mainbar h1 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:25px;
-	text-transform:uppercase;
-	font-weight:normal;
-	border-bottom:1px solid #eeeeee;
-	color:#333333;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:25px;
+    text-transform:uppercase;
+    font-weight:normal;
+    border-bottom:1px solid #eeeeee;
+    color:#333333;
 }
 #mainbar h2 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:25px;
-	text-transform:uppercase;
-	font-weight:normal;
-	border-bottom:1px solid #eeeeee;
-	color:#333333;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:25px;
+    text-transform:uppercase;
+    font-weight:normal;
+    border-bottom:1px solid #eeeeee;
+    color:#333333;
 }
 #mainbar p {
-	padding:5px;
+    padding:5px;
 }
 #mainbar .articleimg {
-	padding:5px;
-	border:1px solid #eeeeee;
+    padding:5px;
+    border:1px solid #eeeeee;
 }
 #mainbar a {
-	color:#999999;
-	text-decoration:none;
+    color:#999999;
+    text-decoration:none;
 }
 #mainbar a:hover {
-	color:#7f7f7f;
-	text-decoration:underline;
+    color:#7f7f7f;
+    text-decoration:underline;
 }
 .style1 {color: #FF0033}
 .style2 {
-	color: #FFFFFF;
-	font-weight: bold;
+    color: #FFFFFF;
+    font-weight: bold;
 }
 .style3 {font-size: 2em}
 .green {color:#009900}
 .red {color:#FF0000}
 .orange {color:#FF9900}
 .pad {
-	padding: 10px;
+    padding: 10px;
 }
 .bigtext {
-	font-family:"trebuchet MS";
-	font-size: 18px;
-	color: #999999;
+    font-family:"trebuchet MS";
+    font-size: 18px;
+    color: #999999;
 }
 .bigtext a:link{
-	font-family:"trebuchet MS";
-	font-size: 18px;
-	color: #999999;
-	text-decoration: none;
+    font-family:"trebuchet MS";
+    font-size: 18px;
+    color: #999999;
+    text-decoration: none;
 }
 .bigtext a:visited{
-	font-family:"trebuchet MS";
-	font-size: 18px;
-	color: #999999;
-	text-decoration: none;
+    font-family:"trebuchet MS";
+    font-size: 18px;
+    color: #999999;
+    text-decoration: none;
 }
 .bigtext a:hover{
-	font-family:"trebuchet MS";
-	font-size: 18px;
-	color: #999999;
-	text-decoration: underline;
+    font-family:"trebuchet MS";
+    font-size: 18px;
+    color: #999999;
+    text-decoration: underline;
 }
 .warning {
-	padding-top:0px;
-	padding-bottom:0px;
-	margin-top:0px;
-	margin-bottom:0px;
-	color: red;
-	font-size:40px;
-	font-weight:bold;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color: red;
+    font-size:40px;
+    font-weight:bold;
 }
 .warning2 {
-	color: red;
-	font-size:23px;
-	padding-top:0px;
-	padding-bottom:0px;
-	margin-top:0px;
-	margin-bottom:0px;
+    color: red;
+    font-size:23px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
 }
 .warning3 {
-	color: red;
+    color: red;
 }
 .will {
-	color: green;
-	font-size:40px;
-	font-weight:bold;
+    color: green;
+    font-size:40px;
+    font-weight:bold;
 }
 .will2 {
-	color: green;
-	font-size:23px;
-	padding-top:0px;
-	padding-bottom:0px;
-	margin-top:0px;
-	margin-bottom:0px;
+    color: green;
+    font-size:23px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
 }
 .will3 {
-	color: green;
+    color: green;
 }
 .bigtext2 {
-	font-family:"trebuchet MS";
-	font-size: 18px;
-	color: red;
+    font-family:"trebuchet MS";
+    font-size: 18px;
+    color: red;
 }
 .bigtext3 {
-	font-family:"trebuchet MS";
-	font-size: 18px;
-	color: green;
+    font-family:"trebuchet MS";
+    font-size: 18px;
+    color: green;
 }
 .pagenav {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 .titletop {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:30px;
-	text-transform:uppercase;
-	font-weight:normal;
-	margin:0;
-	padding:0;
-	padding-top:5px;
-	color:#736451;
-	margin-bottom:10px;
-	text-align:left;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:30px;
+    text-transform:uppercase;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    padding-top:5px;
+    color:#736451;
+    margin-bottom:10px;
+    text-align:left;
 }
 .titletop a{
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:30px;
-	text-transform:uppercase;
-	font-weight:normal;
-	margin:0;
-	padding:0;
-	padding-top:5px;
-	color:#736451;
-	margin-bottom:10px;
-	text-align:left;
-	text-decoration: none;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:30px;
+    text-transform:uppercase;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    padding-top:5px;
+    color:#736451;
+    margin-bottom:10px;
+    text-align:left;
+    text-decoration: none;
 }
 .titlesub {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:15px;
-	text-transform:uppercase;
-	text-align:left;
-	font-weight:normal;
-	margin:0;
-	padding:0;
-	color:#000000;
-	border-bottom:1px solid #eeeeee;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:15px;
+    text-transform:uppercase;
+    text-align:left;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    color:#000000;
+    border-bottom:1px solid #eeeeee;
 }
 .sidetitle {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:20px;
-	text-transform:uppercase;
-	font-weight:normal;
-	border-bottom:1px solid #525252;
-	color:#525252;
-	text-align:left;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:normal;
+    border-bottom:1px solid #525252;
+    color:#525252;
+    text-align:left;
 }
 #meni h2 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:20px;
-	text-transform:uppercase;
-	font-weight:normal;
-	border-bottom:1px solid #525252;
-	color:#525252;
-	text-align:left;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:normal;
+    border-bottom:1px solid #525252;
+    color:#525252;
+    text-align:left;
 }
 blockquote  {
-	border-left: 5px solid #333333;
-	color: #333333;
+    border-left: 5px solid #333333;
+    color: #333333;
 }
 #feed {
-	padding:5px;
-	height: 40px;
-	width: 140px;
-	color: #333333;
-	background: #ffffff;
+    padding:5px;
+    height: 40px;
+    width: 140px;
+    color: #333333;
+    background: #ffffff;
 }

@@ -6,7 +6,7 @@
     {gt text="Valid"}&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}"><strong>{gt text="CSS"}</strong></a>&nbsp;|&nbsp;
     <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a>
     <br />
-    <!-- Please leave this if you use our template. Thank you -->
+    {* Please leave this if you use our template. Thank you *}
     {gt text="Design by"}&nbsp;<a href="http://www.darjanpanic.com" title="{gt text="Freelance Graphic Artist"}">Darjan&nbsp;Panic</a>&nbsp;{gt text="and"}&nbsp;<a href="http://www.briangreens.com" title="{gt text="Link to"} briangreens.com">Brian&nbsp;Green</a>
-    <!-- Please leave this if you use our template. Thank you -->
+    {* Please leave this if you use our template. Thank you *}
 </div>

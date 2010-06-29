@@ -6,112 +6,112 @@ Version: 1.0
 Author: Brian Green and Darjan Panic
 */
 body {
-	margin:0;
-	font-family:"Trebuchet MS", Arial, Verdana;
-	font-size:0.74em;
-	color:#555555;
-	background: url(../images/green/bg.gif) repeat-y center;
-	text-align:left;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Verdana;
+    font-size:0.74em;
+    color:#555555;
+    background: url(../images/green/bg.gif) repeat-y center;
+    text-align:left;
 }
 a img {border:0px;}
 input {
-	padding:3px;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:10px;
-	color:#566627;
-	border:1px solid #566627;
-	background-color:#c3ccaa;
-	margin-bottom:2px;
+    padding:3px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:10px;
+    color:#566627;
+    border:1px solid #566627;
+    background-color:#c3ccaa;
+    margin-bottom:2px;
 }
 input[type=submit] {
-	background-color:#FFFFFF;
-	padding:3px;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:10px;
-	color:#666666;
-	border:1px solid #566627;
-	margin-bottom:2px;
+    background-color:#FFFFFF;
+    padding:3px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:10px;
+    color:#666666;
+    border:1px solid #566627;
+    margin-bottom:2px;
 }
 ol,ul {
 }
 li {
-	list-style-image:url(../images/green/li.gif);
-	line-height:20px;
-	text-align:left;
+    list-style-image:url(../images/green/li.gif);
+    line-height:20px;
+    text-align:left;
 }
 #header {
-	text-align:left;
-	width:550px;
-	padding-right:200px;
+    text-align:left;
+    width:550px;
+    padding-right:200px;
 }
 #warning {
 width: 560px;
 }
 #footer {
-	font-size: 10px;
-	text-align: center;
-	padding-top: 30px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 30px;
 }
 #header h1 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:30px;
-	text-transform:uppercase;
-	font-weight:normal;
-	margin:0;
-	padding:0;
-	padding-top:5px;
-	color:#736451;
-	margin-bottom:10px;
-	text-align:left;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:30px;
+    text-transform:uppercase;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    padding-top:5px;
+    color:#736451;
+    margin-bottom:10px;
+    text-align:left;
 }
 #header h2 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:15px;
-	text-transform:uppercase;
-	text-align:left;
-	font-weight:normal;
-	margin:0;
-	padding:0;
-	color:#000000;
-	border-bottom:1px solid #eeeeee;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:15px;
+    text-transform:uppercase;
+    text-align:left;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    color:#000000;
+    border-bottom:1px solid #eeeeee;
 }
 #content {
-	width:750px;
-	height:auto;
-	margin:0 auto 0 auto;
-	text-align:left;
+    width:750px;
+    height:auto;
+    margin:0 auto 0 auto;
+    text-align:left;
 }
 .logo {
-	margin-top:10px;
+    margin-top:10px;
 }
 .clearer {
-	clear:both;
+    clear:both;
 }
 #sidebar {
-	width:150px;
-	float:right;
-	font-size:95%;
-	color:#abb48f;
-	text-align:left;
+    width:150px;
+    float:right;
+    font-size:95%;
+    color:#abb48f;
+    text-align:left;
 }
 #sidebar ol,ul {
-	padding: 5px;
-	margin: 5px;
+    padding: 5px;
+    margin: 5px;
 }
 #sidebar li {
-	list-style:none;
-	list-style-image:none;
-	line-height:20px;
-	text-align:left;
+    list-style:none;
+    list-style-image:none;
+    line-height:20px;
+    text-align:left;
 }
 #sidebar h4 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:20px;
-	text-transform:uppercase;
-	font-weight:normal;
-	border-bottom:1px solid #abb48f;
-	color:#abb48f;
-	text-align:left;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:normal;
+    border-bottom:1px solid #abb48f;
+    color:#abb48f;
+    text-align:left;
 }
 #sidebar a:link{
 color: #ffffff;
@@ -126,67 +126,67 @@ color: #ffffff;
 text-decoration: underline;
 }
 #meni a:link {
-	color:#FFFFFF;
-	text-decoration:none;
-	padding: 3px;
+    color:#FFFFFF;
+    text-decoration:none;
+    padding: 3px;
 m	arging: 3px;
 }
 #meni a:visited {
-	color:#FFFFFF;
-	text-decoration:none;
+    color:#FFFFFF;
+    text-decoration:none;
 padding: 3px;
 marging: 3px;
 }
 #meni a:hover {
 /*	border-bottom:1px solid #ffffff;
-	border-left:1px solid #566627;
-	border-right:1px solid #7FD3EB;
-	color:#000000;
-	background-color:#FFFFFF;
-	line-height: 14px; */
-	text-decoration:underline;
+    border-left:1px solid #566627;
+    border-right:1px solid #7FD3EB;
+    color:#000000;
+    background-color:#FFFFFF;
+    line-height: 14px; */
+    text-decoration:underline;
 }
 #mainbar {
-	margin-right:185px;
-	padding-right:35px;
-	background-position:top right;
-	background-repeat:no-repeat;
+    margin-right:185px;
+    padding-right:35px;
+    background-position:top right;
+    background-repeat:no-repeat;
 }
 #mainbar h1 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:25px;
-	text-transform:uppercase;
-	font-weight:normal;
-	border-bottom:1px solid #eeeeee;
-	color:#566627;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:25px;
+    text-transform:uppercase;
+    font-weight:normal;
+    border-bottom:1px solid #eeeeee;
+    color:#566627;
 }
 #mainbar h2 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:25px;
-	text-transform:uppercase;
-	font-weight:normal;
-	border-bottom:1px solid #eeeeee;
-	color:#566627;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:25px;
+    text-transform:uppercase;
+    font-weight:normal;
+    border-bottom:1px solid #eeeeee;
+    color:#566627;
 }
 #mainbar p {
-	padding:5px;
+    padding:5px;
 }
 #mainbar .articleimg {
-	padding:5px;
-	border:1px solid #eeeeee;
+    padding:5px;
+    border:1px solid #eeeeee;
 }
 #mainbar a {
-	color:#566627;
-	text-decoration:none;
+    color:#566627;
+    text-decoration:none;
 }
 #mainbar a:hover {
-	color:#A0B071;
-	text-decoration:underline;
+    color:#A0B071;
+    text-decoration:underline;
 }
 .style1 {color: #FF0033}
 .style2 {
-	color: #FFFFFF;
-	font-weight: bold;
+    color: #FFFFFF;
+    font-weight: bold;
 }
 .style3 {font-size: 2em}
 .green {color:#009900}
@@ -269,67 +269,67 @@ margin: 0px;
 padding: 0px;
 }
 .titletop {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:30px;
-	text-transform:uppercase;
-	font-weight:normal;
-	margin:0;
-	padding:0;
-	padding-top:5px;
-	color:#736451;
-	margin-bottom:10px;
-	text-align:left;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:30px;
+    text-transform:uppercase;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    padding-top:5px;
+    color:#736451;
+    margin-bottom:10px;
+    text-align:left;
 }
 .titletop a{
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:30px;
-	text-transform:uppercase;
-	font-weight:normal;
-	margin:0;
-	padding:0;
-	padding-top:5px;
-	color:#736451;
-	margin-bottom:10px;
-	text-align:left;
-	text-decoration: none;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:30px;
+    text-transform:uppercase;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    padding-top:5px;
+    color:#736451;
+    margin-bottom:10px;
+    text-align:left;
+    text-decoration: none;
 }
 .titlesub {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:15px;
-	text-transform:uppercase;
-	text-align:left;
-	font-weight:normal;
-	margin:0;
-	padding:0;
-	color:#000000;
-	border-bottom:1px solid #eeeeee;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:15px;
+    text-transform:uppercase;
+    text-align:left;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    color:#000000;
+    border-bottom:1px solid #eeeeee;
 }
 .sidetitle {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:20px;
-	text-transform:uppercase;
-	font-weight:normal;
-	border-bottom:1px solid #abb48f;
-	color:#abb48f;
-	text-align:left;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:normal;
+    border-bottom:1px solid #abb48f;
+    color:#abb48f;
+    text-align:left;
 }
 #meni h2 {
-	font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
-	font-size:20px;
-	text-transform:uppercase;
-	font-weight:normal;
-	border-bottom:1px solid #abb48f;
-	color:#abb48f;
-	text-align:left;
+    font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:normal;
+    border-bottom:1px solid #abb48f;
+    color:#abb48f;
+    text-align:left;
 }
 blockquote  {
-	border-left: 5px solid #566627;
-	color: #566627;
+    border-left: 5px solid #566627;
+    color: #566627;
 }
 #feed {
-	padding:5px;
-	height: 40px;
-	width: 140px;
-	color: #566627;
-	background: #ffffff;
+    padding:5px;
+    height: 40px;
+    width: 140px;
+    color: #566627;
+    background: #ffffff;
 }
