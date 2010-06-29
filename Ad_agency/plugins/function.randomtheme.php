@@ -14,7 +14,7 @@
  * Smarty function to display a random theme image
  *
  * Example
- * <!--[randomtheme]-->
+ * {randomtheme}
  *
  * @author Mark West
  * @param array $params All attributes passed to this function from the template
