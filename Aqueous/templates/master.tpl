@@ -11,7 +11,6 @@
                 <div id="sidebar">
                     {blockposition name=left}
                 </div>
-
                 <div id="sidebarright">
                     {blockposition name=right}
                 </div>
@@ -22,9 +21,7 @@
                     {/if}
                     {$maincontent}
                 </div>
-
                 {include file="includes/footer.tpl"}
-
             </div>
         </div>
     </body>
