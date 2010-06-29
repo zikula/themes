@@ -4,13 +4,11 @@
     <a href="#sectionmenu" title="{gt text="Go to the section menu on this page"}">{gt text="section menu"}</a>&nbsp;|&nbsp;
     <a href="#main" title="{gt text="Go to the main content on this page"}">{gt text="main content"}</a>
 </p>
-
 <div id="sitename">
     <h1><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a></h1>
     <span>{slogan}</span>
     <a id="menu"></a>
 </div>
-
 <div id="nav">
     <ul>
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
@@ -25,4 +23,3 @@
         <a href="#top" title="{gt text="Go to the top of this page"}">{gt text="Back to top"}</a>
     </p>
 </div>
- 
