@@ -1,10 +1,10 @@
 
 /**************** body and tag styles ****************/
-	
+
 body {
     margin-top: 0px;
     margin-bottom: 30px;
-  }
+}
 
 
 #container {
@@ -15,7 +15,7 @@ body {
     line-height: 1.6em;
     color: #666666;
     background-color: #FFFFFF;
-  }
+}
 
 
 #container2 {
@@ -27,7 +27,7 @@ body {
     color: #666666;
     background-color: #FFFFFF;
     border-bottom: 2px solid #2763A5;
-  }
+}
 
 
 #header h1 {
@@ -38,7 +38,7 @@ body {
     font-weight : normal;
     margin-bottom : 10px;
     padding-left : 15px;
-  }
+}
 
 
 h1 {
@@ -46,7 +46,7 @@ h1 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFFFFF;
-  }
+}
 
 
 h2 {
@@ -54,7 +54,7 @@ h2 {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFFFFF;
-  }
+}
 
 
 a {
@@ -62,7 +62,7 @@ a {
     background-color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
-  }
+}
 
 
 a:hover {
@@ -70,44 +70,44 @@ a:hover {
     color: inherit;
     font-weight: bold;
     text-decoration: underline;
-  }
+}
 
-/**************** images styles ****************/		
-	
+/**************** images styles ****************/
+
 a img {
     border: none;
-  }
+}
 
 
 span.left,span.center,span.right {
     padding: 4px;
     border: 1px solid #a0a0a0;
-  }
+}
 
 
 span.left {
     float: left;
     margin: 0 12px 5px 0;
-  }
+}
 
 
 span.center {
     display: block;
     margin: 0 auto 5px auto;
-  }
+}
 
 
 span.right {
     float: right;
     margin: 0 0 5px 12px;
-  }
+}
 
 /**************** form styles ****************/
-	
+
 #header form {
     float:right;
     font-size: 9px;
-  }
+}
 
 
 input, select, textarea {
@@ -116,7 +116,7 @@ input, select, textarea {
     border: 1px solid #2763A5;
     font-size: 11px;
     padding: 3px;
-  }
+}
 
 
 .searchform input[type="submit"] {
@@ -125,17 +125,17 @@ input, select, textarea {
     color: #FFFFFF;
     border: 1px solid #2763A5;
     font-size: 11px;
-  }
+}
 
 /**************** header styles ****************/
-	
+
 #header {
     width: 750px;
     border: 0px;
     padding-bottom: 5px;
     padding-top: 5px;
     clear: both;
-  }
+}
 
 
 #header p {
@@ -145,10 +145,10 @@ input, select, textarea {
     margin-left : 30px;
     margin-top : 0px;
     margin-bottom : 0px;
-  }
+}
 
 /**************** menu styles ****************/
-    
+
 #tabs10 {
     float:left;
     width:750px;
@@ -157,21 +157,21 @@ input, select, textarea {
     border-bottom:4px solid #2763A5;
     line-height:normal;
     margin-top : 0px;
-  }
+}
 
 
 #tabs10 ul {
     margin:0;
     padding:10px 10px 0 50px;
     list-style:none;
-  }
+}
 
 
 #tabs10 li {
     display:inline;
     margin:0;
     padding:0;
-  }
+}
 
 
 #tabs10 a {
@@ -180,7 +180,7 @@ input, select, textarea {
     margin:0;
     padding:0 0 0 4px;
     text-decoration:none;
-  }
+}
 
 
 #tabs10 a span {
@@ -189,59 +189,59 @@ input, select, textarea {
     background:url("../images/tabright10.gif") no-repeat right top;
     padding:5px 15px 4px 6px;
     color:#FFF;
-  }
+}
 
 
 #tabs10 a span {
     float:none;
-  }
+}
 #tabs10  li.current a span   {
     background-position:0% -42px;
 }
 
 #tabs10 a:hover, #tabs10 a .current {
     background-position:0% -42px;
-  }
+}
 
 
 #tabs10 a:hover span, {
     background-position:100% -42px;
-  }
+}
 
 /**************** content styles ****************/
-	
+
 #content {
     width: 520px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     float: left;
-  }
+}
 
 
 #content div.content {
     padding-bottom: 10px;
     border-bottom: 1px solid #DDDDDD;
-  }
+}
 
 /**************** sidebar styles ****************/
-	
+
 #sidebar {
     width: 175px;
     padding-left: 21px;
     padding-right: 10px;
     padding-top: 10px;
     float: right;
-  }
+}
 
 
 #sidebar div.block {
     padding-bottom: 10px;
     border-bottom: 1px solid #DDDDDD;
-  }
+}
 
 /**************** footer styles ****************/
-	
+
 #footer {
     background-color:#2763A5;
     margin-top: 15px;
@@ -252,7 +252,7 @@ input, select, textarea {
     clear: both;
     width: 742px;
     min-height:35px;
-  }
+}
 
 
 #footer p,#footer span {
@@ -260,7 +260,7 @@ input, select, textarea {
     color:#FFFFFF;
     padding: 5px;
     text-align: center;
-  }
+}
 
 
 #footer p a {
@@ -268,7 +268,7 @@ input, select, textarea {
     background-color:#2763A5;
     font-weight:100;
     border-bottom: 1px dotted #FFFFFF;
-  }
+}
 
 
 #footer p a:hover {
@@ -276,14 +276,14 @@ input, select, textarea {
     text-decoration: none;
     border-top: 1px dotted #FFFFFF;
     border-bottom: 0px dotted #FFFFFF;
-  }
+}
 
 /**************** list styles ****************/
-     
+
 #sidebar ul li {
     list-style-type: square;
     list-style-image: url(../images/menu-leaf.png);
-  }
+}
 ul, ol {
 
     margin-bottom : 5px;
@@ -294,82 +294,82 @@ ul, ol {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 2px;
-  }
+}
 
 p.extmenuadmin {
 
-   padding-left: 10px;
+padding-left: 10px;
 }
 
 .content ul li {
     list-style-type: none;
     list-style-image: none;
-  }
+}
 
 
 .content ul li:before {
     content: "\00BB \0020";
-  }
+}
 
 /* Zikula required styles */
 
 a img {
     border: 0px;
-  }
+}
 
 
-.pn-clearfix:after {
+.z-clearfix:after {
     content: ".";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden;
-  }
+}
 
 
-.pn-clearfix {
+.z-clearfix {
     display: inline-table;
-  }
+}
 
 /* Hides from IE-mac \*/
 
 * html .pn-clearfix {
     height: 1%;
-  }
+}
 
 
-.pn-clearfix {
+.z-clearfix {
     display: block;
-  }
+}
 
 /* End hide from IE-mac */
 
 /* Overflow-Method to clear float environments */
 
-.pn-floatbox {
+.z-floatbox {
     overflow:hidden;
-  }
+}
 
 /*
 � 2005 Christine Kirchmeier http://www.zeta-software.de
 */
 
-table.pn-datatable {
+table.z-datatable {
     border-spacing: 0;
     width:100%;
-  }
+}
 
 
-table.pn-datatable caption {
+table.z-datatable caption {
     color: #2442b1;
     font-size: 130%;
     letter-spacing: .1em;
     text-align: right;
     text-transform: uppercase;
-  }
+}
 
 
-table.pn-datatable thead th, table.pn-datatable tbody th {
+table.z-datatable thead th, table.z-datatable tbody th {
     background: #666666 url(../images/left_corner.gif) no-repeat;
     color: #fff;
     font-weight: bold;
@@ -379,55 +379,55 @@ table.pn-datatable thead th, table.pn-datatable tbody th {
     border-right: 1px solid #c6cdd8;
     border-bottom: 1px solid #c6cdd8;
     border-left: 1px solid #fff;
-  }
+}
 
 
-table.pn-datatable thead th {
+table.z-datatable thead th {
     font-size: 1em;
-  }
+}
 
 
-table.pn-datatable tbody th {
+table.z-datatable tbody th {
     background: #dee2e9 url(../images/bg_col1.gif) repeat-x;
-  }
+}
 
 
-table.pn-datatable tbody tr.odd th {
+table.z-datatable tbody tr.odd th {
     background: #e2e2e2;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-  }
+}
 
 
-table.pn-datatable tbody th a, table.pn-datatable tbody th a:link, table.pn-datatable tbody th a:visited, table.pn-datatable tbody th a:hover, table.pn-datatable tbody th a:active {
+table.z-datatable tbody th a, table.z-datatable tbody th a:link, table.z-datatable tbody th a:visited, table.z-datatable tbody th a:hover, table.z-datatable tbody th a:active {
     color: #2442b1;
     font-weight: bold;
     text-decoration: none;
     font-size: 1.1em;
-  }
+}
 
 
-table.pn-datatable tbody th a:hover {
+table.z-datatable tbody th a:hover {
     text-decoration: underline;
-  }
+}
 
 
-table.pn-datatable td a:link {
+table.z-datatable td a:link {
     color: #537fc3;
-  }
+}
 
 
-table.pn-datatable tbody th a:visited, table.pn-datatable td a:visited {
+table.z-datatable tbody th a:visited, table.z-datatable td a:visited {
     color: #444;
-  }
+}
 
 
-table.pn-datatable th a:hover, table.pn-datatable td a:hover {
+table.z-datatable th a:hover, table.z-datatable td a:hover {
     text-decoration: none;
-  }
+}
 
 
-table.pn-datatable td {
+table.z-datatable td {
     background: #f3f8fd url(../images/bg_col2.gif) repeat-x;
     color: #203276;
     border-top: 1px solid #fff;
@@ -435,30 +435,30 @@ table.pn-datatable td {
     border-bottom: 1px solid #c6cdd8;
     border-left: 1px solid #fff;
     padding: 1.5em 0.5em 1.5em 0.8em;
-  }
+}
 
 
-table.pn-datatable td:hover {
+table.z-datatable td:hover {
     background: #f3f8fd;
-  }
+}
 
 
-table.pn-datatable tr.odd td {
+table.z-datatable tr.odd td {
     background: #f8f8f8 url(../images/bg_col3.gif) repeat-x;
     color: #444;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-  }
+}
 
 
-table.pn-datatable tr.odd td:hover {
+table.z-datatable tr.odd td:hover {
     background: #f8f8f8;
-  }
+}
 
 
-table.pn-datatable tfoot th, table.pn-datatable tfoot td {
+table.z-datatable tfoot th, table.z-datatable tfoot td {
     background: #444 !important;
     padding: .5em .5em .5em .5em !important;
     color: #fff;
-  }
+}
 
