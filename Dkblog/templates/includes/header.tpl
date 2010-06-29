@@ -5,25 +5,23 @@
             <a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}"><img src="{$imagepath}/contact.gif" alt="{gt text="Contact link icon image"}" /></a>
             <a href="{modurl modname=Sitemap}" title="{gt text="Go to the Sitemap module"}"><img src="{$imagepath}/sitemap.gif" alt="{gt text="SiteMap link icon image"}" /></a>
         </div>
-
         <div class="url">
             {if $loggedin eq true}
-                <strong>{userwelcome|ucwords}</strong>&nbsp;|&nbsp;
-                <a href="{modurl modname=Users}" title="{gt text="My Account Settings"}">{gt text="My Account"}</a>&nbsp;|&nbsp;
-                <a href="{modurl modname=Users func=logout}" title="{gt text="Logout of Your Account"}" class="last">{gt text="Logout"}</a>&nbsp;|&nbsp;
+            <strong>{userwelcome|ucwords}</strong>&nbsp;|&nbsp;
+            <a href="{modurl modname=Users}" title="{gt text="My Account Settings"}">{gt text="My Account"}</a>&nbsp;|&nbsp;
+            <a href="{modurl modname=Users func=logout}" title="{gt text="Logout of Your Account"}" class="last">{gt text="Logout"}</a>&nbsp;|&nbsp;
             {else}
-                <strong><em>{userwelcome|ucwords}</em></strong>&nbsp;|&nbsp;
-                <a href="{modurl modname=Users func=register}" title="{gt text="New Account Registration"}">{gt text="New Account Registration"}</a>&nbsp;|&nbsp;
-                <a href="{modurl modname=Users func=loginscreen}" title="{gt text="Log In to Your Account"}" class="last">{gt text="Log In"}</a>&nbsp;|&nbsp;
+            <strong><em>{userwelcome|ucwords}</em></strong>&nbsp;|&nbsp;
+            <a href="{modurl modname=Users func=register}" title="{gt text="New Account Registration"}">{gt text="New Account Registration"}</a>&nbsp;|&nbsp;
+            <a href="{modurl modname=Users func=loginscreen}" title="{gt text="Log In to Your Account"}" class="last">{gt text="Log In"}</a>&nbsp;|&nbsp;
             {/if}
             {datetime}
             {if $pagetype neq 'home'}
-                &nbsp;::&nbsp;<a href="{homepage}" title="{gt text="Go back to the main page"}>{gt text="Back to Main page"}</a>
+            &nbsp;::&nbsp;<a href="{homepage}" title="{gt text="Go back to the main page"}>{gt text="Back to Main page"}</a>
             {/if}
         </div>
     </div>
 </div>
-
 <div id="top">
     <div class="content">
         <div id="menu">
