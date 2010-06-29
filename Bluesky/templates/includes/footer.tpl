@@ -1,4 +1,4 @@
-<!--footer starts here-->
+{*footer starts here*}
 <div id="footer">
     <p>
         <span style="float:left;">
@@ -14,5 +14,3 @@
         </span>
     </p>
 </div>
-
-
