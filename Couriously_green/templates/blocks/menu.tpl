@@ -1,5 +1,5 @@
 <div id="menu">
-{$content}
+    {$content}
 </div>
 <div id="menu_end"></div>
 
