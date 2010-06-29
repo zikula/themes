@@ -1,81 +1,101 @@
-html{height: 100%;}
 
-body
-{ background-color: #E3DFE5;
-  color: #5F4F57;
+
+html {
+    height: 100%;
 }
 
-blockquote
-{ background-color: #F4F2F3;
-  color: #5F4F57;
-  border-color: #938E93;
+
+body {
+    background-color: #E3DFE5;
+    color: #5F4F57;
 }
 
-h1, #column1 h4, #column2 h2
-{ background-color: #FFFFFF;
-  color: #B860C0;
-  border-color: #E3DFE5;
+
+blockquote {
+    background-color : #F4F2F3;
+    border-bottom-color : #938E93;
+    border-left-color : #938E93;
+    border-right-color : #938E93;
+    border-top-color : #938E93;
+    color : #5F4F57;
 }
 
-#main
-{ background: #FFFFFF url(../images/back_1.jpg) repeat-y;
-  color: #5F4F57;
+
+h1, #column1 h4, #column2 h2 {
+    background-color: #FFFFFF;
+    color: #B860C0;
+    border-color: #E3DFE5;
 }
 
-#footer
-{ background-color: #FFFFFF;
-  color: #5F4F57;
-  border-color: #E3DFE5;
+
+#main {
+    background: #FFFFFF url(../images/back_1.jpg) repeat-y;
+    color: #5F4F57;
 }
 
-#footer a, #footer a:hover
-{ background-color: #FFFFFF;
-  color: #5F4F57;
+
+#footer {
+    background-color: #FFFFFF;
+    color: #5F4F57;
+    border-color: #E3DFE5;
 }
 
-#logo
-{ background: #FFFFFF url(../images/logo_1.jpg) no-repeat;
-  color: #5F4F57;
+
+#footer a, #footer a:hover {
+    background-color: #FFFFFF;
+    color: #5F4F57;
 }
 
-#logo h1, #logo h1 a, #logo h1 a:hover, #logo h1 a:visited
-{ background-color: transparent;
-  text-decoration:none;
-  color: #FFFFFF;
-}  
 
-#menu
-{ background: #FFFFFF url(../images/menu_1.jpg) no-repeat;
-  color: #5F4F57;
+#logo {
+    background: #FFFFFF url(../images/logo_1.jpg) no-repeat;
+    color: #5F4F57;
 }
 
-#menu li a
-{ background: transparent;
-  color: #55414B;
-  border-color: #938E93;
+
+#logo h1, #logo h1 a, #logo h1 a:hover, #logo h1 a:visited {
+    background-color: transparent;
+    text-decoration:none;
+    color: #FFFFFF;
 }
 
-#menu li a:hover, #menu li.current a
-{ background: transparent;
-  color: #55414B;
-  border-color: #FFFFFF;
-} 
 
-.block 
-{ background: #FFFFFF;
-  color: #5F4F57;
-  border-color: #938E93;
+#menu {
+    background: #FFFFFF url(../images/menu_1.jpg) no-repeat;
+    color: #5F4F57;
 }
 
-#content, #column1, #column2, 
-.block a, #column2 a,
-.block a:hover, #column2 a:hover
-{ background: #FFFFFF;
-  color: #5F4F57;
+
+#menu li a {
+    background: transparent;
+    color: #55414B;
+    border-color: #938E93;
 }
 
-input, textarea
-{ background-color: #FFFFFF;
-  color: #5F4F57;
-  border-color: #AAA2AE;
+
+#menu li a:hover, #menu li.current a {
+    background: transparent;
+    color: #55414B;
+    border-color: #FFFFFF;
 }
+
+
+.block {
+    background: #FFFFFF;
+    color: #5F4F57;
+    border-color: #938E93;
+}
+
+
+#content, #column1, #column2, .block a, #column2 a,.block a:hover, #column2 a:hover {
+    background: #FFFFFF;
+    color: #5F4F57;
+}
+
+
+input, textarea {
+    background-color: #FFFFFF;
+    color: #5F4F57;
+    border-color: #AAA2AE;
+}
+

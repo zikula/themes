@@ -1,81 +1,101 @@
-html{height: 100%;}
 
-body
-{ background-color: #D7D1CE;
-  color: #5F564F;
+
+html {
+    height: 100%;
 }
 
-blockquote
-{ background-color: #F6F3F0;
-  color: #5F564F;
-  border-color: #938F8D;
+
+body {
+    background-color: #D7D1CE;
+    color: #5F564F;
 }
 
-h1, #column1 h4, #column2 h2
-{ background-color: #FFFFFF;
-  color: #C06E52;
-  border-color: #D7D1CE;
+
+blockquote {
+    background-color : #F6F3F0;
+    border-bottom-color : #938F8D;
+    border-left-color : #938F8D;
+    border-right-color : #938F8D;
+    border-top-color : #938F8D;
+    color : #5F564F;
 }
 
-#main
-{ background: #FFFFFF url(../images/back_3.jpg) repeat-y;
-  color: #5F564F;
+
+h1, #column1 h4, #column2 h2 {
+    background-color: #FFFFFF;
+    color: #C06E52;
+    border-color: #D7D1CE;
 }
 
-#footer
-{ background-color: #FFFFFF;
-  color: #5F564F;
-  border-color: #D7D1CE;
+
+#main {
+    background: #FFFFFF url(../images/back_3.jpg) repeat-y;
+    color: #5F564F;
 }
 
-#footer a, #footer a:hover
-{ background-color: #FFFFFF;
-  color: #5F564F;
+
+#footer {
+    background-color: #FFFFFF;
+    color: #5F564F;
+    border-color: #D7D1CE;
 }
 
-#logo
-{ background: #FFFFFF url(../images/logo_3.jpg) no-repeat;
-  color: #5F564F;
+
+#footer a, #footer a:hover {
+    background-color: #FFFFFF;
+    color: #5F564F;
 }
 
-#logo h1, #logo h1 a, #logo h1 a:hover, #logo h1 a:visited
-{ background-color: transparent;
-  text-decoration:none;
-  color: #FFFFFF;
-}  
 
-#menu
-{ background: #FFFFFF url(../images/menu_3.jpg) no-repeat;
-  color: #5F564F;
+#logo {
+    background: #FFFFFF url(../images/logo_3.jpg) no-repeat;
+    color: #5F564F;
 }
 
-#menu li a
-{ background: transparent;
-  color: #4B403B;
-  border-color: #938F8D;
+
+#logo h1, #logo h1 a, #logo h1 a:hover, #logo h1 a:visited {
+    background-color: transparent;
+    text-decoration:none;
+    color: #FFFFFF;
 }
 
-#menu li a:hover, #menu li.current a
-{ background: transparent;
-  color: #4B403B;
-  border-color: #FFFFFF;
-} 
 
-.block 
-{ background: #FFFFFF;
-  color: #5F564F;
-  border-color: #938F8D;
+#menu {
+    background: #FFFFFF url(../images/menu_3.jpg) no-repeat;
+    color: #5F564F;
 }
 
-#content, #column1, #column2, 
-.block a, #column2 a,
-.block a:hover, #column2 a:hover
-{ background: #FFFFFF;
-  color: #5F564F;
+
+#menu li a {
+    background: transparent;
+    color: #4B403B;
+    border-color: #938F8D;
 }
 
-input, textarea
-{ background-color: #FFFFFF;
-  color: #5F564F;
-  border-color: #AAA2AE;
+
+#menu li a:hover, #menu li.current a {
+    background: transparent;
+    color: #4B403B;
+    border-color: #FFFFFF;
 }
+
+
+.block {
+    background: #FFFFFF;
+    color: #5F564F;
+    border-color: #938F8D;
+}
+
+
+#content, #column1, #column2, .block a, #column2 a,.block a:hover, #column2 a:hover {
+    background: #FFFFFF;
+    color: #5F564F;
+}
+
+
+input, textarea {
+    background-color: #FFFFFF;
+    color: #5F564F;
+    border-color: #AAA2AE;
+}
+
