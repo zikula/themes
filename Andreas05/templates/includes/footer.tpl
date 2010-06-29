@@ -1,4 +1,4 @@
-<!--footer starts here-->
+{*footer starts here*}
 <div id="footer">
     <p>
         <span style="float:left;padding-left : 10px;" class="credits">
