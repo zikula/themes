@@ -1,16 +1,4 @@
-
 /* CSS Document */
-
-
-
-
-
-
-
-
-
-
-
 body {
     background-color : #fff;
     background-image : url(../images/backgrounds/body.jpg);
@@ -25,7 +13,7 @@ body {
     margin-top : 0px;
     text-align : center;
     width : 765px;
-  }
+}
 
 
 #top {
@@ -43,32 +31,32 @@ body {
     padding-top : 12px;
     text-align : right;
     width : 715px;
-  }
+}
 
 
 #top a {
     padding:0 10px 0 10px;
     color:#fff;
     border:none;
-  }
+}
 
 
 #top a:hover {
     text-decoration:none;
-  }
+}
 
 
 #top b {
     float:left;
     font-weight:normal;
-  }
+}
 
 
 #top b a {
     border-left:1px dotted #ccc;
     border-right:none;
     border:none;
-  }
+}
 
 
 #header {
@@ -82,7 +70,7 @@ body {
     padding-right : 20px;
     padding-top : 0px;
     width : 725px;
-  }
+}
 
 
 #sitename {
@@ -99,7 +87,7 @@ body {
     padding-top : 10px;
     text-align : right;
     text-decoration : none;
-  }
+}
 
 
 #slogan {
@@ -116,7 +104,7 @@ body {
     padding-top : 10px;
     text-align : right;
     text-decoration : none;
-  }
+}
 
 
 #container {
@@ -134,7 +122,7 @@ body {
     padding-top : 10px;
     text-align : left;
     width : 765px;
-  }
+}
 
 
 #menu {
@@ -161,14 +149,14 @@ body {
     padding-right : 16px;
     text-align : left;
     width : 706px;
-  }
+}
 
 
 #menu #nav {
     margin:0;
     padding:0;
     float:left;
-  }
+}
 
 
 #nav li {
@@ -176,7 +164,7 @@ body {
     pading:0;
     list-style:none;
     float:left;
-  }
+}
 
 
 #nav li a {
@@ -195,37 +183,37 @@ body {
     text-decoration:none;
     padding:55px 0 23px 0;
     border:none;
-  }
+}
 
 
 #nav li a em {
     font-style:normal;
     text-decoration:underline;
-  }
+}
 
 
 #nav li a.last {
     margin:0;
-  }
+}
 
 
 #nav li a:hover, #nav li.current a {
     background-image:url(../images/backgrounds/menu_link.jpg);
     background-position:right;
     color:#fff;
-  }
+}
 
 
 #nav li a.active {
     background-image:url(../images/backgrounds/menu_link.jpg);
     background-position:right;
     color:#fff;
-  }
+}
 
 
 .clear {
     clear:both;
-  }
+}
 
 
 #contant-wrap {
@@ -241,7 +229,7 @@ body {
     padding-top : 10px;
     text-align : left;
     width : 765px;
-  }
+}
 
 
 #sidebar {
@@ -263,7 +251,7 @@ body {
     padding-top : 7px;
     width : 250px;
     word-spacing : -1px;
-  }
+}
 
 
 #sidebar h4 {
@@ -273,13 +261,13 @@ body {
     font-weight:normal;
     margin:10px 0 10px 0;
     padding-left : 20px;
-  }
+}
 
 
 #sidebar h4.first {
     color:#fff;
     margin:10px 0 35px 0;
-  }
+}
 
 
 #content {
@@ -296,13 +284,13 @@ body {
     padding-right : 10px;
     padding-top : 10px;
     width : 415px;
-  }
+}
 
 
 #content {
     line-height:20px;
     word-spacing:2px;
-  }
+}
 
 
 #content h1 {
@@ -314,31 +302,31 @@ body {
     letter-spacing:-2px;
     border-bottom:2px solid #F4C833;
     padding:0 0 2px 0;
-  }
+}
 
 
 #content h1 a {
     color:#333;
     text-decoration:none;
     border:none;
-  }
+}
 
 
 #content h1 a:hover {
     color:#666;
-  }
+}
 
 
 #content p {
     text-indent:15px;
-  }
+}
 
 
 #sidebar .linkroll {
     margin:10px 0 10px 0;
     padding:0;
     border-top:1px solid #eee;
-  }
+}
 
 
 .linkroll li {
@@ -346,7 +334,7 @@ body {
     padding:0 !important;
     padding:1px;
     list-style:none;
-  }
+}
 
 
 .linkroll li a {
@@ -359,45 +347,45 @@ body {
     background-image:url(../images/backgrounds/document.gif);
     background-position:left;
     background-repeat:no-repeat;
-  }
+}
 
 
 .linkroll li a:hover {
     border-bottom:1px solid #ccc;
     background-color:#fbfbfb;
     color:#444;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 h2 {
     font:120% Verdana;
     color:#333;
     border-bottom:1px dotted #ccc;
-  }
+}
 
 
 blockquote {
     margin:0;
     padding:5px 15px 5px 15px;
     background:#f6f6f6;
-  }
+}
 
 
 a {
     color:#333;
     border-bottom:1px solid #ccc;
     text-decoration:none;
-  }
+}
 
 
 a:hover {
     border-bottom:1px solid #999;
-  }
+}
 
 
 #footer {
@@ -408,7 +396,7 @@ a:hover {
     margin:20px auto 0 auto;
     width:700px;
     font-size:90%;
-  }
+}
 
 /* zikula block styles */
 .z-bkey-extmenu ul {
@@ -425,18 +413,18 @@ a:hover {
     padding-top : 0;
     text-decoration:none;
     width : 140px;
-  }
+}
 
 p.extmenuadmin a {
     padding-left: 25px;
     text-decoration:none;
-  }
+}
 
 
 .z-blockposition-left  #block_search_q, .z-blockposition-right #block_search_q {
     min-width : 90px !important;
     max-width : 130px;
-  }
+}
 
 
 .z-bkey-adminnav ul {
@@ -452,7 +440,7 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
     width : 130px;
-  }
+}
 .z-bkey-adminnav ul ul li {
     list-style-image : none;
     list-style-type : circle;
@@ -465,7 +453,7 @@ p.extmenuadmin a {
     padding-right : 0;
     padding-top : 0;
     width : 130px;
-  }
+}
 
 /* block template styles */
 .yellow-head- {
@@ -473,7 +461,7 @@ p.extmenuadmin a {
     line-height:18px;
     font-size:90%;
     word-spacing:-1px;
-  }
+}
 
 
 .yellow-head h4 {
@@ -492,6 +480,4 @@ p.extmenuadmin a {
     margin-top : 0px;
     padding-left : 20px;
     padding-top : 20px;
-
-  }
-
+}
