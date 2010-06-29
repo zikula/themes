@@ -1,8 +1,7 @@
-	<!--footer starts here-->
+    {*footer starts here*}
 <div id="footer">
     <h2 class="hide">{gt text="Site info"}</h2>
     <span>{slogan}</span><br />
-
     <a href="#sitetitle" title="{gt text="Back to top"}">^</a>&nbsp;/&nbsp;
     &copy;&nbsp;2006-{'Y'|date}&nbsp;<strong><a href="{homepage}" title="{sitename} {gt text="Home Page"}">{sitename}</a></strong>&nbsp;|&nbsp;
     <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find information across our site via our Sitemap"}">{gt text="Sitemap"}</a>&nbsp;|&nbsp;
