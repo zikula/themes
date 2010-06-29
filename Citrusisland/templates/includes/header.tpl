@@ -16,7 +16,6 @@
     <h1 id="logo">{sitename}</h1>
     <h2 id="slogan">{slogan}</h2>
 </div>
-<!-- Menu Tabs -->
 <div id="menu">
     <ul>
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}"><span>{gt text="Home"}</span></a></li>
