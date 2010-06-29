@@ -16,7 +16,7 @@
 * {
     padding:0;
     margin:0;
-  }
+}
 
 
 body {
@@ -28,44 +28,44 @@ body {
     width:760px;
     padding-left:10px;
     padding-right:10px;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address {
     margin:0.75em 0;
-  }
+}
 
 
 h1 {
     font-size:167%;
-  }
+}
 
 
 h2 {
     font-size:139%;
-  }
+}
 
 
 h3 {
     font-size:120%;
-  }
+}
 
 
 h4 {
     font-size:100%;
-  }
+}
 
 a {
     color: #FF3333;
     background-color: #FFFFFF;
     font-weight: normal;
     text-decoration: none;
-  }
+}
 
 
 a:hover {
@@ -73,7 +73,7 @@ a:hover {
     background-color: #FFFFFF;
     font-weight: normal;
     text-decoration: underline;
-  }
+}
 ul, ol {
 
     margin-bottom : 5px;
@@ -84,14 +84,14 @@ ul, ol {
     padding-left: 5px;
     padding-right: 0px;
     padding-top: 2px;
-  }
+}
 
 li, dd {
     margin-left:5px;
-  }
+}
 p.extmenuadmin {
 
-   padding-left: 10px;
+padding-left: 10px;
 }
 
 #contact {
@@ -100,7 +100,7 @@ p.extmenuadmin {
     padding-right : 20px;
     padding-top : 0px;
     float:right;
-  }
+}
 
 
 #contact a {
@@ -108,19 +108,19 @@ p.extmenuadmin {
     background-color:#FFFFFF;
     font-weight:bold;
     text-decoration:none;
-  }
+}
 
 
 #contact a:hover {
     color: #FF3333;
     background-color:#FFFFFF;
     text-decoration:underline;
-  }
+}
 
 
 #header {
     clear:both;
-  }
+}
 
 
 #title {
@@ -135,7 +135,7 @@ p.extmenuadmin {
     padding-left : 0px;
     padding-right : 0px;
     padding-top : 0px;
-  }
+}
 
 
 #slogan {
@@ -154,7 +154,7 @@ p.extmenuadmin {
     padding-left : 20px;
     padding-right : 0px;
     padding-top : 5px;
-  }
+}
 
 
 ul#nav {
@@ -167,7 +167,7 @@ ul#nav {
     width:100%;
     border-left: #999999 solid thin;
     border-right: #999999 solid thin;
-  }
+}
 
 
 ul#nav li {
@@ -177,7 +177,7 @@ ul#nav li {
     width: 20%;
     border-top: #999999 solid thin;
     border-bottom: #999999 solid thin;
-  }
+}
 
 
 ul#nav li a {
@@ -187,25 +187,25 @@ ul#nav li a {
     font-weight: bold;
     text-decoration: none;
     background: #CCCCCC;
-  }
+}
 
 
 ul#nav li a:hover {
     background: #666666;
     color: #FFFFFF;
-  }
+}
 
 
 ul#nav a.selected:link {
     background: #666666;
     color: #FFFFFF;
-  }
+}
 
 
 ul#nav a.selected:visited {
     background: #666666;
     color: #FFFFFF;
-  }
+}
 
 
 #path {
@@ -215,12 +215,12 @@ ul#nav a.selected:visited {
     font-size:83%;
     font-weight:normal;
     margin:4px 0px 5px 0px;
-  }
+}
 
 
 #path a {
     font-weight:normal;
-  }
+}
 
 
 #maincontent {
@@ -229,7 +229,7 @@ ul#nav a.selected:visited {
     margin:0px 0px 0px 0px;
     width:540px;
     float:left;
-  }
+}
 
 
 #sidecontent {
@@ -240,13 +240,13 @@ ul#nav a.selected:visited {
     margin:10px 0px 0px 0px;
     width:185px;
     float:right;
-  }
+}
 
 
 #sidecontent a {
     color: #FF3333;
     background-color:#EEEEEE;
-  }
+}
 
 
 #footer {
@@ -257,14 +257,14 @@ ul#nav a.selected:visited {
     line-height:1.5em;
     width: 760px;
     clear:both;
-  }
+}
 
 
 #footera {
     color:#FF3333;
     background-color:#FFFFFF;
     text-decoration: none;
-  }
+}
 
 
 #footera:hover {
@@ -272,7 +272,7 @@ ul#nav a.selected:visited {
     background-color:#FFFFFF;
     font-weight: normal;
     text-decoration: underline;
-  }
+}
 
 
 #copyrightdesign {
@@ -281,7 +281,7 @@ ul#nav a.selected:visited {
     padding:5px 20px 5px 0px;
     width: 580px;
     float:left;
-  }
+}
 
 
 #footercontact {
@@ -289,5 +289,5 @@ ul#nav a.selected:visited {
     background-color:#FFFFFF;
     padding:5px 0px 5px 0px;
     float:right;
-  }
+}
 
