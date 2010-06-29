@@ -1,15 +1,15 @@
 <div id="header">
     <div id="topmenu">
         <ul>
-        {if $loggedin eq true}
+            {if $loggedin eq true}
             <li><strong>{userwelcome|ucwords}</strong></li>
             <li><a href="{modurl modname=Users}" title="{gt text="My Account Settings"}">{gt text="My Account"}</a></li>
             <li><a href="{modurl modname=Users func=logout}" title="{gt text="Logout of Your Account"}" class="last">{gt text="Logout"}</a></li>
-        {else}
+            {else}
             <li><strong><em>{userwelcome|ucwords}</em></strong></li>
             <li><a href="{modurl modname=Users func=register}" title="{gt text="New Account Registration"}">{gt text="New Account"}</a></li>
             <li><a href="{modurl modname=Users func=loginscreen}" title="{gt text="Log In to Your Account"}" class="last">{gt text="Log In"}</a></li>
-        {/if}
+            {/if}
         </ul>
     </div>
     <div id="logo">
