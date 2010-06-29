@@ -1,8 +1,6 @@
 <div id="footer">
     <p>
         &copy;&nbsp;2007-{'Y'|date}&nbsp;<strong><a href="{homepage}" title="{sitename} {gt text="Home Page"}">{sitename}</a></strong>&nbsp;|&nbsp;
-        <a href="{modurl modname=Pages func=display pageid=1}" title="{gt text="Link to page about ZikulaThemes.com"}">{gt text="About ZikulaThemes.com"}</a>&nbsp;|&nbsp;
-        <a href="{modurl modname=Pages func=display pageid=2}" title="{gt text="Link to page with a Designer List"}">{gt text="Designer List"}</a>&nbsp;|&nbsp;
         <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}">{gt text="Contact"}</a>&nbsp;|&nbsp;
         <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscribe link for our News RSS feed"}">{gt text="RSS FEED"}</a>&nbsp;|&nbsp;
         <a href="http://www.modetwentythree.com/" title="{gt text="The website of"} m23">{gt text="Design by"} m23</a>
