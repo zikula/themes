@@ -1,56 +1,267 @@
+
 /*----------- collingarythomasgrasley (modetwentythree.com) collingrasley@gmail.com --- public domain template, because sharing is good ------- no link back required, but it would be real swell :) --------------------*/
 
 /* -----------------  page styles -------------------------------------------------------*/
 
-body { padding:0; margin:0; font:11px Verdana, sans-serif; line-height: 17px; background:#f4f4f4 url(../images/bodybg.gif) center repeat-y; color: #555; }
-#wrapper { margin:2px auto; width:900px;  padding:0; background:#fff;}
+
+body {
+    padding:0;
+    margin:0;
+    font:11px Verdana, sans-serif;
+    line-height: 17px;
+    background:#f4f4f4 url(../images/bodybg.gif) center repeat-y;
+    color: #555;
+  }
+
+
+#wrapper {
+    margin:2px auto;
+    width:900px;
+    padding:0;
+    background:#fff;
+  }
 
 /* -----------------  general styles  -------------------------------------------------------*/
 
-a { color:#631e19; text-decoration: underline;background:none; }
-a:hover { color:#894e4e; background:none; text-decoration:underline; }
-p { margin:0;padding-top:2px;}
-h2 { font-weight:bold; font-size:12px; padding:0px 0 4px 0px; margin: 0 0 2px 0; color:#444; background:none; border-bottom: 2px dotted #444; }
-img { border: 0;}
-h4 {font: 30px 'HelveticaNeue-CondensedBold', 'Arial Narrow', Helvetica, Arial, sans-serif; margin:0;}
-.pic{margin-top:8px;}
+
+a {
+    background-image : none;
+    color : #631e19;
+    text-decoration : underline;
+  }
+
+
+a:hover {
+    color:#894e4e;
+    background:none;
+    text-decoration:underline;
+  }
+
+
+p {
+    margin:0;
+    padding-top:2px;
+  }
+
+
+h2 {
+    font-weight:bold;
+    font-size:12px;
+    padding:0px 0 4px 0px;
+    margin: 0 0 2px 0;
+    color:#444;
+    background:none;
+    border-bottom: 2px dotted #444;
+  }
+
+
+img {
+    border: 0;
+  }
+
+
+h4 {
+    font: 30px 'HelveticaNeue-CondensedBold', 'Arial Narrow', Helvetica, Arial, sans-serif;
+    margin:0;
+  }
+
+
+.pic {
+    margin-top:8px;
+  }
+
 /* -----------------  top info  -------------------------------------------------------*/
 
-#header { clear:both; width:900px; height:80px; background: url(../images/header.jpg) no-repeat;
-margin:0; }
-#title {float:left; width:240px; padding: 20px 0 10px 60px;}
-#title h3 {font-size:12px; padding:5px 0 0 0; margin:0; color:#444;}
-#hright {float:right; width:540px; height: 60px; margin:15px 0 0 0;}
-#hrighttop {width: 200px;margin: 0 2px 0 0; padding: 0 8px 2px 0; float:right; text-align: right;}
-#title p {font-size: 0.9em; color: #808080; padding: 0; background: inherit;}
-#menu { width: 540px; float:right; margin:2px 0 0 0; padding:0; text-align:right;}
-#menu li { display:inline; }
-#menu li a {  color:#444; text-decoration:none; padding:1px 10px 1px 10px;
-height:19px; background:none;}
-#menu li a:hover { background: none;color:#631e19;}
+
+#header {
+    clear:both;
+    width:900px;
+    height:80px;
+    background: url(../images/header.jpg) no-repeat;
+    margin:0;
+  }
+
+
+#title {
+    float:left;
+    width:240px;
+    padding: 20px 0 10px 60px;
+  }
+
+
+#title h3 {
+    font-size:12px;
+    padding:5px 0 0 0;
+    margin:0;
+    color:#444;
+  }
+
+
+#hright {
+    float:right;
+    width:540px;
+    height: 60px;
+    margin:15px 0 0 0;
+  }
+
+
+#hrighttop {
+    width: 200px;
+    margin: 0 2px 0 0;
+    padding: 0 8px 2px 0;
+    float:right;
+    text-align: right;
+  }
+
+
+#title p {
+    font-size: 0.9em;
+    color: #808080;
+    padding: 0;
+    background: inherit;
+  }
+
+
+#menu {
+    width: 540px;
+    float:right;
+    margin:2px 0 0 0;
+    padding:0;
+    text-align:right;
+  }
+
+
+#menu li {
+    display:inline;
+  }
+
+
+#menu li a {
+    color:#444;
+    text-decoration:none;
+    padding:1px 10px 1px 10px;
+    height:19px;
+    background:none;
+  }
+
+
+#menu li a:hover {
+    background: none;
+    color:#631e19;
+  }
 
 /* ----------------- Main content -------------------------------------------------------*/
 
-#homepic {width:900px; height:250px; margin:5px 0 10px 0;background: url(../images/homepic.jpg) no-repeat;}
-#homepic a {color:#fff;}
-#homepic:hover {background: url(../images/homepichover.jpg) no-repeat;}
-.message{ position:absolute;  width:360px; float:left; margin:70px 0px 0px 165px; color:#fff;}
-#bottomcontenttop{width:900px;height:10px;background: url(../images/b_contenttop.jpg) no-repeat;}
-#bottomcontent{width:898px; height:300px;border-right:1px solid #c5c5c5;border-left:1px solid #c5c5c5;}
-#bottomcontentbtm{width:900px;height:10px;background: url(../images/b_contentbtm.jpg) no-repeat;}
-.left {float: right;width: 270px;margin: 0 6px 5px 0; padding:10px;}
-.middle {float: right;width: 270px;margin: 0 6px 5px 0; padding:10px;}
-.right {float: right;width: 270px;margin: 0 6px 5px 0; padding:10px;}
-.thumbs img{position:relative;padding:1px;margin:5px 8px 5px 9px;border:2px solid #631e19;background:none;}
-.thumbs img:hover{border:2px solid #c5c5c5; background:none;}
+
+#homepic {
+    width:900px;
+    height:250px;
+    margin:5px 0 10px 0;
+    background: url(../images/homepic.jpg) no-repeat;
+  }
+
+
+#homepic a {
+    color:#fff;
+  }
+
+
+#homepic:hover {
+    background: url(../images/homepichover.jpg) no-repeat;
+  }
+
+
+.message {
+    position:absolute;
+    width:360px;
+    float:left;
+    margin:70px 0px 0px 165px;
+    color:#fff;
+  }
+
+
+#bottomcontenttop {
+    width:900px;
+    height:10px;
+    background: url(../images/b_contenttop.jpg) no-repeat;
+  }
+
+
+#bottomcontent {
+    width:898px;
+    height:300px;
+    border-right:1px solid #c5c5c5;
+    border-left:1px solid #c5c5c5;
+  }
+
+
+#bottomcontentbtm {
+    width:900px;
+    height:10px;
+    background: url(../images/b_contentbtm.jpg) no-repeat;
+  }
+
+
+.left {
+    float: right;
+    width: 270px;
+    margin: 0 6px 5px 0;
+    padding:10px;
+  }
+
+
+.middle {
+    float: right;
+    width: 270px;
+    margin: 0 6px 5px 0;
+    padding:10px;
+  }
+
+
+.right {
+    float: right;
+    width: 270px;
+    margin: 0 6px 5px 0;
+    padding:10px;
+  }
+
+
+.thumbs img {
+    position:relative;
+    padding:1px;
+    margin:5px 8px 5px 9px;
+    border:2px solid #631e19;
+    background:none;
+  }
+
+
+.thumbs img:hover {
+    border:2px solid #c5c5c5;
+    background:none;
+  }
 
 /* ----------------- Bottom content -------------------------------------------------------*/
 
-#footer { clear: both; text-align:center; line-height: 1.8em; color: #444; background: #fff; padding: 4px 0;
-margin:10px 0 0 0;}
-#footer a {color: #631e19; background: inherit;}
+
+#footer {
+    clear: both;
+    text-align:center;
+    line-height: 1.8em;
+    color: #444;
+    background: #fff;
+    padding: 4px 0;
+    margin:10px 0 0 0;
+  }
+
+
+#footer a {
+    color: #631e19;
+    background: inherit;
+  }
 
 /* ----------------- Module styles -------------------------------------------------------*/
+
 .z-module-Pages {
     font-size: 1.1em;
-}
+  }
+
