@@ -12,32 +12,32 @@ Feel free to use and modify but please provide credits.
 html {min-height: 100%;}
 
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 a {color: #CC3;}
 a:hover {color: #FF3;}
 
 body {
-	background: #000 url('../images/body.gif') no-repeat; /*  url(img/bg.jpg) repeat-x; */
-	color: #DDD;
-	font: normal 62.5% "Trebuchet MS",Verdana,sans-serif;
-	padding-left: 90px;
+    background: #000 url('../images/body.gif') no-repeat; /*  url(img/bg.jpg) repeat-x; */
+    color: #DDD;
+    font: normal 62.5% "Trebuchet MS",Verdana,sans-serif;
+    padding-left: 90px;
 }
 
 p,code,ul,ol {padding-bottom: 1.2em;}
 
 h1 {
-	color: #CCC;
-	font: normal 2em Impact,sans-serif;
+    color: #CCC;
+    font: normal 2em Impact,sans-serif;
 }
 h1 a {
-	color: #000;
-	text-decoration: none;
+    color: #000;
+    text-decoration: none;
 }
 h1 a:hover {
-	color: #F00;
+    color: #F00;
 }
 
 h2, #navigation h4  {font: normal 1.8em Tahoma,sans-serif;}
@@ -45,10 +45,10 @@ h2, #navigation h4  {font: normal 1.8em Tahoma,sans-serif;}
 h1,h2 {padding-top: 6px;}
 
 blockquote {
-	color: #CCA;
-	display: block;
-	font-weight: bold;
-	padding-left: 28px;
+    color: #CCA;
+    display: block;
+    font-weight: bold;
+    padding-left: 28px;
 }
 
 img {border: none;}
@@ -56,111 +56,111 @@ img {border: none;}
 img.right {margin: 5px 0 5px 12px;}
 img.left {margin: 5px 12px 5px 0;}
 img.border {
-	background: #555;
-	display: block;
-	padding: 3px;
+    background: #555;
+    display: block;
+    padding: 3px;
 }
 
 /* misc */
 .clearer {
-	clear: both;
-	font-size: 0;
+    clear: both;
+    font-size: 0;
 }
 
 .left {float: left;}
 .right {float: right;}
 
 .decay,.decay-small,#navigation h4, #maincontent h1, #content h2  {
-	background: url('../images/decay.gif') no-repeat left center;
-	color: #000;
-	font: normal 2em Impact,sans-serif;
-	letter-spacing: 1px;
-	padding: 0 0 12px 22px;
+    background: url('../images/decay.gif') no-repeat left center;
+    color: #000;
+    font: normal 2em Impact,sans-serif;
+    letter-spacing: 1px;
+    padding: 0 0 12px 22px;
 }
 .decay-small {
-	background: url('../images/decay-small.gif') no-repeat left center;
-	padding-top: 6px;
+    background: url('../images/decay-small.gif') no-repeat left center;
+    padding-top: 6px;
 }
 
 p.postinfo {
-	border-top: 1px dashed #333;
-	color: #666;
-	font: bold 0.9em sans-serif;
-	margin-bottom: 24px;
-	padding: 8px;
+    border-top: 1px dashed #333;
+    color: #666;
+    font: bold 0.9em sans-serif;
+    margin-bottom: 24px;
+    padding: 8px;
 }
 p.postinfo a {color: #888;}
 p.postinfo a:hover {color: #CCC;}
 
 /* structure */
 #container {
-	font-size: 1.3em;
+    font-size: 1.3em;
 }
 
 /* title */
 #site-title {font: normal 3em Tahoma,sans-serif;}
 #site-title a {
-	color: #DDD;
-	text-decoration: line-through;
+    color: #DDD;
+    text-decoration: line-through;
 }
 #site-title a:hover {
-	color: #FFF;
-	text-decoration: none;
+    color: #FFF;
+    text-decoration: none;
 }
 #site-description {color: #CCC;}
 
 /* content */
 #content {
-	left: 360px;
-	position: absolute;
-	top: 90px;
-	width: 610px;
+    left: 360px;
+    position: absolute;
+    top: 90px;
+    width: 610px;
 }
 #content .descr {
-	color: #8DC63F;
-	margin-bottom: 6px;
+    color: #8DC63F;
+    margin-bottom: 6px;
 }
 #content li {margin-left: 18px;}
 
 /* navigation */
 #navigation {
-	left: 120px;
-	position: absolute;
-	top: 290px;
-	width: 210px;
+    left: 120px;
+    position: absolute;
+    top: 290px;
+    width: 210px;
 }
 #navigation h2 {
-	color: #000;
-	font-size: 1.5em;
-	letter-spacing: 0;
-	line-height: 30px;
-	margin: 0;
+    color: #000;
+    font-size: 1.5em;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin: 0;
 }
 #navigation ul {margin: 0 0 0 1em;}
 #navigation li {list-style: none;}
 #navigation li a {
-	color: #777;
-	font-size: 1.1em;
-	line-height: 1.5em;
-	text-decoration: none;
+    color: #777;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-decoration: none;
 }
 #navigation li a:hover {color: #8DCA3F;}
 
 /* footer */
 #footer {
-	border-top: 1px dashed #333;
-	color: #666;
-	font: normal 0.9em sans-serif;
-	position: absolute;
-	top: 100%;
+    border-top: 1px dashed #333;
+    color: #666;
+    font: normal 0.9em sans-serif;
+    position: absolute;
+    top: 100%;
 }
 #footer a {
-	color: #999;
-	text-decoration: none;
+    color: #999;
+    text-decoration: none;
 }
 #footer a:hover {
-	color: #CCC;
-	text-decoration: underline;
+    color: #CCC;
+    text-decoration: underline;
 }
 #footer .left, #footer .right {padding: 10px 0;}
 #footer .right a {color: #777;}
