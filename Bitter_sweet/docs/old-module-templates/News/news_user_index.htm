@@ -1,0 +1,15 @@
+<div class="item">
+    <div class="date">
+        <div>{$info.time|dateformat:'%b'|upper}</div>
+    <span>{$info.time|dateformat:'%d'}</span>
+    </div>
+    <div class="content">
+        <h2>{$preformat.catandtitle}</h2>
+            <div class="body">
+            {$info.hometext|varprephtmldisplay}
+            </div>
+        {if $preformat.notes neq ''}
+        <p>{$preformat.notes}</p>
+        {/if}
+    </div>
+</div>

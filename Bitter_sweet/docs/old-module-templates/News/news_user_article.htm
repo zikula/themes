@@ -1,0 +1,28 @@
+{include file="news_user_menu.htm"}
+{ajaxheader modname=News filename=news.js}
+{ pageaddvar name="javascript" value="modules/News/pnjavascript/sizecheck.js" }
+<script type="text/javascript">
+    var bytesused = '{ gt text="Bytes Used" }';
+</script>
+<div class="item">
+        <div class="date">
+                <div>{$info.time|dateformat:'%b'|upper}</div>
+                <span>{$info.time|dateformat:'%d'}</span>
+        </div>
+        <div class="content">
+                <h2>{$info.catandtitle}</h2>
+                <div id="news_editlinks">{articleadminlinks sid=$info.sid}</div>
+                <div id="news_editlinks_ajax" class="hidelink">{articleadminlinks sid=$info.sid type="ajax"}</div>
+                <div class="body">
+                        {$info.hometext|varprephtmldisplay}
+                </div>
+                {if $preformat.notes neq ''}
+                <p>{$preformat.notes}</p>
+                {/if}
+        </div>
+</div>
+<div id="news_modify">&nbsp;</div>
+{* the next code is to display the pager and any hooks (e.g. comments, ratings) *}
+{pager show=page rowcount=$pager.numitems limit=$pager.itemsperpage posvar=page shift=1}
+{modurl modname=News func=display sid=$info.sid assign=returnurl}
+{modcallhooks hookobject=item hookaction=display hookid=$info.sid module=News returnurl=$returnurl}
