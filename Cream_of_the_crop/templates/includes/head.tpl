@@ -4,7 +4,7 @@
 <meta name="Author" content="{sitename}" />
 <meta name="description" content="{slogan}" />
 <meta name="keywords" content="{keywords}" />
-<meta name="Copyright" content="Copyright (c) {'Y'|date} by {sitename}" />
+<meta name="Copyright" content="{sitename} 2009-{'Y'|date}" />
 <meta name="Robots" content="index,follow" />
 <link rel="icon" type="image/png" href="{$imagepath}/favicon.png" />
 <link rel="icon" type="image/x-icon" href="{$imagepath}/favicon.ico" />{* W3C *}
