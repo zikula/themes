@@ -1,0 +1,6 @@
+The images in the "src" folder are the base images used in this design.  They are not used actively in the template.
+
+layout.png - my initial design and layout
+smoke.jpg - the base image used for the sub header
+subheader.png - the layered Fireworks sub header image
+subheader.psd - the layered Photo Shop sub header image

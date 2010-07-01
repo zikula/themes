@@ -1,0 +1,705 @@
+
+/* Cream of the Crop - an open source xhtml/css website layout by Ben Goldman 
+(aka Robobuilder) - http://realalibi.com.com . You are ree to use this template
+for any purpose as long as the proper credits are given for the original design work.
+
+Version: 1.0, Fall 2006 
+
+Main Syle Colors
+colors {
+        #3C8C06(green), #012346(dark blue), #3270A9(lighter blue), 
+        #353535 (dark grey), #999999(light grey), #eeeeee(off-white)
+}
+*/
+
+html {
+    height:100%;
+  }
+
+
+body {
+    margin:0px;
+    padding:0px;
+    color:#eee;
+    background:#272C35;
+    text-align:center;
+    font:11.3px Verdana,Arial,Helvetica,sans-serif;
+    word-spacing:1px;
+    line-height:200%;
+  }
+
+/*Header*/
+
+
+
+#header {
+    width:798px;
+    height:100px;
+    margin:0 auto;
+    background:url(../images/site/headerbg.png) repeat-x top left;
+    text-align:left;
+    border-left:#999 1px solid;
+    border-bottom:#999 1px solid;
+    border-right:#999 1px solid;
+  }
+
+
+#title {
+    margin-top:0px;
+    margin-left:0px;
+    float:left;
+  }
+
+
+#sitename {
+    margin-top:15px;
+    margin-left:25px;
+    position:absolute;
+    color:#fff;
+    font:28px Georgia,Verdana,Arial,Helvetica,sans-serif bold;
+    cursor:default;
+    float:left;
+  }
+
+
+span#slogan {
+    margin-top:45px;
+    padding-top:3px;
+    padding-left:60px;
+    color:#fff;
+    font:11px Verdana,Arial,Helvetica,sans-serif;
+    display:block;
+    /*need a <br> for ie instead*/;
+  }
+
+
+#nacontainer {
+    float : right;
+  }
+
+
+#navlist {
+    float : right;
+    font-family : Verdana,Arial,Helvetica,sans-serif;
+    font-size : 12px;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 20px;
+    padding-left : 10px;
+    padding-right : 0;
+    padding-top : 81px;
+  }
+
+
+#navlist ul, #navlist li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+  }
+
+
+#navlist a:link, #navlist a:visited {
+    float: left;
+    line-height: 14px;
+    margin: 0 10px 4px 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+#navlist a:link.current, #navlist a:visited.current, #navlist a:hover, #navlist li.current a {
+    border-bottom: 3px solid #3C8C06;
+    padding-bottom: 2px;
+    background: transparent;
+    color: #fff;
+  }
+
+
+#navlist a:hover {
+    color: #fff;
+  }
+
+
+#welcome {
+    width:796px;
+    height:123px;
+    text-align:left;
+    margin:0 auto;
+    padding:1px;
+    background:url(../images/site/subheader.jpg) no-repeat top center;
+    border-left:#999 1px solid;
+    border-bottom:#999 1px solid;
+    border-right:#999 1px solid;
+  }
+
+
+#welcome p {
+    margin-top:70px;
+    margin-left:10px;
+    position:absolute;
+    color:#fff;
+    font:18px Verdana,Arial,Helvetica,sans-serif;
+    letter-spacing:0.5px;
+    background-color:transparent;
+    cursor:default;
+  }
+
+/*Construction Styles*/
+
+#container {
+    width:800px;
+    margin:auto;
+    padding-bottom:20px;
+    text-align:left;
+  }
+
+
+img.logo {
+    margin-top:-10px;
+    margin-left:5px;
+  }
+
+
+a img {
+    border: 0px;
+  }
+
+/*Styles*/
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:Georgia,Verdana,Arial,Helvetica,sans-serif;
+    font-weight:lighter;
+    margin:15px 0 0 0;
+    padding-bottom:4px;
+    line-height:85%;
+  }
+
+
+h1 {
+    color:#fff;
+    font-size:27px;
+  }
+
+
+h2 {
+    color:#3C8C06;
+    font-size:23px;
+  }
+
+
+h3 {
+    color:#3270A9;
+    font-size:21px;
+  }
+
+
+h4 {
+    color:#999999;
+    font-size:18px;
+  }
+
+
+h5 {
+    color:#3C8C06;
+    font-size:15px;
+  }
+
+
+h6 {
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+  }
+
+
+a {
+    text-decoration:none;
+    color:#3270A9;
+  }
+
+
+a:hover {
+    text-decoration:underline;
+  }
+
+
+#right a {
+    text-decoration:none;
+    color:#012346;
+  }
+
+
+#right a:hover {
+    text-decoration:underline;
+  }
+
+
+acronym {
+    border-bottom:1px dotted #999;
+    padding-bottom:1px;
+    cursor:help;
+  }
+
+
+del {
+    color:#999;
+  }
+
+
+.allcaps {
+    font-stretch:wider;
+    font-variant:small-caps;
+  }
+
+
+hr {
+    width:100%;
+    border:0;
+    margin:5px 0px !important;
+    margin:2px 0px 5px 0px;
+    height:1px;
+    color:#777;
+    background-color:#777;
+  }
+
+
+p.firstletter:first-letter {
+    font-family:Georgia,Verdana,Arial,Helvetica,sans-serif;
+    font-size:40px;
+    padding:10px 3px 3px 3px;
+    float:left;
+  }
+
+
+.indent {
+    border-left:2px solid #3C8C06;
+    margin-left:25px;
+    padding-left:8px;
+  }
+
+
+.green {
+    color:#3C8C06;
+  }
+
+
+.blue {
+    color:#3270A9;
+  }
+
+
+ul li ul li {
+    list-style-type:square;
+  }
+
+
+ol li ol li {
+    list-style-type:lower-roman;
+  }
+
+
+dl {
+    margin-left:8px;
+    margin-right:8px;
+  }
+
+
+dt {
+    color:#3C8C06;
+    font-weight:bold;
+    text-decoration:underline;
+  }
+
+
+.blockquote {
+    border-bottom:1px solid #273955;
+    border-top:1px solid #273955;
+    border-left:4px solid #3270A9;
+    background:url(../images/site/blockquote.jpg) repeat top left;
+    padding:6px 6px 4px 8px;
+    margin:12px 0;
+    color:#eee;
+  }
+
+
+.blockquote h5 {
+    border-bottom:1px solid #3270A9;
+    font-size:17px;
+    color:#eee;
+    margin:2px;
+  }
+
+
+.blockquote span {
+    padding: 3px 0;
+    display:block;
+    font-size:10px;
+    color:#999;
+  }
+
+
+code {
+    display:block;
+    border-bottom:1px solid #273955;
+    border-top:1px solid #273955;
+    border-left:4px solid #3270A9;
+    background:url(../images/site/blockquote.jpg) repeat top left;
+    padding:6px 6px 4px 8px;
+    margin:12px 0;
+    color:#eee;
+    font:normal 11px "Courier New", Courier, monospace;
+  }
+
+
+.highlight {
+    color:#3C8C06;
+    font-weight:bold;
+  }
+
+/*Searchbox - News*/
+
+#searchbox p {
+    margin:7px 0 7px 2px;
+  }
+
+
+#searchbox p input {
+    background-color:#eee;
+    border:1px solid #ddd;
+    font:11px Verdana,sans-serif;
+    color:#4c5153;
+    padding:2px 3px;
+  }
+
+
+#searchbox p input:hover,#searchbox p input:focus {
+    background-color:#fff;
+  }
+
+
+.header {
+    color:#3C8C06;
+    font-size:14px;
+    letter-spacing: -1px;
+  }
+
+
+#news {
+    width: 190px;
+    padding:2px;
+  }
+
+
+#news p {
+    padding:0 0 0 5px;
+  }
+
+/*Floats*/
+
+.floatleft {
+    float:left;
+  }
+
+
+.floatright {
+    float:right;
+  }
+
+
+.w50 {
+    width:50%;
+  }
+
+
+.floatleft p {
+    padding:0 10px 0 0;
+  }
+
+
+.floatright p {
+    padding:0 0 0 10px;
+  }
+
+
+img.floatleft {
+    margin:15px 18px 5px 0;
+  }
+
+
+img.floatright {
+    margin:15px 5px 5px 18px;
+  }
+
+/*Forms*/
+
+form select,form input,form textarea {
+    font:11px Verdana,Arial,Helvetica,sans-serif;
+    border:1px solid #353535;
+    background-color:#eee;
+  }
+
+
+form input:hover,form input:focus,form textarea:hover,form textarea:focus,form select:hover,form select:focus {
+    /*border:1px dotted #888;
+    optional thought */ border:1px solid #353535;
+  }
+
+
+form select {
+    padding:1px;
+  }
+
+
+form input {
+    padding:1px;
+  }
+
+
+form label {
+    display:block;
+    color:#eee;
+  }
+
+
+form textarea {
+    padding:1px;
+    line-height:16px;
+  }
+
+
+form p {
+    margin:10px 0px;
+  }
+
+
+.noborder {
+    border:0;
+  }
+
+/*Content Styles*/
+
+#content {
+    width:778px;
+    margin:0 auto;
+    color:#fff;
+    float:left;
+    padding:10px;
+    background:#22324F;
+    clear:both;
+    border-right:#999 1px solid;
+    border-left:#999 1px solid;
+    border-bottom:#999 1px solid;
+  }
+
+
+#one {
+    width:71%;
+    float:left;
+    padding:0 10px;
+  }
+
+/*Due to my lack of CSS skill this is hard coded, meaning that if you change 
+the width of these sections of thier padding you will need to re-adjust the
+width. Also be sure to account for the border.*/
+
+#twocolumn {
+    background: #999 url(../images/site/2columnbg.jpg) repeat-y top left;
+    width: 800px;
+    border-bottom: 1px solid #999;
+  }
+
+
+#left {
+    width:375px;
+    padding:10px;
+    height:100%;
+    float:left;
+  }
+
+
+#right {
+    width:375px;
+    padding:10px;
+    height:100%;
+    float:right;
+  }
+
+
+#clearboth {
+    clear:both;
+  }
+
+/*Sub-Nav*/
+
+#subnav {
+    float:right;
+  }
+
+
+#subnavcontainer {
+    width: 200px;
+  }
+
+
+#subnavcontainer ul {
+    padding-top:0px;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+
+#subnavcontainer a {
+    display:block;
+    padding:4px;
+    width:160px;
+    background-color:transparent;
+    border-bottom:1px solid #03509C;
+  }
+
+
+#subnavcontainer a:link, #subnavlist a:visited {
+    color:#EEE;
+    text-decoration:none;
+  }
+
+
+#subnavcontainer a:hover {
+    background-color:#384B6D;
+    color:#fff;
+  }
+
+
+.subnavheader {
+    border-bottom:1px solid #3C8C06;
+    width:167px;
+    padding:0 0 3px 0;
+    margin-bottom:-11px;
+  }
+
+/*Left Color Fixes*/
+
+
+#right h2 {
+    color:#012346;
+    font-size:23px;
+  }
+
+
+#right h5 {
+    color:#012346;
+    font-size:15px;
+  }
+
+/* From Fix CSS */
+
+#navlist {
+    margin: 0;
+    padding: 81px 0 0 10px;
+    float:right;
+    font:12px Verdana,Arial,Helvetica,sans-serif;
+  }
+
+
+.subnavheader {
+    margin-bottom:0px;
+    margin-top:0px;
+  }
+
+
+.subnav {
+    margin-top:20px;
+  }
+
+
+.subnavheader {
+    margin-top:10px;
+  }
+
+
+p.firstletter:first-letter {
+    font-size:35px;
+  }
+
+/*Footer*/
+
+#footer {
+    width:778px;
+    margin:0 auto;
+    padding:10px;
+    background:url(../images/site/headerbg.png) repeat-x top left;
+    float:left;
+    clear:both;
+    border-right:#999 1px solid;
+    border-left:#999 1px solid;
+    border-bottom:#7F7F7F 1px solid;
+  }
+
+
+.copy {
+    float:left;
+  }
+
+
+.credit {
+    float:right;
+  }
+
+
+#footer a {
+    font-weight:bold;
+    color:#999;
+    text-decoration:none;
+  }
+
+
+#footer a:hover {
+    text-decoration:underline;
+  }
+
+
+.left {
+    float:left;
+    text-align : left;
+    padding-left:5px;
+  }
+
+
+.right {
+    float:right;
+    text-align:right;
+    padding-right:5px;
+  }
+
+/*Zikula Blocks*/
+
+.z-bkey-extmenu ul {
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 20px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    text-decoration:none;
+
+  }
+
+p.extmenuadmin a {
+    padding-left: 15px;
+    text-decoration:none;
+  }
+
+
+.z-blockposition-left  #block_search_q, .z-blockposition-right #block_search_q {
+    min-width : 90px !important;
+    max-width : 130px;
+  }
+

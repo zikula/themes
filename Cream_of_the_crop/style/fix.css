@@ -1,0 +1,19 @@
+#navlist {
+	margin: 0;
+	padding: 81px 0 0 10px;
+	float:right;
+	font:12px Verdana,Arial,Helvetica,sans-serif;
+}
+.subnavheader {
+	margin-bottom:0px;
+	margin-top:0px;	
+}
+.subnav{
+	margin-top:20px;
+}
+.subnavheader{
+	margin-top:10px;
+}
+p.firstletter:first-letter{
+	font-size:35px;
+}
