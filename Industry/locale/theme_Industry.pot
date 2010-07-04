@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula component\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-04 15:30-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:4
+msgid "Industry"
+msgstr ""
+
+#: version.php:5
+msgid "Industry OSWD template"
+msgstr ""
+
+#: templates/includes/nav.tpl:2
+msgid "Go back to the home page"
+msgstr ""
+
+#: templates/includes/nav.tpl:2
+msgid "Home"
+msgstr ""
+
+#: templates/includes/nav.tpl:3
+msgid "Go to the News module"
+msgstr ""
+
+#: templates/includes/nav.tpl:3
+msgid "News"
+msgstr ""
+
+#: templates/includes/nav.tpl:4
+msgid "Go to the Forums module"
+msgstr ""
+
+#: templates/includes/nav.tpl:4
+msgid "Forums"
+msgstr ""
+
+#: templates/includes/nav.tpl:5
+msgid "Go to the Wiki module"
+msgstr ""
+
+#: templates/includes/nav.tpl:5
+msgid "Wiki"
+msgstr ""
+
+#: templates/includes/nav.tpl:6
+msgid "Go to the Sitemap module"
+msgstr ""
+
+#: templates/includes/nav.tpl:6 templates/includes/footer.tpl:5
+msgid "Sitemap"
+msgstr ""
+
+#: templates/includes/nav.tpl:7
+msgid "Go to the Contact module"
+msgstr ""
+
+#: templates/includes/nav.tpl:7 templates/includes/footer.tpl:6
+msgid "Contact"
+msgstr ""
+
+#: templates/includes/footer.tpl:4
+msgid "Home Page"
+msgstr ""
+
+#: templates/includes/footer.tpl:5
+msgid "Easily find information across our site via our Sitemap"
+msgstr ""
+
+#: templates/includes/footer.tpl:6
+msgid "Contact us"
+msgstr ""
+
+#: templates/includes/footer.tpl:7
+msgid "Subscribe link for our News RSS feed"
+msgstr ""
+
+#: templates/includes/footer.tpl:7
+msgid "RSS FEED"
+msgstr ""
+
+#: templates/includes/footer.tpl:10
+msgid "design"
+msgstr ""
+
+#: templates/includes/footer.tpl:10
+msgid "Link to"
+msgstr ""
+
+#: templates/includes/footer.tpl:11
+msgid "Valid"
+msgstr ""
+
+#: templates/includes/footer.tpl:11
+msgid "Validate the CSS of this web page"
+msgstr ""
+
+#: templates/includes/footer.tpl:11
+msgid "CSS"
+msgstr ""
+
+#: templates/includes/footer.tpl:12
+msgid "Validate the XHTML of this web page"
+msgstr ""
+
+#: templates/includes/footer.tpl:12
+msgid "XHTML"
+msgstr ""
+
+#: templates/includes/head.tpl:12
+msgid "Main News RSS Feed"
+msgstr ""

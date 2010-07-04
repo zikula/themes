@@ -1,0 +1,281 @@
+body {
+    background-color: #202020;
+    background-image: url(../images/bg.gif);
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 0px;
+    padding: 0px;
+    border-left: 12px solid #666666;
+    border-right: 12px solid #666666;
+}
+
+#nav {
+    width: 680px;
+    height: 25px;
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: #202020;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    position: fixed;
+    top: 0px;
+    margin-left: -340px;
+    left: 50%;
+    margin-top: 0px;
+    padding: 0px;
+    z-index: 99;
+    _position: absolute;
+    _top: expression((dummy = document.documentElement.scrollTop) + "px");
+}
+
+#nav li {
+    display: block;
+    float: left;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    line-height: 25px;
+}
+
+#nav li a {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav li a:hover, #nav li.current a {
+    background-color: #666666;
+}
+
+#main {
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 1px solid #666666;
+    border-left: 1px solid #666666;
+}
+
+#hero {
+    margin: 0px;
+    border-bottom: 1px solid white;
+    width: 680px;
+    height: 180px;
+    background-image: url(../images/hero.jpg);
+}
+
+#header {
+    background-image: url(../images/header_bg.gif);
+    height: 79px;
+    padding-top: 1px;
+    position: relative;
+}
+
+.gear {
+    width: 57px;
+    height: 56px;
+    margin-top: 16px;
+    margin-left: 12px;
+    background-image: url(../images/gear.png);
+    _background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='style/images/gear.png');
+}
+
+#header h1 {
+    position: absolute;
+    left: 82px;
+    top: 8px;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#header h1.shad {
+    left: 84px;
+    top: 10px;
+    color: black;
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+#header em {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+#body {
+    padding-top: 1px;
+    background-color: white;
+    position: relative;
+    border-right: 200px solid #eeeeee;
+    display:block;
+}
+
+#sidebar {
+    display:block;
+    width: 180px;
+    position: absolute;
+    right: -200px;
+    _right: 0px;
+    top: 0px;
+    padding: 10px;
+}
+
+#sidebar h3 {
+    font-size: 13px;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+    margin-top: 16px;
+    clear: both;
+}
+
+#sidebar ul {
+    margin-left: 1em;
+    padding-left: 0px;
+}
+
+#sidebar p {
+    margin-bottom: 8px;
+}
+
+#content {
+    display:block;
+    padding: 20px;
+    border-right: 1px solid #b0b0b0;
+    border-left: 1px solid #b0b0b0;
+    color: #333333;
+}
+
+#content h2 {
+    font-size: 18px;
+    /* 18px is the default minimum font size for which anti-aliasing will occur. */
+    margin: 0px;
+    border-bottom: 1px solid black;
+}
+
+#content .date {
+    float: right;
+}
+
+#content .postedBy {
+    float: left;
+}
+
+#content .meta {
+    height: 1em;
+}
+
+#content p {
+    text-align: justify;
+    text-indent: 3em;
+    line-height: 1.3em;
+}
+
+.comments {
+    border-top: 1px dotted #666666;
+    border-bottom: 1px dotted #666666;
+    padding: 4px;
+    text-align: right;
+    margin-bottom: 2em;
+    background-image: url(../images/comment_edit.gif);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+a {
+    color: #666666;
+}
+
+.pullout {
+    background-color: #eeeeee;
+    padding: 5px;
+    float: right;
+    margin: 8px;
+}
+
+.flickr-thumbnail, .flickr-pullout {
+    float: left;
+    background: url('images/flickr_shadow.gif') no-repeat bottom right;
+    margin: 5px 0px 0px 6px;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    width: auto;
+    _position: relative;
+}
+
+.flickr-thumbnail img, .flickr-pullout img {
+    background-color: #fff;
+    border: 1px solid #a9a9a9;
+    display: block;
+    margin: -5px 5px 5px -5px;
+    padding: 4px;
+    position: relative;
+}
+
+.flickr-thumbnail img:hover, .flickr-thumbnail:hover img, .flickr-pullout:hover img {
+    background-color: #ccd;
+}
+
+.flickr-pullout {
+    margin: 13px 3px 3px 14px;
+    background-image: url(../images/flickr_shadow_white.gif);
+}
+
+#footer {
+    width: 678px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #b0b0b0;
+    background-color: #eeeeee;
+    color: #b0b0b0;
+    clear:both;
+}
+#footer p {
+    padding:5px;
+}
+
+.f-left {float:left;text-align : left;padding-left:5px;}
+.f-right {float:right;text-align:right;padding-right:5px;}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.csskeyword {
+    color: blue;
+}
+
+.cssvalue {
+    color: red;
+}
+
+p.caption {
+    text-align: center;
+}
+
+small.super {
+    vertical-align: top;
+    font-size: 0.75em;
+    line-height: 1.3em;
+}
+
+.nodisplay {
+    display: none;
+}
+
+a img {
+    border: 0px;
+}
