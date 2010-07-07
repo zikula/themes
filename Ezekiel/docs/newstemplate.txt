@@ -1,0 +1,9 @@
+			<h1>Dolor sit amet?</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis sagittis, leo a adipiscing tincidunt, massa erat ultrices lorem, non nonummy lorem risus ac orci. Integer dignissim neque tempor dui. Curabitur lacus nulla, porttitor id, malesuada ut, blandit id, quam. Fusce wisi:</p>
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+				<li>Nullam quis elit a elit faucibus posuere.</li>
+				<li>Nulla laoreet nonummy nunc.</li>
+				<li>Cras pretium dui at ligula.</li>
+			</ul>
+			<div class="post_info"><a href="#">0 Comments</a> posted on August 2rd, 2005 @ 5:01 PM</div>

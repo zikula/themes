@@ -1,0 +1,379 @@
+
+/*
+Ezekiel Screen Stylesheet v1.0
+(c) Copyright 2005 Jake Wehner, wehnerj@gmail.com
+PLEASE LEAVE THIS COMMENT INTACT IN ACCORDANCE WITH GNU GPL.
+*/
+
+
+
+
+body {
+    color : #666;
+    font-family : 'Lucida Sans', Arial, 'sans-serif';
+    text-align : center;
+  }
+
+
+a {
+    color: #139ea7;
+    text-decoration: none;
+  }
+
+
+a img {
+    border: 0px;
+  }
+
+
+h1 {
+    font-size: 1.5em;
+    color: #139ea7;
+  }
+
+
+form input {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    height: 14px;
+    font-size: 9pt;
+  }
+
+
+#container {
+    width: 750px;
+    height: auto;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: left;
+  }
+
+
+#content {
+    width: 500px;
+    margin-top: 25px;
+    display:block;
+  }
+
+/*Header*/
+
+
+
+#header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    background: #f2fbfc;
+    background-image: url(../images/background_tile.png);
+    background-repeat: repeat-y;
+  }
+
+
+#sitename {
+    position: relative;
+    left: 25px;
+    top: 30px;
+    font-family : 'Lucida Sans', Arial, 'sans-serif';
+    font-size: 2.1em;
+    font-weight:550;
+    color: #139ea7;
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+
+
+#slogan {
+    position: relative;
+    left: 35px;
+    top: 30px;
+    font-family : 'Lucida Sans', Arial, 'sans-serif';
+    font-size: 1em;
+    color: #000;
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+
+/**/
+
+
+#footer {
+    font-size: .7em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px;
+    height: 15px;
+    background: #f2fbfc;
+  }
+
+
+.left {
+    float:left;
+    text-align : left;
+    padding-left:5px;
+  }
+
+
+.right {
+    float:right;
+    text-align:right;
+    padding-right:5px;
+  }
+
+/**/
+
+
+
+
+#sitenav-menu {
+    background-color : #a2c058;
+
+    height: 20px;
+    margin-top : 3px;
+    overflow : hidden;
+    padding-bottom : 1px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-top : 0px;
+    width : 100%;
+  }
+
+
+#sitenav-menu span {
+ margin:0px;
+    background: #a2c058;
+    color: #fff;
+    height: 20px;
+
+    border-right: 1px SOLID #fff;
+
+    font-size: .85em;
+    font-family : 'Lucida Sans', Arial, 'sans-serif';
+    font-variant: small-caps;
+
+  }
+
+
+#sitenav-menu a {
+    color: #fff;
+    height: 20px;
+    font-size: .85em;
+    font-family : 'Lucida Sans', Arial, 'sans-serif';
+    font-variant: small-caps;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+  }
+
+
+#sitenav-menu span:hover {
+    background: #139ea7;
+    color: #fff;
+
+    height: 20px;
+
+    font-size: .85em;
+    font-family : 'Lucida Sans', Arial, 'sans-serif';
+    font-variant: small-caps;
+
+  }
+
+/*span.home {
+    background: #139ea7;
+    border-right: 1px SOLID #fff;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    font-size: .85em;
+    font-family :  'Lucida Sans', Arial, 'sans-serif';
+    font-variant: small-caps;
+}
+
+span.home a, span.home a:hover {
+    color: #fff;
+    font-size: .85em;
+    font-family :  'Lucida Sans', Arial, 'sans-serif';
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+
+span.alt {
+    background: #a2c058;
+    border-right: 1px SOLID #fff;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    font-size: .85em;
+    font-family :  'Lucida Sans', Arial, 'sans-serif';
+    font-variant: small-caps;
+}
+
+
+span.alt a, span.home a:hover {
+    color: #fff;
+    font-size: .85em;
+    font-family :  'Lucida Sans', Arial, 'sans-serif';
+    font-variant: small-caps;
+    text-decoration: none;
+}
+*/
+
+
+div.search {
+    background: #fec529;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    font-size: .85em;
+    font-family : 'Lucida Sans', Arial, 'sans-serif';
+    font-variant: small-caps;
+    float: right;
+    line-height: 20px;
+    height: 20px;
+    width: 200px;
+    border-left: 1px SOLID #fff;
+    overflow: hidden;
+    vertical-align:middle;
+  }
+
+/**/
+
+
+#sidebar {
+    width:190px;
+    float: right;
+    margin-left: 10px;
+    height: 100%;
+  }
+
+
+div.side-block {
+    margin-right: auto;
+    margin-top: 25px;
+    font-size: 12px;
+    width: auto;
+  }
+
+
+div.side-block h4 {
+    background: #a2c058;
+    padding: 5px;
+    color: #fff;
+    width: auto;
+    font-variant: small-caps;
+  }
+
+
+div.side-block a {
+    background: #fff;
+    color: #666;
+    text-decoration: none;
+    line-height: 1.25em;
+    display: block;
+    padding: 0.2em;
+  }
+
+
+div.side-block a:hover {
+    background: #f9f9f9;
+    color: #666;
+    text-decoration: none;
+    line-height: 1.25em;
+    display: block;
+    padding: 0.2em;
+  }
+
+
+div.post_info {
+    /* the comment/cms style info bar */width: 500px;
+    border-top: 1px SOLID #f3f3f3;
+    border-bottom: 1px SOLID #f3f3f3;
+    background: #fafafa;
+    font-size: 10px;
+    color: #444;
+    padding: 5px;
+  }
+
+
+div.post_info a {
+    font-size: 11px;
+    color: #a2c058;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+
+.button {
+    background: #a2c058;
+    color: #fff;
+    border: 0px;
+    padding: 0px;
+  }
+
+/* Zikula required styles */
+
+
+
+
+a img {
+    border: 0px;
+  }
+
+
+.z-clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+
+
+.z-clearfix {
+    display: inline-table;
+  }
+
+
+.z-maincontent {
+display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+
+
+
+
+* html .z-clearfix {
+    height: 1%;
+  }
+
+
+.z-clearfix {
+    display: block;
+  }
+
+/* End hide from IE-mac */
+
+/* Overflow-Method to clear float environments */
+
+
+
+
+.z-floatbox {
+    overflow:hidden;
+  }
+
