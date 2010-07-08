@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula component\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-08 00:51-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:4
+msgid "Andreas02"
+msgstr ""
+
+#: version.php:5
+msgid "Andreas02 template"
+msgstr ""
+
+#: templates/includes/footer.tpl:7 templates/includes/header.tpl:2
+msgid "Home Page"
+msgstr ""
+
+#: templates/includes/footer.tpl:9
+msgid "Privacy"
+msgstr ""
+
+#: templates/includes/footer.tpl:11 templates/includes/navitabs.tpl:7
+msgid "Sitemap"
+msgstr ""
+
+#: templates/includes/footer.tpl:13 templates/includes/navitabs.tpl:8
+msgid "Contact"
+msgstr ""
+
+#: templates/includes/footer.tpl:15
+msgid "RSS Feed"
+msgstr ""
+
+#: templates/includes/footer.tpl:23
+msgid "design by"
+msgstr ""
+
+#: templates/includes/footer.tpl:23
+msgid "Andreas Viklund"
+msgstr ""
+
+#: templates/includes/footer.tpl:24
+msgid "Valid"
+msgstr ""
+
+#: templates/includes/footer.tpl:24
+msgid "CSS"
+msgstr ""
+
+#: templates/includes/footer.tpl:25
+msgid "XHTML"
+msgstr ""
+
+#: templates/includes/footer.tpl:26
+msgid "Back to top"
+msgstr ""
+
+#: templates/includes/head.tpl:12
+msgid "Main News RSS Feed"
+msgstr ""
+
+#: templates/includes/toptabs.tpl:5
+msgid "My Account Settings"
+msgstr ""
+
+#: templates/includes/toptabs.tpl:5
+msgid "My Account"
+msgstr ""
+
+#: templates/includes/toptabs.tpl:6
+msgid "Logout of Your Account"
+msgstr ""
+
+#: templates/includes/toptabs.tpl:6
+msgid "Logout"
+msgstr ""
+
+#: templates/includes/toptabs.tpl:10
+msgid "New Account Registration"
+msgstr ""
+
+#: templates/includes/toptabs.tpl:11
+msgid "Log In to Your Account"
+msgstr ""
+
+#: templates/includes/toptabs.tpl:11
+msgid "Log In"
+msgstr ""
+
+#: templates/includes/navitabs.tpl:3
+msgid "Go back to the home page"
+msgstr ""
+
+#: templates/includes/navitabs.tpl:3
+msgid "Home"
+msgstr ""
+
+#: templates/includes/navitabs.tpl:4
+msgid "Go to the News module"
+msgstr ""
+
+#: templates/includes/navitabs.tpl:4
+msgid "News"
+msgstr ""
+
+#: templates/includes/navitabs.tpl:5
+msgid "Go to the Forums module"
+msgstr ""
+
+#: templates/includes/navitabs.tpl:5
+msgid "Forums"
+msgstr ""
+
+#: templates/includes/navitabs.tpl:6
+msgid "Go to the Wiki module"
+msgstr ""
+
+#: templates/includes/navitabs.tpl:6
+msgid "Wiki"
+msgstr ""
+
+#: templates/includes/navitabs.tpl:7
+msgid "Go to the Sitemap module"
+msgstr ""
+
+#: templates/includes/navitabs.tpl:8
+msgid "Go to the Contact module"
+msgstr ""
