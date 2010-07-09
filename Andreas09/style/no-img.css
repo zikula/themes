@@ -1,0 +1,6 @@
+#container{background-color:#8b8b8b;background-image:none;}
+#mainmenu{background-color:#f8f8f8;margin-left:20px;border:1px solid #505050;}
+#mainmenu a:hover{background-image:none;}
+#mainmenu li.current{background-image:none;}
+#wrap{background-color:#ffffff;padding-top:30px;border-top:1px solid #505050;border-bottom:1px solid #505050;}
+#footer{background-image:none;}
