@@ -4,10 +4,10 @@
         {include file="includes/head.tpl"}
     </head>
     <body>
-        <!-- Wrap -->
+        {* Wrap *}
         <div id="wrap">
             {include file="includes/header.tpl"}
-            <!-- content-wrap starts here -->
+            {* content-wrap starts here *}
             <div id="content-wrap">
                 {if $pagetype neq 'admin'}
                 <div id="sidebar">
@@ -21,10 +21,10 @@
                     {/if}
                     {$maincontent}
                 </div>
-            <!-- content-wrap ends here -->
+            {* content-wrap ends here *}
             </div>
             {include file="includes/footer.tpl"}
-        <!-- END Wrap -->
+        {* END Wrap *}
         </div>
     </body>
 </html>

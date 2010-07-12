@@ -1,4 +1,4 @@
-<!--footer starts here-->
+{*footer starts here*}
 <div id="footer">
     <p>
         <span style="float:left;text-align : left;padding-left:20px;">

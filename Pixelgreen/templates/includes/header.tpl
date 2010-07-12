@@ -2,7 +2,7 @@
     <div id="header-content">
         <h1 id="logo"><a href="{getbaseurl}" title="{gt text="Go to the Home Page of"} {sitename}">{sitename}</a></h1>
         <h2 id="slogan">{slogan}</h2>
-        <!-- Menu Tabs -->
+        {* Menu Tabs *}
         <ul>
             <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
             <li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Go to the Pages module"}">{gt text="Pages"}</a></li>

@@ -1,4 +1,4 @@
-<!-- bttmbar starts here -->
+{* bttmbar starts here *}
 <div id="bttmbar">
     <p>
         <span style="float:left;">
@@ -15,4 +15,4 @@
             <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a>
         </span>
     </p>
-</div><!-- end of bttmbar div -->
+</div>{* end of bttmbar div *}

@@ -12,7 +12,7 @@
         <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a>
     </span>
 </div>
-<!--
+{*
 //
 //	From DERUS Webdesign:
 //
@@ -29,7 +29,7 @@ For support visit http://www.webdesign.rudomazin.de/kontakt/kontakt.html
 
 DERUS Webdesign: 2008
 
-// -->
+// *}
 <div id="bottom">
     <p>
         {gt text="design by"}:&nbsp;<a href="http://www.webdesign.rudomazin.de/" title="{gt text="Link to"} rudomazin.de" target="_blank">{gt text="german webdesigner"}</a>&nbsp;{gt text="and"}&nbsp;<a href="http://www.cocktail-rezepte-4u.de/recipes/" title="{gt text="Link to"} cocktail-rezepte-4u.de" target="_blank">{gt text="cocktails - mixed drinks"}</a>

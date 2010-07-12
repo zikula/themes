@@ -1,4 +1,4 @@
-<!-- #header: holds the logo and top links -->
+{* #header: holds the logo and top links *}
 <div id="header" class="width">
     <img src="{$imagepath}/logo.gif" alt="Sample logo image to be replaced, Your logo goes here"/>
     <ul>
@@ -16,10 +16,10 @@
         {/if}
     </ul>
 </div>
-<!-- #header end -->
-<!-- #headerImg: holds the main header image or flash -->
+{* #header end *}
+{* #headerImg: holds the main header image or flash *}
 <div id="headerImg" class="width"></div>
-<!-- #menu: the main large box site menu -->
+{* #menu: the main large box site menu *}
 <div id="menu" class="width">
     <ul>
         <li {if $module eq 'Pages'} class="current" {/if}>
@@ -54,4 +54,4 @@
         </li>
     </ul>
 </div>
-<!-- #menu end -->
+{* #menu end *}

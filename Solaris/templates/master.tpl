@@ -59,7 +59,7 @@
                 </div>
                 {/if}
                 <div id="footer_hack">
-                <!-- This div is a hack for IE. DO NOT REMOVE! -->
+                {* This div is a hack for IE. DO NOT REMOVE! *}
                 </div>
             </div>
         </div>

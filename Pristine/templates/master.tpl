@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang}" lang="{lang}" dir="{langdirection}">
     <head>
         {include file="includes/head.tpl"}
-    <!--
+    {*
         Pristine 1.0 - Design copyright Matt Dibb 2006 - www.mdibb.net
 
         Please feel free to use and modify this tempalte for use on your site.  I dont mind
         if you use it for your personal site or a commercial site, but I do insist that it is
         not sold or given away in some "50,000 Templates!" package or something like that.
-    -->
+    *}
     </head>
     <body>
         <div id="container">

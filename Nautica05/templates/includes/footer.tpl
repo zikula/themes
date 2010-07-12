@@ -1,6 +1,6 @@
-<!-- #footer: holds the site footer (logo and links) -->
+{* #footer: holds the site footer (logo and links) *}
 <div id="footer">
-    <!-- #bg: applies the site width and footer background -->
+    {* #bg: applies the site width and footer background *}
     <div id="bg" class="width">
         <img src="{$imagepath}/logo.gif" alt="{sitename} {gt text="logo"}"/>
         <ul>
@@ -13,7 +13,7 @@
             <li>{gt text="Valid"}&nbsp;<a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a></li>
         </ul>
     </div>
-    <!-- #bg end -->
+    {* #bg end *}
 </div>
-<!-- #footer end -->
+{* #footer end *}
 

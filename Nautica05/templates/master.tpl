@@ -4,37 +4,37 @@
         {include file="includes/head.tpl"}
     </head>
     <body>
-        <!-- #content: holds all except site footer - causes footer to stick to bottom -->
+        {* #content: holds all except site footer - causes footer to stick to bottom *}
         <div id="content">
             {include file="includes/header.tpl"}
-            <!-- #page: holds the page content -->
+            {* #page: holds the page content *}
             <div id="page">
-                <!-- #columns: holds the columns of the page -->
+                {* #columns: holds the columns of the page *}
                 <div id="columns" class="widthPad">
-                    <!-- Left thumbnail column -->
+                    {* Left thumbnail column *}
                     <div class="floatLeft width25">
                         {blockposition name=left}
                     </div>
-                    <!-- Left thumbnails end -->
-                    <!-- Center news column -->
+                    {* Left thumbnails end *}
+                    {* Center news column *}
                     <div class="floatLeft width50">
                         {if $pagetype eq 'home'}
                         {blockposition name=center}
                         {/if}
                         {$maincontent}
                     </div>
-                    <!-- Center news column end -->
-                    <!-- Right link column -->
+                    {* Center news column end *}
+                    {* Right link column *}
                     <div class="floatRight width25 lightBlueBg horzPad">
                         {blockposition name=right}
                     </div>
-                    <!-- Right links column end -->
+                    {* Right links column end *}
                 </div>
-                <!-- #columns end -->
+                {* #columns end *}
             </div>
-            <!-- #page end -->
+            {* #page end *}
         </div>
-        <!-- #content end -->
+        {* #content end *}
         {include file="includes/footer.tpl"}
     </body>
 </html>

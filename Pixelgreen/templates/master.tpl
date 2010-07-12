@@ -4,10 +4,10 @@
         {include file="includes/head.tpl"}
     </head>
     <body>
-        <!-- wrap starts here -->
+        {* wrap starts here *}
         <div id="wrap">
             {include file="includes/header.tpl"}
-            <!-- content-wrap starts here -->
+            {* content-wrap starts here *}
             <div id="content-wrap">
                 <div id="content">
                     <div id="sidebar" >
@@ -20,11 +20,11 @@
                         {/if}
                         {$maincontent}
                     </div>
-                <!-- content-wrap ends here -->
+                {* content-wrap ends here *}
                 </div>
             </div>
             {include file="includes/footer.tpl"}
-        <!-- wrap ends here -->
+        {* wrap ends here *}
         </div>
     </body>
 </html>

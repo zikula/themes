@@ -4,9 +4,9 @@
         {include file="includes/head.tpl"}
     </head>
     <body>
-        <div id="pagewrap"> <!-- pagewrap div contains header, content, and footer divs -->
+        <div id="pagewrap"> {* pagewrap div contains header, content, and footer divs *}
             {include file="includes/header.tpl"}
-            <div id="container"> <!-- container div contains the collumn content divs -->
+            <div id="container"> {* container div contains the collumn content divs *}
                 {if $pagetype neq 'admin'}
                 <div id="lftcol">
                     {blockposition name=left}
@@ -18,9 +18,9 @@
                     {blockposition name=center}
                     {/if}
                     {$maincontent}
-                </div> <!-- end of rgtcol div -->
-            </div> <!-- end of container div -->
+                </div> {* end of rgtcol div *}
+            </div> {* end of container div *}
             {include file="includes/footer.tpl"}
-        </div> <!-- end of pagewrap div -->
+        </div> {* end of pagewrap div *}
     </body>
 </html>

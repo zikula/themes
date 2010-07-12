@@ -1,4 +1,4 @@
-<!--header -->
+{*header *}
 <div id="header">
     <h1 id="logo">
         <a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">
@@ -26,7 +26,7 @@
     </form>
 </div>
 </div>
-<!-- menu -->
+{* menu *}
 <div  id="menu">
     <ul>
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>

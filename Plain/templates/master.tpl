@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang}" lang="{lang}" dir="{langdirection}">
-<!-- Web Page Design by James Koster - http://www.jameskoster.co.uk -->
+{* Web Page Design by James Koster - http://www.jameskoster.co.uk *}
     <head>
         {include file="includes/head.tpl"}
     </head>

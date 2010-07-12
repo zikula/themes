@@ -13,7 +13,7 @@
                 {$maincontent}
             </div>
             {if $pagetype neq 'admin'}
-            <!-- begin r_sidebar -->
+            {* begin r_sidebar *}
             <div id="right_sidebar">
                 {blockposition name=left}
                 {blockposition name=right}

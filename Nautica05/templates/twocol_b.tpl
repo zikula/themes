@@ -4,32 +4,32 @@
         {include file="includes/head.tpl"}
     </head>
     <body>
-        <!-- #content: holds all except site footer - causes footer to stick to bottom -->
+        {* #content: holds all except site footer - causes footer to stick to bottom *}
         <div id="content">
             {include file="includes/header.tpl"}
-            <!-- #page: holds the page content -->
+            {* #page: holds the page content *}
             <div id="page">
-                <!-- #columns: holds the columns of the page -->
+                {* #columns: holds the columns of the page *}
                 <div id="columns" class="widthPad">
-                    <!-- Left column -->
+                    {* Left column *}
                     <div class="floatLeft width75">
                         {$maincontent}
                     </div>
-                    <!-- Left end -->
-                    <!-- Right column -->
+                    {* Left end *}
+                    {* Right column *}
                     <div class="floatRight width25">
                         {if $pagetype eq 'home'}
                         {blockposition name=center}
                         {/if}
                         {$maincontent}
                     </div>
-                    <!-- Right column end -->
+                    {* Right column end *}
                 </div>
-                <!-- #columns end -->
+                {* #columns end *}
             </div>
-            <!-- #page end -->
+            {* #page end *}
         </div>
-        <!-- #content end -->
+        {* #content end *}
         {include file="includes/footer.tpl"}
     </body>
 </html>

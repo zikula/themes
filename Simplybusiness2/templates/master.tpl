@@ -6,22 +6,22 @@
     <body>
         <div id="container">
             {include file="includes/header.tpl"}
-            <!--
+            {*
             ******************************
                 News Updates Column
             ******************************
-            -->
+            *}
             {if $pagetype neq 'admin'}
             <div id="leftcontainer">
                 {blockposition name=left}
                 {blockposition name=right}
             </div>
             {/if}
-            <!--
+            {*
             ******************************
             Welcome Message IMG+TEXT
             ******************************
-            -->
+            *}
             <div class="rightcontainer"{if $pagetype eq 'admin'} style="width:100%;"{/if}>
                 {if $pagetype eq 'home'}
                 <div id="welcome">{blockposition name=center}</div>

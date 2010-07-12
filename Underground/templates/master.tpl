@@ -4,7 +4,7 @@
         {include file="includes/head.tpl"}
     </head>
     <body>
-        <!-- wrap starts here -->
+        {* wrap starts here *}
         <div id="wrap">
             {include file="includes/header.tpl"}
             {if $pagetype neq 'admin'}
@@ -19,7 +19,7 @@
                 {/if}
                 {$maincontent}
             </div>
-        <!-- wrap ends here -->
+        {* wrap ends here *}
         </div>
             {include file="includes/footer.tpl"}
         </div>

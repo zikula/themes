@@ -8,8 +8,8 @@
             <li {if $module eq 'Sitemap'} class="current" {/if}><a href="{modurl modname=Sitemap}" title="{gt text="Go to the Sitemap module"}"><span>{gt text="Sitemap"}</span></a></li>
             <li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}"><span class="last">{gt text="Contact"}</span></a></li>
         </ul>
-    </div><!--menu-top-->
-</div><!--wrapper-menu-top-->
+    </div>{*menu-top*}
+</div>{*wrapper-menu-top*}
 <div id="wrapper-header">
     <div id="header">
         <div id="wrapper-header2">

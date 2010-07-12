@@ -33,7 +33,7 @@
                         {blockposition name=leftfooter}
                     </div>
                 </div>
-            </div><!-- close .lside opened in includes/header.htm -->
+            </div>{* close .lside opened in includes/header.htm *}
             {include file="includes/footer.tpl"}
         </div>
     </body>

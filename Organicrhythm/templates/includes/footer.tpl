@@ -1,5 +1,5 @@
-<!-- end #page -->
-<!--footer starts here-->
+{* end #page *}
+{*footer starts here*}
 <div id="footer">
     <div class="wrapper">
         <p class="links">

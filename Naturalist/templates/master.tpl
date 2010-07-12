@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang}" lang="{lang}" dir="{langdirection}">
-<!--
+{*
 Copyright: Darren Hester 2006, http://www.designsbydarren.com
 License: Released Under the "Creative Commons License",
 http://creativecommons.org/licenses/by-nc/2.5/
--->
+*}
     <head>
         {include file="includes/head.tpl"}
     </head>

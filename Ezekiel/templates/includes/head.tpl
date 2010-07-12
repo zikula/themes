@@ -1,8 +1,8 @@
-{*
-	Ezekiel v1.0
-	(c) Copyright 2005 Jake Wehner, wehnerj@gmail.com
-	PLEASE LEAVE THIS CREDIT INTACT, IN ACCORDANCE WITH GNU GPL.
-	*}
+    {*
+    Ezekiel v1.0
+    (c) Copyright 2005 Jake Wehner, wehnerj@gmail.com
+    PLEASE LEAVE THIS CREDIT INTACT, IN ACCORDANCE WITH GNU GPL.
+    *}
 <title>{title}</title>
 <meta http-equiv="Content-Type" content="text/html; charset={charset}" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />

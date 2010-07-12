@@ -13,4 +13,4 @@
         </span>
     </p>
 </div>
-<!-- end #footer -->
+{* end #footer *}

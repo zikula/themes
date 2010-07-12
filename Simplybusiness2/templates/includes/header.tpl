@@ -1,8 +1,8 @@
-<!--
+{*
 ******************************
 Header + Navigation
 ******************************
--->
+*}
 <div id="header">
     <img src="{$imagepath}/logo.jpg" style="float: left;" alt="{sitename}&nbsp;{gt text="Logo Image"}" />
 </div>

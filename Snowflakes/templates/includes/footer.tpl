@@ -1,4 +1,4 @@
-<!--footer starts here-->
+{*footer starts here*}
 <div id="footer">
     <p id="copy">
         &copy;&nbsp;2007-{'Y'|date}&nbsp;<a href="{homepage}" title="{sitename}&nbsp;{gt text="Home Page"}"><strong>{sitename}</strong></a>&nbsp;&#183;&nbsp;

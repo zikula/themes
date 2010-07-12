@@ -10,14 +10,14 @@
             <div id="leftcol">
                 {blockposition name=left}
                 {blockposition name=right}
-            </div><!-- END OF LEFT COLUMN -->
+            </div>{* END OF LEFT COLUMN *}
             {/if}
             <div id="maincontent"{if $pagetype eq 'admin'} style="width:100%"{/if}>
                 {if $pagetype eq 'home'}
                 {blockposition name=center}
                 {/if}
                 {$maincontent}
-            </div><!-- END OF MAIN CONTENT -->
+            </div>{* END OF MAIN CONTENT *}
         </div>
         {include file="includes/footer.tpl"}
     </body>

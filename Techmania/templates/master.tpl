@@ -4,10 +4,10 @@
         {include file="includes/head.tpl"}
     </head>
     <body>
-        <!-- wrap starts here -->
+        {*wrap starts here *}
         <div id="wrap">
             {include file="includes/header.tpl"}
-            <!-- content-wrap starts here -->
+            {*content-wrap starts here *}
             <div id="content-wrap">
                 <div id="main" {if $pagetype eq 'admin'} style="width:100%"{/if}>
                     {if $pagetype eq 'home'}
@@ -21,10 +21,10 @@
                     {blockposition name=right}
                 </div>
                 {/if}
-            <!-- content-wrap ends here -->
+            {*content-wrap ends here *}
             </div>
             {include file="includes/footer.tpl"}
-        <!-- wrap ends here -->
+        {*wrap ends here *}
         </div>
     </body>
 </html>

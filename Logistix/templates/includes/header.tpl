@@ -23,7 +23,7 @@
     <h1>{sitename}</h1>
     <h2>{slogan}</h2>
 </div>
-<!-- end #header -->
+{* end #header *}
 <div id="menu">
     <ul>
         <li class="first {if $pagetype eq 'home'} current {/if}"><a href="{homepage}" title="{gt text="Go back to the home page"}"><span>{gt text="Home"}</span></a></li>
@@ -34,4 +34,4 @@
         <li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}"><span class="last">{gt text="Contact"}</span></a></li>
     </ul>
 </div>
-<!-- end #menu -->
+{* end #menu *}

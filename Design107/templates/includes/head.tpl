@@ -10,8 +10,8 @@
 <link rel="icon" type="image/x-icon" href="{$imagepath}/favicon.ico" />{* W3C *}
 <link rel="shortcut icon" type="image/ico" href="{$imagepath}/favicon.ico" />{* IE *}
 <link rel="alternate" href="{modurl modname='News' type='user' func='view' theme='rss'}" type="application/rss+xml" title="{sitename} {gt text="Main News RSS Feed"}" />
-<!-- **** Layout Stylesheet **** -->
+{* **** Layout Stylesheet **** *}
 <link rel="stylesheet" type="text/css" href="{$stylepath}/style107_{$sidebarposition}.css" />
-<!-- **** Colour Scheme Stylesheet **** -->
+{* **** Colour Scheme Stylesheet **** *}
 <link rel="stylesheet" type="text/css" href="{$stylepath}/colour{$themeset}.css" />
 

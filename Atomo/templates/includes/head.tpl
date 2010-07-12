@@ -11,8 +11,8 @@
 <link rel="shortcut icon" type="image/ico" href="{$imagepath}/favicon.ico" />{* IE *}
 <link rel="alternate" href="{modurl modname='News' type='user' func='view' theme='rss'}" type="application/rss+xml" title="{sitename} {gt text="Main News RSS Feed"}" />
 <link rel="stylesheet" href="{$stylepath}/style.css" type="text/css" media="screen,projection" />
-<!--
+{*
 Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
--->
+*}

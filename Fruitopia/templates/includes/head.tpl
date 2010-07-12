@@ -11,8 +11,8 @@
 <link rel="shortcut icon" type="image/ico" href="{$imagepath}/favicon.ico" />{* IE *}
 <link rel="alternate" href="{modurl modname='News' type='user' func='view' theme='rss'}" type="application/rss+xml" title="{sitename} {gt text="Main News RSS Feed"}" />
 <link rel="stylesheet" href="{$stylepath}/style.css" type="text/css" media="screen,projection" />
-	<!--
-	Copyright: Darren Hester 2006, http://www.designsbydarren.com
-	License: Released Under the "Creative Commons License", 
-	http://creativecommons.org/licenses/by-nc/2.5/
-	-->
+    {*
+    Copyright: Darren Hester 2006, http://www.designsbydarren.com
+    License: Released Under the "Creative Commons License", 
+    http://creativecommons.org/licenses/by-nc/2.5/
+    *}

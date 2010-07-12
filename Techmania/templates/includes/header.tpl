@@ -1,4 +1,4 @@
-<!--header -->
+{*header *}
 <div id="header">
     <h1 id="logo-text">
         <href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}<span class="gray">{gt text="Techmania"}</span></a>
@@ -20,7 +20,7 @@
             </p>
         </form>
     </div>
-    <!-- menu -->
+    {* menu *}
     <div id="header-tabs">
         <ul>
             <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}"><span>{gt text="Home"}</span></a></li>
