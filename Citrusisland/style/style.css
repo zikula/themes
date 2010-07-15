@@ -190,6 +190,8 @@ LAYOUT
     top: 43px; left: 45px;
 }
 
+#searchform-h { float:right; margin-top:0px;}
+
 /* menu */
 #menu {
     clear: both;
