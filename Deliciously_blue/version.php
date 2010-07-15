@@ -1,11 +1,11 @@
 <?php 
 $themeversion['name'] = 'Deliciously_blue';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Deliciously Blue', $domain);
+$themeversion['displayname'] = __('Deliciously_Blue', $domain);
 $themeversion['description'] = __('Deliciously Blue OWD template', $domain);
-$themeversion['regid']      = '0';
-$themeversion['version']    = '2.1';
-$themeversion['official']   = '0';
+$themeversion['regid'] = '0';
+$themeversion['version'] = '2.1';
+$themeversion['official'] = '0';
 $themeversion['author'] = 'Mark West, J David Macor';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.jdavidmacor.com';
 $themeversion['admin'] = 0;

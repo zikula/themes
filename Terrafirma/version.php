@@ -1,10 +1,10 @@
-<?php 
+<?php
 $themeversion['name'] = 'Terrafirma';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('terrafirma', $domain);
-$themeversion['description'] = __('terrafirma OWD template', $domain);
-$themeversion['regid']      = '0';
-$themeversion['version']    = '2.1';
+$themeversion['displayname'] = __('Terrafirma', $domain);
+$themeversion['description'] = __('Terrafirma OWD template', $domain);
+$themeversion['regid'] = '0';
+$themeversion['version'] = '2.1';
 $themeversion['official'] = '0';
 $themeversion['author'] = 'Mark West, nodethirtythree';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.nodethirtythree.com/';

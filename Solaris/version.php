@@ -1,11 +1,11 @@
 <?php 
 $themeversion['name'] = 'Solaris';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('solaris', $domain);
-$themeversion['description'] = __('solaris OWD template', $domain);
-$themeversion['regid']      = '0';
-$themeversion['version']    = '2.1';
-$themeversion['official']   = '0';
+$themeversion['displayname'] = __('Solaris', $domain);
+$themeversion['description'] = __('Solaris OWD template', $domain);
+$themeversion['regid'] = '0';
+$themeversion['version'] = '2.1';
+$themeversion['official'] = '0';
 $themeversion['author'] = 'Mark West, elemental';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.elemental-works.com/';
 $themeversion['admin'] = 0;

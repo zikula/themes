@@ -1,11 +1,11 @@
 <?php 
 $themeversion['name'] = 'Curiously_green';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Curiously Green', $domain);
-$themeversion['description'] = __('curiously_green OWD template', $domain);
-$themeversion['regid']      = '0';
-$themeversion['version']    = '2.1';
-$themeversion['official']   = '0';
+$themeversion['displayname'] = __('Curiously_Green', $domain);
+$themeversion['description'] = __('Curiously Green OWD template', $domain);
+$themeversion['regid'] = '0';
+$themeversion['version'] = '2.1';
+$themeversion['official'] = '0';
 $themeversion['author'] = 'Mark West, node33';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.nodethirtythree.com/';
 $themeversion['admin'] = 0;

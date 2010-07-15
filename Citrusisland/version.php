@@ -1,11 +1,11 @@
 <?php 
 $themeversion['name'] = 'Citrusisland';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Citrus Island', $domain);
+$themeversion['displayname'] = __('Citrus_Island', $domain);
 $themeversion['description'] = __('Citrus Island template', $domain);
-$themeversion['regid']      = '0';
-$themeversion['version']    = '2.1';
-$themeversion['official']   = '0';
+$themeversion['regid'] = '0';
+$themeversion['version'] = '2.1';
+$themeversion['official'] = '0';
 $themeversion['author'] = 'Mark West, Erwin Aligam';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.styleshout.com';
 $themeversion['admin'] = 0;

@@ -1,11 +1,11 @@
 <?php
 $themeversion['name'] = 'Aqueous';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('aqueous', $domain);
-$themeversion['description'] = __('aqueous OWD template', $domain);
-$themeversion['regid']      = '0';
-$themeversion['version']    = '2.1';
-$themeversion['official']   = '0';
+$themeversion['displayname'] = __('Aqueous', $domain);
+$themeversion['description'] = __('Aqueous OWD template', $domain);
+$themeversion['regid'] = '0';
+$themeversion['version'] = '2.1';
+$themeversion['official'] = '0';
 $themeversion['author'] = 'Mark West, James Koster';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.sixshootermedia.com/';
 $themeversion['admin'] = 0;

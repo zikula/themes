@@ -1,11 +1,11 @@
 <?php 
 $themeversion['name'] = 'Plain2';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('plain2', $domain);
-$themeversion['description'] = __('plain2 template', $domain);
-$themeversion['regid']      = '0';
-$themeversion['version']    = '2.1';
-$themeversion['official']   = '0';
+$themeversion['displayname'] = __('Plain2', $domain);
+$themeversion['description'] = __('Plain2 template', $domain);
+$themeversion['regid'] = '0';
+$themeversion['version'] = '2.1';
+$themeversion['official'] = '0';
 $themeversion['author'] = 'Mark West, James Koster';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.sixshootermedia.com/';
 $themeversion['admin'] = 0;

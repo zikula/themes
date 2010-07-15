@@ -1,11 +1,11 @@
 <?php
 $themeversion['name'] = 'Andreas05';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('andreas05', $domain);
-$themeversion['description'] = __('andreas05 template', $domain);
-$themeversion['regid']      = '0';
-$themeversion['version']    = '2.1';
-$themeversion['official']   = '0';
+$themeversion['displayname'] = __('Andreas05', $domain);
+$themeversion['description'] = __('Andreas05 template', $domain);
+$themeversion['regid'] = '0';
+$themeversion['version'] = '2.1';
+$themeversion['official'] = '0';
 $themeversion['author'] = 'Mark West, Andreas Viklund';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.andreasviklund.com';
 $themeversion['admin'] = 0;

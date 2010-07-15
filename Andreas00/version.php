@@ -1,8 +1,8 @@
 <?php
 $themeversion['name'] = 'Andreas00';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('andreas00', $domain);
-$themeversion['description'] = __('andreas00 template', $domain);
+$themeversion['displayname'] = __('Andreas00', $domain);
+$themeversion['description'] = __('Andreas00 template', $domain);
 $themeversion['regid'] = '0';
 $themeversion['version'] = '2.1';
 $themeversion['official'] = '0';

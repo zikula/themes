@@ -2,7 +2,7 @@
 $themeversion['name'] = 'Typography_paramount';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Typography_Paramount', $domain);
-$themeversion['description'] = __('Typography paramount template', $domain)
+$themeversion['description'] = __('Typography Paramount template', $domain)
 ;$themeversion['regid'] = '0';
 $themeversion['version'] = '2.1';
 $themeversion['official'] = '0';

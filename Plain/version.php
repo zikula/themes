@@ -1,11 +1,11 @@
 <?php
 $themeversion['name'] = 'Plain';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('plain', $domain);
-$themeversion['description'] = __('plain OSWD template', $domain);
-$themeversion['regid']      = '0';
-$themeversion['version']    = '2.1';
-$themeversion['official']   = '0';
+$themeversion['displayname'] = __('Plain', $domain);
+$themeversion['description'] = __('Plain OSWD template', $domain);
+$themeversion['regid'] = '0';
+$themeversion['version'] = '2.1';
+$themeversion['official'] = '0';
 $themeversion['author'] = 'Mark West, James Koster';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.jameskoster.co.uk/';
 $themeversion['admin'] = 0;
