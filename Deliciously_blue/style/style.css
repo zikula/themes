@@ -255,7 +255,7 @@ input, select, textarea {
 }
 
 
-#footer p,#footer span {
+#footer span {
     background-color:#2763A5;
     color:#FFFFFF;
     padding: 5px;
@@ -263,7 +263,7 @@ input, select, textarea {
 }
 
 
-#footer p a {
+#footer span a {
     color: #FFFFFF;
     background-color:#2763A5;
     font-weight:100;
@@ -271,7 +271,7 @@ input, select, textarea {
 }
 
 
-#footer p a:hover {
+#footer span a:hover {
     color: #FFFFFF;
     text-decoration: none;
     border-top: 1px dotted #FFFFFF;
