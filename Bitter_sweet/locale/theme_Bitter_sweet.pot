@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zikula component\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-30 16:22-0500\n"
+"POT-Creation-Date: 2010-07-15 12:25-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,75 +24,87 @@ msgstr ""
 msgid "Bitter Sweet OWD template"
 msgstr ""
 
-#: docs/old-module-templates/News/news_user_article.htm~:5
 #: docs/old-module-templates/News/news_user_article.htm:5
 msgid "Bytes Used"
 msgstr ""
 
-#: templates/includes/footer.tpl:3
+#: templates/includes/footer.tpl:3 templates/includes/footer.tpl~:3
 msgid "Home Page"
 msgstr ""
 
-#: templates/includes/footer.tpl:4
+#: templates/includes/footer.tpl:4 templates/includes/footer.tpl~:4
 msgid "Easily find information across our site via our Sitemap"
 msgstr ""
 
-#: templates/includes/footer.tpl:4
+#: templates/includes/footer.tpl:4 templates/includes/footer.tpl~:4
 msgid "Sitemap"
 msgstr ""
 
-#: templates/includes/footer.tpl:5
+#: templates/includes/footer.tpl:5 templates/includes/footer.tpl~:5
 msgid "Contact us"
 msgstr ""
 
-#: templates/includes/footer.tpl:5
+#: templates/includes/footer.tpl:5 templates/includes/footer.tpl~:5
 msgid "Contact"
 msgstr ""
 
-#: templates/includes/footer.tpl:6
+#: templates/includes/footer.tpl:6 templates/includes/footer.tpl~:6
 msgid "Subscribe link for our News RSS feed"
 msgstr ""
 
 #: templates/includes/footer.tpl:6
-msgid "RSS FEED"
+msgid "RSS"
 msgstr ""
 
-#: templates/includes/footer.tpl:9
+#: templates/includes/footer.tpl:9 templates/includes/footer.tpl:10
+#: templates/includes/footer.tpl~:9
 msgid "Link to"
 msgstr ""
 
 #: templates/includes/footer.tpl:9
-msgid "Website template"
+msgid "Powered By Zikula"
 msgstr ""
 
-#: templates/includes/footer.tpl:9
-msgid "by"
+#: templates/includes/footer.tpl:10
+msgid "design"
 msgstr ""
 
-#: templates/includes/footer.tpl:9
+#: templates/includes/footer.tpl:10 templates/includes/footer.tpl~:9
 msgid "Arcsin"
 msgstr ""
 
-#: templates/includes/footer.tpl:10
+#: templates/includes/footer.tpl:11 templates/includes/footer.tpl~:10
 msgid "Valid"
 msgstr ""
 
-#: templates/includes/footer.tpl:10
+#: templates/includes/footer.tpl:11 templates/includes/footer.tpl~:10
 msgid "Validate the CSS of this web page"
 msgstr ""
 
-#: templates/includes/footer.tpl:10
+#: templates/includes/footer.tpl:11 templates/includes/footer.tpl~:10
 msgid "CSS"
 msgstr ""
 
-#: templates/includes/footer.tpl:11
+#: templates/includes/footer.tpl:12 templates/includes/footer.tpl~:11
 msgid "Validate the XHTML of this web page"
 msgstr ""
 
-#: templates/includes/footer.tpl:11
+#: templates/includes/footer.tpl:12 templates/includes/footer.tpl~:11
 msgid "XHTML"
 msgstr ""
 
 #: templates/includes/head.tpl:12
 msgid "Main News RSS Feed"
+msgstr ""
+
+#: templates/includes/footer.tpl~:6
+msgid "RSS FEED"
+msgstr ""
+
+#: templates/includes/footer.tpl~:9
+msgid "Website template"
+msgstr ""
+
+#: templates/includes/footer.tpl~:9
+msgid "by"
 msgstr ""
