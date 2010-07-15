@@ -9,7 +9,8 @@
     <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a>&nbsp;|&nbsp;
     <a href="#header" title="{gt text="Back to top"}" class="credit">^</a>
     <br />
-    {gt text="Thanks to"}&nbsp;<a href="http://www.structured-settlements-guide.com/" class="credit" title="{gt text="Link to"} structured-settlements-guide.com">{gt text="Structured Settlements"}</a>.&nbsp;{gt text="design by"}:&nbsp;<a href="http://andreasviklund.com/" class="credit" title="{gt text="Link to"} andreasviklund.com"><strong>Andreas&nbsp;Viklund</strong></a>&nbsp;&amp;&nbsp;<a href="http://jokkmokk.biz/english/" class="credit" title="{gt text="Link to"} Jokkmokk.biz">Jokkmokk.biz</a>.
+    {gt text="design"}:&nbsp;<a href="http://andreasviklund.com/" class="credit" title="{gt text="Link to"} andreasviklund.com"><strong>Andreas&nbsp;Viklund</strong></a>&nbsp;|&nbsp;
+    <a href="http://www.zikula.org" title="{gt text="Link to"} Zikula.Org">{gt text="Powered By Zikula"}</a>
     </p>
 </div>
 
