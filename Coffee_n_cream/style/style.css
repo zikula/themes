@@ -313,11 +313,12 @@ blockquote {
 #footer {
     background: #958463 url(../images/bgfooter.gif) repeat-x;
     color: #FED;
-    font-size: .9em;
+    font-size: .8em;
     line-height: 40px;
     margin: 0 auto;
     text-align: center;
     width: 760px;
+    border-bottom: #7d725c solid 1px;
   }
 
 
