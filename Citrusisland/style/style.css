@@ -327,13 +327,13 @@ padding-left: 10px;
 }
 #footer-content #footer-left {
     padding: 10px;
-    width: 60%;
+
     float: left;
     text-align: left;
 }
 #footer-content #footer-right {
     padding: 10px;
-    width: 33%;
+
     float: right;
     text-align: right;
 }
