@@ -390,12 +390,12 @@ a:hover {
 
 #footer {
     clear:both;
-    padding:10px;
+    padding:5px;
     border-top:2px solid #f6f6f6;
     text-align:center;
     margin:20px auto 0 auto;
-    width:700px;
-    font-size:90%;
+    width:755px;
+    font-size:80%;
 }
 
 /* zikula block styles */
