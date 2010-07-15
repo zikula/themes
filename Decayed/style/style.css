@@ -150,9 +150,10 @@ p.postinfo a:hover {color: #CCC;}
 #footer {
     border-top: 1px dashed #333;
     color: #666;
-    font: normal 0.9em sans-serif;
-    position: absolute;
+    font: normal 0.8em sans-serif;
+ margin-top:10px;
     top: 100%;
+    text-align : center;
 }
 #footer a {
     color: #999;
@@ -162,5 +163,8 @@ p.postinfo a:hover {color: #CCC;}
     color: #CCC;
     text-decoration: underline;
 }
-#footer .left, #footer .right {padding: 10px 0;}
-#footer .right a {color: #777;}
+
+#right a {color: #777;}
+
+#left {float:left;text-align : left;padding-left:5px;}
+#right {float:right !important;text-align:right;padding-right:5px;}
