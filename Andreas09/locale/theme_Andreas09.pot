@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zikula component\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-15 11:16-0500\n"
+"POT-Creation-Date: 2010-07-15 11:17-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: version.php:4
-msgid "Andreas02"
+msgid "Andreas09"
 msgstr ""
 
 #: version.php:5
-msgid "Andreas02 template"
+msgid "Andreas09 template"
 msgstr ""
 
 #: templates/includes/footer.tpl:5 templates/includes/footer.tpl~:5
-#: templates/includes/header.tpl:2
 msgid "Home Page"
 msgstr ""
 
@@ -34,7 +33,7 @@ msgid "Easily find information across our site via our Sitemap"
 msgstr ""
 
 #: templates/includes/footer.tpl:6 templates/includes/footer.tpl~:6
-#: templates/includes/navitabs.tpl:7
+#: templates/includes/mainmenu.tpl:7
 msgid "Sitemap"
 msgstr ""
 
@@ -43,7 +42,7 @@ msgid "Contact us"
 msgstr ""
 
 #: templates/includes/footer.tpl:7 templates/includes/footer.tpl~:7
-#: templates/includes/navitabs.tpl:8
+#: templates/includes/header.tpl:14
 msgid "Contact"
 msgstr ""
 
@@ -55,107 +54,119 @@ msgstr ""
 msgid "RSS"
 msgstr ""
 
-#: templates/includes/footer.tpl:11 templates/includes/footer.tpl~:11
-msgid "design"
-msgstr ""
-
-#: templates/includes/footer.tpl:11 templates/includes/footer.tpl:14
-#: templates/includes/footer.tpl~:11 templates/includes/footer.tpl~:14
+#: templates/includes/footer.tpl:11 templates/includes/footer.tpl:12
+#: templates/includes/footer.tpl~:11
 msgid "Link to"
 msgstr ""
 
-#: templates/includes/footer.tpl:12 templates/includes/footer.tpl~:12
+#: templates/includes/footer.tpl:11
+msgid "Powered By Zikula"
+msgstr ""
+
+#: templates/includes/footer.tpl:12 templates/includes/footer.tpl~:11
+msgid "design"
+msgstr ""
+
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:12
 msgid "Valid"
 msgstr ""
 
-#: templates/includes/footer.tpl:12 templates/includes/footer.tpl~:12
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:12
 msgid "Validate the CSS of this web page"
 msgstr ""
 
-#: templates/includes/footer.tpl:12 templates/includes/footer.tpl~:12
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:12
 msgid "CSS"
 msgstr ""
 
-#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:13
+#: templates/includes/footer.tpl:14 templates/includes/footer.tpl~:13
 msgid "Validate the XHTML of this web page"
 msgstr ""
 
-#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:13
+#: templates/includes/footer.tpl:14 templates/includes/footer.tpl~:13
 msgid "XHTML"
 msgstr ""
 
-#: templates/includes/footer.tpl:14 templates/includes/footer.tpl~:14
-msgid "Powered By Zikula"
+#: templates/includes/footer.tpl:15 templates/includes/footer.tpl~:14
+msgid "Back to top"
 msgstr ""
 
 #: templates/includes/head.tpl:12
 msgid "Main News RSS Feed"
 msgstr ""
 
-#: templates/includes/toptabs.tpl:5
+#: templates/includes/header.tpl:2
+msgid "Back to Main page"
+msgstr ""
+
+#: templates/includes/header.tpl:6
 msgid "My Account Settings"
 msgstr ""
 
-#: templates/includes/toptabs.tpl:5
+#: templates/includes/header.tpl:6
 msgid "My Account"
 msgstr ""
 
-#: templates/includes/toptabs.tpl:6
+#: templates/includes/header.tpl:7
 msgid "Logout of Your Account"
 msgstr ""
 
-#: templates/includes/toptabs.tpl:6
+#: templates/includes/header.tpl:7
 msgid "Logout"
 msgstr ""
 
-#: templates/includes/toptabs.tpl:10
+#: templates/includes/header.tpl:11
 msgid "New Account Registration"
 msgstr ""
 
-#: templates/includes/toptabs.tpl:11
+#: templates/includes/header.tpl:12
 msgid "Log In to Your Account"
 msgstr ""
 
-#: templates/includes/toptabs.tpl:11
+#: templates/includes/header.tpl:12
 msgid "Log In"
 msgstr ""
 
-#: templates/includes/navitabs.tpl:3
+#: templates/includes/mainmenu.tpl:3
 msgid "Go back to the home page"
 msgstr ""
 
-#: templates/includes/navitabs.tpl:3
+#: templates/includes/mainmenu.tpl:3
 msgid "Home"
 msgstr ""
 
-#: templates/includes/navitabs.tpl:4
+#: templates/includes/mainmenu.tpl:4
 msgid "Go to the News module"
 msgstr ""
 
-#: templates/includes/navitabs.tpl:4
+#: templates/includes/mainmenu.tpl:4
 msgid "News"
 msgstr ""
 
-#: templates/includes/navitabs.tpl:5
+#: templates/includes/mainmenu.tpl:5
 msgid "Go to the Forums module"
 msgstr ""
 
-#: templates/includes/navitabs.tpl:5
+#: templates/includes/mainmenu.tpl:5
 msgid "Forums"
 msgstr ""
 
-#: templates/includes/navitabs.tpl:6
+#: templates/includes/mainmenu.tpl:6
 msgid "Go to the Wiki module"
 msgstr ""
 
-#: templates/includes/navitabs.tpl:6
+#: templates/includes/mainmenu.tpl:6
 msgid "Wiki"
 msgstr ""
 
-#: templates/includes/navitabs.tpl:7
+#: templates/includes/mainmenu.tpl:7
 msgid "Go to the Sitemap module"
 msgstr ""
 
-#: templates/includes/navitabs.tpl:8
-msgid "Go to the Contact module"
+#: templates/includes/mainmenu.tpl:9
+msgid "Search"
+msgstr ""
+
+#: templates/includes/mainmenu.tpl:10
+msgid "Go"
 msgstr ""

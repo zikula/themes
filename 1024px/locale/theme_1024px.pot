@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Zikula 1.2.x\n"
+"Project-Id-Version: Zikula component\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-07 06:33-0500\n"
+"POT-Creation-Date: 2010-07-15 11:13-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,62 +24,102 @@ msgstr ""
 msgid "1024px OWSD Template"
 msgstr ""
 
-#: templates/includes/header.htm:4
-msgid "Jump To"
-msgstr ""
-
-#: templates/includes/header.htm:5
-msgid "Content"
-msgstr ""
-
-#: templates/includes/header.htm:6
-msgid "Navigation"
-msgstr ""
-
-#: templates/includes/header.htm:7
-msgid "Footer"
-msgstr ""
-
-#: templates/includes/footer.htm:6
+#: templates/includes/footer.tpl:6 templates/includes/footer.tpl~:6
 msgid "Home Page"
 msgstr ""
 
-#: templates/includes/footer.htm:8
-msgid "Privacy"
+#: templates/includes/footer.tpl:7 templates/includes/footer.tpl~:7
+msgid "Easily find information across our site via our Sitemap"
 msgstr ""
 
-#: templates/includes/footer.htm:10
+#: templates/includes/footer.tpl:7 templates/includes/footer.tpl~:7
 msgid "Sitemap"
 msgstr ""
 
-#: templates/includes/footer.htm:12
+#: templates/includes/footer.tpl:8 templates/includes/footer.tpl~:8
+msgid "Contact us"
+msgstr ""
+
+#: templates/includes/footer.tpl:8 templates/includes/footer.tpl~:8
 msgid "Contact"
 msgstr ""
 
-#: templates/includes/footer.htm:14
-msgid "RSS Feed"
+#: templates/includes/footer.tpl:9 templates/includes/footer.tpl~:9
+msgid "Subscribe link for our News RSS feed"
 msgstr ""
 
-#: templates/includes/footer.htm:20
-msgid "design by"
+#: templates/includes/footer.tpl:9 templates/includes/footer.tpl~:9
+msgid "RSS"
 msgstr ""
 
-#: templates/includes/footer.htm:20
-msgid "Andreas Viklund"
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:13
+msgid "design"
 msgstr ""
 
-#: templates/includes/footer.htm:21
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:13
+msgid "The website of"
+msgstr ""
+
+#: templates/includes/footer.tpl:14 templates/includes/footer.tpl~:14
 msgid "Valid"
 msgstr ""
 
-#: templates/includes/footer.htm:21
+#: templates/includes/footer.tpl:14 templates/includes/footer.tpl~:14
+msgid "Validate the CSS of this web page"
+msgstr ""
+
+#: templates/includes/footer.tpl:14 templates/includes/footer.tpl~:14
 msgid "CSS"
 msgstr ""
 
-#: templates/includes/footer.htm:22
+#: templates/includes/footer.tpl:15 templates/includes/footer.tpl~:15
+msgid "Validate the XHTML of this web page"
+msgstr ""
+
+#: templates/includes/footer.tpl:15 templates/includes/footer.tpl~:15
 msgid "XHTML"
 msgstr ""
 
-#: templates/includes/footer.htm:23
-msgid "Back to top"
+#: templates/includes/footer.tpl:16 templates/includes/footer.tpl~:12
+msgid "Link to"
+msgstr ""
+
+#: templates/includes/footer.tpl:16 templates/includes/footer.tpl~:12
+msgid "Powered By Zikula"
+msgstr ""
+
+#: templates/includes/head.tpl:12
+msgid "Main News RSS Feed"
+msgstr ""
+
+#: templates/includes/header.tpl:4
+msgid "Jump To Page Location"
+msgstr ""
+
+#: templates/includes/header.tpl:5
+msgid "Go to the content of this page"
+msgstr ""
+
+#: templates/includes/header.tpl:5
+msgid "Content"
+msgstr ""
+
+#: templates/includes/header.tpl:6
+msgid "Go to the sidebar column of this page"
+msgstr ""
+
+#: templates/includes/header.tpl:6
+msgid "Navigation"
+msgstr ""
+
+#: templates/includes/header.tpl:7
+msgid "Go to the footer of this page"
+msgstr ""
+
+#: templates/includes/header.tpl:7
+msgid "Footer"
+msgstr ""
+
+#: templates/includes/header.tpl:9
+msgid "Go to the home page of"
 msgstr ""

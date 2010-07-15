@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zikula component\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-10 05:17-0500\n"
+"POT-Creation-Date: 2010-07-15 11:17-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgid "Go to the Sitemap module"
 msgstr ""
 
 #: templates/includes/menu-right.tpl:6 templates/includes/footer.tpl:6
-#: templates/includes/menu-left.tpl:6
+#: templates/includes/menu-left.tpl:6 templates/includes/footer.tpl~:6
 msgid "Sitemap"
 msgstr ""
 
@@ -70,59 +70,64 @@ msgid "Go to the Contact module"
 msgstr ""
 
 #: templates/includes/menu-right.tpl:7 templates/includes/footer.tpl:7
-#: templates/includes/menu-left.tpl:7
+#: templates/includes/menu-left.tpl:7 templates/includes/footer.tpl~:7
 msgid "Contact"
 msgstr ""
 
-#: templates/includes/footer.tpl:5
+#: templates/includes/footer.tpl:5 templates/includes/footer.tpl~:5
 msgid "Home Page"
 msgstr ""
 
-#: templates/includes/footer.tpl:6
+#: templates/includes/footer.tpl:6 templates/includes/footer.tpl~:6
 msgid "Easily find information across our site via our Sitemap"
 msgstr ""
 
-#: templates/includes/footer.tpl:7
+#: templates/includes/footer.tpl:7 templates/includes/footer.tpl~:7
 msgid "Contact us"
 msgstr ""
 
-#: templates/includes/footer.tpl:8
+#: templates/includes/footer.tpl:8 templates/includes/footer.tpl~:8
 msgid "Subscribe link for our News RSS feed"
 msgstr ""
 
-#: templates/includes/footer.tpl:8
+#: templates/includes/footer.tpl:8 templates/includes/footer.tpl~:8
 msgid "RSS"
 msgstr ""
 
-#: templates/includes/footer.tpl:11
-msgid "design"
-msgstr ""
-
-#: templates/includes/footer.tpl:11
+#: templates/includes/footer.tpl:11 templates/includes/footer.tpl:12
+#: templates/includes/footer.tpl~:11
 msgid "Link to"
 msgstr ""
 
-#: templates/includes/footer.tpl:12
+#: templates/includes/footer.tpl:11
+msgid "Powered By Zikula"
+msgstr ""
+
+#: templates/includes/footer.tpl:12 templates/includes/footer.tpl~:11
+msgid "design"
+msgstr ""
+
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:12
 msgid "Valid"
 msgstr ""
 
-#: templates/includes/footer.tpl:12
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:12
 msgid "Validate the CSS of this web page"
 msgstr ""
 
-#: templates/includes/footer.tpl:12
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:12
 msgid "CSS"
 msgstr ""
 
-#: templates/includes/footer.tpl:13
+#: templates/includes/footer.tpl:14 templates/includes/footer.tpl~:13
 msgid "Validate the XHTML of this web page"
 msgstr ""
 
-#: templates/includes/footer.tpl:13
+#: templates/includes/footer.tpl:14 templates/includes/footer.tpl~:13
 msgid "XHTML"
 msgstr ""
 
-#: templates/includes/footer.tpl:14
+#: templates/includes/footer.tpl:15 templates/includes/footer.tpl~:14
 msgid "Back to top"
 msgstr ""
 

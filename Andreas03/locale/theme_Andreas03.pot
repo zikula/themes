@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zikula component\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-08 05:21-0500\n"
+"POT-Creation-Date: 2010-07-15 11:16-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,74 +36,76 @@ msgstr ""
 msgid "Welcome"
 msgstr ""
 
-#: templates/includes/footer.tpl:4 templates/includes/header.tpl:2
+#: templates/includes/footer.tpl:4 templates/includes/footer.tpl~:4
+#: templates/includes/header.tpl:2
 msgid "Home Page"
 msgstr ""
 
-#: templates/includes/footer.tpl:5
+#: templates/includes/footer.tpl:5 templates/includes/footer.tpl~:5
 msgid "Easily find information across our site via our Sitemap"
 msgstr ""
 
-#: templates/includes/footer.tpl:5
+#: templates/includes/footer.tpl:5 templates/includes/footer.tpl~:5
 msgid "Sitemap"
 msgstr ""
 
-#: templates/includes/footer.tpl:6
+#: templates/includes/footer.tpl:6 templates/includes/footer.tpl~:6
 msgid "Contact us"
 msgstr ""
 
-#: templates/includes/footer.tpl:6
+#: templates/includes/footer.tpl:6 templates/includes/footer.tpl~:6
 msgid "Contact"
 msgstr ""
 
-#: templates/includes/footer.tpl:7
+#: templates/includes/footer.tpl:7 templates/includes/footer.tpl~:7
 msgid "Subscribe link for our News RSS feed"
 msgstr ""
 
-#: templates/includes/footer.tpl:7
+#: templates/includes/footer.tpl:7 templates/includes/footer.tpl~:7
 msgid "RSS"
 msgstr ""
 
-#: templates/includes/footer.tpl:8
+#: templates/includes/footer.tpl:8 templates/includes/footer.tpl~:8
 msgid "Valid"
 msgstr ""
 
-#: templates/includes/footer.tpl:8
+#: templates/includes/footer.tpl:8 templates/includes/footer.tpl~:8
 msgid "Validate the CSS of this web page"
 msgstr ""
 
-#: templates/includes/footer.tpl:8
+#: templates/includes/footer.tpl:8 templates/includes/footer.tpl~:8
 msgid "CSS"
 msgstr ""
 
-#: templates/includes/footer.tpl:9
+#: templates/includes/footer.tpl:9 templates/includes/footer.tpl~:9
 msgid "Validate the XHTML of this web page"
 msgstr ""
 
-#: templates/includes/footer.tpl:9
+#: templates/includes/footer.tpl:9 templates/includes/footer.tpl~:9
 msgid "XHTML"
 msgstr ""
 
-#: templates/includes/footer.tpl:10
+#: templates/includes/footer.tpl:10 templates/includes/footer.tpl~:10
 msgid "Back to top"
 msgstr ""
 
 #: templates/includes/footer.tpl:12
-msgid "Thanks to"
+msgid "design"
 msgstr ""
 
-#: templates/includes/footer.tpl:12
+#: templates/includes/footer.tpl:12 templates/includes/footer.tpl:13
+#: templates/includes/footer.tpl~:12 templates/includes/footer.tpl~:13
 msgid "Link to"
 msgstr ""
 
-#: templates/includes/footer.tpl:12
-msgid "Structured Settlements"
-msgstr ""
-
-#: templates/includes/footer.tpl:12
-msgid "design by"
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:13
+msgid "Powered By Zikula"
 msgstr ""
 
 #: templates/includes/head.tpl:12
 msgid "Main News RSS Feed"
+msgstr ""
+
+#: templates/includes/footer.tpl~:12
+msgid "design by"
 msgstr ""
