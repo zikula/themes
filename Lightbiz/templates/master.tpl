@@ -7,7 +7,7 @@
         <div class="content">
             <div class="rside">
                 <div class="topmenu">
-                    &nbsp;<a href="{modurl modname=Pages func=display pageid=1 title="{gt text="A page about us that needs to written"}"}">{gt text="About"}</a>&nbsp;|&nbsp;
+                    &nbsp;<a href="{modurl modname=Pages func=display pageid=1} title="{gt text="A page about us that needs to written"}">{gt text="About"}</a>&nbsp;|&nbsp;
                     <a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}">{gt text="Contact"}</a>
                 </div>
                 <div class="logo">
