@@ -21,6 +21,5 @@
             {/if}
             {include file="includes/footer.tpl"}
         </div>
-
     </body>
 </html>
