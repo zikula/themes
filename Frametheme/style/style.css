@@ -374,7 +374,10 @@ a:hover {
     text-align: center;
     width: 699px;
 }
-
+#footer a {
+    font-size: 9px;
+    color: #F6FFB7
+}
 
 div.credit {
     position: fixed;
@@ -390,9 +393,6 @@ div.credit {
     width: 729px;
 }
 
-#footer a {
-    color: #F6FFB7
-}
 
 /*Zikula additions*/
 a img {
