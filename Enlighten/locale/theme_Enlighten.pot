@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zikula component\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-15 19:53-0500\n"
+"POT-Creation-Date: 2010-07-15 19:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: version.php:4
-msgid "Ezekiel"
+msgid "Enlighten"
 msgstr ""
 
 #: version.php:5
-msgid "Ezekiel template is inspired by the Wordpress Blix theme"
+msgid "Enlighten open source template"
 msgstr ""
 
 #: templates/includes/footer.tpl:3 templates/includes/footer.tpl~:3
@@ -33,7 +33,7 @@ msgid "Easily find information across our site via our Sitemap"
 msgstr ""
 
 #: templates/includes/footer.tpl:4 templates/includes/footer.tpl~:4
-#: templates/includes/header.tpl:11
+#: templates/includes/header.tpl:15
 msgid "Sitemap"
 msgstr ""
 
@@ -42,7 +42,7 @@ msgid "Contact us"
 msgstr ""
 
 #: templates/includes/footer.tpl:5 templates/includes/footer.tpl~:5
-#: templates/includes/header.tpl:12
+#: templates/includes/header.tpl:16
 msgid "Contact"
 msgstr ""
 
@@ -50,98 +50,107 @@ msgstr ""
 msgid "Subscribe link for our News RSS feed"
 msgstr ""
 
-#: templates/includes/footer.tpl:6 templates/includes/footer.tpl~:6
+#: templates/includes/footer.tpl:6
 msgid "RSS"
 msgstr ""
 
-#: templates/includes/footer.tpl:9
+#: templates/includes/footer.tpl:8 templates/includes/footer.tpl:9
+#: templates/includes/footer.tpl~:8
 msgid "Link to"
 msgstr ""
 
-#: templates/includes/footer.tpl:9
+#: templates/includes/footer.tpl:8
 msgid "Powered By Zikula"
 msgstr ""
 
-#: templates/includes/footer.tpl:10
+#: templates/includes/footer.tpl:9
 msgid "design"
 msgstr ""
 
-#: templates/includes/footer.tpl:10 templates/includes/footer.tpl~:9
-msgid "mail to link for"
+#: templates/includes/footer.tpl:9 templates/includes/footer.tpl~:8
+msgid "styleshout"
 msgstr ""
 
-#: templates/includes/footer.tpl:11 templates/includes/footer.tpl~:10
+#: templates/includes/footer.tpl:10 templates/includes/footer.tpl~:9
 msgid "Valid"
 msgstr ""
 
-#: templates/includes/footer.tpl:11 templates/includes/footer.tpl~:10
+#: templates/includes/footer.tpl:10 templates/includes/footer.tpl~:9
 msgid "Validate the CSS of this web page"
 msgstr ""
 
-#: templates/includes/footer.tpl:11 templates/includes/footer.tpl~:10
+#: templates/includes/footer.tpl:10 templates/includes/footer.tpl~:9
 msgid "CSS"
 msgstr ""
 
-#: templates/includes/footer.tpl:12 templates/includes/footer.tpl~:11
+#: templates/includes/footer.tpl:11 templates/includes/footer.tpl~:10
 msgid "Validate the XHTML of this web page"
 msgstr ""
 
-#: templates/includes/footer.tpl:12 templates/includes/footer.tpl~:11
+#: templates/includes/footer.tpl:11 templates/includes/footer.tpl~:10
 msgid "XHTML"
 msgstr ""
 
-#: templates/includes/head.tpl:17
+#: templates/includes/head.tpl:12
 msgid "Main News RSS Feed"
 msgstr ""
 
-#: templates/includes/footer.tpl~:9
-msgid "Design"
+#: templates/includes/footer.tpl~:6
+msgid "RSS FEED"
 msgstr ""
 
-#: templates/includes/header.tpl:7
+#: templates/includes/footer.tpl~:8
+msgid "design by"
+msgstr ""
+
+#: templates/includes/header.tpl:3
+msgid "Go to the home page of"
+msgstr ""
+
+#: templates/includes/header.tpl:10
 msgid "Go back to the home page"
 msgstr ""
 
-#: templates/includes/header.tpl:7
+#: templates/includes/header.tpl:10
 msgid "Home"
 msgstr ""
 
-#: templates/includes/header.tpl:8
-msgid "Go to the News module"
-msgstr ""
-
-#: templates/includes/header.tpl:8
-msgid "News"
-msgstr ""
-
-#: templates/includes/header.tpl:9
-msgid "Go to the Forums module"
-msgstr ""
-
-#: templates/includes/header.tpl:9
-msgid "Forums"
-msgstr ""
-
-#: templates/includes/header.tpl:10
-msgid "Go to the Wiki module"
-msgstr ""
-
-#: templates/includes/header.tpl:10
-msgid "Wiki"
+#: templates/includes/header.tpl:11
+msgid "Go to the Pages module"
 msgstr ""
 
 #: templates/includes/header.tpl:11
-msgid "Go to the Sitemap module"
+msgid "Pages"
 msgstr ""
 
 #: templates/includes/header.tpl:12
-msgid "Go to the Contact module"
+msgid "Go to the News module"
+msgstr ""
+
+#: templates/includes/header.tpl:12
+msgid "News"
+msgstr ""
+
+#: templates/includes/header.tpl:13
+msgid "Go to the Forums module"
+msgstr ""
+
+#: templates/includes/header.tpl:13
+msgid "Forums"
+msgstr ""
+
+#: templates/includes/header.tpl:14
+msgid "Go to the Wiki module"
+msgstr ""
+
+#: templates/includes/header.tpl:14
+msgid "Wiki"
 msgstr ""
 
 #: templates/includes/header.tpl:15
-msgid "Search For..."
+msgid "Go to the Sitemap module"
 msgstr ""
 
 #: templates/includes/header.tpl:16
-msgid "Go"
+msgid "Go to the Contact module"
 msgstr ""
