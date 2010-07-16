@@ -18,7 +18,7 @@
             {if $pagetype eq 'home'}
             {blockposition name=center}
             {/if}
+            {include file="includes/footer.tpl"}
         </div>
-        {include file="includes/footer.tpl"}
     </body>
 </html>
