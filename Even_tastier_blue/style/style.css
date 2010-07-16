@@ -50,6 +50,8 @@ body {
     background: #fff;
     margin-top : 5px;
     margin-left: 5px;
+    padding-left:0px;
+    padding-right:5px;
     width: 190px;
     float: left;
     text-align: justify;
@@ -60,7 +62,9 @@ body {
     background: #fff;
     margin-top : 5px;
     margin-right: 10px;
-    width: 555px;
+    padding-left:5px;
+    padding-right:10px;
+    width: 540px;
     float: right;
     text-align: justify;
 }
@@ -85,7 +89,7 @@ body {
     margin-left:15px;
 }
 
-
+/*
 #header p {
     color: #FFF;
     padding-left: 15px;
@@ -94,17 +98,23 @@ body {
     margin-top: 5px;
     top:105px;
     margin-left:35px;
-}
+}*/
 
-
+/*
 #header form {
     position: absolute;
     font-size: 9px;
     background-color: transparent;
     top:195px;
     margin-left:590px;
+}*/
+#searchform-h {
+    position: absolute;
+    font-size: 9px;
+    background-color: transparent;
+    top:195px;
+    margin-left:590px;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
     color : #659500;
@@ -205,13 +215,13 @@ p.extmenuadmin {
 
 #topmenu {
     position: relative;
-    top: 13px;
+    top: 17px;
     left: 15px;
     width: 735px;
     font-size: 93%;
     margin: 0;
     line-height: normal;
-    height: 41px;
+    height: 29px;
 }
 
 
@@ -294,9 +304,9 @@ input {
 }
 
 
-.z-block {
+.z-blockposition-left, .z-blockposition-right {
     clear:left;
-    width: 185px;
+    width: 190px;
     margin-left: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
