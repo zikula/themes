@@ -1,10 +1,12 @@
 /* ---------------------------------------------------------------------------------------
 cnav
 ----------------------------------------------------------------------------------------*/
+img.hide { display:hidden;}
+
 div.cnav{
 clear:both;
 float:right;
-    margin-left: 530px;
+    margin-left: 480px;
     text-align: right;
     width: 250px;
 top:5px;
@@ -12,6 +14,7 @@ position:absolute;
 }
 
 ul#cnav {
+float:left;
     text-align: center;
     padding-bottom: 0px;
     padding-top: 0px;
@@ -19,7 +22,7 @@ ul#cnav {
     margin-top: 0;
     /* cancels gap caused by top padding in Opera 7.54 */margin-left: 0;
     width: 100%;
-    font-size: 8px;
+    font-size: 10px;
     line-height: 10px;
     /* fixes Firefox 0.9.3 */;
 }
@@ -48,6 +51,8 @@ ul#cnav li a {
     line-height: 10px;
     background-position : center center;
     background-repeat : no-repeat;
+     height:10px;
+     width:14px;
 
 }
 
