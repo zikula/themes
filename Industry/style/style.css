@@ -229,8 +229,9 @@ a {
 
 #footer {
     width: 678px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+     height:45px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -240,11 +241,12 @@ a {
     clear:both;
 }
 #footer p {
-    padding:5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-.f-left {float:left;text-align : left;padding-left:5px;}
-.f-right {float:right;text-align:right;padding-right:5px;}
+.f-left {float:left;text-align : left;padding-left:10px;}
+.f-right {float:right;text-align:right;padding-right:10px;}
 
 .left {
     float: left;
