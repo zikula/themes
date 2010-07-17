@@ -4,9 +4,9 @@
         {include file="includes/head.tpl"}
     </head>
     <body>
-        <div class="content">
+        <div id="bodywrap">
             {include file="includes/header.tpl"}
-            <div id="main">
+            <div id="content">
                 <div class="center2c">
                     {if $pagetype eq 'home'}
                     {blockposition name=center}
