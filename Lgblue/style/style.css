@@ -95,6 +95,16 @@ h2 a:hover {
 /* ------------------HTML---------------------*/
 
 
+#bodywrap {
+    color: #505050;
+    margin: 0 auto;
+    width: 791px;
+    background: #FFFFFF url(../images/bg.jpg) repeat-y center;
+overflow: auto;
+}
+
+
+
 #topnav {
     background: #F0F0F0 url(../images/top.jpg) no-repeat center top;
     min-height: 14px;
@@ -145,21 +155,23 @@ h2 a:hover {
     letter-spacing: 1px;
 }
 
+
+
 /* MAIN CONTENT */
 
-#main {
+#content {
     margin: 0 20px 0 15px;
 }
 
 
-#main h4 {
+#content h4 {
     background-color: inherit;
     color: #156184;
     line-height: 0.2em;
 }
 
 
-#main .z-block h4 {
+#content .z-block h4 {
     background-color: inherit;
     color: #156184;
     line-height: 0.2em;
@@ -167,7 +179,7 @@ h2 a:hover {
 }
 
 
-#main h3 {
+#content h3 {
     font: 85% Arial, Sans-Serif;
     margin: 0 0 10px 0;
     padding: 0;
@@ -176,21 +188,11 @@ h2 a:hover {
 }
 
 
-#main .z-block form {
+#content .z-block form {
     background-color: inherit;
     color: #156184;
     padding-left: 5px;
 }
-
-
-.content {
-    color: #505050;
-    margin: 0 auto;
-    padding: 0;
-    width: 791px;
-    background: #FFFFFF url(../images/bg.jpg) repeat-y center;
-}
-
 
 .center {
     background: #FFF;
@@ -337,6 +339,8 @@ p.extmenuadmin {
     clear: both;
     padding: 0px;
     margin: 0;
+overflow: auto;
+
 }
 
 
