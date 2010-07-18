@@ -1,7 +1,5 @@
 <div id="topbar">{* Top bar *}
-    <a href="{getbaseurl}{configgetvar name=entrypoint}?newlang=rus" title="{gt text="Change Language to Russian"}"><img src="{$imagepath}/russian.gif" alt="{gt text="Russian language flag icon"}" class="languageimg" /></a>
-    <a href="{getbaseurl}{configgetvar name=entrypoint}?newlang=fra" title="{gt text="Change Language to French"}"><img src="{$imagepath}/french.gif" alt="{gt text="French" language flag icon}" class="languageimg" /></a>
-    <a href="{getbaseurl}{configgetvar name=entrypoint}?newlang=eng" title="{gt text="Change Language to English"}"><img src="{$imagepath}/english.gif" alt="{gt text="English language flag icon"}" class="languageimg" /></a>
+&nbsp;
 </div>
 <div id="hdr">{* header *}
     <h1><a href="{homepage}" title="{gt text="Home"}"><span>{sitename}&nbsp;{gt text="Online"}</span>{gt text="Business"}</a></h1>
