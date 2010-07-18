@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula component\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-17 21:53-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:4
+msgid "Natural_Gloom"
+msgstr ""
+
+#: version.php:5
+msgid "Natural Gloom open source template"
+msgstr ""
+
+#: docs/old-module-templates/News-Sample/news_user_articlecontent.tpl:2
+msgid "Characters Used"
+msgstr ""
+
+#: docs/old-module-templates/News-Sample/news_user_articlecontent.tpl:9
+msgid "Posted By"
+msgstr ""
+
+#: docs/old-module-templates/News-Sample/news_user_articlecontent.tpl:9
+msgid "On"
+msgstr ""
+
+#: templates/includes/navigation.tpl:4
+msgid "Home"
+msgstr ""
+
+#: templates/includes/navigation.tpl:5
+msgid "Blog Post"
+msgstr ""
+
+#: templates/includes/navigation.tpl:6
+msgid "Style Demo"
+msgstr ""
+
+#: templates/includes/navigation.tpl:7
+msgid "Archives"
+msgstr ""
+
+#: templates/includes/navigation.tpl:8
+msgid "Empty Page"
+msgstr ""
+
+#: templates/includes/navigation.tpl:14
+msgid "First subpage"
+msgstr ""
+
+#: templates/includes/navigation.tpl:15
+msgid "Second subpage"
+msgstr ""
+
+#: templates/includes/navigation.tpl:16
+msgid "Third subpage"
+msgstr ""
+
+#: templates/includes/navigation.tpl:17
+msgid "And so on.."
+msgstr ""
+
+#: templates/includes/footer.tpl:5 templates/includes/footer.tpl~:5
+msgid "Home Page"
+msgstr ""
+
+#: templates/includes/footer.tpl:6 templates/includes/footer.tpl~:6
+msgid "Easily find information across our site via our Sitemap"
+msgstr ""
+
+#: templates/includes/footer.tpl:6 templates/includes/footer.tpl~:6
+msgid "Sitemap"
+msgstr ""
+
+#: templates/includes/footer.tpl:7 templates/includes/footer.tpl~:7
+msgid "Contact us"
+msgstr ""
+
+#: templates/includes/footer.tpl:7 templates/includes/footer.tpl~:7
+msgid "Contact"
+msgstr ""
+
+#: templates/includes/footer.tpl:8 templates/includes/footer.tpl~:8
+msgid "Subscribe link for our News RSS feed"
+msgstr ""
+
+#: templates/includes/footer.tpl:8
+msgid "RSS"
+msgstr ""
+
+#: templates/includes/footer.tpl:11 templates/includes/footer.tpl:12
+#: templates/includes/footer.tpl~:11
+msgid "Link to"
+msgstr ""
+
+#: templates/includes/footer.tpl:11
+msgid "Powered By Zikula"
+msgstr ""
+
+#: templates/includes/footer.tpl:12
+msgid "design"
+msgstr ""
+
+#: templates/includes/footer.tpl:12 templates/includes/footer.tpl~:11
+msgid "Arcsin"
+msgstr ""
+
+#: templates/includes/footer.tpl:13
+msgid "valid"
+msgstr ""
+
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:12
+msgid "Validate the CSS of this web page"
+msgstr ""
+
+#: templates/includes/footer.tpl:13 templates/includes/footer.tpl~:12
+msgid "CSS"
+msgstr ""
+
+#: templates/includes/footer.tpl:14 templates/includes/footer.tpl~:13
+msgid "Validate the XHTML of this web page"
+msgstr ""
+
+#: templates/includes/footer.tpl:14 templates/includes/footer.tpl~:13
+msgid "XHTML"
+msgstr ""
+
+#: templates/includes/head.tpl:12
+msgid "Main News RSS Feed"
+msgstr ""
+
+#: templates/includes/footer.tpl~:8
+msgid "RSS FEED"
+msgstr ""
+
+#: templates/includes/footer.tpl~:11
+msgid "Website template"
+msgstr ""
+
+#: templates/includes/footer.tpl~:11
+msgid "by"
+msgstr ""
+
+#: templates/includes/footer.tpl~:12
+msgid "Valid"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:5
+msgid "Tincidunt"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:7 templates/includes/dashboard.tpl:23
+#: templates/includes/dashboard.tpl:32
+msgid "Consequat molestie"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:8 templates/includes/dashboard.tpl:20
+msgid "Sem justo"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:9
+msgid "Semper eros"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:10 templates/includes/dashboard.tpl:21
+#: templates/includes/dashboard.tpl:33
+msgid "Magna sed purus"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:11
+msgid "Tincidunt morbi"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:17
+msgid "Fermentum"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:19
+msgid "Semper fermentum"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:22
+msgid "Tincidunt nisl"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:29
+msgid "Praesent"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:31
+msgid "Semper lobortis"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:34
+msgid "Sem morbi"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:35
+msgid "Tincidunt sed"
+msgstr ""
+
+#: templates/includes/header.tpl:4
+msgid "Go to the home page of"
+msgstr ""
