@@ -254,22 +254,29 @@ h1,h2,h3 {
 /* footer */
 
 #footer {
-    background: url(../images/bgfooter.gif) repeat-x;
+    background-color: #567300 ;
+    border-top: 2px solid #729700 ;
+    border-left: 1px solid #739a00 ;
+    border-right: 1px solid #739a00 ;
+    /*background: url(../images/bgfooter.gif) repeat-x;*/
     color: #FFF;
-    font-size: 1.1em;
-    line-height: 40px;
+    font-size: 1.2em;
+    line-height: 1.1em;
     margin: 0 auto;
     text-align: center;
     width: 626px;
+    padding-top:5px;
 }
 
 
 #footer a {
+text-decoration: none;
     color: #FFF;
 }
 
 
 #footer a:hover {
+text-decoration: underline;
     color: #FAFCB0;
 }
 
