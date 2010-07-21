@@ -13,7 +13,10 @@
             <input type="hidden" name="modvar[limitsummary]" value="255" />
         </p>
     </form>
-<h1 id="sitename"><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a></h1>
+<h1 id="sitename">
+    {sitename assign="sitename"}
+    &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+</h1>
 <h2 id="slogan">{slogan}</h2>
     <ul id="nav">
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
