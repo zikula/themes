@@ -5,7 +5,10 @@
     <a href="#main" title="{gt text="Go to the main content on this page"}">{gt text="main content"}</a>
 </p>
 <div id="sitename">
-    <h1><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a></h1>
+    <h1>
+        {sitename assign="sitename"}
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    </h1>
     <span>{slogan}</span>
     <a id="menu"></a>
 </div>
