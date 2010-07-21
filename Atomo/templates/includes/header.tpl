@@ -15,7 +15,7 @@
     <div id="logo">
         <h1 id="sitename">
         {sitename assign="sitename"}
-        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
         </h1>
         <h2 id="slogan">{slogan}</h2>
     </div>
