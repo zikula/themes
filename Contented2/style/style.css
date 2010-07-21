@@ -62,7 +62,7 @@ h4 {
 
 a {
     color: #FF3333;
-    background-color: #FFFFFF;
+    background-color: transparent;
     font-weight: normal;
     text-decoration: none;
 }
@@ -70,7 +70,7 @@ a {
 
 a:hover {
     color: #FF0000;
-    background-color: #FFFFFF;
+    background-color: transparent;
     font-weight: normal;
     text-decoration: underline;
 }
@@ -257,17 +257,18 @@ ul#nav a.selected:visited {
     line-height:1.5em;
     width: 760px;
     clear:both;
+    overflow:auto;
 }
 
 
-#footera {
+#footer a {
     color:#FF3333;
     background-color:#FFFFFF;
     text-decoration: none;
 }
 
 
-#footera:hover {
+#footer a:hover {
     color:#FF0000;
     background-color:#FFFFFF;
     font-weight: normal;
@@ -278,8 +279,7 @@ ul#nav a.selected:visited {
 #copyrightdesign {
     color:#000000;
     background-color:#FFFFFF;
-    padding:5px 20px 5px 0px;
-    width: 580px;
+    padding:5px 10px 5px 0px;
     float:left;
 }
 
@@ -287,7 +287,9 @@ ul#nav a.selected:visited {
 #footercontact {
     color:#FF0000;
     background-color:#FFFFFF;
-    padding:5px 0px 5px 0px;
-    float:right;
+    padding-bottom : 5px;
+    padding-right : 10px;
+    padding-top : 5px;
+    text-align : right;
 }
 

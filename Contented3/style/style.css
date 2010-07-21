@@ -64,7 +64,7 @@ li, dd {
 
 a {
     color: #3366CC;
-    background-color: #FFFFFF;
+    background-color: transparent;
     font-weight: normal;
     text-decoration: none;
     outline:none;
@@ -73,7 +73,7 @@ a {
 
 a:hover {
     color: #0033CC;
-    background-color: #FFFFFF;
+    background-color: transparent;
     font-weight: normal;
     text-decoration: underline;
 }
@@ -220,6 +220,8 @@ ul#nav a.selected:visited {
     line-height:1.5em;
     width: 650px;
     clear:both;
+    overflow:auto;
+    padding-top : 5px;
 }
 
 
@@ -241,7 +243,10 @@ ul#nav a.selected:visited {
 #copyright {
     color:#000000;
     background-color:#FFFFFF;
-    padding:5px 20px 5px 0px;
+    padding-bottom : 5px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-top : 0px;
     float:left;
 }
 
@@ -250,8 +255,8 @@ ul#nav a.selected:visited {
     background-color : #FFFFFF;
     color : #0033CC;
     float : right;
-    padding-bottom : 5px;
+    padding-bottom : 0px;
     padding-left : 0px;
-    padding-right : 5px;
+    padding-right : 10px;
     padding-top : 0px;
 }
