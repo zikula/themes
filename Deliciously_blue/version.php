@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Deliciously_blue';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Deliciously_Blue', $domain);
+$themeversion['displayname'] = __('Deliciously Blue', $domain);
 $themeversion['description'] = __('Deliciously Blue OWD template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, J David Macor';

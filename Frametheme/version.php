@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Frametheme';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Frame_Theme', $domain);
+$themeversion['displayname'] = __('Frame Theme', $domain);
 $themeversion['description'] = __('Frame Theme', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, Kai Ackermann';

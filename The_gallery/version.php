@@ -1,7 +1,7 @@
 <?php
 $themeversion['name'] = 'The_gallery';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('The_Gallery', $domain);
+$themeversion['displayname'] = __('The Gallery', $domain);
 $themeversion['description'] = __('The Gallery OWD template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'Mark West, Dave Reeder';

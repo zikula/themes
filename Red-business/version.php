@@ -1,8 +1,8 @@
 <?php 
 $themeversion['name'] = 'Red-business';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Red-Business', $domain);
-$themeversion['description'] = __('Red-Business template', $domain);
+$themeversion['displayname'] = __('Red Business', $domain);
+$themeversion['description'] = __('Red Business template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'Mark West, David Herreman';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.free-css-templates.com';

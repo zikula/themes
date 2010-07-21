@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Design_dream';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Design_Dream', $domain);
+$themeversion['displayname'] = __('Design Dream', $domain);
 $themeversion['description'] = __('Design Dream OWD template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'Mark West, J David Macor';

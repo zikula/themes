@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Even_tastier_blue';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Even_Tastier_Blue', $domain);
+$themeversion['displayname'] = __('Even Tastier Blue', $domain);
 $themeversion['description'] = __('Even Tastier Blue template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, J David Macor, Aran Down';

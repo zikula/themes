@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Kubrick';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('kubrick', $domain);
+$themeversion['displayname'] = __('Kubrick', $domain);
 $themeversion['description'] = __('Kubrick template by Michael Heilemann', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, Michael Heilemann';

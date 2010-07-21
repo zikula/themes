@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Pixelgreen';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Pixel_Green', $domain);
+$themeversion['displayname'] = __('Pixel Green', $domain);
 $themeversion['description'] = __('Pixel Green open source template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'Mark West, Erwin Aligam';

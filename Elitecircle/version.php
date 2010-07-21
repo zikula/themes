@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Elitecircle';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Elite_Circle', $domain);
+$themeversion['displayname'] = __('Elite Circle', $domain);
 $themeversion['description'] = __('Elite Circle open source template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, Erwin Aligam';

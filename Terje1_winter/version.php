@@ -1,8 +1,8 @@
 <?php
 $themeversion['name'] = 'Terge1_winter';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Terge1_winter', $domain);
-$themeversion['description'] = __('Terge1 winter OSWD template', $domain);
+$themeversion['displayname'] = __('Terge1 Winter', $domain);
+$themeversion['description'] = __('Terge1 Winter OSWD template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'Mark West, Asphaug.info';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://asphaug.info';

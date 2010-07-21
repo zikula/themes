@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Typography_paramount';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Typography_Paramount', $domain);
+$themeversion['displayname'] = __('Typography Paramount', $domain);
 $themeversion['description'] = __('Typography Paramount template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, James Koster';

@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Greenbusiness';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Green_Business', $domain);
+$themeversion['displayname'] = __('Green Business', $domain);
 $themeversion['description'] = __('Green business template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, David Herreman';

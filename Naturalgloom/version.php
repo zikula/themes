@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Naturalgloom';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Natural_Gloom', $domain);
+$themeversion['displayname'] = __('Natural Gloom', $domain);
 $themeversion['description'] = __('Natural Gloom open source template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, ArcSin';

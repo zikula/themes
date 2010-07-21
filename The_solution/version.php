@@ -1,7 +1,7 @@
 <?php
 $themeversion['name'] = 'The_solution';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('The_Solution', $domain);
+$themeversion['displayname'] = __('The Solution', $domain);
 $themeversion['description'] = __('The Solution OWD template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, Jasper van der Meer';

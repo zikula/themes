@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Simpleblog';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Simple_Blog', $domain);
+$themeversion['displayname'] = __('Simple Blog', $domain);
 $themeversion['description'] = __('Simple Blog template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'Mark West, Erwin Aligam';

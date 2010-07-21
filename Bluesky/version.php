@@ -1,7 +1,7 @@
 <?php
 $themeversion['name'] = 'Bluesky';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Blue_Sky', $domain);
+$themeversion['displayname'] = __('Blue Sky', $domain);
 $themeversion['description'] = __('Blue Sky OWD template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, Jonas John';

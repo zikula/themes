@@ -1,7 +1,7 @@
 <?php 
 $themeversion['name'] = 'Citrusisland';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Citrus_Island', $domain);
+$themeversion['displayname'] = __('Citrus Island', $domain);
 $themeversion['description'] = __('Citrus Island template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, Erwin Aligam';

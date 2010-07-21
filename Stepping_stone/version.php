@@ -1,8 +1,8 @@
 <?php 
 $themeversion['name'] = 'Stepping_stone';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = __('Stepping_stone', $domain);
-$themeversion['description'] = __('Stepping stone template', $domain);
+$themeversion['displayname'] = __('Stepping Stone', $domain);
+$themeversion['description'] = __('Stepping Stone template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'Mark West, James Koster';
 $themeversion['contact'] = 'http://www.markwest.me.uk, http://www.sixshootermedia.com/';
