@@ -14,5 +14,5 @@ $themeversion['system'] = 0;
 $themeversion['credits'] = '';
 $themeversion['help'] = '';
 $themeversion['changelog'] = '';
-$themeversion['license'] = 'http://creativecommons.org/licenses/by/2.5/';
+$themeversion['license'] = 'http://creativecommons.org/licenses/by-nc/3.0/us/';
 $themeversion['xhtml'] = true;
