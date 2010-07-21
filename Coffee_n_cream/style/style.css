@@ -314,10 +314,11 @@ blockquote {
     background: #958463 url(../images/bgfooter.gif) repeat-x;
     color: #FED;
     font-size: .8em;
-    line-height: 40px;
+    line-height: 20px;
     margin: 0 auto;
+    padding:10px;
     text-align: center;
-    width: 760px;
+    width: 740px;
     border-bottom: #7d725c solid 1px;
   }
 
