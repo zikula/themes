@@ -486,8 +486,10 @@ padding-left: 15px;
 #footer-design {
     position: relative;
     clear: both;
+    letter-spacing: .07em;
+    padding-bottom: 10px;
     padding-right: 20px;
-    font: 570 .95em 'Trebuchet MS', Tahoma, sans-serif;
+    font: .8em 'Trebuchet MS', Tahoma, sans-serif;
     text-align: right;
     background: #202020;
     color: #CCC;
