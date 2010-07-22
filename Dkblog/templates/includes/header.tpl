@@ -1,7 +1,8 @@
 <div id="topbar">
     <div class="content">
         <div id="icons">
-            <a href="{homepage}" title="{gt text="Go back to the home page of"} {sitename}"><img src="{$imagepath}/home.gif" alt="Home link icon image" /></a>
+            {sitename assign="sitename"}
+            <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}"><img src="{$imagepath}/home.gif" alt="Home link icon image" /></a>
             <a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}"><img src="{$imagepath}/contact.gif" alt="{gt text="Contact link icon image"}" /></a>
             <a href="{modurl modname=Sitemap}" title="{gt text="Go to the Sitemap module"}"><img src="{$imagepath}/sitemap.gif" alt="{gt text="SiteMap link icon image"}" /></a>
         </div>
@@ -33,7 +34,9 @@
                 <li {if $module eq 'wikula'} class="current" {/if}><a href="{modurl modname=wikula}" title="{gt text="Go to the Wiki module"}"><span class="last">{gt text="Wiki"}</span></a></li>
             </ul>
         </div>
-        <h1><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a></h1>
+        <h1>
+            <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        </h1>
         <h2>{slogan}</h2>
     </div>
 </div>
