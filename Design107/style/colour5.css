@@ -42,7 +42,7 @@ h1, #column1 h4, #column2 h2 {
 
 
 #footer a, #footer a:hover {
-    background-color: #FFFFFF;
+    background-color: transparent;
     color: #4F5F54;
 }
 
@@ -88,7 +88,7 @@ h1, #column1 h4, #column2 h2 {
 
 
 #content, #column1, #column2, .block a, #column2 a,.block a:hover, #column2 a:hover {
-    background: #FFFFFF;
+    background: transparent;
     color: #4F5F54;
 }
 
