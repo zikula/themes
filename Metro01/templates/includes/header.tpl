@@ -8,5 +8,8 @@
     <li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}">{gt text="Contact"}</a></li>
 </ul>
 <div id="head">
-    <h1 class="title"><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a></h1>
+    <h1 class="title">
+    {sitename assign="sitename"}
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    </h1>
 </div>
