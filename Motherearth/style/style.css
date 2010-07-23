@@ -325,16 +325,16 @@ a img {
 
 
 #page_footer div {
-    padding-top:25px;
+    padding-top:5px;
     text-align:center;
     font-family: verdana;
-    font-size: 10px;
     line-height:14px;
     color:#D5D0B0;
 }
 
 #page_footer div.left {
     float:left;
+    font-size: .8em;
     text-align : left;
     padding-left:5px;
 }
@@ -342,27 +342,19 @@ a img {
 
 #page_footer div.right {
     float:right;
+    font-size: .8em;
     text-align:right;
     padding-right:5px;
 }
 
-#page_footer div.left a:link, #page_footer div.right a:link {
-    color: #FBD539;
-    text-decoration: none;
-}
-
-
-#page_footer div.left a:visited, #page_footer div.right a:visited {
-    color: #FBD539;
-    text-decoration: none;
-}
-
-
+#page_footer div.left a, #page_footer div.right a,
+#page_footer div.left a:link, #page_footer div.right a:link,
+#page_footer div.left a:visited, #page_footer div.right a:visited,
 #page_footer div.left a:active, #page_footer div.right a:active {
     color: #FBD539;
     text-decoration: none;
+    font-weight:bold;
 }
-
 
 #page_footer div.left a:hover, #page_footer div.right a:hover {
     color: #FBD539;
@@ -408,5 +400,23 @@ a img {
     border:0px;
 }
 
+/* Zikula Styles
+----------------------------------------------- */
 
+.z-menuitem-title {
+font-size: 9px;
+}
 
+#block_search_q {
+    min-width : 90px !important;
+    max-width : 130px;
+  }
+#block_search_q{
+  font-size: 90%;
+  font-weight: bold;
+  padding: 2px 2px;
+}
+
+.z-bkey-search form legend {
+font-size: 12px;
+}
