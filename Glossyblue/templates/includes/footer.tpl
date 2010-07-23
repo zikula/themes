@@ -16,22 +16,29 @@
     {* about text end *}
     <hr class="clear" />
 </div>
-<div id="credits">
+<div id="credits" style="overflow:auto;">
     <div id="credits-left">
         {if $loggedin eq true}
         <a href="{modurl modname=Users func=logout}" title="{gt text="Logout of Your Account"}"><img src="{$imagepath}/mini-loginout.gif" alt="Logout" />&nbsp;{gt text="Logout"}</a>
         {else}
         <a href="{modurl modname=Users func=loginscreen}" title="{gt text="Log In to Your Account"}"><img src="{$imagepath}/mini-loginout.gif" alt="" />&nbsp;{gt text="Login"}</a>
         {/if}
-        &nbsp;|&nbsp;&copy;&nbsp;2006-{'Y'|date}&nbsp;<a href="{homepage}" title="{sitename}&nbsp;{gt text="Home Page"}"><strong>{sitename}</strong></a>&nbsp;|&nbsp;
-        <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find information across our site via our Sitemap"}">{gt text="Sitemap"}</a>&nbsp;|&nbsp;
-        <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}">{gt text="Contact"}</a>&nbsp;|&nbsp;
-        <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscribe link for our News RSS feed"}">{gt text="RSS"}&nbsp;<img src="{$imagepath}/mini-rss.gif" alt="{gt text="RSS Feed Icon"}" /></a>
+        &nbsp;|&nbsp;{sitename assign="sitename"}
+        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
     </div>
     <div id="credits-right">
-        <a href="http://www.zikula.org" title="{gt text="Link to"} Zikula.Org">{gt text="Powered By Zikula"}</a>&nbsp;|&nbsp;
-        {gt text="design"}:&nbsp;&amp;&nbsp;<a href="http://www.ndesign-studio.com/stock-icons/" title="{gt text="Link to"} ndesign-studio.com/stock-icons/">{gt text="Icons"}</a> by <a href="http://www.ndesign-studio.com" title="{gt text="Link to"} ndesign-studio.com">{gt text="N.Design Studio"}</a>&nbsp;|&nbsp;
-        {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}"><strong>{gt text="CSS"}</strong></a>&nbsp;/&nbsp;
-        <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a>
+        <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find a page on our sitemap"}">{gt text="Sitemap"}</a>&nbsp;|&nbsp;
+            <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}">{gt text="Contact"}</a>&nbsp;|&nbsp;
+            <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}">{gt text="RSS"}&nbsp;<img src="{$imagepath}/mini-rss.gif" alt="{gt text="RSS Feed Icon"}" /></a>
+    </div>
+    <div style="float : left; font-size : .85em; letter-spacing : .08em; margin-bottom : 0px; margin-top : 5px; padding-bottom : 0px; padding-left : 10px; text-align : left;clear:both;">
+        {assign var="poweredbyz" value="Powered by Zikula"}
+        {gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}&nbsp;|&nbsp;
+        {assign var="zthemes" value="Theme by Zikula Themes"}
+        {gt text='Theme by <a href="http://code.zikula.org/themes/" title="%s">Zikula Themes</a>' tag1=$zthemes}&nbsp;|&nbsp;
+        {assign var="designbyz" value="Design &amp; Icons by N.Design Studio"}
+        {gt text='Design &amp; Icons by <a href="http://www.ndesign-studio.com/stock-icons/" title="%s">N.Design Studio</a>' tag1=$designbyz}&nbsp;|&nbsp;
+        {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}">{gt text="CSS"}</a>&nbsp;/&nbsp;
+        <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}">{gt text="XHTML"}</a>
     </div>
 </div>
