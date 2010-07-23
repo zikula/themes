@@ -15,7 +15,7 @@
             </div> 
             <div id="sidebar"> 
                     <div class="searchform">
-                        {search class=search search_class=textbox button_class=button button=Search}
+                        {blockposition name=search}
                     </div>
                 {blockposition name=left}
                 {blockposition name=right}
