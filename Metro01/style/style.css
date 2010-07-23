@@ -213,7 +213,7 @@ a:hover {
     clear:both;
     text-align:center;
     background: #ddd;
-
+    overflow:auto;
     font-size:10px;
     color:#333;
 }
@@ -223,17 +223,10 @@ a:hover {
     padding-bottom : 1px;
     padding-left : 10px;
     padding-right : 10px;
-    padding-top : 5px;
+    padding-top : 0px;
     font-size:10px;
     color:#333;
 }
-#footer p span {
-    background: #ddd;
-
-    font-size:10px;
-    color:#333;
-}
-
 
 * html #footer {
     height:20px;
