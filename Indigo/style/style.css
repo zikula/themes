@@ -211,7 +211,8 @@ h1,h2,h3 {
     background: #0094D6 url(../images/bgfooter.gif) repeat-x;
     color: #C1DEF0;
     font-size: 1.1em;
-    line-height: 40px;
+ overflow:auto;
+    min-height: 40px;
     text-align: center;
 }
 
