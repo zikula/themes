@@ -234,7 +234,7 @@ p.extmenuadmin {
 }
 
 #page_footer {
-  height: 20px;
+  height: 25px;
   background-color: #99CC33;
   clear: both;
 }
@@ -270,3 +270,8 @@ p.extmenuadmin {
   font-size: 11px;
   line-height:18px;
 }
+
+#block_search_q {
+    min-width : 90px !important;
+    max-width : 150px;
+  }
