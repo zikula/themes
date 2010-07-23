@@ -115,6 +115,7 @@ ul#navigation li a:hover, #footer a:hover {
     background: #fff;
     border: 1px solid #fff;
     position: relative;
+    padding-bottom : 10px;
 }
 
 #content:after {
@@ -212,38 +213,29 @@ It uses a hack for vertical-align because IE doesn't work properly with tables
 
 /************* Footer *************/
 #footer {
-    font-size:10px;
-    position: relative;
     clear: both;
     margin: 0 auto;
     background: #45444d;
-    width: 736px;
+    width: 740px;
     color: #fff;
     border: 1px solid #fff;
     text-align: center;
-    height:30px;
-    padding: 2px 2px;
+    height:45px;
 }
 
 #footer p {
-    position: relative;
-    margin: 0 auto;
     background: #45444d;
     color: #fff;
-    padding: 3px 3px;
+
 }
 
 #footer p span {
-    position: relative;
     margin: 0 auto;
-    padding: 5px 5px;
     background: #45444d;
     color: #fff;
 }
 
 
 #footer a {
-    padding: 5px 5px;
     color: #fff;
-    font-weight: bold;
 }
