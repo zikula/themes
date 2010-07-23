@@ -1,6 +1,9 @@
 <div id="header">
     <div id="headerimg">
-        <h1 class="pagetitle"><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a></h1>
+        <h1 class="pagetitle">
+        {sitename assign="sitename"}
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        </h1>
         <div class="slogan">{slogan}</div>
     </div>
     <ul id="primarylink">
