@@ -16,275 +16,283 @@ Date:     26 Feb 2004
 ----------------------------------------------- */
 
 #blogTitle {
-	position: absolute;	
-	font-family: 'Arial Black', Sans-Serif;
-	color: #333;
-	font-size: 10pt;
-	text-transform: uppercase;
-	text-align: left;
+        position: absolute;	
+        font-family: 'Arial Black', Sans-Serif;
+        color: #333;
+        font-size: 10pt;
+        text-transform: uppercase;
+        text-align: left;
 }
 
 #blogTitle a {
-	color: #333;
+        color: #333;
 }
 
 
 #masthead {
-	margin: 0 auto;
-	border: 1px solid #999;
-	background-image: url(../images/masthead-plain.jpg);
-	width: 660px;
-	height: 211px;
+        margin: 0 auto;
+        border: 1px solid #999;
+        background-image: url(../images/masthead-plain.jpg);
+        width: 660px;
+        height: 211px;
 }
 
 #menu {
-	width: 660px;
-	height: 35px;
-	margin: 0 auto 0 auto;
-	padding-top: 2px;
-	vertical-align: bottom;
-	text-align: left;
-	background: #FEFEFE
+        width: 660px;
+        height: 35px;
+        margin: 0 auto 0 auto;
+        padding-top: 2px;
+        vertical-align: bottom;
+        text-align: left;
+        background: #FEFEFE
 }
 .right {
-	float: right;
-	padding-top: 0px;
-	padding-right: 10px;
+        float: right;
+        padding-top: 0px;
+        padding-right: 10px;
 }
 .left {
-	float: left;
-	padding-top: 0px;
-	padding-left:10px;
+        float: left;
+        padding-top: 0px;
+        padding-left:10px;
 }
 .commentBox {
 }
 .commentBox p {
-	padding-top: 0px;
-	margin-top: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
 }
 ul.linklog {
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-left: 20px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-left: 20px;
 }
 ul.linklog li {
-	list-style: url(../images/bullet.jpg);
+        list-style: url(../images/bullet.jpg);
 }
 body {
-  background: #FEFEFE url(../images/background.jpg) repeat-y center;
-  margin:0;
-  padding:0px 20px;
-  font:x-small Georgia,Serif;
-  text-align:center;
-  color:#333;
-  font-size/* */:/**/small;
-  font-size: /**/small;
-  }
+background: #FEFEFE url(../images/background.jpg) repeat-y center;
+margin:0;
+padding:0px 20px;
+font:x-small Georgia,Serif;
+text-align:center;
+color:#333;
+font-size/* */:/**/small;
+font-size: /**/small;
+}
 a:link {
-  color:#58a;
-  text-decoration:none;
-  }
+color:#58a;
+text-decoration:none;
+}
 a:visited {
-  color:#969;
-  text-decoration:none;
-  }
+color:#969;
+text-decoration:none;
+}
 a:hover {
-  color:#c60;
-  text-decoration:underline;
-  }
+color:#c60;
+text-decoration:underline;
+}
 a img {
-  border-width:0;
-  }
+border-width:0;
+}
 
 /* Header
 ----------------------------------------------- */
 #header {
-  width:660px;
-  margin:0 auto 10px;
-  border:1px solid #ccc;
-  }
+width:660px;
+margin:0 auto 10px;
+border:1px solid #ccc;
+}
 #blog-title {
-  margin:5px 5px 0;
-  padding:20px 20px .25em;
-  border:1px solid #eee;
-  border-width:1px 1px 0;
-  font-size:200%;
-  line-height:1.2em;
-  font-weight:normal;
-  color:#666;
-  text-transform:uppercase;
-  letter-spacing:.2em;
-  }
+margin:5px 5px 0;
+padding:20px 20px .25em;
+border:1px solid #eee;
+border-width:1px 1px 0;
+font-size:200%;
+line-height:1.2em;
+font-weight:normal;
+color:#666;
+text-transform:uppercase;
+letter-spacing:.2em;
+}
 #blog-title a {
-  color:#666;
-  text-decoration:none;
-  }
+color:#666;
+text-decoration:none;
+}
 #blog-title a:hover {
-  color:#c60;
-  }
+color:#c60;
+}
 #description {
-  margin:0 5px 5px;
-  padding:0 20px 20px;
-  border:1px solid #eee;
-  border-width:0 1px 1px;
-  max-width:700px;
-  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
-  text-transform:uppercase;
-  letter-spacing:.2em;
-  color:#999;
-  }
+margin:0 5px 5px;
+padding:0 20px 20px;
+border:1px solid #eee;
+border-width:0 1px 1px;
+max-width:700px;
+font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+text-transform:uppercase;
+letter-spacing:.2em;
+color:#999;
+}
 .profile-link {
-  margin:0;
-  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
-  text-transform:uppercase;
-  letter-spacing:.1em;
-  }
+margin:0;
+font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+text-transform:uppercase;
+letter-spacing:.1em;
+}
 
 
 /* Content
 ----------------------------------------------- */
 #content {
-  width:660px;
-  margin:0 auto;
-  margin-top: 1em;
-  padding:0;
-  text-align:left;
-  }
+width:660px;
+margin:0 auto;
+margin-top: 1em;
+padding:0;
+text-align:left;
+}
 #main {
-  padding-left: 7px;
-  width:410px;
-  float:left;
-  }
+padding-left: 7px;
+width:410px;
+float:left;
+}
 #sidebar {
-  margin-top: .5em;
-  width:220px;
-  float:right;
-  }
+margin-top: .5em;
+width:220px;
+float:right;
+}
 
 
 /* Headings
 ----------------------------------------------- */
 h2 {
-  margin:1.5em 0 .75em;
-  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
-  text-transform:uppercase;
-  letter-spacing:.2em;
-  color:#999;
-  }
+margin:1.5em 0 .75em;
+font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+text-transform:uppercase;
+letter-spacing:.2em;
+color:#999;
+}
 
 
 /* Posts
 ----------------------------------------------- */
 .date-header {
-  margin:1.5em 0 .5em;
-  }
+margin:1.5em 0 .5em;
+}
 .post {
-  margin:.5em 0 1.5em;
-  border-bottom:1px dotted #ccc;
-  padding-bottom:1.5em;
-  }
+margin:.5em 0 1.5em;
+border-bottom:1px dotted #ccc;
+padding-bottom:1.5em;
+}
 .post-title {
-  margin:.25em 0 0;
-  padding:0 0 0px;
-  font-size:140%;
-  font-weight:normal;
-  line-height:1.4em;
-  color:#c60;
-  }
+margin:.25em 0 0;
+padding:0 0 0px;
+font-size:140%;
+font-weight:normal;
+line-height:1.4em;
+color:#c60;
+}
 .post-title a, .post-title a:visited, .post-title strong {
-  display:block;
-  text-decoration:none;
-  color:#c60;
-  font-weight:normal;
-  }
+display:block;
+text-decoration:none;
+color:#c60;
+font-weight:normal;
+}
 .post-title strong, .post-title a:hover {
-  color:#333;
-  }
+color:#333;
+}
 .post div {
-  margin:0 0 .75em;
-  line-height:1.6em;
-  }
+margin:0 0 .75em;
+line-height:1.6em;
+}
 p.post-footer {
-  margin:-.25em 0 0;
-  color:#ccc;
-  }
+margin:-.25em 0 0;
+color:#ccc;
+}
 .post-footer em, .comment-link {
-  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
-  text-transform:uppercase;
-  letter-spacing:.1em;
-  }
+font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+text-transform:uppercase;
+letter-spacing:.1em;
+}
 .post-footer em {
-  font-style:normal;
-  color:#999;
-  margin-right:.6em;
-  }
+font-style:normal;
+color:#999;
+margin-right:.6em;
+}
 .comment-link {
-  margin-left:.6em;
-  }
+margin-left:.6em;
+}
 .post img {
-  padding:4px;
-  border:1px solid #ddd;
-  }
+padding:4px;
+border:1px solid #ddd;
+}
 .post blockquote {
-  margin:1em 20px;
-  color:#666;
-  font-style:italic;
-  }
+margin:1em 20px;
+color:#666;
+font-style:italic;
+}
 .post blockquote p {
-  margin:.75em 0;
-  }
+margin:.75em 0;
+}
 
 
 /* Sidebar Content
 ----------------------------------------------- */
 #sidebar ul {
-  margin:0 0 1.5em;
-  padding:0 0 1.5em;
-  padding-bottom: 1em;
-  border-bottom:1px dotted #ccc;
-  list-style:none;
-  }
+margin:0 0 1.5em;
+padding:0 0 1.5em;
+padding-bottom: 1em;
+border-bottom:1px dotted #ccc;
+list-style:none;
+}
 #sidebar li {
-  margin:0;
-  padding:0 0 .25em 15px;
-  text-indent:-15px;
-  line-height:1.5em;
-  }
+margin:0;
+padding:0 0 .25em 15px;
+text-indent:-15px;
+line-height:1.5em;
+}
 #sidebar p {
-  color:#666;
-  line-height:1.5em;
-  }
+color:#666;
+line-height:1.5em;
+}
 
 
 
 /* Footer
 ----------------------------------------------- */
 #footer {
-  width:660px;
-  clear:both;
-  margin:0 auto;
-  }
+width:660px;
+clear:both;
+margin:0 auto;
+padding-bottom:95px;
+}
 #footer hr {
-  display:none;
-  }
+display:none;
+}
 #footer p {
 
-  padding-top:15px;
-  font:78%/1.6em "Trebuchet MS",Trebuchet,Verdana,Sans-serif;
-  text-transform:uppercase;
-  letter-spacing:.1em;
-  margin:-.25em 0 0;
-  color:#ccc;
-  }
+padding-top:15px;
+font:78%/1.6em "Trebuchet MS",Trebuchet,Verdana,Sans-serif;
+text-transform:uppercase;
+letter-spacing:.1em;
+margin:-.25em 0 0;
+color:#ccc;
+}
 .f-main {
-  padding-left: 7px;
-  width:410px;
-  float:left;
-  text-align:center;
-  }
+padding-left: 7px;
+width:410px;
+float:left;
+text-align:center;
+}
 .f-sidebar {
-  margin-top: .5em;
-  width:220px;
-  float:right;
-  text-align:left;
-  }
+margin-top: .5em;
+width:220px;
+float:right;
+text-align:left;
+}
+
+/* Zikula Styles
+----------------------------------------------- */
+
+.z-menuitem-title {
+font-size: .8em;
+}
