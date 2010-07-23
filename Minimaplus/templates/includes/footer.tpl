@@ -3,16 +3,21 @@
 <hr />
 <p class="f-main">
 
-&copy;&nbsp;2006-{'Y'|date}&nbsp;<a href="{homepage}" title="{sitename} {gt text="Home Page"}">{sitename}</a>&nbsp;|&nbsp;
-
-<a href="{modurl modname='Sitemap'}" title="{gt text="Easily find information across our site via our Sitemap"}">{gt text="Sitemap"}</a>&nbsp;|&nbsp;
+{sitename assign="sitename"}
+&copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a><br>
+{slogan}<br /><br />
+<a href="{modurl modname='Sitemap'}" title="{gt text="Easily find a page on our sitemap"}">{gt text="Sitemap"}</a>&nbsp;|&nbsp;
 <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}">{gt text="Contact"}</a>&nbsp;|&nbsp;
-<a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscribe link for our News RSS feed"}">{gt text="RSS"}</a>
+<a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}">{gt text="RSS"}</a>
 </p>
 <p class="f-sidebar">
-<a href="http://www.zikula.org" title="{gt text="Link to"} Zikula.Org">{gt text="Powered By Zikula"}</a>&nbsp;|&nbsp;
-<a href="http://www.thoughtmechanics.com/blog/2005/02/18/not-so-minima/">{gt text="Minima Plus"}</a> {gt text="is based on blogger template"}  <a href="http://www.stopdesign.com/portfolio/web_interface/blogger_templates.html?fs=1">{gt text=" Minima"}</a>, {gt text="originally by"}  <a href="http://www.stopdesign.com">{gt text="Douglas Bowman"}</a>. {gt text="Enhanced and ported to Wordpress by Theron Parlin. Lastly ported to Zikula by Mark West and upgraded by TakeIT2"}<br />
-<br />
+{assign var="poweredbyz" value="Powered by Zikula"}
+{gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}<br />
+{assign var="zthemes" value="Theme by Zikula Themes"}
+{gt text='Theme by <a href="http://code.zikula.org/themes/" title="%s">Zikula Themes</a>' tag1=$zthemes}<br />
+{assign var="designbyz" value="Design by Douglas Bowman"}
+{gt text='Design by <a href="http://www.stopdesign.com" title="%s">Douglas Bowman</a>' tag1=$designbyz}<br />
+
 {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}">{gt text="CSS"}</a>&nbsp;/&nbsp;
 <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}">{gt text="XHTML"}</a>&nbsp;/&nbsp;
 <a href="http://www.contentquality.com/mynewtester/cynthia.exe?Url1={getbaseurl}">508</a>
