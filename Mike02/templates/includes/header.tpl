@@ -1,6 +1,9 @@
 <div id="headerWrap">
     <div id="header">
-        <h1 id="sitename"><a href="{homepage}" title="{gt text="Home"}">{sitename}</a></h1>
+        <h1 id="sitename">
+        {sitename assign="sitename"}
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        </h1>
         <ul id="navigation">
             <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
             <li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Go to the Pages module"}">{gt text="Pages"}</a></li>
