@@ -232,6 +232,7 @@ body {
     margin:0;
     padding:0;
     list-style:none;
+    width:210px;
 }
 
 
@@ -244,13 +245,15 @@ body {
     color:#666;
     text-decoration:none;
     border-left:2px solid #ddd;
+    width:210px;
 }
 
 
 #sidebar li a:hover {
     background-color:#eee;
     color:#333;
-    border-right:10px solid #eee;
+    border-right:0px solid #eee;
+    width:210px;
 }
 
 
@@ -267,6 +270,12 @@ body {
     margin:10px 10px 0px 0px;
 }
 
+#sidebar a img {
+    padding:0px;
+    border:0px solid #eee;
+    float:left;
+    margin:0px 10px 0px 0px;
+}
 
 #sidebar input {
     width:200px;
@@ -480,6 +489,18 @@ body {
     border:0px;
 }
 
+#content .z-block h4 a {
+background-color:transparent;
+text-decoration:none;
+    border-bottom-width : 0px;
+}
+
+#content .z-block h4 a img {
+    padding:0px;
+    border:0px solid #eee;
+    float:left;
+    margin:0px 10px 0px 0px;
+}
 
 #footer {
     margin-bottom : 20px;
@@ -515,3 +536,11 @@ body {
     margin-right : auto;
     margin-top : 5px;
 }
+.z-menuitem-title span a {
+background-color:transparent !important;
+text-decoration:none!important;
+    border-bottom-width : 0px!important;
+        color:#43CBAE!important;
+}
+
+a {color:#43CBAE;}
