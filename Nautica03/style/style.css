@@ -76,7 +76,9 @@ a:hover {
     text-decoration:underline;
 }
 
-
+a img {
+ border:none !important;
+}
 
 #blogtitle {
     /* background : url(../images/favicon.png) no-repeat;
