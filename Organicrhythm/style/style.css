@@ -299,7 +299,7 @@ a img {
     background-color : #FFFFFF;
     border-left: #DB5600 20px solid;
     float : left;
-    font-size : 85%;
+    font-size : 90%;
     height : 34px;
     left-color : #010100;
     left-style : solid;
@@ -317,7 +317,8 @@ a img {
     background-color : #DB5600;
     color : #FFFFFF;
     float : right;
-    font-size : 85%;
+    font-size : .7em;
+    letter-spacing : .07em;
     height : 34px;
     margin-bottom : 0;
     margin-left : auto;
@@ -337,3 +338,4 @@ a img {
     color : #FFFFFF;
 }
 
+.z-menuitem-title {    font-size : .9em;}
