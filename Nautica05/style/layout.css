@@ -282,8 +282,6 @@ Page Content
 /**************************************************************
 Footer
 **************************************************************/
-
-
 #footer {
     clear: both;
     float: left;
@@ -299,46 +297,41 @@ Footer
     background: #49525B url(../images/bg/header.gif) repeat-x bottom left;
 }
 
-#footer #bg ul {
-    float: right;
-    margin: 3em 1em 0 0 !important;
-    margin: 3em 0.5em 0 0;
-    padding: 0;
-}
-
-#footer #bg ul li {
-    display: inline;
-    list-style: none;
-}
-
-#footer #bg ul li a {
-    float: left;
-    padding: 0 1em;
-
-    font: 400 1em arial, sans-serif;
+#footer #bg span {
+    font: 550 1em arial, sans-serif;
     letter-spacing: 0.1em;
     line-height: 0.8em !important;
     line-height: 1em;
+    padding-top : 10px;
+}
 
+#footer #bg span a {
     color: #4D5760;
-    border-right: 1px solid #4D5760;
+    font-weight:bold;
 }
 
-#footer #bg ul li a.last {
-    padding-right: 0;
-    border-right: 0;
-}
-
-#footer #bg ul li a:hover {
+#footer #bg span a:hover {
     color: #CFD9DB;
 }
 
-#footer #bg img {
-    position: absolute;
-    top: 6%;
-    left: 10px;
+#credits {
+    font-size : .8em;
+    letter-spacing : .075em;
+    margin-bottom : 0px;
+    margin-top : 10px;
+    padding-bottom : 0px;
+    padding-left : 10px;
+    text-align : center;
 }
 
+#credits a {
+    color: #4D5760;
+    font-weight:bold;
+}
+
+#credits a:hover {
+    color: #CFD9DB;
+}
 
 
 /**************************************************************

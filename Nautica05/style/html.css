@@ -132,6 +132,13 @@ ol li span {
 }
 
 /* Zikula Menu Lists */
+.z-menuitem-title {
+ font-size: 0.75em;
+ font-family:  verdana, arial, sans-serif;
+ font-weight: 600;
+}
+
+
 *.z-bkey-adminnav ul {
     list-style-position: inside;
     margin-bottom : 5px;
@@ -224,7 +231,7 @@ p.extmenuadmin {
     background-color: #41637D;
 }
 
-*.z-bkey-extmenu .navcontainer a:link, .navlist a:visited {
+*.z-bkey-extmenu .navcontainer a:link {
     background-color: #41637D ;
     color: #3B5D77 ;
     text-decoration: none;
@@ -233,6 +240,26 @@ p.extmenuadmin {
 *.z-bkey-extmenu .navcontainer a:hover {
     background-color: #4A5C6A ;
     color: #668FA3 ;
+}
+
+.navlist {
+
+
+}
+.navlist {
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 20px !important;
+    margin-left : 20px !important;
+    padding-left : 0px !important;
+}
+.navlist li {
+    list-style-image : none;
+    list-style-type : square;
+    margin-bottom : 0px;
+    margin-left : 0px !important;
+    padding-left : 0px !important;
 }
 
 /* Blockquote */
