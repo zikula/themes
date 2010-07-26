@@ -194,7 +194,7 @@ a:hover {
     font-weight: bold;
     text-decoration: none;
 }
-
+.z-menuitem-title {font-size: .8em;}
 /* Divs */
 
 #pagewrap {
@@ -223,11 +223,22 @@ a:hover {
 
 
 #topbar {
-    /* Top bar, can be used for extra links etc */width: 770px;
-    height: 25px;
+    /* Top bar, can be used for extra links etc */width: 750px;
+    height: 20px;
     background: #333;
+    padding-top : 5px;
+    color : #fff;
+    font-size : 9px;
+    text-align : center;
+    padding-left: 10px;
+    padding-right:10px;
 }
-
+#topbar span {    color : #fff;}
+#topbar a {color : #fff; font-size : 9px; text-align : center;}
+#topbar a:hover {color : #00A2FF;}
+#login { float:left;}
+#logout { float:left;}
+#snacktime { float:right;}
 
 #hdr {
     /* Header/Banner area */width: 770px;
@@ -277,14 +288,14 @@ a:hover {
 
 #bttmbar {
 margin-top:10px;
-border-top: 5px solid #000;
+border-top: 3px solid #000;
     /* bottom bar, containing top button and copyright info etc */width: 100%;
-    height: 30px;
+
     line-height: 10px;
     background: #fff;
-    overflow: hidden;
+    overflow: auto;
 }
-
+#bttmbar span { color:#000; }
 /* Main Navigation */
 
 #nav ul {
