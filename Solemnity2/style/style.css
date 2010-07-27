@@ -102,6 +102,10 @@ a:hover {
     color:#333;
 }
 
+#sidebar a img {
+    border:0;
+}
+
 #sidebar input {
     background:#fff;
     border:1px solid #eee;
@@ -263,11 +267,12 @@ text-align:left;
 }
 
 #footer {
-    padding:30px;
+    padding:5px;
     border-top:1px solid #eee;
     clear:both;
     margin:0 4px 0 0 ;
     background:#fff;
+    height:40px;
 }
 #footer p.validate {
     float:right;
@@ -312,3 +317,4 @@ ol.comments a:hover {
 .hide {
     display:none;
 }
+.z-menuitem-title span a { font-size : .8em;}
