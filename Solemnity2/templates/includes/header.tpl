@@ -1,5 +1,8 @@
 <div id="header">
-    <h1><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename} ">{sitename}</a></h1>
+    <h1>
+    {sitename assign="sitename"}
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    </h1>
     <a href="#content" class="hide" title="{gt text="Jump to Content"}">{gt text="Jump to Content"}</a>
     <ul id="nav">
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}"><span>{gt text="Home"}</span></a></li>
