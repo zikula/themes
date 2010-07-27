@@ -23,7 +23,8 @@
 </div>
 <div id="header">
     <span id="sitename" class="with_slogan">
-        <a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a>
+        {sitename assign="sitename"}
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
     </span><br />
     <span id="slogan">{slogan}</span>
 </div>
