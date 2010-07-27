@@ -168,6 +168,8 @@ input.styled {
     background: url(../images/zebra.png);
 }
 
+.z-menuitem-title span a { font-size : .75em;}
+
 /*  STRUCTURE (in order of appearance)  */
 #footer_float {
     /* This keeps the footer to the bottom of the page when there's not enough content to fill it. Check out the "Blank page" page to see how it looks. */height: 100%;
