@@ -11,20 +11,7 @@
     </div>
 </div>
 <div id="submenu">
-    <form method="post" id="searchform" action="{modurl modname=Search func=search}">
-        <div class="searchb">
-            <input id="searchbox" type="text" name="q" size="20" maxlength="255" value="{gt text="Search"}" />
-            <input for="searchbox" type="submit" class="submitbutton" value="{gt text="Go"}" />
-            <input type="hidden" name="active[Dizkus]" value="1" />
-            <input type="hidden" name="active[FAQ]" value="1" />
-            <input type="hidden" name="active[locations]" value="1" />
-            <input type="hidden" name="active[News]" value="1" />
-            <input type="hidden" name="active[Pages]" value="1" />
-            <input type="hidden" name="active[TimeIt]" value="1" />
-            <input type="hidden" name="modvar[itemsperpage]" value="20" />
-            <input type="hidden" name="modvar[limitsummary]" value="255" />
-        </div>
-    </form>
+    {blockposition name=search}
     <span style="float:left;">
         {if $loggedin eq true}
         <strong>{userwelcome|ucwords}</strong>&nbsp;|&nbsp;
