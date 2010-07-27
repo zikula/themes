@@ -75,23 +75,42 @@ a:hover {
 
 #container {
     clear:both;
-    padding:20px 0 0 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 10px;
+    margin-bottom : 0px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 5px;
 }
 
 
 
 #sidebar {
-    width:230px;
+    width:240px;
     float:right;
     background:url(../images/sidebar.jpg) top right no-repeat #fff;
-    padding:10px 20px 10px 10px;
-    margin:-30px 0 0 0;
+    padding-bottom : 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top : 10px;
+    margin-bottom : 20px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : -20px;
 }
 
 
 #content {
-    margin:0 260px 0 5px;
-    padding:10px 20px 0 0;
+    margin-bottom : 0;
+    margin-left : 5px;
+    margin-right : 260px;
+    margin-top : 0px;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 20px;
+    padding-top : 10px;
     background:url(../images/content.jpg) top right no-repeat;
 }
 
@@ -172,13 +191,17 @@ float:left;clear:both;padding-left:45px; font-size: 1.3em; font-weight:bold; fon
     color : #fff;
     font-size : 1.5em;
     line-height : 25px;
+    margin-bottom : 0px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0px;
     padding-bottom : 40px;
     padding-left : 10px;
     padding-right : 10px;
     padding-top : 10px;
-    border-top : #003C64 solid 4px;
+    border-top : #003C64 solid 0px;
     width:720px;
-    height: 120px;
+    height: 150px;
 }
 #welcome h2 {
     color : #fff;
@@ -354,11 +377,13 @@ div.news a.more {
 #footer {
     text-align:center;
     border-top:2px solid #000;
-    padding:10px;
-    margin:30px 0 0 0;
+    padding:0px;
     color:#ccc;
     width:760px;
-    margin:0 auto;
+    margin-bottom : 0;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0px;
 }
 
 
