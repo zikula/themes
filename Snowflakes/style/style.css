@@ -214,6 +214,13 @@ p.extmenuadmin a {
     padding-bottom: 10px;
     padding-left: 15px;
     text-decoration:none;
+    font-size: .65em;
+}
+p.menutreecontrols a {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    text-decoration:none;
+    font-size: .65em;
 }
 #block_search_q {
     min-width : 90px !important;
@@ -300,7 +307,7 @@ p.extmenuadmin a {
     background: #AFB43C url(../images/img06.jpg) no-repeat;
     text-transform: lowercase;
     letter-spacing: -2px;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: normal;
     color: #FFFFFF;
 }
@@ -351,7 +358,7 @@ p.extmenuadmin a {
     background: #AFB43C url(../images/img09.jpg) no-repeat;
     text-transform: lowercase;
     letter-spacing: -2px;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: normal;
     color: #FFFFFF;
 }
@@ -401,7 +408,7 @@ p.extmenuadmin a {
     border-bottom: 2px solid #CCCCCC;
     text-transform: lowercase;
     letter-spacing: -2px;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -423,7 +430,7 @@ p.extmenuadmin a {
     clear: both;
     width: 700px;
     height: 60px;
-    margin: 2em auto;
+    margin: 1em auto;
     background: #EB850C url(../images/img16.gif) no-repeat;
     font-size: small;
     font-weight: bold;
@@ -443,7 +450,7 @@ p.extmenuadmin a {
 
 #copy {
     float : left;
-line-height:25px;
+    line-height:25px;
     padding-bottom : 10px;
     padding-left : 15px;
     padding-right : 15px;
@@ -457,4 +464,16 @@ line-height:25px;
     padding: 20px 15px 0 35px;
     background: url(../images/img18.gif) no-repeat 0 15px;
 }
-
+#credits {
+    font-size : .65em;
+    letter-spacing : .07em;
+    margin-bottom : 5px;
+    margin-top : 0px;
+    padding-bottom : 5px;
+    padding-left : 5px;
+    text-align : center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.z-menuitem-title span a { font-size : .75em;}
