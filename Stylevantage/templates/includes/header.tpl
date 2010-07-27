@@ -1,7 +1,8 @@
 {*header *}
 <div id="header">
     <h1 id="logo">
-        <a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">
+        {sitename assign="sitename"}
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">
             {sitename}
             <span class="css-color">
                 {gt text="Stylevantage"}
@@ -10,21 +11,8 @@
     </h1>
     <h2 id="slogan">{slogan}</h2>
     <div id="searchform">
-    <form method="post" id="searchform" action="{modurl modname=Search func=search}">
-        <p>
-            <input id="searchbox" type="text" name="q" size="20" maxlength="255" value="{gt text="Search"}" />
-            <input for="searchbox" type="submit" class="submitbutton" value="{gt text="Go"}" />
-            <input type="hidden" name="active[Dizkus]" value="1" />
-            <input type="hidden" name="active[FAQ]" value="1" />
-            <input type="hidden" name="active[locations]" value="1" />
-            <input type="hidden" name="active[News]" value="1" />
-            <input type="hidden" name="active[Pages]" value="1" />
-            <input type="hidden" name="active[TimeIt]" value="1" />
-            <input type="hidden" name="modvar[itemsperpage]" value="20" />
-            <input type="hidden" name="modvar[limitsummary]" value="255" />
-        </p>
-    </form>
-</div>
+        {blockposition name=search}
+    </div>
 </div>
 {* menu *}
 <div  id="menu">
