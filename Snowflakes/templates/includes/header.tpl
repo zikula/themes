@@ -1,7 +1,10 @@
 <div id="header">
     <div id="logo">
-        <h1><a href="{homepage}" title="{gt text="Home"}">{sitename}</a></a></h1>
-        <h2><a href="{homepage}" title="{gt text="Home"}">{slogan}</a></a></h2>
+        <h1>
+        {sitename assign="sitename"}
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        </h1>
+        <h2>{slogan}</h2>
     </div>
     <div id="menu">
         <ul>
