@@ -15,7 +15,7 @@ HTML ELEMENTS
 
 body {
     margin: 0; padding: 0;
-    font: 70%/1.5 Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font: 70%/150% Verdana, Tahoma, Arial, Helvetica, sans-serif;
     color: #333;
     background: #FFF url(../images/bg.gif) repeat-x;
 }
@@ -249,9 +249,10 @@ LAYOUT
     width: 545px;
 }
 #main h1 {
+ clear:both;
     margin: 10px 0;
     padding: 4px 0 4px 8px;
-    font-size: 105%;
+    font-size: 20px%;
     color: #FFF;
     text-transform: uppercase;
     background-color: #CC0000;
@@ -265,12 +266,12 @@ LAYOUT
     margin-right : 5px;
     margin-top : 5px;
     padding-bottom : 3px;
-    padding-left : 5px;
-    padding-right :5px;
-    padding-top : 3px;
-    width: 545px;
-
+    padding-left : 15px;
+    padding-right :15px;
+    padding-top : 10px;
+    width: 515px;
 }
+
 
 /* sidebar */
 #sidebar {
