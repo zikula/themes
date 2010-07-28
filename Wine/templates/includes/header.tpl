@@ -20,5 +20,8 @@
             {datetime format='%b %d, %Y - %I:%M %p'}
         </span>
     </h4>
-    <h1 id="sitename"><a href="{homepage}" title="{sitename} {gt text="Home Page"}">{sitename}</a></h1>
+    <h1 id="sitename">
+    {sitename assign="sitename"}
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    </h1>
 </div>
