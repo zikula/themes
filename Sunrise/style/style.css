@@ -70,8 +70,8 @@ body {
 
 /* NAVIGATION
 ---------------------------------------------------------------------------------------------------------------------------------------------------*/
-div.pn-bkey-menu { text-align: left; color: 	#7D8085; padding: 20px 0 0 0px; width: 150px; }
-div.pn-bkey-menu li {
+div.z-bkey-menu { text-align: left; color: 	#7D8085; padding: 20px 0 0 0px; width: 150px; }
+div.z-bkey-menu li {
     font-weight: bold;
     margin: 5px 0 5px 0px;
     padding: 0px 0 0 0px;
@@ -80,8 +80,8 @@ div.pn-bkey-menu li {
     list-style-image: none;
 
 }
-div.pn-bkey-menu li a { color: #546078; text-decoration: none;  padding: 5px 0 0 10px; display: block; height: 25px;}
-div.pn-bkey-menu li a:hover { color: #FFF; text-decoration: none; background: #A90000; display: block; height: 25px;}
+div.z-bkey-menu li a { color: #546078; text-decoration: none;  padding: 5px 0 0 10px; display: block; height: 25px;}
+div.z-bkey-menu li a:hover { color: #FFF; text-decoration: none; background: #A90000; display: block; height: 25px;}
 
 
 /* MAIN
@@ -170,7 +170,7 @@ li { 	margin: 0 0 2px 0; padding: 0 0 0 0px;	color: #555; }
 
 p { margin: 0 0 5px 0; padding: 0; color: #808080; background: inherit; }
 a { color: #a90000; background: inherit; text-decoration:none; }
-a img { border: 0px; }
+a img { border: 0px!important; }
 a:hover { color:#FC7901; background: inherit; text-decoration:none; }
 
 h1 {
