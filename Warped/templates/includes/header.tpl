@@ -1,6 +1,9 @@
 <div id="header">
     <h1 class="right">{slogan}</h1>
-    <h1><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename} ">{sitename}</a></h1>
+    <h1>
+    {sitename assign="sitename"}
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    </h1>
 </div>
 <ul id="nav">
     <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
@@ -11,18 +14,7 @@
     <li {if $module eq 'Sitemap'} class="current" {/if}><a href="{modurl modname=Sitemap}" title="{gt text="Go to the Sitemap module"}">{gt text="Sitemap"}</a></li>
     <li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}">{gt text="Contact"}</a></li>
     <li {if $module eq 'search'} class="current" {/if}>
-        <form method="post" id="searchform" action="{modurl modname=Search func=search}">
-            <input id="searchbox" type="text" name="q" size="20" maxlength="255" value="{gt text="Search"}" />
-            <input for="searchbox" type="submit" class="submitbutton" value="{gt text="Go"}" />
-            <input type="hidden" name="active[Dizkus]" value="1" />
-            <input type="hidden" name="active[FAQ]" value="1" />
-            <input type="hidden" name="active[locations]" value="1" />
-            <input type="hidden" name="active[News]" value="1" />
-            <input type="hidden" name="active[Pages]" value="1" />
-            <input type="hidden" name="active[TimeIt]" value="1" />
-            <input type="hidden" name="modvar[itemsperpage]" value="20" />
-            <input type="hidden" name="modvar[limitsummary]" value="255" />
-        </form>
+        {blockposition name=search}
     </li>
 
 </ul>
