@@ -97,7 +97,7 @@ a:hover {
 /* the navigationbar in the header */
 #navbar {
     position: absolute;
-    bottom: 11px;
+    bottom: 0px;
     right: 6px;
 }
 
@@ -134,11 +134,12 @@ a:hover {
 
 /* the coreleft contains the left part of the core */
 #coreleft {
-    width: 140px;
+    width: 150px;
     height: auto;
     background: #deebd2;
     margin-bottom: 5px;
     float: left;
+    padding-top : 15px;
 }
 
 /* the links in coreleft are another unordered list */
@@ -169,9 +170,12 @@ a:hover {
 }
 
 #coreleft h3 {
-    padding: 20px 4px 0 4px;
+    padding-bottom : 0;
+    padding-left : 4px;
+    padding-right : 4px;
+    padding-top : 5px;
     font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -186,9 +190,12 @@ a:hover {
 
 /* the corecenter contains the center part of the core */
 #corecenter {
-    width: 590px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:15px;
+    width: 570px;
     height: auto;
-    float: left;
+    float: right;
 }
 
 #corecenter h2 {
