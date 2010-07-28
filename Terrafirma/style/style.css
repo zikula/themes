@@ -24,7 +24,9 @@ a {
 a:hover {
     text-decoration: none;
 }
-
+a img {
+ border:0px;
+}
 table.z-admintable a img, div.z-adminformbuttons a img {
     border: 0px;
 }
