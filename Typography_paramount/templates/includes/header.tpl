@@ -2,7 +2,10 @@
     <p class="description">
         {slogan}
     </p>
-    <h1><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename} ">{sitename}</a></h1>
+    <h1>
+    {sitename assign="sitename"}
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    </h1>
     <ul id="nav">
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
         <li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Go to the Pages module"}">{gt text="Pages"}</a></li>
