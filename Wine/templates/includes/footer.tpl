@@ -1,16 +1,23 @@
 <div id="footer">
     <p>
-        <span style="float:left;">
-            &copy;&nbsp;2006-{'Y'|date}&nbsp;<a href="{homepage}" title="{sitename}&nbsp;{gt text="Home Page"}"><strong>{sitename}</strong></a>&nbsp;|&nbsp;
-            <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find information across our site via our Sitemap"}">{gt text="Sitemap"}</a>&nbsp;|&nbsp;
-            <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}">{gt text="Contact"}</a>&nbsp;|&nbsp;
-            <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscribe link for our News RSS feed"}">{gt text="RSS FEED"}</a>
+        <span style="float:left;text-align:left;">
+            {sitename assign="sitename"}
+            &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}"><strong>{sitename}</strong></a>
         </span>
-        <span style="float:right;">
-            {gt text="Valid"}&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}"><strong>{gt text="CSS"}</strong></a>&nbsp;|&nbsp;
-            <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a>
+        <span style="float:right; text-align:right;">
+            <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find a page on our sitemap"}"><strong>{gt text="Sitemap"}</strong></a>&nbsp;|&nbsp;
+            <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}"><strong>{gt text="Contact"}</strong></a>&nbsp;|&nbsp;
+            <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}"><strong>{gt text="RSS"}</strong></a>
         </span><br />
-        {gt text="Design by"}&nbsp;<a href="http://www.mitchinson.net" title="{gt text="Link to the website of"} mitchinson.net">mitchinson.net</a>&nbsp;|&nbsp;
-        {gt text="Licensed"}:&nbsp;<a href="http://creativecommons.org/licenses/by/2.5/" title="{gt text="Link to the Creative Commons Attribution 2.5 License website"}">{gt text="Creative Commons Attribution 2.5 License"}</a>
+        <div style="float : left; font-size : .9em; letter-spacing : .085em; margin-bottom : 0px; margin-top : 0px; padding-bottom : 0px; padding-left : 15px; text-align : left;">
+            {assign var="poweredbyz" value="Powered by Zikula"}
+            {gt text='Powered by <a href="http://zikula.org" title="%s"><strong>Zikula</strong></a>' tag1=$poweredbyz}&nbsp;|&nbsp;
+            {assign var="zthemes" value="Theme by Zikula Themes"}
+            {gt text='Theme by <a href="http://code.zikula.org/themes/" title="%s"><strong>Zikula Themes</strong></a>' tag1=$zthemes}&nbsp;|&nbsp;
+            {assign var="designbyz" value="Design by Denise Mitchinson"}
+            {gt text='Design by <a href="http://www.mitchinson.net/" title="%s"><strong>Denise Mitchinson</strong></a>' tag1=$designbyz}&nbsp;|&nbsp;
+            {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}"><strong>{gt text="CSS"}</strong></a>&nbsp;/&nbsp;
+            <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a>
+        </div>
     </p>
 </div>
