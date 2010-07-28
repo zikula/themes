@@ -17,6 +17,8 @@ a img {
 .clear {
     clear:both;
 }
+.z-menuitem-title span a {color:#B9204E!important; font-size : .9em;}
+
 
 #header {
     height:93px;
