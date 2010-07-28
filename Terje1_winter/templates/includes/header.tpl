@@ -1,6 +1,9 @@
 <div id="navigation1">
     <ul>
-        <li><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename} ">{sitename}</a></li>
+        <li>
+        {sitename assign="sitename"}
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        </li>
     </ul>
 </div>
 <div id="top"></div>
