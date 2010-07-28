@@ -233,6 +233,12 @@ input.button {
     border-right-color : #000000;
     border-right-style : solid;
     border-right-width : 5px;
+/*    border-top-color : #000000;
+    border-top-style : solid;
+    border-top-width : 1px;
+    border-bottom-color : #000000;
+    border-bottom-style : solid;
+    border-botton-width : 1px;*/
     background-color : #FFF;
     margin-bottom : 0;
     margin-left : auto;
@@ -244,6 +250,8 @@ input.button {
     padding-top : 0;
     text-align : center;
     width : 790px;
+/*    border-shadow: 0 0 4px #82C47C !important;
+    text-shadow: 0 0 4px #8CBD84 !important;*/
 }
 
 
