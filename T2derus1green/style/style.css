@@ -466,8 +466,11 @@ hr {
     background: #8DA09F;
     display:block;
     height:30px;
-    width:810px;
-    margin:0 0 0 19px;
+    width:844px;
+    margin-bottom : 0;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0;
     text-align:center;
     text-decoration:none;
     font:11px Verdana, Arial, Helvetica, sans-serif;
@@ -475,32 +478,36 @@ hr {
 }
 
 #footer span {
+    color:#2E484C;
     font: 11px Verdana, Arial, Helvetica, sans-serif;
     line-height:22px;
     padding:5px 0px 0px 0px;
 }
 
 #footer a {
-    color:#2E484C;
+    color:#B3C3C5;
     text-decoration:none;
-    font:11px Verdana, Arial, Helvetica, sans-serif;
+    font:bold 11px Verdana, Arial, Helvetica, sans-serif;
 }
 
 #footer a:hover {
-    color:#C0CBCA;
+    color:#D0DEE1;
     text-decoration:none;
 }
 
 #bottom {
     width:810px;
-    margin: 20px 0 0 20px;
+    margin-bottom : 10px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 10px;
     text-align:center;
     color:#C0CBCA;
     font: 10px Verdana, Arial, Helvetica, sans-serif;
 }
 
 #bottom a {
-    color:#C0CBCA;
+    color:#D0DEE1;
     text-decoration:none;
     font:10px Verdana, Arial, Helvetica, sans-serif;
     cursor:auto;
