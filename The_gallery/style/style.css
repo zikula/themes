@@ -8,6 +8,8 @@ body {
 
 a img {border: 0px; }
 
+.z-menuitem-title span a { font-size : .75em;}
+
 /* DIVS FOR USE WITH LAYOUT */
 
 /* THE CONTAINER IS 770PX WIDE TO ALLOW FOR A MINIMUM OF 800X600 RESOLUTION (INCLUDING SCROLLBAR) */
@@ -17,7 +19,7 @@ a img {border: 0px; }
 #topright { float: left; margin-bottom: 15px; padding: 0; width: 340px; height: 205px; background-color: #fff; }
 #leftcol { float: left; margin: 0; padding: 0; width: 225px; }
 #maincontent { float: left; margin: 0; padding: 0; width: 540px; }
-#copyright { margin: 0 auto 0 auto; padding: 0; width: 770px; height: 20px; background-color: #F4F0ED; }
+#copyright { margin: 0 auto 0 auto; padding: 0; width: 770px; height: 30px; background-color: #F4F0ED; }
 #design { margin: 0 auto 0 auto; padding: 0; width: 770px; height: 20px; background-color: #fff; }
 
 #divblanksquares {
@@ -72,7 +74,8 @@ div.leftitem {
 
 /* TEXT STYLES */
 p {
-    margin: 5px; padding: 5px;
+    margin: 5px;
+    padding: 5px;
     font-size: 0.7em;
     line-height: 1.4em;
     font-weight: normal;
@@ -80,19 +83,28 @@ p {
 }
 
 p.small {
-    margin: 1px 5px 1px 5px; padding: 5px;
-    font-size: 0.6em;
-    line-height: 0.6em;
-    font-weight: normal;
-    color: #666;
+    margin-bottom : 1px;
+    margin-left : 5px;
+    margin-right : 5px;
+    margin-top : 1px;
+    padding-bottom : 15px;
+    padding-left : 5px;
+    padding-right : 5px;
+    padding-top : 10px;
+    font-size :  0.7em;
+    line-height :  0.6em;
+    font-weight :  normal;
+    color :  #666;
 }
 
 p.design {
-    margin: 1px 5px 1px 5px; padding: 5px;
-    font-size: 0.6em;
+    margin: 1px 5px 1px 5px;
+    padding: 5px;
+    font-size : .5em; 
+    letter-spacing : .07em;
     line-height: 0.6em;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     color: #999;
 }
 
