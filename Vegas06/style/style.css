@@ -277,15 +277,15 @@ img, img a {border:0;}
 
 
 #footer {
-    height: 30px;
     width: 750px;
     background-color: #2F2F2F;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     color: #808080;
     text-align: center;
     clear: both;
-    padding-top: 20px;
+    padding-top: 5px;
     vertical-align:bottom;
+    overflow:auto;
 }
 
 
