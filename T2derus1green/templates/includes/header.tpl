@@ -25,7 +25,8 @@
     {/if}
     <div id="sitename">
         <h1>
-            <a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a>
+            {sitename assign="sitename"}
+            <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
         </h1>
     </div>
     <div id="slogan"><h4>{slogan}</h4></div>
