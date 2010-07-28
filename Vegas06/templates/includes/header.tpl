@@ -2,7 +2,7 @@
     <span class="left">
         {datetime}
         {if $pagetype neq 'home'}
-        &nbsp;::&nbsp;<a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Back to Main page"}</a>
+        &nbsp;::&nbsp;<a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Go back to the home page"}</a>
         {/if}
     </span>
     <ul>
@@ -32,7 +32,8 @@
 </div>
 <div id="masthead">
     <span class="sitename">
-        <a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a>
+        {sitename assign="sitename"}
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
     </span>
     ::
     <span class="slogan">{slogan}</span>
