@@ -1,6 +1,0 @@
-{*  $Id$  *}
-{admincategorymenu}
-<div class="z-adminbox">
-<h1>{gt text="Modules"}</h1>
-<div class="z-menu">{moduleadminlinks modname=Modules}</div>
-</div>
