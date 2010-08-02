@@ -10,4 +10,3 @@
 <div id="desc">
     {blockposition name=welcome}
 </div>
-
