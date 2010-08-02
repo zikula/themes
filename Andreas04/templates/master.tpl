@@ -7,13 +7,13 @@
         <div id="container">
             {include file="includes/header.tpl"}
             <div id="content">
-                <div{if $type neq admin} id="left"{/if}>
+                <div {if $type neq 'admin'}id="left"{/if}>
                     {if $pagetype eq 'home'}
                     {blockposition name=center}
                     {/if}
                     {$maincontent}
                 </div>
-                {if $pagetype neq admin}
+                {if $pagetype neq 'admin'}
                 <div id="right">
                     <div class="subcontainer">
                         <div class="rightsub">{blockposition name=left}</div>
