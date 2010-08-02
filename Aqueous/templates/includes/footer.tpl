@@ -1,6 +1,5 @@
 {*footer starts here*}
 <div id="footer">
-    <p>
         <span style="float:left;">
             {sitename assign="sitename"}
             &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}"><strong>{sitename}</strong></a>
@@ -20,5 +19,4 @@
             {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}">{gt text="CSS"}</a>&nbsp;/&nbsp;
             <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}">{gt text="XHTML"}</a>
         </div>
-    </p>
 </div>
