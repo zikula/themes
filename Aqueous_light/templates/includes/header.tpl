@@ -2,7 +2,7 @@
     <form method="post" id="searchform-h" action="{modurl modname=Search func=search}">
         <p>
             <input id="searchbox" type="text" name="q" size="20" maxlength="255" value="{gt text="Search For..."}" />
-            <input for="searchbox" type="submit" class="submitbutton" value="{gt text="Go"}" />
+            <input type="submit" class="submitbutton" value="{gt text="Go"}" />
             <input type="hidden" name="active[Dizkus]" value="1" />
             <input type="hidden" name="active[FAQ]" value="1" />
             <input type="hidden" name="active[locations]" value="1" />
