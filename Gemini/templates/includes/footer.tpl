@@ -12,8 +12,6 @@
         <span style="float : left; font-size : .75em; letter-spacing : .07em; margin-bottom : 0px; margin-top : 0px; padding-bottom : 5px; padding-left : 5px; text-align : left;">
             {assign var="poweredbyz" value="Powered by Zikula"}
             {gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}&nbsp;|&nbsp;
-            {assign var="zthemes" value="Theme by Zikula Themes"}
-            {gt text='Theme by <a href="http://code.zikula.org/themes/" title="%s">Zikula Themes</a>' tag1=$zthemes}&nbsp;|&nbsp;
             {* Please leave this if you use our template. Thank you *}
             {assign var="designbyz" value="Design by geeksmakemehot.com"}
             {gt text='Design by <a href="http://geeksmakemehot.com/tag/themes/" title="%s">geeksmakemehot.com</a>' tag1=$designbyz}&nbsp;|&nbsp;
