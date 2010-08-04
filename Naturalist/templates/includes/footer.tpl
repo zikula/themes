@@ -10,14 +10,12 @@
             <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}">{gt text="RSS"}</a>
         </span>
     </p>
-        <div style="color: #FCF8E3; font-family: verdana; font-size : .6em; letter-spacing : .075em; margin-bottom : 5px; margin-top : 35px; padding-bottom : 5px; padding-left : 5px; text-align : center;">
-            {assign var="poweredbyz" value="Powered by Zikula"}
-            {gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}&nbsp;|&nbsp;
-            {assign var="zthemes" value="Theme by Zikula Themes"}
-            {gt text='Theme by <a href="http://code.zikula.org/themes/" title="%s">Zikula Themes</a>' tag1=$zthemes}&nbsp;|&nbsp;
-            {assign var="designbyz" value="Design by Darren Hester"}
-            {gt text='Design by <a href="http://DesignsByDarren.com/" title="%s">Darren Hester</a>' tag1=$designbyz}&nbsp;|&nbsp;
-            {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}">{gt text="CSS"}</a>&nbsp;/&nbsp;
-            <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}">{gt text="XHTML"}</a>
-        </div>
+    <div style="color: #FCF8E3; font-family: verdana; font-size : .6em; letter-spacing : .07em; margin-bottom : 5px; margin-top : 35px; padding-bottom : 5px; padding-left : 5px; text-align : left;">
+        {assign var="poweredbyz" value="Powered by Zikula"}
+        {gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}&nbsp;|&nbsp;
+        {assign var="designbyz" value="Design by Darren Hester"}
+        {gt text='Design by <a href="http://DesignsByDarren.com/" title="%s">Darren Hester</a>' tag1=$designbyz}&nbsp;|&nbsp;
+        {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}">{gt text="CSS"}</a>&nbsp;/&nbsp;
+        <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}">{gt text="XHTML"}</a>
+    </div>
 </div>
