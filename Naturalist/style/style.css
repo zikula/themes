@@ -1,8 +1,10 @@
+
 /*
 Copyright: Darren Hester 2006, http://www.designsbydarren.com
 License: Released Under the "Creative Commons License",
 http://creativecommons.org/licenses/by-nc/2.5/
 */
+
 
 body {
     text-align: center;
@@ -12,21 +14,36 @@ body {
     color:#333333;
 }
 
+
 a:link {
-    color: #000000; text-decoration: underline
+    color: #000000;
+    text-decoration: underline;
 }
+
+
 a:visited {
-    color: #000000; text-decoration: underline
+    color: #000000;
+    text-decoration: underline;
 }
+
+
 a:active {
-    color: #000000; text-decoration: underline
+    color: #000000;
+    text-decoration: underline;
 }
+
+
 a:hover {
-    color: #000000; text-decoration: none
+    color: #000000;
+    text-decoration: none;
 }
+
+
 a img {
     border: 0px;
 }
+
+
 #page_wrapper {
     background: #F3E7A9 url('../images/page_bg.jpg') top left;
     margin-left: auto;
@@ -36,10 +53,12 @@ a img {
     border: 4px solid #F4F4EE;
 }
 
+
 #page_header {
     height: 140px;
     background: #515230 url('../images/header.jpg') top left no-repeat;
 }
+
 
 #page_header h1 {
     padding-top:30px;
@@ -51,6 +70,8 @@ a img {
     letter-spacing: -1px;
     margin:0px;
 }
+
+
 #page_header h2 {
     padding-top:0px;
     padding-left: 20px;
@@ -61,10 +82,12 @@ a img {
     margin:0px;
 }
 
+
 #menu_bar {
     height:30px;
     background: #A5A162 url('../images/menu_bg.jpg') top left no-repeat;
 }
+
 
 #navcontainer ul {
     padding-left: 0;
@@ -79,7 +102,11 @@ a img {
     font-weight:bold;
 }
 
-#navcontainer ul li { display: inline; }
+
+#navcontainer ul li {
+    display: inline;
+}
+
 
 #navcontainer ul li a {
     padding: 0.2em 1em;
@@ -90,19 +117,23 @@ a img {
     border-right: 1px solid #BBB774;
 }
 
+
 #navcontainer ul li a:hover, #navcontainer ul li.current a {
     background-color: transparent;
     color: #fff;
 }
 
+
 #content_wrapper {
     background: transparent url('../images/content_bg.jpg') top left no-repeat;
 }
+
 
 #left_side {
     float:left;
     width:480px;
 }
+
 
 #left_side h1, #left_side h2, #left_side h3, #left_side h4, #left_side h5, #left_side h6 {
     margin:10px;
@@ -113,17 +144,21 @@ a img {
     color: #A0410D;
 }
 
+
 #left_side h1 {
     font-size:18px;
 }
+
 
 #left_side h2 {
     font-size:16px;
 }
 
+
 #left_side h3 {
     font-size:14px;
 }
+
 
 #left_side p, #left_side ol, #left_side ul {
     margin:11px;
@@ -135,10 +170,12 @@ a img {
     text-align:justify;
 }
 
+
 #right_side {
     float:right;
     width:150px;
 }
+
 
 #right_side h4 {
     margin-right:10px;
@@ -152,11 +189,14 @@ a img {
     padding:4px;
     border:1px solid #3A3B22;
 }
+
+
 #right_side {
     margin:0px;
     padding-left:5px;
     padding-right:5px;
 }
+
 
 #right_side p, #right_side ol, #right_side ul {
     font-family: verdana;
@@ -165,23 +205,36 @@ a img {
     color: #333333;
 }
 
+
 #page_footer {
     height: 30px;
     background: #515230 url('../images/footer.jpg') top left no-repeat;
 }
 
+
 #page_footer a:link {
-    color: #F2C968; text-decoration: underline
+    color: #F2C968;
+    text-decoration: underline;
 }
+
+
 #page_footer a:visited {
-    color: #F2C968; text-decoration: underline
+    color: #F2C968;
+    text-decoration: underline;
 }
+
+
 #page_footer a:active {
-    color: #F2C968; text-decoration: underline
+    color: #F2C968;
+    text-decoration: underline;
 }
+
+
 #page_footer a:hover {
-    color: #F2C968; text-decoration: none
+    color: #F2C968;
+    text-decoration: none;
 }
+
 
 #page_footer p {
     text-align:center;
@@ -192,14 +245,28 @@ a img {
     color: #FCF8E3;
 }
 
+
 .spacer {
     margin:0px;
     padding:0px;
     height:10px;
     clear:both;
 }
-.left {float:left;text-align : left;padding-left:5px;}
-.right {float:right;text-align:right;padding-right:5px;}
+
+
+.left {
+    float:left;
+    text-align : left;
+    padding-left:5px;
+}
+
+
+.right {
+    float:right;
+    text-align:right;
+    padding-right:5px;
+}
+
 
 .z-bkey-extmenu ul {
     list-style-position:inside;
@@ -214,8 +281,8 @@ a img {
     padding-right : 0;
     padding-top : 0;
     text-decoration:none;
-
 }
+
 
 p.extmenuadmin a {
     padding-left: 15px;
@@ -241,8 +308,9 @@ p.extmenuadmin a {
     padding-left : 0;
     padding-right : 0;
     padding-top : 0;
-
 }
+
+
 .z-bkey-adminnav ul ul li {
     list-style-image : none;
     list-style-type : circle;
@@ -254,9 +322,7 @@ p.extmenuadmin a {
     padding-left : 2px;
     padding-right : 0;
     padding-top : 0;
-
 }
-
 
 
 .z-bkey-adminnav ul {
@@ -278,3 +344,12 @@ p.extmenuadmin a {
     list-style-position: inside;
 }
 
+
+.z-menuitem-title {
+    font-family : Verdana, 'sans-serif';
+    font-size : 10px;
+}
+
+.z-menuitem-title a {
+    text-decoration : none;
+}
