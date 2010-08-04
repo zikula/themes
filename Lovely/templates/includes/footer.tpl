@@ -10,7 +10,7 @@
             <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}"><strong>{gt text="Contact"}</strong></a>&nbsp;|&nbsp;
             <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}"><strong>{gt text="RSS"}</strong></a>
         </span>
-        <div style="float : left; font-size : .7em; letter-spacing : .07em; margin-bottom : 0px; margin-top : 5px; padding-bottom : 0px; padding-left : 0px; text-align : left;clear:both;">
+        <span style="float : left; font-size : .7em; letter-spacing : .07em; margin-bottom : 0px; margin-top : 5px; padding-bottom : 0px; padding-left : 0px; text-align : left;clear:both;">
             {assign var="poweredbyz" value="Powered by Zikula"}
             {gt text='Powered by <a href="http://zikula.org" title="%s"><strong>Zikula</strong></a>' tag1=$poweredbyz}&nbsp;|&nbsp;
             {assign var="zthemes" value="Theme by Zikula Themes"}
@@ -19,7 +19,7 @@
             {gt text='Design by <a href="http://www.kumi.co.nr" title="%s"><strong>Kumiko</strong></a>' tag1=$designbyz}&nbsp;|&nbsp;
             {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}"><strong>{gt text="CSS"}</strong></a>&nbsp;/&nbsp;
             <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}"><strong>{gt text="XHTML"}</strong></a>
-        </div>
+        </span>
     </p>
 </div>
 
