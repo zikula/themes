@@ -515,4 +515,6 @@ table strong { letter-spacing: normal ! important; }
 		directory. Dimensions should be at least 760px x 200px. Anything above that will
 		get cropped off of the image. */
 		
-/*	#headerimg 	{ background: url(../images/personalheader.jpg) no-repeat top;} */		
+/*	#headerimg 	{ background: url(../images/personalheader.jpg) no-repeat top;} */
+
+.z-menuitem-title { font-size: .8em;}
