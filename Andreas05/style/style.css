@@ -184,15 +184,13 @@ h2 {
     border-top-style : solid;
     border-top-width : 5px;
     clear:both;
-
     width:710px;
-
   }
+#footer p {
+padding-top : 5px;
+}
 
 /* Menu */
-
-
-
 .menu {
     border:1px solid #ffffff;
     color:#286ea0;
