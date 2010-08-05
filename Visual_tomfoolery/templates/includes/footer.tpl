@@ -13,8 +13,6 @@
         <span style="float : left; font-size : .7em; letter-spacing : .07em; margin-bottom : 5px; margin-top : 10px; padding-bottom : 5px; padding-left : 5px; text-align : left;">
         {assign var="poweredbyz" value="Powered by Zikula"}
         {gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}&nbsp;|&nbsp;
-        {assign var="zthemes" value="Theme by Zikula Themes"}
-        {gt text='Theme by <a href="http://code.zikula.org/themes/" title="%s">Zikula Themes</a>' tag1=$zthemes}&nbsp;|&nbsp;
         {assign var="designbyz" value="Design by Mode23"}
         {gt text='Design by <a href="http://www.mode23.ca/" title="%s">Mode23</a>' tag1=$designbyz}&nbsp;|&nbsp;
         {gt text="Valid"}:&nbsp;
