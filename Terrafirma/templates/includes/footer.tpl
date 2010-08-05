@@ -12,8 +12,6 @@
     <div style="float : left; font-size : .9em; letter-spacing : .085em; margin-bottom : 5px; margin-top : 10px; padding-bottom : 5px; padding-left:10px; text-align : left;">
         {assign var="poweredbyz" value="Powered by Zikula"}
         {gt text='Powered by <a href="http://zikula.org" title="%s"><strong>Zikula</strong></a>' tag1=$poweredbyz}&nbsp;|&nbsp;
-        {assign var="zthemes" value="Theme by Zikula Themes"}
-        {gt text='Theme by <a href="http://code.zikula.org/themes/" title="%s"><strong>Zikula Themes</strong></a>' tag1=$zthemes}&nbsp;|&nbsp;
         {assign var="designbyz" value="Design by nodethirtythree.com"}
         {gt text='Design by <a href="http://www.nodethirtythree.com/" title="%s"><strong>nodethirtythree.com</strong></a>' tag1=$designbyz}&nbsp;|&nbsp;
         {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}"><strong>{gt text="CSS"}</strong></a>&nbsp;/&nbsp;
