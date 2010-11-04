@@ -1,0 +1,462 @@
+
+
+body {
+    background-attachment : fixed;
+    background-color : #424e64;
+    background-image : url('../images/pg-bg.png');
+    background-position : top left;
+    background-repeat : repeat-x;
+    color : #242335;
+    font-family : 'Lucida Sans', 'sans-serif';
+    font-size : .9em;
+    margin-left : auto;
+    margin-right : auto;
+    text-align : center;
+  }
+
+h1,h2,h3,h4,h5,h6 {
+    color : #242335;
+    font-family : 'Lucida Sans', 'sans-serif';
+    font-style : oblique;
+    font-variant : small-caps;
+    font-weight : bold;
+    padding-left: 5px;
+}
+
+h1 {
+    font-size : 2.2em;
+}
+
+h2 {
+    font-size : 2em;
+}
+
+h3 {
+    font-size : 1.8em;
+}
+
+h4 {
+    font-size : 1.6em;
+}
+
+h5 {
+    font-size : 1.4em;
+}
+
+h6 {
+    font-size : 1.2em;
+}
+
+h4 img {
+border: 0;
+float: right;
+padding-right: 10px;
+padding-top: 2px;
+}
+
+a {
+    color:#dff1ce;
+    text-decoration: none;
+    font-weight : bold;
+  }
+
+
+a:active {
+    color:#721643;
+    text-decoration: none;
+  }
+
+
+a:hover {
+    color:#721643;
+    text-decoration: none;
+  }
+
+/*a:visited { color:#dff1ce; text-decoration: none;}*/
+
+
+#bodywrap {
+    background-image : url('../images/hornet3trans.png');
+    background-position : top left;
+    background-repeat : no-repeat;
+    left : 0px;
+    margin-left : auto;
+    margin-right : auto;
+    min-height : 1000px;
+    overflow : auto;
+    text-align : left;
+    top : 50px;
+    width : 1000px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+
+
+#pagewrap {
+    -moz-border-radius : 8px;
+    -webkit-border-radius : 8px;
+    border-radius : 8px;
+    background-image : url('../images/violet-bg.png');
+    background-position : top left;
+    background-repeat : repeat-y;
+    left : 0px;
+    margin-left : auto;
+    margin-right : auto;
+    text-align : left;
+    top : 50px;
+    width : 1000px;
+    padding-bottom : 0;
+    /* overflow : auto;
+    display : block;
+    */;
+  }
+
+
+#header {
+    background-image : url('../images/header1.png');
+    background-position : top left;
+    background-repeat : no-repeat;
+    left : 0px;
+    margin-left : auto;
+    margin-right : auto;
+    min-height : 425px;
+    overflow : auto;
+    text-align : left;
+    top : 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width : 960px;
+    -webkit-border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+#masthead {
+    float: left;
+    margin-top : 50px;
+    margin-left : 30px;
+    position: relative;
+}
+
+#sitename a {
+    color : #d8a91c;
+    font-family : 'Lucida Sans', 'sans-serif';
+    font-size : 3em;
+    font-style : oblique;
+    font-variant : small-caps;
+    font-weight : bold;
+    padding-left: 20px;
+  }
+#sitename a:hover {
+    color : #d8a91c;
+  }
+
+#slogan {
+    color : #242335;
+    font-family : 'Luxi Sans', 'sans-serif';
+    font-size : 1.1em;
+    font-style : italic;
+    font-weight : bold;
+    padding-left: 25px;
+  }
+
+#headnav {
+    border : 1px solid #721643;
+    background: url("../images/pixel-red-trans.png") repeat scroll 0 0 transparent !important;
+    width : 100%;
+    height : 38px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px ;
+    margin-top : 370px;
+    padding-bottom : 10px;
+
+}
+
+#menu ul {
+ line-height:1.2em;
+
+}
+
+#menu li {
+    background: url("../images/pixel-red-trans.png") repeat scroll 0 0 transparent !important;
+ display: inline;
+    color : #d8a91c;
+    font-family : 'Lucida Sans', 'sans-serif';
+    font-size : 1.1em;
+    font-style : oblique;
+    font-variant : small-caps;
+    font-weight : bold;
+ line-height:1.2em;
+    border : 1px solid #721643;
+    padding-top : 9px;
+    padding-bottom : 9px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px ;
+}
+
+#menu li a {
+    background: url("../images/pixel-red-trans.png") repeat scroll 0 0 transparent !important;
+
+    color : #d8a91c;
+    font-family : 'Lucida Sans', 'sans-serif';
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top : 9px;
+    padding-bottom : 9px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px ;
+}
+#menu li a:hover, #menu li.current a {
+    background: url("../images/pixel-red.png") repeat scroll 0 0 transparent !important;
+
+    color : #d8a91c;
+    font-family : 'Lucida Sans', 'sans-serif';
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top : 9px;
+    padding-bottom : 9px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px ;
+}
+
+
+#main {
+    float: left;
+    width : 705px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align : justify;
+  }
+
+
+#sidebar {
+    float : right;
+    width : 205px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left : 1px dotted #721643;
+  }
+
+#sidebar a {
+    color:#721643;
+    text-decoration: none;
+  }
+
+
+#sidebar a:active {
+    color:#dff1ce;
+    text-decoration: none;
+  }
+
+
+#sidebar a:hover {
+    color:#dff1ce;
+    text-decoration: none;
+  }
+
+
+#footer {
+    background-image : url('../images/foot1.png');
+    background-position : top left;
+    background-repeat : no-repeat;
+    left : 0px;
+    margin-left : auto;
+    margin-right : auto;
+    max-height : 700px;
+    min-height : 10px;
+    overflow : auto;
+    text-align : left;
+    bottom : 0px;
+    width : 980px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    -moz-border-radius: 0px 0px 8px 8px;
+    border-radius: 0px 0px 8px 8px;
+    border-top : 1px dotted #721643;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+#fb-wrap {
+   /* min-height : 200px;*/
+    float: left;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+
+#fb1 {
+    float: left;
+    width : 220px;
+    margin-right : 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+#fb2 {
+    float: left;
+    width : 220px;
+    margin-right : 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+#fb3 {
+    clear: none;
+    float : right;
+    width : 450px;
+    margin-right : 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+
+
+#foot {
+    float: left;
+    clear:both;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    padding: 0;
+    width : 100%;
+  }
+
+#copyright {
+float:left;text-align:left; padding-left : 5px;
+}
+
+#copyright a {
+    color : #d8a91c;
+    font-style : oblique;
+    font-variant : small-caps;
+    font-weight : bold;
+}
+
+#contact {
+float:right; text-align:right; padding-right : 5px;
+}
+
+#contact a{
+    color:#dff1ce;
+    text-decoration: none;
+    font-style : oblique;
+    font-variant : small-caps;
+    font-weight : bold;
+}
+
+
+#contact a:hover {
+    color : #d8a91c !important;
+  }
+#design {
+clear:both;float : left; font-size : .7em; letter-spacing : .07em; margin-bottom : 5px; margin-top : 10px; padding-bottom : 5px; padding-left : 5px; text-align : left;
+}
+
+#design  a {
+    color : #d8a91c;
+    font-style : oblique;
+    font-variant : small-caps;
+    font-weight : bold;
+}
+
+#foot  a:hover {
+    color : #dff1ce;
+  }
+
+/* Styles for span-based module menus */
+
+
+.z-menuitem-title {
+    color: #721643;
+    background: url("../images/pixel-red-trans.png") repeat scroll 0 0 transparent !important;
+    border: 1px solid #721643 !important;
+    padding-bottom: 2px !important;
+    font-size : .9em;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+  }
+  
+.z-menuitem-title a {
+    font-variant : small-caps;
+
+    font-style : oblique;
+    font-weight : bold;
+
+}
+/******************************************************************************
+* Classes to define two colors for alternating rows in views
+*******************************************************************************/
+
+
+.z-even {
+    background-color: #a08925 !important;
+    color: inherit;
+  }
+
+
+.z-odd {
+    background-color: #806c06 !important;
+    color: inherit;
+  }
+
+/******************************************************************************
+* Generic Form Style: z-form
+*******************************************************************************/
+
+.z-form fieldset,.z-form .z-fieldset {
+    border: 1px solid #721643 !important;
+    margin: 0 0 1em 0;
+    padding: 0.5em 1em;
+    overflow: hidden;
+    position:relative;
+    /* IE fix */ -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: url("../images/pixel-red-trans.png") repeat scroll 0 0 transparent !important;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background: -moz-linear-gradient(top,#a97db6,#995177) !important;
+    background: -webkit-gradient(linear,left top, left bottom,from(#a97db6),to(#995177)) !important;
+  }
+
+
+.z-form legend {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #721643 !important;
+  }
+
+
+.z-form .z-formrow input,.z-form .z-formrow textarea,.z-form .z-formrow select {
+    font-family: Verdana, sans-serif !important;
+    border: 1px solid #721643 !important;
+    background: url("../images/pixel-red-trans.png") repeat scroll 0 0 transparent !important;
+    font-size: .9em !important;
+    margin: 0;
+    max-width: none;
+    color: #dff1ce !important;
+  }
+
+
+.z-form .z-formrow input[type=checkbox],.z-form .z-formrow input[type=radio] {
+    width: auto;
+    border: 1px solid #721643 !important;
+    background: url("../images/pixel-red-trans.png") repeat scroll 0 0 transparent !important;
+  }
+
+
+.z-form div.z-formrow input:focus,.z-form div.z-formrow select:focus,.z-form div.z-formrow textarea:focus,.z-form div.z-formrow input:hover,.z-form div.z-formrow select:hover,.z-form div.z-formrow textarea:hover,.z-form div.z-formrow input:active,.z-form div.z-formrow select:active,.z-form div.z-formrow textarea:active {
+    border: 1px solid #721643 !important;
+    background: url("../images/pixel-red-trans.png") repeat scroll 0 0 transparent !important;
+    color: #dff1ce !important;
+  }
+

@@ -1,0 +1,583 @@
+
+/** Author :Gen.Lostwarrior
+ * Project :Business -II
+ * Date :10 Aug 2008
+ */
+/** With Less Resources try to achieve a lot ***/
+/** Standard Elements **/
+
+/** HTML Tags **/
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+body {
+    background-color : #000;
+    color : #767676;
+    font-family : verdana, Helvetica, Arial, sans-serif;
+    font-size : 12px;
+    font-weight : normal;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+  }
+
+
+p {
+    color : #767676;
+    font-size : 12px;
+    padding-left : 5px;
+    padding-right : 5px;
+    text-align:justify;
+    line-height: 16px;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom : 10px;
+    padding-left : 5px;
+    padding-top : 5px;
+    color : #A5A5A5;
+  }
+
+
+h1 {
+    font-size : 28px;
+  }
+
+
+h2 {
+    font-size : 22px;
+  }
+
+
+h3 {
+    font-size : 20px;
+  }
+
+
+h4 {
+    font-size : 18px;
+    color : #C9C9C9 !important;
+  }
+
+
+h5 {
+    font-size : 16px;
+  }
+
+
+h6 {
+    font-size : 14px;
+  }
+
+
+li {
+    text-align:justify;
+    line-height: 15px;
+    margin-top : 0;
+    margin-bottom : 5px
+  }
+
+
+img {
+    border-bottom-style : none;
+    border-left-style : none;
+    border-right-style : none;
+    border-top-style : none;
+  }
+
+
+a {
+    color : #fff;
+    text-decoration:none;
+  }
+
+
+a:hover {
+    color : #767676;
+    text-decoration:none;
+  }
+
+/** Layout **/
+
+
+#wrapper {
+    border-bottom-color : #7b7b7b;
+    border-bottom-style : solid;
+    border-bottom-width : 1px;
+    border-left-color : #7b7b7b;
+    border-left-style : solid;
+    border-left-width : 1px;
+    border-right-color : #7b7b7b;
+    border-right-style : solid;
+    border-right-width : 1px;
+    border-top-color : #7b7b7b;
+    border-top-style : solid;
+    border-top-width : 1px;
+    margin-bottom : 10px;
+    margin-left : auto;
+    margin-right : auto;
+    padding-left : 5px;
+    padding-right : 5px;
+    margin-top : 10px;
+    width : 925px;
+  }
+
+
+#content {
+    margin-bottom : 0;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0px;
+    padding-left : 5px;
+    padding-right : 5px;
+  }
+
+
+#main {
+    float : right;
+    margin-bottom : 0px;
+    margin-left : 0px;
+    margin-right : 5px;
+    margin-top : 0px;
+    width : 575px;
+    padding-left : 10px;
+    padding-right : 10px;
+  }
+
+
+#sidebar {
+    float : left;
+    margin-bottom : 0px;
+    margin-left : 5px;
+    margin-right : 0px;
+    margin-top : 0px;
+    width : 275px;
+    padding-left : 10px;
+    padding-right : 10px;
+  }
+
+/* Header Styles */
+
+
+
+
+
+#sitename a {
+    color: #d1d1d1;
+    font-family : verdana, Helvetica, Arial, sans-serif;
+    font-size : 42px;
+    font-weight : 500;
+    padding-left : 50px;
+    line-height: 72px;
+    text-decoration:none;
+    text-transform:uppercase;
+  }
+
+
+#sitename a:hover {
+    color : #767676;
+    text-decoration:none;
+  }
+
+
+#slogan {
+    font-family : verdana, Helvetica, Arial, sans-serif;
+    font-size : 16px;
+    font-style : italic;
+    font-weight : bold;
+    padding-bottom : 0;
+    padding-left : 125px;
+    padding-right : 0;
+    padding-top : 10px;
+  }
+
+/**Top Menu ***/
+
+
+#header ul {
+    float : right;
+    list-style-image : none;
+    list-style-type : none;
+    margin-right : 5%;
+    margin-top : 10px;
+  }
+
+
+#header ul li {
+    display : block;
+    float : left;
+    height : 40px;
+    margin-left : 10px;
+  }
+
+
+#header li a {
+    color : #d7d7d7;
+    font-size : 11px;
+    font-weight : bold;
+    padding-left : 5px;
+    text-decoration : none;
+  }
+
+
+#header li a:hover {
+    color : #fff;
+  }
+
+
+li#blue, li#green, li#lime, li#red, li#violet {
+    padding-bottom : 0;
+    padding-left : 40px;
+    padding-right : 0;
+    padding-top : 10px;
+  }
+
+
+li#blue {
+    background-attachment : scroll;
+    background-color : transparent;
+    background-image : url(../images/ball-blue.jpg);
+    background-repeat : no-repeat;
+  }
+
+
+li#green {
+    background-attachment : scroll;
+    background-color : transparent;
+    background-image : url(../images/ball-green.jpg);
+    background-repeat : no-repeat;
+  }
+
+
+li#lime {
+    background-attachment : scroll;
+    background-color : transparent;
+    background-image : url(../images/ball-lime.jpg);
+    background-repeat : no-repeat;
+  }
+
+
+li#red {
+    background-attachment : scroll;
+    background-color : transparent;
+    background-image : url(../images/ball-red.jpg);
+    background-repeat : no-repeat;
+  }
+
+
+li#violet {
+    background-attachment : scroll;
+    background-color : transparent;
+    background-image : url(../images/ball-violet.jpg);
+    background-repeat : no-repeat;
+  }
+
+/**Content**/
+
+
+/*
+
+#content h1 {
+    font-size : 1.5em;
+  }
+
+*/
+
+
+
+/** Main Part***/
+
+
+#main p {
+    margin-bottom : 0;
+    margin-left : 0px;
+    margin-right : 0;
+    margin-top : 0;
+  }
+
+
+#main img {
+    margin-bottom : 0;
+    margin-left : 0px;
+    margin-right : 0;
+    margin-top : 0;
+  }
+
+
+#main ol {
+    padding-bottom : 5px;
+    padding-left : 25px;
+    padding-right : 0;
+    padding-top : 5px;
+  }
+
+
+#main ul {
+    list-style-image : url('../images/stars.gif');
+    list-style-position : outside;
+    list-style-type : none;
+    padding-bottom : 10px;
+    padding-left : 35px;
+    padding-right : 0;
+    padding-top : 10px;
+  }
+
+
+#part1 ul {
+    list-style-image : none;
+    list-style-position : inside;
+    list-style-type : none;
+    margin-bottom : 0;
+    margin-left : 0px;
+    margin-right : 0;
+    margin-top : 10px;
+  }
+
+
+#part1 li a, #part2 li a {
+    color : #767676;
+    font-size : 0.8em;
+    text-decoration : none;
+  }
+
+
+#part1 li a:hover, #part2 li a:hover {
+    color : #fff;
+  }
+
+
+#part1 li {
+    background-attachment : scroll;
+    background-color : transparent;
+    background-image : url(../images/arrow.gif);
+    background-position : left 4px;
+    background-repeat : no-repeat;
+    padding-bottom : 0px;
+    padding-left : 28px;
+    padding-right : 4px;
+    padding-top : 2px;
+  }
+
+
+#part2 {
+    margin-bottom : 0px;
+    margin-left : 0px;
+    margin-right : 0px;
+    margin-top : 60px;
+  }
+
+
+#nav1 {
+    margin-bottom : 0;
+    margin-left : 30px;
+    margin-right : 50px;
+    margin-top : 0;
+  }
+
+
+#part2 ul {
+    list-style-image : none;
+    list-style-position : inside;
+    list-style-type : none;
+  }
+
+
+#part2 li {
+    background-attachment : scroll;
+    background-color : transparent;
+    background-image : url(../images/arrow.gif);
+    background-position : left 4px;
+    background-repeat : no-repeat;
+    padding-bottom : 0px;
+    padding-left : 28px;
+    padding-right : 4px;
+    padding-top : 2px;
+  }
+
+/** Sidebar ***/
+
+#sidebar ul {
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 20px !important;
+    margin-left : 20px !important;
+    padding-left : 0px !important;
+}
+#sidebar ul li {
+    list-style-image : none;
+    list-style-type : square;
+    margin-bottom : 0px;
+    margin-left : 0px !important;
+    padding-left : 0px !important;
+}
+#sidebar ul ul {
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 0px;
+    margin-left : 0px !important;
+    padding-left : 0px !important;
+}
+#sidebar ul ul li {
+    list-style-image : none;
+    list-style-type : circle;
+    margin-bottom : 0px;
+    margin-left : 5px !important;
+    padding-left : 0px !important;
+}
+
+
+
+/**Footer**/
+
+
+#footer {
+    overflow:auto;
+    padding-left : 5px;
+    padding-right : 5px;
+    text-align : center;
+  }
+
+
+#footer a {
+    color : #fff;
+    text-decoration : none;
+  }
+
+/**************************/
+/**Common**/
+
+/*#footer p, #sidebar p, #main p {
+    color : #767676;
+    font-size : 0.8em;
+  }
+*/
+
+.code {
+    background-image : url(../images/line.gif);
+    background-repeat : repeat-x;
+    margin-left : 30px;
+  }
+
+
+.ace {
+    margin-top : 20px;
+  }
+
+
+.left {
+    float : left;
+  }
+
+
+.cleaner {
+    clear : both;
+  }
+
+
+.line {
+    background-image : url(../images/line.gif);
+    background-repeat : repeat-x;
+    clear : both;
+    margin-bottom : 0;
+    margin-left : 5%;
+    margin-right : 5%;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+  }
+
+
+/* Styles for span-based module menus */
+
+.z-menuitem-title {
+    background: url("none") repeat-x scroll 0 0 transparent !important;
+    border: 1px solid #474747 !important;
+    font-style : italic;
+    font-weight : bold;
+    font-size : 11px;
+}
+
+/******************************************************************************
+* Classes to define two colors for alternating rows in views
+*******************************************************************************/
+
+.z-even {
+    background-color: #a08925 !important;
+    color: inherit;
+}
+.z-odd {
+    background-color: #474747 !important;
+    color: inherit;
+}
+
+/******************************************************************************
+* Generic Form Style: z-form
+*******************************************************************************/
+.z-form fieldset,
+.z-form .z-fieldset {
+    border: 1px solid #474747 !important;
+    margin: 0 0 1em 0;
+    padding: 0.5em 1em;
+    overflow: hidden;
+    position:relative; /* IE fix */
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #000 !important;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background: -moz-linear-gradient(top,#000,#474747) !important;
+    background: -webkit-gradient(linear,left top, left bottom,from(#000),to(#474747)) !important;
+}
+.z-form legend {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: #767676 !important;
+}
+
+
+.z-form .z-formrow input,
+.z-form .z-formrow textarea,
+.z-form .z-formrow select {
+    font-family: verdana, Helvetica, Arial, sans-serif !important;
+    border: 1px solid #474747 !important;
+    background: #153741 !important;
+    font-size: 1em;
+    margin: 0;
+    max-width: none;
+    color: #474747 !important;
+}
+
+
+.z-form .z-formrow input[type=checkbox],
+.z-form .z-formrow input[type=radio] {
+    width: auto;
+    border: 1px solid #474747 !important;
+    background: #153741 !important;
+}
+
+.z-form div.z-formrow input:focus,
+.z-form div.z-formrow select:focus,
+.z-form div.z-formrow textarea:focus,
+.z-form div.z-formrow input:hover,
+.z-form div.z-formrow select:hover,
+.z-form div.z-formrow textarea:hover,
+.z-form div.z-formrow input:active,
+.z-form div.z-formrow select:active,
+.z-form div.z-formrow textarea:active {
+    border: 1px solid  #474747 !important;
+    background: #153741 !important;
+    color: #fff !important;
+}

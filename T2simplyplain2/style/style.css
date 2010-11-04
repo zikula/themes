@@ -1,0 +1,287 @@
+
+/* CSS Document */
+
+/************HTML Tag Styles****************************************************/
+body {
+    font-family : verdana;
+    text-align : center;
+}
+
+
+body {
+    font : normal 12px/1.6em Arial, Helvetica, sans-serif;
+    color : #2a3845;
+    margin : 0;
+    padding : 0;
+    background:#f7f7f7;
+}
+
+
+blockquote {
+    border-left:5px solid #df7000;
+    margin-left:10px;
+    padding:6px;
+    padding-left:10px;
+    background:#fef6ee;
+}
+
+
+code {
+    background:#fffcf8;
+    display:block;
+    border:1px solid #df7000;
+    margin:14px;
+    padding:7px;
+}
+
+a {
+    color:#DF7000;
+}
+
+
+a:hover {
+    color:#666666;
+}
+
+a img {
+border: 0px;
+}
+
+p {
+    padding-left:10px;
+    padding-right:5px;
+    padding-top:0px;
+    padding-bottom:8px;
+/*    margin-left:10px;
+    margin-right:5px;
+    margin-top:0px;
+    margin-bottom:8px;*/
+}
+
+
+
+/*******Main Layout Divisions ***********************************/
+
+#pagewrapper,#page {
+    width:960px;
+    margin:auto;
+    text-align:left;
+    display:block;
+}
+
+#page {
+    border:1px solid #333333;
+    color:#333333;
+    background:#fff;
+}
+
+
+#header {
+    border-top:3px solid #464646;
+    border-bottom:0px solid #666666;
+    border-left:3px solid #464646;
+    border-right:3px solid #464646;
+    display:block;
+    height:100px;
+    padding:0px;
+    clear:both;
+    margin:5px 5px 0 5px;
+}
+
+
+#main {
+    margin:5px;
+    clear:both;
+    display:block;
+    margin-bottom:40px;
+}
+
+
+#right {
+    width:20%;
+    float:right;
+    margin-bottom : 10px;
+    margin-left : 10px;
+    margin-right : 0px;
+    margin-top : 0px;
+}
+
+
+#right2 {
+    width:20%;
+    float:right;
+    margin-bottom : 10px;
+    margin-left : 10px;
+    margin-right : 10px;
+    margin-top : 15px;
+}
+
+
+#body {
+    width:51%;
+    float:left;
+    margin-bottom : 20px;
+    margin-left : 10px;
+    margin-right : 0px;
+    margin-top : 15px;
+    padding-left:16px;
+}
+
+
+#footer {
+    clear : both;
+    margin-bottom : 5px;
+    margin-left : 5px;
+    margin-right : 5px;
+    margin-top : 5px;
+    vertical-align : middle;
+    text-align : center;
+    font-size : 12px;
+    display : block;
+    overflow :  auto;
+    background-color : #333333;
+    color : #FFFFFF;
+    padding-bottom : 5px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-top : 5px;
+}
+
+
+/******Header Styles**************************************/
+
+#sitename {
+    margin:0;
+    padding:0;
+    font:30px Georgia, serif;
+    margin-top:20px;
+    margin-left:40px;
+}
+
+
+#slogan {
+    margin:0;
+    padding:0;
+    font:14px Georgia, serif;
+    margin-left:40px;
+}
+
+
+#topnav {
+    color:#FFFFFF;
+    margin:0px 5px 5px 5px;
+    font:13px verdana;
+    padding:5px;
+    background:url(../images/topnav_bg.gif) #333333;
+}
+
+
+#topnav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0px;
+}
+
+
+#topnav ul li {
+    display:inline;
+    margin-right:6px;
+    margin-left:6px;
+}
+
+
+#topnav a {
+    color:#FF9933;
+    text-decoration:none;
+    font-weight:500;
+}
+
+
+#topnav a:hover {
+    text-decoration:underline;
+}
+
+
+
+.bcol {
+    color:#fb9622;
+}
+
+/****************************************************************/
+
+/*
+#main h2 {
+    color:#7D3F00;
+    margin:20px 0 6px;
+    padding-bottom:10px;
+    font:normal 17px Georgia, serif;
+    border-bottom : 1px solid #e2dfdb;
+}
+*/
+#main h4 {
+    color:#7D3F00;
+    margin:20px 0 6px;
+    padding-bottom:10px;
+    font:normal 17px Georgia, serif;
+    border-bottom : 1px solid #e2dfdb;
+}
+
+#main {
+    font:12px verdana;
+    line-height:15px;
+}
+
+/************** Footer Styles ************************************/
+
+#footer {
+
+}
+
+#footer a {
+    color:#FF9933;
+    text-decoration:none;
+    font-weight:500;
+}
+
+#footer a:hover {
+    text-decoration:underline;
+}
+
+#footer p {
+    padding:0;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:0px !important;
+    padding-bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px !important;
+    margin-bottom:0px
+}
+
+/********* These .nav styles are meant for sidebar block lists ************************/
+
+.nav ul {
+    margin-left:4px;
+    list-style:inside;
+    margin-top:10px;
+    padding:0;
+}
+
+
+.nav li {
+    margin-bottom:2px;
+}
+
+
+/************** General Styles *******************************/
+
+.nobullet li, .nobullet ul {
+    margin-top:6px;
+    list-style:none;
+    list-style-position:outside;
+    list-style-type:none;
+    padding:0;
+    border:0px solid red;
+}
+

@@ -1,0 +1,1237 @@
+
+@charset "utf-8";
+/*  
+Theme Name: Retromania
+Theme URI: http://www.jayhafling.com/
+Description: Retromania is nice free wordpress theme for personal blog. The theme is released under GPL
+Version: 1.6
+Author: Jay Hafling
+Tags: green, yellow, light, two-columns, right-sidebar, fixed-width
+*/
+
+
+.z-menuitem-title {
+    background: url("../images/z-menu-nav-bg1.png") repeat 0 0 transparent !important;
+    border: 1px solid #705d00 !important;
+  }
+
+
+html {
+    font-size:100.01%;
+  }
+
+
+html, body {
+    border:0;
+    margin:0;
+    padding:0;
+  }
+
+
+* {
+    padding:0;
+    margin:0;
+  }
+
+
+body {
+    font: 12px/1.4 Arial, Helvetica, sans-serif;
+    color:#232323;
+    background:#00303A;
+  }
+
+/***** Headings *****/
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+    font-weight:normal;
+  }
+
+
+h1 {
+    padding:0px 0 10px 0;
+    font-size:24px;
+    color:#ac1616;
+    font-family:Georgia, "Times New Roman", Times, serif;
+  }
+
+
+h2 {
+    padding:0px 0 20px 0;
+    font-size:24px;
+  }
+
+
+h3 {
+    font-size:16px;
+    font-weight:normal;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    text-transform:uppercase;
+    color:#ac1616;
+    padding:0px 0 20px 0;
+  }
+
+/***** Common Formatting *****/
+
+
+
+
+p, ul, ol {
+    margin:0;
+    padding-bottom : 20px;
+    padding-left : 5px;
+    padding-right : 5px;
+    padding-top : 0;
+  }
+
+
+ul, ol {
+    padding:0 0 0px 2.5em;
+  }
+
+
+ul {
+    list-style-image : url('../images/bullet2.gif');
+  }
+
+
+ul li, ul li ul li {
+    margin-bottom : 0px;
+    margin-left : 10px;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 5px;
+    padding-left : 0px;
+    padding-right : 0;
+    padding-top : 5px;
+  }
+
+
+blockquote {
+    margin:0 0 20px 0px;
+    padding:10px 10px 10px 60px;
+    background:#d3cdba url(../images/blockquote.gif) top left no-repeat;
+  }
+
+
+small {
+    font-size:0.85em;
+  }
+
+
+img {
+    border:0;
+  }
+
+
+sup {
+    position:relative;
+    bottom:0.3em;
+    vertical-align:baseline;
+  }
+
+
+sub {
+    position:relative;
+    bottom:-0.2em;
+    vertical-align:baseline;
+  }
+
+
+acronym, abbr {
+    cursor:help;
+    letter-spacing:1px;
+    border-bottom:1px dashed;
+  }
+
+/***** Links *****/
+
+
+
+
+a,a:link,a:visited,a:hover {
+    text-decoration:none;
+  }
+
+
+a:link {
+    color:#ac1616;
+  }
+
+
+a:visited {
+    color:#ac1616;
+  }
+
+
+a:hover {
+    color:#73794f;
+  }
+
+
+a:active {
+    color:#ff4200;
+  }
+
+/***** Forms *****/
+
+
+
+
+form {
+    margin:0;
+    padding:0;
+    display:inline;
+  }
+
+
+input, select, textarea {
+    font:1em Arial, Helvetica, sans-serif;
+  }
+
+
+textarea {
+    width:100%;
+    line-height:1.25;
+  }
+
+
+label {
+    cursor:pointer;
+  }
+
+/***** Tables *****/
+
+
+
+
+table {
+    border:0;
+    margin:0 0 1.25em 0;
+    padding:0;
+  }
+
+
+table tr td {
+    padding:2px;
+    border:0;
+  }
+
+
+table tr th {
+    padding:2px;
+    border:0;
+  }
+
+/***** Wrapper *****/
+
+
+
+
+.wrap {
+    width:1000px;
+    margin:0 auto;
+  }
+
+/***** Global Classes *****/
+
+
+
+
+.clear {
+    clear:both;
+    overflow:hidden;
+    width:1px;
+    height:1px;
+  }
+
+
+.float-left {
+    float:left;
+  }
+
+
+.float-right {
+    float:right;
+  }
+
+
+.text-left {
+    text-align:left;
+  }
+
+
+.text-right {
+    text-align:right;
+  }
+
+
+.text-center {
+    text-align:center;
+  }
+
+
+.text-justify {
+    text-align:justify;
+  }
+
+
+.bold {
+    font-weight:bold;
+  }
+
+
+.italic {
+    font-style:italic;
+  }
+
+
+.underline {
+    border-bottom:1px solid;
+  }
+
+
+.highlight {
+    background:#ffc;
+  }
+
+
+.img-left {
+    float:left;
+    margin:4px 10px 4px 0;
+  }
+
+
+.img-right {
+    float:right;
+    margin:4px 0 4px 10px;
+  }
+
+
+.nopadding {
+    padding:0;
+  }
+
+
+.noindent {
+    margin-left:0;
+    padding-left:0;
+  }
+
+
+.nobullet {
+    list-style:none;
+    list-style-image:none;
+  }
+
+
+.width100 {
+    width: 100%;
+  }
+
+
+.width75 {
+    width: 75%;
+  }
+
+
+.width50 {
+    width: 50%;
+  }
+
+
+.aligncenter,div.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.alignleft {
+    float: left;
+    margin:0 10px 10px 0px;
+  }
+
+
+.alignright {
+    float: right;
+    margin:0 0px 10px 10px;
+  }
+
+
+.wp-caption {
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding-top: 4px;
+    margin: 10px;
+    /* optional rounded corners for browsers that support it */ -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+
+
+.wp-caption img {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+  }
+
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    padding: 0 4px 5px;
+    margin: 0;
+  }
+
+/**************  Classes  **************/
+/*++++++++++++++  Header  +++++++++++++++*/
+
+
+
+
+.header {
+    width:1000px;
+    height:240px;
+    position:relative;
+    background:url(../images/header-blank.png) top left no-repeat;
+    z-index:190;
+  }
+
+
+h1.logo {
+    margin:0;
+    padding:0;
+    font:bold 34px/34px Georgia, Helvetica, sans-serif;
+    letter-spacing:-1px;
+    text-transform:uppercase;
+    color:#ad1616;
+    position:absolute;
+    left:57px;
+    top:11px;
+  }
+
+
+h1.logo a, h1.logo a:visited {
+    color:#ad1616;
+    text-decoration:none;
+  }
+
+
+.description {
+    margin:0;
+    padding:0;
+    font:bold 11px/11px "Trebuchet MS", Helvetica, sans-serif;
+    text-transform:uppercase;
+    color:#000;
+    position:absolute;
+    left:57px;
+    top:44px;
+  }
+
+
+.subscribe_rss {
+    background-color : transparent;
+    background-image : url("../images/button_rss.png");
+    background-position : top left;
+    background-repeat : no-repeat;
+    font-family : Georgia,"Times New Roman",Times,serif;
+    font-size : 14px;
+    font-weight : bold;
+    line-height : 14px;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : 35px;
+    min-height : 35px;
+    padding-bottom : 0;
+    padding-left : 37px;
+    padding-right : 0;
+    padding-top : 0;
+    position : absolute;
+    right : 200px;
+    text-transform : uppercase;
+    top : 15px;
+  }
+
+
+.subscribe_rss a, .subscribe_rss a:visited {
+    color:#3e3f42;
+    text-decoration:none;
+  }
+
+
+.subscribe_email {
+    background-color : transparent;
+    background-image : url("../images/button_mail.png");
+    background-position : top left;
+    background-repeat : no-repeat;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : 35px;
+    min-height : 35px;
+    padding-bottom : 0;
+    padding-left : 37px;
+    padding-right : 0;
+    padding-top : 0;
+    font:bold 14px/14px Georgia, "Times New Roman", Times, serif;
+    text-transform:uppercase;
+    position:absolute;
+    top:15px;
+    right:30px;
+  }
+
+
+.subscribe_email a, .subscribe_email a:visited {
+    color:#3e3f42;
+    text-decoration:none;
+  }
+
+
+.subscribe_email a:hover, .subscribe_rss a:hover {
+    color:#ad1616;
+  }
+
+
+#headnav {
+    background:url(../images/headnav-bg.png) top left no-repeat;
+    width:953px;
+    height:51px;
+    position:relative;
+    top:180px;
+    margin-bottom : 0px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0;
+    padding-bottom : 0px;
+    padding-left : 0px;
+    padding-right : 0;
+    padding-top : 0px;
+  }
+
+
+ul.menu {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    position:absolute;
+    top:20px;
+    left:20px;
+    /* position:absolute;
+    top:201px;
+    left:55px;
+    */ z-index:200;
+  }
+
+
+ul.menu li {
+    float:left;
+    font:bold 11px/11px Georgia, "Times New Roman", Times, serif;
+    text-transform:uppercase;
+    color:#000;
+    padding:0 21px 0 0;
+    margin:0;
+    position:relative;
+  }
+
+
+ul.menu li a, ul.menu li a:visited {
+    color:#000;
+  }
+
+
+ul.menu li a:hover {
+    color:#ad1616;
+  }
+
+
+ul.menu li ul {
+    position: absolute;
+    left:-10px;
+    top: 10px;
+    padding:0;
+    margin:0;
+    display:none;
+    width:150px;
+    background:#e4ddcb;
+    list-style:none;
+    z-index:100 !important;
+  }
+
+
+ul.menu li ul li {
+    float:none;
+    padding:8px 0 8px 10px;
+    display:block;
+    margin:0;
+    position:relative;
+    border-bottom:1px solid #d2ccbf;
+    z-index:254;
+  }
+
+
+ul.menu li ul li ul {
+    position: absolute;
+    left:150px;
+    top:0px;
+    display:none;
+    padding:0px 0 0 0;
+    list-style:none;
+    z-index:253;
+  }
+
+
+ul.menu li:hover ul, ul.menu li.over ul {
+    display: block;
+  }
+
+
+ul.menu li:hover ul li ul, ul.menu li.over ul li ul {
+    display: none;
+  }
+
+
+ul.menu li ul li:hover ul, ul.menu li ul li.over ul {
+    display: block;
+  }
+
+/* Content */ 
+
+
+
+.content {
+    width:100%;
+    overflow:hidden;
+    background:url(../images/content_body.jpg) top left repeat;
+    z-index:100;
+  }
+
+
+.content_left {
+    width:100%;
+    overflow:hidden;
+    background:url(../images/sharp_left.gif) top left repeat-y;
+  }
+
+
+.content_right {
+    width:100%;
+    overflow:hidden;
+    background:url(../images/sharp_right.gif) top right repeat-y;
+  }
+
+/* Mainbar */
+
+
+
+.mainbar {
+    float:left;
+    width:669px;
+    overflow:hidden;
+    background:url(../images/mainbar_body.jpg) top left repeat;
+    display:inline;
+    margin:13px 0 20px 22px;
+  }
+
+
+.mainbar_top {
+    width:669px;
+    overflow:hidden;
+    background:url(../images/mainbar_top.jpg) top left no-repeat;
+  }
+
+
+.mainbar_bottom {
+    width:669px;
+    overflow:hidden;
+    background:url(../images/mainbar_bottom.jpg) bottom left no-repeat;
+    padding:40px 0;
+  }
+
+
+.mainbar_inner {
+    width:560px;
+    margin:0 0 0 70px;
+  }
+
+
+.mainbar_inner .z-block {
+    width:558px;
+    border:1px dashed #99936f;
+    background:url(../images/sidebar_body.gif) top left repeat;
+    margin:0 0 10px 0;
+    overflow:hidden;
+    box-shadow: 1px 1px 6px #232323;
+    -webkit-box-shadow: 1px 1px 6px #232323;
+    -moz-box-shadow: 1px 1px 6px #232323;
+  }
+
+
+.mainbar_inner .z-block h4 {
+    width:559px;
+    height:33px;
+    background:url(../images/sidebar_h2.gif) top left repeat-x;
+    margin:11px 0 20px 0;
+    color:#c7d1db;
+    text-transform:uppercase;
+    font: bold 24px/33px "Trebuchet MS", Helvetica, sans-serif;
+    padding:0 0 0 18px;
+    box-shadow: 1px 1px 3px #232323;
+    -webkit-box-shadow: 1px 1px 3px #232323;
+    -moz-box-shadow: 1px 1px 3px #232323;
+  }
+
+
+.mainbar_inner  .z-block h4 img {
+    border:0px;
+    float: right;
+    padding-right:8px;
+    padding-top:5px;
+    margin-right: 15px;
+  }
+
+
+.post {
+    width:100%;
+    margin:0 0 40px;
+    position:relative;
+    z-index:1;
+  }
+
+
+.post h2.post_header {
+    font:normal 24px/24px Georgia, "Times New Roman", Times, serif;
+    color:#222;
+    margin:0 0 7px;
+    padding:0;
+  }
+
+
+.post h2.post_header a, .post h2.post_header a:visited {
+    color:#222;
+  }
+
+
+.post h2.post_header a:hover {
+    color:#ad1616;
+  }
+
+
+.post_line {
+    width:100%;
+    height:7px;
+    background:url(../images/post_line.jpg) top left no-repeat;
+    margin:0 0 12px;
+  }
+
+
+.post_content {
+    background:url(../images/mainbar_lines.gif) top left repeat;
+    line-height:20px;
+  }
+
+
+.post_data {
+    width:540px;
+    background:#d7d0b9;
+    padding:4px 10px;
+    font:normal 12px/12px Georgia, "Times New Roman", Times, serif;
+    color:#000;
+    margin:20px 0 0 0;
+  }
+
+
+.post_data a, .post_data a:visited {
+    color:#605b18;
+    text-decoration:underline;
+  }
+
+
+.post_data a:hover {
+    color:#ad1616;
+    text-decoration:none;
+  }
+
+
+.post_date {
+    width:46px;
+    height:46px;
+    background:url(../images/mainbar_date.gif) top left no-repeat;
+    position:absolute;
+    left:-61px;
+    top:0;
+    color:#fff;
+    z-index:5;
+  }
+
+
+.post_date_top {
+    margin:0px 0 0 0;
+    font:bold 24px/24px Georgia, "Times New Roman", Times, serif;
+    text-align:center;
+  }
+
+
+.post_date_bottom {
+    margin:0px 0 0 0;
+    font:bold 12px/12px Georgia, "Times New Roman", Times, serif;
+    text-align:center;
+    text-transform:uppercase;
+  }
+
+/* Comments */
+
+
+
+.comments {
+    width:100%;
+    overflow:hidden;
+    border-top:1px solid #413a1f;
+    color:#232323;
+  }
+
+
+.comments h1 {
+    padding:20px 0 10px;
+  }
+
+
+ol.commentlist {
+    display:block;
+    list-style:none;
+    margin:0;
+    padding:0 0 20px;
+  }
+
+
+li.comment {
+    display:block;
+    padding:10px 0px 0 0;
+    margin:0 0 10px;
+    overflow:hidden;
+  }
+
+
+li.pingback {
+    display:block;
+    padding:10px 0px 0 0;
+    margin:0 0 10px;
+    overflow:hidden;
+  }
+
+
+li.pingback .vcard {
+    padding:0 0px 0 75px;
+  }
+
+
+li.pingback .p {
+    padding:0 0px 0 75px;
+  }
+
+
+li.pingback .commentmetadata {
+    padding:0 0px 0 75px;
+  }
+
+
+li.comment img {
+    border:5px solid #7b9db4;
+    float:left;
+    margin:0 15px 0 0;
+  }
+
+
+li.comment cite {
+    font-style:normal;
+    font-size:14px;
+    line-height:80%;
+    margin:0;
+    padding:0;
+  }
+
+
+li.comment span {
+    font-style:normal;
+    font-size:11px;
+  }
+
+
+.commentmetadata {
+    margin:0;
+    padding:0 0 8px;
+    line-height:80%;
+    font-size:10px;
+  }
+
+
+.comment-body {
+    width:100%;
+    overflow:hidden;
+  }
+
+
+.comment-body p {
+    width:485px;
+    overflow:hidden;
+    float:right;
+    padding:0 0 15px 0;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+
+.comment-body blockquote {
+    overflow:hidden;
+    float:right;
+    padding:0 0 10px 10px;
+    margin:0;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+/*Comment form*/
+
+
+
+.commentform {
+    width:100%;
+    overflow:hidden;
+    margin:0 0 10px 0;
+    background: url(../images/content_body.jpg);
+  }
+
+
+.commentform_inner h1 {
+    padding:0 0 0px;
+  }
+
+
+.commentform_inner {
+    padding:18px 16px 25px;
+    overflow:hidden;
+  }
+
+
+.commentform_inner h3 {
+    padding:0 0 10px 9px;
+    color:#fff;
+  }
+
+
+.commentform_hint {
+    padding:6px 9px;
+    background:#9d9474;
+    overflow:hidden;
+    color:#e6e6e6;
+    font-size:11px;
+    margin:0 0 5px 0;
+  }
+
+
+form.commentform_form {
+    width:100%;
+    overflow:hidden;
+  }
+
+
+.commentform_left {
+    float:left;
+    width:147px;
+    overflow:hidden;
+    padding:0 0 0 9px;
+  }
+
+
+.commentform_right {
+    float:right;
+    width:360px;
+    overflow:hidden;
+  }
+
+
+.commentform_title {
+    font:12px Arial, Helvetica, sans-serif;
+    color:#000;
+    padding:5px 0 2px 4px;
+  }
+
+
+.commentform_left input {
+    width:145px;
+    height:19px;
+    border:1px solid #9d9474;
+  }
+
+
+.commentform_right textarea {
+    width:358px;
+    height:72px;
+    border:1px solid #9d9474;
+  }
+
+
+.commentform_right input.commentform_submit {
+    width:67px;
+    height:20px;
+    background:url(../images/btn.gif) top left repeat-x;
+    margin:12px 0 0 0;
+    border:1px solid #9d9474;
+    font-size:12px;
+    cursor:pointer;
+  }
+
+
+.tags {
+    padding:10px 0;
+    font-size:10px;
+  }
+
+/**/
+
+
+
+#sidebar {
+    float:left;
+    width:270px;
+    overflow:hidden;
+    margin:22px 0 0 10px;
+  }
+
+
+#sidebar .z-block {
+    width:265px;
+    border:1px dashed #99936f;
+    background:url(../images/sidebar_body.gif) top left repeat;
+    margin:0 0 10px 0;
+    overflow:hidden;
+    box-shadow: 1px 1px 2px #232323;
+    -webkit-box-shadow: 1px 1px 2px #232323;
+    -moz-box-shadow: 1px 1px 2px #232323;
+  }
+
+
+#sidebar .z-block h4 {
+    width:268px;
+    height:33px;
+    background:url(../images/sidebar_h2.gif) top left repeat-x;
+    margin-bottom : 13px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 11px;
+    color:#c7d1db;
+    text-transform:uppercase;
+    font: bold 24px/33px "Trebuchet MS", Helvetica, sans-serif;
+    padding-bottom : 0;
+    padding-left : 18px;
+    padding-right : 0;
+    padding-top : 0;
+    box-shadow: 1px 1px 2px #232323;
+    -webkit-box-shadow: 1px 1px 2px #232323;
+    -moz-box-shadow: 1px 1px 2px #232323;
+  }
+
+
+#sidebar .z-block h4 img {
+    border:0px;
+    float: right;
+    padding-right:8px;
+    padding-top:5px;
+    margin-right: 15px;
+  }
+
+
+#sidebar .z-block ul {
+    padding-top : 5px;
+  }
+
+
+#sidebar .z-block ul li, #sidebar .z-block ul li ul li {
+    font: 15px Helvetica, sans-serif;
+    font-weight: 595;
+    list-style-image : url('../images/bullet2.gif');
+    line-height: 10px;
+    margin-bottom : 8px;
+    margin-left : 0px;
+    margin-right : 0;
+    margin-top : 2px;
+    padding-bottom : 0px;
+    padding-left : 0px;
+    padding-right : 0;
+    padding-top : 5px;
+    vertical-align: middle;
+  }
+
+
+#sidebar ul li a, #sidebar ul li, #sidebar ul li a:visited {
+    color:#232323;
+  }
+
+
+#sidebar ul li a:hover {
+    color:#ac1616;
+    text-decoration:none;
+  }
+
+
+#sidebar ul li a:active {
+    color:#ff4200;
+  }
+
+
+#sidebar .z-block .navcontainer {
+    padding-bottom : 10px;
+  }
+
+/*
+.sidebar ul, .sidebar ul li, .sidebar ul li ul, .sidebar ul li ul li
+{
+        margin:0;
+        padding:0;
+        list-style:none;
+        border:0;
+        background:none;
+        overflow:hidden;
+}
+.sidebar ul li, .sidebar ul, .sidebar ul li ul
+{
+        display:block;
+}
+.sidebar ul li
+{
+        width:268px;
+        border:1px dashed #99936f;
+        background:url(../images/sidebar_body.gif) top left repeat;
+        margin:0 0 10px 0;
+        overflow:hidden;
+}
+.sidebar ul li h2
+{
+        width:268px;
+        height:33px;
+        background:url(../images/sidebar_h2.gif) top left repeat-x;
+        margin:11px 0 20px 0;
+        color:#c7d1db;
+        text-transform:uppercase;
+        font: bold 24px/33px "Trebuchet MS", Helvetica, sans-serif;
+        padding:0 0 0 18px;
+}
+.sidebar ul li ul
+{
+        width:232px;
+        margin:0 0 10px 0;
+        padding:0;
+}
+.sidebar ul li ul li
+{
+        margin:0 0 0px 10px;
+        padding: 5px 0 5px 13px;
+        background:url(../images/bullet.gif) left top no-repeat;
+}
+
+.sidebar ul li ul li a, .sidebar ul li ul li, .sidebar ul li ul li a:visited
+{
+        font:normal 13px/13px Georgia, "Times New Roman", Times, serif;
+        color:#000;
+}
+
+.sidebar ul li ul li a:hover
+{
+        color:#73794f;
+}
+
+*/
+
+
+
+.sidebar ul li input.search_input {
+    width:180px;
+    height:18px;
+    background:#e4ddc6;
+    border:1px solid #8d8c87;
+    vertical-align:middle;
+    font:normal 12px/100% "Trebuchet MS", Helvetica, sans-serif;
+    padding:1px 0 0 5px;
+    margin:0 5px 0 0;
+  }
+
+
+.sidebar ul li input {
+    vertical-align:middle;
+  }
+
+
+.sidebar ul li input.submit_search {
+    width:32px;
+    height:21px;
+    background:#667b8f;
+    border:1px solid #667b8f;
+    margin:0 0 0 0px;
+    padding:0;
+    font:bold 12px/100% "Trebuchet MS", Helvetica, sans-serif;
+    color:#fff;
+    text-transform:uppercase;
+    cursor:pointer;
+  }
+
+
+form.sidebar_search {
+    width:232px;
+    padding:13px 18px;
+    display:block;
+  }
+
+
+.footer {
+    width:100%;
+    height:55px;
+    background:url(../images/sharp_footer.gif) bottom left repeat-x;
+  }
+
+
+.footer_left {
+    width:100%;
+    height:55px;
+    background:url(../images/sharp_left.gif) bottom left repeat-y;
+  }
+
+
+.footer_right {
+    width:100%;
+    height:55px;
+    background:url(../images/sharp_right.gif) bottom right repeat-y;
+    position:relative;
+  }
+
+
+.copy {
+    position:absolute;
+    top:10px;
+    left:30px;
+    font:normal 13px/12px Georgia, "Times New Roman", Times, serif;
+    color:#000;
+  }
+
+
+.copy_support {
+    position:absolute;
+    top:10px;
+    right:30px;
+    font:normal 13px/12px Georgia, "Times New Roman", Times, serif;
+    color:#000;
+  }
+
+
+table#wp-calendar {
+    width:100%;
+  }
+

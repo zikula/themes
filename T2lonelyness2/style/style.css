@@ -1,0 +1,274 @@
+
+/* CSS Document */
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #000 ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: .9em;
+  }
+
+
+p {
+    padding: 5px;
+  }
+
+
+a {
+    color: #AAA188;
+    text-decoration: none;
+  }
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #C1A967;
+    text-shadow: 0 0 4px #AAA188 !important;
+  }
+
+
+h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 2.4em;
+    font-style: italic;
+  }
+
+
+h2 {
+    padding-top: 0px;
+    padding-left: 10px;
+    font-size: 2em;
+    font-style: italic;
+  }
+
+
+h3 {
+    font-size: 1.8em;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+h4 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.6em;
+    font-style: italic;
+  }
+
+
+h5 {
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 1.4em;
+    font-style: italic;
+  }
+
+
+h6 {
+    font-size: 1.2em;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+
+h4 img {
+    float: right;
+    border: 0;
+    padding-top: 2px;
+  }
+
+
+ol, ul {
+    list-style-position : inside;
+    list-style-type: none;
+    padding-left: 15px;
+  }
+
+
+li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+
+blockquote {
+    margin-left: 165px;
+    margin-right: 300px;
+    font-size: 12px;
+    padding: 45px 6px 6px;
+    font-style: italic;
+  }
+
+
+#bodywrap {
+    background-color: transparent ;
+    min-height : 800px;
+    overflow : auto;
+    text-align : left;
+    width : 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+
+#pagewrap {
+    background-color: #fff ;
+    background-image : url(../images/lonelyness2.png);
+    background-position : 0px 0px;
+    background-repeat : no-repeat;
+    border: 10px solid #C1A967;
+    min-height : 800px;
+    overflow : auto;
+    text-align : left;
+    width : 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+#header {
+    height : 315px;
+    width : 980px;
+  }
+
+
+#sitename a {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #C1A967;
+    top: 50px;
+    padding-left: 30px;
+    font-size: 2.6em;
+    font-style: italic;
+    position: relative;
+    text-shadow: 0 0 4px #AAA188 !important;
+  }
+
+
+#slogan {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #AAA188;
+    top: 40px;
+    padding-left: 35px;
+    font-size: 1.2em;
+    font-style: italic;
+    position: relative;
+    text-shadow: 0 0 4px #AAA188 !important;
+  }
+
+
+#sidebar {
+    float : right;
+    margin-right: 0px;
+    margin-top : 130px;
+    padding-left : 10px;
+    padding-right : 10px;
+    width : 230px;
+  }
+
+
+#content {
+    float: left;
+    width : 570px;
+    margin-left: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+#clearing {
+    float: left;
+    clear:both;
+    height : 10px;
+    width : 100%;
+  }
+
+
+#footer {
+    border-top: 5px solid #C1A967 ;
+    float: left;
+    clear:both;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+#footer p {
+    padding-bottom : 15px;
+    padding-left : 15px;
+    padding-right : 15px;
+    padding-top : 5px;
+  }
+
+#footer a {
+    font-weight : bold;
+}
+
+
+#sitenav {
+    margin-left: 120px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    top: 0px;
+    padding-left: 0px;
+    font-size: 1.2em;
+    font-style: italic;
+    position: relative;
+    width : 570px;
+  }
+
+
+#sitenav ul {
+    background-image : url('../images/blacktrans2.png');
+    background-repeat : repeat;
+    float : left;
+    font-style : oblique;
+    font-variant : normal;
+    font-weight : bold;
+    list-style-type : none;
+    padding-bottom : 0px;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0px;
+    width : 600px;
+  }
+
+
+#sitenav li {
+    display: inline;
+    float: left;
+  }
+
+
+#sitenav li a {
+    text-decoration: none;
+    color: #C1A967;
+    padding: .2em 1em;
+    text-shadow: 0 0 4px #AAA188 !important;
+  }
+
+
+#sitenav li a:hover, #sitenav li.current a {
+    background-image : url('../images/blacktrans2.png');
+    background-repeat : repeat;
+    color: #C1A967;
+    text-shadow: 0 0 4px #AAA188 !important;
+  }
+

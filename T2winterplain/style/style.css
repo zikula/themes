@@ -1,0 +1,529 @@
+
+/*
+Template name: Winterplain
+Template URI: http://templates.arcsin.se/winterplain-website-template/
+Release date: 2007-12-13
+Description: Simple and soft styled, two-column template with a touch of cold.
+Author: Viktor Persson
+Author URI: http://arcsin.se/
+
+This template is licensed under a Creative Commons Attribution 2.5 License:
+http://templates.arcsin.se/license/
+*/
+
+/* standard elements */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+html {
+    height: 100%;
+    padding-bottom: 1px;
+  }
+
+
+body {
+    background: #FCFCFC url('../images/body.jpg') no-repeat center top fixed;
+    font: normal 13px Verdana,sans-serif;
+    color: #345;
+  }
+
+
+a {
+    color: #06A;
+  }
+
+
+a:hover {
+    color: #036;
+  }
+
+
+p {
+    margin: 2px 0 8px;
+    text-align: justify;
+  }
+
+
+h1 {
+    font: normal 2.2em Georgia,Tahoma,sans-serif;
+  }
+
+
+h2 {
+    font: normal 2em Georgia,sans-serif;
+  }
+
+
+h3 {
+    font: bold 1.8em Tahoma,sans-serif;
+  }
+
+h4 {
+    font: normal 1.6em Georgia,Tahoma,sans-serif;
+  }
+
+
+h5 {
+    font: normal 1.4em Georgia,sans-serif;
+  }
+
+
+h6 {
+    font: bold 1.2em Tahoma,sans-serif;
+  }
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 2px 0;
+  }
+
+h4 img {
+    border:0;
+    background-color: transparent;
+    float: right;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+
+blockquote {
+    background: #F9F9F9 url('../images/quote.gif') no-repeat;
+    border-bottom: 1px solid #EAEAEA;
+    border-top: 1px solid #EAEAEA;
+    color: #555;
+    display: block;
+    font: normal 1em sans-serif;
+    margin: 1em 0;
+    padding: 0.6em 1em 0.2em 40px;
+  }
+
+
+code {
+    display: block;
+    white-space: pre;
+    background: #FFFFF6;
+    border: 1px solid #EED;
+    padding: 5px 10px;
+    overflow: auto;
+    margin: 1em 0;
+  }
+
+
+ul,ol {
+    margin: 0 0 1em 1.4em;
+  }
+
+
+fieldset {
+    padding: 12px 10px;
+    background: #EFE;
+    color: #232;
+    border: 1px solid #DED;
+    margin-bottom: 1em;
+  }
+
+
+legend {
+    font: bold 1em Verdana,sans-serif;
+    padding: 0 6px;
+    color: #363;
+  }
+
+
+img {
+    border: none;
+  }
+
+
+img.bordered,.post img {
+    background: #FFF;
+    padding: 5px;
+    border: 1px solid #DDD;
+  }
+
+
+img.left {
+    margin-right: 1em;
+  }
+
+
+img.right {
+    margin-left: 1em;
+  }
+
+
+small,.small {
+    font-size: 0.8em;
+  }
+
+/* inputs */
+
+input.submit {
+    background: #E9E8E8 url('../images/input_submit.gif') repeat-x;
+    border: 3px double #CCC;
+    border-color: #CCC #999 #999 #CCC;
+    color: #456;
+    font: bold 0.8em Verdana,sans-serif;
+    padding: 3px 0;
+  }
+
+
+input.submit:hover {
+    background: #FCFDFC;
+    cursor: pointer;
+  }
+
+
+input#s {
+    background: #FCFCFC;
+    font: normal 1.1em sans-serif;
+    border: 1px solid #CCC;
+    padding: 3px 5px;
+    width: 150px;
+  }
+
+
+input#s:hover {
+    background: #FFF;
+  }
+
+
+textarea {
+    width: 320px;
+  }
+
+/* main layout */
+
+#container {
+    width: 760px;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+  }
+
+
+#main {
+    margin: 15px 0 0 8px;
+  }
+
+
+#main_left {
+    width: 63%;
+  }
+
+
+#main_right {
+    width: 35%;
+  }
+
+/* top part */
+
+#top {
+    margin: 1em 0;
+    padding-left: 1em;
+  }
+
+
+#site_title {
+    font: normal 2.2em Georgia,sans-serif;
+    color: #567;
+  }
+
+#site_title a {
+    color: #567;
+    text-decoration: none;
+  }
+
+#site_title a:hover {
+    color: #036;
+  }
+
+#site_description {
+    font: normal 1.2em Verdana,sans-serif;
+    color: #999;
+  }
+
+/* navigation */
+
+.path {
+    margin-bottom: 1em;
+    background: #F6F8FA;
+    border-top: 1px solid #E0E5F0;
+    padding: 8px 10px;
+    color: #678;
+  }
+
+
+#nav {
+    font-size: 1.1em;
+  }
+
+
+#nav a {
+    color: #364E6D;
+    text-decoration: none;
+  }
+
+
+#nav a:hover {
+    text-decoration: underline;
+  }
+
+
+#nav ul {
+    display: inline;
+    margin: 0;
+  }
+
+
+#nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 0 8px;
+  }
+
+/* sidebar */
+
+#main_right .content {
+    padding: 2px 8px 4px;
+    background: #F8F8F3;
+    border-top: 1px solid #EAEAE2;
+    margin-bottom: 14px;
+  }
+
+
+#main_right div.content {
+    padding: 5px 8px;
+  }
+
+
+#sidebar ul {
+    margin: 0;
+  }
+
+
+#sidebar li {
+    list-style: none;
+    padding: 3px 0;
+  }
+
+/* footer */
+
+#footer {
+    font-size: 0.9em;
+    border-top: 1px solid #E6E6E6;
+    background: #F6F6F6;
+    padding: 8px 12px;
+    color: #888;
+  }
+
+
+#footer .right {
+    font-size: 0.9em;
+  }
+
+
+#footer .right, .right a {
+    color: #888;
+  }
+
+
+#footer .right a {
+    text-decoration: none;
+  }
+
+
+#footer .right a:hover {
+    color: #000;
+  }
+
+/* first post highlight */
+
+#splash {
+    margin-bottom: 1em;
+  }
+
+
+#splash .post {
+    padding: 12px 18px 0;
+    background: url('../images/splash.jpg') repeat-x left bottom !important;
+    height: 0.01%;
+  }
+
+
+#splash .metadata {
+    color: #ACA;
+    border-top: 1px solid #DEE9E0;
+    background: none;
+    padding: 8px 0;
+    margin: 0;
+  }
+
+
+#splash .metadata a {
+    color: #474;
+    text-decoration: none;
+  }
+
+
+#splash .metadata a:hover {
+    color: #232;
+    text-decoration: underline;
+  }
+
+
+#splash .date {
+    font-size: 0.9em;
+  }
+
+/* special links */
+
+a.scrolldown,a.scrollup {
+    width: 16px;
+    height: 16px;
+  }
+
+
+a.scrolldown {
+    background: url('../images/arrow_down.gif') no-repeat left top;
+  }
+
+
+a.scrollup {
+    background: url('../images/arrow_up.gif') no-repeat left top;
+  }
+
+
+a.feed {
+    background: url('../images/feed.jpg') no-repeat left top;
+    width: 28px;
+    height: 28px;
+    margin-top: 20px;
+  }
+
+
+a.button {
+    display: block;
+  }
+
+
+a.button:hover {
+    background-position: left bottom;
+  }
+
+/* misc */
+
+.bold {
+    font-weight: bold;
+  }
+
+
+.bordered {
+    border: 1px solid #DDD;
+    background: #FFF;
+    padding: 5px;
+  }
+
+
+.clearer {
+    clear: both;
+    font-size: 0;
+  }
+
+
+.left {
+    float: left;
+  }
+
+
+.light,.light a {
+    color: #777;
+  }
+
+
+.odd {
+    background: #F6F6F6;
+  }
+
+
+.right {
+    float: right;
+  }
+
+
+.tright {
+    text-align: right;
+  }
+
+/* post */
+
+.post {
+    margin-bottom: 1em;
+  }
+
+
+.post .date {
+    color: #468;
+    font-size: 0.9em;
+    margin: 4px 0 6px;
+  }
+
+
+.post .body {
+    margin-bottom: 12px;
+    line-height: 1.4em;
+  }
+
+
+.post .metadata {
+    background: #F6F6F6;
+    border-top: 1px solid #E6E6E6;
+    font: normal 0.9em sans-serif;
+    padding: 6px;
+    clear: both;
+  }
+
+
+.post .metadata a {
+    color: #333;
+    text-decoration: none;
+  }
+
+/* icons */
+
+span.comment {
+    background: url('../images/icon_comment.gif') no-repeat left center;
+    padding-left: 18px;
+  }
+
+
+span.tag {
+    background: url('../images/icon_tag.gif') no-repeat left center;
+    padding-left: 18px;
+  }
+
+/* comments */
+
+.commentlist {
+    margin: 1em 0 0;
+    font-size: 0.9em;
+  }
+
+
+.commentlist li {
+    list-style: none;
+    padding: 8px 10px 1px;
+  }
+
+
+.commentlist .post .date {
+    margin-bottom: 3px;
+  }
+
+.z-menuitem-title {
+    font-size: 0.9em;
+    border: 1px solid #E6E6E6 !important;
+}

@@ -1,0 +1,484 @@
+/* ---------------------------------------------
+
+	Template Name : HarvestField
+	Template Code : S-0015
+	Version : 1.2
+	Author : Erwin Aligam
+	Author URI : http://www.styleshout.com/       
+	Last Date Modified : January 19, 2010
+
+ ---------------------------------------------- */
+ 
+/* ---------------------------------------------
+   HTML ELEMENTS
+----------------------------------------------- */ 
+
+/* Top Elements */
+* { margin: 0; padding: 0; outline: 0 }
+
+body {
+	background: #E2DDD9 url(bg.jpg) repeat-y center top;
+	font: 70%/1.5em Verdana, Tahoma, arial, sans-serif;
+	color: #6B4F2E; 
+	text-align: center;		
+}
+
+/* links */
+a, a:visited {	
+	color: #BE420D;
+	background: inherit;
+	text-decoration: none;
+}
+a:hover {
+	color: #88ac0b;
+	background: inherit;
+	text-decoration: underline;
+}
+
+/* headers */
+h1, h2, h3 {
+	font-family: 'Trebuchet MS', Tahoma, Sans-serif;
+	font-weight: Bold; 		
+}
+h1 {
+	font-size: 240%;	
+	padding: 15px 10px 5px 10px;
+	letter-spacing: -1px;
+}
+h2 {
+	font-size: 220%;
+	color: #88ac0b;
+	padding: 12px 10px 5px 10px;
+}
+h3 {
+	font-size: 140%;	
+	padding: 12px 10px 5px 10px;
+}
+
+p {
+	padding: 10px;		
+	margin: 0;
+}
+ul, ol {
+	margin: 5px 20px;
+	padding: 0 20px;
+}
+ul { list-style: none; }
+
+/* images */
+img {
+	background: #FAFAFA;
+    border: 1px solid #DCDCDC;
+	padding: 8px;
+}
+img.float-right {
+  	margin: 5px 0px 10px 10px;  
+}
+img.float-left {
+  	margin: 5px 10px 10px 0px;
+}
+
+code {
+  	margin: 5px 0;
+  	padding: 10px;
+  	text-align: left;
+  	display: block;
+  	overflow: auto;  
+  	font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace ;
+  	/* white-space: pre; */
+  	background: #F9F7DD;
+	border: 1px solid #E0DBC9;  
+}
+acronym {
+  cursor: help;
+  border-bottom: 1px solid #777;
+}
+blockquote {
+	margin: 10px;
+ 	padding: 0 0 0 25px;  
+   background: #F9F7DD;
+	border: 1px solid #E0DBC9;
+	font: bold 15px/1.5em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #563E24;
+}
+
+/* start - table */
+table {
+	border-collapse: collapse;
+	margin: 10px;	
+}
+th strong {
+	color: #fff;
+}
+th {
+	background: #93BC0C;
+	height: 29px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #FFF;
+	text-align: left;
+	border-left: 1px solid #B6D59A;
+	border-bottom: solid 2px #FFF;
+}
+tr {
+	height: 30px;
+}
+td {
+	padding-left: 11px;
+	padding-right: 11px;
+	border-left: 1px solid #E8E8E8;
+	border-bottom: 1px solid #DFDFDF;
+}
+td.first,th.first {
+	border-left: 0px;
+}
+tr.row-a {
+	background: #F8F8F8;
+}
+tr.row-b {
+	background: #EFEFEF;		
+}
+/* end - table */
+
+/* form elements */
+form {
+	margin:10px; padding: 10px 8px;
+	background: #F9F7DD;
+	border: 1px solid #E0DBC9; 	
+}
+label {
+	display:block;
+	font-weight:bold;
+	margin:5px 0;
+}
+input, select, textarea {
+	padding: 5px;
+	font: normal 1em Verdana, Tahoma, sans-serif;
+	color:#777;
+	background: #fff;
+	
+  	border-width: 1px;
+  	border-style: solid;
+  	border-color: #D4D4D4 #ebebeb #ebebeb #d4d4d4; 
+}
+textarea {
+	width: 400px;
+	height: 100px;
+	display: block;	
+}
+input.button { 
+	font: bold 12px Arial, Sans-serif; 
+	height: 24px;
+	margin: 0;
+	padding: 2px 3px; 
+	color: #FFF;
+	background: #8EB50C;
+	
+	border-width: 1px;
+  	border-style: solid;
+  	border-color: #D3FFA8 #639632 #639632 #D3FFA8;
+}
+
+/* search form */
+.searchform {
+	background-color: transparent;
+	border: none;	
+	margin: 0; padding: 5px 0 10px 0;	
+	width: 190px;	
+}
+.searchform p { margin: 0; padding: 0; }
+.searchform input.textbox { 
+	width: 120px;
+	color: #777; 
+	height: 18px;
+	padding: 2px;	
+	vertical-align: top;
+}
+.searchform input.button { 
+	width: 60px;
+	height: 24px;
+	padding: 2px 5px;
+	vertical-align: top;
+}
+
+/* ------------------------------------------
+   LAYOUT
+------------------------------------------- */ 
+#wrap {
+	position: relative;
+	width: 830px;
+	margin: 0 auto;
+	text-align: left;
+	border-right: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+#content-wrap {
+	position: relative;
+	clear: both;
+	float: left;	
+	width: 830px;	
+	padding: 0; 	
+	border-bottom: 2px solid #FFF;
+	background: #F2EFBA url(contentbg.jpg) repeat-y center top;	
+	display: inline;
+}
+#header {
+	width: 830px;
+	position: relative;
+	height: 190px;
+	background: #FFF url(headerbg.jpg) repeat-x;
+	padding: 0;	
+	color: #FFF;	
+}
+#header h1#logo-text a {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bold 60px 'Trebuchet MS', Arial, Sans-serif;
+	letter-spacing: -3px;
+	color: #BE420D;
+	text-decoration: none;
+	
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 50px; left: 20px;	
+}
+#header h1#logo-text span {	
+	color: #6C4F2F;
+}
+#header p#slogan {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bold 16px 'Trebuchet MS', Arial, Sans-serif;
+	text-transform: none;
+	color: #444;
+	
+	/* change the values of top and left to adjust the position of the slogan*/
+	top: 115px; left: 95px;		
+}
+
+/* header links */
+#header #header-links {
+	position: absolute;
+	top: 23px; right: 5px;	
+	color: #34160B;
+	font-family: 'Trebuchet MS', Tahoma, Sans-serif;
+	font-size: 13px;	
+	font-weight: bold;
+}
+#header #header-links a {	
+	color: #5E2813;
+	text-decoration: none;	
+}
+#header #header-links a:hover {
+	color: #BE420D;	
+}
+
+/* Navigation */
+#nav {
+	position: relative;
+	clear: both;	
+	padding: 0;		
+	width: 830px;
+	margin: 0 auto;	
+	background: url(menubg.jpg) repeat-x;
+	height: 52px;
+}
+#nav #light-brown-line {
+	position: absolute;
+	background: url(light-brown-line.jpg) no-repeat;
+	height: 10px; width: 240px;
+	top: 0; left: 0;
+}
+#nav ul {
+	position: absolute;
+	list-style: none;
+	text-transform: uppercase;
+	padding: 0;	margin: 0;	
+	right: 0; bottom: 0;
+}
+#nav ul li {
+	display: inline;
+	margin: 0; padding: 0;
+}
+#nav ul li a {
+	display: block;
+	float: left;
+	width: auto;
+	margin: 0;
+	padding: 0 15px; 
+	color: #FFF;
+	font: bold 13px/52px "Century Gothic", "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;		
+}
+#nav ul li a:hover, 
+#nav ul li a:active {
+	background: url(menupointer.jpg) no-repeat center bottom;	
+}
+#nav ul li#current a {	
+	background: url(menupointer.jpg) no-repeat center bottom;
+	color: #F2EFBA;	
+}
+
+/* Main Column */
+#main {
+	float: right;
+	width: 68%;
+	padding: 0; margin: 10px 10px 0 0;
+	display: inline;	
+}
+#main h2 {
+	margin-top: 10px;
+	font: bold 2.3em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #8C9F0D; 
+	letter-spacing: -1px;
+	padding: 10px 0 0 8px; 		
+}
+#main h2 a {
+	color: #8C9F0D;
+	text-decoration: none;		
+}
+
+#main ul li {
+	list-style-image: url(bullet.gif);
+}
+
+/* Sidebar */	
+#sidebar {
+	float: left;
+	width: 25.5%;
+	padding: 0; 
+	margin: 22px 0 0 15px;		
+	display: inline; 
+}	
+#sidebar h3 {
+	margin-top: 10px;
+	padding: 5px; 
+	font: normal 1.6em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #674C2C; 		
+}
+#sidebar ul.sidemenu {
+	text-align: left;
+	margin: 4px 4px 10px 0; padding: 0;
+	text-decoration: none;		
+	border-top: 1px solid #C39F73;
+}
+#sidebar ul.sidemenu li {
+	list-style: none;
+	background: url(dots.jpg) repeat-x left bottom;
+	padding: 5px 0 5px 5px;
+	margin: 0 2px;		
+}
+* html body #sidebar ul.sidemenu li {
+	height: 1%;
+}
+#sidebar ul.sidemenu li a {
+	text-decoration: none;	
+	background-image: none;	
+	color: #6B4F2E;		
+}
+#sidebar ul.sidemenu li a:hover {	
+	color: #88ac0b;	
+}
+#sidebar ul.sidemenu ul { margin: 0 0 0 5px; padding: 0; }
+#sidebar ul.sidemenu ul li { background: none; }
+
+/* footer */
+#column-wrap {
+	clear: both;
+	float: left;
+	width: 830px;
+	padding: 18px 0 50px 0;		
+	background: #A0B70D url(footercolbg.jpg) repeat-x left bottom;		
+	border-bottom: 2px solid #FFF;
+}
+#column-wrap a {
+	text-decoration: none;
+	color: #FFF;	
+}
+#column-wrap a:hover {
+	color: #000;	
+}
+#column-wrap h3 {
+	color: #FFF;	
+	margin: 0 0 10px 0;	
+	font-size: 160%;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#columns {
+	color: #888;
+	margin: 0 auto; 
+	padding: 0;	
+	width: 790px;		
+	background: transparent;
+}
+#columns ul {
+	list-style: none;
+	margin: 10px 0 0 0;
+	padding: 0;	
+	background: url(footer-dots.gif) repeat-x left top;	
+}
+#columns li {
+	background: url(footer-dots.gif) repeat-x left bottom;		
+}
+#columns li a {
+	display: block;
+	font-weight: normal;
+	padding: 6px 0 6px 10px;
+	width: 96%;
+}
+#columns .col3, .col3-center {
+	float: left;
+	width: 32%;
+}
+#columns .col3-center { 
+	margin: 0 15px; 
+}
+
+/* footer*/
+#footer {
+	clear: both;
+	color: #FFF;	
+	width: 830px;
+	padding: 5px 0 15px 0;
+	text-align: center;
+}
+#footer a {
+	color: #F3EFBA;
+    text-decoration: none;
+}
+
+/* Post Meta */
+.post-meta {
+	background: #F9F7DD;
+	padding: 5px; margin: 5px 10px;	
+	font-size: 95%;	
+	border: 1px solid #E0DBC9;
+}
+.post-meta .date { margin: 0 10px 0 5px; }
+.post-meta a.comments { margin: 0 10px 0 5px;	}
+.post-meta a.readmore { margin: 0 10px 0 5px;	}
+
+.post-info { font-size: .9em; padding: 0 10px 5px 10px; color: #BF9A6C; 	}
+.post-info a { color: #668208; }
+
+/* alignment classes */
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right { text-align: right; }
+
+/* display and additional classes */
+.clearer { clear: both; }
+.clear {
+	display:inline-block;
+}
+.clear:after {
+	display:block; 
+	visibility:hidden; 
+	clear:both; 
+	height:0; 
+	content: "."; 
+}
+

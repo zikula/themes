@@ -1,0 +1,613 @@
+
+/*
+Made by : Flashdaweb Team flashdaweb.com
+License: Creative common.
+Date: 01.09.2008
+*/
+
+/*   general declaration 
+----------------------------*/
+
+body {
+    font-size:90%;
+    line-height:130%;
+    background-color:#fff;
+    color:#000000;
+    font-family:Verdana,sans-serif;
+    font-size:0.75em;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:normal;
+  }
+
+
+* {
+    margin:0px;
+    padding:0px;
+  }
+
+
+a img {
+    border: none;
+  }
+
+
+a {
+    color: #0057B1;
+  }
+
+
+a:hover {
+    text-decoration: none;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Verdana,sans-serif;
+    font-weight:normal;
+    color:#004FA2;
+  }
+
+
+h1 {
+    font-size:2.2em;
+  }
+
+
+h2 {
+    font-size:2em;
+  }
+
+
+h3 {
+    font-size:1.8em;
+  }
+
+
+h4 {
+    font-size:1.6em;
+  }
+
+
+h5 {
+    font-size:1.4em;
+  }
+
+
+h6 {
+    font-size:1.2em;
+  }
+
+
+ul {
+    padding-left:20px;
+    list-style:circle;
+    list-style-image:url('../images/li.gif');
+  }
+
+
+.clear_left {
+    clear:left;
+    display:block;
+    height:0px;
+    line-height:0;
+  }
+
+/* template declaration start
+----------------------------------*/
+
+
+#container {
+    margin:0px auto;
+    width:975px;
+    font-size:1.083em;
+  }
+
+/* this width is width of whole page */
+
+/*tope menu declaration start in header 
+------------------------------------------*/
+
+#top_menu {
+    background:#F1F4F8 url('../images/topmenu_bg.png') repeat-x scroll;
+    height:26px;
+    margin-left:445px;
+    position:relative;
+    color:#3F598B;
+  }
+
+
+#top_menu ul {
+    background:url('../images/topmenu_bg_left.png') no-repeat scroll left;
+    /*float:left;
+    */ height: 26px;
+    padding-left:10px;
+  }
+
+
+#top_menu ul {
+    display:block;
+    list-style-type:none;
+    list-style-image:none;
+    font-size:1em;
+    margin:0px auto;
+  }
+
+
+#top_menu li {
+    float:left;
+    margin: 3px 5px;
+  }
+
+
+#topmenu_container {
+    background:url('../images/topmenu_bg_right.png') no-repeat scroll right;
+    height:26px;
+  }
+
+
+#logo {
+    background:#ffffff url('../images/logo.png') no-repeat;
+    width: 224px;
+    height: 77px;
+  }
+
+
+#logo span {
+    display:none;
+  }
+
+
+#sitename {
+    font-size:2.6em;
+    font-style:normal;
+    font-variant:normal;
+    font-family:Verdana,sans-serif;
+    font-weight:normal;
+    color: #084c92;
+    padding-left:20px;
+    text-transform : uppercase;
+}
+
+#sitename a {
+    color: #084c92;
+    text-decoration:none;
+}
+#sitename a:hover {
+    color: #0057B1;
+    text-decoration:none;
+}
+
+#slogan {
+font-size:1.4em;
+    font-style:italic;
+    font-variant:normal;
+    font-family:Verdana,sans-serif;
+    font-weight:bold;
+    color: #f59022;
+    padding-left:30px;
+}
+
+#primary_menu {
+    background: #ffffff url('../images/pmenu_bg.png') no-repeat;
+    margin: 0px auto;
+    height: 68px;
+    width: 975px;
+  }
+
+
+#pm_main {
+    padding-left:20px;
+    height: 38px;
+  }
+
+
+#pm_sub ul {
+    list-style-type:none;
+    list-style-image:none;
+  }
+
+
+#pm_main ul {
+    list-style-type:none;
+    list-style-image:none;
+  }
+
+
+#pm_main li {
+    float:left;
+    margin:2px 10px 0 0;
+    background:url('../images/pm_sep.png') no-repeat scroll right;
+    padding:0px 10px 0 0;
+    text-align:center;
+    vertical-align:middle;
+    height: 34px;
+    margin-top:2px;
+  }
+
+
+#pm_main li a {
+    color:#fff;
+    display:block;
+    height: 34px;
+    float:left;
+  }
+
+
+#pm_main li a:hover {
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1.1em;
+  }
+
+
+#pm_main li a {
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1.1em;
+  }
+
+
+#pm_main li a:hover {
+    background:url('../images/tab_bg_active.png') no-repeat scroll right top;
+  }
+
+
+#pm_main li a:hover b {
+    background:url('../images/tab_bg_active_left.png') no-repeat scroll left top;
+  }
+
+
+#pm_main li.active a {
+    background:url('../images/tab_bg_active.png') no-repeat scroll right top;
+  }
+
+
+#pm_main li.active a b {
+    background:url('../images/tab_bg_active_left.png') no-repeat scroll left top;
+  }
+
+
+#pm_main li a b {
+    padding:0 10px;
+    display:block;
+    padding-top: 7px;
+  }
+
+
+#pm_sub {
+    float:right;
+    margin-right:10px;
+  }
+
+
+#pm_sub li {
+    float:left;
+    margin:2px 5px;
+  }
+
+
+#pm_sub li a {
+    color:#E0E7EF;
+    font-weight:bold;
+    font-size:1em;
+  }
+
+/* meanu declaration end*/
+
+
+/* content area start 
+-----------------------*/
+
+#content {
+    margin:20px 0;
+    padding:0px;
+    text-align:justify;
+  }
+
+
+#left_col {
+    /*float:left;
+    */width:65%;
+    min-height:300px;
+    margin-left:0px;
+  }
+
+
+#right_col {
+    float:right;
+    min-height:200px;
+    width:33%;
+  }
+
+
+#content #left_col h4 img,#content #right_col h4 img {
+    border:0;
+    background-color: transparent;
+    float: right;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+
+/* Footer declaration Start */
+
+#footer {
+    background:#fff url('../images/bot_bg.png') no-repeat scroll right top;
+    width:100%;
+    min-height:5px;
+    margin-bottom:50px;
+    margin-top:5px;
+  }
+
+
+#copyright {
+    float:right;
+    font-size:0.9em;
+    margin-top:5px;
+  }
+
+
+#designby {
+    clear:both;
+    float:right;
+    font-size:0.9em;
+    margin-top:5px;
+  }
+
+/* design boxes declaration start 
+-----------------------------------*/
+
+/* Design box #1 */
+
+.db1 {
+    position:relative;
+  }
+
+
+.db1 .db1_title {
+    float:none;
+    background:#fff url('../images/db1_title_bg.png') repeat-x;
+    border-right:1px solid #E8E8E8;
+    height:34px;
+  }
+
+
+.db1 .db1_title h4 {
+    height:27px;
+    background:url('../images/db1_title_bg_left.png') no-repeat scroll top left;
+    display:block;
+    padding-top: 7px;
+    padding-left: 20px;
+    color:#004FA2;
+  }
+
+
+.db1 .db1_content {
+    background:#fff url('../images/db1_content_bg.png') no-repeat scroll top right;
+  }
+
+
+.db1  .db1_container {
+    background: url('../images/db1_content_bg.png') no-repeat scroll top left;
+    padding: 10px;
+    position:relative;
+  }
+
+/* design box 2*/
+
+
+.db2 {
+    margin:10px 0;
+  }
+
+/**/
+
+.db2_content {
+    background:#fff url('../images/db2_content_bg_right.png') repeat-y scroll right;
+    position:relative;
+  }
+
+
+.db2_content_container {
+    background:url('../images/db2_content_bg_left.png') repeat-y scroll left;
+    padding: 0px 10px 0px 10px;
+    position:relative;
+  }
+
+
+.db2_content h4 {
+    border-bottom:1px solid #E0E1E1;
+    margin:0 5px 10px 5px;
+    padding:0px 5px 5px 10px;
+  }
+
+
+.bd2_top {
+    background:url('../images/db2_bg_right.png') no-repeat scroll right top;
+    height:10px;
+    line-height:0;
+    font-size:1px;
+  }
+
+
+.bd2_top_content {
+    background:url('../images/db2_bg_left.png') no-repeat scroll left top;
+    height:10px;
+    line-height:0;
+    font-size:0px;
+  }
+
+
+.bd2_bot {
+    background:url('../images/db2_bg_right.png') no-repeat scroll right bottom;
+    height:10px;
+    font-size:1px;
+  }
+
+
+.bd2_bot_content {
+    background:url('../images/db2_bg_left.png') no-repeat scroll left bottom;
+    height:10px;
+    font-size:1px;
+    line-height:0;
+  }
+
+/* design box 3*/
+
+
+.db3 {
+    margin:10px 0;
+  }
+
+
+.db3_content {
+    background:#ebf3fa;
+    border-left:1px solid #b1c9d9;
+    border-right:1px solid #b1c9d9;
+    padding: 0px 10px;
+  }
+
+
+.db3_content h4 {
+    border-bottom:1px solid #b1c9d9;
+    margin:0 5px 10px 5px;
+    padding:0px 5px 5px 10px;
+  }
+
+
+.bd3_top {
+    background:url('../images/db3_bg_right.gif') no-repeat scroll right top;
+    height:10px;
+    line-height:0;
+    font-size:1px;
+  }
+
+
+.bd3_top_content {
+    background:url('../images/db3_bg_left.gif') no-repeat scroll left top;
+    height:10px;
+    line-height:0;
+    font-size:1px;
+  }
+
+
+.bd3_bot {
+    background:url('../images/db3_bg_right.gif') no-repeat scroll right bottom;
+    height:10px;
+    font-size:1px;
+  }
+
+
+.bd3_bot_content {
+    background:url('../images/db3_bg_left.gif') no-repeat scroll left bottom;
+    height:10px;
+    font-size:1px;
+  }
+
+
+.db3_content {
+    background:#ebf3fa;
+    border-left:1px solid #b1c9d9;
+    border-right:1px solid #b1c9d9;
+    padding: 0px 10px;
+  }
+
+
+.db3_content h4 {
+    border-bottom:1px solid #b1c9d9;
+    margin:0 5px 10px 5px;
+    padding:0px 5px 5px 10px;
+  }
+
+
+.bd3_top {
+    background:url('../images/db3_bg_right.gif') no-repeat scroll right top;
+    height:10px;
+    line-height:0;
+    font-size:1px;
+    line-height:0;
+  }
+
+
+.bd3_top_content {
+    background:url('../images/db3_bg_left.gif') no-repeat scroll left top;
+    height:10px;
+    line-height:0;
+    font-size:1px;
+    line-height:0;
+  }
+
+
+.bd3_bot {
+    background:url('../images/db3_bg_right.gif') no-repeat scroll right bottom;
+    height:10px;
+    font-size:1px;
+    line-height:0;
+  }
+
+
+.bd3_bot_content {
+    background:url('../images/db3_bg_left.gif') no-repeat scroll left bottom;
+    height:10px;
+    font-size:1px;
+    line-height:0;
+  }
+
+/* design box 4*/
+
+
+.db4 {
+    margin:10px 0;
+  }
+
+
+.db4_content {
+    background:#FAFAFA;
+    border-left:1px solid #E0E1E1;
+    border-right:1px solid #E0E1E1;
+    padding: 0px 10px;
+  }
+
+
+.db4_content h4 {
+    border-bottom:1px solid #E0E1E1;
+    margin:0 5px 10px 5px;
+    padding:0px 5px 5px 10px;
+  }
+
+
+.bd4_top {
+    background:url('../images/db4_bg_right.png') no-repeat scroll right top;
+    height:10px;
+    line-height:0;
+    font-size:1px;
+    line-height:0;
+  }
+
+
+.bd4_top_content {
+    background:url('../images/db4_bg_left.png') no-repeat scroll left top;
+    height:10px;
+    line-height:0;
+    font-size:1px;
+    line-height:0;
+  }
+
+
+.bd4_bot {
+    background:url('../images/db4_bg_right.png') no-repeat scroll right bottom;
+    height:10px;
+    font-size:1px;
+    line-height:0;
+  }
+
+
+.bd4_bot_content {
+    background:url('../images/db4_bg_left.png') no-repeat scroll left bottom;
+    height:10px;
+    font-size:1px;
+  }
+

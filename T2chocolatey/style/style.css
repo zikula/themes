@@ -1,0 +1,250 @@
+/*******************************************************
+Chocolatey Brown - Style.css - By Kalyan Chakravarthy
+*******************************************************/
+
+body {
+	margin:0em;
+	padding:0;
+	height:100%;
+	background-color: #663300 ;
+	background:url(../images/mpbg.gif) repeat;
+	color:#ccff99/*#CDF27C*/;  
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+
+/*	THE MID-COL DIVISION AND RELATED STYLES	- THESE STYLES ARE USED TO HANDLE THE SHADOW EFFECT OF THE TEMPLATE	*/
+#mid-col { 	
+	margin:0 auto;
+	padding:28px;
+	padding-top:17px;
+	padding-bottom:17px;
+	width:900px;/*38em;*/
+	text-align:left;
+	vertical-align: middle;	
+	background:url(../images/pbg.gif) repeat-y;
+}
+
+#mid-col h2 {
+	margin:0 0px 0px 0;
+	padding:5px 0px 3px 0;
+	font-size:20px;
+	color:#ffcc33;
+	font-weight:300;
+}
+
+/*	THE HEADER BAR CLASSES		*/
+#header {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background:url(../images/fbg_blank.gif);
+	width:900px;
+	height:200px;
+}
+
+#header h1 {
+	margin:0 0 -.6em 0;
+	padding:1em 0 0 1em;
+	font-size:3.0em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:lighter;
+}
+
+#header h2 {
+	margin:1em 0 0 1.5em;
+	padding:1em 0 0 1.75em;
+	font-size:1.0em;
+	font-weight:lighter;
+	letter-spacing:0.08em;
+}
+
+.sbar { height:162px; }
+
+#main {
+ float:left;
+  width:600px;
+   padding:10px;
+    margin-left:10px;
+
+}
+
+
+/*	THE FLOATING COLUMN OR THE RIGHT SIDE BAR - RELATED STYLES		*/
+#float-col {
+	position:relative;
+	float:right;
+	margin-bottom : 0;
+	margin-left : .5em;
+	margin-right : 10px;
+	margin-top : .5em;
+	padding-bottom : .25em;
+	padding-left : .7em;
+	padding-right : .7em;
+	padding-top : 0;
+	width:200px;
+	font-size:.9em;
+	border:1px solid #999999;
+	background:url(../images/side_bg.gif) repeat;
+}
+
+#float-col h2 {
+	color:#ff9900;
+}
+
+#float-col ul {
+	margin:0em 0 0 0em;
+	padding:0;
+	list-style:none;
+}
+
+#float-col li {
+	margin:0 0 .2em 1em;
+}
+
+#float-col li a {
+	text-decoration:underline;
+}
+
+#float-col a {
+	color:#0099cc;
+}
+
+#float-col a:hover {
+	color:#cc9933;
+	text-decoration:none;
+}
+
+/*	THE FOOTER RELATED DIVISIONS AND CLASSES	*/
+#footer {
+	margin:2.5em 0 0 0;
+	padding:0px;
+	text-align:center;
+	font-size:.8em;
+	background:url(../images/fo_bg.gif) repeat-x; 
+	vertical-align:middle;
+}
+
+#footer, .ftop, .fbot { width:900px; overflow:hidden; }	
+/* 	FTOP AND FBOT ARE USED TO HANDLE THE CURVY CORNERS OF THE FOOTER PART	*/
+.ftop { background:url(../images/fo_tm.gif); height:8px; }
+.fbot { background:url(../images/fo_bm.gif); height:7px; }
+
+/*	THE CONTENT DIVISION	*/
+#content {
+	display:block;
+	width:900px;
+	border:0px solid red;
+	margin-top:25px;
+}
+
+/* SOME ( LOTS ) OF DESIGN RELATED CLASSES */
+
+/* THE CONTENT TOP AND BOTTOM CURVY STYLES  */
+.ct, .cb, .cbody { margin:0px; padding:0px; }
+.ct { height:30px; width:900px; background:url(../images/breadbar.gif); clear:none; overflow:hidden; text-indent:18px; }
+.cb { display:block; height:30px; width:900px; background:url(../images/co_bot.gif); overflow:hidden;}
+.cbody { background:url(../images/body_bg.gif) repeat-y; width:880px; padding:10px; display:block; overflow:hidden; }
+
+/* THE BREADBAR LINK STYLES */
+.ct a 
+{
+	font-size:10px;
+	vertical-align:middle;
+	line-height:30px;
+	color:#ff6633;
+}
+
+.spl_link { color:#FFFFFF; }
+
+/* 		THE TOP NAVIGATION BAR STYLE CLASSES		*/
+.tbar {
+	text-align:left;
+	font:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:8px;
+	padding-top:9px;
+	padding-left:50px;
+	height:16px;
+}
+.tbar a {
+	font:15px Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	padding:10px;
+	padding-bottom:9px;
+	text-decoration:none;
+}
+
+.tbar a:hover {
+	color:#FF9900;
+}
+/* THE ACTIVE PAGE EFFECT IN THE TOP NAVIGATION BAR  */
+a.current { background:url(../images/alink_bg.gif) repeat-x; color:#0066FF }
+
+
+/* THE STYLES OF SEARCH BOX IN THE TOPBAR */
+.searchbox form { padding:0; margin:0; display:inline; }
+.searchbox form p { padding:0; margin:0; display:inline; }
+.searchbox input { background:transparent; border:1px solid #CCCCCC; color:#FFFFFF; font-size:10px;}
+.searchbox { border:0px solid #CC6600; float:right; margin-right:20px; font-size:11px; }
+
+/*	AN SEO CLASS - IS USED TO ENHANCE THE KEYWORD OPTIMIZATION */
+.seo { position:absolute; left:-100px; top:-100px; right:0; }
+
+/*	SOME GENERAL PURPOSE CLASSES	*/
+.noul { text-decoration:none; }
+.bbg { background:#666666 }
+.fleft { float:left; clear:left; }
+.fright { float:right; }
+
+/*  THIS CLASS HANDLES THE LINKS WITH SOME DISCRIPTION - LIKE  THE LINKS IN THE SIDEBAR OF THE TEMPLATE */
+.links-with-desc { color:#FFFFFF; font-size:12px; }
+.links-with-desc li { padding-bottom:6px; }
+.links-with-desc a { color:#66FFFF; font-size:15px; font-weight:lighter; text-decoration:none; }
+.links-with-desc a:hover { color:#cc9933; }
+
+#float-col .links-with-desc a:hover { color:#cc9933; }
+#float-col .links-with-desc a { color:#66FFFF;  text-decoration:none; }
+
+
+/* TAGS STYLES */
+div { border:0px solid red; } /* debuggin the layout divs */
+p { margin-top:3px; margin-bottom:7px; margin-left:5px; padding:0; }
+
+a { color:#FF9966; }
+a:hover {  color:#FFCC99; text-decoration:underline }
+
+
+img{
+	padding:2px;
+	margin:3px;
+	border:0px solid #6F7850;
+	display:block;
+}
+
+blockquote {
+	margin:1em;
+	padding:.5em;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	color:#FFDDCC;
+}
+
+blockquote p {
+	margin:.2em;
+}
+
+/* IMAGE ALIGNMENT CLASSES */
+.img-left{
+	float:left;
+	clear:left;
+	margin-left:0;
+}
+
+.img-right{
+	float:right;
+	margin-right:0;
+}
+
+/* TEXT HIGHLIGHTING CLASS */
+.hl { color:#FFCC33; }
