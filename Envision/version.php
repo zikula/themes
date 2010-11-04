@@ -1,8 +1,8 @@
 <?php 
 $themeversion['name'] = 'Envision';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] = _('Envision', $domain);
-$themeversion['description'] = _('Envision template', $domain);
+$themeversion['displayname'] = __('Envision', $domain);
+$themeversion['description'] = __('Envision template', $domain);
 $themeversion['version'] = '2.1';
 $themeversion['author'] = 'TakeIT2, Mark West, Erwin Aligam';
 $themeversion['contact'] = 'http://code.zikula.org/themes/, http://www.markwest.me.uk, http://www.styleshout.com';
