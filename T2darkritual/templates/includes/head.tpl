@@ -1,9 +1,9 @@
-<title>{title}</title>
 <meta http-equiv="Content-Type" content="text/html; charset={charset}" />
+<title>{pagegetvar name='title'}</title>
+<meta name="description" content="{$metatags.description}" />
+<meta name="keywords" content="{$metatags.keywords}" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
 <meta name="Author" content="{sitename}" />
-<meta name="description" content="{slogan}" />
-<meta name="keywords" content="{keywords}" />
 <meta name="Copyright" content="{sitename} 2009-{'Y'|date}" />
 <meta name="Robots" content="index,follow" />
 <link rel="icon" type="image/png" href="{$imagepath}/favicon.png" />
