@@ -634,7 +634,7 @@ img.alignright, img.right {
 
 #footer {
     background: url('../images/bgfooter.gif') repeat-x;
-    color: #CCC;
+    color: #949474;
     font-size: 0.9em;
     padding: 8px 10px;
     margin-top: 5px;
@@ -643,16 +643,59 @@ img.alignright, img.right {
 
 
 #footer a {
-    color: #EEE;
+    color: #BDBD94;
 }
 
 
 #footer a:hover,#footer .right a:hover {
-    color: #FAFCB0;
+    color: #D5D5A7;
 }
 
 
-#footer .right, #footer .right a {
-    color: #949474;
+
+
+
+
+
+
+
+/******************************************************************************
+* Sidebar Form Styles:
+*******************************************************************************/
+
+#main_right .z-form fieldset,
+#main_right .z-form .z-fieldset, 
+#subnav .z-form fieldset,
+#subnav .z-form .z-fieldset {
+    border: 1px #323232 solid !important;
+    margin: 0 0 1em 0;
+    padding: 0.5em 1em;
+    color: #333;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #3e3e3e !important; /*non-CSS3 browsers*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#3e3e3e),to(#222222)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #3e3e3e, #222222) !important; /*gecko*/
+    background: linear-gradient(#3e3e3e, #222222) !important; /*CSS3*/
 }
 
+#main_right .z-form legend,
+#subnav .z-form legend {
+    color: #994;
+    font-weight: bold;
+
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 1.4em;
+
+    background: transparent;
+    border: 0;
+    text-shadow: -1px -1px 0 rgba(71, 71, 31, 0.8);
+}
+
+#main_right .z-form div.z-formrow .z-label,
+#main_right .z-form div.z-formrow label,
+#subnav .z-form div.z-formrow .z-label,
+#subnav .z-form div.z-formrow label {
+    color: #994 !important;
+}
