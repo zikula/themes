@@ -8,14 +8,16 @@
             {include file="includes/header.tpl"}
             <div id="content" {if $pagetype eq 'admin'} style="width:100%"{/if}>
                 {if $pagetype eq 'home'}
-                {blockposition name=center-top}
+                {blockposition name=center}
                 {/if}
                 {$maincontent}
-                {blockposition name=center}
+                {blockposition name=center-bottom}
             </div>
             {if $pagetype neq 'admin'}
             <div id="sidebar">
                 {blockposition name=left}
+                <br />
+                {blockposition name=search}
                 <br />
                 {blockposition name=right}
             </div>
