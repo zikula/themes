@@ -1,5 +1,5 @@
 /* 1024px - An open source xhtml/css website template by Andreas Viklund - http://andreasviklund.com . Free to use in any way and for any purpose as long as the proper credits are given to the original designer.
- Version: 1.0, March 29, 2006 */
+Version: 1.0, March 29, 2006 */
 /******** General tags ********/
 body {
     font: 76% Verdana, Tahoma, Arial, sans-serif;
@@ -222,6 +222,17 @@ blockquote {
 
 #footer a {
     color: #808080;
+}
+
+#footernav ul {
+    float:right;
+    text-align:right;
+    list-style:none;
+}
+
+#footernav ul li {
+    display:inline;
+    margin-left:5px;
 }
 
 /******** Various classes ********/
