@@ -11,7 +11,7 @@
                 {blockposition name=center}
                 {/if}
                 {$maincontent}
-                {blockposition name=center-bottom}
+                {blockposition name=footer}
             </div>
             {if $pagetype neq 'admin'}
             <div id="sidebar">
