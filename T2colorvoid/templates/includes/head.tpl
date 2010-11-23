@@ -9,6 +9,6 @@
 <link rel="icon" type="image/png" href="{$imagepath}/favicon.png" />
 <link rel="icon" type="image/x-icon" href="{$imagepath}/favicon.ico" />{* W3C *}
 <link rel="shortcut icon" type="image/ico" href="{$imagepath}/favicon.ico" />{* IE *}
-<link rel="alternate" href="{modurl modname='News' type='user' func='view' theme='rss'}" type="application/rss+xml" title="{sitename} {gt text="Main News RSS Feed"}" />
+<link rel="alternate" href="{modurl modname='News' type='user' func='view' theme='RSS'}" type="application/rss+xml" title="{sitename} {gt text="Main News RSS Feed"}" />
 <link rel="stylesheet" href="{$stylepath}/style.css" type="text/css" media="screen,projection" />
 {browserhack condition="if lte IE 7"}<link rel="stylesheet" href="{$stylepath}/ie_fixes.css" type="text/css" media="screen, projection" />{/browserhack}

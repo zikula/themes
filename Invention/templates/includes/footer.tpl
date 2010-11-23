@@ -7,7 +7,7 @@
         <span style="float:right; text-align:right; padding-right : 5px; letter-spacing : .07em;">
             <a style="text-decoration:none;" href="{modurl modname='Sitemap'}" title="{gt text="Easily find a page on our sitemap"}"><strong>{gt text="Sitemap"}</strong></a>&nbsp;|&nbsp;
             <a style="text-decoration:none;" href="{modurl modname='formicula'}" title="{gt text="Contact us"}"><strong>{gt text="Contact"}</strong></a>&nbsp;|&nbsp;
-            <a style="text-decoration:none;" href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}"><strong>{gt text="RSS"}</strong></a>
+            <a style="text-decoration:none;" href="{modurl modname='News' type='user' func='view' theme='RSS'}" title="{gt text="Subscription link for our News RSS feed"}"><strong>{gt text="RSS"}</strong></a>
         </span>
     </p>
     <p style="font-size : .9em; letter-spacing : .08em; margin-bottom : 5px; margin-top : 25px; padding-bottom : 0px; padding-left : 5px; text-align : left;">

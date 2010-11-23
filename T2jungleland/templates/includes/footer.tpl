@@ -11,7 +11,7 @@
                     {* <h3>{gt text="Follow Us"}</h3>
                     <div class="footer-list">
                         <ul>
-                            <li><a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}" class="rssfeed">{gt text="RSS"}</a></li>
+                            <li><a href="{modurl modname='News' type='user' func='view' theme='RSS'}" title="{gt text="Subscription link for our News RSS feed"}" class="rssfeed">{gt text="RSS"}</a></li>
                             <li><a href="mailto:{configgetvar name=adminmail}" class="email">{configgetvar name=adminmail}</a></li>
                             <li><a href="http://twitter.com/"{gt text="Follow us on Twitter"} class="twitter">{gt text="Twitter"}</a></li>
                         </ul>
@@ -48,7 +48,7 @@
                         <p>
                             <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find a page on our sitemap"}"><strong>{gt text="Sitemap"}</strong></a>&nbsp;|&nbsp;
                             <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}"><strong>{gt text="Contact"}</strong></a>&nbsp;|&nbsp;
-                            <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}" class="rssfeed"><strong>{gt text="RSS"}</strong></a>
+                            <a href="{modurl modname='News' type='user' func='view' theme='RSS'}" title="{gt text="Subscription link for our News RSS feed"}" class="rssfeed"><strong>{gt text="RSS"}</strong></a>
                             <a href="#top" title="{gt text="Go back to the top of the page"}" class="back-to-top"><strong>{gt text="Back to Top"}</strong></a>
                         </p>
                     </div>

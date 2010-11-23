@@ -9,7 +9,7 @@
 <link rel="icon" type="image/png" href="{$imagepath}/favicon.png" />
 <link rel="icon" type="image/x-icon" href="{$imagepath}/favicon.ico" />{* W3C *}
 <link rel="shortcut icon" type="image/ico" href="{$imagepath}/favicon.ico" />{* IE *}
-<link rel="alternate" href="{modurl modname='News' type='user' func='view' theme='rss'}" type="application/rss+xml" title="{sitename} {gt text="Main News RSS Feed"}" />
+<link rel="alternate" href="{modurl modname='News' type='user' func='view' theme='RSS'}" type="application/rss+xml" title="{sitename} {gt text="Main News RSS Feed"}" />
 <link rel="stylesheet" type="text/css" href="{$stylepath}/bluesky.css" media="screen, tv, projection" title="Default" />
 <link rel="stylesheet" type="text/css" href="{$stylepath}/handheld.css" media="handheld" title="Small Layout" />
 <link rel="alternative stylesheet" type="text/css" href="{$stylepath}/print.css" media="screen" title="Print Preview" />

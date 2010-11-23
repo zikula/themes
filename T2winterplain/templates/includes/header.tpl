@@ -7,7 +7,7 @@
                 </h1>
                 <div id="site_description">{slogan}</div>
         </div>
-        <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}" class="button feed right"><span></span></a>
+        <a href="{modurl modname='News' type='user' func='view' theme='RSS'}" title="{gt text="Subscription link for our News RSS feed"}" class="button feed right"><span></span></a>
 
         <div class="clearer"></div>
 

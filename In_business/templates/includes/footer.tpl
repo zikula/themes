@@ -8,7 +8,7 @@
         <span style="float:right; text-align:right;">
             <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find a page on our sitemap"}"><strong>{gt text="Sitemap"}</strong></a>&nbsp;|&nbsp;
             <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}"><strong>{gt text="Contact"}</strong></a>&nbsp;|&nbsp;
-            <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}"><strong>{gt text="RSS"}</strong></a>
+            <a href="{modurl modname='News' type='user' func='view' theme='RSS'}" title="{gt text="Subscription link for our News RSS feed"}"><strong>{gt text="RSS"}</strong></a>
         </span><br />
         <span style="float:left; font-size:.9em; letter-spacing:.08em; margin-bottom:0px; margin-top:5px; padding-bottom:0px; padding-left:10px; text-align:left;clear:both;">
             {assign var="poweredbyz" value="Powered by Zikula"}

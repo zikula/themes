@@ -18,7 +18,7 @@
         </ul>
     </div>
 
-    <p id="rss-feed"><a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}" class="feed">{gt text="RSS"}</a></p>	
+    <p id="rss-feed"><a href="{modurl modname='News' type='user' func='view' theme='RSS'}" title="{gt text="Subscription link for our News RSS feed"}" class="feed">{gt text="RSS"}</a></p>	
 
     {blockposition name=search}
 {* /header *}

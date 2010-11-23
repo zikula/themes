@@ -7,7 +7,7 @@
         <span style="float:right; text-align:right;">
             <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find a page on our sitemap"}">{gt text="Sitemap"}</a>&nbsp;|&nbsp;
             <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}">{gt text="Contact"}</a>&nbsp;|&nbsp;
-            <a href="{modurl modname='News' type='user' func='view' theme='rss'}" title="{gt text="Subscription link for our News RSS feed"}">{gt text="RSS"}</a>
+            <a href="{modurl modname='News' type='user' func='view' theme='RSS'}" title="{gt text="Subscription link for our News RSS feed"}">{gt text="RSS"}</a>
         </span>
      </div>
     <div style="clear:both; font-size : 8px; letter-spacing : .11em; margin-bottom : 0px; padding-top : 5px; padding-bottom : 0px; padding-left : 5px; text-align : left;">
