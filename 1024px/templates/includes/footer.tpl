@@ -18,7 +18,7 @@
         {/if}
     </div>
 
-    <span style="float:left;font-size : 8px; text-align : left;">
+    <span style="clear: left; float:left;font-size : 8px; text-align : left;">
         {assign var="poweredbyz" value="Powered by Zikula"}
         {gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}&nbsp;|&nbsp;
         {assign var="designbyz" value="Design by Andreas Viklund"}
