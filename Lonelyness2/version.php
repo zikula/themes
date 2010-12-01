@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2lonelyness2';
+$themeversion['name'] 		= 'Lonelyness2';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2lonelyness2', $domain);
-$themeversion['description'] 	= __('T2lonelyness2', $domain);
+$themeversion['displayname'] 	= __('Lonelyness2', $domain);
+$themeversion['description'] 	= __('Lonelyness2', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

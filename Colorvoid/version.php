@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2colorvoid';
+$themeversion['name'] 		= 'Colorvoid';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2colorvoid', $domain);
-$themeversion['description'] 	= __('T2colorvoid', $domain);
+$themeversion['displayname'] 	= __('Colorvoid', $domain);
+$themeversion['description'] 	= __('Colorvoid', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

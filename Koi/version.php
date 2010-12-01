@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2koi';
+$themeversion['name'] 		= 'Koi';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2koi', $domain);
-$themeversion['description'] 	= __('T2koi - Port of the wordpress theme koi by n.design.studios', $domain);
+$themeversion['displayname'] 	= __('Koi', $domain);
+$themeversion['description'] 	= __('Koi - Port of the wordpress theme koi by n.design.studios', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

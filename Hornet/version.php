@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2hornet';
+$themeversion['name'] 		= 'Hornet';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2hornet', $domain);
-$themeversion['description'] 	= __('T2hornet', $domain);
+$themeversion['displayname'] 	= __('Hornet', $domain);
+$themeversion['description'] 	= __('Hornet', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

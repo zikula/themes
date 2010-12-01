@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2retromania';
+$themeversion['name'] 		= 'Retromania';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2retromania', $domain);
-$themeversion['description'] 	= __('T2retromania', $domain);
+$themeversion['displayname'] 	= __('Retromania', $domain);
+$themeversion['description'] 	= __('Retromania', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2urbanartist';
+$themeversion['name'] 		= 'Urbanartist';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2urbanartist', $domain);
-$themeversion['description'] 	= __('T2urbanartist', $domain);
+$themeversion['displayname'] 	= __('Urbanartist', $domain);
+$themeversion['description'] 	= __('Urbanartist', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

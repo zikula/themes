@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2winterplain';
+$themeversion['name'] 		= 'Winterplain';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2winterplain', $domain);
-$themeversion['description'] 	= __('T2winterplain', $domain);
+$themeversion['displayname'] 	= __('Winterplain', $domain);
+$themeversion['description'] 	= __('Winterplain', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

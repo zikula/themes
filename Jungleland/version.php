@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2jungleland';
+$themeversion['name'] 		= 'Jungleland';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2jungleland', $domain);
-$themeversion['description'] 	= __('T2jungleland', $domain);
+$themeversion['displayname'] 	= __('Jungleland', $domain);
+$themeversion['description'] 	= __('Jungleland', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

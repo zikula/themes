@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2chocolatey';
+$themeversion['name'] 		= 'Chocolatey';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2chocolatey', $domain);
-$themeversion['description'] 	= __('T2chocolatey', $domain);
+$themeversion['displayname'] 	= __('Chocolatey', $domain);
+$themeversion['description'] 	= __('Chocolatey', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

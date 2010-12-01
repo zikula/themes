@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2unbound';
+$themeversion['name'] 		= 'Unbound';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2unbound', $domain);
-$themeversion['description'] 	= __('T2unbound', $domain);
+$themeversion['displayname'] 	= __('Unbound', $domain);
+$themeversion['description'] 	= __('Unbound', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2pixabella02';
+$themeversion['name'] 		= 'Pixabella02';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2pixabella02', $domain);
-$themeversion['description'] 	= __('T2pixabella02', $domain);
+$themeversion['displayname'] 	= __('Pixabella02', $domain);
+$themeversion['description'] 	= __('Pixabella02', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';

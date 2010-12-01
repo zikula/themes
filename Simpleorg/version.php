@@ -1,8 +1,8 @@
 <?php
-$themeversion['name'] 		= 'T2simpleorg';
+$themeversion['name'] 		= 'Simpleorg';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
-$themeversion['displayname'] 	= __('T2simpleorg', $domain);
-$themeversion['description'] 	= __('T2simpleorg', $domain);
+$themeversion['displayname'] 	= __('Simpleorg', $domain);
+$themeversion['description'] 	= __('Simpleorg', $domain);
 $themeversion['version'] 	= '1.0';
 $themeversion['author'] 	= 'TakeIT2';
 $themeversion['contact'] 	= 'http://takeit2.com/';
