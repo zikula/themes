@@ -7,7 +7,7 @@
         <a href="#footer" title="{gt text="Go to the footer of this page"}">{gt text="Footer"}</a>&nbsp;
     </p>
     <h1 id="sitename">
-        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename comment="%s is the sitename"}">{$modvars.ZConfig.sitename}</a>
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </h1>
     <p id="slogan">{$modvars.ZConfig.slogan}</p>
 </div>

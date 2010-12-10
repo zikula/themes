@@ -2,7 +2,7 @@
 
 <div id="footer">
     <span style="float:left;">
-        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename comment="%s is the sitename"}">{$modvars.ZConfig.sitename}</a>
+        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </span>
 
     <div id="footernav">
