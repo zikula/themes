@@ -9,6 +9,7 @@
             {if $pagetype neq 'admin'}
             <div id="avmenu">
                 {blockposition name=left}
+                {blockposition name=search}
             </div>
             <div id="extras">
                 {blockposition name=right}
