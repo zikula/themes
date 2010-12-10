@@ -14,7 +14,7 @@
             </p>
         </div>
         <div id="menu">
-{blockposition name=topnav assign=topnav}
+        {blockposition name=topnav assign=topnav}
         {if empty($topnav)}
             <ul>
                 <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
@@ -30,8 +30,7 @@
         </div>
     </div>
     <div id="title">
-        {sitename assign="sitename"}
-        <h3><a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{$modvars.ZConfig.sitename}</a></h3>
+        <h3><a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a></h3>
         <p>{$modvars.ZConfig.slogan}</p>
     </div>
 </div>
