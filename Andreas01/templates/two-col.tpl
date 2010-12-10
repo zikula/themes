@@ -8,6 +8,7 @@
             {include file="includes/header.tpl"}
         <div id="leftside">
             {blockposition name=left}
+            {blockposition name=search}
             {blockposition name=right}
         </div>
         <div id="contentwide">
