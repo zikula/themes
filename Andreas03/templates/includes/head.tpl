@@ -10,6 +10,5 @@
 <link rel="icon" type="image/x-icon" href="{$imagepath}/favicon.ico" />{* W3C *}
 <link rel="shortcut icon" type="image/ico" href="{$imagepath}/favicon.ico" />{* IE *}
 <link rel="alternate" href="{modurl modname='News' type='user' func='view' theme='RSS'}" type="application/rss+xml" title="{$modvars.ZConfig.sitename} {gt text="Main News RSS Feed"}" />
-{pageaddvar name="stylesheet" value="$stylepath/style.css"}
-<link rel="stylesheet" href="{$stylepath}/print.css" type="text/css" media="print" />
+{pageaddvar name="stylesheet" value="$stylepath/andreas03.css"}
 
