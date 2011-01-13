@@ -15,8 +15,8 @@
                     <span id="slogan">{slogan}</span>
                 </div>
                 <div id="intro">
-                    <a id="Welcome"></a>
                     {blockposition name=welcome}
+                    <a id="Welcome"></a>
                 </div>
                 <div id="side-box">{blockposition name=side-box}</div>
                 <div class="clear"></div>
@@ -31,6 +31,7 @@
             <div id="sidebar">
                 <a id="sitemenu"></a>
                 {blockposition name=left}
+                {blockposition name=search}
                 {blockposition name=right}
             </div>
             {/if}
