@@ -119,20 +119,28 @@ p {
     border: 0px !important;
     float : left;
     margin-right : 10px;
-    width : 260px;
+    margin-top:0px;
+    width : 270px;
 }
 
+#intro h3 {
+    margin-top:0px;
+    padding-top:0px;
+
+}
 
 #intro p {
+    font-size: .9em;
     line-height:1.5em;
+    text-align: justify;
 }
 
 
 #side-box {
-    width:155px;
-    height:155px;
+    width:160px;
+    height:160px;
     float:right;
-    margin-top:20px;
+    margin-top:10px;
     font-size:1em;
     line-height:1.3em;
 }
