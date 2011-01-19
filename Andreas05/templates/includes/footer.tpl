@@ -2,8 +2,7 @@
 <div id="footer">
     <p>
         <span style="float:left;padding-left : 10px;" class="credits">
-            {sitename assign="sitename"}
-            &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+            &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}">{$modvars.ZConfig.sitename}</a>
         </span>
 
         <span style="float:right;text-align:right;padding-right : 10px;" class="credits">

@@ -23,8 +23,7 @@
         {else}
         <a href="{modurl modname=Users func=loginscreen}" title="{gt text="Log In to Your Account"}"><img src="{$imagepath}/mini-loginout.gif" alt="" />&nbsp;{gt text="Login"}</a>
         {/if}
-        &nbsp;|&nbsp;{sitename assign="sitename"}
-        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        &nbsp;|&nbsp;&copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}">{$modvars.ZConfig.sitename}</a>
     </div>
     <div id="credits-right">
         <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find a page on our sitemap"}">{gt text="Sitemap"}</a>&nbsp;|&nbsp;

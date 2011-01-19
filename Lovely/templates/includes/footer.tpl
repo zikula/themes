@@ -2,8 +2,7 @@
 <div id="footer" style="overflow:auto; padding-top : 0px;">
     <p>
         <span style="float:left;text-align:left;">
-            {sitename assign="sitename"}
-            &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}"><strong>{sitename}</strong></a>
+            &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}"><strong>{$modvars.ZConfig.sitename}</strong></a>
         </span>
         <span style="float:right; text-align:right;">
             <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find a page on our sitemap"}"><strong>{gt text="Sitemap"}</strong></a>&nbsp;|&nbsp;
@@ -13,8 +12,6 @@
         <span style="float : left; font-size : .7em; letter-spacing : .07em; margin-bottom : 0px; margin-top : 5px; padding-bottom : 0px; padding-left : 0px; text-align : left;clear:both;">
             {assign var="poweredbyz" value="Powered by Zikula"}
             {gt text='Powered by <a href="http://zikula.org" title="%s"><strong>Zikula</strong></a>' tag1=$poweredbyz}&nbsp;|&nbsp;
-            {assign var="zthemes" value="Theme by Zikula Themes"}
-            {gt text='Theme by <a href="http://code.zikula.org/themes/" title="%s"><strong>Zikula Themes</strong></a>' tag1=$zthemes}&nbsp;|&nbsp;
             {assign var="designbyz" value="Design by Kumiko"}
             {gt text='Design by <a href="http://www.kumi.co.nr" title="%s"><strong>Kumiko</strong></a>' tag1=$designbyz}&nbsp;|&nbsp;
             {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}"><strong>{gt text="CSS"}</strong></a>&nbsp;/&nbsp;

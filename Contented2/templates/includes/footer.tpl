@@ -1,7 +1,6 @@
 <div id="footer">
     <div id="copyrightdesign">
-        {sitename assign="sitename"}
-        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}">{$modvars.ZConfig.sitename}</a>
         <br />
          <span style="float : left; font-size : .8em; letter-spacing : .07em; margin-bottom : 5px; margin-top : 5px; padding-bottom : 5px; padding-left : 0px; text-align : left;">
             {assign var="poweredbyz" value="Powered by Zikula"}
