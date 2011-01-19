@@ -1,9 +1,9 @@
 <div id="header">
-    <div id="title">{sitename}</div>
+    <div id="title">{$modvars.ZConfig.sitename}</div>
     <div id="contact">
         <a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}">{gt text="Contact"}</a>
     </div>
-    <div id="slogan">{slogan}</div>
+    <div id="slogan">{$modvars.ZConfig.slogan}</div>
 </div>
 <div id="nav">
     <a {if $pagetype eq 'home'} class="current" {/if} href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a>

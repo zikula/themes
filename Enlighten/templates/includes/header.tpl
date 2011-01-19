@@ -1,7 +1,7 @@
 <div id="header">
     <div id="logo-box">
-    <h1 id="logo"><a href="{homepage}" title="{gt text="Go to the home page of"} {sitename}">{sitename}</a></h1>
-    <h2 id="slogan">{slogan}</h2>
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
+    <h2 id="slogan">{$modvars.ZConfig.slogan}</h2>
     </div>
     <div class="headerphoto"></div>
 </div>

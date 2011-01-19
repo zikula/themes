@@ -1,8 +1,7 @@
 <div id="header">
     <div id="top">
         <div class="left" id="logo">
-            {sitename assign="sitename"}
-            <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}"><img src="{$imagepath}/site_logo.png" alt="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}" /></a>
+            <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}"><img src="{$imagepath}/site_logo.png" alt="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}" /></a>
         </div>
         <div class="left navigation" id="main-nav">
             <ul class="tabbed">
@@ -11,7 +10,7 @@
                 <li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}">{gt text="Contact"}</a></li>
             </ul>
             <div class="clearer">&nbsp;</div>
-            <span style="font-weight:bold;font-style:oblique;">{slogan}</span>
+            <span style="font-weight:bold;font-style:oblique;">{$modvars.ZConfig.slogan}</span>
         </div>
         <div class="clearer">&nbsp;</div>
     </div>

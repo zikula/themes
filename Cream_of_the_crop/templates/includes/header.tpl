@@ -1,7 +1,7 @@
 <div id="header">
     <div id="title">
-        <h1 id="sitename">{sitename}</h1>
-        <span  id="slogan">{slogan}</span>
+        <h1 id="sitename">{$modvars.ZConfig.sitename}</h1>
+        <span  id="slogan">{$modvars.ZConfig.slogan}</span>
     </div>
     <div id="navcontainer">
         <ul id="navlist">

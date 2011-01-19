@@ -20,8 +20,8 @@
             {datetime format='%b %d, %Y - %I:%M %p'}
         </span>
     </div>
-    <h1>{sitename}</h1>
-    <h2>{slogan}</h2>
+    <h1>{$modvars.ZConfig.sitename}</h1>
+    <h2>{$modvars.ZConfig.slogan}</h2>
 </div>
 {* end #header *}
 <div id="menu">

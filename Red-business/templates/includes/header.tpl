@@ -4,8 +4,8 @@
         <a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}"><img src="{$imagepath}/contact.gif" alt="{gt text="Go to the Contact module"}" /></a>
         <a href="{modurl modname=Sitemap}" title="{gt text="Go to the Sitemap module"}"><img src="{$imagepath}/sitemap.gif" alt="{gt text="Go to the Sitemap module"}" /></a>
     </div>
-    <h1>{sitename}</h1>
-    <h2>{slogan}</h2>
+    <h1>{$modvars.ZConfig.sitename}</h1>
+    <h2>{$modvars.ZConfig.slogan}</h2>
 </div>
 {* end of the Top part *}
 </div>

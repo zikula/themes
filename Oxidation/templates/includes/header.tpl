@@ -1,18 +1,17 @@
 <div id="header">
     <div id="logo">
         <h1>
-        {sitename assign="sitename"}
-        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
         </h1>
         <h2>
-        {slogan}
+        {$modvars.ZConfig.slogan}
         </h2>
     </div>
     <div id="search">
         {blockposition name=search}
     </div>
 </div>
-<!-- end #header -->
+{*end #header *}
 <div id="menu">
     <ul>
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
@@ -24,4 +23,4 @@
         <li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}">{gt text="Contact"}</a></li>
     </ul>
 </div>
-<!-- end #menu -->
+{*end #menu *}

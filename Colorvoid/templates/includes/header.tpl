@@ -1,9 +1,8 @@
 <div id="site_title">
     <h1 class="left">
-        {sitename assign="sitename"}
-        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </h1>
-    <h2 class="right">{slogan}</h2>
+    <h2 class="right">{$modvars.ZConfig.slogan}</h2>
     <div class="clearer">&nbsp;</div>
 </div>
 <div id="top_separator"></div>

@@ -20,7 +20,7 @@
     </span>
 </div>
 <div id="header">
-    <h1>{sitename}</h1>
+    <h1>{$modvars.ZConfig.sitename}</h1>
     <div id="navbar">
         <ul>
             <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>

@@ -1,11 +1,10 @@
 {*header *}
 <div id="header">
     <h1 id="logo">
-        {sitename assign="sitename"}
-        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a><span class="gray">{gt text="Simpleblog"}</span>
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a> <span class="gray">{gt text="Simpleblog"}</span>
         </a>
     </h1>
-    <h2 id="slogan">{slogan}</h2>
+    <h2 id="slogan">{$modvars.ZConfig.slogan}</h2>
     <div id="searchform">
         {blockposition name=search}
     </div>

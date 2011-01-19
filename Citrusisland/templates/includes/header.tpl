@@ -1,7 +1,7 @@
 <div id="header">
     {blockposition name=search}
-    <h1 id="logo">{sitename}</h1>
-    <h2 id="slogan">{slogan}</h2>
+    <h1 id="logo">{$modvars.ZConfig.sitename}</h1>
+    <h2 id="slogan">{$modvars.ZConfig.slogan}</h2>
 </div>
 <div id="menu">
     <ul>

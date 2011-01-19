@@ -25,10 +25,9 @@
     {/if}
     <div id="sitename">
         <h1>
-            {sitename assign="sitename"}
-            <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+            <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
         </h1>
     </div>
-    <div id="slogan"><h4>{slogan}</h4></div>
+    <div id="slogan"><h4>{$modvars.ZConfig.slogan}</h4></div>
     <div id="head-nav">{blockposition name=headnav}</div>
 </div>

@@ -25,8 +25,8 @@
     </span>
 </div>
 <div class="bridge">
-    <div class="title">{sitename}</div>
-    <div class="slogan">{slogan}</div>
+    <div class="title">{$modvars.ZConfig.sitename}</div>
+    <div class="slogan">{$modvars.ZConfig.slogan}</div>
 </div>
 <div class="nav">
     <ul>

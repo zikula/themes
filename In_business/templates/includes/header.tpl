@@ -12,10 +12,9 @@
 <div class="header">
     <img id="logo" alt="{sitename} {gt text="Logo image"}" style="float:right;" src="{$imagepath}/www.jpg" width="225" height="95" />
     <span id="sitename">
-    {sitename assign="sitename"}
-    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </span><br />
-    <span id="slogan">{slogan}</span>
+    <span id="slogan">{$modvars.ZConfig.slogan}</span>
     <div id="searchform">
         {blockposition name=search}
     </div>

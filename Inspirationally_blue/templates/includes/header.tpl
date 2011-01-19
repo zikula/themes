@@ -1,6 +1,6 @@
 <div id="header">
-    <span class="sitename">{sitename}</span><br />
-    <span class="slogan">{slogan}</span><br />
+    <span class="sitename">{$modvars.ZConfig.sitename}</span><br />
+    <span class="slogan">{$modvars.ZConfig.slogan}</span><br />
     {blockposition name=search}
 </div>
 <div id="chromemenu">

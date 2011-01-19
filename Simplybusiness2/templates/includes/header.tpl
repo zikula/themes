@@ -4,7 +4,7 @@ Header + Navigation
 ******************************
 *}
 <div id="header">
-    <img src="{$imagepath}/logo.jpg" style="float: left;" alt="{sitename}&nbsp;{gt text="Logo Image"}" />
+    <img src="{$imagepath}/logo.jpg" style="float: left;" alt="{$modvars.ZConfig.sitename}&nbsp;{gt text="Logo Image"}" />
 </div>
 <div id="nav">
     <ul>

@@ -1,6 +1,6 @@
 {* header *}
 <div id="header">
-    <span id="slogan">{slogan}</span>
+    <span id="slogan">{$modvars.ZConfig.slogan}</span>
     {* tabs *}
     <ul>
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}"><span>{gt text="Home"}</span></a></li>
@@ -12,6 +12,6 @@
     </ul>
 </div>
 <div id="header-logo">
-    <div id="logo">{sitename}</div>
+    <div id="logo">{$modvars.ZConfig.sitename}</div>
     {blockposition name=search}
 </div>

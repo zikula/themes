@@ -15,13 +15,12 @@
         </span>
         <span id="snacktime">
             {if $pagetype neq 'home'}
-            <a href="{homepage}">{gt text="Back to Main page"}</a>&nbsp;::&nbsp;
+            <a href="{homepage}" title="{gt text="Back to Main page"}">{gt text="Back to Main page"}</a>&nbsp;::&nbsp;
             {/if}
             {datetime format='%b %d, %Y - %I:%M %p'}
         </span>
     </h4>
     <h1 id="sitename">
-    {sitename assign="sitename"}
-    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </h1>
 </div>

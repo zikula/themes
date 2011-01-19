@@ -1,7 +1,6 @@
 <div id="header">
-    <h1 id="logo">{sitename}</h1>
-    <h2 id="slogan">{slogan}</h2>
-    {blockposition name=search}
+    <h1 id="logo"><a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a></h1>
+    <h2 id="slogan">{$modvars.ZConfig.slogan}</h2>
     <ul>
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}"><span>{gt text="Home"}</span></a></li>
         <li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Go to the Pages module"}"><span>{gt text="Pages"}</span></a></li>

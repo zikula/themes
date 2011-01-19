@@ -1,23 +1,13 @@
 <div id="header">
-    <form method="post" id="searchform-h" action="{modurl modname=Search func=search}">
+    <div id="searchform-h">
         <div>
-            <input id="searchbox" type="text" name="q" size="20" maxlength="255" value="{gt text="Search For..."}" />
-            <input type="submit" class="submitbutton" value="{gt text="Go"}" />
-            <input type="hidden" name="active[Dizkus]" value="1" />
-            <input type="hidden" name="active[FAQ]" value="1" />
-            <input type="hidden" name="active[locations]" value="1" />
-            <input type="hidden" name="active[News]" value="1" />
-            <input type="hidden" name="active[Pages]" value="1" />
-            <input type="hidden" name="active[TimeIt]" value="1" />
-            <input type="hidden" name="modvar[itemsperpage]" value="20" />
-            <input type="hidden" name="modvar[limitsummary]" value="255" />
+            {blockposition name=search}
         </div>
-    </form>
+    </div>
     <h1 id="sitename">
-        {sitename assign="sitename"}
-        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </h1>
-    <h2 id="slogan">{slogan}</h2>
+    <h2 id="slogan">{$modvars.ZConfig.slogan}</h2>
     <ul id="nav">
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
         <li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Go to the Pages module"}">{gt text="Pages"}</a></li>

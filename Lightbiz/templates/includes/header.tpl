@@ -3,7 +3,7 @@
     <div class="header">
         <div class="padding">
             <div class="citation">{blockposition name=citation}</div>
-        <h1>{sitename}</h1>
-        {slogan}
+        <h1>{$modvars.ZConfig.sitename}</h1>
+        {$modvars.ZConfig.slogan}
         </div>
     </div>

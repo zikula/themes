@@ -1,10 +1,9 @@
 <div id="head">
     <div id="search_block">{blockposition name=search}</div>
     <span id="sitename">
-    {sitename assign="sitename"}
-    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </span><br />
-    <span id="slogan">{slogan}</span>
+    <span id="slogan">{$modvars.ZConfig.slogan}</span>
     <ul id="site-menu">
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}"><span>{gt text="Home"}</span></a></li>
         <li {if $module eq 'Pages'} class="current" {/if}><a href="{modurl modname=Pages}" title="{gt text="Go to the Pages module"}"><span>{gt text="Pages"}</span></a></li>

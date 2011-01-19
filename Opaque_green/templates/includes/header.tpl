@@ -1,6 +1,6 @@
 <div id="head">
-    <h1>{sitename}</h1>
-    <h3>{slogan}</h3>
+    <h1>{$modvars.ZConfig.sitename}</h1>
+    <h3>{$modvars.ZConfig.slogan}</h3>
 </div>
 <ul id="nav">
     <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>

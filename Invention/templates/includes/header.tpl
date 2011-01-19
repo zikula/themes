@@ -1,7 +1,6 @@
 <div id="header">
     <span id="sitename">
-        {sitename assign="sitename"}
-        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </span>
     <div id="links">
         <ul>
@@ -15,5 +14,5 @@
     </div>
 </div>
 <div id="mainimg">
-    <div id="slogan">{slogan}</div>
+    <div id="slogan">{$modvars.ZConfig.slogan}</div>
 </div>

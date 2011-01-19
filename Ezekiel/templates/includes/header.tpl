@@ -1,6 +1,6 @@
 <div id="header">
-    <div id="sitename">{sitename}</div>
-    <div id="slogan">{slogan}</div>
+    <div id="sitename">{$modvars.ZConfig.sitename}</div>
+    <div id="slogan">{$modvars.ZConfig.slogan}</div>
 </div>
 <ul id="sitenav-menu">
     {* /*}

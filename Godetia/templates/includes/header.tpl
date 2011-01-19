@@ -1,10 +1,9 @@
 <div id="header">
     {blockposition name=search}
     <h1>
-    {sitename assign="sitename"}
-    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </h1>
-    <h2>{slogan}</h2>
+    <h2>{$modvars.ZConfig.slogan}</h2>
 </div>
 <div class="menu">
     <ul id="nav">

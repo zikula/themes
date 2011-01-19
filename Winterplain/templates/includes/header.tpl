@@ -2,10 +2,9 @@
 
         <div class="left">
                 <h1 id="site_title">
-                    {sitename assign="sitename"}
-                    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+                    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
                 </h1>
-                <div id="site_description">{slogan}</div>
+                <div id="site_description">{$modvars.ZConfig.slogan}</div>
         </div>
         <a href="{modurl modname='News' type='user' func='view' theme='RSS'}" title="{gt text="Subscription link for our News RSS feed"}" class="button feed right"><span></span></a>
 

@@ -25,8 +25,8 @@
     </div>
 </div>
 <div id="masthead">
-    <span id="sitename">{sitename}</span><br />
-    <span id="slogan">{slogan}</span>
+    <span id="sitename">{$modvars.ZConfig.sitename}</span><br />
+    <span id="slogan">{$modvars.ZConfig.slogan}</span>
 </div>
 <div id="menu">
     <ul>

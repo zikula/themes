@@ -1,10 +1,9 @@
 <div id="header">
 <p id="sitename">
-{sitename assign="sitename"}
-<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}"><strong>{sitename}</strong></a>
+<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}"><strong>{$modvars.ZConfig.sitename}</strong></a>
 </p>
 
-<p id="slogan"><strong>{slogan}</strong></p>
+<p id="slogan"><strong>{$modvars.ZConfig.slogan}</strong></p>
 
 
 

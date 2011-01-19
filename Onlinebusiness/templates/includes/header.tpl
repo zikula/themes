@@ -13,8 +13,7 @@
 </div>
 <div id="hdr">{* header *}
     <h1>
-    {sitename assign="sitename"}
-    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}"><span>{sitename}</span></a>&nbsp;<span>{gt text="Online"}</span>{gt text="Business"}
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}"><span>{$modvars.ZConfig.sitename}</span></a>&nbsp;<span>{gt text="Online"}</span>{gt text="Business"}
     </h1>
 </div> {* End of header *}
 <div id="navbar">{* navbar *}
@@ -28,6 +27,6 @@
 
     </ul>
 </div> {* End of navbar *}
-<div id="siteimg"><p>{slogan}</p></div>
+<div id="siteimg"><p>{$modvars.ZConfig.slogan}</p></div>
 
 

@@ -2,8 +2,8 @@
 <div id="header">
     <div class="rside">
         <div class="sitename">
-            <h2>{sitename}</h2>
-            {slogan}
+            <h2>{$modvars.ZConfig.sitename}</h2>
+            {$modvars.ZConfig.slogan}
         </div>
     </div>
     <div class="logoside">

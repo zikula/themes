@@ -1,6 +1,6 @@
 <div id="page_header">
-    <h1>{sitename}</h1>
-    <h2>{slogan}</h2>
+    <h1>{$modvars.ZConfig.sitename}</h1>
+    <h2>{$modvars.ZConfig.slogan}</h2>
 </div>
 <div id="menu_container">
     <div id="menu_bar">

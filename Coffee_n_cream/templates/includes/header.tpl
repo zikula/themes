@@ -1,6 +1,6 @@
 <div id="header">
     <div id="title">
-        <h1>{sitename}</h1>
+        <h1>{$modvars.ZConfig.sitename}</h1>
     </div>
 </div>
 <div id="navigation">

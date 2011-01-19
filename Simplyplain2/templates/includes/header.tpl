@@ -1,11 +1,10 @@
 <div id="header">
     <div id="sitename">
         <span class="bcol">
-        {sitename assign="sitename"}
-        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
-        </span> T2simplyplain2
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
+        </span>&nbsp;::
     </div>
-    <div id="slogan">{slogan}</div>
+    <div id="slogan">{$modvars.ZConfig.slogan}</div>
 </div>
 <div id="topnav">
     <ul>

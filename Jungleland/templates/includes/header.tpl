@@ -2,10 +2,9 @@
 <div id="header">
     <a name="top"></a>
     <h1 id="logo-text">
-    {sitename assign="sitename"}
-    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+    <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </h1>
-    <p id="slogan">{slogan}</p>
+    <p id="slogan">{$modvars.ZConfig.slogan}</p>
     <div  id="nav">
         <ul>
             <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>

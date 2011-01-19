@@ -1,6 +1,6 @@
 <div id="topleft">
-    <h1>{sitename}</h1>
-    <p id="slogan">"{slogan}"</p>
+    <h1>{$modvars.ZConfig.sitename}</h1>
+    <p id="slogan">"{$modvars.ZConfig.slogan}"</p>
 </div>{* END OF TOP LEFT AREA *}
 <div id="topright">
     <div id="divblanksquares">
