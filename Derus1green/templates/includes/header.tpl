@@ -29,5 +29,5 @@
         </h1>
     </div>
     <div id="slogan"><h4>{$modvars.ZConfig.slogan}</h4></div>
-    <div id="head-nav">{blockposition name=headnav}</div>
+    <div id="head-nav">{blockposition name=topnav}</div>
 </div>
