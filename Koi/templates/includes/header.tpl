@@ -4,7 +4,7 @@
     </h1>
     <p class="description">{$modvars.ZConfig.slogan}</p>
 
-    {include file="includes/socialmedia.tpl"}
+    {*{include file="includes/socialmedia.tpl"} *}
 
     <ul id="nav">
         <li {if $pagetype eq 'home'} class="current" {/if}><a href="{homepage}" title="{gt text="Go back to the home page"}">{gt text="Home"}</a></li>
@@ -17,7 +17,7 @@
     </ul>
 
     <div id="searchform">
-        {blockposition name=search}
+
     </div>
 </div>
 {* end header *}
