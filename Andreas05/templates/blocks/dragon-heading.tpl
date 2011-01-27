@@ -1,4 +1,4 @@
-{if $title neq ''}
+{if !empty($title)}
 <span id="dragon">{$title}</span>
 {/if}
 {$content}
