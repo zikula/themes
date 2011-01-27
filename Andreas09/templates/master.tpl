@@ -12,6 +12,7 @@
                     {blockposition name=left}
                 </div>
                 <div id="rightside">
+                    {blockposition name=search}
                     {blockposition name=right}
                 </div>
                 <div id="content">

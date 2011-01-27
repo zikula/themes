@@ -13,6 +13,7 @@
             <div id="rightside">
                 <div id="right-head" style="width:200px; height:100px;">{blockposition name=right-head}</div>
                 {include file="includes/menu-right.tpl"}
+                {blockposition name=search}
                 {blockposition name=right}
             </div>
             <div id="content">

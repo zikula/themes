@@ -9,6 +9,7 @@
             {include file="includes/mainmenu.tpl"}
             <div id="wrap">
                 <div id="rightside">
+                    {blockposition name=search}
                     {blockposition name=left}
                     {blockposition name=right}
                 </div>

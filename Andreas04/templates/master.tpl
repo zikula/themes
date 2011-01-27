@@ -17,7 +17,7 @@
                 <div id="right">
                     <div class="subcontainer">
                         <div class="rightsub">{blockposition name=left}</div>
-                        <div class="rightsub2">{blockposition name=right}</div>
+                        <div class="rightsub2">{blockposition name=search}{blockposition name=right}</div>
                     </div>
                 </div>
                 {/if}

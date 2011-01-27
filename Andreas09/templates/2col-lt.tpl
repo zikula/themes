@@ -10,6 +10,7 @@
         <div id="wrap">
             <div id="leftside">
                 {blockposition name=left}
+                {blockposition name=search}
                 {blockposition name=right}
             </div>
             <div id="contentalt-l" >

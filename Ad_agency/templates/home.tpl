@@ -17,6 +17,7 @@
             <div id="bottomcontenttop">{* non-content div for rounded corners *}</div>
             <div id="bottomcontent">
                 <div class="right">
+                    {blockposition name=search}
                     {blockposition name=right}
                 </div>
                 <div class="middle">
