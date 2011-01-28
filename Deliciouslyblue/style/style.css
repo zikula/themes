@@ -1,0 +1,464 @@
+
+/**************** body and tag styles ****************/
+
+body {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.6em;
+    color: #666666;
+    background-color: #FFFFFF;
+}
+
+
+#container2 {
+    width: 746px;
+    margin: 0 auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.6em;
+    color: #666666;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #2763A5;
+}
+
+
+#header h1 {
+    background-color : #FFFFFF;
+    color : #2763A5;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 32px;
+    font-weight : normal;
+    margin-bottom : 10px;
+    padding-left : 15px;
+}
+
+
+h1 {
+    color: #666666;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+
+
+h2 {
+    color: #666666;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+
+
+a {
+    color: #6DA6E2;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:hover {
+    background-color: transparent;
+    color: inherit;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/**************** images styles ****************/
+
+a img {
+    border: none;
+}
+
+
+span.left,span.center,span.right {
+    padding: 4px;
+    border: 1px solid #a0a0a0;
+}
+
+
+span.left {
+    float: left;
+    margin: 0 12px 5px 0;
+}
+
+
+span.center {
+    display: block;
+    margin: 0 auto 5px auto;
+}
+
+
+span.right {
+    float: right;
+    margin: 0 0 5px 12px;
+}
+
+/**************** form styles ****************/
+
+#header form {
+    float:right;
+    font-size: 9px;
+}
+
+
+input, select, textarea {
+    background-color: #FFFFFF;
+    color: #999999;
+    border: 1px solid #2763A5;
+    font-size: 11px;
+    padding: 3px;
+}
+
+
+.searchform input[type="submit"] {
+    padding: 2px;
+    background-color: #6DA6E2;
+    color: #FFFFFF;
+    border: 1px solid #2763A5;
+    font-size: 11px;
+}
+
+/**************** header styles ****************/
+
+#header {
+    width: 750px;
+    border: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    clear: both;
+}
+
+
+#header p {
+    color : #6DA6E2;
+    font-size:13px;
+    font-weight:bold;
+    margin-left : 30px;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+/**************** menu styles ****************/
+
+#tabs10 {
+    float:left;
+    width:750px;
+    font-size:93%;
+    padding-bottom: 1px;
+    border-bottom:4px solid #2763A5;
+    line-height:normal;
+    margin-top : 0px;
+}
+
+
+#tabs10 ul {
+    margin:0;
+    padding:10px 10px 0 50px;
+    list-style:none;
+}
+
+
+#tabs10 li {
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+
+#tabs10 a {
+    float:left;
+    background:url("../images/tableft10.gif") no-repeat left top;
+    margin:0;
+    padding:0 0 0 4px;
+    text-decoration:none;
+}
+
+
+#tabs10 a span {
+    float:left;
+    display:block;
+    background:url("../images/tabright10.gif") no-repeat right top;
+    padding:5px 15px 4px 6px;
+    color:#FFF;
+}
+
+
+#tabs10 a span {
+    float:none;
+}
+#tabs10  li.current a span   {
+    background-position:0% -42px;
+}
+
+#tabs10 a:hover, #tabs10 a .current {
+    background-position:0% -42px;
+}
+
+
+#tabs10 a:hover span, {
+    background-position:100% -42px;
+}
+
+/**************** content styles ****************/
+
+#content {
+    width: 520px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    float: left;
+}
+
+
+#content div.content {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/**************** sidebar styles ****************/
+
+#sidebar {
+    width: 175px;
+    padding-left: 21px;
+    padding-right: 10px;
+    padding-top: 10px;
+    float: right;
+}
+
+
+#sidebar div.block {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/**************** footer styles ****************/
+
+#footer {
+    background-color:#2763A5;
+    margin-top: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    clear: both;
+    width: 742px;
+    min-height:35px;
+}
+
+
+#footer span {
+    background-color:#2763A5;
+    color:#FFFFFF;
+    padding: 5px;
+    text-align: center;
+}
+
+
+#footer span a {
+    color: #FFFFFF;
+    background-color:#2763A5;
+    font-weight:100;
+    border-bottom: 1px dotted #FFFFFF;
+}
+
+
+#footer span a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-top: 1px dotted #FFFFFF;
+    border-bottom: 0px dotted #FFFFFF;
+}
+
+/**************** list styles ****************/
+
+#sidebar ul li {
+    list-style-type: square;
+    list-style-image: url(../images/menu-leaf.png);
+}
+ul, ol {
+
+    margin-bottom : 5px;
+    margin-left : 10px;
+    margin-right : 0px;
+    margin-top : 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 2px;
+}
+
+p.extmenuadmin {
+
+padding-left: 10px;
+}
+
+.content ul li {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+
+.content ul li:before {
+    content: "\00BB \0020";
+}
+
+/* Zikula required styles */
+
+a img {
+    border: 0px;
+}
+
+
+.z-clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+.z-clearfix {
+    display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+
+* html .pn-clearfix {
+    height: 1%;
+}
+
+
+.z-clearfix {
+    display: block;
+}
+
+/* End hide from IE-mac */
+
+/* Overflow-Method to clear float environments */
+
+.z-floatbox {
+    overflow:hidden;
+}
+
+/*
+� 2005 Christine Kirchmeier http://www.zeta-software.de
+*/
+
+table.z-datatable {
+    border-spacing: 0;
+    width:100%;
+}
+
+
+table.z-datatable caption {
+    color: #2442b1;
+    font-size: 130%;
+    letter-spacing: .1em;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+
+table.z-datatable thead th, table.z-datatable tbody th {
+    background: #666666 url(../images/left_corner.gif) no-repeat;
+    color: #fff;
+    font-weight: bold;
+    padding: .2em .7em .2em .8em;
+    text-align: left;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #c6cdd8;
+    border-bottom: 1px solid #c6cdd8;
+    border-left: 1px solid #fff;
+}
+
+
+table.z-datatable thead th {
+    font-size: 1em;
+}
+
+
+table.z-datatable tbody th {
+    background: #dee2e9 url(../images/bg_col1.gif) repeat-x;
+}
+
+
+table.z-datatable tbody tr.odd th {
+    background: #e2e2e2;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+
+table.z-datatable tbody th a, table.z-datatable tbody th a:link, table.z-datatable tbody th a:visited, table.z-datatable tbody th a:hover, table.z-datatable tbody th a:active {
+    color: #2442b1;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+
+table.z-datatable tbody th a:hover {
+    text-decoration: underline;
+}
+
+
+table.z-datatable td a:link {
+    color: #537fc3;
+}
+
+
+table.z-datatable tbody th a:visited, table.z-datatable td a:visited {
+    color: #444;
+}
+
+
+table.z-datatable th a:hover, table.z-datatable td a:hover {
+    text-decoration: none;
+}
+
+
+table.z-datatable td {
+    background: #f3f8fd url(../images/bg_col2.gif) repeat-x;
+    color: #203276;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #c6cdd8;
+    border-bottom: 1px solid #c6cdd8;
+    border-left: 1px solid #fff;
+    padding: 1.5em 0.5em 1.5em 0.8em;
+}
+
+
+table.z-datatable td:hover {
+    background: #f3f8fd;
+}
+
+
+table.z-datatable tr.odd td {
+    background: #f8f8f8 url(../images/bg_col3.gif) repeat-x;
+    color: #444;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+
+table.z-datatable tr.odd td:hover {
+    background: #f8f8f8;
+}
+
+
+table.z-datatable tfoot th, table.z-datatable tfoot td {
+    background: #444 !important;
+    padding: .5em .5em .5em .5em !important;
+    color: #fff;
+}
+
