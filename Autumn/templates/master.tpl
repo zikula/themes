@@ -6,6 +6,7 @@
     <body>
         <div id="container">
             <div id="sidebar">
+                {blockposition name=search}
                 {include file="includes/sidebar-nav.tpl"}
                 {blockposition name=left}
                 {blockposition name=right}

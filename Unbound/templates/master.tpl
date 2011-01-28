@@ -5,32 +5,36 @@
     </head>
     <body>
         {include file="includes/header.tpl"}
-        <!-- content-outer starts -->
+        {*content-outer starts *}
         <div id="content-outer" class="clear">
-        <!-- content-wrapper starts -->
+        {*content-wrapper starts *}
         <div id="content-wrapper">
-            <!-- content starts -->
+            {*content starts *}
             <div id="content">
-                <!-- column-one -->
+                {*column-one *}
                 <div id="col-one">
+                    {if $pagetype eq 'home'}
+                    {blockposition name=center}
+                    {/if}
                     {$maincontent}
-                <!-- /column-one ends here -->
+                {*/column-one ends here *}
                 </div>
-            <!-- /content ends here -->
+            {*/content ends here *}
             </div>
-            <!-- column-two -->
+            {*column-two *}
             <div id="col-two">
                 {blockposition name=left}
-            <!-- column-two ends here -->
+            {*column-two ends here *}
             </div>
-            <!-- column-three -->
+            {*column-three *}
             <div id="col-three">
+                {blockposition name=search}
                 {blockposition name=right}
-            <!-- /column-three ends here -->
+            {*/column-three ends here *}
             </div>
-        <!-- /content-wrapper ends here -->
+        {*/content-wrapper ends here *}
         </div>
-        <!-- /content-outer ends here -->
+        {*/content-outer ends here *}
         </div>
         {include file="includes/footer.tpl"}
     </body>

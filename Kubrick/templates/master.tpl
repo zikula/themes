@@ -14,8 +14,9 @@
             </div>
             <div id="sidebar">
                 <div class="searchform">
-                    {blockposition name=search}
+                    
                 </div>
+                {blockposition name=search}
                 {blockposition name=left}
                 {blockposition name=right}
             </div>

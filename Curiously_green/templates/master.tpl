@@ -9,8 +9,10 @@
             {if $pagetype neq 'admin'}
             <div id="lcol">
                 {blockposition name=left}
+                {blockposition name=search}
+                {blockposition name=right}
                 <div id="lcontent">
-                    {blockposition name=right}
+                    
                 </div>
             </div>
             <div id="rcol">

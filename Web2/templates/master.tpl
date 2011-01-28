@@ -16,6 +16,7 @@
                         <div class="db2_content"> 
                             <div class="db2_content_container"  style="position:relative;">
                                 <span class="clear_left">&nbsp;</span>
+                                {blockposition name=search}
                                 {blockposition name=left}
                                 &nbsp;
                                 {blockposition name=right}
@@ -35,6 +36,9 @@
                     </div>
                     <div class="db1_content">
                         <div class="db1_container">
+                            {if $pagetype eq 'home'}
+                            {blockposition name=center}
+                            {/if}
                             {$maincontent}
                         </div>
                     </div>

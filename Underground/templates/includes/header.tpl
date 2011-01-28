@@ -13,5 +13,4 @@
 </div>
 <div id="header-logo">
     <div id="logo">{$modvars.ZConfig.sitename}</div>
-    {blockposition name=search}
 </div>

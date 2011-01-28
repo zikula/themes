@@ -5,7 +5,7 @@
     </h1>
     <h2 id="slogan"><strong>{$modvars.ZConfig.slogan}</strong></h2>
     <div id="header-links">
-        {blockposition name=search}
+
     </div>
 </div>
 {* menu *}

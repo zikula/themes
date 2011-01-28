@@ -17,6 +17,7 @@
                     <div id="leftcolumn">
                         <div id="sidebar">
                             {blockposition name=left}
+                            {blockposition name=search}
                             {blockposition name=right}
                         </div>{* end of sidebar *}
                         <div id="clearingdiv">&nbsp;</div>{* end of clearingdiv *}

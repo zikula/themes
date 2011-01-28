@@ -17,6 +17,7 @@
                 {if $pagetype neq 'admin'}
                 <div  id="left">
                     {blockposition name=left}
+                    {blockposition name=search}
                     {blockposition name=right}
                 </div>
                 {/if}

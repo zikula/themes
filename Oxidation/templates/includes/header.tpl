@@ -8,7 +8,7 @@
         </h2>
     </div>
     <div id="search">
-        {blockposition name=search}
+        {*{blockposition name=search} *}
     </div>
 </div>
 {*end #header *}

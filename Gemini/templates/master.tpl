@@ -20,6 +20,7 @@
                     </div>
                     <div id="menu">
                         <div id="mnav">
+                            {blockposition name=search}
                             {blockposition name=left}
                             {blockposition name=right}
                         </div>

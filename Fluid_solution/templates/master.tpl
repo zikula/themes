@@ -31,6 +31,7 @@
                 <div class="clearer"><span></span></div>
             </div>
             <div class="subnav">
+                {blockposition name=search}
                 {blockposition name=right}
             </div>
             <div class="round">

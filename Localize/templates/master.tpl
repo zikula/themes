@@ -7,6 +7,7 @@
         <div id="container">
             {include file="includes/header.tpl"}
             <div id="rightcontainer">
+                {blockposition name=search}
                 {blockposition name=left}
                 {blockposition name=right}
             </div>

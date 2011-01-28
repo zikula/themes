@@ -9,12 +9,9 @@
             {if $pagetype neq 'admin'}
             <div id="sidebar">
                 {blockposition name=left}
+                {blockposition name=search}
                 {blockposition name=right}
             <div class="sidebarfooter">
-                <a href="http://jigsaw.w3.org/css-validator/check/referer">{gt text="CSS"}</a>
-                <a href="http://validator.w3.org/check?uri=referer">{gt text="XHTML 1.1"}</a>
-                <a href="http://www.sixshootermedia.com">{gt text="6sm"}</a>
-                <a href="http://www.getfirefox.com">{gt text="Get FF"}</a>
                 {blockposition name=sidebarfooter}
             </div>
             <div id="sidebar_bottom">

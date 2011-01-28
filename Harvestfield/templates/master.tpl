@@ -17,6 +17,7 @@
                     </div>{* main ends *}
                     <div id="sidebar">
                         {blockposition name=left}
+                        {blockposition name=search}
                         {blockposition name=right}
                     </div>{* sidebar ends *}
             </div>{* content-wrap ends*}

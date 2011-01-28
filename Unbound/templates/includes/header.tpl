@@ -19,7 +19,7 @@
         </ul>
     </div>
     <div id="quick-search">
-        {blockposition name=search}
+        {*{blockposition name=search} *}
     </div>
 {*header ends here *}
 </div>

@@ -18,6 +18,7 @@
                 </div>
                 <div id="MainText-left">
                     {blockposition name=left}
+                    {blockposition name=search}
                     {blockposition name=right}
                 </div>
             </div>

@@ -20,6 +20,7 @@
                 <div class="box maxheight">
                     <div id="sidebar" class="inner">
                         {blockposition name=left}
+                        {blockposition name=search}
                         {blockposition name=right}
                     </div>
                 </div>

@@ -8,6 +8,7 @@
         <div id="container">
             {if $pagetype neq 'admin'}
             <div id="sidebar">
+                {blockposition name=search}
                 {blockposition name=left}
                 {blockposition name=right}
             </div>

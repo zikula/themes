@@ -26,6 +26,7 @@
                     {* Center news column end *}
                     {* Right link column *}
                     <div class="floatRight width25 lightBlueBg horzPad">
+                        {blockposition name=search}
                         {blockposition name=right}
                     </div>
                     {* Right links column end *}

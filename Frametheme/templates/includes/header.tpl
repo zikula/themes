@@ -4,7 +4,7 @@
     </h1>
     <h2 id="slogan">{$modvars.ZConfig.slogan}</h2>
     <div id="search">
-        {blockposition name=search}
+        
     </div>
 </div>
 <div id="navcontainer">

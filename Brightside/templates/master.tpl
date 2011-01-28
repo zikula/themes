@@ -23,6 +23,7 @@
                 </div>
                 {if $type neq 'admin'}
                 <div id="rightbar">
+                    {blockposition name=search}
                     {blockposition name=right}
                 </div>
                 {/if}

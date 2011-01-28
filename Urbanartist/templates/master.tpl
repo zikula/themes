@@ -4,24 +4,25 @@
         {include file="includes/head.tpl"}
     </head>
     <body>
-        <!-- wrap starts here -->
+        {* wrap starts here *}
         <div id="wrap">
             {include file="includes/header.tpl"}
-            <!-- content-wrap starts -->
+            {* content-wrap starts *}
             <div id="content-wrap">
                 <div id="main">
                     {if $pagetype eq 'home'}
                     {blockposition name=center}
                     {/if}
                     {$maincontent}
-                </div><!-- main ends -->
-                <!-- sidebar starts -->
+                </div>{* main ends *}
+                {* sidebar starts *}
                 <div id="sidebar">
+                    {blockposition name=search}
                     {blockposition name=left}
                     {blockposition name=right}
-                </div><!-- sidebar ends -->
-            </div><!-- content-wrap ends-->
+                </div>{* sidebar ends *}
+            </div>{* content-wrap ends*}
             {include file="includes/footer.tpl"}
-        </div><!-- wrap ends here -->
+        </div>{* wrap ends here *}
     </body>
 </html>

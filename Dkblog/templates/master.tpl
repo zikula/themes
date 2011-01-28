@@ -10,6 +10,7 @@
                 {if $pagetype neq 'admin'}
                 <div class="right_side">
                     <div class="pad">
+                        {blockposition name=search}
                         {blockposition name=right}
                     </div>
                 </div>

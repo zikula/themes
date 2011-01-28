@@ -10,6 +10,7 @@
                 {include file="includes/menu.tpl"}
                 <div id="column1">
                     {blockposition name=left}
+                    {blockposition name=search}
                     {blockposition name=right}
                 </div>
                 <div id="column2">

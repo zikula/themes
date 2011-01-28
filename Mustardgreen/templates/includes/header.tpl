@@ -1,5 +1,5 @@
 <div id="head">
-    <div id="search_block">{blockposition name=search}</div>
+    <div id="search_block">{*{blockposition name=search} *}</div>
     <span id="sitename">
     <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </span><br />

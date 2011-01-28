@@ -17,16 +17,17 @@
 </div>
 
 <div id="right2">
+{blockposition name=search}
 {blockposition name=right}
 </div>
-<!-- END OF RIGHT BAR2 -->
+ {*END OF RIGHT BAR2 *}
 
 
 <div id="right">
 {blockposition name=left}
-</div><!-- END OF RIGHT BAR1 -->
+</div> {*END OF RIGHT BAR1 *}
 
-</div><!-- END OF MAIN DIV TAG -->
+</div> {*END OF MAIN DIV TAG *}
 
 {include file="includes/footer.tpl"}
 

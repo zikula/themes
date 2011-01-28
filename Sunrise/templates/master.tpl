@@ -9,13 +9,16 @@
             {if $pagetype eq 'home'}
             <div id="subheader">
                 <div class="padding">
-                    {blockposition name=center}
+                    {blockposition name=welcome}
                 </div>
             </div>
             {/if}
             <div id="main">
                 <div class="right_side" {if $pagetype eq 'admin'} style="width:100%"{/if}>
-                    {$maincontent}
+                        {if $pagetype eq 'home'}
+                        {blockposition name=center}
+                        {/if}
+                        {$maincontent}
                 </div>
             {if $pagetype neq 'admin'}
             <div class="left_side">

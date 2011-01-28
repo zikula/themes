@@ -11,6 +11,7 @@
             <div id="sidebar">
                 <div align="center" id="logo"><img id="logo-img" alt="Your Logo" src="{$imagepath}/logo.jpg"/></div>
                     {blockposition name=left}
+                    {blockposition name=search}
                     {blockposition name=right}
                 </div>
             {/if}

@@ -34,6 +34,7 @@
                         {$maincontent}
                     </div>
                     <div class="c2col_right">
+                        {blockposition name=search}
                         {blockposition name=right}
                     </div>
                     {elseif $layout eq '3col'}
@@ -47,6 +48,7 @@
                         {$maincontent}
                     </div>
                     <div class="c3col_side">
+                        {blockposition name=search}
                         {blockposition name=right}
                     </div>
                     {/if}

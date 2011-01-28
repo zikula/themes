@@ -8,6 +8,7 @@
             {include file="includes/header.tpl"}
             {if $pagetype neq 'admin'}
             <div class="right">
+                {blockposition name=search}
                 {blockposition name=left}
                 {blockposition name=right}
             </div>

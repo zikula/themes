@@ -36,6 +36,7 @@
                 {if $pagetype neq 'admin'}
                 <div id="side">
                     {* Side start *}
+                    {blockposition name=search}
                     {blockposition name=left}
                     {blockposition name=right}
                     {* Side end *}

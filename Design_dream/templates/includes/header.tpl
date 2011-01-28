@@ -1,7 +1,7 @@
 <div id="header">
     <h1>{$modvars.ZConfig.sitename}</h1>
     <div id="headsearch">
-        {blockposition name=search}
+        
     </div>
 </div>
 <div id="nav">

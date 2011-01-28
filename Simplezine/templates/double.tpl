@@ -16,6 +16,7 @@
                             <div class="content-separator"></div>
                         </div>
                         <div class="right sidebar" id="sidebar">
+                            {blockposition name=search}
                             {blockposition name=left}
                             <div class="content-separator"></div>
                             {blockposition name=right}

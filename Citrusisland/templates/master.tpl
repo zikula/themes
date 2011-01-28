@@ -17,6 +17,7 @@
                 {$maincontent}
             </div>
             <div id="rightbar">
+                {blockposition name=search}
                 {blockposition name=right}
             </div>
         </div>{* wrap ends here *}

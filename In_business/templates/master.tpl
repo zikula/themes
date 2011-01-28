@@ -10,6 +10,7 @@
                     {* the news bar, or right hand column *}
                     {if $pagetype neq 'admin'}
                     <div class="newsbar">
+                        {blockposition name=search}
                         {blockposition name=left}
                         {blockposition name=right}
                     </div>

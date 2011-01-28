@@ -1,4 +1,4 @@
-<div id="topnav">{blockposition name=topnav}</div>
+<div id="topnav">{*{blockposition name=topnav} *}</div>
 <div id="header">
     <div class="rside">
         <div class="sitename">

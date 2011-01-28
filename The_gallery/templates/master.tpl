@@ -9,6 +9,7 @@
             {if $pagetype neq 'admin'}
             <div id="leftcol">
                 {blockposition name=left}
+                {blockposition name=search}
                 {blockposition name=right}
             </div>{* END OF LEFT COLUMN *}
             {/if}

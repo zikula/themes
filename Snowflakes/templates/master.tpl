@@ -20,6 +20,7 @@ Released for free under a Creative Commons Attribution 2.5 License
             {if $pagetype neq 'admin'}
             <div id="bar">
                 {blockposition name=left}
+                {blockposition name=search}
                 {blockposition name=right}
             </div>
             {/if}

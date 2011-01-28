@@ -1,6 +1,6 @@
 <div id="header">
+    <div id="head-search" style="float : right;">{blockposition name=search}</div>
     <h1>{$modvars.ZConfig.sitename}</h1>
-    {blockposition name=search}
 </div>
 <div id="menu">
     <ul>

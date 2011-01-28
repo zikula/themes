@@ -19,7 +19,7 @@
     <div class="rside">
         <div class="padding">
             <div id="search">
-                {blockposition name=search}
+                
             </div>
         </div>
     </div>

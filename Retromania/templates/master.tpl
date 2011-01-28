@@ -4,18 +4,18 @@
 {include file="includes/head.tpl"}
 </head>
 <body>
- <!-- wrap -->
+ {* wrap *}
 <div class="wrap">
 {include file="includes/header.tpl"}
 
- <!-- content -->
+ {*content *}
 <div class="content">
-    <!-- content_left -->
+    {*content_left *}
     <div class="content_left">
-        <!-- content_right -->
+        {*content_right *}
     <div class="content_right">
 
-        <!-- Mainbar -->
+        {*Mainbar *}
         <div class="mainbar">
             <div class="mainbar_top">
                 <div class="mainbar_bottom">
@@ -27,24 +27,25 @@
                     </div>
                 </div>
             </div>
-        </div>  <!-- /End of Mainbar -->
+        </div>  {*/End of Mainbar *}
 
-        <!-- Sidebar -->
+        {*Sidebar *}
         <div id="sidebar">
+            {blockposition name=search}
             {blockposition name=left}
             {blockposition name=right}
-        </div> <!-- /End of Sidebar -->
+        </div> {*/End of Sidebar *}
 
         <div class="clear"></div>
-    </div> <!-- /content_right -->
-    </div> <!-- /content_left -->
+    </div> {*/content_right *}
+    </div> {*/content_left *}
 
 {include file="includes/footer.tpl"}
 
 
 
-</div> <!-- /content -->
-</div> <!-- /wrap -->
+</div> {*/content *}
+</div> {*/wrap *}
 
 </body>
 </html>

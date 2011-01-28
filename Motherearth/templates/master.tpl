@@ -17,6 +17,7 @@
                     {blockposition name=left}
                 </div>
                 <div id="right_side">
+                    {blockposition name=search}
                     {blockposition name=right}
                 </div>
                 {/if}

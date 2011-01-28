@@ -9,8 +9,9 @@
         <div id="wrapper-menu-page">
             <div id="menu-page">
                 {blockposition name=left}
+                {blockposition name=search}
                 {blockposition name=right}
-            </div><!--menu-page-->
+            </div>{*menu-page *}
         </div>
         <div id="content">
             {if $pagetype eq 'home'}

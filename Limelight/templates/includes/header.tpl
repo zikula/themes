@@ -11,11 +11,9 @@
             <li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}">{gt text="Contact"}</a></li>
         </ul>
     </div>
+    <div id="head-search" style="float : right; position : relative; top : 25px;">{blockposition name=search}</div>
     <h1 id="sitename">
     <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </h1>
     <h2 id="slogan">{$modvars.ZConfig.slogan}</h2>
-    <div id="searchform">
-        {blockposition name=search}
-    </div>
 </div>

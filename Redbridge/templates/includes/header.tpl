@@ -11,7 +11,6 @@
     </div>
 </div>
 <div id="submenu">
-    {blockposition name=search}
     <span style="float:left;">
         {if $loggedin eq true}
         <strong>{userwelcome|ucwords}</strong>&nbsp;|&nbsp;

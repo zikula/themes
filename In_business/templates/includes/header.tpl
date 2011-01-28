@@ -16,7 +16,7 @@
     </span><br />
     <span id="slogan">{$modvars.ZConfig.slogan}</span>
     <div id="searchform">
-        {blockposition name=search}
+        
     </div>
     <div class="clearfix"></div>
 </div>

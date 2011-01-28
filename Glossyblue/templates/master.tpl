@@ -14,7 +14,7 @@
             </div>
             {if $pagetype neq 'admin'}
             <div id="sidebar-right">
-                {search size=15 class=searchform button=Search}
+                {blockposition name=search}
                 {blockposition name=left}
                 {blockposition name=right}
             </div>

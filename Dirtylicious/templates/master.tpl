@@ -19,6 +19,7 @@
                     </div>
                     <div class="navigation">
                         {blockposition name=left}
+                        {blockposition name=search}
                         {blockposition name=right}
                     </div>
                     <div class="clearer">&nbsp;</div>

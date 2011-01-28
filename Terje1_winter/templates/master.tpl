@@ -13,7 +13,7 @@
                 {$maincontent}
             </div>
             {if $pagetype neq 'admin'}
-            <div id="sidebar2">{blockposition name=right}</div>
+            <div id="sidebar2">{blockposition name=search}{blockposition name=right}</div>
             <div id="sidebar">{blockposition name=left}</div>
             {/if}
             {include file="includes/footer.tpl"}

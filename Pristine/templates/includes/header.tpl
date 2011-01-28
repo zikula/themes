@@ -1,5 +1,5 @@
 <div id="search">
-    {blockposition name=search}
+    {*{blockposition name=search} *}
 </div>
 <div id="header">
     <h1 id="sitename">

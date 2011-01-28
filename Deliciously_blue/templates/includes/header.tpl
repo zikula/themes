@@ -1,5 +1,5 @@
 <div id="header">
-    {blockposition name=search}
+    <div id="head-search" style="float : right;">{blockposition name=search}</div>
     <h1>{$modvars.ZConfig.sitename}</h1>
     <p>{$modvars.ZConfig.slogan}</p>
 </div>

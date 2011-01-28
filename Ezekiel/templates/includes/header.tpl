@@ -11,7 +11,7 @@
     <span><a {if $module eq 'Sitemap'} class="current" {/if} href="{modurl modname=Sitemap}" title="{gt text="Go to the Sitemap module"}">{gt text="Sitemap"}</a></span>
     <span><a {if $module eq 'formicula'} class="current" {/if} href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}">{gt text="Contact"}</a></span>
     <div class="search">
-    {blockposition name=search}
+
     <br />
     </div>
 </ul>

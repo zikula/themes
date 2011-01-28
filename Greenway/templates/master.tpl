@@ -10,6 +10,7 @@
                 <div id="right_side">
                     <div class="pad">
                     <div id="pic"><img src="{$imagepath}/pic.jpg" alt="" /> </div>
+                    {blockposition name=search}
                     {blockposition name=left}
                     {blockposition name=right}
                     </div>

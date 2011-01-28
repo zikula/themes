@@ -1,4 +1,5 @@
 <div id="header">
+    <div id="head-search" style="float : right;">{blockposition name=search}</div>
     <h1 id="sitename">
         <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
     </h1>

@@ -10,17 +10,17 @@ Version : 1.0 - Released   : 20071229 *}
         <hr />
         <div id="page">
             <div id="content-master">
-                {$maincontent}
-            </div>
-            <!-- end content -->
+                {if $pagetype eq 'home'}
+                {blockposition name=center}
+                {/if}
+            </div>{*end content *}
             <div id="sidebar">
+                {blockposition name=search}
                 {blockposition name=left}
                 {blockposition name=right}
-            </div>
-            <!-- end #sidebar -->
+            </div>{*end #sidebar *}
             <div style="clear: both;">&nbsp;</div>
-        </div>
-        <!-- end page -->
+        </div>{*end page *}
         {include file="includes/footer.tpl"}
     </body>
 </html>

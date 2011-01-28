@@ -21,6 +21,7 @@
             </div>
 
             <div id="rightbar">
+                {blockposition name=search}
                 {blockposition name=right}
             </div>
             {else}

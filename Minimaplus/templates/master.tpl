@@ -17,6 +17,7 @@
             {* Begin #sidebar *}
             <div id="sidebar">
                 <div id="sidebar2">
+                    {blockposition name=search}
                     {blockposition name=left}
                     {blockposition name=right}
                     <p class="post-footer"></p>

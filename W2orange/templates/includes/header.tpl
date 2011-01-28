@@ -4,7 +4,7 @@
         <h2>{$modvars.ZConfig.slogan}</h2>
     </div>
     <div class="searchf">
-        {blockposition name=search}
+        {*{blockposition name=search} *}
     </div>
     <div id="topbar">
         {if $loggedin eq true}

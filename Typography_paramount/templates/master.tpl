@@ -7,8 +7,9 @@
         <div id="wrapper">
             {include file="includes/header.tpl"}
             <div id="sidebar">
-                    {blockposition name=left}
-                    {blockposition name=right}
+                {blockposition name=search}
+                {blockposition name=left}
+                {blockposition name=right}
                 <h2>Latest News</h2>
                 <p class="pn-bkey-html">
                     An example of a custom block style for an html block.

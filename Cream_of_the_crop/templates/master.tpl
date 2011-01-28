@@ -9,10 +9,10 @@
             {if $pagetype eq 'home'}
             <div id="twocolumn">
                 <div id="left">
-                    {blockposition name=center}
+                    {blockposition name=left}
                 </div>
                 <div id="right">
-                        {blockposition name=right}
+                        {blockposition name=center}
                 </div>
                 <div id="clearboth"></div>
             </div>
@@ -22,7 +22,8 @@
                     {$maincontent}
                 </div>
                 <div id="subnav">
-                    {blockposition name=left}
+                    {blockposition name=search}
+                    {blockposition name=right}
                 </div>
             </div>
             {include file="includes/footer.tpl"}

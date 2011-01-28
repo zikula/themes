@@ -1,7 +1,7 @@
 <div id="header">
+    <div id="head-search" style="float : right;">{blockposition name=search}</div>
     <span class="sitename">{$modvars.ZConfig.sitename}</span><br />
     <span class="slogan">{$modvars.ZConfig.slogan}</span><br />
-    {blockposition name=search}
 </div>
 <div id="chromemenu">
     <ul>

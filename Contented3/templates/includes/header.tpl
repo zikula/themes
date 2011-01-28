@@ -1,3 +1,4 @@
+<div id="head-search" style="float : right;">{blockposition name=search}</div>
 <div id="title">{$modvars.ZConfig.sitename}</div>
 <div id="slogan">{$modvars.ZConfig.slogan}</div>
 <div id="header">

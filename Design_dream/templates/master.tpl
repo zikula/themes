@@ -33,6 +33,7 @@
                 </div>
                 <div id="sidebar">
                     {blockposition name=left}
+                    {blockposition name=search}
                     {blockposition name=right}
                 </div>
                 {include file="includes/footer.tpl"}

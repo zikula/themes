@@ -10,13 +10,16 @@
                 {include file="includes/header.tpl"}
                 <div class="main" id="main-three-columns">
                         <div class="left" id="main-left">
+                            {blockposition name=center}
+                            <div class="content-separator"></div>
                             {$maincontent}
                         </div>
                         <div class="left sidebar" id="sidebar-1">
-                            {blockposition name=right}
+                            {blockposition name=left}
                         </div>
                         <div class="right sidebar" id="sidebar-2">
-                            {blockposition name=left}
+                            {blockposition name=search}
+                            {blockposition name=right}
                         </div>
                         <div class="clearer">&nbsp;</div>
                 </div>

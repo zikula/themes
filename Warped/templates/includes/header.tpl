@@ -13,7 +13,7 @@
     <li {if $module eq 'Sitemap'} class="current" {/if}><a href="{modurl modname=Sitemap}" title="{gt text="Go to the Sitemap module"}">{gt text="Sitemap"}</a></li>
     <li {if $module eq 'formicula'} class="current" {/if}><a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}">{gt text="Contact"}</a></li>
     <li {if $module eq 'search'} class="current" {/if}>
-        {blockposition name=search}
+        {*{blockposition name=search} *}
     </li>
 
 </ul>

@@ -13,6 +13,7 @@
                     {$maincontent}
             </div>
             <div id="sidecontent">
+                {blockposition name=search}
                 {blockposition name=left}
                 {blockposition name=right}
             </div>

@@ -12,6 +12,7 @@
                     <div class="left" id="main_left">
                         <div id="sidebar">
                             {blockposition name=left}
+                            {blockposition name=search}
                             {blockposition name=right}
                         </div>
                     </div>

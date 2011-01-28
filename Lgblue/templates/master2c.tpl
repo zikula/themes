@@ -15,6 +15,8 @@
                 </div>
                 <div class="leftmenu">
                     {blockposition name=left}
+                    {blockposition name=search}
+                    {blockposition name=right}
                 </div>
             </div>
             <br />&nbsp;<br />

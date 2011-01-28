@@ -13,6 +13,7 @@
                 <div class="logo">
                     {blockposition name=logo}
                 </div>
+                {blockposition name=search}
                 {blockposition name=left}
                 {blockposition name=right}
             </div>
