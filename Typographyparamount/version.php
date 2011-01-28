@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] = 'Typography_paramount';
+$themeversion['name'] = 'Typographyparamount';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Typography Paramount', $domain);
 $themeversion['description'] = __('Typography Paramount template', $domain);

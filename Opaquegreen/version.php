@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] = 'Opaque_green';
+$themeversion['name'] = 'Opaquegreen';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Opaque Green', $domain);
 $themeversion['description'] = __('Opaque Green OWD template', $domain);

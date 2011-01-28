@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] = 'Fluid_solution';
+$themeversion['name'] = 'Fluidsolution';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Fluid Solution', $domain);
 $themeversion['description'] = __('Fluid Solution OWD template', $domain);

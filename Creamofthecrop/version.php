@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] = 'Cream_of_the_crop';
+$themeversion['name'] = 'Creamofthecrop';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Cream of the Crop', $domain);
 $themeversion['description'] = __('Cream of the Crop OWD template', $domain);

@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] = 'Bitter_sweet';
+$themeversion['name'] = 'Bittersweet';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Bitter Sweet', $domain);
 $themeversion['description'] = __('Bitter Sweet OWD template', $domain);

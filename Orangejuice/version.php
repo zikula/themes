@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] = 'Orange_juice';
+$themeversion['name'] = 'Orangejuice';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Orange Juice', $domain);
 $themeversion['description'] = __('Orange Juice OWD template', $domain);

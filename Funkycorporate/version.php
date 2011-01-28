@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] = 'Funky_corporate';
+$themeversion['name'] = 'Funkycorporate';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Funky Corporate', $domain);
 $themeversion['description'] = __('Funky Corporate OWD Template', $domain);

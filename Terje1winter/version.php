@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] = 'Terge1_winter';
+$themeversion['name'] = 'Terge1winter';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Terge1 Winter', $domain);
 $themeversion['description'] = __('Terge1 Winter OSWD template', $domain);

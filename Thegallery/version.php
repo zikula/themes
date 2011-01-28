@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] = 'The_gallery';
+$themeversion['name'] = 'Thegallery';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('The Gallery', $domain);
 $themeversion['description'] = __('The Gallery OWD template', $domain);

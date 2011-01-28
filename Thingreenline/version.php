@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] = 'Thin_green_line';
+$themeversion['name'] = 'Thingreenline';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Thin Green Line', $domain);
 $themeversion['description'] = __('Thin green line template', $domain);

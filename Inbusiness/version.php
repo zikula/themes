@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] = 'In_business';
+$themeversion['name'] = 'Inbusiness';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('In Business', $domain);
 $themeversion['description'] = __('In Business OWD template', $domain);

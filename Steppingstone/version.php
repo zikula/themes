@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] = 'Stepping_stone';
+$themeversion['name'] = 'Steppingstone';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Stepping Stone', $domain);
 $themeversion['description'] = __('Stepping Stone template', $domain);

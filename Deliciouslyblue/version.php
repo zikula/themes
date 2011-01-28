@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] = 'Deliciously_blue';
+$themeversion['name'] = 'Deliciouslyblue';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Deliciously Blue', $domain);
 $themeversion['description'] = __('Deliciously Blue OWD template', $domain);

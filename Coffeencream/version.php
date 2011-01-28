@@ -1,5 +1,5 @@
 <?php
-$themeversion['name'] = 'Coffee_n_cream';
+$themeversion['name'] = 'Coffeencream';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Coffee and Cream', $domain);
 $themeversion['description'] = __('Coffee and Cream OWD template', $domain);

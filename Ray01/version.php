@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] = 'Ray_01';
+$themeversion['name'] = 'Ray01';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Ray 01', $domain);
 $themeversion['description'] = __('Ray 01 OWD template', $domain);
