@@ -1,8 +1,7 @@
 <div id="footer">
     <p>
         <span style="float:left;text-align:left;">
-        {sitename assign="sitename"}
-        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a>
+        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}">{$modvars.ZConfig.sitename}</a>
         </span>
         <span style="float:right; text-align:right;">
         <a href="{modurl modname='Sitemap'}" title="{gt text="Easily find a page on our sitemap"}">{gt text="Sitemap"}</a>&nbsp;|&nbsp;
@@ -12,8 +11,6 @@
         <span style="float : left; font-size : .75em; letter-spacing : .075em; margin-top : 10px;  text-align : left;">
         {assign var="poweredbyz" value="Powered by Zikula"}
         {gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}&nbsp;|&nbsp;
-        {assign var="themebyz" value="Theme by TakeIT2"}
-        {gt text='Theme by <a href="http://takeit2.com" title="%s">TakeIT2</a>' tag1=$themebyz}&nbsp;|&nbsp;
         {assign var="designbyz" value="Design by Kalyan Chakravarthy"}
         {gt text='Design by <a href="http://www.kalyanchakravarthy.net/" title="%s">Kalyan Chakravarthy</a>' tag1=$designbyz}&nbsp;|&nbsp;
         {gt text="Valid"}:&nbsp;

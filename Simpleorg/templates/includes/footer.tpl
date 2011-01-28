@@ -1,11 +1,10 @@
 <div id="footer">
-    <div class="left" id="footer-logo">
-        {sitename assign="sitename"}
-        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}"><img src="{$imagepath}/site_logo-small.png" alt="" class="left" /></a>
+    <div id="footer-logo">
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}"><img src="{$imagepath}/site_logo-small.png"/></a>
     </div>
     <div class="left" id="footer-left">
 
-        <p>&copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a></p>
+        <a>&copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}">{$modvars.ZConfig.sitename}</a></p>
         <div class="clearer">&nbsp;</div>
     </div>
     <div class="right" id="footer-right">
@@ -19,8 +18,6 @@
         <p style="clear: right;float : left; font-size : .75em; letter-spacing : .07em; text-align : left;" class="quiet">
         {assign var="poweredbyz" value="Powered by Zikula"}
         {gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}&nbsp;|&nbsp;
-        {assign var="themebyz" value="Theme by TakeIT2"}
-        {gt text='Theme by <a href="http://takeit2.com" title="%s">TakeIT2</a>' tag1=$themebyz}&nbsp;|&nbsp;
         {assign var="designbyz" value="Design by Arcsin"}
         {gt text='Design by <a href="http://arcsin.se/" title="%s">Arcsin</a>' tag1=$designbyz}&nbsp;|&nbsp;
         {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}">{gt text="CSS"}</a>&nbsp;/&nbsp;

@@ -2,13 +2,10 @@
 <div class="footer_left">
 <div class="footer_right">
 <div class="copy">
-        {sitename assign="sitename"}
-        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$sitename comment="%s is the sitename"}">{sitename}</a><br />
+        &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}">{$modvars.ZConfig.sitename}</a><br />
         <span style="float : left; font-size : .7em; letter-spacing : .07em; margin-bottom : 5px; margin-top : 10px; padding-bottom : 5px; padding-left : 5px; text-align : left;">
         {assign var="poweredbyz" value="Powered by Zikula"}
         {gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}&nbsp;|&nbsp;
-        {assign var="themebyz" value="Theme by TakeIT2"}
-        {gt text='Theme by <a href="http://takeit2.com" title="%s">TakeIT2</a>' tag1=$themebyz}&nbsp;|&nbsp;
         {assign var="designbyz" value="Design by Jay Hafling"}
         {gt text='Design by <a href="http://www.jayhafling.com/" title="%s">Jay Hafling</a>' tag1=$designbyz}&nbsp;|&nbsp;
         {gt text="Valid"}:&nbsp;
