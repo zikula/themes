@@ -49,6 +49,9 @@ p {
     padding: 0;
     margin-bottom: 0;
     background: #B5B5B5 url(../images/masthead.jpg) top center no-repeat;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
