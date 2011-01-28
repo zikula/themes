@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] = 'Visual_tomfoolery';
+$themeversion['name'] = 'Visualtomfoolery';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Visual Tomfoolery', $domain);
 $themeversion['description'] = __('Visual Tomfoolery OWD template', $domain);
