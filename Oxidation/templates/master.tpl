@@ -13,6 +13,7 @@ Version : 1.0 - Released   : 20071229 *}
                 {if $pagetype eq 'home'}
                 {blockposition name=center}
                 {/if}
+                {$maincontent}
             </div>{*end content *}
             <div id="sidebar">
                 {blockposition name=search}

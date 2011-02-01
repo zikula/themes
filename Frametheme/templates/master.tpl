@@ -17,6 +17,7 @@
                 {blockposition name=search}
                 {blockposition name=left}
                 {blockposition name=right}
+                <div id="clearance" style="height:50px;display:inline-block;"></div>
             </div>
             {/if}
             {include file="includes/footer.tpl"}
