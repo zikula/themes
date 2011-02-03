@@ -37,7 +37,8 @@ a:hover {
 
 p {
     margin: 0;
-    padding-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
 
@@ -125,15 +126,17 @@ h4 {
 
 
 #menu {
-    width: 540px;
+    width: 700px;
     float: right;
     margin: 2px 0 0 0;
     padding: 0;
     text-align: right;
+    line-height: 12px;
   }
 
 
 #menu li {
+    float: left;
     display: inline;
   }
 
@@ -142,7 +145,7 @@ h4 {
     color: #444;
     text-decoration: none;
     padding: 1px 10px 1px 10px;
-    height: 19px;
+    height: 12px;
     background: none;
   }
 

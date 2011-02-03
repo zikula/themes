@@ -16,6 +16,8 @@
             </div>
             <div id="bottomcontenttop">{* non-content div for rounded corners *}</div>
             <div id="bottomcontent">
+                <div id="maincontent" style="padding: 5px 10px;">{$maincontent}</div>
+                <hr style="text-align : center; width : 90%;" />
                 <div class="right">
                     {blockposition name=search}
                     {blockposition name=right}
