@@ -294,6 +294,11 @@ p.extmenuadmin a {
     text-decoration:none;
 }
 
+select#newtheme {
+    width : 150px;
+}
+
+
 #footer {
     margin:0 auto 20px auto;
     width:760px;
