@@ -273,7 +273,7 @@ p.extmenuadmin {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    width: 220px;
+    width: 130px;
 }
 
 #extras p, #extras ul {
@@ -309,8 +309,8 @@ p.extmenuadmin {
 #content {
     line-height: 1.5em;
     margin-bottom: 10px;
-    margin-left: 150px;
-    margin-right: 220px;
+    margin-left: 160px;
+    margin-right: 140px;
     margin-top: 10px;
     padding-bottom: 0;
     padding-left: 0;
@@ -500,8 +500,10 @@ a img {
 }
 
 p {
-padding : 5px;
-text-align : justify;
+    margin-bottom: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
 }
 
 blockquote {
@@ -789,7 +791,7 @@ textarea {
     top-color: #d8d8d8;
     top-style: solid;
     top-width: 1px;
-    width: auto;
+    width: 105px;
 }
 
 .announce a {
