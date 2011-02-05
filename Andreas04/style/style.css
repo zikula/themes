@@ -223,6 +223,67 @@ h4 {
     text-decoration: none;
 }
 
+.z-blockposition-search
+
+/******************************************************************************
+* Generic Form Style: z-form
+*******************************************************************************/
+form .z-form fieldset,
+.z-form fieldset,
+.z-form .z-fieldset {
+    border: 1px #ddd solid !important;
+    margin: 0 0 1em 0 !important;
+    padding: 0.5em 1em !important;
+    color: #333 !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+    background: #CCCCCC ; /*non-CSS3 browsers*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#CCCCCC),to(#e6e6e6)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #CCCCCC, #e6e6e6) !important; /*gecko*/
+    background: linear-gradient(#CCCCCC, #e6e6e6) !important; /*CSS3*/
+}
+.rightsub2 .z-form legend {
+    font-size: .95em;
+}
+
+.z-form legend {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #555;
+    background: transparent;
+    border: 0;
+    text-shadow: -1px -1px 0 rgba(204, 204, 204, 0.8);
+}
+
+
+
+ul.z-menulinks {
+    background: url("../../../images/global/menubg_grey.gif") repeat-x scroll 0 0 #CCCCCC; /*non-CSS3 browsers*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#E6E6E6'); /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#CCCCCC), to(#E6E6E6)); /*webkit*/
+    background: -moz-linear-gradient(top, #CCCCCC, #E6E6E6); /*gecko*/
+    background: linear-gradient(#CCCCCC, #E6E6E6); /*CSS3*/
+    border: 1px solid #ccc;
+    color: #aaa;
+    height: auto !important;
+    line-height: 23px !important;
+    list-style: none outside none;
+    margin: 1em 0 !important;
+    min-height: 23px !important;
+    padding:0 5px !important;
+}
+
+.z-menuitem-title {
+    background: url("../../../images/global/menubg_grey.gif") repeat-x scroll 0 0 #CCCCCC;
+    border: 1px solid #ccc;
+    display: block;
+    height: auto !important;
+    line-height: 23px;
+    min-height: 23px;
+    padding:0 5px;
+}
+
 .thumbs img {
     position: relative;
     padding: 3px;
