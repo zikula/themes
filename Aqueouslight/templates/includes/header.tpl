@@ -1,5 +1,5 @@
 <div id="header">
-    <div id="searchform-h">
+    <div id="searchblock">
         {blockposition name=search}
     </div>
 <h1 id="sitename">
