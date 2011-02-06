@@ -15,6 +15,7 @@
         <li {if $module  eq 'Sitemap'}  class="current" {/if}>
             <a href="{modurl modname=Sitemap}" title="{gt text="Go to the Sitemap module"}">{ gt text="Sitemap"} </a>
         </li>
+        {*
         <li class="last {if $module eq 'search'} current {/if}">
             <form method="post" id="searchform" action="{modurl modname=Search func=search}">
                 <div>
@@ -31,5 +32,6 @@
                 </div>
             </form>
         </li>
+         *}
     </ul>
 </div>
