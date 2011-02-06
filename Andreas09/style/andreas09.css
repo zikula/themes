@@ -214,6 +214,16 @@ p.extmenuadmin a {
     text-decoration: none;
 }
 
+.z-module-postcalendar form div.z-clearfix {
+
+    height: 150px !important;
+}
+
+select#newtheme {
+    width: 130px!important;
+}
+
+
 /*** Content ***/
 #content, #contentalt-r, #contentalt-l, #contentalt-1 {
     background-color: #fafcff;

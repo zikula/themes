@@ -336,12 +336,17 @@ h2#slogan {
     text-align:left;
 }
 
+
+div.right-block {
+    padding-left : 5px;
+    padding-right : 5px;
+}
+
 /* Existing undefined block template CLASS styles that you can style as you like.
 These div(s) are the main block wraper in each template of the same name.
 Styling these will effct all blocks in the matching block position.
 
 div.left-block {}
-div.right-block {}
 div.welcome {}
 div.right-head {}
 div.center-block {}
@@ -482,3 +487,12 @@ p.extmenuadmin a {
     background:#fafafa;
 }
 
+.z-module-postcalendar form div.z-clearfix {
+
+    height: 150px !important;
+}
+
+
+select#newtheme {
+    width: 150px!important;
+}

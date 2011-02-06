@@ -394,3 +394,16 @@ dd {
     padding: 0 0 0 5px;
     width: 130px;
 }
+
+.z-module-postcalendar form div.z-clearfix {
+
+    height: 150px !important;
+}
+
+select#newtheme {
+    width: 130px!important;
+}
+
+img#preview {
+    margin-left: -3px;
+}

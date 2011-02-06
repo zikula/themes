@@ -341,3 +341,15 @@ ul.menutree ul ul a, ul.navlist ul ul a {
     display: none;
 }
 
+.z-module-postcalendar form div.z-clearfix {
+
+    height: 150px !important;
+}
+
+select#newtheme {
+    width: 130px!important;
+}
+
+img#preview {
+    margin-left: -3px;
+}

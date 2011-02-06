@@ -270,3 +270,16 @@ a img {
     padding: 0;
     list-style: none;
 }
+
+.z-module-postcalendar form div.z-clearfix {
+
+    height: 150px !important;
+}
+
+select#newtheme {
+    width: 130px!important;
+}
+
+img#preview {
+    margin-left: -3px;
+}
