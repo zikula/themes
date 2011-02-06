@@ -27,7 +27,7 @@ a img {
     background: url(../images/innerwrapper.jpg) top repeat-x;
     padding: 20px;
 }
-
+/*
 #header input {
     padding: 5px;
     background: #fff;
@@ -52,6 +52,13 @@ a img {
     margin: -20px -20px 0 0 !important;
     margin: -20px -10px 0 0;
     border: none;
+}
+*/
+#searchblock {
+clear: none;
+float: right;
+position : relative ;
+top : -10px;
 }
 
 #header h1 {
@@ -333,8 +340,8 @@ h3 {
     margin: 15px 0 15px 0;
     line-height: 25px;
     padding: 15px 0 15px 15px;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    border-top: 0px solid #eee;
+    border-bottom: 0px solid #eee;
     color: #79B933;
 }
 
@@ -416,4 +423,13 @@ blockquote p {
     padding-right: 0;
     padding-top: 0;
     width: 130px;
+}
+
+.z-module-postcalendar form div.z-clearfix {
+
+    height: 100px !important;
+}
+
+select#newtheme {
+    width: 130px!important;
 }
