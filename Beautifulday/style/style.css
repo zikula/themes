@@ -345,3 +345,32 @@ h4 img {
  float: right;
  border: 0;
 }
+
+select#newtheme {
+    width: 150px!important;
+}
+
+#sidenav .z-form fieldset,
+#sidenav .z-form .z-fieldset {
+    border: 1px #EAEADA solid;
+    margin: 0 0 1em 0;
+    padding: 1em 1em;
+    color: #333;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #f7f7f2; /*non-CSS3 browsers*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#f7f7f2),to(#F0F0EB)); /*webkit*/
+    background: -moz-linear-gradient(top, #f7f7f2, #F0F0EB); /*gecko*/
+    background: linear-gradient(#f7f7f2, #F0F0EB); /*CSS3*/
+}
+
+#sidenav .z-form legend {
+line-height: 1.45em; /*fix for IE8*/
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #444;
+    background: transparent;
+    border: 0;
+    text-shadow: -1px -1px 0 rgba(240, 240, 235, 0.8);
+}
