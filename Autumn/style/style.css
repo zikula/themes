@@ -132,6 +132,7 @@ a img {
 #sidebar .z-blockposition-search {
     padding-left : 0px;
     padding-right : 5px;
+    padding-top : 10px;
 }
 #sidebar p {
     color:#BADA9A;
@@ -276,6 +277,7 @@ p.extmenuadmin a {
 }
 
 .z-blockposition-center {
+    margin-top : 5px;
     background-color:#FFFFCC;
     background-image:url('../images/backgrounds/content.jpg');
     background-position:bottom;
@@ -338,7 +340,7 @@ select#newtheme {
 #sidebar .z-form .z-fieldset {
     border: 1px #9bc96d solid;
     margin: 0 0 1em 0;
-    padding: 0.5em 1em;
+    padding: 1em 1em;
     color: #333;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -350,6 +352,7 @@ select#newtheme {
 }
 
 #sidebar .z-form legend {
+line-height: 1.45em; /*fix for IE8*/
     font-size: 1.25em;
     font-weight: normal;
     color: #fff;
