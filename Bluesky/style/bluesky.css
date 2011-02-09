@@ -367,3 +367,41 @@ p.extmenuadmin a {
   }
 
 
+
+#head-search .z-form fieldset,
+#head-search .z-form .z-fieldset {
+    border: 1px #a5ddf8 solid;
+    margin: 0 0 1em 0;
+    padding: 1em 1em;
+    color: #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: transparent; /*non-CSS3 browsers*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#0079c0),to(#62b4e2)); /*webkit*/
+    background: -moz-linear-gradient(top, #0079c0, #62b4e2); /*gecko*/
+    background: linear-gradient(#0079c0, #62b4e2); /*CSS3*/
+}
+
+#head-search .z-form legend {
+line-height: 1.25em; /*fix for IE8*/
+    font-size: 1em;
+    font-weight: normal;
+    color: #fff;
+    background: transparent;
+    border: 0;
+    text-shadow: -1px -1px 0 rgba(165, 221, 248, 0.8);
+}
+
+
+
+select#newtheme {
+    max-width: 150px!important;
+}
+
+.z-block {
+    padding-bottom : 10px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-top : 5px;
+}
