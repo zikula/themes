@@ -366,7 +366,11 @@ p.extmenuadmin a {
 
   }
 
+#head-search {
 
+ float: right;
+    max-width: 250px!important;
+}
 
 #head-search .z-form fieldset,
 #head-search .z-form .z-fieldset {
@@ -384,8 +388,8 @@ p.extmenuadmin a {
 }
 
 #head-search .z-form legend {
-line-height: 1.25em; /*fix for IE8*/
-    font-size: 1em;
+line-height: 1.45em; /*fix for IE8*/
+    font-size: .85em;
     font-weight: normal;
     color: #fff;
     background: transparent;
@@ -403,5 +407,5 @@ select#newtheme {
     padding-bottom : 10px;
     padding-left : 0px;
     padding-right : 0px;
-    padding-top : 5px;
+    padding-top : 0px;
 }
