@@ -75,7 +75,7 @@ h1,h2,h3,h4,h5,h6,th {
     border-bottom: solid 1px #F6F3F1;
 }
 
-
+/*
 th strong {
     color: #fff;
 }
@@ -92,7 +92,7 @@ th {
     height: 29px;
     padding-left: 11px;
     padding-right: 11px;
-    color: #fff;
+    color: #6C3C1E;
     text-align: left;
     border-left: solid 1px #A8814D;
     border-bottom: solid 2px #ffffff;
@@ -126,7 +126,7 @@ tr.rowB {
     background: #FFFAF4 url('../images/trbg2.gif') repeat-x;
 }
 
-
+*/
 #outer {
     width: 698px;
     background: #fff url('../images/mainbg.gif');
