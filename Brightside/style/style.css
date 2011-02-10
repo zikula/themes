@@ -44,24 +44,24 @@ a:hover {
     background-color: inherit;
 }
 
-/* headers */
+/* headings */
 
 
-h1, h2, h3, #sidebar h4 {
-    font: bold 1em 'Trebuchet MS', Arial, Sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font: bold 'Trebuchet MS', Arial, Sans-serif;
     color: #333;
+    margin: 10px 15px;
 }
 
-
-h1, #sidebar h4 {
+h1 {
     font-size: 1.5em;
-    color: #6297BC;
 }
+
 
 
 h2 {
     font-size: 1.4em;
-    text-transform:uppercase;
+
 }
 
 
@@ -69,9 +69,43 @@ h3 {
     font-size: 1.3em;
 }
 
+h4 {
+    font-size: 1.2em;
+}
 
-p, h1, h2, h3, #sidebar h4 {
-    margin: 10px 15px;
+
+h5 {
+    font-size: 1.1em;
+}
+
+
+h6 {
+    font-size: 1em;
+}
+
+#z-maincontent h2{
+    text-transform:uppercase;
+}
+
+
+h3.news_title  {
+
+    color: #6297BC;
+}
+
+
+#sidebar h4, #rightbar h4 {
+    font: bolder 1.4em 'Trebuchet MS', Arial, Sans-serif;
+    color: #6297BC;
+
+}
+
+
+p {
+    padding-left : 5px;
+    padding-right : 5px;
+    margin: 10px 0px;
+    text-align:justify;
 }
 
 
@@ -123,13 +157,13 @@ blockquote {
     background: #FAFAFA;
     border: 1px solid #f2f2f2;
     border-left: 4px solid #4284B0;
-    color: #4284B0;
+    color: #23475E;
     font: bold 1.2em/1.5em Georgia, 'Bookman Old Style', Serif;
 }
 
 /* form elements */
 
-
+/*
 form {
     margin:10px;
     padding: 0;
@@ -158,10 +192,10 @@ input.button, button {
     padding: 2px 3px;
     color: #4284B0;
 }
-
+*/
 /* search form */
 
-
+/*
 form.searchform {
     background: transparent;
     border: none;
@@ -191,6 +225,8 @@ form.searchform input.button {
     width: 60px;
     vertical-align: top;
 }
+
+*/
 
 /***********************
     LAYOUT
@@ -304,7 +340,7 @@ form.searchform input.button {
 }
 
 
-#sidebar ul.navlist {
+#sidebar ul.navlist, #sidebar ul.navlist ul {
     list-style-image : none;
     list-style-type : none;
     margin-bottom : 10px;
@@ -334,7 +370,9 @@ form.searchform input.button {
     border-left:4px solid #CCC;
     min-height:18px;
 }
-
+#sidebar ul.navlist ul li a {
+    font-weight:normal;
+}
 
 * html body #sidebar ul.navlist a {
     height: 18px;
@@ -352,6 +390,27 @@ p.extmenuadmin {
 
 padding-left: 10px;
 }
+
+select#newtheme {
+    width: 150px!important;
+}
+
+img#preview {
+    margin-left: 5px;
+}
+.z-blockposition-left {
+    padding-left : 5px;
+    padding-right : 5px;
+}
+.z-blockposition-right {
+    padding-left : 5px;
+    padding-right : 5px;
+}
+.z-blockposition-search {
+    padding-left : 5px;
+    padding-right : 5px;
+}
+
 
 /* rightbar */
 
@@ -513,6 +572,10 @@ padding-left: 10px;
     color: #BFBFBF;
 }
 
+.z-menuitem-title {
+    background-color: transparent;
+}
+
 /* -------------------------------------------------------
 Author: Vitaly Friedman
 Theme: Green Life - A Fresh, Warm and Readable Table
@@ -520,7 +583,7 @@ URL: http://www.alvit.de/vf
 -------------------------------------------------------
 */
 
-
+/*
 
 table.z-datatable {
     font: 11px verdana,verdana, arial;
@@ -649,3 +712,4 @@ table.z-datatable a:hover:visited img, table.z-datatable a img {
     background: none;
 }
 
+*/
