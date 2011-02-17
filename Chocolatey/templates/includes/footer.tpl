@@ -10,7 +10,7 @@
         <a href="{modurl modname='formicula'}" title="{gt text="Contact us"}">{gt text="Contact"}</a>&nbsp;|&nbsp;
         <a href="{modurl modname='News' type='user' func='view' theme='RSS'}" title="{gt text="Subscription link for our News RSS feed"}">{gt text="RSS"}</a>
         </span><br />
-        <span style="float : left; font-size : .75em; letter-spacing : .075em; margin-bottom : 5px; margin-top : 10px; padding-bottom : 5px; padding-left : 15px; text-align : left;">
+        <span style="float : left; font-size : .8em; letter-spacing : .1em; margin-bottom : 5px; margin-top : 10px; padding-bottom : 5px; padding-left : 15px; text-align : left;">
         {assign var="poweredbyz" value="Powered by Zikula"}
         {gt text='Powered by <a href="http://zikula.org" title="%s">Zikula</a>' tag1=$poweredbyz}&nbsp;|&nbsp;
         {assign var="designbyz" value="Design by Kalyan Chakravarthy"}
