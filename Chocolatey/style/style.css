@@ -1,250 +1,1503 @@
+
 /*******************************************************
 Chocolatey Brown - Style.css - By Kalyan Chakravarthy
 *******************************************************/
 
+/*******************************************************
+palette colors pool
+
+dropper sampled colors
+#4E483C body image sample bg
+#746a59 page image sample bg
+#1a1814 page crumb line image bg sample
+#484136 top - #171612 bottom - header gradient sample
+#37322a top - #4f483e bottom - menu bg sample
+#464035 line devide menu head sample
+#746a59 header - top right corner sample
+
+template named colors
+
+#663300 Brown Brown body collor bg
+#CC6600 pumpkin dark orange
+#FFCC33 golden lite orange
+#ccff99 lite green - comon text and headers
+#0099cc sky blue
+#66FFFF lite blue
+#FF9966 light orange pale - links
+#FFCC99 light orange paler - links hover
+#6F7850 olive gr - image border
+*******************************************************/
+
+
+
 body {
-	margin:0em;
-	padding:0;
-	height:100%;
-	background-color: #663300 ;
-	background:url(../images/mpbg.gif) repeat;
-	color:#ccff99/*#CDF27C*/;  
-	text-align:center;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:13px;
+    margin:0em;
+    padding:0;
+    height:100%;
+    background-color: #663300 ;
+    background:url(../images/mpbg.gif) repeat;
+    color:#ccff99/*#CDF27C*/;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
 }
+
+/* TAGS STYLES */
+
+div {
+    border:0px solid red; /* debuggin the layout divs */
+}
+
+
+
+hr {
+color: #171612 !important;
+}
+
+p {
+    margin-top:3px;
+    margin-bottom:7px;
+    margin-left:5px;
+    padding:0;
+    text-align: justify;
+}
+
+
+a {
+    color:#FF9966;
+    text-decoration:none;
+}
+
+
+a:hover {
+    color:#FFCC99;
+    text-decoration:none;
+}
+
+
+img {
+    padding:2px;
+    margin:3px;
+    border:0px solid #6F7850;
+/*    display:block; */
+}
+
+
+blockquote {
+    margin:1em;
+    padding:.5em;
+    border-top:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+    color:#FFDDCC;
+}
+
+
+blockquote p {
+    margin:.2em;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom : 10px;
+    padding-left : 5px;
+    padding-top : 5px;
+    color : #ccff99;
+}
+
+
+h1 {
+    font-size : 28px;
+}
+
+
+h2 {
+    font-size : 22px;
+}
+
+
+h3 {
+    font-size : 20px;
+}
+
+
+h4 {
+    font-size : 18px;
+}
+
+
+h5 {
+    font-size : 16px;
+}
+
+
+h6 {
+    font-size : 14px;
+}
+
 
 /*	THE MID-COL DIVISION AND RELATED STYLES	- THESE STYLES ARE USED TO HANDLE THE SHADOW EFFECT OF THE TEMPLATE	*/
-#mid-col { 	
-	margin:0 auto;
-	padding:28px;
-	padding-top:17px;
-	padding-bottom:17px;
-	width:900px;/*38em;*/
-	text-align:left;
-	vertical-align: middle;	
-	background:url(../images/pbg.gif) repeat-y;
+
+#mid-col {
+    margin:0 auto;
+    padding:28px;
+    padding-top:17px;
+    padding-bottom:17px;
+    width:900px;
+    /*38em;
+    */text-align:left;
+    vertical-align: middle;
+    background:url(../images/pbg.gif) repeat-y;
 }
 
+
 #mid-col h2 {
-	margin:0 0px 0px 0;
-	padding:5px 0px 3px 0;
-	font-size:20px;
-	color:#ffcc33;
-	font-weight:300;
+    margin:0 0px 0px 0;
+    padding:5px 0px 3px 0;
+    font-size:20px;
+    color:#ffcc33;
+    font-weight:300;
 }
 
 /*	THE HEADER BAR CLASSES		*/
+
 #header {
-	margin:0 0 0 0;
-	padding:0 0 0 0;
-	background:url(../images/fbg_blank.gif);
-	width:900px;
-	height:200px;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    background:url(../images/fbg_blank.gif);
+    width:900px;
+    height:200px;
 }
 
-#header h1 {
-	margin:0 0 -.6em 0;
-	padding:1em 0 0 1em;
-	font-size:3.0em;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-weight:lighter;
+
+#sitename {
+    color: #ff9900 !important;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 3.0em;
+    font-weight : lighter;
+    margin-bottom : -.1em;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 1em;
+    padding-right : 0;
+    padding-top : 1em;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
 }
 
-#header h2 {
-	margin:1em 0 0 1.5em;
-	padding:1em 0 0 1.75em;
-	font-size:1.0em;
-	font-weight:lighter;
-	letter-spacing:0.08em;
+
+#slogan {
+    font-size : 1.2em !important;
+    font-weight : bold;
+    letter-spacing : 0.08em;
+    margin-bottom : 0;
+    margin-left : 3em !important;
+    margin-right : 0;
+    margin-top : .9em;
+    padding-bottom : 0;
+    padding-left : 1.75em;
+    padding-right : 0;
+    padding-top : 1em;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
 }
 
-.sbar { height:162px; }
+
+.sbar {
+    height:162px;
+}
+
 
 #main {
- float:left;
-  width:600px;
-   padding:10px;
+    float:left;
+    width:600px;
+    padding:10px;
     margin-left:10px;
-
 }
-
 
 /*	THE FLOATING COLUMN OR THE RIGHT SIDE BAR - RELATED STYLES		*/
+
 #float-col {
-	position:relative;
-	float:right;
-	margin-bottom : 0;
-	margin-left : .5em;
-	margin-right : 10px;
-	margin-top : .5em;
-	padding-bottom : .25em;
-	padding-left : .7em;
-	padding-right : .7em;
-	padding-top : 0;
-	width:200px;
-	font-size:.9em;
-	border:1px solid #999999;
-	background:url(../images/side_bg.gif) repeat;
+    position:relative;
+    float:right;
+    margin-bottom : 0;
+    margin-left : .5em;
+    margin-right : 10px;
+    margin-top : .5em;
+    padding-bottom : .25em;
+    padding-left : .7em;
+    padding-right : .7em;
+    padding-top : 0;
+    width:200px;
+    font-size:.9em;
+    border-color:#464035 #171612 #171612 #464035;
+    border-style: solid;
+    border-width: 1px;
+    background:url(../images/side_bg.gif) repeat;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-#float-col h2 {
-	color:#ff9900;
+
+#float-col h4 {
+    color:#ff9900;
 }
+
 
 #float-col ul {
-	margin:0em 0 0 0em;
-	padding:0;
-	list-style:none;
+    margin:0em 0 0 0em;
+    padding:0;
+    list-style:none;
 }
+
 
 #float-col li {
-	margin:0 0 .2em 1em;
+    margin:0 0 .2em 1em;
 }
+
 
 #float-col li a {
-	text-decoration:underline;
+    text-decoration:none;
 }
+
 
 #float-col a {
-	color:#0099cc;
+    color:#0099cc;
+    text-decoration:none;
 }
 
+
 #float-col a:hover {
-	color:#cc9933;
-	text-decoration:none;
+    color:#cc9933;
+    text-decoration:none;
 }
 
 /*	THE FOOTER RELATED DIVISIONS AND CLASSES	*/
+
 #footer {
-	margin:2.5em 0 0 0;
-	padding:0px;
-	text-align:center;
-	font-size:.8em;
-	background:url(../images/fo_bg.gif) repeat-x; 
-	vertical-align:middle;
+    margin:2.5em 0 0 0;
+    padding:0px;
+    text-align:center;
+    font-size: .9em;
+    background:url(../images/fo_bg.gif) repeat-x;
+    vertical-align:middle;
 }
 
-#footer, .ftop, .fbot { width:900px; overflow:hidden; }	
+
+#footer, .ftop, .fbot {
+    width:900px;
+    overflow:hidden;
+}
+
 /* 	FTOP AND FBOT ARE USED TO HANDLE THE CURVY CORNERS OF THE FOOTER PART	*/
-.ftop { background:url(../images/fo_tm.gif); height:8px; }
-.fbot { background:url(../images/fo_bm.gif); height:7px; }
+
+.ftop {
+    background:url(../images/fo_tm.gif);
+    height:8px;
+}
+
+
+.fbot {
+    background:url(../images/fo_bm.gif);
+    height:7px;
+}
 
 /*	THE CONTENT DIVISION	*/
+
 #content {
-	display:block;
-	width:900px;
-	border:0px solid red;
-	margin-top:25px;
+    display:block;
+    width:900px;
+    border:0px solid red;
+    margin-top:25px;
 }
 
 /* SOME ( LOTS ) OF DESIGN RELATED CLASSES */
 
 /* THE CONTENT TOP AND BOTTOM CURVY STYLES  */
-.ct, .cb, .cbody { margin:0px; padding:0px; }
-.ct { height:30px; width:900px; background:url(../images/breadbar.gif); clear:none; overflow:hidden; text-indent:18px; }
-.cb { display:block; height:30px; width:900px; background:url(../images/co_bot.gif); overflow:hidden;}
-.cbody { background:url(../images/body_bg.gif) repeat-y; width:880px; padding:10px; display:block; overflow:hidden; }
+
+.ct, .cb, .cbody {
+    margin:0px;
+    padding:0px;
+}
+
+
+.ct {
+    height:30px;
+    width:900px;
+    background:url(../images/breadbar.gif);
+    clear:none;
+    overflow:hidden;
+    text-indent:18px;
+}
+
+
+.cb {
+    display:block;
+    height:30px;
+    width:900px;
+    background:url(../images/co_bot.gif);
+    overflow:hidden;
+}
+
+
+.cbody {
+    background:url(../images/body_bg.gif) repeat-y;
+    width:880px;
+    padding:10px;
+    display:block;
+    overflow:hidden;
+}
 
 /* THE BREADBAR LINK STYLES */
-.ct a 
-{
-	font-size:10px;
-	vertical-align:middle;
-	line-height:30px;
-	color:#ff6633;
+
+.ct a {
+    font-size:10px;
+    vertical-align:middle;
+    line-height:30px;
+    color:#ff6633;
 }
 
-.spl_link { color:#FFFFFF; }
+
+.spl_link {
+    color:#FFFFFF;
+}
 
 /* 		THE TOP NAVIGATION BAR STYLE CLASSES		*/
+
 .tbar {
-	text-align:left;
-	font:Arial, Helvetica, sans-serif;
-	font-size:15px;
-	padding:8px;
-	padding-top:9px;
-	padding-left:50px;
-	height:16px;
+    text-align:left;
+    font:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    padding:8px;
+    padding-top:9px;
+    padding-left:50px;
+    height:16px;
+    font-weight : bold;
 }
+
+
 .tbar a {
-	font:15px Arial, Helvetica, sans-serif;
-	color:#FFFFFF;
-	padding:10px;
-	padding-bottom:9px;
-	text-decoration:none;
+    font:15px Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color:#FFFFFF;
+    padding:10px;
+    padding-bottom:9px;
+    text-decoration:none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
 }
+
 
 .tbar a:hover {
-	color:#FF9900;
+    color:#FF9900;
+    text-decoration:none;
 }
+
 /* THE ACTIVE PAGE EFFECT IN THE TOP NAVIGATION BAR  */
-a.current { background:url(../images/alink_bg.gif) repeat-x; color:#0066FF }
 
-
-/* THE STYLES OF SEARCH BOX IN THE TOPBAR */
-.searchbox form { padding:0; margin:0; display:inline; }
-.searchbox form p { padding:0; margin:0; display:inline; }
-.searchbox input { background:transparent; border:1px solid #CCCCCC; color:#FFFFFF; font-size:10px;}
-.searchbox { border:0px solid #CC6600; float:right; margin-right:20px; font-size:11px; }
-
-/*	AN SEO CLASS - IS USED TO ENHANCE THE KEYWORD OPTIMIZATION */
-.seo { position:absolute; left:-100px; top:-100px; right:0; }
+a.current {
+    background:url(../images/alink_bg.gif) repeat-x;
+    color:#0099cc;
+}
 
 /*	SOME GENERAL PURPOSE CLASSES	*/
-.noul { text-decoration:none; }
-.bbg { background:#666666 }
-.fleft { float:left; clear:left; }
-.fright { float:right; }
+
+.noul {
+    text-decoration:none;
+}
+
+
+.bbg {
+    background:#666666;
+}
+
+
+.fleft {
+    float:left;
+    clear:left;
+}
+
+
+.fright {
+    float:right;
+}
 
 /*  THIS CLASS HANDLES THE LINKS WITH SOME DISCRIPTION - LIKE  THE LINKS IN THE SIDEBAR OF THE TEMPLATE */
-.links-with-desc { color:#FFFFFF; font-size:12px; }
-.links-with-desc li { padding-bottom:6px; }
-.links-with-desc a { color:#66FFFF; font-size:15px; font-weight:lighter; text-decoration:none; }
-.links-with-desc a:hover { color:#cc9933; }
 
-#float-col .links-with-desc a:hover { color:#cc9933; }
-#float-col .links-with-desc a { color:#66FFFF;  text-decoration:none; }
-
-
-/* TAGS STYLES */
-div { border:0px solid red; } /* debuggin the layout divs */
-p { margin-top:3px; margin-bottom:7px; margin-left:5px; padding:0; }
-
-a { color:#FF9966; }
-a:hover {  color:#FFCC99; text-decoration:underline }
-
-
-img{
-	padding:2px;
-	margin:3px;
-	border:0px solid #6F7850;
-	display:block;
+.links-with-desc {
+    color:#FFFFFF;
+    font-size:12px;
 }
 
-blockquote {
-	margin:1em;
-	padding:.5em;
-	border-top:1px solid #cccccc;
-	border-bottom:1px solid #cccccc;
-	color:#FFDDCC;
+
+.links-with-desc li {
+    padding-bottom:6px;
 }
 
-blockquote p {
-	margin:.2em;
+
+.links-with-desc a {
+    color:#66FFFF;
+    font-size:15px;
+    font-weight:lighter;
+    text-decoration:none;
 }
+
+
+.links-with-desc a:hover {
+    color:#cc9933;
+}
+
+
+#float-col .links-with-desc a:hover {
+    color:#cc9933;
+}
+
+
+#float-col .links-with-desc a {
+    color:#66FFFF;
+    text-decoration:none;
+}
+
 
 /* IMAGE ALIGNMENT CLASSES */
-.img-left{
-	float:left;
-	clear:left;
-	margin-left:0;
+
+.img-left {
+    float:left;
+    clear:left;
+    margin-left:0;
 }
 
-.img-right{
-	float:right;
-	margin-right:0;
+
+.img-right {
+    float:right;
+    margin-right:0;
 }
 
 /* TEXT HIGHLIGHTING CLASS */
-.hl { color:#FFCC33; }
+
+.hl {
+    color:#FFCC33;
+}
+
+/* THE STYLES OF SEARCH BOX IN THE TOPBAR */
+/*.searchbox form { padding:0; margin:0; display:inline; }
+.searchbox form p { padding:0; margin:0; display:inline; }
+.searchbox input { background:transparent; border:1px solid #CCCCCC; color:#FFFFFF; font-size:10px;}
+.searchbox { border:0px solid #CC6600; float:right; margin-right:20px; font-size:11px; }*/
+
+/*	AN SEO CLASS - IS USED TO ENHANCE THE KEYWORD OPTIMIZATION */
+
+.seo {
+    position:absolute;
+    left:-100px;
+    top:-100px;
+    right:0;
+}
+
+div .files_container div#actionForm .actionForm div.diskspace {
+    background-color: #171612 !important;
+}
+
+.searchbox {
+    position:relative;
+    top:80px;
+    right: 15px;
+    float : right;
+}
+
+.searchbox .z-form fieldset,.searchbox .z-form .z-fieldset {
+    margin : 0;
+    padding : .1em .7em;
+    color: #FFCC33 !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #171612 !important;     /*non-CSS3 browsers*/ 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#484136', endColorstr='#171612') !important;    /*IE*/ 
+    background: -webkit-gradient(linear,left top, left bottom,from(#484136),to(#171612)) !important;    /*webkit*/ 
+    background: -moz-linear-gradient(top, #484136, #171612) !important;    /*gecko*/ 
+    background: linear-gradient(#484136, #171612) !important; /*CSS3*/
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+    /*CSS3*/ width: 300px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.searchbox .z-form legend {
+    line-height: 22px;    /*fix for IE8*/
+
+    font-size: 11px;
+    font-weight: bold;
+    color: #ff9900 !important;
+    background: transparent;
+    margin-bottom : 10px;
+    margin-left : 0em;
+    margin-right : 0em;
+    margin-top : 0em;
+    padding : 0em;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+}
+
+
+.searchbox .z-formrow {
+    float: left;
+    margin-top : .25em;
+    width: 50% !important;
+}
+
+
+.searchbox .z-buttons {
+    margin-top : .25em;
+    float: right;
+    padding-top: 5px;
+}
+
+.z-block.z-blockposition-center  {
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    padding: 5px;
+}
+
+#news_notes {clear:left;}
+
+.z-block h4 a img{
+float:right;
+}
+/*********** Post Calendar SMALLMONTHTABLE STYLES #767676**************/
+
+table.smallmonthtable {
+    width: 100%;
+    border: 1px solid #7b7b7b;
+    border-collapse: collapse;
+}
+
+table.smallmonthtable a {
+    text-decoration: none;
+    color: #A5A5A5 !important;
+    font-weight: normal;
+}
+
+table.smallmonthtable td {
+    border: 1px solid #7b7b7b;
+    text-align: center;
+    vertical-align: middle;
+    font-size: .8em;
+    line-height: 1.8em;
+}
+
+table.smallmonthtable td.monthheader {
+    background-color: #474747 !important;
+    font-size: 1em;
+    padding: 3px 0;
+    line-height: normal;
+}
+
+table.smallmonthtable td.monthheader a {
+    color: #A5A5A5 !important;
+    font-weight: bold;
+}
+
+table.smallmonthtable td.monthheader a:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+table.smallmonthtable td.monthon {
+    background-color: transparent;
+}
+
+table.smallmonthtable td.monthoff {
+    background-color: #000 !important;
+}
+
+table.smallmonthtable td.monthtoday {    /* color assignments for TODAY */
+    background-color: #FFFFAA !important;
+}
+
+table.smallmonthtable tr.daynames td {
+    background-color: #8E8E8E !important;
+    color: #B6B6B6 !important;
+}
+
+table.smallmonthtable col.weeklink {
+    background-color: #474747 !important;
+    width: 1em;
+}
+
+table.smallmonthtable td:hover {
+    background-color: #ffffdd;
+}
+
+table.smallmonthtable a.event-one {
+    color: #00A300 !important;  /*  Green */
+}
+
+table.smallmonthtable a.event-two {
+    color: #009A9A !important;   /*  Cyan */
+}
+
+table.smallmonthtable a.event-three {
+    color: #007AF4 !important;    /*  Azure */
+}
+
+table.smallmonthtable col.pcWeekend {
+    background-color: #313131 !important;
+}
+
+table.smallmonthtable col.pcWeekday {
+    background-color: #474747 !important;
+}
+
+/******************************************************************************
+* Classes to define two colors for alternating rows in views
+*******************************************************************************/
+
+.z-even {
+    background-color: #171612 !important;
+    color: #ccff99 !important;
+}
+.z-odd {
+    background-color: #24211c !important;
+    color: #ccff99 !important;
+}
+
+/******************************************************************************
+* User-Frontend-Tables: z-datatable
+* 'z-admintable' is deprecated since 1.3.0
+*******************************************************************************/
+
+table.z-datatable,
+table.z-admintable {
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+    border-spacing:1px 0;
+    color:inherit;
+    margin:1em 0;
+    padding:0;
+    width:100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+table.z-datatable caption,
+table.z-admintable caption {
+    background-color: #EAEAEA !important;
+    font-weight: bold;
+    border-bottom: 2px solid #171612 !important;
+    text-transform: uppercase;
+    padding:10px;
+}
+
+table.z-datatable thead,
+table.z-admintable thead {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+table.z-datatable thead tr,
+table.z-admintable thead tr {
+    background-color: #000 !important;
+}
+
+table.z-datatable td,
+table.z-datatable th,
+table.z-admintable td,
+table.z-admintable th {
+    padding: 5px;
+    border-width: 0px;
+    vertical-align: middle;
+}
+
+table.z-datatable thead th,
+table.z-admintable thead th {
+    color: #FFCC33 !important;
+    background: #171612;    /*non-CSS3 browsers*/ 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#484136', endColorstr='#171612') !important;    /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#484136),to(#171612)) !important;    /*webkit*/
+    background: -moz-linear-gradient(top, #484136, #171612) !important;    /*gecko*/
+    background: linear-gradient(#484136, #171612) !important;    /*CSS3*/
+    font-size: 0.9em;
+    padding: 7px 5px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+}
+
+table.z-datatable tr.z-datatableempty,
+table.z-admintable tr.z-admintableempty {
+    background-color:#171612 !important;
+    color: #ccff99 !important;
+    font-size:0.9em;
+    font-weight:bold;
+    text-align:center;
+    text-shadow:0 1px 0 rgba(0, 0, 0, 0.8) !important;
+}
+
+table.z-datatable tbody tr.z-defaulttablerow,
+table.z-admintable tbody tr.z-defaulttablerow {
+    background-color: #C2FFBF;
+    color: #055F00;
+}
+
+table.z-datatable tbody tr:hover {
+    background-color: #746a59 !important;
+    color: #ccff99 !important;
+}
+
+table.z-datatable ul,
+table.z-admintable ul {
+    margin: 0;
+}
+
+/******************************************************************************
+* Generic Form Style: z-form
+*******************************************************************************/
+
+.z-form {
+    margin: 0;
+    padding: 0;
+}
+
+.z-form fieldset,
+.z-form .z-fieldset {
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 0 1em 0;
+    padding: 0.5em 1em;
+    color: #FFCC33 !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;    /*non-CSS3 browsers*/
+    background-color: #171612 !important; /*non-CSS3 browsers*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#484136', endColorstr='#171612') !important;    /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#484136),to(#171612)) !important;    /*webkit*/
+    background: -moz-linear-gradient(top, #484136, #171612) !important;    /*gecko*/
+    background: linear-gradient(#484136, #171612) !important;   /*CSS3*/
+}
+
+.z-form legend {
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #FFCC33 !important;
+    background: transparent;
+    border: 0;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.8) !important;
+}
+
+.z-form .z-formrow input,
+.z-form .z-formrow textarea,
+.z-form .z-formrow select {
+    font-family:Arial, Helvetica, sans-serif;
+    background: #464035 !important;
+    color: #fff !important;
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 1em;
+    margin: 0;
+    /* max-width: none; */
+}
+
+.z-form .z-formrow input[type=radio] {
+    width: auto;
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.z-form div.z-formrow input:focus,
+.z-form div.z-formrow select:focus,
+.z-form div.z-formrow textarea:focus,
+.z-form div.z-formrow input:hover,
+.z-form div.z-formrow select:hover,
+.z-form div.z-formrow textarea:hover,
+.z-form div.z-formrow input:active,
+.z-form div.z-formrow select:active,
+.z-form div.z-formrow textarea:active {
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+    background: #171612 !important;
+    color: #fff !important;
+
+}
+
+/******************************************************************************
+* Form styles (Two-column-view = default)
+*******************************************************************************/
+
+
+.z-form div.z-formrow .z-label,
+.z-form div.z-formrow label {
+    display: block;
+    float: left;
+    padding: 0.3em 1% 0.3em 0;
+    text-align: right;
+    width: 28%;
+    font-weight: normal;
+    color: #FFCC33 !important;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.8) !important;
+    /* overflow: hidden; This causes hidden labels after BlindUp/Down in Chrome */
+}
+/******************************************************************************
+* Itemlist styles
+*******************************************************************************/
+.z-itemlist li.z-itemheader {
+    color : #ccff99 !important;
+    font-size: 0.9em;
+    background: #663300 !important;
+    border: 1px solid #1a1814 !important;
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+}
+
+.z-itemlist li:hover {
+    background-color: #1a1814 !important;
+}
+/******************************************************************************
+* Buttons styles
+*******************************************************************************/
+
+
+.z-button,
+.z-buttons a,
+.z-buttons a:link,
+.z-buttons a:visited,
+.z-buttons input,
+.z-buttons button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: .9em;
+    line-height:130%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 5px 0 0;
+    padding: 5px 10px 6px 10px;
+    color: #FFCC33 !important;
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #484136 !important; /*non-CSS3 browsers*/
+   /* filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a1814', endColorstr='#484136') !important;*/ /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#1a1814),to(#484136)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #1a1814, #484136) !important; /*gecko*/
+    background: linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.z-button:hover,
+.z-buttons a:hover,
+.z-buttons input:hover,
+.z-buttons button:hover {
+    color: #FFCC33 !important;
+    text-decoration: none !important;
+    background: #171612;    /*non-CSS3 browsers*/ 
+   /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#484136', endColorstr='#171612') !important; */   /*IE*/ 
+    background: -webkit-gradient(linear,left top, left bottom,from(#484136),to(#171612)) !important;    /*webkit*/ 
+    background: -moz-linear-gradient(top, #484136, #171612) !important;    /*gecko*/ 
+    background: linear-gradient(#484136, #171612) !important; /*CSS3*/
+}
+
+.z-button:active,
+.z-buttons a:active,
+.z-buttons input:active,
+.z-buttons button:active {
+    color: #FFCC33 !important;
+    background-color: #4f483e !important; /*non-CSS3 browsers*/
+   /* filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#37322a', endColorstr='#4f483e') !important;*/ /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#37322a),to(#4f483e)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #37322a, #4f483e) !important; /*gecko*/
+    background: linear-gradient(#37322a, #4f483e) !important; /*CSS3*/
+}
+/******************************************************************************
+* Buttons based on HTML tag: Input
+*******************************************************************************/
+
+.z-buttons input.z-bt-ok {
+    background: url("../../../images/icons/extrasmall/button_ok.gif") #484136 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #1a1814, #484136) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#1a1814), to(#484136)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-ok:hover {
+    background: url("../../../images/icons/extrasmall/button_ok.gif") #171612 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #484136, #171612) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#484136), to(#171612)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#484136, #171612) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-ok:active {
+    background: url("../../../images/icons/extrasmall/button_ok.gif") #4f483e 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #37322a, #4f483e) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#37322a), to(#4f483e)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#37322a, #4f483e) !important; /*CSS3*/
+}
+
+
+
+
+.z-buttons input.z-bt-cancel {
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") #484136 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #1a1814, #484136) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#1a1814), to(#484136)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-cancel:hover {
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") #171612 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #484136, #171612) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#484136), to(#171612)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#484136, #171612) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-cancel:active {
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") #4f483e 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #37322a, #4f483e) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#37322a), to(#4f483e)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#37322a, #4f483e) !important; /*CSS3*/
+}
+
+
+
+
+.z-buttons input.z-bt-preview {
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #484136 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #1a1814, #484136) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#1a1814), to(#484136)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-preview:hover {
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #171612 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #484136, #171612) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#484136), to(#171612)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#484136, #171612) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-preview:active {
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #4f483e 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #37322a, #4f483e) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#37322a), to(#4f483e)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#37322a, #4f483e) !important; /*CSS3*/
+}
+
+
+
+
+.z-buttons input.z-bt-new {
+    background: url("../../../images/icons/extrasmall/filenew.gif") #484136 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #1a1814, #484136) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#1a1814), to(#484136)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-new:hover {
+    background: url("../../../images/icons/extrasmall/filenew.gif") #171612 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #484136, #171612) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#484136), to(#171612)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#484136, #171612) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-new:active {
+    background: url("../../../images/icons/extrasmall/filenew.gif") #4f483e 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #37322a, #4f483e) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#37322a), to(#4f483e)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#37322a, #4f483e) !important; /*CSS3*/
+}
+
+
+
+
+.z-buttons input.z-bt-save {
+    background: url("../../../images/icons/extrasmall/filesave.gif") #484136 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #1a1814, #484136) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#1a1814), to(#484136)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-save:hover {
+    background: url("../../../images/icons/extrasmall/filesave.gif") #171612 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #484136, #171612) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#484136), to(#171612)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#484136, #171612) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-save:active {
+    background: url("../../../images/icons/extrasmall/filesave.gif") #4f483e 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #37322a, #4f483e) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#37322a), to(#4f483e)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#37322a, #4f483e) !important; /*CSS3*/
+}
+
+
+
+
+.z-buttons input.z-bt-edit {
+    background: url("../../../images/icons/extrasmall/edit.gif") #484136 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #1a1814, #484136) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#1a1814), to(#484136)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-edit:hover {
+    background: url("../../../images/icons/extrasmall/edit.gif") #171612 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #484136, #171612) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#484136), to(#171612)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#484136, #171612) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-edit:active {
+    background: url("../../../images/icons/extrasmall/edit.gif") #4f483e 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #37322a, #4f483e) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#37322a), to(#4f483e)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#37322a, #4f483e) !important; /*CSS3*/
+}
+
+
+
+
+.z-buttons input.z-bt-archive {
+    background: url("../../../images/icons/extrasmall/folder.gif") #484136 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #1a1814, #484136) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#1a1814), to(#484136)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-archive:hover {
+    background: url("../../../images/icons/extrasmall/folder.gif") #171612 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #484136, #171612) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#484136), to(#171612)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#484136, #171612) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-archive:active {
+    background: url("../../../images/icons/extrasmall/folder.gif") #4f483e 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #37322a, #4f483e) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#37322a), to(#4f483e)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#37322a, #4f483e) !important; /*CSS3*/
+}
+
+
+
+
+.z-buttons input.z-bt-delete {
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #484136 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #1a1814, #484136) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#1a1814), to(#484136)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-delete:hover {
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #171612 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #484136, #171612) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#484136), to(#171612)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#484136, #171612) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-delete:active {
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #4f483e 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #37322a, #4f483e) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#37322a), to(#4f483e)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#37322a, #4f483e) !important; /*CSS3*/
+}
+
+
+/*******************************************************************************/
+/* Zikula.UI styles
+/*******************************************************************************/
+
+.z-window.z-modal {
+    -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.z-window .z-window-header {
+    background-color: #171612 !important; /*non-CSS3 browsers*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#484136', endColorstr='#171612') !important;    /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#484136),to(#171612)) !important;    /*webkit*/
+    background: -moz-linear-gradient(top, #484136, #171612) !important;    /*gecko*/
+    background: linear-gradient(#484136, #171612) !important;   /*CSS3*/
+    border-bottom: 1px solid #474747 !important;
+    color: #FFCC33 !important;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    height: 16px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow:0 -1px 0 rgba(0,0,0,0.7) !important;
+}
+
+.z-window .z-window-footer {
+    background-color: #171612 !important; /*non-CSS3 browsers*/
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#171612', endColorstr='#484136') !important; /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#171612),to(#484136)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #171612, #484136) !important; /*gecko*/
+    background: linear-gradient(#171612, #484136) !important; /*CSS3*/
+    border-top: 1px solid #6E6E6E !important;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    min-height: 12px;
+    padding: 5px;
+}
+
+#control_overlay {
+    background-color: #000 !important;
+}
+
+.z-select-multiple.z-form {
+    padding: 0;
+    margin: 0;
+}
+
+.z-select-multiple.z-form z-formrow {
+    padding: 0;
+}
+
+.z-select-multiple.z-form .z-formrow.selected {
+    background: #DCDCDC !important;
+}
+
+.z-tabs {
+    background: url("../images/ui/tab_bottom.gif") repeat-x scroll center bottom transparent;
+    margin:0 !important;
+    padding:0 !important;
+    width: 100%;
+    overflow: hidden;
+}
+
+.z-tabs li {
+    background-color: #464035 !important;
+    border: 1px solid #171612 !important;
+    float: left;
+    list-style-type: none;
+    margin: 0 5px 0 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+.z-tabs li > a {
+    border-right: 1px solid transparent;
+    color: #0099cc !important;
+    float: left;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+    text-decoration: none;
+}
+
+.z-tabs li > a:hover {
+    background: #484136 !important;
+    border-right: 1px solid #464035 !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.z-tabs li.active {
+    background: none repeat scroll 0 0 #171612 !important;
+    border-bottom: 1px solid #171612 !important;
+    z-index: 2000;
+}
+
+.z-tabs li.active a:hover {
+    border-right: 1px solid transparent;
+}
+
+
+.z-accordion .z-acc-header {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #FFCC33 !important; /*non-CSS3 browsers*/
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a1814', endColorstr='#484136') !important; /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#1a1814),to(#484136)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #1a1814, #484136) !important; /*gecko*/
+    background: linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+    border: 1px solid #474747 !important;
+    cursor: pointer;
+    margin: 0.2em 0 0;
+    padding: 0.5em !important;
+    display: block;
+}
+
+.z-accordion .z-acc-header:hover {
+    color: #FFCC33 !important;
+    background: #171612 !important;    /*non-CSS3 browsers*/ 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#484136', endColorstr='#171612') !important;   /*IE*/ 
+    background: -webkit-gradient(linear,left top, left bottom,from(#484136),to(#171612)) !important;    /*webkit*/ 
+    background: -moz-linear-gradient(top, #484136, #171612) !important;    /*gecko*/ 
+    background: linear-gradient(#484136, #171612) !important; /*CSS3*/
+}
+
+.z-accordion .z-acc-content {
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    background: #746a59;
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+    border-top: none;
+    margin: 0 0 0.2em 0;
+    padding: 0.5em;
+}
+
+.z-accordion .z-acc-header.z-acc-active {
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    color: #FFCC33 !important;
+    background-color: #4f483e !important; /*non-CSS3 browsers*/
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#37322a', endColorstr='#4f483e') !important;  /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#37322a),to(#4f483e)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #37322a, #4f483e) !important; /*gecko*/
+    background: linear-gradient(#37322a, #4f483e) !important; /*CSS3*/
+}
+
+
+
+/******************************************************************************
+* Order styles
+*******************************************************************************/
+
+.z-order-asc:hover {
+    background: url("../../../images/global/arrow_up_white.gif") transparent 100% 50% no-repeat !important;
+}
+
+.z-order-desc:hover {
+    background: url("../../../images/global/arrow_down_white.gif") transparent 100% 50% no-repeat !important;
+}
+
+/******************************************************************************
+* Toggle styles
+* TODO: Do we still need this? (herr.vorragend)
+*******************************************************************************/
+
+.z-toggle {
+    display: block;
+    background-image: url("../images/toggle-or.gif") !important;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    border: 0pt none;
+    margin: 0pt;
+    padding: 0pt;
+    width: 27px;
+    height: 25px;
+}
+.z-toggle-open,
+.z-toggle-open:link,
+.z-toggle-open:visited {
+    background-position: 0pt -18px;
+    height: 25px;
+    width: 27px;
+}
+.z-toggle-link,
+.z-toggle-link:link,
+.z-toggle-link:visited {
+    background-image: url("../images/toggle-or.gif") !important;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-right: 25px;
+    border: 0pt none;
+}
+.z-toggle-link-open,
+.z-toggle-link-open:link,
+.z-toggle-link-open:visited {
+    background-position: right -18px;
+}
+
+
+/******************************************************************************
+* Livepipe Control.ContextMenu
+*******************************************************************************/
+
+#control_contextmenu {
+    background-color: #FFCC33 !important; /*non-CSS3 browsers*/
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a1814', endColorstr='#484136') !important; /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#1a1814),to(#484136)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #1a1814, #484136) !important; /*gecko*/
+    background: linear-gradient(#1a1814, #484136) !important; /*CSS3*/
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    min-width: 100px;
+}
+
+#control_contextmenu ul li {
+    list-style: none !important;
+    font-size: 0.9em;
+    text-align: left;
+    padding: 2px 10px 2px 10px !important;
+    margin: 0 !important;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ccff99 !important;
+    font-weight: normal;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+}
+
+#control_contextmenu ul li.selected,
+#control_contextmenu ul li:hover {
+    background-color:#171612 !important;
+    color:#ccff99 !important;
+    cursor:pointer;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+#control_contextmenu ul li.selected:hover {
+    color: #fff !important;
+    background-color: #4f483e !important;
+    cursor: pointer;
+}
+
+#control_contextmenu ul li.disabled,
+#control_contextmenu ul li:hover.disabled {
+    background-color: #1a1814 !important;
+    color: #6F7850 !important;
+    cursor: pointer;
+}
+
+
+/*******************************************************
+palette colors pool
+
+dropper sampled colors
+#4E483C body image sample bg
+#746a59 page image sample bg
+#1a1814 page crumb line image bg sample
+#484136 top - #171612 bottom - header gradient sample
+#37322a top - #4f483e bottom - menu bg sample
+#464035 line devide menu head sample
+#746a59 header - top right corner sample
+
+template named colors
+
+#663300 Brown Brown body collor bg
+#CC6600 pumpkin dark orange
+#FFCC33 golden lite orange
+#ccff99 lite green - comon text and headers
+#0099cc sky blue
+#66FFFF lite blue
+#FF9966 light orange pale - links
+#FFCC99 light orange paler - links hover
+#6F7850 olive gr - image border
+*******************************************************/
+
+/*******************************************************************************/
+/* Styles for z-menulinks
+/*******************************************************************************/
+/*#37322a top - #4f483e bottom - menu bg*/
+ul.z-menulinks {
+    background: url("none") repeat-x scroll 0 0 transparent !important;
+    background: #484136;    /*non-CSS3 browsers*/ 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#484136', endColorstr='#171612') !important;    /*IE*/ 
+    background: -webkit-gradient(linear,left top, left bottom,from(#484136),to(#171612)) !important;    /*webkit*/ 
+    background: -moz-linear-gradient(top, #484136, #171612) !important;    /*gecko*/ 
+    background: linear-gradient(#484136, #171612) !important;
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+    color: inherit !important;
+    height: auto !important;
+    line-height: 23px !important;
+    list-style: none outside none;
+    margin: 1em 0 !important;
+    min-height: 23px !important;
+    padding:0 5px !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+    font-size : 11px;
+}
+
+ul.z-menulinks li {
+    background: none !important;
+    border-right:1px solid #ccff99 !important;
+    display:inline;
+    padding:0 10px !important;
+    margin:0 !important;
+}
+
+ul.z-menulinks li:first-child {
+    border-left:1px solid #ccff99 !important;
+    margin-left:5px;
+}
+
+ul.z-menulinks li.z-ml-disabled a,
+ul.z-menulinks li.z-ml-disabled a:hover {
+    text-decoration:line-through !important;
+}
+
+/*******************************************************************************/
+/* Styles for the old module menus based on the SPAN tag
+/*******************************************************************************/
+
+.z-menu {
+    color: #ccff99 !important;
+    font-size : 11px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.z-menuitem-title {
+    background: url("none") repeat-x scroll 0 0 transparent !important;
+    background: #484136;    /*non-CSS3 browsers*/ 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#484136', endColorstr='#171612') !important;    /*IE*/ 
+    background: -webkit-gradient(linear,left top, left bottom,from(#484136),to(#171612)) !important;    /*webkit*/ 
+    background: -moz-linear-gradient(top, #484136, #171612) !important;    /*gecko*/ 
+    background: linear-gradient(#484136, #171612) !important;
+    border-color:#464035 #171612 #171612 #464035 !important;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    height: auto !important;
+    line-height: 23px;
+    min-height: 23px;
+    padding:0 5px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.z-menu a {
+    padding: 3px;
+}
+
