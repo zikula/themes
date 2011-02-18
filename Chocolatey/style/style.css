@@ -45,7 +45,7 @@ body {
 /* TAGS STYLES */
 
 div {
-    border:0px solid red; /* debuggin the layout divs */
+  /*   border:0px solid red; debuggin the layout divs */
 }
 
 
@@ -570,6 +570,11 @@ div .files_container div#actionForm .actionForm div.diskspace {
 .z-block h4 a img{
 float:right;
 }
+
+/*********** Post Calendar **************/
+
+
+
 /*********** Post Calendar SMALLMONTHTABLE STYLES #767676**************/
 
 table.smallmonthtable {
@@ -788,7 +793,7 @@ table.z-admintable ul {
     font-size: 1.25em;
     font-weight: normal;
     color: #FFCC33 !important;
-    background: transparent;
+    background: transparent !important;
     border: 0;
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.8) !important;
 }
