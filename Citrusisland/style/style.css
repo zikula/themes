@@ -32,6 +32,15 @@ a:hover {
     background-color: inherit;
 }
 
+p {
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    margin: 0;
+    text-align: justify;
+}
+
 /* headers */
 h1, h2, h3 {
     font-family: 'Trebuchet MS', Tahoma, Verdana, Sans-serif;
@@ -53,20 +62,31 @@ h3 {
     color: #404040;
 }
 
-h2, h3, p {
+h2, h3 {
     padding: 10px;
     margin: 0;
 }
 
 /* images */
 img {
-    border: 3px solid #D5D5D5;
+    border: 0px solid #D5D5D5;
 }
 img.float-right {
 margin: 5px 0px 5px 10px;
 }
 img.float-left {
 margin: 5px 10px 5px 0px;
+}
+
+ul, ol {
+    margin-bottom : 5px;
+    margin-left : 10px;
+    margin-right : 0px;
+    margin-top : 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 2px;
 }
 
 
@@ -95,60 +115,7 @@ blockquote {
     border-left: 4px solid #FF9966;
 }
 
-/* form elements */
-form {
-    margin:10px; padding: 5px;
-    border: 1px solid #f2f2f2;
-    background-color: #FAFAFA;
-}
-label {
-    display:block;
-    font-weight:bold;
-    margin:5px 0;
-}
-input {
-    padding: 3px;
-    border:1px solid #eee;
-    font: normal 1em Verdana, sans-serif;
-    color:#777;
-}
-textarea {
-    width:350px;
-    padding:3px;
-    font: normal 1em Verdana, sans-serif;
-    border:1px solid #eee;
-    height:100px;
-    display:block;
-    color:#777;
-}
-input.button {
-    margin: 0;
-    font: bolder 12px Verdana, Sans-serif;
-    border: 1px solid #CCC;
-    padding: 2px 3px;
-    background: #FFF;
-    color: #75A54B;
-}
-/* search form */
-form.search {
-    position: absolute;
-    top: 15px; right: 5px;
-    padding: 0; margin: 0;
-    border: none;
-    background-color: transparent;
-}
-form.search input.textbox {
-    margin: 0;
-    width: 120px;
-    border: 1px solid #CCC;
-    background: #FFF;
-    color: #333;
-    vertical-align: top;
-}
-form.search input.button {
-    width: 60px;
-    vertical-align: top;
-}
+
 
 /**************************************
 LAYOUT
@@ -230,50 +197,6 @@ LAYOUT
     margin: 0;	padding: 0;
     display: inline;
 }
-#sidebar ul {
-    list-style: none;
-    text-align: left;
-    margin: 0 0 7px 0; padding: 0;
-    text-decoration: none;
-}
-#sidebar ul li {
-    border-bottom: 1px solid #EFF0F1;
-    background: url(../images/arrow.gif) no-repeat 3px 6px;
-    padding: 2px 5px 2px 20px;
-}
-
-* html body #sidebar ul li { height: 1%; }
-
-#sidebar ul li a {
-    font-weight: bolder;
-    background-image: none;
-    text-decoration: none;
-}
-
-#sidebar h4,
-#sidebar p {
-    padding-left: 0;
-}
-
-
-
-ul, ol {
-
-    margin-bottom : 5px;
-    margin-left : 10px;
-    margin-right : 0px;
-    margin-top : 5px;
-    padding-bottom: 2px;
-    padding-left: 5px;
-    padding-right: 0px;
-    padding-top: 2px;
-}
-
-p.extmenuadmin {
-
-padding-left: 10px;
-}
-
 
 #rightbar {
     float: right;
@@ -290,23 +213,17 @@ padding-left: 10px;
     width: 54%;
 }
 
-.post-footer {
-    background-color: #FAFAFA;
-    padding: 5px; margin: 15px 10px 10px 10px;
-    border: 1px solid #f2f2f2;
-    font-size: 95%;
+#sidebar h4,
+#rightbar h4 {
+    padding-left: 0;
 }
-.post-footer .date {
-    background: url(../images/clock.gif) no-repeat left center;
-    padding-left: 20px; margin: 0 10px 0 5px;
-}
-.post-footer .comments {
-    background: url(../images/comment.gif) no-repeat left center;
-    padding-left: 20px; margin: 0 10px 0 5px;
-}
-.post-footer .readmore {
-    background: url(../images/page.gif) no-repeat left center;
-    padding-left: 20px; margin: 0 10px 0 5px;
+
+#sidebar p,
+#rightbar p {
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
 }
 
 /* footer */
@@ -338,6 +255,89 @@ padding-left: 10px;
     text-align: right;
 }
 
+
+/*******************************************************************************/
+/* Styles for zikula
+/*******************************************************************************/
+
+.z-block h4 a img{
+float:right;
+}
+
+* html body #sidebar ul li, * html body #rightbar ul li  { height: 1%; }
+
+ul.navlist, ul.navlist li ul {
+    list-style: none;
+    text-align: left;
+    margin: 0 0 7px 0; padding: 0;
+    text-decoration: none;
+}
+ul.navlist li {
+    border-bottom: 1px solid #EFF0F1;
+    background: url(../images/arrow.gif) no-repeat 3px 6px;
+    padding: 2px 5px 2px 20px;
+}
+
+ul.navlist li a {
+    font-weight: bolder;
+    background-image: none;
+    text-decoration: none;
+}
+
+p.extmenuadmin {
+padding-left: 10px;
+}
+
+.intercomblock ul li a {
+    line-height: 23px;
+    padding-bottom: 5px !important;
+    padding-left: 25px !important;
+    padding-right: 0px !important;
+    padding-top: 5px !important;
+}
+
+/*******************************************************************************/
+/* Styles for z-menulinks
+/*******************************************************************************/
+
+ul.z-menulinks li {
+    font-size: 85%;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+/*******************************************************************************/
+/* Styles for the old module menus based on the SPAN tag
+/*******************************************************************************/
+
+.z-menuitem-title {
+    background: url("../../../images/global/menubg_grey.gif") repeat-x scroll 0 0 transparent !important;
+}
+
+/*******************************************************************************/
+/* Template Styles to be applied
+/*******************************************************************************/
+
+
+.post-footer {
+    background-color: #FAFAFA;
+    padding: 5px; margin: 15px 10px 10px 10px;
+    border: 1px solid #f2f2f2;
+    font-size: 95%;
+}
+.post-footer .date {
+    background: url(../images/clock.gif) no-repeat left center;
+    padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .comments {
+    background: url(../images/comment.gif) no-repeat left center;
+    padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .readmore {
+    background: url(../images/page.gif) no-repeat left center;
+    padding-left: 20px; margin: 0 10px 0 5px;
+}
+
 /* alignment classes */
 .float-left  { float: left; }
 .float-right { float: right; }
@@ -348,3 +348,58 @@ padding-left: 10px;
 .clear  { clear: both; }
 .green  { color: #75A54B; }
 
+
+/* form elements */
+form {
+    margin:10px; padding: 5px;
+    border: 0px solid #f2f2f2;
+    background-color: #FFFFFF; /*Originally #FAFAFA*/
+}
+label {
+    display:block;
+    font-weight:bold;
+    margin:5px 0;
+}
+input {
+    padding: 3px;
+    border:1px solid #eee;
+    font: normal 1em Verdana, sans-serif;
+    color:#777;
+}
+textarea {
+    width:350px;
+    padding:3px;
+    font: normal 1em Verdana, sans-serif;
+    border:1px solid #eee;
+    height:100px;
+    display:block;
+    color:#777;
+}
+input.button {
+    margin: 0;
+    font: bolder 12px Verdana, Sans-serif;
+    border: 1px solid #CCC;
+    padding: 2px 3px;
+    background: #FFF;
+    color: #75A54B;
+}
+/* search form */
+form.search {
+    position: absolute;
+    top: 15px; right: 5px;
+    padding: 0; margin: 0;
+    border: none;
+    background-color: transparent;
+}
+form.search input.textbox {
+    margin: 0;
+    width: 120px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    color: #333;
+    vertical-align: top;
+}
+form.search input.button {
+    width: 60px;
+    vertical-align: top;
+}
