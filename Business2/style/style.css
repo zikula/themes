@@ -622,12 +622,12 @@ table.smallmonthtable col.pcWeekday {
 *******************************************************************************/
 
 .z-even {
-    background-color: #474747 !important;
-    color: #A5A5A5 !important;
+background-color: #474747 !important;
+color: #A5A5A5 !important;
 }
 .z-odd {
-    background-color: #313131 !important;
-    color: #A5A5A5 !important;
+background-color: #313131 !important;
+color: #A5A5A5 !important;
 }
 
 /******************************************************************************
@@ -637,84 +637,84 @@ table.smallmonthtable col.pcWeekday {
 
 table.z-datatable,
 table.z-admintable {
-    border:1px solid #474747 !important;
-    border-spacing:1px 0;
-    color:inherit;
-    margin:1em 0;
-    padding:0;
-    width:100%;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+border:1px solid #474747 !important;
+border-spacing:1px 0;
+color:inherit;
+margin:1em 0;
+padding:0;
+width:100%;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 }
 
 table.z-datatable caption,
 table.z-admintable caption {
-    background-color: #EAEAEA !important;
-    font-weight: bold;
-    border-bottom: 2px solid #4A4A4A !important;
-    text-transform: uppercase;
-    padding:10px;
+background-color: #EAEAEA !important;
+font-weight: bold;
+border-bottom: 2px solid #4A4A4A !important;
+text-transform: uppercase;
+padding:10px;
 }
 
 table.z-datatable thead,
 table.z-admintable thead {
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 table.z-datatable thead tr,
 table.z-admintable thead tr {
-    background-color: #000 !important;
+background-color: #000 !important;
 }
 
 table.z-datatable td,
 table.z-datatable th,
 table.z-admintable td,
 table.z-admintable th {
-    padding: 5px;
-    border-width: 0px;
-    vertical-align: middle;
+padding: 5px;
+border-width: 0px;
+vertical-align: middle;
 }
 
 table.z-datatable thead th,
 table.z-admintable thead th {
-    color: #A5A5A5 !important;
-    background-color: #000 !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
-    background: linear-gradient(#000000, #474747) !important; /*CSS3*/
-    font-size: 0.9em;
-    padding: 7px 5px;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+color: #A5A5A5 !important;
+background-color: #000 !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
+background: linear-gradient(#000000, #474747) !important; /*CSS3*/
+font-size: 0.9em;
+padding: 7px 5px;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
 }
 
 table.z-datatable tr.z-datatableempty,
 table.z-admintable tr.z-admintableempty {
-    background-color:#434343 !important;
-    color: #A5A5A5 !important;
-    font-size:0.9em;
-    font-weight:bold;
-    text-align:center;
-    text-shadow:0 1px 0 rgba(0, 0, 0, 0.8) !important;
+background-color:#434343 !important;
+color: #A5A5A5 !important;
+font-size:0.9em;
+font-weight:bold;
+text-align:center;
+text-shadow:0 1px 0 rgba(0, 0, 0, 0.8) !important;
 }
 
 table.z-datatable tbody tr.z-defaulttablerow,
 table.z-admintable tbody tr.z-defaulttablerow {
-    background-color: #C2FFBF;
-    color: #055F00;
+background-color: #C2FFBF;
+color: #055F00;
 }
 
 table.z-datatable tbody tr:hover {
-    background-color: #000 !important;
-    color: #A5A5A5 !important;
+background-color: #000 !important;
+color: #A5A5A5 !important;
 }
 
 table.z-datatable ul,
 table.z-admintable ul {
-    margin: 0;
+margin: 0;
 }
 
 /******************************************************************************
@@ -722,54 +722,54 @@ table.z-admintable ul {
 *******************************************************************************/
 
 .z-form {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 .z-form fieldset,
 .z-form .z-fieldset {
-    border-color:#474747 #434343 #434343 #474747 !important;
-    border-style: solid;
-    border-width: 1px;
-    margin: 0 0 1em 0;
-    padding: 0.5em 1em;
-    color: #A5A5A5 !important;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    background-color: #000 !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
-    background: linear-gradient(#000000, #474747) !important; /*CSS3*/
+border-color:#474747 #434343 #434343 #474747 !important;
+border-style: solid;
+border-width: 1px;
+margin: 0 0 1em 0;
+padding: 0.5em 1em;
+color: #A5A5A5 !important;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background-color: #000 !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
+background: linear-gradient(#000000, #474747) !important; /*CSS3*/
 }
 
 .z-form legend {
-    font-size: 1.25em;
-    font-weight: normal;
-    color: #A5A5A5 !important;
-    background: transparent;
-    border: 0;
-    text-shadow: -1px -1px 0 rgba(71, 71, 71, 0.8) !important;   /*#474747*/
+font-size: 1.25em;
+font-weight: normal;
+color: #A5A5A5 !important;
+background: transparent;
+border: 0;
+text-shadow: -1px -1px 0 rgba(71, 71, 71, 0.8) !important;   /*#474747*/
 }
 
 .z-form .z-formrow input,
 .z-form .z-formrow textarea,
 .z-form .z-formrow select {
-    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
-    background: #000000 !important;
-    color: #fff !important;
-    border-color:#474747 #434343 #434343 #474747 !important;
-    border-style: solid !important;
-    border-width: 1px !important;
-    font-size: 1em;
-    margin: 0;
-    /* max-width: none; */
+font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+background: #000000 !important;
+color: #fff !important;
+border-color:#474747 #434343 #434343 #474747 !important;
+border-style: solid !important;
+border-width: 1px !important;
+font-size: 1em;
+margin: 0;
+/* max-width: none; */
 }
 
 .z-form .z-formrow input[type=radio] {
-    width: auto;
-    border: 1px solid #474747 !important;
+width: auto;
+border: 1px solid #474747 !important;
 }
 
 .z-form div.z-formrow input:focus,
@@ -781,9 +781,9 @@ table.z-admintable ul {
 .z-form div.z-formrow input:active,
 .z-form div.z-formrow select:active,
 .z-form div.z-formrow textarea:active {
-    border: 1px solid #474747 !important;
-    background: #313131 !important;
-    color: #fff !important;
+border: 1px solid #474747 !important;
+background: #313131 !important;
+color: #fff !important;
 }
 
 /******************************************************************************
@@ -793,30 +793,30 @@ table.z-admintable ul {
 
 .z-form div.z-formrow .z-label,
 .z-form div.z-formrow label {
-    display: block;
-    float: left;
-    padding: 0.3em 1% 0.3em 0;
-    text-align: right;
-    width: 28%;
-    font-weight: normal;
-    color: #A5A5A5 !important;
-    text-shadow: -1px -1px 0 rgba(71, 71, 71, 0.8) !important;    /*#474747*/
-    /* overflow: hidden; This causes hidden labels after BlindUp/Down in Chrome */
+display: block;
+float: left;
+padding: 0.3em 1% 0.3em 0;
+text-align: right;
+width: 28%;
+font-weight: normal;
+color: #A5A5A5 !important;
+text-shadow: -1px -1px 0 rgba(71, 71, 71, 0.8) !important;    /*#474747*/
+/* overflow: hidden; This causes hidden labels after BlindUp/Down in Chrome */
 }
 /******************************************************************************
 * Itemlist styles
 *******************************************************************************/
 .z-itemlist li.z-itemheader {
-    color : #A5A5A5 !important;
-    font-size: 0.9em;
-    background: #313131 !important;
-    border: 1px solid #474747 !important;
-    font-weight: bold;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+color : #A5A5A5 !important;
+font-size: 0.9em;
+background: #313131 !important;
+border: 1px solid #474747 !important;
+font-weight: bold;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
 }
 
 .z-itemlist li:hover {
-    background-color: #000000 !important;
+background-color: #000000 !important;
 }
 /******************************************************************************
 * Buttons styles
@@ -828,251 +828,251 @@ table.z-admintable ul {
 .z-buttons a:visited,
 .z-buttons input,
 .z-buttons button {
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-size: 1em;
-    line-height:130%;
-    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
-    text-decoration: none !important;
-    text-align: center;
-    font-weight: bold;
-    margin: 0 5px 0 0;
-    padding: 5px 10px 6px 10px;
-    color: #A5A5A5 !important;
-    border-color:#474747 #434343 #434343 #474747 !important;
-    border-style: solid;
-    border-width: 1px;
-    background-color: #474747 !important; /*non-CSS3 browsers*/
-  /*  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; */  /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
-    background: linear-gradient(#000000, #474747) !important; /*CSS3*/
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+display: inline-block;
+outline: none;
+cursor: pointer;
+font-size: 1em;
+line-height:130%;
+font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+text-decoration: none !important;
+text-align: center;
+font-weight: bold;
+margin: 0 5px 0 0;
+padding: 5px 10px 6px 10px;
+color: #A5A5A5 !important;
+border-color:#474747 #434343 #434343 #474747 !important;
+border-style: solid;
+border-width: 1px;
+background-color: #474747 !important; /*non-CSS3 browsers*/
+/*  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; */  /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
+background: linear-gradient(#000000, #474747) !important; /*CSS3*/
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .z-button:hover,
 .z-buttons a:hover,
 .z-buttons input:hover,
 .z-buttons button:hover {
-    color: #A9A9A9 !important;
-    text-decoration: none !important;
-    background-color: #4C4C4C !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#4C4C4C') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#4C4C4C)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000000, #4C4C4C) !important; /*gecko*/
-    background: linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
+color: #A9A9A9 !important;
+text-decoration: none !important;
+background-color: #4C4C4C !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#4C4C4C') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#4C4C4C)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000000, #4C4C4C) !important; /*gecko*/
+background: linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
 }
 
 .z-button:active,
 .z-buttons a:active,
 .z-buttons input:active,
 .z-buttons button:active {
-    color: #A5A5A5 !important;
-    background-color: #313131 !important; /*non-CSS3 browsers*/
+color: #A5A5A5 !important;
+background-color: #313131 !important; /*non-CSS3 browsers*/
 
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#313131') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#313131)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000000, #313131) !important; /*gecko*/
-    background: linear-gradient(#000000, #313131) !important; /*CSS3*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#313131') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#313131)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000000, #313131) !important; /*gecko*/
+background: linear-gradient(#000000, #313131) !important; /*CSS3*/
 }
 /******************************************************************************
 * Buttons based on HTML tag: Input
 *******************************************************************************/
 
 .z-buttons input.z-bt-ok {
-    background: url("../../../images/icons/extrasmall/button_ok.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-ok:hover {
-    background: url("../../../images/icons/extrasmall/button_ok.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, ##4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, ##4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-ok:active {
-    background: url("../../../images/icons/extrasmall/button_ok.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
 }
 
 
 
 
 .z-buttons input.z-bt-cancel {
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-cancel:hover {
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-cancel:active {
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
 }
 
 
 
 
 .z-buttons input.z-bt-preview {
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-preview:hover {
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-preview:active {
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
 }
 
 
 
 
 .z-buttons input.z-bt-new {
-    background: url("../../../images/icons/extrasmall/filenew.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/filenew.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-new:hover {
-    background: url("../../../images/icons/extrasmall/filenew.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/filenew.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-new:active {
-    background: url("../../../images/icons/extrasmall/filenew.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/filenew.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
 }
 
 
 
 
 .z-buttons input.z-bt-save {
-    background: url("../../../images/icons/extrasmall/filesave.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/filesave.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-save:hover {
-    background: url("../../../images/icons/extrasmall/filesave.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/filesave.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-save:active {
-    background: url("../../../images/icons/extrasmall/filesave.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/filesave.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
 }
 
 
 
 
 .z-buttons input.z-bt-edit {
-    background: url("../../../images/icons/extrasmall/edit.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/edit.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-edit:hover {
-    background: url("../../../images/icons/extrasmall/edit.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/edit.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-edit:active {
-    background: url("../../../images/icons/extrasmall/edit.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/edit.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
 }
 
 
 
 
 .z-buttons input.z-bt-archive {
-    background: url("../../../images/icons/extrasmall/folder.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/folder.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#000000, #474747) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-archive:hover {
-    background: url("../../../images/icons/extrasmall/folder.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/folder.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-archive:active {
-    background: url("../../../images/icons/extrasmall/folder.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/folder.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
 }
 
 
 
 
 .z-buttons input.z-bt-delete {
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#000000, #dfdfdf) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #474747 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #000000, #474747) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#000000, #dfdfdf) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-delete:hover {
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #4C4C4C 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #4C4C4C) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#4C4C4C)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#000000, #4C4C4C) !important; /*CSS3*/
 }
 
 .z-buttons input.z-bt-delete:active {
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
-    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #313131 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #000000, #313131) repeat scroll 0 0 transparent !important; /*gecko*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#000000), to(#313131)) repeat scroll 0 0 transparent !important; /*webkit*/
+background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#000000, #313131) !important; /*CSS3*/
 }
 
 
@@ -1081,161 +1081,161 @@ table.z-admintable ul {
 /*******************************************************************************/
 
 .z-window.z-modal {
-    -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
-    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
-    border-color:#474747 #434343 #434343 #474747 !important;
-    border-style: solid;
-    border-width: 1px;
+-moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
+-webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
+border-color:#474747 #434343 #434343 #474747 !important;
+border-style: solid;
+border-width: 1px;
 }
 
 .z-window .z-window-header {
-    background-color: #474747 !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000),to(#474747)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000, #474747) !important; /*gecko*/
-    background: linear-gradient(#000, #474747) !important; /*CSS3*/
-    border-bottom: 1px solid #474747 !important;
-    color: #A5A5A5 !important;
-    font-weight: bold;
-    text-align: center;
-    padding: 5px;
-    height: 16px;
-    -webkit-border-top-left-radius: 3px;
-    -webkit-border-top-right-radius: 3px;
-    -moz-border-radius-topleft: 3px;
-    -moz-border-radius-topright: 3px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    text-shadow:0 -1px 0 rgba(0,0,0,0.7) !important;
+background-color: #474747 !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000),to(#474747)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000, #474747) !important; /*gecko*/
+background: linear-gradient(#000, #474747) !important; /*CSS3*/
+border-bottom: 1px solid #474747 !important;
+color: #A5A5A5 !important;
+font-weight: bold;
+text-align: center;
+padding: 5px;
+height: 16px;
+-webkit-border-top-left-radius: 3px;
+-webkit-border-top-right-radius: 3px;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-topright: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+text-shadow:0 -1px 0 rgba(0,0,0,0.7) !important;
 }
 
 .z-window .z-window-footer {
-    background-color: #474747 !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#4c4c4c') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000),to(#4c4c4c)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000, #4c4c4c) !important; /*gecko*/
-    background: linear-gradient(#000, #4c4c4c) !important; /*CSS3*/
-    border-top: 1px solid #6E6E6E !important;
-    -webkit-border-bottom-right-radius: 3px;
-    -webkit-border-bottom-left-radius: 3px;
-    -moz-border-radius-bottomright: 3px;
-    -moz-border-radius-bottomleft: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    text-align: center;
-    min-height: 12px;
-    padding: 5px;
+background-color: #474747 !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#4c4c4c') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000),to(#4c4c4c)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000, #4c4c4c) !important; /*gecko*/
+background: linear-gradient(#000, #4c4c4c) !important; /*CSS3*/
+border-top: 1px solid #6E6E6E !important;
+-webkit-border-bottom-right-radius: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+-moz-border-radius-bottomleft: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+text-align: center;
+min-height: 12px;
+padding: 5px;
 }
 
 #control_overlay {
-    background-color: #000 !important;
+background-color: #000 !important;
 }
 
 .z-select-multiple.z-form {
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
 
 .z-select-multiple.z-form z-formrow {
-    padding: 0;
+padding: 0;
 }
 
 .z-select-multiple.z-form .z-formrow.selected {
-    background: #DCDCDC !important;
+background: #DCDCDC !important;
 }
 
 .z-tabs {
-    background: url("../images/ui/tab_bottom.gif") repeat-x scroll center bottom transparent;
-    margin:0 !important;
-    padding:0 !important;
-    width: 100%;
-    overflow: hidden;
+background: url("../images/ui/tab_bottom.gif") repeat-x scroll center bottom transparent;
+margin:0 !important;
+padding:0 !important;
+width: 100%;
+overflow: hidden;
 }
 
 .z-tabs li {
-    background-color: #474747 !important;
-    border: 1px solid #313131 !important;
-    float: left;
-    list-style-type: none;
-    margin: 0 5px 0 0;
-    padding: 0;
-    z-index: 1000;
+background-color: #474747 !important;
+border: 1px solid #313131 !important;
+float: left;
+list-style-type: none;
+margin: 0 5px 0 0;
+padding: 0;
+z-index: 1000;
 }
 
 .z-tabs li > a {
-    border-right: 1px solid transparent;
-    color: #A5A5A5 !important;
-    float: left;
-    font-weight: bold;
-    padding: 5px;
-    position: relative;
-    text-decoration: none;
+border-right: 1px solid transparent;
+color: #A5A5A5 !important;
+float: left;
+font-weight: bold;
+padding: 5px;
+position: relative;
+text-decoration: none;
 }
 
 .z-tabs li > a:hover {
-    background: #000 !important;
-    border-right: 1px solid #313131 !important;
-    color: #fff !important;
-    text-decoration: none;
+background: #000 !important;
+border-right: 1px solid #313131 !important;
+color: #fff !important;
+text-decoration: none;
 }
 
 .z-tabs li.active {
-    background: none repeat scroll 0 0 #000 !important;
-    border-bottom: 1px solid #000 !important;
-    z-index: 2000;
+background: none repeat scroll 0 0 #000 !important;
+border-bottom: 1px solid #000 !important;
+z-index: 2000;
 }
 
 .z-tabs li.active a:hover {
-    border-right: 1px solid transparent;
+border-right: 1px solid transparent;
 }
 
 .z-accordion .z-acc-header {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    background-color: #000 !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
-    background: linear-gradient(#000000, #474747) !important; /*CSS3*/
-    border: 1px solid #474747 !important;
-    cursor: pointer;
-    margin: 0.2em 0 0;
-    padding: 0.5em !important;
-    display: block;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background-color: #000 !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
+background: linear-gradient(#000000, #474747) !important; /*CSS3*/
+border: 1px solid #474747 !important;
+cursor: pointer;
+margin: 0.2em 0 0;
+padding: 0.5em !important;
+display: block;
 }
 
 .z-accordion .z-acc-header:hover {
-    color: #A9A9A9 !important;
-    background-color: #313131 !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#313131') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#313131)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000000, #313131) !important; /*gecko*/
-    background: linear-gradient(#000000, #313131) !important;/*CSS3*/
+color: #A9A9A9 !important;
+background-color: #313131 !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#313131') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#313131)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000000, #313131) !important; /*gecko*/
+background: linear-gradient(#000000, #313131) !important;/*CSS3*/
 }
 
 .z-accordion .z-acc-content {
-    -webkit-border-radius: 0 0 3px 3px;
-    -moz-border-radius: 0 0 3px 3px;
-    border-radius: 0 0 3px 3px;
-    background: #000;
-    border: 1px solid #474747 !important;
-    border-top: none;
-    margin: 0 0 0.2em 0;
-    padding: 0.5em;
+-webkit-border-radius: 0 0 3px 3px;
+-moz-border-radius: 0 0 3px 3px;
+border-radius: 0 0 3px 3px;
+background: #000;
+border: 1px solid #474747 !important;
+border-top: none;
+margin: 0 0 0.2em 0;
+padding: 0.5em;
 }
 
 .z-accordion .z-acc-header.z-acc-active {
-    -webkit-border-radius: 3px 3px 0 0;
-    -moz-border-radius: 3px 3px 0 0;
-    border-radius: 3px 3px 0 0;
-    color: #A5A5A5 !important;
-    background-color: #313131 !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#313131') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#313131)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000000, #313131) !important;/*gecko*/
-    background: linear-gradient(#000000, #313131) !important; /*CSS3*/
+-webkit-border-radius: 3px 3px 0 0;
+-moz-border-radius: 3px 3px 0 0;
+border-radius: 3px 3px 0 0;
+color: #A5A5A5 !important;
+background-color: #313131 !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#313131') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#313131)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000000, #313131) !important;/*gecko*/
+background: linear-gradient(#000000, #313131) !important; /*CSS3*/
 }
 
 
@@ -1244,11 +1244,11 @@ table.z-admintable ul {
 *******************************************************************************/
 
 .z-order-asc:hover {
-    background: url("../../../images/global/arrow_up_white.gif") transparent 100% 50% no-repeat !important;
+background: url("../../../images/global/arrow_up_white.gif") transparent 100% 50% no-repeat !important;
 }
 
 .z-order-desc:hover {
-    background: url("../../../images/global/arrow_down_white.gif") transparent 100% 50% no-repeat !important;
+background: url("../../../images/global/arrow_down_white.gif") transparent 100% 50% no-repeat !important;
 }
 
 /******************************************************************************
@@ -1257,36 +1257,36 @@ table.z-admintable ul {
 *******************************************************************************/
 
 .z-toggle {
-    display: block;
-    background-image: url("../images/toggle-bk.gif") !important;
-    background-repeat: no-repeat;
-    background-position: 0px;
-    border: 0pt none;
-    margin: 0pt;
-    padding: 0pt;
-    width: 27px;
-    height: 25px;
+display: block;
+background-image: url("../images/toggle-bk.gif") !important;
+background-repeat: no-repeat;
+background-position: 0px;
+border: 0pt none;
+margin: 0pt;
+padding: 0pt;
+width: 27px;
+height: 25px;
 }
 .z-toggle-open,
 .z-toggle-open:link,
 .z-toggle-open:visited {
-    background-position: 0pt -18px;
-    height: 25px;
-    width: 27px;
+background-position: 0pt -18px;
+height: 25px;
+width: 27px;
 }
 .z-toggle-link,
 .z-toggle-link:link,
 .z-toggle-link:visited {
-    background-image: url("../images/toggle-bk.gif") !important;
-    background-repeat: no-repeat;
-    background-position: right top;
-    padding-right: 25px;
-    border: 0pt none;
+background-image: url("../images/toggle-bk.gif") !important;
+background-repeat: no-repeat;
+background-position: right top;
+padding-right: 25px;
+border: 0pt none;
 }
 .z-toggle-link-open,
 .z-toggle-link-open:link,
 .z-toggle-link-open:visited {
-    background-position: right -18px;
+background-position: right -18px;
 }
 
 
@@ -1295,95 +1295,95 @@ table.z-admintable ul {
 *******************************************************************************/
 
 #control_contextmenu {
-    background: #4C4C4C !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#4C4C4C') !important; /*IE*/
-    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#4C4C4C)) !important; /*webkit*/
-    background: -moz-linear-gradient(top,  #000,  #4C4C4C) !important; /*gecko*/
-    background: linear-gradient(top,  #000,  #4C4C4C) !important; /*CSS3*/
-    border: solid 1px #474747 !important;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-    min-width: 100px;
+background: #4C4C4C !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#4C4C4C') !important; /*IE*/
+background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#4C4C4C)) !important; /*webkit*/
+background: -moz-linear-gradient(top,  #000,  #4C4C4C) !important; /*gecko*/
+background: linear-gradient(top,  #000,  #4C4C4C) !important; /*CSS3*/
+border: solid 1px #474747 !important;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+min-width: 100px;
 }
 
 #control_contextmenu ul li {
-    list-style: none !important;
-    font-size: 0.9em;
-    text-align: left;
-    padding: 2px 10px 2px 10px !important;
-    margin: 0 !important;
-    cursor: pointer;
-    text-decoration: none;
-    color: #A5A5A5 !important;
-    font-weight: normal;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+list-style: none !important;
+font-size: 0.9em;
+text-align: left;
+padding: 2px 10px 2px 10px !important;
+margin: 0 !important;
+cursor: pointer;
+text-decoration: none;
+color: #A5A5A5 !important;
+font-weight: normal;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
 }
 
 #control_contextmenu ul li.selected,
 #control_contextmenu ul li:hover {
-    background-color:#313131 !important;
-    color:#A9A9A9 !important;
-    cursor:pointer;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3) !important;
+background-color:#313131 !important;
+color:#A9A9A9 !important;
+cursor:pointer;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3) !important;
 }
 
 #control_contextmenu ul li.selected:hover {
-    color: #fff !important;
-    background-color: #000 !important;
-    cursor: pointer;
+color: #fff !important;
+background-color: #000 !important;
+cursor: pointer;
 }
 
 #control_contextmenu ul li.disabled,
 #control_contextmenu ul li:hover.disabled {
-    background-color: #474747 !important;
-    color: #A0A0A0 !important;
-    cursor: pointer;
+background-color: #474747 !important;
+color: #A0A0A0 !important;
+cursor: pointer;
 }
 /*******************************************************************************/
 /* Styles for z-menulinks
 /*******************************************************************************/
 
 ul.z-menulinks {
-    background: url("none") repeat-x scroll 0 0 transparent !important;
-    background-color: #000 !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
-    background: linear-gradient(#000000, #474747) !important; /*CSS3*/
-    border-color:#474747 #434343 #434343 #474747 !important;
-    border-style: solid !important;
-    border-width: 1px !important;
-    color: #A5A5A5 !important;
-    height: auto !important;
-    line-height: 23px !important;
-    list-style: none outside none;
-    margin: 1em 0 !important;
-    min-height: 23px !important;
-    padding:0 5px !important;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
-    font-size : 11px;
+background: url("none") repeat-x scroll 0 0 transparent !important;
+background-color: #000 !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
+background: linear-gradient(#000000, #474747) !important; /*CSS3*/
+border-color:#474747 #434343 #434343 #474747 !important;
+border-style: solid !important;
+border-width: 1px !important;
+color: #A5A5A5 !important;
+height: auto !important;
+line-height: 23px !important;
+list-style: none outside none;
+margin: 1em 0 !important;
+min-height: 23px !important;
+padding:0 5px !important;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+font-size : 11px;
 }
 
 ul.z-menulinks li {
-    background: none !important;
-    border-right:1px solid #a5a5a5 !important;
-    display:inline;
-    padding:0 10px !important;
-    margin:0 !important;
+background: none !important;
+border-right:1px solid #a5a5a5 !important;
+display:inline;
+padding:0 10px !important;
+margin:0 !important;
 }
 
 ul.z-menulinks li:first-child {
-    border-left:1px solid #a5a5a5 !important;
-    margin-left:5px;
+border-left:1px solid #a5a5a5 !important;
+margin-left:5px;
 }
 
 ul.z-menulinks li.z-ml-disabled a,
 ul.z-menulinks li.z-ml-disabled a:hover {
-    text-decoration:line-through !important;
+text-decoration:line-through !important;
 }
 
 /*******************************************************************************/
@@ -1391,31 +1391,31 @@ ul.z-menulinks li.z-ml-disabled a:hover {
 /*******************************************************************************/
 
 .z-menu {
-    color: #A5A5A5 !important;
-    font-size : 11px;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 1.5em;
+color: #A5A5A5 !important;
+font-size : 11px;
+text-align: left;
+width: 100%;
+margin-bottom: 1.5em;
 }
 
 .z-menuitem-title {
-    background: url("none") repeat-x scroll 0 0 transparent !important;
-    background-color: #000 !important; /*non-CSS3 browsers*/
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
-    background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
-    background: linear-gradient(#000000, #474747) !important; /*CSS3*/
-    border-color:#474747 #434343 #434343 #474747 !important;
-    border-style: solid !important;
-    border-width: 1px !important;
-    display: block;
-    height: auto !important;
-    line-height: 23px;
-    min-height: 23px;
-    padding:0 5px;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+background: url("none") repeat-x scroll 0 0 transparent !important;
+background-color: #000 !important; /*non-CSS3 browsers*/
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#474747') !important; /*IE*/
+background: -webkit-gradient(linear,left top, left bottom,from(#000000),to(#474747)) !important; /*webkit*/
+background: -moz-linear-gradient(top, #000000, #474747) !important; /*gecko*/
+background: linear-gradient(#000000, #474747) !important; /*CSS3*/
+border-color:#474747 #434343 #434343 #474747 !important;
+border-style: solid !important;
+border-width: 1px !important;
+display: block;
+height: auto !important;
+line-height: 23px;
+min-height: 23px;
+padding:0 5px;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
 }
 
 .z-menu a {
-    padding: 3px;
+padding: 3px;
 }
