@@ -15,7 +15,7 @@ HTML ELEMENTS
 
 body {
     margin: 0; padding: 0;
-    font: 70%/1.5em  Verdana, Tahoma, Arial,sans-serif;
+    font: 70%/1.5em  Verdana, Tahoma, Arial,sans-serif !important;
     color: #333;
     background: #FFF url(../images/bg.gif) repeat-x;
     text-align: center;
@@ -304,6 +304,7 @@ ul.z-menulinks li {
     font-size: 85%;
     padding-left: 5px !important;
     padding-right: 5px !important;
+    font-weight: bold !important;
 }
 
 /*******************************************************************************/
@@ -312,8 +313,38 @@ ul.z-menulinks li {
 
 .z-menuitem-title {
     background: url("../../../images/global/menubg_grey.gif") repeat-x scroll 0 0 transparent !important;
+    font-weight: bold !important;
 }
+/******************************************************************************
+* Buttons styles
+*******************************************************************************/
 
+.z-button,
+.z-buttons a,
+.z-buttons a:link,
+.z-buttons a:visited,
+.z-buttons input,
+.z-buttons button {
+    font-size: 1em !important;
+    line-height:130% !important;
+    font-family:Verdana, Tahoma, Arial,sans-serif !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    padding: 5px 5px 6px 5px !important;
+}
+/******************************************************************************
+* Toggle styles
+*******************************************************************************/
+
+.z-toggle {
+    background-image: url("../images/toggle-bk.gif") !important;
+}
+.z-toggle-link,
+.z-toggle-link:link,
+.z-toggle-link:visited {
+    background-image: url("../images/toggle-bk.gif") !important;
+}
 /*******************************************************************************/
 /* Template Styles to be applied
 /*******************************************************************************/
