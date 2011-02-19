@@ -516,11 +516,15 @@ div#z-maincontent.z-module-content form#FormForm.z-form div.content-form div.z-b
     text-align: center;
 }
 
-#z-maincontent.z-module-content form#FormForm.z-form div.content-form div.z-buttons.z-formbuttons b input {
-
+.z-form legend {
+    margin-bottom : 5px;
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #000 !important;
+    background: transparent !important;
+    border: 0;
+    text-shadow: -1px -1px 0 rgba(153, 153, 153, 28.8)!important /*#999*/; 
 }
-
-
 
 /******************************************************************************
 * Buttons styles
