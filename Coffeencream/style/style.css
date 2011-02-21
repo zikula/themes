@@ -9,30 +9,94 @@ URL: http://templates.arcsin.se
 Feel free to use and modify but please provide credits.
 #############################################################*/
 
+/* --------------------------------------------
+
+TakeIT2-mod
+
+Palette colors
+
+original template colors
+
+#987E57 dark brown - .desc
+#963    redish brown - links
+#C60    orangy brown - link hover
+#655A46 grayish dark brown - - body bg
+#543    grayish darker brown - - body text color #554433
+#555    dark gray - imput text
+#654    another dark brown on the red side - headings #665544
+
+#FFE; = #FFFFEE - BLOCKQUOTE BG
+#EED; = #EEEEDD - BLOCKQUOTE main Border
+#938262 - BLOCKQUOTE Left border
+
+
+dropper sampled colors from bg gifs (sampled at 16800%)
+
+#a9a18f to #c2baa8 top/bottom sidebar heading gradient         - 4TH DARK AND COLOR IS IN THE GRAYS
+
+#fff7ec top border head navbar bg gradient
+#d9c6aa to ab9e89 top/bottom head navbar bg gradient
+#D1D1D1  inner bottom border head navbar bg gradient 1px       - THIRD DARKEST
+#9a8266  bottom border head navbar bg gradient 1px
+
+
+#a19a84 top border footer bg gradient 5px                      - SECOND DARKEST
+#837859 to #958463  top/bottom footer bg gradient
+
+#776a56 dark br alternates diaganally with #7b6e5a lt br - header bg  - DARKEST
+
+#fcfaea container main content bg
+#f6f4e4 1st left shadow container main content bg
+#e6e4d5 2nd left shadow container main content bg
+
+
+#ccc2af left to right #e6ddc9 sidebar bg gradient
+
+Selected Gradients for Zikula Core
+
+main content fieldset / standard button
+#fcfaea to #FFFFEE
+#EEEEDD border
+
+main content fieldset / standard button:hover
+#FFFFEE to #f6f4e4
+#EEEEDD border
+
+main content fieldset / standard button:active
+#f6f4e4 to #FFFFEE
+#EEEEDD border
+
+main content legend
+#665544
+#987E57 shadow
+
+sidebar fieldset - search
+#d9c6aa to ab9e89
+#9a8266 border
+
+ --------------------------------------------  */
+
 /* standard elements */
-
-
-
-
 * {
     margin: 0;
     padding: 0;
-  }
+}
 
 
 a {
     color: #963;
-  }
+    text-decoration : none;
+}
 
 
 a:hover {
     color: #C60;
-  }
+}
 
 
 a img {
     border: 0px;
-  }
+}
 
 
 body {
@@ -42,19 +106,21 @@ body {
     font-family : "Lucida","Lucida Grande","Lucida Sans Unicode",sans-serif;
     font-size : .9em;
     font-style : normal;
-  }
+}
 
 
 input {
     color: #555;
     font: normal .9em "Lucida","Lucida Grande","Lucida Sans Unicode",sans-serif;
-  }
+}
 
 
-p,cite,code,ul {
+p {
     font-size: .9em;
-    padding-bottom: .9em;
-  }
+    line-height: 1.1em;
+    padding: 1em;
+    text-align: justify;
+}
 
 
 h1,h2,h3,h4,h5,h6 {
@@ -63,112 +129,146 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 5px;
     padding-top : 5px;
     text-decoration : none;
-  }
+}
 
 
 h1 {
     font-size: 1.5em;
-  }
+}
 
 
 h2 {
     font-size: 1.4em;
-  }
+}
 
 
 h3 {
     font-size: 1.3em;
-  }
+}
 
 
 h4 {
     font-size: 1.2em;
-  }
+}
 
 
 h5 {
     font-size: 1.1em;
-  }
+}
 
 
 h6 {
     font-size: 1em;
-  }
+}
 
 
-code {
+cite, code, pre {
     background: #FFE;
     border: 1px solid #EED;
-    border-left: 6px solid #938262;
+    border-left: 2px solid #938262;
     color: #554;
     display: block;
-    font: normal .9em "Lucida","Lucida Grande","Lucida Sans Unicode",sans-serif;
-    margin-bottom: 12px;
+    font: normal .9em "Lucida Typwriter","Lucida Console","Curior", monospace;
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 8px 10px;
     white-space: pre;
-  }
+}
 
 
 blockquote {
-    background: url(../images/quote.gif) no-repeat;
-    color: #666;
-    display: block;
-    font: normal .9em "Lucida","Lucida Grande","Lucida Sans Unicode",sans-serif;
-    padding-left: 28px;
-  }
+    background-color : #FFE;
+    background-image : url(../images/quote.gif);
+    background-repeat : no-repeat;
+    border: #EED solid 1px;
+    border-left: 6px solid #938262;
+    color : #666;
+    display : block;
+    font-family : "Lucida","Lucida Grande","Lucida Sans Unicode",sans-serif;
+    font-size : 1em;
+    font-style : normal;
+    margin-left : 10px;
+    margin-right : 10px;
+    margin-bottom : 5px;
+    margin-top : 5px;
+    padding-bottom : 10px;
+    padding-left : 28px;
+    padding-right : 10px;
+    padding-top : 10px;
+}
 
-/* misc */
+blockquote blockquote {
+    border-left: 4px solid #938262;
+    font-family : "Lucida","Lucida Grande","Lucida Sans Unicode",sans-serif;
+    margin-left : 5px;
+    margin-right : 5px;
+    margin-bottom : 5px;
+    margin-top : 5px;
+    padding-bottom : 5px;
+    padding-left : 28px;
+    padding-right : 5px;
+    padding-top : 5px;
+}
 
-
-
-
-.clearer {
-    clear: both;
-  }
-
-/* structure */
-
-
-
-
+/* Layout structure */
 #container {
     background: url(../images/bgcontainer.gif) repeat-y;
     margin: 0 auto;
     width: 780px;
-  }
-
-/* header */
-
-
-
+}
 
 #header {
     background: url(../images/bgheader.gif) repeat-x;
     height: 120px;
     margin: 0 auto;
     width: 760px;
-  }
+}
+/* main - wrapper */
+#main {
+    clear: both;
+    padding: 0 10px 12px 28px;
+}
 
+#content {
+    padding-top: 12px;
+    float: left;
+    width: 68%;
+}
+
+/* sub navigation */
+#sidenav {
+    float: right;
+    width: 218px;
+}
+
+/* footer */
+#footer {
+    background: #958463 url(../images/bgfooter.gif) repeat-x;
+    color: #FED;
+    font-size: .8em;
+    line-height: 20px;
+    margin: 0 auto;
+    padding:10px;
+    text-align: center;
+    width: 740px;
+    border-bottom: #7d725c solid 1px;
+    overflow: auto;
+}
+/* Layout structure ends */
+
+
+/* header styles */
 /* title */
-
-
-
-
 #title {
     padding: 32px;
-  }
-
+}
 
 #title h1 {
     color: #E4DBCF;
     font: normal 3.4em "Lucida","Lucida Grande","Lucida Sans Unicode",sans-serif;
-  }
+}
 
-/* navigation */
-
-
-
-
+/* navigation bar*/
 #navigation {
     background-color : #FFF;
     background-image : url(../images/bgnavigation.gif);
@@ -187,8 +287,7 @@ blockquote {
     padding-top : 0;
     vertical-align : middle;
     width : 725px;
-  }
-
+}
 
 #navigation a {
     color : #543;
@@ -200,44 +299,23 @@ blockquote {
     padding-top : 14px;
     text-decoration : none;
     vertical-align : middle;
-  }
-
+}
 
 #navigation a:hover, #navigation a.current {
     background-color : #CEBDA1;
     color : #420;
     line-height : 44px;
     vertical-align : middle;
-  }
-
-/* main */
+}
 
 
 
-
-#main {
-    clear: both;
-    padding: 0 10px 12px 28px;
-  }
-
-/* sub navigation */
-
-
-
-
-#sidenav {
-    float: right;
-    width: 218px;
-  }
-
-
+/* sidebar styles */
 #sidenav h4 {
     background-color : #BCB39F;
     background-image : url(../images/sidenavh1.gif);
     background-repeat : repeat-x;
-    bottom-color : #999;
-    bottom-style : solid;
-    bottom-width : 1px;
+    border-bottom : #999 1px solid;
     color : #4A4A44;
     font-size : 1.2em;
     height : 22px;
@@ -251,21 +329,18 @@ blockquote {
     top-style : solid;
     top-width : 1px;
     vertical-align : middle;
-  }
-
+}
 
 #sidenav ul {
     margin: 0;
     padding: 0;
-  }
-
+}
 
 #sidenav li {
     border-bottom: 1px solid #A98;
     border-top: 1px solid #DDC;
     list-style: none;
-  }
-
+}
 
 #sidenav li a {
     background: #CCC3AF;
@@ -273,69 +348,801 @@ blockquote {
     display: block;
     padding: 8px 4px 8px 12px;
     text-decoration: none;
-  }
-
+}
 
 #sidenav li a:hover {
     background: #D6CCB9;
     color: #654;
-  }
-
-/* content */
+}
 
 
 
-
-#content {
-    padding-top: 12px;
-    float: left;
-    width: 68%;
-  }
-
-
+/* content styles*/
 #content .descr {
     color: #987E57;
     font-size: .9em;
     margin-bottom: 6px;
-  }
+}
+
+#content ul, #content ol  {
+    margin-left: 10px;
+    padding-bottom: 7px;
+}
 
 
-#content li {
+#content ul li {
     list-style: url(../images/li.gif);
-    margin-left: 18px;
-  }
+}
 
-/* footer */
-
-
-
-
-#footer {
-    background: #958463 url(../images/bgfooter.gif) repeat-x;
-    color: #FED;
-    font-size: .8em;
-    line-height: 20px;
-    margin: 0 auto;
-    padding:10px;
-    text-align: center;
-    width: 740px;
-    border-bottom: #7d725c solid 1px;
-    overflow: auto;
-  }
+#content ul li, #content ol li  {
+    margin-left: 10px;
+    padding-bottom: 3px;
+}
 
 
+
+
+/* footer styles */
 #footer a {
     color: #FFD;
     text-decoration: none;
-  }
+}
 
 
 #footer a:hover {
     color: #FFF;
     text-decoration: underline;
-  }
+}
 
-.left {float:left;text-align : left;padding-left:5px;}
-.right {float:right;text-align:right;padding-right:5px;}
+/* misc */
+.clearer {
+    clear: both;
+}
 
-ul#admintabs li { list-style-image:none;}
+
+.left {
+    float:left;
+    text-align : left;
+    padding-left:5px;
+}
+
+
+.right {
+    float:right;
+    text-align:right;
+    padding-right:5px;
+}
+
+
+/* Zikula Module Styles */
+.z-blockposition-search {margin-top:10px;}
+
+ul#admintabs li {
+    list-style-image:none;
+}
+
+ul#news_attributes.z-itemlist li {
+    list-style-image : none !important;
+    list-style-type : none !important;
+}
+
+div#intercom div.z-form fieldset ul.indicators li.ic-limitnotreached {
+    list-style-image : none !important;
+    list-style-type : none !important;
+}
+
+
+
+
+
+input#postcalendar_events_fee {
+width:185px !important;
+}
+
+div#z-maincontent.z-module-postcalendar form.z-form div div.z-buttons.z-formbuttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+div#z-maincontent.z-module-content form#FormForm.z-form div.content-form div.z-buttons.z-formbuttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+
+
+div#z-maincontent.z-module-content form#FormForm.z-form div.content-form div.z-buttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+
+/* Zikula Core Styles */
+
+/******************************************************************************
+* Toggle styles
+*******************************************************************************/
+
+.z-toggle {
+    background-image: url("../images/toggle-br.gif") !important;
+}
+.z-toggle-link,
+.z-toggle-link:link,
+.z-toggle-link:visited {
+    background-image: url("../images/toggle-br.gif") !important;
+}
+
+/* --------------------------------------------
+
+TakeIT2-mod
+
+Palette colors
+
+original template colors
+
+#987E57 dark brown - .desc
+#963    redish brown - links
+#C60    orangy brown - link hover
+#655A46 grayish dark brown - - body bg
+#543    grayish darker brown - - body text color #554433
+#555    dark gray - imput text
+#654    another dark brown on the red side - headings #665544
+
+#FFE; = #FFFFEE - BLOCKQUOTE BG
+#EED; = #EEEEDD - BLOCKQUOTE main Border
+#938262 - BLOCKQUOTE Left border
+#987E57 darker brown than BQ border- .desc - 
+lt dk dk lt
+#938262 #987E57 #987E57 #938262
+
+
+dropper sampled colors from bg gifs (sampled at 16800%)
+
+#a9a18f to #c2baa8 top/bottom sidebar heading gradient         - 4TH DARK AND COLOR IS IN THE GRAYS
+
+#fff7ec top border head navbar bg gradient
+#d9c6aa to ab9e89 top/bottom head navbar bg gradient
+#D1D1D1  inner bottom border head navbar bg gradient 1px       - THIRD DARKEST
+#9a8266  bottom border head navbar bg gradient 1px
+
+
+#a19a84 top border footer bg gradient 5px                      - SECOND DARKEST
+#837859 to #958463  top/bottom footer bg gradient
+
+#776a56 dark br alternates diaganally with #7b6e5a lt br - header bg  - DARKEST
+
+#fcfaea container main content bg
+#f6f4e4 1st left shadow container main content bg
+#e6e4d5 2nd left shadow container main content bg
+border: #EEEEDD #e6e4d5 #e6e4d5 #EEEEDD
+
+#ccc2af left to right #e6ddc9 sidebar bg gradient
+
+Selected Gradients for Zikula Core
+
+main content fieldset / standard button
+#fcfaea to #FFFFEE
+border: #EEEEDD #e6e4d5 #e6e4d5 #EEEEDD; cream border
+
+main content fieldset / standard button:hover
+#FFFFEE to #f6f4e4
+border: #EEEEDD #e6e4d5 #e6e4d5 #EEEEDD; cream border
+
+main content fieldset / standard button:active
+#f6f4e4 to #FFFFEE
+border: #EEEEDD #e6e4d5 #e6e4d5 #EEEEDD; cream border
+
+
+
+sidebar fieldset - search 1
+#d9c6aa to #ab9e89
+border: #938262 #987E57 #987E57 #938262; dark br border
+
+sidebar fieldset - search 2
+#a9a18f to #c2baa8
+
+border: #938262 #987E57 #987E57 #938262; dark br border
+border: #EEEEDD #e6e4d5 #e6e4d5 #EEEEDD; cream border
+ --------------------------------------------  */
+/*******************************************************************************/
+/* Styles for z-menulinks
+/*******************************************************************************/
+
+ul.z-menulinks {
+    background: url("none") repeat-x scroll 0 0 #ab9e89; /*non-CSS3 browsers*/
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9c6aa', endColorstr='#ab9e89') !important; /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#d9c6aa),to(#ab9e89)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #d9c6aa, #ab9e89) !important; /*gecko*/
+    background: linear-gradient(#d9c6aa, #ab9e89) !important; /*CSS3*/
+    color: #776a56 !important;
+    border-color:#938262 #987E57 #987E57 #938262 !important;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 75%;
+    font-weight : bold;
+    height: auto !important;
+    line-height: 23px !important;
+    list-style: none outside none;
+    margin: 1em 0 !important;
+    min-height: 23px !important;
+    padding:0 5px !important;
+}
+
+ul.z-menulinks li {
+    background: none !important;
+    border-right:1px solid #aaa;
+    display:inline;
+    padding:0 5px !important;
+    margin:0 !important;
+}
+
+ul.z-menulinks li a {
+    color: #fcfaea !important;
+    text-decoration : none;
+}
+
+ul.z-menulinks li a:hover {
+    color: #E4DBCF !important;
+    text-decoration : none;
+}
+
+ul.z-menulinks li:first-child {
+    border-left:1px solid #aaa;
+    margin-left:5px;
+}
+
+ul.z-menulinks li.z-ml-disabled a,
+ul.z-menulinks li.z-ml-disabled a:hover {
+    text-decoration:line-through !important;
+}
+
+/*******************************************************************************/
+/* Styles for the old module menus based on the SPAN tag
+/*******************************************************************************/
+
+.z-menu {
+    color: #776a56 !important;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.z-menuitem-title {
+    background: url("none") repeat-x scroll 0 0 #ab9e89; /*non-CSS3 browsers*/
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9c6aa', endColorstr='#ab9e89') !important; /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#d9c6aa),to(#ab9e89)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #d9c6aa, #ab9e89) !important; /*gecko*/
+    background: linear-gradient(#d9c6aa, #ab9e89) !important; /*CSS3*/
+    border-color:#938262 #987E57 #987E57 #938262 !important;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    font-size: 80%;
+    font-weight : bold;
+    height: auto !important;
+    line-height: 23px;
+    min-height: 23px;
+    padding:0 5px;
+}
+
+
+.z-menu a {
+    color: #fcfaea !important;
+    text-decoration : none;
+    padding: 2px;
+}
+.z-menu a:hover {
+    color: #E4DBCF !important;
+    text-decoration : none;
+}
+
+/******************************************************************************
+* Classes to define two colors for alternating rows in views
+*******************************************************************************/
+
+.z-even {
+    background-color: #e6e4d5;
+    color: #776a56;
+}
+.z-odd {
+    background-color: #f6f4e4;
+    color: #776a56;
+}
+
+/******************************************************************************
+* User-Frontend-Tables: z-datatable
+* 'z-admintable' is deprecated since 1.3.0
+*******************************************************************************/
+
+table.z-datatable,
+table.z-admintable {
+    border: #EEEEDD #e6e4d5 #e6e4d5 #EEEEDD !important;
+    border-style: solid;
+    border-width: 1px;
+    border-spacing:1px 0;
+    color:inherit;
+    margin:1em 0;
+    padding:0;
+    width:100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+table.z-datatable caption,
+table.z-admintable caption {
+    background-color: #FFFFEE !important; 
+    font-weight: bold;
+    border-bottom: 2px solid #EEEEDD !important; 
+    text-transform: uppercase;
+    padding:10px;
+}
+
+table.z-datatable thead,
+table.z-admintable thead {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+table.z-datatable thead tr,
+table.z-admintable thead tr {
+    background-color: #ab9e89;
+}
+
+table.z-datatable td,
+table.z-datatable th,
+table.z-admintable td,
+table.z-admintable th {
+    padding: 5px;
+    border-width: 0px;
+    vertical-align: middle;
+}
+
+table.z-datatable thead th,
+table.z-admintable thead th {
+    background: #ab9e89; /*non-CSS3 browsers*/
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9c6aa', endColorstr='#ab9e89') !important; /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#d9c6aa),to(#ab9e89)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #d9c6aa, #ab9e89) !important; /*gecko*/
+    background: linear-gradient(#d9c6aa, #ab9e89) !important; /*CSS3*/
+    font-size: 0.9em;
+    padding: 7px 5px;
+    text-shadow: 0 1px 0 rgba(252, 250, 234, 0.8) !important;
+}
+
+table.z-datatable tr.z-datatableempty,
+table.z-admintable tr.z-admintableempty {
+    background-color:#fcfaea;
+    font-size:0.9em;
+    font-weight:bold;
+    text-align:center;
+    text-shadow:0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+table.z-datatable tbody tr.z-defaulttablerow,
+table.z-admintable tbody tr.z-defaulttablerow {
+    background-color: #C2FFBF !important;
+    color: #776a56 !important;
+}
+
+table.z-datatable tbody tr:hover {
+    background-color: #FFFFEE !important;
+    color: #776a56 !important;
+}
+
+table.z-datatable ul,
+table.z-admintable ul {
+    margin: 0;
+}
+
+ /******************************************************************************
+* Generic Form Style: z-form for the SIDEBAR
+*******************************************************************************/
+
+#sidenav .z-form fieldset,
+#sidenav .z-form .z-fieldset {
+    margin: 0 0 1em 0;
+    padding: 0.5em 1em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #554433 !important;
+    border-color:#938262 #987E57 #987E57 #938262 !important;
+    border-style: solid;
+    border-width: 1px;
+    background: #c2baa8 !important; /*non-CSS3 browsers*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#a9a18f), to(#c2baa8)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #a9a18f, #c2baa8) !important; /*gecko*/
+    background: linear-gradient(#a9a18f, #c2baa8) !important; /*CSS3*/
+}
+
+#sidenav .z-form legend {
+    font-size: 1em;
+    line-height: 1.45em;
+    font-weight: bold;
+    color: #665544 !important;
+    background: transparent !important;
+    border: 0;
+    text-shadow: -1px -1px 0 rgba(252, 250, 234, 0.8)!important;
+}
+
+ 
+ 
+ 
+/******************************************************************************
+* Generic Form Style: z-form
+*******************************************************************************/
+
+.z-form {
+    margin: 0;
+    padding: 0;
+}
+
+.z-form fieldset,
+.z-form .z-fieldset {
+    margin: 0 0 1em 0;
+    padding: 0.5em 1em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #554433 !important;
+    border-color:#EEEEDD #e6e4d5 #e6e4d5 #EEEEDD !important;
+    border-style: solid;
+    border-width: 1px;
+    background: #e6e4d5 !important; /*non-CSS3 browsers*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfaea), to(#e6e4d5)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #fcfaea, #e6e4d5) !important; /*gecko*/
+    background: linear-gradient(#fcfaea, #e6e4d5) !important; /*CSS3*/
+}
+
+.z-form legend {
+    font-size: 1em;
+    line-height: 1.45em;
+    font-weight: bold;
+    color: #665544 !important;
+    background: transparent !important;
+    border: 0;
+    text-shadow: -1px -1px 0 rgba(252, 250, 234, 0.8) !important;
+}
+
+.z-form legend a {
+    color: #665544 !important;
+}
+
+.z-form .z-formrow input,
+.z-form .z-formrow textarea,
+.z-form .z-formrow select {
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    border-color:#EEEEDD #e6e4d5 #e6e4d5 #EEEEDD !important;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 1em;
+    margin: 0;
+    background: #e6e4d5!important;
+    /* max-width: none; */
+}
+
+.z-form .z-formrow input[type=checkbox] {
+    display:inline;
+    margin:0.5em 0;
+    width:auto;
+}
+
+.z-form .z-formrow input[type=radio] {
+    width: auto;
+    border-color:#EEEEDD #e6e4d5 #e6e4d5 #EEEEDD !important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.z-form .z-formrow select optgroup {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.z-form div.z-formrow input:focus,
+.z-form div.z-formrow select:focus,
+.z-form div.z-formrow textarea:focus,
+.z-form div.z-formrow input:hover,
+.z-form div.z-formrow select:hover,
+.z-form div.z-formrow textarea:hover,
+.z-form div.z-formrow input:active,
+.z-form div.z-formrow select:active,
+.z-form div.z-formrow textarea:active {
+    border-color:#EEEEDD #e6e4d5 #e6e4d5 #EEEEDD !important;
+    border-style: solid;
+    border-width: 1px;
+    background: #fcfaea!important;
+}
+
+/* hide hidden fields (firefox) */
+.z-form input[type=hidden] {
+    display: none !important;
+}
+
+div.z-formrow,
+div.z-buttonrow,
+div.z-formbuttons {
+    padding: 0.5em 0;
+    min-height: 2em;
+}
+
+div.z-formlist label {
+    display: inline;
+}
+
+/******************************************************************************
+* Form styles (Two-column-view = default)
+*******************************************************************************/
+
+.z-form div.z-formrow .z-label,
+.z-form div.z-formrow label {
+    display: block;
+    float: left;
+    padding: 0.3em 1% 0.3em 0;
+    text-align: right;
+    width: 28%;
+    font-size: .9em;
+    font-weight: normal;
+    color: #554433!important;
+    /* overflow: hidden; This causes hidden labels after BlindUp/Down in Chrome */
+}
+
+/******************************************************************************
+* Buttons styles
+*******************************************************************************/
+
+.z-button,
+.z-buttons a,
+.z-buttons a:link,
+.z-buttons a:visited,
+.z-buttons input,
+.z-buttons button {
+    font-size: .9em !important;
+    line-height:130% !important;
+    font-family:"Lucida","Lucida Grande","Lucida Sans Unicode",sans-serif !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    padding: 5px 5px 6px 5px !important;
+    color: #665544 !important;
+    border-color:#EEEEDD #e6e4d5 #e6e4d5 #EEEEDD !important;
+    border-style: solid;
+    border-width: 1px;
+    background: #e6e4d5 !important; /*non-CSS3 browsers*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfaea), to(#e6e4d5)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #fcfaea, #e6e4d5) !important; /*gecko*/
+    background: linear-gradient(#fcfaea, #e6e4d5) !important; /*CSS3*/
+    text-shadow: 0 1px 0 rgba(74, 74, 68, 0.8) !important;/*#4A4A44*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(85, 68, 41, 0.2) !important; /*#554433*/
+    -moz-box-shadow: 0 1px 2px rgba(85, 68, 41, 0.2) !important;
+    box-shadow: 0 1px 2px rgba(85, 68, 41, 0.2) !important;
+}
+
+
+.z-button:hover,
+.z-buttons a:hover,
+.z-buttons input:hover,
+.z-buttons button:hover {
+    color: #665544 !important;
+    text-decoration: none !important;
+    background: #f6f4e4 !important; /*non-CSS3 browsers*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFEE), to(#f6f4e4)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #FFFFEE, #f6f4e4) !important; /*gecko*/
+    background: linear-gradient(#FFFFEE, #f6f4e4) !important; /*CSS3*/
+}
+
+.z-button:active,
+.z-buttons a:active,
+.z-buttons input:active,
+.z-buttons button:active {
+    color: #665544 !important;
+    background: #FFFFEE !important; /*non-CSS3 browsers*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6f4e4), to(#FFFFEE)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #f6f4e4, #FFFFEE) !important; /*gecko*/
+    background: linear-gradient(#f6f4e4, #FFFFEE) !important; /*CSS3*/
+}
+
+
+/******************************************************************************
+* Buttons based on HTML tag: Input
+*******************************************************************************/
+
+.z-buttons input.z-bt-ok,
+.z-buttons input.z-bt-cancel,
+.z-buttons input.z-bt-preview,
+.z-buttons input.z-bt-new,
+.z-buttons input.z-bt-save,
+.z-buttons input.z-bt-edit,
+.z-buttons input.z-bt-archive,
+.z-buttons input.z-bt-delete,
+.z-buttons input.z-bt-icon {
+    padding: 5px 7px 5px 32px !important;
+}
+
+.z-buttons input.z-bt-ok.z-bt-small,
+.z-buttons input.z-bt-cancel.z-bt-small,
+.z-buttons input.z-bt-preview.z-bt-small,
+.z-buttons input.z-bt-new.z-bt-small,
+.z-buttons input.z-bt-save.z-bt-small,
+.z-buttons input.z-bt-edit.z-bt-small,
+.z-buttons input.z-bt-archive.z-bt-small,
+.z-buttons input.z-bt-delete.z-bt-small,
+.z-buttons input.z-bt-icon.z-bt-small {
+    margin: 0 1px 0 0 !important;
+    padding: 3px 8px 4px 27px !important;
+}
+
+.z-buttons input.z-bt-ok {
+    background: url("../../../images/icons/extrasmall/button_ok.gif") #e6e4d5 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #fcfaea, #e6e4d5) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fcfaea), to(#e6e4d5)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#fcfaea, #e6e4d5) !important; /*CSS3*/
+}
+.z-buttons input.z-bt-ok:hover {
+    background: url("../../../images/icons/extrasmall/button_ok.gif") #f6f4e4 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #FFFFEE, #f6f4e4) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#FFFFEE), to(#f6f4e4)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#FFFFEE, #f6f4e4) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-ok:active {
+    background: url("../../../images/icons/extrasmall/button_ok.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #f6f4e4, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#f6f4e4), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_ok.gif") 10px 50% no-repeat, linear-gradient(#f6f4e4, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-cancel {
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #fcfaea, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fcfaea), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#fcfaea, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-cancel:hover {
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") #f6f4e4 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #FFFFEE, #f6f4e4) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#FFFFEE), to(#f6f4e4)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#FFFFEE, #f6f4e4) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-cancel:active {
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #f6f4e4, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#f6f4e4), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/button_cancel.gif") 10px 50% no-repeat, linear-gradient(#f6f4e4, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-preview {
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #fcfaea, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fcfaea), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#fcfaea, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-preview:hover {
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #f6f4e4 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #FFFFEE, #f6f4e4) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#FFFFEE), to(#f6f4e4)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#FFFFEE, #f6f4e4) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-preview:active {
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #f6f4e4, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#f6f4e4), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_visible.gif") 10px 50% no-repeat, linear-gradient(#f6f4e4, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-new {
+    background: url("../../../images/icons/extrasmall/filenew.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #fcfaea, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fcfaea), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#fcfaea, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-new:hover {
+    background: url("../../../images/icons/extrasmall/filenew.gif") #f6f4e4 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #FFFFEE, #f6f4e4) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#FFFFEE), to(#f6f4e4)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#FFFFEE, #f6f4e4) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-new:active {
+    background: url("../../../images/icons/extrasmall/filenew.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #f6f4e4, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#f6f4e4), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filenew.gif") 10px 50% no-repeat, linear-gradient(#f6f4e4, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-save {
+    background: url("../../../images/icons/extrasmall/filesave.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #fcfaea, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fcfaea), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#fcfaea, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-save:hover {
+    background: url("../../../images/icons/extrasmall/filesave.gif") #f6f4e4 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #FFFFEE, #f6f4e4) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#FFFFEE), to(#f6f4e4)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#FFFFEE, #f6f4e4) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-save:active {
+    background: url("../../../images/icons/extrasmall/filesave.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #f6f4e4, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#f6f4e4), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/filesave.gif") 10px 50% no-repeat, linear-gradient(#f6f4e4, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-edit {
+    background: url("../../../images/icons/extrasmall/edit.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #fcfaea, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fcfaea), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#fcfaea, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-edit:hover {
+    background: url("../../../images/icons/extrasmall/edit.gif") #f6f4e4 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #FFFFEE, #f6f4e4) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#FFFFEE), to(#f6f4e4)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#FFFFEE, #f6f4e4) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-edit:active {
+    background: url("../../../images/icons/extrasmall/edit.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #f6f4e4, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#f6f4e4), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/edit.gif") 10px 50% no-repeat, linear-gradient(#f6f4e4, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-archive {
+    background: url("../../../images/icons/extrasmall/folder.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #fcfaea, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fcfaea), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#fcfaea, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-archive:hover {
+    background: url("../../../images/icons/extrasmall/folder.gif") #f6f4e4 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #FFFFEE, #f6f4e4) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#FFFFEE), to(#f6f4e4)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#FFFFEE, #f6f4e4) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-archive:active {
+    background: url("../../../images/icons/extrasmall/folder.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #f6f4e4, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#f6f4e4), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/folder.gif") 10px 50% no-repeat, linear-gradient(#f6f4e4, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-delete {
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(center top , #fcfaea, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#fcfaea), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#fcfaea, #FFFFEE) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-delete:hover {
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #f6f4e4 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #FFFFEE, #f6f4e4) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#FFFFEE), to(#f6f4e4)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#FFFFEE, #f6f4e4) !important; /*CSS3*/
+}
+
+.z-buttons input.z-bt-delete:active {
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") #FFFFEE 10px 50% no-repeat !important; /*non-CSS3 browsers*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -moz-linear-gradient(top,  #f6f4e4, #FFFFEE) repeat scroll 0 0 transparent !important; /*gecko*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#f6f4e4), to(#FFFFEE)) repeat scroll 0 0 transparent !important; /*webkit*/
+    background: url("../../../images/icons/extrasmall/14_layer_deletelayer.gif") 10px 50% no-repeat, linear-gradient(#f6f4e4, #FFFFEE) !important; /*CSS3*/
+}
