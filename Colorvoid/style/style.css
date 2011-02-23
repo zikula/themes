@@ -16,6 +16,7 @@ Standard Elements
 ------------------------------------------- */
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -32,23 +33,29 @@ html {
 body {
     background: #404040 url('../images/body.jpg');
     font: normal 13px Verdana,sans-serif;
-    color: #345;
-    padding-bottom: 1em;
+    color: #333333 ;
+    /* #345 */ padding-bottom: 1em;
 }
 
 
 a {
-    color: #06A;
+    color: #505E69 !important;
+    text-decoration : none;
 }
 
 
 a:hover {
-    color: #036;
+    border-bottom-color : #81a6c1;
+    border-bottom-style : dashed;
+    border-bottom-width : .01em;
+    color : #81a6c1 !important;
+    text-decoration : none;
 }
 
 
 p {
     padding: 0.1em 0 0.8em;
+    text-align: justify;
 }
 
 
@@ -58,41 +65,71 @@ h1 {
 
 
 h2 {
-    font: normal 1.5em Georgia,sans-serif;
+    font: normal 1.6em Georgia,sans-serif;
 }
 
 
 h3 {
+    font: bold 1.4em Tahoma,sans-serif;
+}
+
+
+h4 {
+    font: bold 1.2em Tahoma,sans-serif;
+}
+
+
+h5 {
+    font: bold 1.1em Tahoma,sans-serif;
+}
+
+
+h6 {
     font: bold 1em Tahoma,sans-serif;
 }
 
 
 blockquote {
-    background: #FFF url('../images/quote.gif') no-repeat;
-    border: 1px solid #EAEAEA;
-    color: #555;
+    background: #f6f9fb url('../images/quote.gif') no-repeat;
+    border-color:#C6D2DB #DAE3E9 #DAE3E9 #C6D2DB !important;
+    border-style: solid;
+    border-width: 1px;
+    color: #505E69 !important;
+
     display: block;
     font: normal 1em sans-serif;
-    margin-bottom: 1em;
-    padding: 10px 1em 0.2em 42px;
+    margin-bottom :  1em;
+    padding-bottom : 5px;
+    padding-left : 42px;
+    padding-right : 1em;
+    padding-top : 5px;
 }
 
 
-code {
+code, pre {
     display: block;
-    background: #FFFFFA;
-    color: #335;
-    border: 1px solid #E8E8D5;
+    background: #f6f9fb;
     padding: 5px 10px;
     overflow: auto;
     margin: 1em 0;
-    font-size: 0.9em;
+    font: normal 1em monospace sans-serif;
     line-height: 1.5em;
+    border-color:#C6D2DB #DAE3E9 #DAE3E9 #C6D2DB !important;
+    border-style: solid;
+    border-width: 1px;
+    color: #505E69 !important;
+    padding-bottom : 5px;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top : 5px;
 }
 
 
 ul,ol {
-    margin: 0 0 1em 1.6em;
+    margin-bottom : 1em;
+    margin-left : 1.6em;
+    margin-right : 0;
+    margin-top : 0;
 }
 
 
@@ -133,48 +170,11 @@ big,.big {
 }
 
 /* ----------------------------------------
-Forms
-------------------------------------------- */
-
-/* Inputs */
-
-input#s, textarea, input.styled {
-    border: 1px solid #BBB;
-    padding: 3px;
-    width: 160px;
-    font: normal 1em Verdana,sans-serif;
-}
-
-
-textarea {
-    width: 440px;
-}
-
-
-#searchsubmit {
-    border: 1px solid #BBB;
-    background: #EEE;
-    font: normal 0.9em Verdana,sans-serif;
-    padding: 2px 3px;
-}
-
-/* Seachform */
-
-table.search {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-
-.search td {
-    vertical-align: center;
-}
-
-/* ----------------------------------------
 Layout
 ------------------------------------------- */
 
 /* Main */
+
 
 #layout_wrapper {
     margin: 40px auto 0;
@@ -202,6 +202,7 @@ Layout
 }
 
 /* Site Title */
+
 
 #site_title {
     background: #C5DEF0 url('../images/site_title.jpg') repeat-x left top;
@@ -247,12 +248,14 @@ Layout
 
 /* Navigation */
 
+
 #navigation {
     background: #739CBA url('../images/navigation.jpg') no-repeat left bottom;
     padding: 82px 10px 0;
 }
 
 /* Tabs */
+
 
 #tabs ul {
     margin: 0;
@@ -286,11 +289,13 @@ Layout
 
 /* Commented Backslash Hack hides rule from IE5-Mac \*/
 
+
 #tabs a span {
     float: none;
 }
 
 /* End IE5-Mac hack */
+
 
 
 #tabs a:hover span {
@@ -320,9 +325,9 @@ Layout
 
 /* Main Layout */
 
+
 #main_left {
     width: 220px;
-
 }
 
 
@@ -331,6 +336,7 @@ Layout
 }
 
 /* Footer */
+
 
 #footer {
     background: #A3B5C1 url('../images/footer.gif') no-repeat left top;
@@ -341,19 +347,701 @@ Layout
 
 
 #footer .right {
-    color: #C8DBE8;
+    color: #FAFCFF;
 }
 
 
-#footer .right a {
-    color: #D3E5F1;
+#footer .left a, #footer .right a, #footer .credits a {
+    color: #505E69 !important;
     text-decoration: none;
 }
 
 
-#footer .right a:hover {
-    color: #FFE;
+#footer .left a:hover, #footer .right a:hover, #footer .credits a:hover {
+    color: #FAFCFF !important;
     text-decoration: underline;
+}
+#footer .credits {clear:both;float : left; font-size : .8em; letter-spacing : .075em;margin-top : 5px;  text-align : left;}
+
+/* ----------------------------------------
+Sidebar zikula blocks
+------------------------------------------- */
+
+
+
+.z-block {
+    margin-bottom: 5px;
+}
+
+/*  {$minbox}  */
+
+.box_title img, .box_title-c img {
+    border: 0;
+    float: right;
+    padding-right: 5px;
+    padding-top: 0px;
+}
+
+
+.box {
+    margin-bottom: 5px;
+}
+
+
+.box_title {
+    background: #C6D2DB url('../images/box/title.gif') no-repeat left top;
+    padding: 6px 10px 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #505E69;
+}
+
+
+.box_title-c {
+    background: #C6D2DB url('../images/box/title-c.gif') no-repeat left top;
+    padding: 6px 10px 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #505E69;
+}
+
+
+.box_body {
+    background: #DAE3E9 url('../images/box/body.gif') repeat-x left top;
+    padding: 8px 10px 1px;
+    font-size: 0.9em;
+}
+
+
+.box_bottom {
+    background: url('../images/box/bottom.gif') no-repeat left top;
+    display: block;
+    height: 5px;
+    font-size: 0;
+    line-height: 0;
+}
+
+
+.box_bottom-c {
+    background: url('../images/box/bottom-c.gif') no-repeat left top;
+    display: block;
+    height: 5px;
+    font-size: 0;
+    line-height: 0;
+}
+
+
+.box ul {
+    margin-left: 0;
+    border-bottom: 1px solid #E2ECF2;
+}
+
+
+.box li:first-child {
+    border-top: none;
+}
+
+
+.box ul li {
+    list-style: none;
+    padding: 4px;
+    border-top: 1px solid #E2ECF2;
+    border-bottom: 1px solid #E2ECF2;
+}
+
+
+.box ul a {
+    text-decoration: none;
+}
+
+
+.box ul a:hover {
+    text-decoration: underline;
+}
+
+
+#sidebar a {
+    color: #505E69 !important;
+    text-decoration : none;
+}
+
+
+#sidebar a:hover {
+    color: #759cbb !important;
+    text-decoration : none;
+}
+
+
+
+
+/* Zikula Module Styles */
+
+div#z-maincontent.z-module-postcalendar form.z-form div div.z-buttons.z-formbuttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+div#z-maincontent.z-module-content form#FormForm.z-form div.content-form div.z-buttons.z-formbuttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+
+
+div#z-maincontent.z-module-content form#FormForm.z-form div.content-form div.z-buttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+
+
+/******************************************************************************
+* Generic Form Style: z-form for the SIDEBAR
+*******************************************************************************/
+
+
+#sidebar .z-form fieldset,#sidebar .z-form .z-fieldset {
+    margin: 0 0 1em 0;
+    padding: 0.5em 1em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #554433 !important;
+    border-color:#C6D2DB #DAE3E9 #DAE3E9 #C6D2DB !important;
+    border-style: solid;
+    border-width: 1px;
+    background: #dae3e9 !important/*non-CSS3 browsers*/ ;
+    background: -webkit-gradient(linear, left top, left bottom, from(#C6D2DB), to(#dae3e9)) !important/*webkit*/ ;
+    background: -moz-linear-gradient(top, #c6d2db, #dae3e9) !important /*gecko*/ ;
+    background: linear-gradient(#c6d2db, #dae3e9) !important/*CSS3*/;
+}
+
+
+#sidebar .z-form legend {
+    font-size: 1em;
+    line-height: 1.45em;
+    font-weight: bold;
+    color: #505E69 !important;
+    background: transparent !important;
+    border: 0;
+    text-shadow: -1px -1px 0 rgba(218, 227, 233, 0.8)!important;
+    /* #dae3e9 */;
+}
+
+/*******************************************************************************/
+/* Styles for z-menulinks
+/*******************************************************************************/
+
+
+ul.z-menulinks {
+    background: url("none") repeat-x scroll 0 0 #dae3e9 !important /*non-CSS3 browsers*/;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C6D2DB', endColorstr='#dae3e9') !important /*IE*/ ;
+    background: -webkit-gradient(linear, left top, left bottom, from(#C6D2DB), to(#dae3e9)) !important /*webkit*/ ;
+    background: -moz-linear-gradient(top, #c6d2db, #dae3e9) !important /*gecko*/ ;
+    background: linear-gradient(#c6d2db, #dae3e9) !important /*CSS3*/ ;
+    border-color:#C6D2DB #DAE3E9 #DAE3E9 #C6D2DB !important;
+    border-style: solid;
+    border-width: 1px;
+    color: #505E69 !important;
+    font-size: 70%;
+    font-weight : bold;
+    height: auto !important;
+    line-height: 23px !important;
+    list-style: none outside none;
+    margin: 1em 0 !important;
+    min-height: 23px !important;
+    padding:0 5px !important;
+}
+
+
+ul.z-menulinks li {
+    background: none !important;
+    border-right:1px solid #aaa;
+    display:inline;
+    padding:0 5px !important;
+    margin:0 !important;
+}
+
+
+ul.z-menulinks li a {
+    color: #505E69 !important;
+    text-decoration : none;
+}
+
+
+ul.z-menulinks li a:hover {
+    color: #81a6c1 !important;
+    text-decoration : none;
+}
+
+
+ul.z-menulinks li:first-child {
+    border-left:1px solid #aaa;
+    margin-left:5px;
+}
+
+
+ul.z-menulinks li.z-ml-disabled a,ul.z-menulinks li.z-ml-disabled a:hover {
+    text-decoration:line-through !important;
+}
+
+/*******************************************************************************/
+/* Styles for the old module menus based on the SPAN tag
+/*******************************************************************************/
+
+
+.z-menu {
+    color: #776a56 !important;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+
+.z-menuitem-title {
+    background: url("none") repeat-x scroll 0 0 #dae3e9 !important /*non-CSS3 browsers*/;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C6D2DB', endColorstr='#dae3e9') !important /*IE*/ ;
+    background: -webkit-gradient(linear, left top, left bottom, from(#C6D2DB), to(#dae3e9)) !important /*webkit*/ ;
+    background: -moz-linear-gradient(top, #c6d2db, #dae3e9) !important /*gecko*/ ;
+    background: linear-gradient(#c6d2db, #dae3e9) !important /*CSS3*/ ;
+    border-color:#C6D2DB #DAE3E9 #DAE3E9 #C6D2DB !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #505E69 !important;
+    display: block;
+    font-size: 80%;
+    font-weight : bold;
+    height: auto !important;
+    line-height: 23px;
+    min-height: 23px;
+    padding:0 5px;
+}
+
+
+.z-menu a {
+    color: #505E69 !important;
+    text-decoration : none;
+    padding: 2px;
+}
+
+
+.z-menu a:hover {
+    color: #81a6c1 !important;
+    text-decoration : none;
+}
+
+/******************************************************************************
+* Generic Form Style: z-form
+*******************************************************************************/
+
+.z-form {
+    margin: 0;
+    padding: 0;
+}
+
+.z-form fieldset,
+.z-form .z-fieldset {
+    border-color:#C6D2DB #DAE3E9 #DAE3E9 #C6D2DB !important;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 0 1em 0;
+    padding: 0.5em 1em;
+    color: #333;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #f6f9fb /*non-CSS3 browsers*/ ;
+    background: -webkit-gradient(linear,left top, left bottom,from(#f6f9fb),to(#E6ECF0)) /*webkit*/ ;
+    background: -moz-linear-gradient(top, #f6f9fb, #E6ECF0) /*gecko*/ ;
+    background: linear-gradient(#f6f9fb, #E6ECF0) /*CSS3*/ ;
+}
+
+.z-form legend {
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #505E69 !important;
+    background: transparent;
+    border: 0;
+    text-shadow: -1px -1px 0 rgba(246, 249, 251, 0.8);
+}
+
+.z-form .z-formrow input,
+.z-form .z-formrow textarea,
+.z-form .z-formrow select {
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    border-color:#C6D2DB #DAE3E9 #DAE3E9 #C6D2DB !important;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 1em;
+    margin: 0;
+    /* max-width: none; */
+}
+
+.z-form .z-formrow input[type=checkbox] {
+    display:inline;
+    margin:0.5em 0;
+    width:auto;
+}
+
+.z-form .z-formrow input[type=radio] {
+    width: auto;
+    border-color:#C6D2DB #DAE3E9 #DAE3E9 #C6D2DB !important;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.z-form .z-formrow select optgroup {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.z-form div.z-formrow input:focus,
+.z-form div.z-formrow select:focus,
+.z-form div.z-formrow textarea:focus,
+.z-form div.z-formrow input:hover,
+.z-form div.z-formrow select:hover,
+.z-form div.z-formrow textarea:hover,
+.z-form div.z-formrow input:active,
+.z-form div.z-formrow select:active,
+.z-form div.z-formrow textarea:active {
+    border-color:#C6D2DB #DAE3E9 #DAE3E9 #C6D2DB !important;
+    border-style: solid;
+    border-width: 1px;
+    background: #f6f9fb !important;
+}
+
+/* hide hidden fields (firefox) */
+.z-form input[type=hidden] {
+    display: none !important;
+}
+
+div.z-formrow,
+div.z-buttonrow,
+div.z-formbuttons {
+    padding: 0.5em 0;
+    min-height: 2em;
+}
+
+div.z-formlist label {
+    color: #505E69 !important;
+    display: inline;
+}
+
+
+
+/******************************************************************************
+* Classes to define two colors for alternating rows in views
+*******************************************************************************/
+
+
+.z-even {
+    background-color: #dae7f0;
+    color: #505E69;
+}
+
+
+.z-odd {
+    background-color: #c6d2db;
+    color: #505E69;
+}
+
+/******************************************************************************
+* User-Frontend-Tables: z-datatable
+* 'z-admintable' is deprecated since 1.3.0
+*******************************************************************************/
+
+table.z-datatable,
+table.z-admintable {
+    border-color:#C6D2DB #DAE3E9 #DAE3E9 #C6D2DB !important;
+    border-style: solid;
+    border-width: 1px;
+    border-spacing:1px 0;
+    color:inherit;
+    margin:1em 0;
+    padding:0;
+    width:100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+table.z-datatable caption,
+table.z-admintable caption {
+    background-color: #dae3e9 !important; 
+    font-weight: bold;
+    border-bottom: 2px solid #C6D2DB !important; 
+    text-transform: uppercase;
+    padding:10px;
+}
+
+table.z-datatable thead,
+table.z-admintable thead {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+table.z-datatable thead tr,
+table.z-admintable thead tr {
+    background-color: #ab9e89;
+}
+
+table.z-datatable td,
+table.z-datatable th,
+table.z-admintable td,
+table.z-admintable th {
+    padding: 5px;
+    border-width: 0px;
+    vertical-align: middle;
+}
+
+table.z-datatable thead th,
+table.z-admintable thead th {
+    background: #dae3e9 !important /*non-CSS3 browsers*/;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C6D2DB', endColorstr='#dae3e9') !important /*IE*/ ;
+    background: -webkit-gradient(linear, left top, left bottom, from(#C6D2DB), to(#dae3e9)) !important /*webkit*/ ;
+    background: -moz-linear-gradient(top, #c6d2db, #dae3e9) !important /*gecko*/ ;
+    background: linear-gradient(#c6d2db, #dae3e9) !important /*CSS3*/ ;
+    font-size: 0.9em;
+    padding: 7px 5px;
+    text-shadow: 0 1px 0 rgba(252, 250, 234, 0.8) !important;
+}
+
+table.z-datatable tr.z-datatableempty,
+table.z-admintable tr.z-admintableempty {
+    background-color:#c6d2db;
+    font-size:0.9em;
+    font-weight:bold;
+    text-align:center;
+    text-shadow:0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+table.z-datatable tbody tr.z-defaulttablerow,
+table.z-admintable tbody tr.z-defaulttablerow {
+    background-color: #C2FFBF !important;
+    color: #505E69 !important;
+}
+
+table.z-datatable tbody tr:hover {
+    background-color: #f6f9fb !important;
+    color: #505E69 !important;
+}
+
+table.z-datatable ul,
+table.z-admintable ul {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+/*******************************************************************************/
+/* Template Styles to be applied ?????????
+/*******************************************************************************/
+/* ----------------------------------------
+Forms
+------------------------------------------- */
+
+/* Inputs */
+
+
+input#s, textarea, input.styled {
+    border: 1px solid #BBB;
+    padding: 3px;
+    width: 160px;
+    font: normal 1em Verdana,sans-serif;
+}
+
+
+textarea {
+    width: 440px;
+}
+
+
+#searchsubmit {
+    border: 1px solid #BBB;
+    background: #EEE;
+    font: normal 0.9em Verdana,sans-serif;
+    padding: 2px 3px;
+}
+
+/* Seachform */
+
+
+table.search {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.search td {
+    vertical-align: center;
+}
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+.nicelist {
+    padding: 1px 0 0;
+}
+
+
+.nicelist ol {
+    margin: 0;
+}
+
+
+.nicelist ol li {
+    list-style: none;
+    padding: 8px 10px 1px;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #CCC;
+}
+
+
+.nicelist li.alt {
+    background: #EEE;
+}
+
+
+.nicelist .body {
+    padding-top: 5px;
+}
+
+
+.nicelist .date {
+    color: #888;
+    padding-top: 4px;
+    font-size: 0.85em;
+}
+
+
+.nicelist .date a {
+    color: #567;
+    text-decoration: none;
+}
+
+
+.nicelist .date a:hover {
+    color: #002;
+    text-decoration: underline;
+}
+
+/* ----------------------------------------
+Archives
+------------------------------------------- */
+
+
+
+.archive_title {
+    font: normal 1.4em sans-serif;
+}
+
+
+.archive_title a {
+    text-decoration: none;
+}
+
+
+.archive_title a:hover {
+    text-decoration: underline;
+}
+
+
+.archive_postinfo {
+    font: normal 1em sans-serif;
+    padding-bottom: 6px;
+}
+
+/* ----------------------------------------
+Comments
+------------------------------------------- */
+
+
+
+.comment_gravatar {
+    width: 48px;
+}
+
+
+.comment_gravatar img {
+    padding: 2px;
+}
+
+
+.comment_author {
+    padding-top: 2px;
+}
+
+/* ----------------------------------------
+Pagination
+------------------------------------------- */
+
+
+
+.pagenavigation {
+    background: #DDEBF4 url('../images/pagenav_top.gif') no-repeat;
+    margin-bottom: 5px;
+}
+
+
+.pagenav_bottom {
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    height: 5px;
+    background: url('../images/pagenav_bottom.gif') no-repeat;
+}
+
+
+.pagenav {
+    font-size: 0.85em;
+    padding: 5px 8px 0;
+}
+
+
+.pagenav a {
+    color: #6A7DA4;
+    text-decoration: none;
+}
+
+
+.pagenav a:hover {
+    color: #002;
+    text-decoration: underline;
+}
+
+/* ----------------------------------------
+Width, height, margin, padding
+------------------------------------------- */
+
+
+
+.h5 {
+    height: 5px;
+}
+
+
+.p5 {
+    padding: 5px;
+}
+
+
+.p10 {
+    padding: 10px;
 }
 
 /* ----------------------------------------
@@ -362,6 +1050,7 @@ Miscellaneous
 
 /* Images */
 
+
 img.bordered {
     border: 1px solid #DDD;
     background: #FFF;
@@ -369,6 +1058,7 @@ img.bordered {
 }
 
 /* Text */
+
 
 .bold {
     font-weight: bold;
@@ -391,6 +1081,7 @@ img.bordered {
 
 /* Floats */
 
+
 .left {
     float: left;
 }
@@ -401,6 +1092,7 @@ img.bordered {
 }
 
 /* Clear */
+
 
 .clear,.clearer {
     clear: both;
@@ -415,6 +1107,7 @@ img.bordered {
 
 /* Icons */
 
+
 span.comment {
     background: url('../images/icon_comment.gif') no-repeat left center;
     padding-left: 18px;
@@ -423,6 +1116,7 @@ span.comment {
 /* ----------------------------------------
 Post, page
 ------------------------------------------- */
+
 
 
 .post {
@@ -515,321 +1209,5 @@ Post, page
 .post_search_text {
     font-size: 0.85em;
     padding: 2px 0;
-}
-
-/* ----------------------------------------
-Sidebar zikula blocks
-------------------------------------------- */
-
-
-.z-block {
-    margin-bottom: 5px;
-}
-
-
-.z-block h4 {
-    background: #C6D2DB url('../images/box/title.gif') no-repeat left top;
-    padding: 6px 10px 5px;
-    font-weight: bold;
-    font-size: 0.9em;
-    color: #505E69;
-}
-
-h4 img {
-border: 0;
-float: right;
-padding-right: 5px;
-padding-top: 0px;
-}
-.box {
-    margin-bottom: 5px;
-}
-
-.box_title {
-    background: #C6D2DB url('../images/box/title.gif') no-repeat left top;
-    padding: 6px 10px 5px;
-    font-weight: bold;
-    font-size: 0.9em;
-    color: #505E69;
-}
-
-
-.box_title-c {
-    background: #C6D2DB url('../images/box/title-c.gif') no-repeat left top;
-    padding: 6px 10px 5px;
-    font-weight: bold;
-    font-size: 0.9em;
-    color: #505E69;
-}
-
-.box_body {
-    background: #DAE3E9 url('../images/box/body.gif') repeat-x left top;
-    padding: 8px 10px 1px;
-    font-size: 0.9em;
-}
-
-
-.box_bottom {
-    background: url('../images/box/bottom.gif') no-repeat left top;
-    display: block;
-    height: 5px;
-    font-size: 0;
-    line-height: 0;
-}
-
-.box_bottom-c {
-    background: url('../images/box/bottom-c.gif') no-repeat left top;
-    display: block;
-    height: 5px;
-    font-size: 0;
-    line-height: 0;
-}
-
-
-.box ul {
-    margin-left: 0;
-    border-bottom: 1px solid #E2ECF2;
-}
-
-
-.box li:first-child {
-    border-top: none;
-}
-
-
-.box ul li {
-    list-style: none;
-    padding: 4px;
-    border-top: 1px solid #E2ECF2;
-    border-bottom: 1px solid #D0D8DE;
-}
-
-
-.box ul a {
-    text-decoration: none;
-}
-
-
-.box ul a:hover {
-    text-decoration: underline;
-}
-
-
-
-
-
-
-/* ----------------------------------------
-Sidebar box
-------------------------------------------- */
-
-/*
-.box {
-    margin-bottom: 5px;
-}
-
-
-.box_title {
-    background: #C6D2DB url('../images/box/title.gif') no-repeat left top;
-    padding: 6px 10px 5px;
-    font-weight: bold;
-    font-size: 0.9em;
-    color: #505E69;
-}
-
-
-.box_body {
-    background: #DAE3E9 url('../images/box/body.gif') repeat-x left top;
-    padding: 8px 10px 1px;
-    font-size: 0.9em;
-}
-
-
-.box_bottom {
-    background: url('../images/box/bottom.gif') no-repeat left top;
-    display: block;
-    height: 5px;
-    font-size: 0;
-    line-height: 0;
-}
-
-
-.box ul {
-    margin-left: 0;
-    border-bottom: 1px solid #E2ECF2;
-}
-
-
-.box li:first-child {
-    border-top: none;
-}
-
-
-.box ul li {
-    list-style: none;
-    padding: 4px;
-    border-top: 1px solid #E2ECF2;
-    border-bottom: 1px solid #D0D8DE;
-}
-
-
-.box ul a {
-    text-decoration: none;
-}
-
-
-.box ul a:hover {
-    text-decoration: underline;
-}
-*/
-/* ----------------------------------------
-Lists
-------------------------------------------- */
-
-
-.nicelist {
-    padding: 1px 0 0;
-}
-
-
-.nicelist ol {
-    margin: 0;
-}
-
-
-.nicelist ol li {
-    list-style: none;
-    padding: 8px 10px 1px;
-    border-top: 1px solid #FFF;
-    border-bottom: 1px solid #CCC;
-}
-
-
-.nicelist li.alt {
-    background: #EEE;
-}
-
-
-.nicelist .body {
-    padding-top: 5px;
-}
-
-
-.nicelist .date {
-    color: #888;
-    padding-top: 4px;
-    font-size: 0.85em;
-}
-
-
-.nicelist .date a {
-    color: #567;
-    text-decoration: none;
-}
-
-
-.nicelist .date a:hover {
-    color: #002;
-    text-decoration: underline;
-}
-
-/* ----------------------------------------
-Archives
-------------------------------------------- */
-
-
-.archive_title {
-    font: normal 1.4em sans-serif;
-}
-
-
-.archive_title a {
-    text-decoration: none;
-}
-
-
-.archive_title a:hover {
-    text-decoration: underline;
-}
-
-
-.archive_postinfo {
-    font: normal 1em sans-serif;
-    padding-bottom: 6px;
-}
-
-/* ----------------------------------------
-Comments
-------------------------------------------- */
-
-
-.comment_gravatar {
-    width: 48px;
-}
-
-
-.comment_gravatar img {
-    padding: 2px;
-}
-
-
-.comment_author {
-    padding-top: 2px;
-}
-
-/* ----------------------------------------
-Pagination
-------------------------------------------- */
-
-
-.pagenavigation {
-    background: #DDEBF4 url('../images/pagenav_top.gif') no-repeat;
-    margin-bottom: 5px;
-}
-
-
-.pagenav_bottom {
-    display: block;
-    font-size: 0;
-    line-height: 0;
-    height: 5px;
-    background: url('../images/pagenav_bottom.gif') no-repeat;
-}
-
-
-.pagenav {
-    font-size: 0.85em;
-    padding: 5px 8px 0;
-}
-
-
-.pagenav a {
-    color: #6A7DA4;
-    text-decoration: none;
-}
-
-
-.pagenav a:hover {
-    color: #002;
-    text-decoration: underline;
-}
-
-/* ----------------------------------------
-Width, height, margin, padding
-------------------------------------------- */
-
-
-.h5 {
-    height: 5px;
-}
-
-
-.p5 {
-    padding: 5px;
-}
-
-
-.p10 {
-    padding: 10px;
 }
 
