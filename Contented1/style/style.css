@@ -227,3 +227,26 @@ a:hover {
     text-align : right;
   }
 
+/*******************************************************************************/
+/* Styles for z-menulinks
+/*******************************************************************************/
+
+ul.z-menulinks {
+    font-size: 70%;
+}
+
+/*******************************************************************************/
+/* Styles for the old module menus based on the SPAN tag
+/*******************************************************************************/
+
+.z-menuitem-title {
+    font-size: 80% !important;
+}
+
+/*  {$minbox}  */
+.box img {
+border: 0;
+float: right;
+padding-right: 5px;
+padding-top: 0px;
+}
