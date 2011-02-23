@@ -823,3 +823,12 @@ select#newtheme {
 img#preview {
     margin-left: -5px;
 }
+
+/*  {$minbox}  */
+.z-block h4 img {
+    background-color: transparent !important;
+border: 0 !important;
+float: right;
+padding-right: 5px;
+padding-top: 0px;
+}
