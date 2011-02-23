@@ -159,7 +159,32 @@ a:hover {
     line-height: 1.3em;
     margin: 0 0 12px 0;
 }
+/*******************************************************************************/
+/* Styles for z-menulinks
+/*******************************************************************************/
 
+ul.z-menulinks {
+    font-size: 90%;
+}
+ul.z-menulinks li {
+    padding:0 5px !important;
+}
+/*******************************************************************************/
+/* Styles for the old module menus based on the SPAN tag
+/*******************************************************************************/
+
+.z-menuitem-title {
+    font-size: 90% !important;
+}
+
+/*  {$minbox}  */
+.z-block h3 img {
+    background-color: transparent !important;
+border: 0 !important;
+float: right;
+padding-right: 5px;
+padding-top: 0px;
+}
 div.z-bkey-menu ul {
     padding: 0;
     margin: 0;
@@ -175,24 +200,65 @@ div.z-bkey-menu li {
 }
 
 div.z-bkey-extmenu ul {
-    list-style-position: inside;
-    list-style-image: none;
-    list-style-type: none;
-    margin: 0 0 20px 0;
-    padding: 0;
-    text-decoration: none;
-    width: 140px;
+    list-style-position :  inside;
+    list-style-image :  none;
+    list-style-type :  none;
+    margin-bottom : 20px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    text-decoration :  none;
+    width :  140px;
 }
 
 div.z-bkey-extmenu li {
-    text-align: left;
-    display: block;
-    width: 120px;
-    background: #f0f0f0 url(../images/corner.gif) top right no-repeat;
-    padding: 3px 4px 3px 8px;
-    margin: 5px 10px 5px 0;
+    text-align :  left;
+    display :  block;
+    width :  120px;
+    background-color : #f0f0f0;
+    background-image : url(../images/corner.gif);
+    background-position : top right;
+    background-repeat : no-repeat;
+    padding-bottom : 3px;
+    padding-left : 8px;
+    padding-right : 4px;
+    padding-top : 3px;
+    margin-bottom : 5px;
+    margin-left : 0;
+    margin-right : 10px;
+    margin-top : 5px;
 }
 
+
+div.z-bkey-extmenu li ul li {
+    text-align :  left;
+    display :  block;
+    width :  120px;
+    background-color : #f0f0f0;
+    background-image : url(none);
+    background-position : top right;
+    background-repeat : no-repeat;
+    padding-bottom : 3px;
+    padding-left : 4px;
+    padding-right : 0px;
+    padding-top : 3px;
+    margin-bottom : 5px;
+    margin-left : 0;
+    margin-right : 0px;
+    margin-top : 5px;
+}
+
+div.intercomblock ul {    padding-left : 0px !important;}
+div.intercomblock ul li{
+    padding-bottom : 5px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-top : 3px;
+}
 p.extmenuadmin a {
     padding-left: 15px;
     text-decoration: none;
@@ -273,7 +339,7 @@ a img {
 
 .z-module-postcalendar form div.z-clearfix {
 
-    height: 150px !important;
+    height: 75px !important;
 }
 
 select#newtheme {
