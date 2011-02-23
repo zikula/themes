@@ -7,6 +7,8 @@ Version: 1.2
 Screen layout: */
 
 
+/* Original open source design by Andreas Viklund - http://andreasviklund.com
+Released through OSWD.org */
 
 body {
     margin:0;
@@ -190,6 +192,22 @@ p {
 }
 
 
+/*  {$minbox}  */
+.z-block h4 img {
+    background-color: transparent !important;
+border: 0 !important;
+float: right;
+padding-right: 5px;
+padding-top: 0px;
+}
+
+div.intercomblock ul {    padding-left : 0px !important;}
+div.intercomblock ul li{
+    padding-bottom : 5px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-top : 3px;
+}
 .z-bkey-menu ul {
     margin-left: -40px;
 }
@@ -232,7 +250,7 @@ p {
     list-style-position:inside;
     list-style-image : none;
     list-style-type : none;
-    margin-bottom : 20px;
+    margin-bottom : 0px;
     margin-left : 0;
     margin-right : 0;
     margin-top : 0;
@@ -243,11 +261,18 @@ p {
     text-decoration:none;
     width : 140px;
 }
+
 .z-bkey-extmenu li {
     display:block;
-    width:140px;
-    margin:3px 10px 2px 0;
-    padding:5px 0 5px 8px;
+    width:150px;
+    margin-bottom : 2px;
+    margin-left : 0;
+    margin-right : 0px;
+    margin-top : 3px;
+    padding-bottom : 5px;
+    padding-left : 0px;
+    padding-right : 0;
+    padding-top : 5px;
     font-size:1.1em;
     font-weight:bold;
     text-align:left;
@@ -260,6 +285,7 @@ p {
 }
 .z-bkey-extmenu li a {
     background-color:transparent!important;
+    padding-left : 8px;
 }
 
 .z-bkey-extmenu li:hover {
@@ -272,6 +298,43 @@ p {
     text-decoration:none;
 }
 
+.z-bkey-extmenu ul ul{
+    list-style-position:inside;
+    list-style-image : none;
+    list-style-type : none;
+    margin-bottom : 0px;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 3px;
+    text-decoration:none;
+    width : 140px;
+}
+
+.z-bkey-extmenu ul ul li {
+    display:block;
+    width:140px;
+    margin-bottom : 2px;
+    margin-left : 0;
+    margin-right : 0px;
+    margin-top : 3px;
+    padding-bottom : 5px;
+    padding-left : 8px;
+    padding-right : 0;
+    padding-top : 5px;
+    font-size:1em;
+    font-weight:bold;
+    text-align:left;
+    background:#eee url(../images/gradient1.png) repeat-x;
+    color:#26c;
+    border-top:1px solid #ddd;
+    border-right:1px solid #bbb;
+    border-bottom:1px solid #bbb;
+    border-left:1px solid #ddd;
+}
 
 .z-bkey-extmenu h4 {
     font-size:large;
@@ -292,6 +355,12 @@ p {
 p.extmenuadmin a {
     padding-left: 15px;
     text-decoration:none;
+}
+
+.z-bkey-menutree ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 select#newtheme {
@@ -374,13 +443,23 @@ h4 {
     display:none;
 }
 
-/* Original open source design by Andreas Viklund - http://andreasviklund.com
-Released through OSWD.org */
+/*******************************************************************************/
+/* Styles for z-menulinks
+/*******************************************************************************/
 
-.z-menuitem-title a {background-color:transparent!important;}
-
-.z-bkey-menutree ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+ul.z-menulinks {
+    font-size: 85%;
 }
+ul.z-menulinks li {
+    padding:0 5px !important;
+    font-weight:bold;
+}
+/*******************************************************************************/
+/* Styles for the old module menus based on the SPAN tag
+/*******************************************************************************/
+
+.z-menuitem-title {
+    font-size: 90% !important;
+}
+
+.z-menuitem-title a {background-color:transparent!important;    font-weight:bold;}
