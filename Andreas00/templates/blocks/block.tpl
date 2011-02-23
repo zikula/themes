@@ -1,4 +1,4 @@
 {if !empty($title)}
-<h2>{$title}</h2>
+<h4>{$title}{$minbox}</h4>
 {/if}
 {$content}
