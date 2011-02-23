@@ -120,6 +120,35 @@ div.announce p {
     padding: 0;
 }
 
+/*******************************************************************************/
+/* Styles for z-menulinks
+/*******************************************************************************/
+
+ul.z-menulinks {
+    font-size: 60%;
+}
+ul.z-menulinks li {
+    padding:0 5px !important;
+}
+/*******************************************************************************/
+/* Styles for the old module menus based on the SPAN tag
+/*******************************************************************************/
+
+.z-menuitem-title {
+    font-size: 80% !important;
+}
+
+
+/*  {$minbox}  */
+.z-block h2 img {
+border: 0 !important;
+background-color: transparent !important;
+float: right;
+padding-right: 5px;
+padding-top: 0px;
+}
+
+
 /***** Main menu *****/
 .z-bkey-extmenu ul {
     list-style-image: none;
@@ -128,6 +157,13 @@ div.announce p {
     padding: 0;
     width: 140px;
 }
+p.extmenuadmin a {
+clear: left;
+padding-left: 15px;
+text-decoration:none;
+}
+
+
 
 ul.menutree, ul.navlist {
     width: 140px;
