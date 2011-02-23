@@ -1,9 +1,9 @@
 <div class="box">
-    <div class="box_title">
-    {if $title neq ''}
+    <h4 class="box_title">
+    {if !empty($title)}
     {$title}
-    {/if}
-    </div>
+    {/if}{$minbox}
+    </h4>
     <div class="box_body">
         {$content}
     </div>
