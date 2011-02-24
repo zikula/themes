@@ -1,4 +1,4 @@
 {*  BEGIN: Sidebox  *}
-<h2>{$title}{$minbox}</h2>
+<h2>{$minbox}{$title}</h2>
 {$content}
 {*  END: Sidebox  *}

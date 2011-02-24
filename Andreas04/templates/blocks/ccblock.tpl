@@ -1,5 +1,5 @@
 {*  Start Center Block  *}
-<h2>{$title}{$minbox}</h2>
+<h2>{$minbox}{$title}</h2>
 <div class="intro">
     {$content}
 </div>
