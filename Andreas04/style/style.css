@@ -204,29 +204,111 @@ h4 {
     text-decoration: none;
 }
 
-.z-blockposition-right ul, .z-blockposition-left ul {
-    list-style: none;
-    margin-left: -20px;
+/*  {$minbox}  */
+.z-block h2 img {
+    background-color: transparent !important;
+border: 0 !important;
+float: right;
+padding-right: 5px;
+padding-top: 0px;
 }
 
-.z-blockposition-right li a, .z-blockposition-left li a {
+div.intercomblock ul {    padding-left : 0px !important;}
+div.intercomblock ul li{
+    padding-bottom : 5px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-top : 3px;
+}
+
+.z-bkey-extmenu ul  {
+    list-style-type: none;
+margin-bottom : 20px;
+margin-left : 0px!important;
+margin-right : 0;
+margin-top : 0;
+padding-bottom : 0;
+padding-left : 0;
+padding-right : 0;
+padding-top : 0;
+text-decoration:none;
+}
+
+.z-bkey-extmenu li {
+    list-style-type: none;
+	margin-bottom : 0;
+	margin-left : 0!important;
+	margin-right : 0;
+	margin-top : 0px;
+	padding-bottom : 0px;
+	padding-left : 0em;
+	padding-right : 0em;
+	padding-top : 0px;
+text-decoration:none;
+}
+
+.z-bkey-extmenu li a {
+    list-style-type: none;
     color: #269;
     background: url(../images/linkarrow.gif) left no-repeat;
     display: block;
-    margin: 4px 0 0 0;
-    padding: 2px 1em;
+	margin-bottom : 0;
+	margin-left : 0!important;
+	margin-right : 0;
+	margin-top : 4px;
+	padding-bottom : 2px;
+	padding-left : 15px!important;
+	padding-right : 1em;
+	padding-top : 2px;
+text-decoration:none;
 }
 
-.z-blockposition-right li a:hover, .z-blockposition-left li a:hover {
+.z-bkey-extmenu li a:hover {
     color: #48b;
     background: url(../images/blinkarrow.gif) left no-repeat; /* Delete this line to remove the blinking arrows by the links */
     text-decoration: none;
+}
+
+.z-bkey-extmenu ul ul {
+    list-style-type: none;
+margin-bottom : 0px;
+margin-left : 10px!important;
+margin-right : 0;
+margin-top : 0;
+padding-bottom : 0;
+padding-left : 0;
+padding-right : 0;
+padding-top : 0;
+text-decoration:none;
 }
 
 
 select#newtheme {
     width: 130px!important;
 }
+
+/* Zikula Module Styles */
+
+div#z-maincontent.z-module-postcalendar form.z-form div div.z-buttons.z-formbuttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+div#z-maincontent.z-module-content form#FormForm.z-form div.content-form div.z-buttons.z-formbuttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+
+
+div#z-maincontent.z-module-content form#FormForm.z-form div.content-form div.z-buttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
 
 /******************************************************************************
 * Generic Form Style: z-form
@@ -236,7 +318,7 @@ form .z-form fieldset,
 .z-form .z-fieldset {
     border: 1px #ddd solid !important;
     margin: 0 0 1em 0 !important;
-    padding: 0.5em 1em !important;
+    padding: 1em 1em !important;
     color: #333 !important;
     -webkit-border-radius: 5px !important;
     -moz-border-radius: 5px !important;
@@ -251,22 +333,23 @@ form .z-form fieldset,
 }
 
 .z-form legend {
-    font-size: 1.25em;
+line-height:1.45em;
+    font-size: .95em;
     font-weight: bold;
     color: #555;
-    background: transparent;
+    background: transparent !important;
     border: 0;
     text-shadow: -1px -1px 0 rgba(204, 204, 204, 0.8);
 }
 
 
 
-ul.z-menulinks {
-    background: url("../../../images/global/menubg_grey.gif") repeat-x scroll 0 0 #CCCCCC; /*non-CSS3 browsers*/
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#E6E6E6'); /*IE*/
-    background: -webkit-gradient(linear,left top, left bottom,from(#CCCCCC), to(#E6E6E6)); /*webkit*/
-    background: -moz-linear-gradient(top, #CCCCCC, #E6E6E6); /*gecko*/
-    background: linear-gradient(#CCCCCC, #E6E6E6); /*CSS3*/
+.z-menulinks {
+    background: url("none") repeat-x scroll 0 0 #E6E6E6 !important; /*non-CSS3 browsers*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#E6E6E6') !important; /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#CCCCCC), to(#E6E6E6)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #CCCCCC, #E6E6E6) !important; /*gecko*/
+    background: linear-gradient(#CCCCCC, #E6E6E6) !important; /*CSS3*/
     border: 1px solid #ccc;
     color: #aaa;
     height: auto !important;
@@ -278,7 +361,11 @@ ul.z-menulinks {
 }
 
 .z-menuitem-title {
-    background: url("../../../images/global/menubg_grey.gif") repeat-x scroll 0 0 #CCCCCC;
+    background: url("none") repeat-x scroll 0 0 #E6E6E6 !important; /*non-CSS3 browsers*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#E6E6E6') !important; /*IE*/
+    background: -webkit-gradient(linear,left top, left bottom,from(#CCCCCC), to(#E6E6E6)) !important; /*webkit*/
+    background: -moz-linear-gradient(top, #CCCCCC, #E6E6E6) !important; /*gecko*/
+    background: linear-gradient(#CCCCCC, #E6E6E6) !important; /*CSS3*/
     border: 1px solid #ccc;
     display: block;
     height: auto !important;
