@@ -1,3 +1,3 @@
-<div class="right-head block block-{$bkey} bid-{$bid}">
+<div class="right-head">
 {$content}
 </div>

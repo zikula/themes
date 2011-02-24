@@ -1,6 +1,6 @@
-<div class="right-block block block-{$bkey} bid-{$bid}">
+<div class="right-block">
 {if $title neq ''}
-<h4 class="right-blocktitle">{$title}</h4>
+<h4 class="right-blocktitle">{$minbox}{$title}</h4>
 {/if}
 {$content}
 </div>
