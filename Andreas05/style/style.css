@@ -231,6 +231,9 @@ padding-top : 5px;
     padding-top : 5px;
 }
 
+
+div#z-maincontent {padding-top: 10px;}
+
 select#newtheme {
     width: 130px!important;
 }
@@ -238,3 +241,84 @@ select#newtheme {
 table.smallmonthtable {
     clear : left;
 }
+
+/*  {$minbox}  */
+.z-block h4 img {
+    background-color: transparent !important;
+border: 0 !important;
+float: right;
+padding-right: 5px;
+padding-top: 0px;
+}
+
+div.intercomblock ul {margin-left : 0px !important;    padding-left : 0px !important;}
+div.intercomblock ul li{
+    padding-bottom : 5px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-top : 3px;
+}
+
+/*******************************************************************************/
+/* Styles for z-menulinks
+/*******************************************************************************/
+
+ul.z-menulinks {
+    font-size: 85%;
+}
+ul.z-menulinks li {
+    padding:0 5px !important;
+    font-weight:bold;
+}
+/*******************************************************************************/
+/* Styles for the old module menus based on the SPAN tag
+/*******************************************************************************/
+
+.z-menuitem-title {
+    font-size: 90% !important;
+}
+
+.z-menuitem-title a {background-color:transparent!important;    font-weight:bold;}
+
+
+/******************************************************************************
+* Buttons styles
+*******************************************************************************/
+
+.z-button,
+.z-buttons a,
+.z-buttons a:link,
+.z-buttons a:visited,
+.z-buttons input,
+.z-buttons button {
+    font-size: 1em !important;
+    line-height:130% !important;
+    font-family:Verdana, Tahoma, Arial,sans-serif !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    padding: 5px 5px 6px 5px !important;
+}
+
+/* Zikula Module Styles */
+
+div#z-maincontent.z-module-postcalendar form.z-form div div.z-buttons.z-formbuttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+div#z-maincontent.z-module-content form#FormForm.z-form div.content-form div.z-buttons.z-formbuttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
+
+
+div#z-maincontent.z-module-content form#FormForm.z-form div.content-form div.z-buttons {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+}
+
