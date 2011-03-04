@@ -1,5 +1,5 @@
 <?php 
-$themeversion['name'] = 'Red-business';
+$themeversion['name'] = 'Redbusiness';
 $domain = ZLanguage::getThemeDomain($themeversion['name']);
 $themeversion['displayname'] = __('Red Business', $domain);
 $themeversion['description'] = __('Red Business template', $domain);
