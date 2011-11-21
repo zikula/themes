@@ -1,0 +1,4 @@
+## YAML Override template
+## original/file.tpl: override/file.tpl
+---
+system/Blocks/templates/blocks_block_extmenu_topnav.tpl: themes/Web2Fluid960gs/templates/modules/Blocks/blocks_block_extmenu_topnav.tpl

@@ -1,0 +1,485 @@
+/*
+Made by : Flashdaweb Team flashdaweb.com
+License: Creative common.
+Date: 01.09.2008
+Modified by Carsten Volmer for Zikula
+*/
+
+/*   General declaration
+----------------------------*/
+
+body {
+    font-size: 90%;
+    line-height: 130%;
+    background-color: #fff;
+    color: #000000;
+    font-family: Verdana, sans-serif;
+    font-size: 0.75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a img {
+    border: none;
+}
+
+a {
+    color: #0057B1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    color: #004FA2;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+h6 {
+    font-size: 1.05em;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: circle;
+    list-style-image: url('../images/li.gif');
+}
+
+p {
+    line-height: 1.5em;
+    margin: 0 0 1em;
+}
+
+hr, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.z-block p {
+    padding: 0 0 1em;
+    margin: 0;
+}
+
+#theme_content .z-blockposition-left ul,
+#theme_content .z-blockposition-right ul,
+#theme_content .z-blockposition-left p,
+#theme_content .z-blockposition-right p {
+    text-align: left;
+}
+
+#theme_content .z-bkey-extmenu p.extmenuadmin {
+    padding: 0.5em 0;
+    margin: 0;
+}
+
+/* Template declaration
+----------------------------------*/
+
+#container {
+    margin: 0 auto;
+    font-size: 1.083em;
+}
+
+/* Top menu declaration
+------------------------------------------*/
+
+#header {
+    position: relative;
+}
+
+#top_menu {
+    color: #3F598B;
+    background: #F1F4F8 url('../images/topmenu_bg.png') repeat-x scroll;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#top_menu ul {
+    background: url("../images/topmenu_bg_left.png") no-repeat scroll left center transparent;
+    height: 26px;
+    padding: 0 10px;
+    display: block;
+    list-style-type: none;
+    list-style-image: none;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+#top_menu li {
+    float: left;
+    margin: 3px 5px;
+}
+
+#topmenu_container {
+    background: url('../images/topmenu_bg_right.png') no-repeat scroll right;
+    height: 26px;
+}
+
+#logo {
+    height: 73px;
+    padding: 10px 0;
+    width: 253px;
+}
+
+#logo h1,
+#logo em {
+    display: none;
+}
+
+#sitename {
+    font-size: 2.6em;
+    font-style: normal;
+    font-variant: normal;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    color: #084c92;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+#topnav_sliding_doors_left {
+    background: url("../images/topnav_sliding_doors_left.png") no-repeat scroll left 0 #FFFFFF;
+    margin: 0px auto;
+    height: 68px;
+}
+
+#topnav_sliding_doors_right {
+    background: url("../images/topnav_sliding_doors_right.png") no-repeat scroll right 0 transparent;
+    margin: 0px auto;
+    height: 68px;
+}
+
+#web2_main {
+    height: 38px;
+}
+
+#web2_sub ul {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+#web2_main ul {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+#web2_main li {
+    background: url("../images/web2_sep.png") no-repeat scroll right center transparent;
+    float: left;
+    height: 34px;
+    margin: 2px 5px 0 0;
+    padding: 0 10px 0 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#web2_main li a {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 34px;
+    text-decoration: none;
+}
+
+#web2_main li a:hover {
+    background: url('../images/tab_bg_active.png') no-repeat scroll right top;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#web2_main li a:hover strong {
+    background: url('../images/tab_bg_active_left.png') no-repeat scroll left top;
+}
+
+#web2_main li.active a {
+    background: url('../images/tab_bg_active.png') no-repeat scroll right top;
+}
+
+#web2_main li.active a strong {
+    background: url('../images/tab_bg_active_left.png') no-repeat scroll left top;
+}
+
+#web2_main li a strong {
+    padding: 0 10px;
+    display: block;
+    padding-top: 7px;
+}
+
+#web2_sub {
+    float: right;
+    margin-right: 10px;
+}
+
+#web2_sub li {
+    color: #E0E7EF;
+    font-size: 1em;
+    float: left;
+    margin: 4px 5px;
+}
+
+#web2_sub li a {
+    color: #E0E7EF;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* Content area
+-----------------------*/
+
+#theme_content {
+    margin: 10px 0 20px 0;
+    padding: 0;
+    text-align: justify;
+}
+
+/* Footer declaration */
+
+#footer {
+    border-top: 1px solid #EEEEEE;
+    color: #333333;
+    font-size: 0.85em;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: right;
+}
+
+#footer p {
+    line-height: 1.3em;
+    margin: 0.5em 0;
+}
+
+#footer a {
+    color: #333333;
+}
+
+/* Design boxes declaration
+-----------------------------------*/
+
+/* Design box #1 */
+
+.db1 {
+    position: relative;
+}
+
+.db1 .db1_title {
+    float: none;
+    background: #fff url('../images/db1_title_bg.png') repeat-x;
+    border-right: 1px solid #E8E8E8;
+    height: 34px;
+}
+
+.db1 .db1_title h4 {
+    background: url("../images/db1_title_bg_left.png") no-repeat scroll left top transparent;
+    color: #004FA2;
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    height: 27px;
+    padding-left: 8px;
+    padding-top: 9px;
+}
+
+.db1 .db1_content {
+    background: #fff url('../images/db1_content_bg.png') no-repeat scroll top right;
+}
+
+.db1  .db1_container {
+    background: url('../images/db1_content_bg.png') no-repeat scroll top left;
+    padding: 10px;
+    position: relative;
+}
+
+/* Design box 2*/
+
+.db2 {
+    margin: 10px 0;
+}
+
+.db2_content {
+    background: #fff url('../images/db2_content_bg_right.png') repeat-y scroll right;
+    position: relative;
+}
+
+.db2_content_container {
+    background: url('../images/db2_content_bg_left.png') repeat-y scroll left;
+    padding: 0 10px 0px 10px;
+    position: relative;
+}
+
+.db2_content h4 {
+    border-bottom: 1px solid #E0E1E1;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 5px 10px;
+    padding: 0 5px 5px 0;
+}
+
+.bd2_top {
+    background: url('../images/db2_bg_right.png') no-repeat scroll right top;
+    height: 10px;
+    line-height: 0;
+    font-size: 1px;
+}
+
+.bd2_top_content {
+    background: url('../images/db2_bg_left.png') no-repeat scroll left top;
+    height: 10px;
+    line-height: 0;
+    font-size: 0;
+}
+
+.bd2_bot {
+    background: url('../images/db2_bg_right.png') no-repeat scroll right bottom;
+    height: 10px;
+    font-size: 1px;
+}
+
+.bd2_bot_content {
+    background: url('../images/db2_bg_left.png') no-repeat scroll left bottom;
+    height: 10px;
+    font-size: 1px;
+    line-height: 0;
+}
+
+/* Design box 3*/
+
+.db3 {
+    margin: 10px 0;
+}
+
+.db3_content {
+    background: #ebf3fa;
+    border-left: 1px solid #b1c9d9;
+    border-right: 1px solid #b1c9d9;
+    padding: 0 10px;
+}
+
+.db3_content h4 {
+    border-bottom: 1px solid #B1C9D9;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 5px 10px;
+    padding: 0 5px 5px 0;
+}
+
+.bd3_top {
+    background: url('../images/db3_bg_right.gif') no-repeat scroll right top;
+    height: 10px;
+    line-height: 0;
+    font-size: 1px;
+}
+
+.bd3_top_content {
+    background: url('../images/db3_bg_left.gif') no-repeat scroll left top;
+    height: 10px;
+    line-height: 0;
+    font-size: 1px;
+}
+
+.bd3_bot {
+    background: url('../images/db3_bg_right.gif') no-repeat scroll right bottom;
+    height: 10px;
+    font-size: 1px;
+}
+
+.bd3_bot_content {
+    background: url('../images/db3_bg_left.gif') no-repeat scroll left bottom;
+    height: 10px;
+    font-size: 1px;
+}
+
+/* Design box 4*/
+
+.db4 {
+    margin: 10px 0;
+}
+
+.db4_content {
+    background: #FAFAFA;
+    border-left: 1px solid #E0E1E1;
+    border-right: 1px solid #E0E1E1;
+    padding: 0 10px;
+}
+
+.db4_content h4 {
+    border-bottom: 1px solid #E0E1E1;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0 5px 5px 0;
+}
+
+.bd4_top {
+    background: url('../images/db4_bg_right.png') no-repeat scroll right top;
+    height: 10px;
+    line-height: 0;
+    font-size: 1px;
+    line-height: 0;
+}
+
+.bd4_top_content {
+    background: url('../images/db4_bg_left.png') no-repeat scroll left top;
+    height: 10px;
+    line-height: 0;
+    font-size: 1px;
+    line-height: 0;
+}
+
+.bd4_bot {
+    background: url('../images/db4_bg_right.png') no-repeat scroll right bottom;
+    height: 10px;
+    font-size: 1px;
+    line-height: 0;
+}
+
+.bd4_bot_content {
+    background: url('../images/db4_bg_left.png') no-repeat scroll left bottom;
+    height: 10px;
+    font-size: 1px;
+}
+
+.text_separator {
+    color: #AAAAAA;
+    margin: 0 2px;
+}
+
+/* Temporary Hack until Zikula 1.3.2 */
+#theme_content .z-tabs {
+    list-style: none;
+}
