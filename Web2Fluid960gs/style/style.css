@@ -90,13 +90,6 @@ hr, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-#theme_content .z-blockposition-left ul,
-#theme_content .z-blockposition-right ul,
-#theme_content .z-blockposition-left p,
-#theme_content .z-blockposition-right p {
-    text-align: left;
-}
-
 #theme_content .z-bkey-extmenu p.extmenuadmin {
     padding: 0.5em 0;
     margin: 0;
@@ -265,7 +258,6 @@ hr, h1, h2, h3, h4, h5, h6 {
 #theme_content {
     margin: 10px 0 20px 0;
     padding: 0;
-    text-align: justify;
 }
 
 /* Footer declaration */
