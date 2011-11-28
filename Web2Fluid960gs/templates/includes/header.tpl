@@ -36,6 +36,8 @@
                     <li><a href="{modurl modname='Theme' type='user' func='main'}"><strong>{gt text="Theme gallery"}</strong></a></li>
                     <li><a href="{modurl modname='Formicula' type='user' func='main'}"><strong>{gt text="Contact"}</strong></a></li>
                 </ul>
+                {else}
+                {$topnavblock}
                 {/if}
             </div>
             <div id="web2_sub">
