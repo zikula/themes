@@ -1,10 +1,10 @@
 # Carsten Volmer <carsten@zikula.org>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zikula Core 1.2\n"
+"Project-Id-Version: Web2Fluid960gs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-28 06:17-0500\n"
-"PO-Revision-Date: 2011-11-28 12:21+0100\n"
+"PO-Revision-Date: 2011-11-28 12:37+0100\n"
 "Last-Translator: Carsten Volmer <carsten@zikula.org>\n"
 "Language-Team: Carsten Volmer <carsten@zikula.org>\n"
 "MIME-Version: 1.0\n"
