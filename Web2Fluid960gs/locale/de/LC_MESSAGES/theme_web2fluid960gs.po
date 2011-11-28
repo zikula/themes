@@ -1,0 +1,147 @@
+# Carsten Volmer <carsten@zikula.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula Core 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-28 06:17-0500\n"
+"PO-Revision-Date: 2011-11-28 12:21+0100\n"
+"Last-Translator: Carsten Volmer <carsten@zikula.org>\n"
+"Language-Team: Carsten Volmer <carsten@zikula.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.1\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: version.php:4
+msgid "Web2 Fluid 960 Grid System"
+msgstr "Web2 Fluid 960 Grid System"
+
+#: version.php:5
+msgid "Web 2.0 template from FlashDaWeb ported to Zikula with Fluid 960 Grid System by Carsten Volmer"
+msgstr "Web 2.0 Vorlage von FlashDaWeb portiert nach Zikula und von Carsten Volmer mit dem Fluid 960 Grid System erweitert."
+
+#: templates/includes/footer.tpl:3
+#: templates/includes/header.tpl:21
+#, php-format
+msgid "Go to the home page of %s"
+msgstr "Gehe zur Startseite von %s"
+
+#: templates/includes/footer.tpl:6
+msgid "Design by Flashdaweb"
+msgstr "Design von Flashdaweb"
+
+#: templates/includes/footer.tpl:12
+msgid "Easily find a page on our sitemap"
+msgstr "Inhalte auf der Sitemap suchen"
+
+#: templates/includes/footer.tpl:12
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: templates/includes/footer.tpl:18
+msgid "Subscription link for our News RSS feed"
+msgstr "Abonnementlink für die News RSS Feeds"
+
+#: templates/includes/footer.tpl:18
+msgid "RSS"
+msgstr "RSS"
+
+#: templates/includes/footer.tpl:20
+msgid "Subscription link for our News Atom feed"
+msgstr "Abonnementlink für die News Atom Feeds"
+
+#: templates/includes/footer.tpl:20
+msgid "Atom"
+msgstr "Atom"
+
+#: templates/includes/footer.tpl:26
+msgid "Terms of use"
+msgstr "Nutzungsbedingungen"
+
+#: templates/includes/footer.tpl:32
+msgid "Contact us"
+msgstr "Seitenbetreiber kontaktieren"
+
+#: templates/includes/footer.tpl:32
+#: templates/includes/header.tpl:37
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/includes/footer.tpl:36
+msgid "Back to the top"
+msgstr "Zurück nach oben"
+
+#: templates/includes/footer.tpl:36
+msgid "To the top"
+msgstr "Nach oben"
+
+#: templates/includes/footer.tpl:40
+#, php-format
+msgid "Powered by <a href=\"http://zikula.org\" title=\"%s\">Zikula</a>"
+msgstr "Website erstellt mit <a href=\"http://zikula.org\" title=\"%s\">Zikula</a>"
+
+#: templates/includes/header.tpl:7
+msgid "My Account Settings"
+msgstr "Einstellungen zum Benutzerkonto"
+
+#: templates/includes/header.tpl:7
+msgid "My Account"
+msgstr "Benutzerkonto"
+
+#: templates/includes/header.tpl:9
+msgid "Logout of Your Account"
+msgstr "Aktuellen Benutzer abmelden"
+
+#: templates/includes/header.tpl:9
+msgid "Logout"
+msgstr "Abmelden"
+
+#: templates/includes/header.tpl:11
+msgid "New Account Registration"
+msgstr "Neues Benutzerkonto anlegen"
+
+#: templates/includes/header.tpl:11
+msgid "Registration"
+msgstr "Registrierung"
+
+#: templates/includes/header.tpl:13
+msgid "Log In to Your Account"
+msgstr "Benutzer anmelden"
+
+#: templates/includes/header.tpl:13
+msgid "Log In"
+msgstr "Anmelden"
+
+#: templates/includes/header.tpl:31
+msgid "Home"
+msgstr "Startseite"
+
+#: templates/includes/header.tpl:32
+msgid "News articles"
+msgstr "Newsbeiträge"
+
+#: templates/includes/header.tpl:33
+msgid "Content pages"
+msgstr "Inhalte"
+
+#: templates/includes/header.tpl:34
+msgid "Static pages"
+msgstr "Statische Seiten"
+
+#: templates/includes/header.tpl:35
+msgid "Downloads"
+msgstr "Downloads"
+
+#: templates/includes/header.tpl:36
+msgid "Theme gallery"
+msgstr "Themegalerie"
+
+#: templates/includes/htmlhead.tpl:11
+msgid "Main News RSS Feed"
+msgstr "Hauptnews RSS Feed"
+

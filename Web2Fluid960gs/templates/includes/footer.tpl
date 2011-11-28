@@ -3,9 +3,8 @@
         &copy;&nbsp;2009-{'Y'|date}&nbsp;<a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}">{$modvars.ZConfig.sitename}</a>
         <span class="text_separator">|</span>
 
-        {assign var="designbyz" value="Design by Flashdaweb"}
-        {gt text='Design by <a href="http://www.flashdaweb.com/" title="%s">Flashdaweb</a>' tag1=$designbyz}
-
+        {gt text='Design by Flashdaweb' assign='designbyz'}
+        <a href="http://www.flashdaweb.com/" title="{$designbyz}">Flashdaweb</a>
     </p>
     <p>
         {modavailable modname='Sitemap' assign='SitemapAvailable'}
@@ -34,7 +33,7 @@
         <span class="text_separator">|</span>
         {/if}
 
-        <a href="#header" title="{gt text="Back to the top"}">{gt text="Back to the top"}</a>
+        <a href="#header" title="{gt text="Back to the top"}">{gt text="To the top"}</a>
     </p>
     <p>
         {assign var="poweredbyz" value="Powered by Zikula"}
