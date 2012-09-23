@@ -16,7 +16,7 @@
 
 {gt text="Valid"}:&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer" title="{gt text="Validate the CSS of this web page"}">{gt text="CSS"}</a>&nbsp;/&nbsp;
 <a href="http://validator.w3.org/check/referer" title="{gt text="Validate the XHTML of this web page"}">{gt text="XHTML"}</a>&nbsp;/&nbsp;
-<a href="http://www.contentquality.com/mynewtester/cynthia.exe?Url1={getbaseurl}">508</a>
+<a href="http://www.contentquality.com/mynewtester/cynthia.exe?Url1={$baseurl}">508</a>
 </p>
 </div>
 {nocache}{pagerendertime}{/nocache}
