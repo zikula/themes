@@ -1,5 +1,5 @@
 <div id="Top">
-    <h1><img src="{$imagepath}/logo.gif" alt="{sitename}" width="160" height="50" class="logo" />{$modvars.ZConfig.sitename}</h1>
+    <h1><img src="{$imagepath}/logo.gif" alt="{$modvars.ZConfig.sitename}" width="160" height="50" class="logo" />{$modvars.ZConfig.sitename}</h1>
     <h2>{$modvars.ZConfig.slogan}</h2>
 </div>
 <div id="nav">
