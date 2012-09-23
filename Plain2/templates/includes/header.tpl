@@ -1,9 +1,9 @@
 <div id="header">
     <div id="header-container">
         <span id="head-contained">
-            <img id="logo" width="70" height="77"  src="{$imagepath}/logo.jpg" alt="{sitename}&nbsp;{gt text="Logo"}" />
+            <img id="logo" width="70" height="77"  src="{$imagepath}/logo.jpg" alt="{$modvars.ZConfig.sitename}&nbsp;{gt text="Logo"}" />
             <span id="sitename">
-            <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
+            <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename}">{$modvars.ZConfig.sitename}</a>
             </span>
             <span id="p">
                 {gt text="Get in touch"}:&nbsp;<a href="{modurl modname=formicula}" title="{gt text="Go to the Contact module"}">{gt text="Contact Us"}</a>
