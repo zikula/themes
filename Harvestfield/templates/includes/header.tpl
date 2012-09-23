@@ -1,7 +1,7 @@
 {*header *}
 <div id="header">
         <h1 id="logo-text">
-        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}<span>::</span></a>
+        <a href="{homepage}" title="{gt text="Go to the home page of %s" tag1=$modvars.ZConfig.sitename"}">{$modvars.ZConfig.sitename}</a>
         </h1>
         <p id="slogan">
         {$modvars.ZConfig.slogan}
