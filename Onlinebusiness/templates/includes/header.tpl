@@ -9,7 +9,7 @@
 
 <a href="{modurl modname=formicula}" title="{gt text="Contact"}">{gt text="Contact"}</a></span>
 
-<span id="snacktime">{if $pagetype neq 'home'}<a href="{pngetbaseurl}">{gt text="Back to Main page"}</a>&nbsp;::&nbsp;{/if}{datetime format='%b %d, %Y - %I:%M %p'}</span>
+<span id="snacktime">{if $pagetype neq 'home'}<a href="{$baseurl}">{gt text="Back to Main page"}</a>&nbsp;::&nbsp;{/if}{datetime format='%b %d, %Y - %I:%M %p'}</span>
 </div>
 <div id="hdr">{* header *}
     <h1>
