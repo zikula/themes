@@ -15,7 +15,7 @@
     {/if}
     <span id="snacktime">
         {if $pagetype neq 'home'}
-        <a href="{homepage}" title="{gt text="Go back to the home page of"} {sitename} ">{gt text="Go back to the home page"}</a>&nbsp;::&nbsp;
+        <a href="{homepage}" title="{gt text="Go back to the home page of"} {$modvars.ZConfig.sitename} ">{gt text="Go back to the home page"}</a>&nbsp;::&nbsp;
         {/if}
         {datetime format='%b %d, %Y - %I:%M %p'}
     </span>

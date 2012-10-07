@@ -8,7 +8,7 @@
             {include file="includes/header.tpl"}
             <div id="content">
                 <div id="contentHeader">
-                <div id="siteDescription"><p>{slogan}</p></div>
+                <div id="siteDescription"><p>{$modvars.ZConfig.slogan}</p></div>
                 </div>
                 <div id="main"{if $pagetype eq 'admin'} style="width:100%; margin-right:0px;" {/if}>
                     {if $pagetype eq 'home'}
